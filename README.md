@@ -4,9 +4,8 @@ A prototype chatbot designed to answer questions by referencing videos from Gary
 
 ## Initial Setup
 
-These are the instructions to run the project on an Ubuntu server.
-
-1. **Open a Terminal and Execute the Following Commands:**
+These are the instructions to run the project on an Ubuntu server. 
+Open a terminal and execute the following commands:
 
 ### Activate Virtual Environment
 ```bash
