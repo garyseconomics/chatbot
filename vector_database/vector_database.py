@@ -1,5 +1,5 @@
 import json
-from srt_splitter import get_splits_from_srt
+from vector_database.srt_splitter import get_splits_from_srt
 from langchain_ollama import OllamaEmbeddings
 from langchain_chroma import Chroma
 
