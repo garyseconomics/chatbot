@@ -31,3 +31,11 @@ def add_documents_to_database(database_path, splits):
 	uuids = [str(uuid4()) for _ in range(len(splits))]
 	collection.add(documents=splits, ids=uuids)
 	return collection
+
+# Creates the database and populates it with the documents provided
+def generate_db_with_documents(database_path, files_list):
+	vector_store = create_vector_database(database_path)
+	for filename in files_list:
+		splits = get_splits_from_srt(filename)
+		_ = vector_store.add_documents(documents=splits)
+	return vector_store

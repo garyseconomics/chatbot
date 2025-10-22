@@ -23,3 +23,8 @@ def test_add_documents_to_database_with_text():
     documents = collection.get()['documents']
     assert documents[1] == "split 1"
     assert documents[2] == "split 2"
+
+def test_generate_db_with_documents():
+    files_list = ["docs/sample.srt"]
+    vector_database = generate_db_with_documents(test_database_path, files_list)
+    assert isinstance(vector_store, Chroma)
