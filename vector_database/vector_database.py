@@ -23,15 +23,6 @@ def create_vector_database(database_path):
 	)
 	return vector_store
 
-def add_documents_to_database(database_path, splits):
-	print("Loading document into database")
-	client = chromadb.PersistentClient(path=database_path)
-	collection = client.get_or_create_collection(collection_name)
-	# Generate ids for the documents
-	uuids = [str(uuid4()) for _ in range(len(splits))]
-	collection.add(documents=splits, ids=uuids)
-	return collection
-
 # Creates the database and populates it with the documents provided
 def generate_db_with_documents(database_path, files_list):
 	vector_store = create_vector_database(database_path)

@@ -9,21 +9,6 @@ def test_create_database():
     # Verify the returned object is an instance of Chroma
     assert isinstance(vector_store, Chroma)
 
-def test_add_documents_to_database_empty():
-    splits = [""]
-    collection = add_documents_to_database(test_database_path, splits)
-    assert isinstance(collection, chromadb.Collection)
-    assert collection.name == "youtube_videos"
-    documents = collection.get()['documents']
-    assert documents[0] == ""
-
-def test_add_documents_to_database_with_text():
-    splits = ["split 1", "split 2"]
-    collection = add_documents_to_database(test_database_path, splits)
-    documents = collection.get()['documents']
-    assert documents[1] == "split 1"
-    assert documents[2] == "split 2"
-
 def test_generate_db_with_documents():
     files_list = ["docs/sample.srt"]
     vector_database = generate_db_with_documents(test_database_path, files_list)
