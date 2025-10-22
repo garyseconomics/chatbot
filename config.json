@@ -1,5 +1,5 @@
 {
-  "filename": "docs/Understand the Economy Part 1 What is wealth (English).srt",
+  "filename": "docs/MOOC_Part_1_What_Is_Wealth.srt",
   "chunk_size": 300,
   "chunk_overlap": 50,
   "database_directory": "./vector_database/chroma_langchain_db"

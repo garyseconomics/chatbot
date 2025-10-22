@@ -1,0 +1,3219 @@
+﻿1
+00:00:00,000 --> 00:00:00,480
+Okay.
+
+2
+00:00:00,480 --> 00:00:01,720
+Welcome back to Gary’s Economics.
+
+3
+00:00:01,720 --> 00:00:04,000
+Today, we are going to do the second video
+
+4
+00:00:04,000 --> 00:00:07,520
+in our course on inequality and the economy.
+
+5
+00:00:07,520 --> 00:00:10,720
+This one is called What is Wealth inequality?
+
+6
+00:00:10,720 --> 00:00:12,880
+And if we get time we'll go on
+
+7
+00:00:12,880 --> 00:00:15,440
+to how it affects the economy.
+
+8
+00:00:15,440 --> 00:00:17,760
+This is really the heart of my economic understanding.
+
+9
+00:00:17,760 --> 00:00:19,480
+It's what I make my money on.
+
+10
+00:00:19,480 --> 00:00:21,320
+And it's really important for all of our videos,
+
+11
+00:00:21,320 --> 00:00:22,320
+so I hope you enjoy it.
+
+12
+00:00:25,840 --> 00:00:26,200
+All right.
+
+13
+00:00:26,200 --> 00:00:30,760
+So second video, first video was What is Wealth.
+
+14
+00:00:30,760 --> 00:00:31,920
+And that was just explaining
+
+15
+00:00:31,920 --> 00:00:33,440
+that we're not talking about jobs.
+
+16
+00:00:33,440 --> 00:00:34,920
+We're not talking about income.
+
+17
+00:00:34,920 --> 00:00:37,200
+Wealth is about assets, physical assets.
+
+18
+00:00:37,200 --> 00:00:38,280
+Who owns the assets.
+
+19
+00:00:38,280 --> 00:00:39,080
+So in this country it's
+
+20
+00:00:39,080 --> 00:00:41,080
+largely property, not just housing,
+
+21
+00:00:41,080 --> 00:00:42,920
+but also commercial property,
+
+22
+00:00:42,920 --> 00:00:45,520
+offices, shops, restaurants, bars,
+
+23
+00:00:45,520 --> 00:00:49,960
+factories, natural resources, like the farmland,
+
+24
+00:00:49,960 --> 00:00:51,960
+the
+
+25
+00:00:51,960 --> 00:00:52,760
+power plants.
+
+26
+00:00:52,760 --> 00:00:56,760
+So the generation of essentials like, food and energy.
+
+27
+00:00:56,760 --> 00:00:58,440
+Who owns those things and also debt.
+
+28
+00:00:58,440 --> 00:01:00,240
+So some people owe debt to other people.
+
+29
+00:01:00,240 --> 00:01:00,880
+That is wealth.
+
+30
+00:01:00,880 --> 00:01:04,480
+Not about jobs is about who owns the wealth.
+
+31
+00:01:04,480 --> 00:01:06,320
+And this video is going to be about
+
+32
+00:01:06,320 --> 00:01:08,360
+what is wealth inequality.
+
+33
+00:01:08,360 --> 00:01:10,240
+So when we talk about wealth inequality,
+
+34
+00:01:10,240 --> 00:01:12,960
+it's about who owns those things.
+
+35
+00:01:12,960 --> 00:01:14,200
+I think the best way to explain
+
+36
+00:01:14,200 --> 00:01:15,880
+this is through imagining
+
+37
+00:01:15,880 --> 00:01:19,840
+two separate kinds of economies.
+
+38
+00:01:19,840 --> 00:01:22,280
+One which is relatively wealth equal.
+
+39
+00:01:22,280 --> 00:01:24,720
+So all of that wealth is quite evenly distributed
+
+40
+00:01:24,720 --> 00:01:26,040
+throughout society.
+
+41
+00:01:26,040 --> 00:01:27,800
+And one which is very unequal.
+
+42
+00:01:27,800 --> 00:01:30,200
+So where all of that wealth is owned by,
+
+43
+00:01:30,200 --> 00:01:33,080
+you know, a small handful of families.
+
+44
+00:01:33,080 --> 00:01:35,040
+So in the wealth equal economy,
+
+45
+00:01:35,040 --> 00:01:38,160
+basically everyone's going to own like a big chunk of
+
+46
+00:01:38,160 --> 00:01:39,040
+the house they live in.
+
+47
+00:01:39,040 --> 00:01:40,800
+Everyone will pretty much own the house they live in,
+
+48
+00:01:40,800 --> 00:01:42,160
+but they're also going to own
+
+49
+00:01:42,160 --> 00:01:44,760
+a lot of the productive capacity in society.
+
+50
+00:01:44,760 --> 00:01:46,440
+So the way we see
+
+51
+00:01:46,440 --> 00:01:47,600
+that nowadays is basically
+
+52
+00:01:47,600 --> 00:01:49,520
+everybody has like a big stock portfolio.
+
+53
+00:01:49,520 --> 00:01:51,120
+So everybody owns their own house
+
+54
+00:01:51,120 --> 00:01:52,120
+or a chunk of their house.
+
+55
+00:01:52,120 --> 00:01:53,640
+And they also have like a stock portfolio,
+
+56
+00:01:53,640 --> 00:01:56,400
+which means they own some of the corporations.
+
+57
+00:01:56,400 --> 00:01:58,320
+Through those stocks they're going to own,
+
+58
+00:01:58,320 --> 00:01:59,760
+you know, some of the commercial property,
+
+59
+00:01:59,760 --> 00:02:02,200
+some of the buildings, some of the skyscrapers.
+
+60
+00:02:02,200 --> 00:02:04,040
+They'll also own a chunk of the natural resources.
+
+61
+00:02:04,040 --> 00:02:06,440
+So, they’s own a little bit of the farmland.
+
+62
+00:02:06,440 --> 00:02:09,280
+They’ll own some of the power production,
+
+63
+00:02:09,280 --> 00:02:10,280
+that's a wealth equal economy.
+
+64
+00:02:10,280 --> 00:02:11,160
+Everybody owns.
+
+65
+00:02:11,160 --> 00:02:12,960
+You know, not everybody's going to own the same stuff,
+
+66
+00:02:12,960 --> 00:02:15,600
+but everybody's got like a decent chunk of the wealth
+
+67
+00:02:15,600 --> 00:02:16,600
+that exists in the country.
+
+68
+00:02:16,600 --> 00:02:18,280
+That's the wealth equal economy.
+
+69
+00:02:18,280 --> 00:02:21,320
+Now, the wealth unequal economy.
+
+70
+00:02:21,320 --> 00:02:25,080
+This is where basically everything is owned by, like
+
+71
+00:02:25,080 --> 00:02:25,840
+a small elite.
+
+72
+00:02:25,840 --> 00:02:27,400
+You know, it could be,
+
+73
+00:02:27,400 --> 00:02:28,760
+you know, it could be a thousand people.
+
+74
+00:02:28,760 --> 00:02:29,560
+It could be,
+
+75
+00:02:29,560 --> 00:02:32,880
+it could be a million people, 1% of the country.
+
+76
+00:02:32,880 --> 00:02:34,880
+They own everything basically.
+
+77
+00:02:34,880 --> 00:02:40,400
+So in that economy, ordinary people don't own anything.
+
+78
+00:02:40,400 --> 00:02:41,640
+They don't have a stock portfolio,
+
+79
+00:02:41,640 --> 00:02:42,680
+they don't own their own house
+
+80
+00:02:42,680 --> 00:02:44,200
+so they're likely to be renting
+
+81
+00:02:44,200 --> 00:02:48,400
+or they're likely to be owning with a big mortgage.
+
+82
+00:02:48,400 --> 00:02:50,760
+and everything is owned by this small elite basically.
+
+83
+00:02:50,760 --> 00:02:52,680
+When you have this situation,
+
+84
+00:02:52,680 --> 00:02:53,480
+then what you get is
+
+85
+00:02:53,480 --> 00:02:55,480
+like significant transfer payments.
+
+86
+00:02:55,480 --> 00:02:57,120
+So when you have the equal economy,
+
+87
+00:02:57,120 --> 00:02:58,560
+there's not really a lot of transfer payments.
+
+88
+00:02:58,560 --> 00:02:59,240
+So if there are,
+
+89
+00:02:59,240 --> 00:03:00,720
+they sort of go around because okay,
+
+90
+00:03:00,720 --> 00:03:03,000
+maybe you own the shops
+
+91
+00:03:03,000 --> 00:03:03,920
+that I shop in,
+
+92
+00:03:03,920 --> 00:03:07,120
+but maybe I own the farm where your food comes from,
+
+93
+00:03:07,120 --> 00:03:09,960
+you know, sort of ends up kind of balancing out.
+
+94
+00:03:09,960 --> 00:03:11,520
+We all have a bit of passive income.
+
+95
+00:03:11,520 --> 00:03:13,600
+There's no significant transfer payments.
+
+96
+00:03:13,600 --> 00:03:15,160
+But once you have a very unequal economy,
+
+97
+00:03:15,160 --> 00:03:16,360
+you have these big transfer payments.
+
+98
+00:03:16,360 --> 00:03:18,320
+So let's assume I'm
+
+99
+00:03:18,320 --> 00:03:18,960
+sort of rich elite
+
+100
+00:03:18,960 --> 00:03:21,000
+and you're just like a regular person.
+
+101
+00:03:21,000 --> 00:03:23,480
+One thing to recognise straight away is
+
+102
+00:03:23,480 --> 00:03:25,960
+the amount of wealth owned by the wealth owners
+
+103
+00:03:25,960 --> 00:03:27,440
+per person is much, much,
+
+104
+00:03:27,440 --> 00:03:29,400
+much higher in the unequal economy.
+
+105
+00:03:29,400 --> 00:03:30,840
+Because all of the wealth exists
+
+106
+00:03:30,840 --> 00:03:32,560
+but now, like it's only distributed between
+
+107
+00:03:32,560 --> 00:03:34,560
+like a thousand people as opposed to like,
+
+108
+00:03:34,560 --> 00:03:39,000
+you know, this country, 60 million people.
+
+109
+00:03:39,000 --> 00:03:40,680
+So I own everything.
+
+110
+00:03:40,680 --> 00:03:42,000
+And you're paying me,
+
+111
+00:03:42,000 --> 00:03:44,400
+you're paying me rent for your house,
+
+112
+00:03:44,400 --> 00:03:47,280
+you're paying me for the food that you eat.
+
+113
+00:03:47,280 --> 00:03:50,200
+You're paying me for the energy that you consume.
+
+114
+00:03:50,200 --> 00:03:51,960
+Every time you go
+
+115
+00:03:51,960 --> 00:03:53,400
+shopping, you're paying me to go to the shops,
+
+116
+00:03:53,400 --> 00:03:55,680
+every time you go to the pub. Because I own the pub.
+
+117
+00:03:55,680 --> 00:03:58,560
+I own the shop, I own, you know, I own the airport.
+
+118
+00:03:58,560 --> 00:04:00,080
+You know, I own the hospital. I own the school.
+
+119
+00:04:00,080 --> 00:04:01,560
+So every time, you're constantly
+
+120
+00:04:01,560 --> 00:04:04,440
+having to make this transfer payment to me.
+
+121
+00:04:04,440 --> 00:04:08,880
+That's the wealth unequal economy.
+
+122
+00:04:08,880 --> 00:04:10,400
+So what are the differences?
+
+123
+00:04:10,400 --> 00:04:11,880
+I mean, the first obvious difference
+
+124
+00:04:11,880 --> 00:04:13,480
+is in a wealth equal
+
+125
+00:04:13,480 --> 00:04:16,160
+economy, you've got a lot more financial security,
+
+126
+00:04:16,160 --> 00:04:19,800
+and you've got a decent passive income.
+
+127
+00:04:19,800 --> 00:04:22,040
+Obviously, if you
+
+128
+00:04:22,040 --> 00:04:24,120
+if you had a decent chunk of the country's wealth,
+
+129
+00:04:24,120 --> 00:04:25,320
+you could probably survive
+
+130
+00:04:25,320 --> 00:04:27,240
+without working for the same amount of time.
+
+131
+00:04:27,240 --> 00:04:28,680
+Firstly, because you've got this passive income,
+
+132
+00:04:28,680 --> 00:04:30,120
+you've got this stock portfolio.
+
+133
+00:04:30,120 --> 00:04:31,840
+Secondly, because you're not paying rent,
+
+134
+00:04:31,840 --> 00:04:32,600
+you're not paying a mortgage
+
+135
+00:04:32,600 --> 00:04:34,760
+because you own the property that you live in.
+
+136
+00:04:34,760 --> 00:04:36,640
+So you've got quite a lot of,
+
+137
+00:04:36,640 --> 00:04:37,720
+a lot of financial security.
+
+138
+00:04:37,720 --> 00:04:38,640
+You've got passive income.
+
+139
+00:04:38,640 --> 00:04:40,200
+If you want to stop working for a bit,
+
+140
+00:04:40,200 --> 00:04:41,680
+if you want to like, pursue your hobbies,
+
+141
+00:04:41,680 --> 00:04:42,960
+you can do that.
+
+142
+00:04:42,960 --> 00:04:45,000
+Whereas in the wealth unequal economy,
+
+143
+00:04:45,000 --> 00:04:47,160
+you, the ordinary person doesn't
+
+144
+00:04:47,160 --> 00:04:48,480
+have any financial security, right?
+
+145
+00:04:48,480 --> 00:04:49,400
+You don't have any savings
+
+146
+00:04:49,400 --> 00:04:51,800
+you can run down if you lose a job,
+
+147
+00:04:51,800 --> 00:04:54,240
+you know, you basically you're not paying the rent.
+
+148
+00:04:54,240 --> 00:04:57,520
+So you're much more financially
+
+149
+00:04:57,520 --> 00:05:00,160
+insecure.
+
+150
+00:05:00,160 --> 00:05:01,480
+The flip of that is
+
+151
+00:05:01,480 --> 00:05:05,280
+that the rich have this massive, massive passive income
+
+152
+00:05:05,280 --> 00:05:07,000
+that they've got every year,
+
+153
+00:05:07,000 --> 00:05:08,800
+every year, every month, every week, basically.
+
+154
+00:05:08,800 --> 00:05:10,680
+What we should point out is like the real world
+
+155
+00:05:10,680 --> 00:05:11,760
+is somewhere in between this.
+
+156
+00:05:11,760 --> 00:05:12,760
+So there are some countries
+
+157
+00:05:12,760 --> 00:05:15,120
+which are super, super, super unequal.
+
+158
+00:05:15,120 --> 00:05:18,240
+You know, if you go to sort of
+
+159
+00:05:18,240 --> 00:05:23,160
+some countries in, in Africa or Latin America or,
+
+160
+00:05:23,160 --> 00:05:25,960
+or India,
+
+161
+00:05:25,960 --> 00:05:27,200
+wealth is very, very unequal.
+
+162
+00:05:27,200 --> 00:05:28,800
+Ordinary people don't own much.
+
+163
+00:05:28,800 --> 00:05:30,840
+If they do own stuff, it's like sort of,
+
+164
+00:05:30,840 --> 00:05:32,760
+they usually have debt behind it.
+
+165
+00:05:32,760 --> 00:05:34,200
+But you know, this country we're in
+
+166
+00:05:34,200 --> 00:05:36,480
+now is it's like a middle point.
+
+167
+00:05:36,480 --> 00:05:38,080
+So I'm not saying that this country
+
+168
+00:05:38,080 --> 00:05:40,320
+is that super wealth unequal space.
+
+169
+00:05:40,320 --> 00:05:41,360
+We'll talk about that later
+
+170
+00:05:41,360 --> 00:05:43,000
+but the real world is somewhere in between.
+
+171
+00:05:43,960 --> 00:05:44,240
+Yeah.
+
+172
+00:05:44,240 --> 00:05:48,040
+So that's what you have in the unequal economy,
+
+173
+00:05:48,040 --> 00:05:49,400
+you have these two groups,
+
+174
+00:05:49,400 --> 00:05:53,520
+this very, very large group that has no real security.
+
+175
+00:05:53,520 --> 00:05:55,440
+They have to work in order to live.
+
+176
+00:05:55,440 --> 00:05:57,600
+They don't have much passive income.
+
+177
+00:05:57,600 --> 00:05:59,520
+And you have this very small group
+
+178
+00:05:59,520 --> 00:06:00,840
+that is extremely wealthy
+
+179
+00:06:00,840 --> 00:06:02,680
+and has this massive passive income.
+
+180
+00:06:02,680 --> 00:06:03,480
+And, you know,
+
+181
+00:06:03,480 --> 00:06:06,480
+depending on how much inequality you have,
+
+182
+00:06:06,480 --> 00:06:09,480
+those groups can vary in size basically.
+
+183
+00:06:09,480 --> 00:06:12,240
+So when you have this large wealth-less group,
+
+184
+00:06:12,240 --> 00:06:14,960
+they're insecure,
+
+185
+00:06:14,960 --> 00:06:15,840
+they don't have a lot of income.
+
+186
+00:06:15,840 --> 00:06:17,280
+So basically most of what they get
+
+187
+00:06:17,280 --> 00:06:21,000
+is going to get spent on essentials.
+
+188
+00:06:21,000 --> 00:06:23,160
+the flip side of that is
+
+189
+00:06:23,160 --> 00:06:24,040
+when you have a very,
+
+190
+00:06:24,040 --> 00:06:26,520
+very wealthy, wealthy group,
+
+191
+00:06:26,520 --> 00:06:30,560
+they’re small but their income is massive.
+
+192
+00:06:30,560 --> 00:06:31,840
+You need to understand
+
+193
+00:06:31,840 --> 00:06:33,960
+it's important to understand the economy,
+
+194
+00:06:33,960 --> 00:06:35,400
+the economics of inequality,
+
+195
+00:06:35,400 --> 00:06:39,080
+the way that very, very wealthy people spend,
+
+196
+00:06:39,080 --> 00:06:41,840
+which is basically that they
+
+197
+00:06:41,840 --> 00:06:44,520
+save almost everything they make.
+
+198
+00:06:44,520 --> 00:06:46,840
+And this is not because wealthy people are like crazy,
+
+199
+00:06:46,840 --> 00:06:48,040
+they're obsessed with saving.
+
+200
+00:06:48,040 --> 00:06:48,720
+It's just simply
+
+201
+00:06:48,720 --> 00:06:50,600
+because their passive income is so big.
+
+202
+00:06:50,600 --> 00:06:52,680
+So, you know, I often use example of Rishi Sunak.
+
+203
+00:06:52,680 --> 00:06:53,520
+His wealth,
+
+204
+00:06:53,520 --> 00:06:55,840
+according to the Sunday Times, is £700 million.
+
+205
+00:06:55,840 --> 00:06:57,280
+So he'll make like
+
+206
+00:06:57,280 --> 00:06:59,320
+like £1 million a week passive income.
+
+207
+00:06:59,320 --> 00:07:01,680
+So it's not that he's obsessed with saving,
+
+208
+00:07:01,680 --> 00:07:02,880
+but you know, if you have £1 million
+
+209
+00:07:02,880 --> 00:07:06,400
+a week, passive income it’s basically impossible to.
+
+210
+00:07:06,400 --> 00:07:07,520
+Maybe someone can manage it,
+
+211
+00:07:07,520 --> 00:07:08,560
+but your average person
+
+212
+00:07:08,560 --> 00:07:11,240
+is making £1 million a week passive income.
+
+213
+00:07:11,240 --> 00:07:11,840
+You know,
+
+214
+00:07:11,840 --> 00:07:14,920
+even to spend for me, even spend £10,000
+
+215
+00:07:14,920 --> 00:07:15,920
+I can't even imagine
+
+216
+00:07:15,920 --> 00:07:17,920
+how you could spend £10,000 a week.
+
+217
+00:07:17,920 --> 00:07:20,440
+But because their income is so high,
+
+218
+00:07:20,440 --> 00:07:22,760
+they simply basically have no choice but to save
+
+219
+00:07:22,760 --> 00:07:24,680
+the money. So,
+
+220
+00:07:24,680 --> 00:07:27,000
+so in an unequal society, you have a big chunk,
+
+221
+00:07:27,000 --> 00:07:28,560
+a big chunk of people
+
+222
+00:07:28,560 --> 00:07:29,640
+on essentials,
+
+223
+00:07:29,640 --> 00:07:32,640
+small group of people, but with massive income,
+
+224
+00:07:32,640 --> 00:07:35,520
+just saving, saving, saving, saving, saving, saving.
+
+225
+00:07:35,520 --> 00:07:38,920
+Whereas in the wealth equal society,
+
+226
+00:07:38,920 --> 00:07:41,880
+because everyone is quite secure,
+
+227
+00:07:41,880 --> 00:07:44,480
+they will tend to live
+
+228
+00:07:44,480 --> 00:07:45,360
+what nowadays
+
+229
+00:07:45,360 --> 00:07:46,840
+we consider kind of middle class lives,
+
+230
+00:07:46,840 --> 00:07:47,960
+which is
+
+231
+00:07:47,960 --> 00:07:50,160
+they'll spend money, they'll go on holiday,
+
+232
+00:07:50,160 --> 00:07:52,880
+they'll go to restaurants, they go to bars.
+
+233
+00:07:52,880 --> 00:07:56,200
+You know, if they want to reskill or pursue a hobby,
+
+234
+00:07:56,200 --> 00:07:57,480
+they might take time out of work.
+
+235
+00:07:57,480 --> 00:07:59,720
+They might take time out of work
+
+236
+00:07:59,720 --> 00:08:00,960
+to take care of children
+
+237
+00:08:00,960 --> 00:08:02,600
+or to raise children or to travel
+
+238
+00:08:02,600 --> 00:08:04,720
+because they have this financial security,
+
+239
+00:08:04,720 --> 00:08:06,040
+they have these assets they can sell,
+
+240
+00:08:06,040 --> 00:08:08,600
+they have this passive income. So it's very different.
+
+241
+00:08:08,600 --> 00:08:11,520
+There's these kind of three types of spending profiles.
+
+242
+00:08:11,520 --> 00:08:12,600
+Right.
+
+243
+00:08:12,600 --> 00:08:15,280
+The poor spending profile, which is only essentials.
+
+244
+00:08:15,280 --> 00:08:16,560
+The rich spending profile,
+
+245
+00:08:16,560 --> 00:08:20,240
+which is almost exclusively saving, buying assets.
+
+246
+00:08:20,240 --> 00:08:22,000
+And the middle saving profile,
+
+247
+00:08:22,000 --> 00:08:23,280
+which is
+
+248
+00:08:23,280 --> 00:08:25,680
+like a relaxed sort of modern middle class lifestyle.
+
+249
+00:08:25,680 --> 00:08:26,880
+So the first big difference
+
+250
+00:08:26,880 --> 00:08:30,000
+you have between a more equal society
+
+251
+00:08:30,000 --> 00:08:35,160
+and an unequal society is that the unequal society
+
+252
+00:08:35,160 --> 00:08:37,280
+as a whole
+
+253
+00:08:37,280 --> 00:08:41,120
+cares less about spending and cares more about saving.
+
+254
+00:08:41,120 --> 00:08:41,680
+And that is
+
+255
+00:08:41,680 --> 00:08:44,280
+because if we consider only this,
+
+256
+00:08:44,280 --> 00:08:48,000
+the passive income that comes from ownership
+
+257
+00:08:48,000 --> 00:08:49,280
+in an equal society,
+
+258
+00:08:49,280 --> 00:08:50,600
+that's all going to middle class
+
+259
+00:08:50,600 --> 00:08:53,360
+people and middle class people,
+
+260
+00:08:53,360 --> 00:08:55,440
+they tend to spend most of what they get
+
+261
+00:08:55,440 --> 00:08:57,120
+over the course of their life.
+
+262
+00:08:57,120 --> 00:08:58,520
+If they get more money,
+
+263
+00:08:58,520 --> 00:09:00,000
+they'll tend to increase their spending.
+
+264
+00:09:00,000 --> 00:09:01,240
+Whatever, go on more holidays,
+
+265
+00:09:01,240 --> 00:09:03,120
+buy a bigger house, this kind of thing.
+
+266
+00:09:03,120 --> 00:09:05,520
+So if you're churning this passive income to middle
+
+267
+00:09:05,520 --> 00:09:06,840
+class people, it’s getting spent, it’s
+
+268
+00:09:06,840 --> 00:09:08,960
+getting spent, it’s getting spent.
+
+269
+00:09:08,960 --> 00:09:10,640
+If instead we take all of that income
+
+270
+00:09:10,640 --> 00:09:12,600
+and we give it to this tiny elite group,
+
+271
+00:09:12,600 --> 00:09:14,920
+of course they will spend a lot of money,
+
+272
+00:09:14,920 --> 00:09:17,240
+but we can see from the spending profiles
+
+273
+00:09:17,240 --> 00:09:18,480
+of the very rich.
+
+274
+00:09:18,480 --> 00:09:20,400
+You know, if you give £1,000 to a middle class person,
+
+275
+00:09:20,400 --> 00:09:21,720
+you'll probably spend £600.
+
+276
+00:09:21,720 --> 00:09:23,040
+You give £1,000 to Rishi Sunak, you’re
+
+277
+00:09:23,040 --> 00:09:23,960
+never going to notice right.
+
+278
+00:09:23,960 --> 00:09:26,120
+He's not going to change his spending at all.
+
+279
+00:09:26,120 --> 00:09:30,320
+So as we give more and more money to the very rich,
+
+280
+00:09:30,320 --> 00:09:33,360
+basically societal spending starts to fall.
+
+281
+00:09:33,360 --> 00:09:34,520
+They don’t want to spend money.
+
+282
+00:09:34,520 --> 00:09:35,800
+And what they're doing instead is,
+
+283
+00:09:35,800 --> 00:09:37,680
+well if we look at the behaviour
+
+284
+00:09:37,680 --> 00:09:40,280
+of the very, very rich is,
+
+285
+00:09:40,280 --> 00:09:41,040
+they’re just
+
+286
+00:09:41,040 --> 00:09:42,000
+saving, they're just saving,
+
+287
+00:09:42,000 --> 00:09:45,120
+they're just saving, they're just saving. Which,
+
+288
+00:09:45,120 --> 00:09:47,240
+you know, saving can mean a few different things.
+
+289
+00:09:47,240 --> 00:09:49,880
+It can mean investing.
+
+290
+00:09:49,880 --> 00:09:52,440
+Or it can also mean buying existing assets,
+
+291
+00:09:52,440 --> 00:09:54,360
+or it can be making loans.
+
+292
+00:09:54,360 --> 00:09:56,880
+So they’re buying assets, they’re lending money.
+
+293
+00:09:56,880 --> 00:09:58,360
+If there are good investments around,
+
+294
+00:09:58,360 --> 00:10:00,720
+they'll try to do investments as well.
+
+295
+00:10:00,720 --> 00:10:02,160
+So now I think we can consider
+
+296
+00:10:02,160 --> 00:10:07,800
+like what these two worlds look like.
+
+297
+00:10:07,800 --> 00:10:10,200
+When you consider these two things paired together.
+
+298
+00:10:10,200 --> 00:10:15,360
+Number one, in the wealth unequal world,
+
+299
+00:10:15,360 --> 00:10:16,400
+there's a lot of people
+
+300
+00:10:16,400 --> 00:10:18,360
+who are very financially insecure
+
+301
+00:10:18,360 --> 00:10:20,280
+because they don't have savings to fall back on.
+
+302
+00:10:20,280 --> 00:10:21,880
+They don't own their own house,
+
+303
+00:10:21,880 --> 00:10:24,240
+they don't own their own food or energy.
+
+304
+00:10:24,240 --> 00:10:25,440
+They don't have any passive income.
+
+305
+00:10:25,440 --> 00:10:27,240
+These people are very insecure,
+
+306
+00:10:27,240 --> 00:10:29,520
+and they live in a world
+
+307
+00:10:29,520 --> 00:10:31,320
+where all of the
+
+308
+00:10:31,320 --> 00:10:34,160
+spending power is held by a very small group of people
+
+309
+00:10:34,160 --> 00:10:36,360
+who don't spend a lot of money.
+
+310
+00:10:36,360 --> 00:10:37,280
+Do you want to check the cameras by the way?
+
+311
+00:10:37,280 --> 00:10:38,360
+You can go up and come back if you want?
+
+312
+00:10:41,440 --> 00:10:42,240
+I'm just gonna trust it.
+
+313
+00:10:42,240 --> 00:10:44,440
+Yeah.
+
+314
+00:10:44,440 --> 00:10:47,440
+So they live in this world where
+
+315
+00:10:47,440 --> 00:10:51,680
+they really, really, really need to work, but society
+
+316
+00:10:51,680 --> 00:10:53,160
+doesn't really want to spend that much
+
+317
+00:10:53,160 --> 00:10:55,320
+because the group of people with spending power
+
+318
+00:10:55,320 --> 00:10:56,480
+is quite small
+
+319
+00:10:56,480 --> 00:11:01,440
+and those people tend to save like 98% of their income.
+
+320
+00:11:01,440 --> 00:11:03,800
+So you can see straight away
+
+321
+00:11:03,800 --> 00:11:04,960
+they're in a bad situation, right?
+
+322
+00:11:04,960 --> 00:11:09,800
+Because you have a world, loads of people need to work.
+
+323
+00:11:09,800 --> 00:11:11,280
+There's very few potential customers,
+
+324
+00:11:11,280 --> 00:11:13,040
+and those people don't actually spend much,
+
+325
+00:11:13,040 --> 00:11:16,920
+like as a proportion of their income.
+
+326
+00:11:16,920 --> 00:11:18,320
+Add on top of that,
+
+327
+00:11:18,320 --> 00:11:22,080
+these guys have a ton of wealth, right?
+
+328
+00:11:22,080 --> 00:11:25,120
+And that wealth includes in a high technology society,
+
+329
+00:11:25,120 --> 00:11:27,600
+it includes a lot of like labour saving stuff.
+
+330
+00:11:27,600 --> 00:11:29,720
+So these guys own factories, but high tech factories
+
+331
+00:11:29,720 --> 00:11:33,280
+don't actually need a lot of workers.
+
+332
+00:11:33,280 --> 00:11:34,440
+Increasingly, you know,
+
+333
+00:11:34,440 --> 00:11:36,480
+we're moving towards an AI world where, you know,
+
+334
+00:11:36,480 --> 00:11:38,720
+these guys, they've got really high tech factories
+
+335
+00:11:38,720 --> 00:11:39,800
+that don't need a lot of workers.
+
+336
+00:11:39,800 --> 00:11:41,280
+They'll have AI,
+
+337
+00:11:41,280 --> 00:11:44,760
+which means you need even fewer workers.
+
+338
+00:11:44,760 --> 00:11:46,440
+I think when you add these things together,
+
+339
+00:11:46,440 --> 00:11:48,480
+you can basically see
+
+340
+00:11:48,480 --> 00:11:50,280
+my conclusion, number one,
+
+341
+00:11:50,280 --> 00:11:53,800
+which is unequal economies have very low wages.
+
+342
+00:11:53,800 --> 00:11:55,480
+And that is because,
+
+343
+00:11:55,480 --> 00:11:56,440
+well, first thing I'll say is
+
+344
+00:11:56,440 --> 00:11:57,800
+I think if you look at the world,
+
+345
+00:11:57,800 --> 00:11:58,560
+you know, it's
+
+346
+00:11:58,560 --> 00:11:59,160
+not I'm not saying
+
+347
+00:11:59,160 --> 00:12:00,480
+this is the only factor that matters,
+
+348
+00:12:00,480 --> 00:12:01,480
+but I think if you look at the world,
+
+349
+00:12:01,480 --> 00:12:03,920
+you will see that very unequal economies
+
+350
+00:12:03,920 --> 00:12:06,800
+have low wages, whereas more middle class economies
+
+351
+00:12:06,800 --> 00:12:08,000
+like Western Europe,
+
+352
+00:12:08,000 --> 00:12:09,680
+like North America, like Japan,
+
+353
+00:12:09,680 --> 00:12:12,120
+like Australia, have higher wages.
+
+354
+00:12:12,120 --> 00:12:13,480
+But once you see this logic,
+
+355
+00:12:13,480 --> 00:12:14,680
+I think you can understand why, right?
+
+356
+00:12:14,680 --> 00:12:16,920
+Which is when you have a very unequal society,
+
+357
+00:12:16,920 --> 00:12:19,520
+you have a huge group of people
+
+358
+00:12:19,520 --> 00:12:22,760
+desperate to work for a tiny group of people
+
+359
+00:12:22,760 --> 00:12:26,040
+who don't spend much money and don't need any workers
+
+360
+00:12:26,040 --> 00:12:28,320
+because they've got all of this
+
+361
+00:12:28,320 --> 00:12:30,600
+productive capital, productive technology.
+
+362
+00:12:30,600 --> 00:12:31,560
+So that's number one.
+
+363
+00:12:31,560 --> 00:12:32,960
+Conclusion number one,
+
+364
+00:12:32,960 --> 00:12:35,440
+you can put it up there if you want.
+
+365
+00:12:35,440 --> 00:12:37,800
+Unequal economies have low wages. That's number one.
+
+366
+00:12:37,800 --> 00:12:39,960
+So the second thing is,
+
+367
+00:12:39,960 --> 00:12:42,200
+you know, the reason that wages are low
+
+368
+00:12:42,200 --> 00:12:43,360
+is because, okay
+
+369
+00:12:43,360 --> 00:12:44,280
+there's a lot of desperate workers,
+
+370
+00:12:44,280 --> 00:12:45,920
+but also because the money
+
+371
+00:12:45,920 --> 00:12:50,400
+is being controlled by people who don't want to spend,
+
+372
+00:12:50,400 --> 00:12:52,040
+what they're doing instead is saving.
+
+373
+00:12:52,040 --> 00:12:54,080
+So, you know, there's this kind of argument
+
+374
+00:12:54,080 --> 00:12:56,040
+and you get this sort of trickle down economics,
+
+375
+00:12:56,040 --> 00:12:57,480
+which is actually this is good
+
+376
+00:12:57,480 --> 00:12:59,600
+because you're giving the money to savers
+
+377
+00:12:59,600 --> 00:13:01,120
+and saving is good
+
+378
+00:13:01,120 --> 00:13:02,840
+because if we save then, we're going to invest
+
+379
+00:13:02,840 --> 00:13:04,480
+and we're going to grow.
+
+380
+00:13:04,480 --> 00:13:06,600
+The problem you get is
+
+381
+00:13:06,600 --> 00:13:10,000
+when there's not a lot of end consumption demand,
+
+382
+00:13:11,080 --> 00:13:13,040
+companies don't actually want to grow.
+
+383
+00:13:13,040 --> 00:13:13,840
+They don't want to invest
+
+384
+00:13:13,840 --> 00:13:18,040
+because there's not really a lot of customers.
+
+385
+00:13:18,040 --> 00:13:20,120
+And what companies want,
+
+386
+00:13:20,120 --> 00:13:22,280
+if they want to grow, is they want customers, right.
+
+387
+00:13:22,280 --> 00:13:24,040
+So what do rich people do
+
+388
+00:13:24,040 --> 00:13:25,680
+when they're in a world that they have all this
+
+389
+00:13:25,680 --> 00:13:28,800
+massive passive income, that they're not spending,
+
+390
+00:13:28,800 --> 00:13:30,120
+but there's not a lot of actual investment
+
+391
+00:13:30,120 --> 00:13:31,760
+opportunities around.
+
+392
+00:13:31,760 --> 00:13:34,920
+The answer is they buy assets.
+
+393
+00:13:34,920 --> 00:13:35,640
+They buy assets.
+
+394
+00:13:35,640 --> 00:13:37,680
+And they will try to buy assets from the middle class
+
+395
+00:13:37,680 --> 00:13:39,160
+if there is a middle class,
+
+396
+00:13:39,160 --> 00:13:40,120
+or they will try to buy assets
+
+397
+00:13:40,120 --> 00:13:45,200
+from each other basically. And what you have is
+
+398
+00:13:45,200 --> 00:13:46,720
+when you have this unequal economy,
+
+399
+00:13:46,720 --> 00:13:49,280
+you're giving all of the consumption power
+
+400
+00:13:49,280 --> 00:13:51,640
+to very, very rich people.
+
+401
+00:13:51,640 --> 00:13:54,720
+Very rich people, percentage wise,
+
+402
+00:13:54,720 --> 00:13:57,840
+have a very low demand to consume and a massive
+
+403
+00:13:57,840 --> 00:13:59,400
+demand to save.
+
+404
+00:13:59,400 --> 00:14:02,520
+Basically what these people want is assets.
+
+405
+00:14:02,520 --> 00:14:05,280
+So the second thing you will see
+
+406
+00:14:05,280 --> 00:14:06,840
+is increase in asset prices,
+
+407
+00:14:06,840 --> 00:14:07,920
+massive increase in asset prices.
+
+408
+00:14:07,920 --> 00:14:10,040
+Because you're giving all of the money
+
+409
+00:14:10,040 --> 00:14:11,800
+to people who are just trying to buy assets.
+
+410
+00:14:11,800 --> 00:14:13,160
+There's not a lot of investment opportunity.
+
+411
+00:14:13,160 --> 00:14:14,680
+So they’re buying assets,
+
+412
+00:14:14,680 --> 00:14:15,760
+they’re buying assets, they’re buying assets.
+
+413
+00:14:15,760 --> 00:14:17,240
+So I think this makes sense, right.
+
+414
+00:14:17,240 --> 00:14:18,360
+If you take the consumption power
+
+415
+00:14:18,360 --> 00:14:20,440
+away from ordinary people who spend,
+
+416
+00:14:20,440 --> 00:14:22,440
+you give it to rich people who save.
+
+417
+00:14:23,800 --> 00:14:27,720
+Wages will fall and asset prices will increase.
+
+418
+00:14:27,720 --> 00:14:29,120
+So these are for me,
+
+419
+00:14:29,120 --> 00:14:33,120
+these really are the two key features
+
+420
+00:14:33,120 --> 00:14:37,280
+of an unequal economy, low wages, high asset prices.
+
+421
+00:14:37,280 --> 00:14:38,880
+But you can probably see
+
+422
+00:14:38,880 --> 00:14:41,760
+instinctively that these two things
+
+423
+00:14:41,760 --> 00:14:44,320
+like interrelate in quite problematic way, right.
+
+424
+00:14:44,320 --> 00:14:48,160
+Because if wages are low and asset prices,
+
+425
+00:14:48,160 --> 00:14:51,280
+like including house prices, are high,
+
+426
+00:14:51,280 --> 00:14:53,000
+and this includes like other
+
+427
+00:14:53,000 --> 00:14:54,720
+like basic essentials of life, like,
+
+428
+00:14:54,720 --> 00:14:56,040
+you know, like the farms
+
+429
+00:14:56,040 --> 00:14:58,080
+which produce food or, you know, the power plants
+
+430
+00:14:58,080 --> 00:15:00,200
+which produce energy, these are assets as well.
+
+431
+00:15:00,200 --> 00:15:02,560
+These will be expensive.
+
+432
+00:15:02,560 --> 00:15:03,480
+What you have is a world
+
+433
+00:15:03,480 --> 00:15:06,360
+where ordinary people have no wages
+
+434
+00:15:06,360 --> 00:15:08,680
+and the things which they need
+
+435
+00:15:08,680 --> 00:15:14,040
+housing, food, energy are really expensive.
+
+436
+00:15:14,040 --> 00:15:15,720
+This is kind of like a
+
+437
+00:15:15,720 --> 00:15:18,600
+really bad combination basically. So
+
+438
+00:15:18,600 --> 00:15:20,000
+what you see there is
+
+439
+00:15:20,000 --> 00:15:23,080
+basically really high levels of financial insecurity
+
+440
+00:15:23,080 --> 00:15:24,720
+because not only are you desperate for work
+
+441
+00:15:24,720 --> 00:15:26,120
+and it's hard to get a job,
+
+442
+00:15:26,120 --> 00:15:26,680
+but the things
+
+443
+00:15:26,680 --> 00:15:29,800
+which you need, the basic essentials of life,
+
+444
+00:15:29,800 --> 00:15:33,000
+housing, food, energy,
+
+445
+00:15:33,000 --> 00:15:36,000
+the assets that produce those things, including houses,
+
+446
+00:15:36,000 --> 00:15:39,360
+are super, super, super expensive.
+
+447
+00:15:39,360 --> 00:15:41,520
+So you have financial instability,
+
+448
+00:15:41,520 --> 00:15:43,120
+but also you have this...
+
+449
+00:15:43,120 --> 00:15:46,640
+It's becomes really, really difficult to climb up
+
+450
+00:15:46,640 --> 00:15:49,640
+because if you live in a world where wages are low,
+
+451
+00:15:49,640 --> 00:15:51,520
+housing is really expensive.
+
+452
+00:15:51,520 --> 00:15:54,760
+Even if you're able to get a higher than average wage,
+
+453
+00:15:54,760 --> 00:15:56,120
+it becomes
+
+454
+00:15:56,120 --> 00:15:57,480
+quite possible that you'll never be able
+
+455
+00:15:57,480 --> 00:15:59,040
+to afford a house, basically.
+
+456
+00:15:59,040 --> 00:16:03,920
+So there you have the next thing, which is
+
+457
+00:16:03,920 --> 00:16:06,440
+basically low social mobility, low social mobility.
+
+458
+00:16:06,440 --> 00:16:10,040
+And also increasingly work becomes
+
+459
+00:16:10,040 --> 00:16:11,920
+like less important in a weird way.
+
+460
+00:16:11,920 --> 00:16:13,680
+It is important in one way,
+
+461
+00:16:13,680 --> 00:16:14,920
+because if you don't work, you'll die
+
+462
+00:16:14,920 --> 00:16:16,920
+because you need to work to eat.
+
+463
+00:16:16,920 --> 00:16:20,120
+But work ceases to...
+
+464
+00:16:20,120 --> 00:16:21,440
+the idea that if I work hard
+
+465
+00:16:21,440 --> 00:16:22,840
+or if I study hard, I get a better job,
+
+466
+00:16:22,840 --> 00:16:24,720
+I get a house becomes less and less realistic
+
+467
+00:16:24,720 --> 00:16:28,040
+because wages are falling, house prices are rising.
+
+468
+00:16:28,040 --> 00:16:28,480
+You know,
+
+469
+00:16:28,480 --> 00:16:32,280
+even if you get two or 3 or 4 times the average wage,
+
+470
+00:16:32,280 --> 00:16:33,360
+it might be that
+
+471
+00:16:33,360 --> 00:16:34,800
+something like a house is out of reach.
+
+472
+00:16:34,800 --> 00:16:36,920
+So you get this kind of crystallisation
+
+473
+00:16:36,920 --> 00:16:37,560
+of the class system,
+
+474
+00:16:37,560 --> 00:16:40,800
+it becomes impossible to work your way up.
+
+475
+00:16:40,800 --> 00:16:42,200
+The next thing I want to talk about
+
+476
+00:16:42,200 --> 00:16:46,200
+is how this leads to a kind of concentration,
+
+477
+00:16:46,200 --> 00:16:48,320
+economic concentration in capitalism.
+
+478
+00:16:48,320 --> 00:16:49,840
+So we're talking about a concentration
+
+479
+00:16:49,840 --> 00:16:50,680
+of wealth, right.
+
+480
+00:16:52,000 --> 00:16:54,000
+But this manifests in different ways, right.
+
+481
+00:16:54,000 --> 00:16:58,200
+So we have really once we concentrate wealth
+
+482
+00:16:58,200 --> 00:17:00,120
+we concentrate passive income.
+
+483
+00:17:00,120 --> 00:17:03,600
+We also concentrate spending power.
+
+484
+00:17:03,600 --> 00:17:07,720
+Suddenly then if I'm a business and I want to grow,
+
+485
+00:17:07,720 --> 00:17:08,840
+what am I going to do?
+
+486
+00:17:08,840 --> 00:17:10,400
+Well, I'm not going to produce stuff that you want
+
+487
+00:17:10,400 --> 00:17:12,560
+because you've got no f**king money, right?
+
+488
+00:17:12,560 --> 00:17:13,360
+You're saving up everything
+
+489
+00:17:13,360 --> 00:17:14,520
+you can just to buy a house.
+
+490
+00:17:14,520 --> 00:17:16,040
+You know you can't afford to go to the pub,
+
+491
+00:17:16,040 --> 00:17:18,000
+you can't afford to go the restaurants.
+
+492
+00:17:18,000 --> 00:17:19,760
+So your pub's going to close down.
+
+493
+00:17:19,760 --> 00:17:21,520
+The restaurants in your area are going to close down.
+
+494
+00:17:21,520 --> 00:17:23,040
+They're going to get turned into basic
+
+495
+00:17:23,040 --> 00:17:26,040
+like slum accommodation.
+
+496
+00:17:26,040 --> 00:17:27,880
+I'm a business, what am I going to invest in?
+
+497
+00:17:27,880 --> 00:17:29,280
+What do the rich want?
+
+498
+00:17:29,280 --> 00:17:31,200
+Because they’ve got so much money,
+
+499
+00:17:31,200 --> 00:17:32,560
+so much money, more and more money.
+
+500
+00:17:32,560 --> 00:17:35,280
+It's growing, it's growing. What do the rich want?
+
+501
+00:17:35,280 --> 00:17:39,640
+So what you see is increasingly
+
+502
+00:17:39,640 --> 00:17:43,120
+this split in industry,
+
+503
+00:17:43,120 --> 00:17:46,800
+which is industry stops producing for the middle class.
+
+504
+00:17:46,800 --> 00:17:48,920
+It starts producing just like bare bones
+
+505
+00:17:48,920 --> 00:17:50,680
+essentials for the poor
+
+506
+00:17:50,680 --> 00:17:53,920
+and increasingly focuses on luxury industries.
+
+507
+00:17:53,920 --> 00:17:55,920
+So I think you're seeing this or you're seeing this...
+
+508
+00:17:55,920 --> 00:17:57,840
+I live in London, we're here in London now.
+
+509
+00:17:57,840 --> 00:17:59,240
+You see this in the...
+
+510
+00:17:59,240 --> 00:18:01,200
+you see this literally in the housing stock.
+
+511
+00:18:01,200 --> 00:18:02,160
+So I grew up,
+
+512
+00:18:02,160 --> 00:18:03,720
+where I grew up in Ilford in East London
+
+513
+00:18:03,720 --> 00:18:05,080
+it used to be...
+
+514
+00:18:05,080 --> 00:18:06,760
+It was a poor area when I grew up,
+
+515
+00:18:06,760 --> 00:18:08,240
+but it was like lower middle
+
+516
+00:18:08,240 --> 00:18:10,440
+class, upper working class families.
+
+517
+00:18:10,440 --> 00:18:13,680
+If you go there now, those small terraced houses,
+
+518
+00:18:13,680 --> 00:18:15,560
+they've been expanded out backwards, expanded up,
+
+519
+00:18:15,560 --> 00:18:16,760
+and they're running up by the room
+
+520
+00:18:16,760 --> 00:18:20,320
+to, you know, recent, very, very poor recent migrants.
+
+521
+00:18:20,320 --> 00:18:22,200
+And what that is, is,
+
+522
+00:18:22,200 --> 00:18:23,080
+you know, we're no longer
+
+523
+00:18:23,080 --> 00:18:24,080
+producing middle class housing
+
+524
+00:18:24,080 --> 00:18:25,520
+because there's no middle class.
+
+525
+00:18:25,520 --> 00:18:26,160
+This is the thing.
+
+526
+00:18:26,160 --> 00:18:27,560
+Inequality means no middle class.
+
+527
+00:18:27,560 --> 00:18:29,520
+So bare bones essentials.
+
+528
+00:18:29,520 --> 00:18:32,920
+But obviously now I live closer to central London.
+
+529
+00:18:32,920 --> 00:18:34,360
+If you live in and around central,
+
+530
+00:18:34,360 --> 00:18:35,880
+what people always complain is
+
+531
+00:18:35,880 --> 00:18:37,880
+there's only luxury housing being built.
+
+532
+00:18:37,880 --> 00:18:41,760
+And, you know, that’s an obvious consequence
+
+533
+00:18:41,760 --> 00:18:44,520
+of this wealth inequality, which is that
+
+534
+00:18:44,520 --> 00:18:47,680
+capitalism will adjust if the middle class has no money
+
+535
+00:18:47,680 --> 00:18:49,000
+and the rich have all the money.
+
+536
+00:18:49,000 --> 00:18:50,680
+We're going to stop producing middle class cars.
+
+537
+00:18:50,680 --> 00:18:52,160
+We’re going to stop producing middle class housing.
+
+538
+00:18:52,160 --> 00:18:55,080
+We’re going to try and transition that to the rich.
+
+539
+00:18:55,080 --> 00:18:57,240
+I’ve got a lot of friends who are dentists.
+
+540
+00:18:57,240 --> 00:18:58,920
+I've got friends who are doctors
+
+541
+00:18:58,920 --> 00:19:00,960
+and the ones who make the most money,
+
+542
+00:19:00,960 --> 00:19:03,440
+they don't fix teeth of middle class people,
+
+543
+00:19:03,440 --> 00:19:05,040
+they do plastic surgery
+
+544
+00:19:05,040 --> 00:19:06,560
+and cosmetic stuff for rich people.
+
+545
+00:19:06,560 --> 00:19:07,440
+And that's what you would do
+
+546
+00:19:07,440 --> 00:19:11,640
+because these guys have the money. So the next thing is
+
+547
+00:19:11,640 --> 00:19:14,840
+wealth inequality leads to industry concentration,
+
+548
+00:19:14,840 --> 00:19:17,800
+industry concentration.
+
+549
+00:19:17,800 --> 00:19:19,680
+Businesses no longer really produced for the middle.
+
+550
+00:19:19,680 --> 00:19:20,880
+They produce for the...
+
+551
+00:19:20,880 --> 00:19:24,520
+basics for the poor and luxuries for the rich.
+
+552
+00:19:24,520 --> 00:19:26,800
+But it's also geographic concentration, right?
+
+553
+00:19:26,800 --> 00:19:29,880
+So when we we go back and we talk again about
+
+554
+00:19:29,880 --> 00:19:32,760
+the relatively equal society
+
+555
+00:19:32,760 --> 00:19:37,200
+in a relatively equal society, everyone was an owner,
+
+556
+00:19:37,200 --> 00:19:39,440
+everyone was a worker,
+
+557
+00:19:39,440 --> 00:19:41,760
+and everyone was a consumer.
+
+558
+00:19:41,760 --> 00:19:45,000
+And, this is nice, right?
+
+559
+00:19:45,000 --> 00:19:46,080
+Because workers need consumers
+
+560
+00:19:46,080 --> 00:19:47,520
+and consumers need workers, right.
+
+561
+00:19:47,520 --> 00:19:48,560
+Like, if you want to work,
+
+562
+00:19:48,560 --> 00:19:49,920
+you need somebody who’s going to, you know...
+
+563
+00:19:49,920 --> 00:19:52,000
+You’re a cameraman, nobody's making videos, you’ve
+
+564
+00:19:52,000 --> 00:19:53,680
+got no work, right?
+
+565
+00:19:53,680 --> 00:19:55,320
+I'm making videos, I need a cameraman.
+
+566
+00:19:55,320 --> 00:19:56,360
+It works together, right.
+
+567
+00:19:56,360 --> 00:19:58,760
+These two things come together. But
+
+568
+00:19:58,760 --> 00:20:00,920
+once you move to that
+
+569
+00:20:00,920 --> 00:20:02,840
+wealth unequal society, you split.
+
+570
+00:20:02,840 --> 00:20:04,800
+You have a big group of workers,
+
+571
+00:20:04,800 --> 00:20:06,800
+but they don't really spend much.
+
+572
+00:20:06,800 --> 00:20:08,120
+They're not really consuming.
+
+573
+00:20:08,120 --> 00:20:10,560
+And you have this small group of consumers, they’ve
+
+574
+00:20:10,560 --> 00:20:13,760
+got a lot of money, but there's not a lot of them.
+
+575
+00:20:13,760 --> 00:20:16,040
+And they don't need to work, basically.
+
+576
+00:20:16,040 --> 00:20:17,760
+This causes geographic problems, right?
+
+577
+00:20:17,760 --> 00:20:19,120
+Because if everyone is a worker
+
+578
+00:20:19,120 --> 00:20:20,640
+and everyone is a consumer,
+
+579
+00:20:20,640 --> 00:20:21,960
+then whenever you have a city,
+
+580
+00:20:21,960 --> 00:20:23,280
+you've got workers and consumers.
+
+581
+00:20:23,280 --> 00:20:24,840
+This is like, it works really well, right?
+
+582
+00:20:24,840 --> 00:20:25,480
+Because the workers need
+
+583
+00:20:25,480 --> 00:20:26,920
+consumers, consumers need workers,
+
+584
+00:20:26,920 --> 00:20:28,080
+every worker is a consumer.
+
+585
+00:20:28,080 --> 00:20:31,800
+So basically cities work economically
+
+586
+00:20:31,800 --> 00:20:34,680
+because wherever there's people, there's people.
+
+587
+00:20:34,680 --> 00:20:36,000
+Wherever there's workers, there’s
+
+588
+00:20:36,000 --> 00:20:36,960
+consumers, wherever there’s consumers, there's workers.
+
+589
+00:20:36,960 --> 00:20:38,520
+But once you have this unequal economy,
+
+590
+00:20:38,520 --> 00:20:40,920
+then the workers are not consumers,
+
+591
+00:20:40,920 --> 00:20:42,920
+and the consumers are not workers.
+
+592
+00:20:42,920 --> 00:20:46,200
+So what that means is
+
+593
+00:20:46,200 --> 00:20:49,120
+if you cannot attract rich people to your city,
+
+594
+00:20:49,120 --> 00:20:51,200
+there's no consumers in your city.
+
+595
+00:20:51,200 --> 00:20:52,680
+And these guys own your city, right?
+
+596
+00:20:52,680 --> 00:20:54,720
+They own the housing, they own the food.
+
+597
+00:20:54,720 --> 00:20:55,320
+You need food.
+
+598
+00:20:55,320 --> 00:20:57,640
+You need energy, right? Well, these guys got the food.
+
+599
+00:20:57,640 --> 00:20:58,920
+They got the energy.
+
+600
+00:20:58,920 --> 00:21:01,640
+What are you offering? You need to offer something.
+
+601
+00:21:01,640 --> 00:21:04,160
+So if you live in,
+
+602
+00:21:04,160 --> 00:21:04,680
+you know,
+
+603
+00:21:04,680 --> 00:21:08,520
+we talk about parts of the North which historically
+
+604
+00:21:08,520 --> 00:21:09,800
+were big centres of industry.
+
+605
+00:21:09,800 --> 00:21:10,960
+You know,
+
+606
+00:21:10,960 --> 00:21:12,720
+I could keep listing lots and lots of places,
+
+607
+00:21:12,720 --> 00:21:14,360
+you know, places like Newcastle, places
+
+608
+00:21:14,360 --> 00:21:16,560
+like Glasgow, places like Wigan.
+
+609
+00:21:16,560 --> 00:21:17,880
+Nothing wrong with these places, but,
+
+610
+00:21:17,880 --> 00:21:19,920
+you know, places that these...
+
+611
+00:21:19,920 --> 00:21:21,560
+people have been living there for hundreds of years.
+
+612
+00:21:21,560 --> 00:21:23,040
+And they used to be like centres of industry.
+
+613
+00:21:24,720 --> 00:21:25,720
+They're struggling now
+
+614
+00:21:25,720 --> 00:21:27,600
+because there’s no rich people there.
+
+615
+00:21:27,600 --> 00:21:29,720
+And then you have workers without consumers.
+
+616
+00:21:29,720 --> 00:21:31,080
+And if you have workers without consumers,
+
+617
+00:21:31,080 --> 00:21:32,840
+then there's no jobs.
+
+618
+00:21:32,840 --> 00:21:37,040
+So what do those consumers have to do?
+
+619
+00:21:37,040 --> 00:21:38,880
+They have to go to where the rich people are.
+
+620
+00:21:38,880 --> 00:21:40,560
+And, you know, we've spoken about this in other videos.
+
+621
+00:21:40,560 --> 00:21:42,360
+I think there's a bit of a misconception
+
+622
+00:21:42,360 --> 00:21:43,560
+in modern economics
+
+623
+00:21:43,560 --> 00:21:46,520
+that what we're having is a big city, small city split.
+
+624
+00:21:46,520 --> 00:21:47,400
+But it's actually not
+
+625
+00:21:47,400 --> 00:21:49,800
+that it's a rich city, poor city split.
+
+626
+00:21:49,800 --> 00:21:51,840
+You know I studied in Oxford for two years, it’s
+
+627
+00:21:51,840 --> 00:21:54,360
+not a big city, very expensive.
+
+628
+00:21:54,360 --> 00:21:56,400
+You know, places like Glasgow, places that Newcastle
+
+629
+00:21:56,400 --> 00:21:59,080
+much bigger, much, much cheaper.
+
+630
+00:21:59,080 --> 00:22:00,480
+Cambridge is also expensive.
+
+631
+00:22:00,480 --> 00:22:02,400
+You know, if you go to the places
+
+632
+00:22:02,400 --> 00:22:03,000
+where rich people go on
+
+633
+00:22:03,000 --> 00:22:05,160
+holiday, phenomenally expensive, you know.
+
+634
+00:22:05,160 --> 00:22:06,960
+Any popular holiday destination
+
+635
+00:22:06,960 --> 00:22:08,800
+for the rich is unbelievably expensive.
+
+636
+00:22:08,800 --> 00:22:10,800
+If you go to the place where they study, like Oxford,
+
+637
+00:22:10,800 --> 00:22:12,280
+you know, it's very, very expensive.
+
+638
+00:22:14,840 --> 00:22:17,160
+So basically,
+
+639
+00:22:17,160 --> 00:22:20,040
+geographically the poor people have to move.
+
+640
+00:22:20,040 --> 00:22:20,880
+You have to move,
+
+641
+00:22:20,880 --> 00:22:22,520
+you have to go to where the rich people are.
+
+642
+00:22:22,520 --> 00:22:24,720
+But the problem you have is
+
+643
+00:22:24,720 --> 00:22:28,480
+when you have a very unequal economy, you know, if it's
+
+644
+00:22:28,480 --> 00:22:29,720
+90% : 10%.
+
+645
+00:22:29,720 --> 00:22:31,560
+Well there’s 9 poor people for every rich people.
+
+646
+00:22:31,560 --> 00:22:33,600
+If it’s 99 : 1, it’s
+
+647
+00:22:33,600 --> 00:22:36,440
+99 poor people for every rich person, right.
+
+648
+00:22:36,440 --> 00:22:38,720
+And also, you know, rich people,
+
+649
+00:22:38,720 --> 00:22:41,240
+they kind of, they tend to like the same things.
+
+650
+00:22:41,240 --> 00:22:42,680
+They tend to want to live in the same places.
+
+651
+00:22:42,680 --> 00:22:44,000
+They tend to want to study in the same places.
+
+652
+00:22:44,000 --> 00:22:45,440
+They tend to go on holiday in the same places.
+
+653
+00:22:45,440 --> 00:22:47,920
+They're kind of like a community, right?
+
+654
+00:22:47,920 --> 00:22:49,360
+You know, rich people,
+
+655
+00:22:49,360 --> 00:22:51,320
+they don't spend a lot of time in Wigan,
+
+656
+00:22:51,320 --> 00:22:53,160
+you know, they don't spend a lot of time in Newcastle.
+
+657
+00:22:53,160 --> 00:22:54,760
+They don't spend a lot of time in Glasgow.
+
+658
+00:22:54,760 --> 00:22:56,160
+They don't spend a lot of time in Blackpool.
+
+659
+00:22:56,160 --> 00:22:57,360
+You know, they don't spend...
+
+660
+00:22:57,360 --> 00:22:58,840
+they just don't spend time in these places.
+
+661
+00:22:58,840 --> 00:23:03,600
+And then you’ve got to leave because economically
+
+662
+00:23:03,600 --> 00:23:06,080
+people, most people are now workers but not consumer.
+
+663
+00:23:06,080 --> 00:23:07,920
+So you’ve got to move.
+
+664
+00:23:07,920 --> 00:23:09,440
+So then you get these big floods,
+
+665
+00:23:09,440 --> 00:23:12,120
+you get these big floods of people
+
+666
+00:23:12,120 --> 00:23:13,800
+from
+
+667
+00:23:13,800 --> 00:23:16,120
+the north of England to places like the south east.
+
+668
+00:23:16,120 --> 00:23:17,800
+But you know, it's not at all UK specific.
+
+669
+00:23:17,800 --> 00:23:18,000
+You know,
+
+670
+00:23:18,000 --> 00:23:19,240
+you see
+
+671
+00:23:19,240 --> 00:23:21,240
+really, really similar things happening in the US
+
+672
+00:23:21,240 --> 00:23:23,120
+where places like the Rust Belt, people are leaving,
+
+673
+00:23:23,120 --> 00:23:25,800
+they're being moved. They have to move to the coasts.
+
+674
+00:23:25,800 --> 00:23:28,040
+You see southern Europe, these things are happening.
+
+675
+00:23:28,040 --> 00:23:29,560
+Spain and Italy, people are leaving.
+
+676
+00:23:29,560 --> 00:23:30,440
+People are going to like
+
+677
+00:23:30,440 --> 00:23:32,280
+the industrial cities of Germany, even the UK.
+
+678
+00:23:32,280 --> 00:23:33,600
+China, same thing is happening.
+
+679
+00:23:33,600 --> 00:23:34,680
+Same thing’s happening in China,
+
+680
+00:23:34,680 --> 00:23:36,000
+same thing is happening in India.
+
+681
+00:23:36,000 --> 00:23:38,280
+These historical places
+
+682
+00:23:38,280 --> 00:23:39,400
+where people have lived for hundreds
+
+683
+00:23:39,400 --> 00:23:41,080
+or even thousands of years,
+
+684
+00:23:41,080 --> 00:23:44,520
+they don't work in a very unequal society anymore.
+
+685
+00:23:44,520 --> 00:23:45,960
+So people have to leave. People have to leave.
+
+686
+00:23:47,680 --> 00:23:49,560
+The problem you have then is
+
+687
+00:23:49,560 --> 00:23:51,040
+they have to go to where the rich people are.
+
+688
+00:23:51,040 --> 00:23:52,080
+There's not a lot of rich people.
+
+689
+00:23:52,080 --> 00:23:54,680
+So those places become very overcrowded.
+
+690
+00:23:54,680 --> 00:23:57,840
+So you get this flood of people and then you kind of,
+
+691
+00:23:57,840 --> 00:24:00,120
+you then create a sort of
+
+692
+00:24:00,120 --> 00:24:01,920
+a two world world
+
+693
+00:24:01,920 --> 00:24:03,200
+where there's either places
+
+694
+00:24:03,200 --> 00:24:03,920
+where there's no rich people
+
+695
+00:24:03,920 --> 00:24:07,840
+and no jobs, or places where there are rich people,
+
+696
+00:24:07,840 --> 00:24:09,720
+poor people having to flood there.
+
+697
+00:24:09,720 --> 00:24:13,160
+They become extremely dense, extremely overcrowded,
+
+698
+00:24:13,160 --> 00:24:15,080
+sometimes dirty, sometimes polluted,
+
+699
+00:24:15,080 --> 00:24:17,720
+but most obviously because everyone has to live there
+
+700
+00:24:17,720 --> 00:24:19,440
+really, really expensive,
+
+701
+00:24:19,440 --> 00:24:20,840
+most obviously really, really expensive,
+
+702
+00:24:20,840 --> 00:24:22,440
+really, really expensive rents.
+
+703
+00:24:22,440 --> 00:24:25,560
+So you force these people who
+
+704
+00:24:25,560 --> 00:24:27,160
+really, really need work, can't get work,
+
+705
+00:24:27,160 --> 00:24:28,560
+can't afford a house
+
+706
+00:24:28,560 --> 00:24:31,360
+to live in cities with rich people
+
+707
+00:24:31,360 --> 00:24:32,800
+where rents are expensive
+
+708
+00:24:32,800 --> 00:24:37,040
+and they can't afford to rent. So it's
+
+709
+00:24:37,040 --> 00:24:39,360
+kind of disaster on disaster on disaster, isn't it?
+
+710
+00:24:39,360 --> 00:24:42,560
+And this is the kind of
+
+711
+00:24:42,560 --> 00:24:43,680
+set of mechanics
+
+712
+00:24:43,680 --> 00:24:45,720
+which I sort of started to recognise
+
+713
+00:24:45,720 --> 00:24:49,440
+when I was a trader.
+
+714
+00:24:49,440 --> 00:24:52,160
+The next video, I'm going to talk about,
+
+715
+00:24:52,160 --> 00:24:55,560
+why economists never talk about this.
+
+716
+00:24:55,560 --> 00:24:59,240
+Because I didn't learn these ideas from university.
+
+717
+00:24:59,240 --> 00:25:01,080
+So for people who don't know, I did an undergrad
+
+718
+00:25:01,080 --> 00:25:02,240
+at London School of Economics, three years,
+
+719
+00:25:02,240 --> 00:25:04,280
+I did a masters at Oxford for two years.
+
+720
+00:25:04,280 --> 00:25:05,280
+So I’ve studied economics
+
+721
+00:25:05,280 --> 00:25:06,840
+at universities for a long time,
+
+722
+00:25:06,840 --> 00:25:08,320
+these ideas where never taught to me at university.
+
+723
+00:25:08,320 --> 00:25:12,000
+I learned these as a trader.
+
+724
+00:25:12,000 --> 00:25:12,960
+We're going to cover that in the next video.
+
+725
+00:25:12,960 --> 00:25:14,280
+But before I finish this video,
+
+726
+00:25:14,280 --> 00:25:16,960
+I just want to add one other thing,
+
+727
+00:25:16,960 --> 00:25:21,280
+which is going back to transfer payments
+
+728
+00:25:21,280 --> 00:25:22,840
+in the equal society.
+
+729
+00:25:22,840 --> 00:25:24,840
+They go around, they go around like in a circle.
+
+730
+00:25:24,840 --> 00:25:27,040
+In the unequal society, transfer payments go one way.
+
+731
+00:25:27,040 --> 00:25:29,240
+The people who don't own assets are paying money
+
+732
+00:25:29,240 --> 00:25:30,720
+to people who own assets.
+
+733
+00:25:30,720 --> 00:25:31,040
+The people
+
+734
+00:25:31,040 --> 00:25:31,720
+who have the assets
+
+735
+00:25:31,720 --> 00:25:33,400
+then use that money to buy the rest of the assets
+
+736
+00:25:33,400 --> 00:25:34,360
+Which means next year,
+
+737
+00:25:34,360 --> 00:25:37,480
+the people who don't own assets have to pay more.
+
+738
+00:25:37,480 --> 00:25:39,360
+Once you understand this, you can see that
+
+739
+00:25:39,360 --> 00:25:43,080
+there's a worryingly accelerating nature to inequality.
+
+740
+00:25:43,080 --> 00:25:45,640
+Which is the bigger inequality is, the higher
+
+741
+00:25:45,640 --> 00:25:46,800
+the amount of transfer payments
+
+742
+00:25:46,800 --> 00:25:49,120
+made from the poor to the rich,
+
+743
+00:25:49,120 --> 00:25:50,400
+which means the higher
+
+744
+00:25:50,400 --> 00:25:53,960
+the rate at which the rich dispossessed the poor,
+
+745
+00:25:53,960 --> 00:25:56,040
+which means the higher the rate of transfer payments.
+
+746
+00:25:56,040 --> 00:25:58,080
+So this is, and probably the thing
+
+747
+00:25:58,080 --> 00:25:59,280
+which sort of caught me the most
+
+748
+00:25:59,280 --> 00:26:01,360
+and worried me the most about this.
+
+749
+00:26:01,360 --> 00:26:03,680
+Mathematically, this is not self containing.
+
+750
+00:26:03,680 --> 00:26:04,560
+This is the thing
+
+751
+00:26:04,560 --> 00:26:06,560
+that spirals out of control once it becomes...
+
+752
+00:26:06,560 --> 00:26:07,920
+and I think this is why,
+
+753
+00:26:07,920 --> 00:26:09,400
+if you looked throughout history, you'll see that
+
+754
+00:26:09,400 --> 00:26:11,000
+in most of history inequality is very high.
+
+755
+00:26:12,520 --> 00:26:12,800
+Okay.
+
+756
+00:26:12,800 --> 00:26:13,320
+So that's it.
+
+757
+00:26:13,320 --> 00:26:15,240
+Quite a big one, second video on the course.
+
+758
+00:26:15,240 --> 00:26:16,800
+But I think it's really important.
+
+759
+00:26:16,800 --> 00:26:17,840
+Because it was quite long,
+
+760
+00:26:17,840 --> 00:26:21,480
+I'll quickly run down the main points, which is,
+
+761
+00:26:21,480 --> 00:26:23,320
+when inequality is very high,
+
+762
+00:26:23,320 --> 00:26:25,560
+there's a high level of financial insecurity.
+
+763
+00:26:25,560 --> 00:26:26,560
+There's a high level of transfer
+
+764
+00:26:26,560 --> 00:26:28,080
+payments from the both the rich.
+
+765
+00:26:28,080 --> 00:26:30,760
+There's not a lot of spending,
+
+766
+00:26:30,760 --> 00:26:32,400
+a lot of poor people trying to work
+
+767
+00:26:32,400 --> 00:26:34,560
+for a small amount of rich people
+
+768
+00:26:34,560 --> 00:26:36,720
+who have productive capital and don't need workers.
+
+769
+00:26:36,720 --> 00:26:40,920
+Wages are low. Number one, wages are low.
+
+770
+00:26:40,920 --> 00:26:41,880
+The rich have enormous amount
+
+771
+00:26:41,880 --> 00:26:44,640
+of passive income, way more than they can spend.
+
+772
+00:26:44,640 --> 00:26:45,520
+They want to invest it,
+
+773
+00:26:45,520 --> 00:26:46,400
+but there's no investment
+
+774
+00:26:46,400 --> 00:26:48,640
+because there's not a lot of spending.
+
+775
+00:26:48,640 --> 00:26:51,960
+They're trying to buy assets, asset prices are high.
+
+776
+00:26:51,960 --> 00:26:53,480
+Wages are low, one.
+
+777
+00:26:53,480 --> 00:26:55,480
+Asset prices are high, two.
+
+778
+00:26:55,480 --> 00:26:56,800
+Industries tend to concentrate
+
+779
+00:26:56,800 --> 00:26:58,520
+in whatever the rich people want.
+
+780
+00:26:58,520 --> 00:27:00,600
+But people are also forced to concentrate on whatever
+
+781
+00:27:00,600 --> 00:27:01,800
+the rich people want.
+
+782
+00:27:01,800 --> 00:27:03,760
+So poor people are forced to flood to the cities.
+
+783
+00:27:05,760 --> 00:27:07,440
+Places where the rich
+
+784
+00:27:07,440 --> 00:27:09,880
+are not living, become very economically deprived.
+
+785
+00:27:09,880 --> 00:27:11,120
+Places where the rich are living
+
+786
+00:27:11,120 --> 00:27:12,840
+become extremely expensive.
+
+787
+00:27:12,840 --> 00:27:15,400
+Rents become high,
+
+788
+00:27:15,400 --> 00:27:18,480
+and because the poor paying lots of money to the rich,
+
+789
+00:27:18,480 --> 00:27:20,000
+inequality tends to increase
+
+790
+00:27:20,000 --> 00:27:22,320
+and the situation tends to get worst year after year.
+
+791
+00:27:22,320 --> 00:27:23,040
+Okay, that's number two.
+
+792
+00:27:23,040 --> 00:27:23,600
+This is one of the more
+
+793
+00:27:23,600 --> 00:27:24,840
+depressing videos on the channel.
+
+794
+00:27:24,840 --> 00:27:26,480
+I suppose, but it's really important to understand it.
+
+795
+00:27:26,480 --> 00:27:27,920
+And you know,
+
+796
+00:27:27,920 --> 00:27:29,280
+I made a lot of money betting on these things.
+
+797
+00:27:29,280 --> 00:27:30,320
+I think it's what's happening,
+
+798
+00:27:30,320 --> 00:27:31,840
+it’s helped me to make the really good predictions
+
+799
+00:27:31,840 --> 00:27:33,560
+we've made on the channel.
+
+800
+00:27:33,560 --> 00:27:35,280
+Next video will cover why
+
+801
+00:27:35,280 --> 00:27:38,120
+economists never talk about it if it's so important.
+
+802
+00:27:38,120 --> 00:27:39,960
+And we'll keep building up more and more videos
+
+803
+00:27:39,960 --> 00:27:41,360
+to build a really comprehensive course
+
+804
+00:27:41,360 --> 00:27:43,520
+of how inequality affects the economy.
+
+805
+00:27:43,520 --> 00:27:45,040
+And that’s it, video done.

@@ -1,0 +1,3155 @@
+﻿1
+00:00:00,080 --> 00:00:01,920
+Okay. Welcome back to Garys Economics.
+
+2
+00:00:01,920 --> 00:00:03,680
+Today we are going to do the fourth part
+
+3
+00:00:03,680 --> 00:00:06,800
+of our online course about inequality and the economy.
+
+4
+00:00:06,800 --> 00:00:08,400
+And we are going to explain
+
+5
+00:00:08,400 --> 00:00:12,920
+why wealth inequality is a central problem.
+
+6
+00:00:12,920 --> 00:00:15,720
+Okay. So we're back on the course again.
+
+7
+00:00:15,720 --> 00:00:17,800
+So far we've had three episodes.
+
+8
+00:00:17,800 --> 00:00:20,280
+Episode one was What is Wealth?
+
+9
+00:00:20,280 --> 00:00:22,920
+Episode two was What is Wealth Inequality
+
+10
+00:00:22,920 --> 00:00:24,840
+and How Does It Affect The Economy?
+
+11
+00:00:24,840 --> 00:00:26,520
+And episode three was
+
+12
+00:00:26,520 --> 00:00:27,880
+If Inequality Is So Important,
+
+13
+00:00:27,880 --> 00:00:30,320
+Why Don't Most Economists Talk About It?
+
+14
+00:00:30,320 --> 00:00:32,640
+Today we are going to explain
+
+15
+00:00:32,640 --> 00:00:35,440
+how I came to travel from
+
+16
+00:00:35,440 --> 00:00:37,880
+being a classically trained economist,
+
+17
+00:00:37,880 --> 00:00:40,280
+I did my undergrad at London School of Economics,
+
+18
+00:00:40,280 --> 00:00:41,960
+and then I went to work in the city
+
+19
+00:00:41,960 --> 00:00:43,640
+to believing
+
+20
+00:00:43,640 --> 00:00:45,360
+that, basically, contrary
+
+21
+00:00:45,360 --> 00:00:47,880
+to most mainstream economic opinion,
+
+22
+00:00:47,880 --> 00:00:48,840
+wealth inequality
+
+23
+00:00:48,840 --> 00:00:50,840
+is actually the central problem
+
+24
+00:00:50,840 --> 00:00:52,400
+that we're facing right now.
+
+25
+00:00:52,400 --> 00:00:55,720
+Okay, so I studied economics from 2005
+
+26
+00:00:55,720 --> 00:00:58,320
+to 2008 at London School of Economics.
+
+27
+00:00:58,320 --> 00:01:00,960
+It's a very elite economics university.
+
+28
+00:01:00,960 --> 00:01:04,080
+It teaches economics in the classic way.
+
+29
+00:01:04,080 --> 00:01:05,840
+It doesn't look much at inequality.
+
+30
+00:01:05,840 --> 00:01:08,120
+So when I started my first job
+
+31
+00:01:08,120 --> 00:01:09,480
+outside of university,
+
+32
+00:01:09,480 --> 00:01:10,920
+which was as a short
+
+33
+00:01:10,920 --> 00:01:12,920
+term interest rates trader at Citibank,
+
+34
+00:01:12,920 --> 00:01:14,960
+I wasn't really thinking about inequality
+
+35
+00:01:14,960 --> 00:01:16,680
+or distribution at all.
+
+36
+00:01:16,680 --> 00:01:19,840
+I started working full time as a trader
+
+37
+00:01:19,840 --> 00:01:22,600
+in June of 2008,
+
+38
+00:01:22,600 --> 00:01:25,360
+which is obviously just before the Lehman crisis,
+
+39
+00:01:25,360 --> 00:01:31,760
+and a big part of my job and the job of my team was to
+
+40
+00:01:32,280 --> 00:01:34,000
+look at central bank base
+
+41
+00:01:34,000 --> 00:01:35,560
+rates, central bank interest rates.
+
+42
+00:01:36,800 --> 00:01:37,760
+So, for example, in this country,
+
+43
+00:01:37,760 --> 00:01:38,880
+the Bank of England, in the US,
+
+44
+00:01:38,880 --> 00:01:42,120
+the Federal Reserve and say, okay, what are they now?
+
+45
+00:01:42,120 --> 00:01:43,920
+What are they going to be in one years
+
+46
+00:01:43,920 --> 00:01:46,960
+time, in six months time, in two years time?
+
+47
+00:01:46,960 --> 00:01:49,360
+So this is kind of what you would call like
+
+48
+00:01:49,360 --> 00:01:53,040
+a macroeconomic analysis job in a way.
+
+49
+00:01:53,040 --> 00:01:56,600
+The central bank is supposed to control inflation
+
+50
+00:01:56,600 --> 00:01:59,200
+basically when the economy is weak, they cut the rates.
+
+51
+00:01:59,200 --> 00:02:00,480
+When the economy is strong
+
+52
+00:02:00,480 --> 00:02:02,600
+or when the economy is overheating,
+
+53
+00:02:02,600 --> 00:02:04,160
+from an inflation perspective,
+
+54
+00:02:04,160 --> 00:02:05,040
+they increase their rates.
+
+55
+00:02:05,040 --> 00:02:06,080
+So really what you're doing
+
+56
+00:02:06,080 --> 00:02:07,160
+is you're looking at the economy.
+
+57
+00:02:07,160 --> 00:02:09,480
+Is it going to be strong? Is it going to be weak?
+
+58
+00:02:09,480 --> 00:02:11,880
+That was my job. That was my team’s job.
+
+59
+00:02:11,880 --> 00:02:14,360
+I started there in June 2008,
+
+60
+00:02:14,360 --> 00:02:15,920
+which obviously is a few months
+
+61
+00:02:15,920 --> 00:02:16,880
+before the Lehman crisis.
+
+62
+00:02:17,960 --> 00:02:22,200
+In October 2008, the crisis sort of slowly bubbles.
+
+63
+00:02:22,200 --> 00:02:23,760
+In October it explodes.
+
+64
+00:02:23,760 --> 00:02:24,880
+Lehman goes under.
+
+65
+00:02:24,880 --> 00:02:26,440
+There's this massive economic collapse.
+
+66
+00:02:26,440 --> 00:02:27,840
+I guess some people who watch the channel now
+
+67
+00:02:27,840 --> 00:02:29,680
+might be too young to remember that!
+
+68
+00:02:29,680 --> 00:02:31,040
+There was this huge economic collapse.
+
+69
+00:02:31,040 --> 00:02:34,080
+Tonnes and tonnes of people lost their jobs.
+
+70
+00:02:34,080 --> 00:02:35,480
+It was an economic disaster.
+
+71
+00:02:35,480 --> 00:02:38,040
+And central banks all across the world,
+
+72
+00:02:38,040 --> 00:02:40,000
+including in the US, here in the UK,
+
+73
+00:02:40,000 --> 00:02:41,440
+Europe, Australia,
+
+74
+00:02:41,440 --> 00:02:43,840
+they all suddenly slashed their interest rates
+
+75
+00:02:43,840 --> 00:02:45,840
+down to zero.
+
+76
+00:02:45,840 --> 00:02:49,800
+This was like a really extreme measure at the time.
+
+77
+00:02:49,800 --> 00:02:52,720
+So we're doing this video in the beginning of 2025.
+
+78
+00:02:52,720 --> 00:02:55,360
+We had zero interest rates quite recently,
+
+79
+00:02:55,360 --> 00:02:59,760
+but at the time in 2008, zero interest rates,
+
+80
+00:02:59,760 --> 00:03:01,640
+they were like totally new.
+
+81
+00:03:01,640 --> 00:03:02,520
+Except for in Japan,
+
+82
+00:03:02,520 --> 00:03:04,080
+which they’d been happening for a while.
+
+83
+00:03:04,080 --> 00:03:07,000
+Like before the crisis, central banks
+
+84
+00:03:07,000 --> 00:03:11,600
+would move interest rates from like 5.5% to 5.25%.
+
+85
+00:03:11,600 --> 00:03:12,880
+It was really that kind of like
+
+86
+00:03:13,960 --> 00:03:15,560
+delicate fine tuning.
+
+87
+00:03:15,560 --> 00:03:18,360
+And then suddenly in 2008, you have,
+
+88
+00:03:18,360 --> 00:03:20,280
+oh my God, this is such a disaster.
+
+89
+00:03:20,280 --> 00:03:22,240
+They're being cut from like 5.5% to 0%.
+
+90
+00:03:22,240 --> 00:03:24,600
+Well, technically 0.5%, but this...
+
+91
+00:03:24,600 --> 00:03:26,160
+this kind of thing across the world,
+
+92
+00:03:26,160 --> 00:03:28,680
+effectively from 5.5% or 4.5%
+
+93
+00:03:28,680 --> 00:03:30,760
+down to 0% in a matter of,
+
+94
+00:03:30,760 --> 00:03:32,320
+you know, a couple of months,
+
+95
+00:03:32,320 --> 00:03:34,320
+massive, massive aggressive cuts.
+
+96
+00:03:34,320 --> 00:03:39,400
+So our job then as interest rate traders,
+
+97
+00:03:39,400 --> 00:03:41,280
+from the perspective of predicting
+
+98
+00:03:41,280 --> 00:03:44,280
+is to look at the economy and say, okay,
+
+99
+00:03:44,280 --> 00:03:46,320
+well how long are these rates going to stay at 0% then?
+
+100
+00:03:46,320 --> 00:03:47,880
+When are they going to come back up?
+
+101
+00:03:47,880 --> 00:03:49,320
+How quickly will they come back up?
+
+102
+00:03:49,320 --> 00:03:51,200
+What level will they go back up to?
+
+103
+00:03:51,200 --> 00:03:52,920
+And at the time,
+
+104
+00:03:52,920 --> 00:03:55,200
+because the interest rates
+
+105
+00:03:55,200 --> 00:03:57,120
+had been cut so aggressively,
+
+106
+00:03:58,200 --> 00:03:59,520
+and most of these
+
+107
+00:03:59,520 --> 00:04:03,080
+traders are aware of the basic economic theory,
+
+108
+00:04:03,080 --> 00:04:05,760
+probably worth covering what economists think here.
+
+109
+00:04:05,760 --> 00:04:11,760
+So this response, which happened in 2008,
+
+110
+00:04:11,880 --> 00:04:13,240
+basically the exact same response
+
+111
+00:04:13,240 --> 00:04:15,120
+we had in Covid, right, slash
+
+112
+00:04:15,120 --> 00:04:17,480
+the interest rates, pushed the interest rates down.
+
+113
+00:04:17,480 --> 00:04:22,840
+This is a very classic modern economic response, right?
+
+114
+00:04:22,840 --> 00:04:24,360
+This is how modern economists
+
+115
+00:04:24,360 --> 00:04:25,760
+want to manage the economy.
+
+116
+00:04:25,760 --> 00:04:28,920
+It's all about interest rate management.
+
+117
+00:04:28,920 --> 00:04:30,360
+There's an economic weakness.
+
+118
+00:04:30,360 --> 00:04:31,600
+You reduce the interest rates
+
+119
+00:04:31,600 --> 00:04:34,040
+and the economic theory is quite simple right.
+
+120
+00:04:34,040 --> 00:04:35,800
+Interest rates are lower.
+
+121
+00:04:35,800 --> 00:04:37,680
+You're not making any money for saving.
+
+122
+00:04:37,680 --> 00:04:40,560
+You can borrow cheaply. It's the same for businesses.
+
+123
+00:04:40,560 --> 00:04:43,680
+There's no point saving money. You can borrow cheaply.
+
+124
+00:04:43,680 --> 00:04:44,760
+Go out and spend.
+
+125
+00:04:44,760 --> 00:04:45,680
+Go out and spend money.
+
+126
+00:04:45,680 --> 00:04:48,680
+Borrow money, invest, build up your business.
+
+127
+00:04:48,680 --> 00:04:51,920
+Borrow and spend, it’s free, super cheap to borrow. And
+
+128
+00:04:52,920 --> 00:04:55,320
+bear in mind, right before
+
+129
+00:04:55,320 --> 00:04:59,240
+2008, we would cut the rate from 5.5% to 5.25% and
+
+130
+00:04:59,240 --> 00:05:01,360
+expect that to make like a significant difference, right.
+
+131
+00:05:01,360 --> 00:05:05,000
+So we believed and, economies still do believe,
+
+132
+00:05:05,000 --> 00:05:06,960
+that these small interest rate
+
+133
+00:05:06,960 --> 00:05:10,520
+changes make a big difference to the economy.
+
+134
+00:05:10,520 --> 00:05:13,760
+And during 2008, we had these massive changes.
+
+135
+00:05:13,760 --> 00:05:16,560
+And the general economic consensus on
+
+136
+00:05:16,560 --> 00:05:18,960
+that was and still is,
+
+137
+00:05:18,960 --> 00:05:21,080
+these stimulate the economy,
+
+138
+00:05:21,080 --> 00:05:22,600
+but it takes a bit of time,
+
+139
+00:05:22,600 --> 00:05:24,080
+takes generally
+
+140
+00:05:24,080 --> 00:05:26,080
+they like to say 18 months, a year
+
+141
+00:05:26,080 --> 00:05:28,000
+and a half, takes that sort of time
+
+142
+00:05:28,000 --> 00:05:29,960
+for these interest rate movements
+
+143
+00:05:29,960 --> 00:05:32,280
+to affect, influence the economy.
+
+144
+00:05:32,280 --> 00:05:33,440
+So when we had these massive,
+
+145
+00:05:33,440 --> 00:05:35,640
+massive interest rate cuts,
+
+146
+00:05:35,640 --> 00:05:36,840
+everybody was saying like,
+
+147
+00:05:36,840 --> 00:05:38,880
+oh my God, like, this might be too much.
+
+148
+00:05:38,880 --> 00:05:41,640
+We're going to see like a massive economic bounce back.
+
+149
+00:05:41,640 --> 00:05:43,840
+You know, you might see a spike in inflation.
+
+150
+00:05:43,840 --> 00:05:46,440
+People were even talking about hyper inflation.
+
+151
+00:05:46,440 --> 00:05:46,960
+And speaking
+
+152
+00:05:46,960 --> 00:05:48,000
+now in 2025,
+
+153
+00:05:48,000 --> 00:05:49,760
+I think you have to point out that a lot of this
+
+154
+00:05:49,760 --> 00:05:51,440
+narrative was quite similar
+
+155
+00:05:51,440 --> 00:05:53,000
+to the narrative during Covid,
+
+156
+00:05:53,000 --> 00:05:54,720
+which is when you have these massive,
+
+157
+00:05:54,720 --> 00:05:56,160
+massive movements in interest rates.
+
+158
+00:05:58,440 --> 00:06:00,480
+They're so economically stimulative
+
+159
+00:06:00,480 --> 00:06:02,600
+that we are going to see like a massive bounce back.
+
+160
+00:06:02,600 --> 00:06:04,400
+And, you know, people now
+
+161
+00:06:04,400 --> 00:06:08,160
+might not remember the media during the 2008 crisis,
+
+162
+00:06:08,160 --> 00:06:09,600
+but they'll probably remember
+
+163
+00:06:09,600 --> 00:06:11,040
+media saying during Covid,
+
+164
+00:06:11,040 --> 00:06:12,640
+we're going to have a roaring ‘20s.
+
+165
+00:06:12,640 --> 00:06:14,680
+There's going to be all this pent up demand.
+
+166
+00:06:14,680 --> 00:06:16,560
+In a lot of ways, it was quite similar.
+
+167
+00:06:16,560 --> 00:06:18,680
+People were saying these massive moves in interest
+
+168
+00:06:18,680 --> 00:06:21,320
+rates will cause massive economic stimulus.
+
+169
+00:06:21,320 --> 00:06:23,520
+And basically
+
+170
+00:06:23,520 --> 00:06:24,440
+when you're a trader,
+
+171
+00:06:24,440 --> 00:06:25,720
+you can just look at the markets, right.
+
+172
+00:06:25,720 --> 00:06:27,360
+And the markets will say,
+
+173
+00:06:27,360 --> 00:06:30,120
+we think interest rates next year will be x, right.
+
+174
+00:06:30,120 --> 00:06:31,200
+So interest rates
+
+175
+00:06:31,200 --> 00:06:33,360
+went down to like 0.5% here in the UK.
+
+176
+00:06:33,360 --> 00:06:36,040
+Pretty much the same in the US, Europe.
+
+177
+00:06:36,040 --> 00:06:37,680
+And you can say what would they be next year?
+
+178
+00:06:37,680 --> 00:06:39,040
+What will they be in two years time?
+
+179
+00:06:39,040 --> 00:06:39,840
+And everybody was like,
+
+180
+00:06:39,840 --> 00:06:42,040
+well we're gonna have such a big bounce back
+
+181
+00:06:42,040 --> 00:06:42,960
+that these interest rates are going
+
+182
+00:06:42,960 --> 00:06:44,160
+to come massively up.
+
+183
+00:06:45,920 --> 00:06:48,680
+I was really young, I was only 21...
+
+184
+00:06:48,680 --> 00:06:51,720
+well I turned 22, during the Lehman crisis,
+
+185
+00:06:51,720 --> 00:06:53,960
+very young,
+
+186
+00:06:53,960 --> 00:06:56,520
+naive, inexperienced trader,
+
+187
+00:06:56,520 --> 00:06:58,440
+fresh out of university studying economics.
+
+188
+00:06:58,440 --> 00:07:00,160
+So I just...
+
+189
+00:07:00,160 --> 00:07:02,400
+you just... you kind of accept it, right.
+
+190
+00:07:02,400 --> 00:07:03,480
+I was busy, you know,
+
+191
+00:07:03,480 --> 00:07:05,040
+trying to make money in other ways.
+
+192
+00:07:05,040 --> 00:07:06,720
+There was a lot of sort of kind of easy money
+
+193
+00:07:06,720 --> 00:07:08,920
+to be made at that time in my area.
+
+194
+00:07:08,920 --> 00:07:10,080
+And I just kind of accepted,
+
+195
+00:07:10,080 --> 00:07:13,680
+I wasn't really getting too involved in, you know,
+
+196
+00:07:13,680 --> 00:07:15,400
+looking at these economic predictions
+
+197
+00:07:15,400 --> 00:07:17,520
+and like most 22 year olds
+
+198
+00:07:17,520 --> 00:07:19,800
+fresh out of economics university,
+
+199
+00:07:19,800 --> 00:07:21,600
+I thought, well, yeah, they’re probably right.
+
+200
+00:07:21,600 --> 00:07:22,920
+They probably know they're talking about.
+
+201
+00:07:22,920 --> 00:07:26,640
+And I expected, like everybody else, rapid recovery,
+
+202
+00:07:26,640 --> 00:07:28,760
+rapid bounce back in interest rates.
+
+203
+00:07:29,760 --> 00:07:31,600
+Obviously, we know now that didn't happen.
+
+204
+00:07:31,600 --> 00:07:34,200
+So I sat through 2009
+
+205
+00:07:34,200 --> 00:07:36,640
+and the interest rates didn't go up.
+
+206
+00:07:36,640 --> 00:07:39,840
+And people were kind of saying,
+
+207
+00:07:39,840 --> 00:07:42,040
+well, you know, it takes 18 months.
+
+208
+00:07:42,040 --> 00:07:44,960
+So, you know, this was a particularly bad crisis.
+
+209
+00:07:44,960 --> 00:07:46,840
+Maybe it's going to take a little bit longer,
+
+210
+00:07:46,840 --> 00:07:48,360
+give it a bit more time.
+
+211
+00:07:48,360 --> 00:07:50,040
+So we get to the end of 2009
+
+212
+00:07:50,040 --> 00:07:51,600
+and the narrative is kind of unchanged.
+
+213
+00:07:51,600 --> 00:07:54,000
+Okay, we were wrong, rates haven't gone up yet,
+
+214
+00:07:54,000 --> 00:07:57,280
+but next year rates will definitely go up.
+
+215
+00:07:57,280 --> 00:07:58,800
+Obviously again, we know now
+
+216
+00:07:58,800 --> 00:08:01,280
+we sat through the whole of 2010
+
+217
+00:08:01,280 --> 00:08:04,520
+and rate stayed 0% all across the world.
+
+218
+00:08:04,520 --> 00:08:06,480
+And you know, I'm getting a bit older,
+
+219
+00:08:06,480 --> 00:08:09,920
+getting a bit more experienced by the end of 2010.
+
+220
+00:08:09,920 --> 00:08:11,360
+I would have just turned 24
+
+221
+00:08:11,360 --> 00:08:12,960
+and I've got a couple of years
+
+222
+00:08:12,960 --> 00:08:14,680
+experience as a trader now.
+
+223
+00:08:14,680 --> 00:08:18,040
+We get into the beginning of 2011
+
+224
+00:08:18,040 --> 00:08:20,080
+and a lot of people don't remember this,
+
+225
+00:08:20,080 --> 00:08:25,080
+but there was a kind of mini inflation crisis in 2011
+
+226
+00:08:25,080 --> 00:08:28,080
+that was quite similar in a lot of ways,
+
+227
+00:08:28,080 --> 00:08:29,480
+although less extreme
+
+228
+00:08:29,480 --> 00:08:32,400
+than the inflation crisis we had just after Covid,
+
+229
+00:08:32,400 --> 00:08:34,440
+which was inflation shot up,
+
+230
+00:08:34,440 --> 00:08:36,960
+it was much higher than the 2% target,
+
+231
+00:08:36,960 --> 00:08:39,080
+I think, going up in this country to nearly 6%.
+
+232
+00:08:39,080 --> 00:08:40,720
+I don't think ever quite hit 6%.
+
+233
+00:08:40,720 --> 00:08:43,240
+It was driven primarily by energy and food,
+
+234
+00:08:43,240 --> 00:08:44,320
+similarly to Covid.
+
+235
+00:08:44,320 --> 00:08:45,200
+So we had this inflation
+
+236
+00:08:45,200 --> 00:08:47,880
+crisis coming in in the beginning of 2011,
+
+237
+00:08:47,880 --> 00:08:48,840
+and then people were like,
+
+238
+00:08:48,840 --> 00:08:51,880
+well, this is really going to be it now, you know,
+
+239
+00:08:51,880 --> 00:08:53,560
+we not only have
+
+240
+00:08:53,560 --> 00:08:56,360
+we got all this money flooding in and governments
+
+241
+00:08:56,360 --> 00:08:59,000
+are running a massive deficit, similarly to Covid.
+
+242
+00:08:59,000 --> 00:09:01,000
+We had this quantitative easing programs
+
+243
+00:09:01,000 --> 00:09:01,960
+which are designed to push
+
+244
+00:09:01,960 --> 00:09:03,200
+even more money into the economy.
+
+245
+00:09:03,200 --> 00:09:06,000
+So you've got zero interest rates, quantitative easing,
+
+246
+00:09:06,000 --> 00:09:07,040
+massive government deficits,
+
+247
+00:09:07,040 --> 00:09:08,120
+just like Covid,
+
+248
+00:09:08,120 --> 00:09:08,880
+all this money
+
+249
+00:09:08,880 --> 00:09:10,520
+getting pushed in, so much money getting pushed in
+
+250
+00:09:10,520 --> 00:09:13,240
+and now you're starting to see inflation go.
+
+251
+00:09:13,240 --> 00:09:15,240
+And everybody at the beginning of 2011 was like,
+
+252
+00:09:15,240 --> 00:09:18,840
+well now it's really, really going to happen.
+
+253
+00:09:18,840 --> 00:09:23,760
+And by then I was 24 and I'd witnessed,
+
+254
+00:09:23,760 --> 00:09:26,200
+you know, two and a half years,
+
+255
+00:09:26,200 --> 00:09:28,560
+three years really of like really,
+
+256
+00:09:28,560 --> 00:09:29,560
+really bad
+
+257
+00:09:29,560 --> 00:09:34,080
+economic predictions by not just the traders, like,
+
+258
+00:09:34,080 --> 00:09:36,200
+this is pretty much a broad economic consensus.
+
+259
+00:09:36,200 --> 00:09:38,000
+You’re always going to get a few people who disagree.
+
+260
+00:09:38,000 --> 00:09:40,360
+But most traders, most economists
+
+261
+00:09:40,360 --> 00:09:41,680
+said the same thing throughout.
+
+262
+00:09:41,680 --> 00:09:41,880
+You know,
+
+263
+00:09:41,880 --> 00:09:44,160
+they didn't predict the 2008 financial crisis.
+
+264
+00:09:44,160 --> 00:09:45,480
+There was this famous moment
+
+265
+00:09:45,480 --> 00:09:47,720
+when did you know the Queen visited LSE,
+
+266
+00:09:47,720 --> 00:09:48,840
+did you hear about this?
+
+267
+00:09:48,840 --> 00:09:50,640
+The Queen visited LSE
+
+268
+00:09:50,640 --> 00:09:52,600
+and, just on some sort of visit,
+
+269
+00:09:52,600 --> 00:09:53,640
+and she asked one of the professor,
+
+270
+00:09:53,640 --> 00:09:55,880
+so why didn't you predict the economic crisis then?
+
+271
+00:09:57,040 --> 00:09:59,560
+Yeah, 2008 crisis comes,
+
+272
+00:09:59,560 --> 00:10:01,520
+you know, some sort of lone voices called it,
+
+273
+00:10:01,520 --> 00:10:03,120
+but in general, the economic establishment
+
+274
+00:10:03,120 --> 00:10:04,000
+hadn't predicted it.
+
+275
+00:10:04,000 --> 00:10:05,720
+Definitely nothing of that scale.
+
+276
+00:10:05,720 --> 00:10:08,040
+2009 big recovery didn't happen.
+
+277
+00:10:08,040 --> 00:10:10,440
+2010 big recovery didn't happen.
+
+278
+00:10:10,440 --> 00:10:11,920
+We’re sitting at the beginning of 2011
+
+279
+00:10:11,920 --> 00:10:12,600
+and everybody's like,
+
+280
+00:10:12,600 --> 00:10:13,920
+now we're going to have a massive recovery.
+
+281
+00:10:13,920 --> 00:10:17,560
+And I had started to become
+
+282
+00:10:17,560 --> 00:10:19,640
+like very cynical, basically.
+
+283
+00:10:19,640 --> 00:10:20,640
+I was making a half million
+
+284
+00:10:20,640 --> 00:10:21,440
+pound a year
+
+285
+00:10:21,440 --> 00:10:22,680
+in my early 20s,
+
+286
+00:10:22,680 --> 00:10:27,120
+and people around me are obviously making millions.
+
+287
+00:10:27,120 --> 00:10:30,640
+And you see them just consistently wrong.
+
+288
+00:10:30,640 --> 00:10:33,280
+You start to get to know these guys. And I was lucky.
+
+289
+00:10:33,280 --> 00:10:36,160
+Like, I worked with some really smart people.
+
+290
+00:10:36,160 --> 00:10:38,160
+But if you...
+
+291
+00:10:38,160 --> 00:10:39,320
+the majority of the people
+
+292
+00:10:39,320 --> 00:10:41,160
+on the trading floor, to be honest,
+
+293
+00:10:41,160 --> 00:10:45,000
+these are just basically guys from rich families.
+
+294
+00:10:45,000 --> 00:10:46,640
+And I think if you come from a rich family,
+
+295
+00:10:46,640 --> 00:10:49,440
+it's kind of the norm to end up at an elite university
+
+296
+00:10:49,440 --> 00:10:51,720
+and get a job like something on the trading floor.
+
+297
+00:10:51,720 --> 00:10:54,480
+So you know, you sit there two and a half years,
+
+298
+00:10:54,480 --> 00:10:56,320
+you start to realise, like, actually
+
+299
+00:10:56,320 --> 00:10:58,960
+most of the guys making these calls, the economists,
+
+300
+00:10:58,960 --> 00:11:02,280
+the traders, and they're consistently wrong.
+
+301
+00:11:02,280 --> 00:11:04,800
+They've been wrong here for like three years. And,
+
+302
+00:11:05,840 --> 00:11:07,200
+you know, my job was
+
+303
+00:11:07,200 --> 00:11:07,800
+to be a trader,
+
+304
+00:11:07,800 --> 00:11:09,240
+so if you can out predict
+
+305
+00:11:09,240 --> 00:11:11,000
+these guys you can make a lot of money.
+
+306
+00:11:11,000 --> 00:11:12,960
+So I'm not going to pretend
+
+307
+00:11:12,960 --> 00:11:17,320
+that my motivation was at all altruistic.
+
+308
+00:11:17,320 --> 00:11:18,480
+It was like,
+
+309
+00:11:18,480 --> 00:11:22,200
+you know, here I am, top degree from a top university
+
+310
+00:11:22,200 --> 00:11:24,400
+on one of the biggest trading floors in the world.
+
+311
+00:11:24,400 --> 00:11:25,480
+And you start realising,
+
+312
+00:11:25,480 --> 00:11:27,600
+these guys around me, they just wrong.
+
+313
+00:11:27,600 --> 00:11:30,280
+They just wrong. They're wrong every year.
+
+314
+00:11:30,280 --> 00:11:32,320
+And you start realising, well,
+
+315
+00:11:32,320 --> 00:11:34,360
+I'm in as good a situation as anybody
+
+316
+00:11:34,360 --> 00:11:36,760
+to figure out why these guys are wrong, basically.
+
+317
+00:11:36,760 --> 00:11:36,960
+You know,
+
+318
+00:11:36,960 --> 00:11:39,480
+I've got the elite degree just like everybody else.
+
+319
+00:11:39,480 --> 00:11:41,120
+You know, I'm in the best place.
+
+320
+00:11:41,120 --> 00:11:42,480
+These are the top paid economists.
+
+321
+00:11:42,480 --> 00:11:44,400
+These are the top paid traders.
+
+322
+00:11:44,400 --> 00:11:45,000
+And they're wrong.
+
+323
+00:11:45,000 --> 00:11:46,720
+So it was actually really exciting,
+
+324
+00:11:46,720 --> 00:11:48,640
+this exciting realisation
+
+325
+00:11:48,640 --> 00:11:51,240
+that you're here
+
+326
+00:11:51,240 --> 00:11:53,760
+on the cutting edge of like a really important thing,
+
+327
+00:11:53,760 --> 00:11:55,920
+like economics and everybody's wrong.
+
+328
+00:11:55,920 --> 00:11:59,040
+So we need to figure out why they're wrong.
+
+329
+00:11:59,040 --> 00:12:01,440
+Because if we can, we can make a ton of money.
+
+330
+00:12:01,440 --> 00:12:05,000
+So I started to think a lot about, okay,
+
+331
+00:12:05,000 --> 00:12:06,480
+well what's the theory?
+
+332
+00:12:06,480 --> 00:12:07,680
+And I'll explain the theory to you,
+
+333
+00:12:07,680 --> 00:12:10,280
+which is low interest rates get people spending
+
+334
+00:12:10,280 --> 00:12:12,880
+because it's cheap to borrow money.
+
+335
+00:12:12,880 --> 00:12:14,240
+There's no point saving money.
+
+336
+00:12:14,240 --> 00:12:15,480
+So people should be spending
+
+337
+00:12:15,480 --> 00:12:16,920
+and all the economic theory says
+
+338
+00:12:16,920 --> 00:12:18,000
+that people should be spending,
+
+339
+00:12:18,000 --> 00:12:20,040
+people should be spending, people should be spending.
+
+340
+00:12:20,040 --> 00:12:22,440
+And yet there I was, early 2011,
+
+341
+00:12:22,440 --> 00:12:24,040
+and people were not spending.
+
+342
+00:12:24,040 --> 00:12:25,920
+So there's...
+
+343
+00:12:25,920 --> 00:12:28,600
+what you can do then, and what I was able to do is,
+
+344
+00:12:28,600 --> 00:12:30,480
+you can kind of boil down
+
+345
+00:12:31,480 --> 00:12:33,120
+this really important economic problem of
+
+346
+00:12:33,120 --> 00:12:35,880
+why is the economy like consistently sh*t?
+
+347
+00:12:35,880 --> 00:12:39,720
+To a much more objective answerable
+
+348
+00:12:39,720 --> 00:12:43,080
+question of why aren't people spending money?
+
+349
+00:12:43,080 --> 00:12:45,280
+And I spent a lot of time
+
+350
+00:12:45,280 --> 00:12:46,800
+thinking about that simple question of,
+
+351
+00:12:46,800 --> 00:12:47,880
+why aren't people spending money?
+
+352
+00:12:47,880 --> 00:12:52,280
+And, you know, I was young, I was 24.
+
+353
+00:12:52,280 --> 00:12:54,640
+You don't know that much when you’re 24.
+
+354
+00:12:54,640 --> 00:12:55,960
+I just went and started asking people,
+
+355
+00:12:55,960 --> 00:12:58,200
+and I think this is where I had quite a big advantage
+
+356
+00:12:58,200 --> 00:13:00,840
+over a lot of other economists, a lot of other traders,
+
+357
+00:13:00,840 --> 00:13:03,400
+because I come from a poor background,
+
+358
+00:13:03,400 --> 00:13:07,800
+I was just a lot closer to just ordinary people.
+
+359
+00:13:07,800 --> 00:13:09,000
+And, you know,
+
+360
+00:13:09,000 --> 00:13:11,440
+if you ask ordinary people, and I did
+
+361
+00:13:11,440 --> 00:13:13,680
+and I think this is a really useful thing to do,
+
+362
+00:13:13,680 --> 00:13:16,000
+if you ask them, why don't you spend more money?
+
+363
+00:13:16,000 --> 00:13:16,640
+You know, the answer
+
+364
+00:13:16,640 --> 00:13:17,640
+then was exactly the same
+
+365
+00:13:17,640 --> 00:13:19,160
+as what the answer now would be.
+
+366
+00:13:19,160 --> 00:13:21,360
+The vast majority of people just said, well,
+
+367
+00:13:21,360 --> 00:13:23,080
+I don't spend any money
+
+368
+00:13:23,080 --> 00:13:24,520
+because I don't have any more money.
+
+369
+00:13:24,520 --> 00:13:25,760
+Most people were basically,
+
+370
+00:13:25,760 --> 00:13:28,680
+you know, money in, money out, you know,
+
+371
+00:13:28,680 --> 00:13:30,920
+very often money in was less than money out.
+
+372
+00:13:30,920 --> 00:13:32,280
+You know, they were struggling to spend money.
+
+373
+00:13:32,280 --> 00:13:35,600
+And I think this is where my experience was different
+
+374
+00:13:35,600 --> 00:13:37,400
+from a lot of economists and a lot of traders,
+
+375
+00:13:37,400 --> 00:13:38,760
+because if you were to ask people
+
+376
+00:13:38,760 --> 00:13:40,080
+from rich families that,
+
+377
+00:13:40,080 --> 00:13:40,920
+they can't say that
+
+378
+00:13:40,920 --> 00:13:41,800
+and they wouldn't say
+
+379
+00:13:41,800 --> 00:13:42,840
+they that, it wouldn’t makes sense to say that.
+
+380
+00:13:42,840 --> 00:13:44,880
+Most people from rich families,
+
+381
+00:13:44,880 --> 00:13:46,560
+they're not constrained by their income.
+
+382
+00:13:46,560 --> 00:13:48,080
+Their income is more than their expenditure.
+
+383
+00:13:48,080 --> 00:13:49,320
+They save every month.
+
+384
+00:13:49,320 --> 00:13:53,520
+So what I was seeing was, I think, the correct answer
+
+385
+00:13:53,520 --> 00:13:54,920
+to the very simple question,
+
+386
+00:13:54,920 --> 00:13:56,880
+why aren't people spending money,
+
+387
+00:13:56,880 --> 00:13:59,000
+which is the core question of why is the economy weak,
+
+388
+00:13:59,000 --> 00:14:01,240
+which was that people didn't have any money.
+
+389
+00:14:01,240 --> 00:14:03,520
+And that sat in my head for a bit.
+
+390
+00:14:03,520 --> 00:14:06,680
+And at the time I was working with, I had hired,
+
+391
+00:14:07,960 --> 00:14:09,560
+a junior trader, an Italian guy.
+
+392
+00:14:09,560 --> 00:14:11,840
+He’s in the book, so I can't use his real name.
+
+393
+00:14:11,840 --> 00:14:12,920
+In the book he’s called Titzy.
+
+394
+00:14:12,920 --> 00:14:15,800
+Really smart kid, Italian kid,
+
+395
+00:14:15,800 --> 00:14:19,400
+went to Bocconi which is basically the Italian LSE,
+
+396
+00:14:19,400 --> 00:14:22,400
+and I sort of like, I poke this question around at him.
+
+397
+00:14:22,400 --> 00:14:26,640
+Okay, well why why maybe people don't have any money.
+
+398
+00:14:26,640 --> 00:14:28,560
+And he would say,
+
+399
+00:14:28,560 --> 00:14:29,800
+and we would discuss the fact
+
+400
+00:14:29,800 --> 00:14:31,200
+that it's kind of impossible
+
+401
+00:14:31,200 --> 00:14:32,520
+for nobody to have any money.
+
+402
+00:14:32,520 --> 00:14:33,600
+And we've done videos on this channel
+
+403
+00:14:33,600 --> 00:14:35,360
+about what is money, this kind of thing.
+
+404
+00:14:35,360 --> 00:14:36,960
+Money is basically a spreadsheet.
+
+405
+00:14:36,960 --> 00:14:37,920
+There's winners and losers.
+
+406
+00:14:37,920 --> 00:14:39,440
+It has to balance out. It has to add up.
+
+407
+00:14:39,440 --> 00:14:41,520
+That is the way our current monetary system works.
+
+408
+00:14:41,520 --> 00:14:43,320
+It doesn't make sense to say, like,
+
+409
+00:14:43,320 --> 00:14:44,400
+nobody has any money.
+
+410
+00:14:44,400 --> 00:14:46,320
+And furthermore, beyond that,
+
+411
+00:14:46,320 --> 00:14:49,080
+like other than money, there exists real wealth.
+
+412
+00:14:49,080 --> 00:14:50,720
+You know, we covered it on part one, What is Wealth?
+
+413
+00:14:50,720 --> 00:14:51,080
+And, you know,
+
+414
+00:14:51,080 --> 00:14:52,720
+the wealth wasn't disappearing, you know.
+
+415
+00:14:52,720 --> 00:14:54,240
+The houses are still here, you know,
+
+416
+00:14:54,240 --> 00:14:55,400
+the resources are still here,
+
+417
+00:14:55,400 --> 00:14:56,760
+the businesses are still here,
+
+418
+00:14:56,760 --> 00:14:58,800
+the buildings are still here.
+
+419
+00:14:58,800 --> 00:15:00,000
+And that's what most of wealth is.
+
+420
+00:15:00,000 --> 00:15:03,440
+So, you know, the wealth is not disappearing.
+
+421
+00:15:03,440 --> 00:15:04,800
+Somebody has to have the money.
+
+422
+00:15:04,800 --> 00:15:05,720
+And yet when you ask people,
+
+423
+00:15:05,720 --> 00:15:06,480
+why don't they spend money?
+
+424
+00:15:06,480 --> 00:15:07,920
+They're like, well, I don't have any money.
+
+425
+00:15:07,920 --> 00:15:09,080
+And this kind of didn't make any sense.
+
+426
+00:15:09,080 --> 00:15:12,520
+And that was bouncing around in my head, early 2011.
+
+427
+00:15:12,520 --> 00:15:15,240
+And then I got called into a meeting.
+
+428
+00:15:15,240 --> 00:15:17,320
+So I was still a junior traded then, but I used to...
+
+429
+00:15:17,320 --> 00:15:19,680
+the previous manager had allowed me to come
+
+430
+00:15:19,680 --> 00:15:20,400
+to like the meeting
+
+431
+00:15:20,400 --> 00:15:23,000
+of all the senior managers to bring the sandwiches.
+
+432
+00:15:23,000 --> 00:15:25,440
+So I was able to go to these like quite senior
+
+433
+00:15:25,440 --> 00:15:26,400
+economist meetings,
+
+434
+00:15:27,400 --> 00:15:30,080
+and a really good Citibank economist...
+
+435
+00:15:30,080 --> 00:15:31,520
+I'm sometimes quite mean about economists,
+
+436
+00:15:31,520 --> 00:15:32,400
+but there are good ones.
+
+437
+00:15:32,400 --> 00:15:33,720
+And I thought this guy was a good economist.
+
+438
+00:15:33,720 --> 00:15:35,520
+He showed us all these slides
+
+439
+00:15:35,520 --> 00:15:37,240
+going through the fiscal situation,
+
+440
+00:15:37,240 --> 00:15:38,880
+the financial position
+
+441
+00:15:38,880 --> 00:15:41,000
+of a lot of major world governments.
+
+442
+00:15:41,000 --> 00:15:43,560
+So you probably remember maybe some people don't.
+
+443
+00:15:43,560 --> 00:15:45,120
+In 2011,
+
+444
+00:15:45,120 --> 00:15:46,360
+after this meeting,
+
+445
+00:15:46,360 --> 00:15:49,200
+there was a crisis of the financial position
+
+446
+00:15:49,200 --> 00:15:50,720
+of major European governments,
+
+447
+00:15:50,720 --> 00:15:52,080
+and it was centered on
+
+448
+00:15:52,080 --> 00:15:54,600
+Italy, Greece, Spain,
+
+449
+00:15:54,600 --> 00:15:55,920
+Portugal, Ireland,
+
+450
+00:15:55,920 --> 00:15:57,760
+were the ones who were central in it.
+
+451
+00:15:57,760 --> 00:15:59,920
+Before that crisis blew up, this guy kind of spotted
+
+452
+00:15:59,920 --> 00:16:01,560
+oh this could blow up.
+
+453
+00:16:01,560 --> 00:16:02,280
+And he said, well,
+
+454
+00:16:02,280 --> 00:16:03,720
+if you look at all of these countries,
+
+455
+00:16:03,720 --> 00:16:08,080
+they're spending more than they make every year.
+
+456
+00:16:08,080 --> 00:16:09,360
+They're having to sell their assets,
+
+457
+00:16:09,360 --> 00:16:10,480
+they're going into debt.
+
+458
+00:16:10,480 --> 00:16:11,800
+And it wasn't just those countries
+
+459
+00:16:11,800 --> 00:16:13,560
+that were central in that 2011 crisis.
+
+460
+00:16:13,560 --> 00:16:15,760
+The situation in the UK was not much better.
+
+461
+00:16:15,760 --> 00:16:17,280
+Situation of the US, not much better.
+
+462
+00:16:17,280 --> 00:16:18,880
+Situation in Japan, not much better. So
+
+463
+00:16:20,160 --> 00:16:21,760
+what you have here is basically governments
+
+464
+00:16:21,760 --> 00:16:25,200
+also can't spend because they don’t have any more money
+
+465
+00:16:25,200 --> 00:16:26,160
+and they're running their wealth down.
+
+466
+00:16:26,160 --> 00:16:27,760
+And that really reminded me of
+
+467
+00:16:27,760 --> 00:16:30,120
+when my friend said, we don't have any more money.
+
+468
+00:16:30,120 --> 00:16:32,000
+You know, I didn't...
+
+469
+00:16:32,000 --> 00:16:34,000
+I didn't just accept that face value.
+
+470
+00:16:34,000 --> 00:16:35,160
+I kind of dug into a little bit
+
+471
+00:16:35,160 --> 00:16:36,000
+where I could
+
+472
+00:16:36,000 --> 00:16:37,880
+and what I kind of found was the big,
+
+473
+00:16:37,880 --> 00:16:41,400
+the big problem for my friends and their families was
+
+474
+00:16:41,400 --> 00:16:42,360
+the kids couldn't
+
+475
+00:16:42,360 --> 00:16:45,480
+see how they would ever be able to afford a property.
+
+476
+00:16:45,480 --> 00:16:47,000
+And what's important about that
+
+477
+00:16:47,000 --> 00:16:51,360
+is so, I'm 38 now, In 2011, I was in my mid 20s.
+
+478
+00:16:51,360 --> 00:16:53,040
+Our parents generation, you know,
+
+479
+00:16:53,040 --> 00:16:55,000
+even my parents, I come from quite a poor background.
+
+480
+00:16:55,000 --> 00:16:56,160
+They all own property.
+
+481
+00:16:56,160 --> 00:16:56,560
+You know,
+
+482
+00:16:56,560 --> 00:16:57,400
+I went to grammar school,
+
+483
+00:16:57,400 --> 00:16:59,760
+so I didn't know like the poorest people.
+
+484
+00:16:59,760 --> 00:17:00,320
+But, you know,
+
+485
+00:17:00,320 --> 00:17:02,120
+most of my parents generation, they own property.
+
+486
+00:17:02,120 --> 00:17:04,320
+They own property. And yet my generation
+
+487
+00:17:05,440 --> 00:17:07,920
+could in many cases never afford to own property.
+
+488
+00:17:07,920 --> 00:17:08,960
+So what you are seeing
+
+489
+00:17:08,960 --> 00:17:10,200
+there is the families,
+
+490
+00:17:10,200 --> 00:17:11,600
+ordinary families
+
+491
+00:17:11,600 --> 00:17:13,040
+going over time
+
+492
+00:17:13,040 --> 00:17:16,480
+from being property owning to not property owning.
+
+493
+00:17:16,480 --> 00:17:19,640
+And I think once you understand that,
+
+494
+00:17:19,640 --> 00:17:21,560
+it doesn't make any sense to really ask the question of
+
+495
+00:17:21,560 --> 00:17:22,600
+why don't you spend more money?
+
+496
+00:17:22,600 --> 00:17:23,640
+Because what you recognise
+
+497
+00:17:23,640 --> 00:17:26,160
+then is these guys, their wealth
+
+498
+00:17:26,160 --> 00:17:27,200
+trajectory over
+
+499
+00:17:27,200 --> 00:17:29,680
+time is going down to zero,
+
+500
+00:17:29,680 --> 00:17:31,280
+which means the family as a whole
+
+501
+00:17:31,280 --> 00:17:33,520
+spending more than their income.
+
+502
+00:17:33,520 --> 00:17:35,280
+And if you're already spending more than your income,
+
+503
+00:17:35,280 --> 00:17:37,680
+you can't long term spend more.
+
+504
+00:17:37,680 --> 00:17:40,080
+And then I went into this meeting about governments.
+
+505
+00:17:40,080 --> 00:17:41,760
+And it's basically the same.
+
+506
+00:17:41,760 --> 00:17:43,680
+Families spending more on their income,
+
+507
+00:17:43,680 --> 00:17:46,280
+losing their assets, going into debt.
+
+508
+00:17:46,280 --> 00:17:48,560
+Governments losing their income...
+
+509
+00:17:48,560 --> 00:17:49,680
+spending more than their income,
+
+510
+00:17:49,680 --> 00:17:51,840
+losing assets, going into debt.
+
+511
+00:17:51,840 --> 00:17:53,840
+And the thing...
+
+512
+00:17:53,840 --> 00:17:54,320
+you might think
+
+513
+00:17:54,320 --> 00:17:55,880
+I came out of that meeting thinking like,
+
+514
+00:17:55,880 --> 00:17:57,560
+oh my God, like, this is a disaster,
+
+515
+00:17:57,560 --> 00:17:58,680
+Western countries are going to collapse.
+
+516
+00:17:58,680 --> 00:18:00,000
+But what was really in
+
+517
+00:18:00,000 --> 00:18:06,000
+my head was the kind of systemic impossibility of this.
+
+518
+00:18:06,320 --> 00:18:07,920
+It's not possible
+
+519
+00:18:07,920 --> 00:18:11,040
+for everyone to spend more than their income.
+
+520
+00:18:11,040 --> 00:18:12,360
+It's not possible.
+
+521
+00:18:12,360 --> 00:18:15,560
+As a society. Spending and income has to be the same.
+
+522
+00:18:15,560 --> 00:18:17,760
+You can only consume what you produce.
+
+523
+00:18:17,760 --> 00:18:20,000
+This is, this is the way that it is.
+
+524
+00:18:20,000 --> 00:18:22,320
+And it's not possible for everybody to go into debt.
+
+525
+00:18:22,320 --> 00:18:24,440
+And we've done videos on this, videos on this,
+
+526
+00:18:24,440 --> 00:18:26,280
+but and you can go look at them.
+
+527
+00:18:26,280 --> 00:18:29,160
+But if one group goes into debt,
+
+528
+00:18:29,160 --> 00:18:30,280
+some group must be accumulating
+
+529
+00:18:30,280 --> 00:18:32,160
+credit, like this has to balance out.
+
+530
+00:18:32,160 --> 00:18:33,000
+And it's not possible
+
+531
+00:18:33,000 --> 00:18:34,440
+for everybody to lose their assets.
+
+532
+00:18:34,440 --> 00:18:37,400
+Not unless there's been an earthquake,
+
+533
+00:18:37,400 --> 00:18:38,120
+which they hadn't been.
+
+534
+00:18:38,120 --> 00:18:39,480
+You know, the assets that existed. Right.
+
+535
+00:18:39,480 --> 00:18:41,960
+So I was just sitting there and I was thinking,
+
+536
+00:18:43,640 --> 00:18:45,760
+people aren't spending
+
+537
+00:18:45,760 --> 00:18:49,080
+because they're losing their assets.
+
+538
+00:18:49,080 --> 00:18:50,360
+Which means they’re actually spending more
+
+539
+00:18:50,360 --> 00:18:52,440
+than they can possibly spend.
+
+540
+00:18:52,440 --> 00:18:53,520
+Governments aren't spending
+
+541
+00:18:53,520 --> 00:18:55,760
+because they're losing their assets,
+
+542
+00:18:55,760 --> 00:18:56,760
+which means that they're spending more
+
+543
+00:18:56,760 --> 00:18:59,800
+than they can possibly spend in the long run.
+
+544
+00:18:59,800 --> 00:19:02,160
+It just doesn't balance.
+
+545
+00:19:02,160 --> 00:19:04,000
+It's not possible. Where are they?
+
+546
+00:19:04,000 --> 00:19:08,240
+It was as if everything was like being taken by aliens,
+
+547
+00:19:08,240 --> 00:19:09,480
+you know, as if all of the assets.
+
+548
+00:19:09,480 --> 00:19:10,840
+And then obviously
+
+549
+00:19:10,840 --> 00:19:15,240
+I'm sitting there on the Citibank trading floor
+
+550
+00:19:15,240 --> 00:19:17,880
+as somebody who had been paid nearly £500,000
+
+551
+00:19:17,880 --> 00:19:20,880
+the previous two years surrounded by millionaires.
+
+552
+00:19:20,880 --> 00:19:22,480
+And then you just suddenly realise like,
+
+553
+00:19:22,480 --> 00:19:24,600
+oh my God, like
+
+554
+00:19:24,600 --> 00:19:27,360
+we are the balance or the balance is us, like and
+
+555
+00:19:27,360 --> 00:19:28,160
+and not just us.
+
+556
+00:19:28,160 --> 00:19:29,200
+Because of course, you know,
+
+557
+00:19:29,200 --> 00:19:30,800
+whilst we were rich people,
+
+558
+00:19:30,800 --> 00:19:31,960
+the people whose money we moving
+
+559
+00:19:31,960 --> 00:19:33,040
+are even richer people.
+
+560
+00:19:33,040 --> 00:19:34,280
+And you start realising,
+
+561
+00:19:34,280 --> 00:19:37,560
+oh, and you know, at that time, similarly to now,
+
+562
+00:19:37,560 --> 00:19:40,320
+the stock market was ripping to all time highs
+
+563
+00:19:40,320 --> 00:19:42,280
+and you were starting to see like house prices
+
+564
+00:19:42,280 --> 00:19:42,920
+starting to move
+
+565
+00:19:42,920 --> 00:19:44,440
+and the gold price was starting to go
+
+566
+00:19:44,440 --> 00:19:45,040
+and you starting to...
+
+567
+00:19:45,040 --> 00:19:47,200
+and I suddenly realised, like
+
+568
+00:19:47,200 --> 00:19:50,960
+the reason that families are losing their homes
+
+569
+00:19:50,960 --> 00:19:52,160
+and the reason that governments are going
+
+570
+00:19:52,160 --> 00:19:54,320
+bankrupt is because the wealth
+
+571
+00:19:54,320 --> 00:19:56,120
+that used to be being held
+
+572
+00:19:56,120 --> 00:19:58,400
+by ordinary families and by governments
+
+573
+00:19:58,400 --> 00:20:01,000
+is being transferred to the rich and the super rich.
+
+574
+00:20:01,000 --> 00:20:02,400
+And once I realised that,
+
+575
+00:20:03,960 --> 00:20:05,960
+I realised immediately
+
+576
+00:20:05,960 --> 00:20:08,240
+that is a problem which would worsen over time,
+
+577
+00:20:08,240 --> 00:20:12,000
+because if families and governments
+
+578
+00:20:12,000 --> 00:20:14,880
+can't afford to run a balanced budget
+
+579
+00:20:14,880 --> 00:20:16,680
+when they own their own properties,
+
+580
+00:20:16,680 --> 00:20:18,240
+when they have some wealth,
+
+581
+00:20:18,240 --> 00:20:20,400
+well, they definitely can't afford
+
+582
+00:20:20,400 --> 00:20:21,440
+to run a balanced budget
+
+583
+00:20:21,440 --> 00:20:22,800
+when they don't own the property
+
+584
+00:20:22,800 --> 00:20:24,400
+and when they don't have wealth,
+
+585
+00:20:24,400 --> 00:20:26,600
+because now they've lost that passive income.
+
+586
+00:20:26,600 --> 00:20:28,800
+They need to pay to rent those things.
+
+587
+00:20:28,800 --> 00:20:33,240
+And if the rich can afford to outcompete the middle
+
+588
+00:20:33,240 --> 00:20:35,240
+at this lower level of wealth,
+
+589
+00:20:35,240 --> 00:20:36,480
+well, now they're richer.
+
+590
+00:20:36,480 --> 00:20:37,440
+They've got more passive income,
+
+591
+00:20:37,440 --> 00:20:39,440
+they can out compete them even quicker.
+
+592
+00:20:39,440 --> 00:20:43,160
+So you can see very quickly this, this core problem.
+
+593
+00:20:43,160 --> 00:20:46,000
+And this is the really core problem, which is...
+
+594
+00:20:46,000 --> 00:20:47,760
+should be spoken about a million times
+
+595
+00:20:47,760 --> 00:20:48,840
+more than it is,
+
+596
+00:20:48,840 --> 00:20:51,240
+which is as inequality gets bigger,
+
+597
+00:20:51,240 --> 00:20:52,320
+the passive income that
+
+598
+00:20:52,320 --> 00:20:54,320
+the rich receive will get bigger.
+
+599
+00:20:54,320 --> 00:20:57,440
+The passive income that the poor spend will get bigger,
+
+600
+00:20:57,440 --> 00:20:59,400
+and the rate of increase of inequality
+
+601
+00:20:59,400 --> 00:21:00,200
+will increase over time.
+
+602
+00:21:00,200 --> 00:21:01,200
+And this will just,
+
+603
+00:21:01,200 --> 00:21:02,640
+not only will this get worse over time,
+
+604
+00:21:02,640 --> 00:21:05,080
+it will accelerate in a kind of what
+
+605
+00:21:05,080 --> 00:21:08,160
+a mathematician would call an exponential fashion. And,
+
+606
+00:21:09,760 --> 00:21:11,040
+you know, this was all going through my head,
+
+607
+00:21:11,040 --> 00:21:13,800
+like sitting there on the trading desk.
+
+608
+00:21:13,800 --> 00:21:14,880
+And of course, I've thought about it
+
+609
+00:21:14,880 --> 00:21:19,760
+a lot more now, so I can kind of explain it clearly.
+
+610
+00:21:19,760 --> 00:21:22,800
+What hit me there as a trader was
+
+611
+00:21:22,800 --> 00:21:24,680
+this gets worse forever.
+
+612
+00:21:24,680 --> 00:21:26,480
+This gets worse and worse and worse
+
+613
+00:21:26,480 --> 00:21:28,640
+and worse forever and ever and ever.
+
+614
+00:21:28,640 --> 00:21:30,240
+And at that time,
+
+615
+00:21:30,240 --> 00:21:31,680
+the beginning of 2011,
+
+616
+00:21:31,680 --> 00:21:34,000
+as I explained a little bit earlier,
+
+617
+00:21:34,000 --> 00:21:34,840
+everybody was like,
+
+618
+00:21:34,840 --> 00:21:37,280
+this is the year that the recovery really happens.
+
+619
+00:21:37,280 --> 00:21:39,000
+This is the year that the rates really go.
+
+620
+00:21:39,000 --> 00:21:40,560
+And I was sitting there
+
+621
+00:21:40,560 --> 00:21:44,440
+early 2011 saying with everybody saying, this is it,
+
+622
+00:21:44,440 --> 00:21:46,280
+this is the recovery, this is the recovery.
+
+623
+00:21:46,280 --> 00:21:49,760
+And I had just become almost certain
+
+624
+00:21:49,760 --> 00:21:51,840
+that the economy would collapse forever.
+
+625
+00:21:51,840 --> 00:21:54,120
+And this might sound callous,
+
+626
+00:21:54,120 --> 00:21:56,120
+and I think it's written very well in the book.
+
+627
+00:21:56,120 --> 00:21:57,680
+I realised,
+
+628
+00:21:57,680 --> 00:22:02,000
+oh my God, I could make so much f**king money here.
+
+629
+00:22:02,000 --> 00:22:05,320
+because everyone is wrong and not only that,
+
+630
+00:22:06,360 --> 00:22:08,880
+they probably won't figure it out for a long time.
+
+631
+00:22:08,880 --> 00:22:10,000
+They'll be wrong next year
+
+632
+00:22:10,000 --> 00:22:10,600
+and they’ll be wrong
+
+633
+00:22:10,600 --> 00:22:12,240
+the year after, and they’ll be wrong the year after.
+
+634
+00:22:12,240 --> 00:22:15,480
+Because at the time I'd been to LSE, right.
+
+635
+00:22:15,480 --> 00:22:15,720
+And I,
+
+636
+00:22:15,720 --> 00:22:17,160
+you know, and I was
+
+637
+00:22:17,160 --> 00:22:18,560
+after LSE you go into trading
+
+638
+00:22:18,560 --> 00:22:19,720
+and are surrounded by economists
+
+639
+00:22:19,720 --> 00:22:21,960
+and the kids that come in on the grad scheme,
+
+640
+00:22:21,960 --> 00:22:23,520
+they're all of the top graduates
+
+641
+00:22:23,520 --> 00:22:24,480
+from all of the top economics
+
+642
+00:22:24,480 --> 00:22:25,480
+uni’s across the world, right.
+
+643
+00:22:25,480 --> 00:22:29,040
+So you're very plugged in to what economists are saying
+
+644
+00:22:29,040 --> 00:22:30,480
+and what economists are thinking.
+
+645
+00:22:30,480 --> 00:22:32,280
+You get all of these emails from economists,
+
+646
+00:22:32,280 --> 00:22:33,840
+you all these economics calls.
+
+647
+00:22:33,840 --> 00:22:35,920
+So I knew what the economists were thinking.
+
+648
+00:22:35,920 --> 00:22:37,560
+Nobody was talking about inequality.
+
+649
+00:22:37,560 --> 00:22:39,880
+Nobody was talking about inequality at that time.
+
+650
+00:22:39,880 --> 00:22:43,240
+And I was like, this is why they've been wrong.
+
+651
+00:22:43,240 --> 00:22:45,480
+This is why, this is why they're consistently wrong.
+
+652
+00:22:45,480 --> 00:22:47,440
+And I mean, it made sense
+
+653
+00:22:47,440 --> 00:22:49,680
+because if they are consistently wrong,
+
+654
+00:22:49,680 --> 00:22:51,600
+which I think was obvious even in 2011,
+
+655
+00:22:51,600 --> 00:22:53,680
+but should be even more obvious now, it’s
+
+656
+00:22:53,680 --> 00:22:55,480
+because they're missing a big thing.
+
+657
+00:22:55,480 --> 00:22:57,960
+And I've been to universities,
+
+658
+00:22:57,960 --> 00:22:59,880
+I knew that they weren't looking at this thing
+
+659
+00:22:59,880 --> 00:23:01,800
+and it had just become...
+
+660
+00:23:01,800 --> 00:23:03,000
+the penny had dropped for me.
+
+661
+00:23:03,000 --> 00:23:04,480
+This was it, this is the big thing.
+
+662
+00:23:04,480 --> 00:23:05,120
+They're going to miss it.
+
+663
+00:23:05,120 --> 00:23:06,360
+They're not going to catch it.
+
+664
+00:23:06,360 --> 00:23:08,880
+And I put this massive trade on that rates
+
+665
+00:23:08,880 --> 00:23:09,880
+and stay zero.
+
+666
+00:23:09,880 --> 00:23:11,040
+I basically made a tonne of money
+
+667
+00:23:11,040 --> 00:23:12,840
+that year basically betting
+
+668
+00:23:12,840 --> 00:23:15,280
+that the economy would be a disaster.
+
+669
+00:23:16,800 --> 00:23:20,240
+And obviously that was one year, 2011.
+
+670
+00:23:20,240 --> 00:23:22,080
+So you, you’re not...
+
+671
+00:23:22,080 --> 00:23:23,280
+I was quite confident in that.
+
+672
+00:23:23,280 --> 00:23:24,800
+I was confident enough to bet a lot on it,
+
+673
+00:23:24,800 --> 00:23:27,960
+but I wasn't immediately
+
+674
+00:23:27,960 --> 00:23:29,280
+like 100% certain I was right.
+
+675
+00:23:29,280 --> 00:23:32,520
+And you can never be 100% certain.
+
+676
+00:23:32,520 --> 00:23:33,440
+But then you go into the next year
+
+677
+00:23:33,440 --> 00:23:35,120
+and the same thing happens the next year.
+
+678
+00:23:35,120 --> 00:23:36,000
+You're like, well,
+
+679
+00:23:36,000 --> 00:23:37,200
+everybody’s saying there’s going to be recovery,
+
+680
+00:23:37,200 --> 00:23:38,560
+and you're saying there’s not going to be a recovery
+
+681
+00:23:38,560 --> 00:23:40,040
+because the inequality is getting worse.
+
+682
+00:23:40,040 --> 00:23:41,800
+And then you start to,
+
+683
+00:23:41,800 --> 00:23:43,320
+you start to think about other things.
+
+684
+00:23:43,320 --> 00:23:46,360
+You start, for example, I start to think, okay, well,
+
+685
+00:23:46,360 --> 00:23:49,520
+if there is a big increase in wealth inequality
+
+686
+00:23:49,520 --> 00:23:50,520
+that is underlying
+
+687
+00:23:50,520 --> 00:23:54,560
+the reason that markets are wrong on interest rates
+
+688
+00:23:54,560 --> 00:23:56,400
+and also the reason why economists
+
+689
+00:23:56,400 --> 00:23:57,680
+are wrong in their predictions,
+
+690
+00:23:57,680 --> 00:23:59,840
+maybe the market's wrong on other things.
+
+691
+00:23:59,840 --> 00:24:00,800
+So I started to think, well,
+
+692
+00:24:00,800 --> 00:24:03,160
+what would it mean for asset prices more broadly
+
+693
+00:24:03,160 --> 00:24:04,440
+if inequality would increase?
+
+694
+00:24:04,440 --> 00:24:06,200
+Well that's quite an easy question right.
+
+695
+00:24:06,200 --> 00:24:07,560
+Because we know
+
+696
+00:24:07,560 --> 00:24:08,240
+ordinary people
+
+697
+00:24:08,240 --> 00:24:11,040
+tend to spend money on goods and services,
+
+698
+00:24:11,040 --> 00:24:13,200
+rich people tend to spend money buying assets.
+
+699
+00:24:13,200 --> 00:24:16,440
+So if inequality increases, you would expect to see
+
+700
+00:24:16,440 --> 00:24:19,560
+asset prices rising while
+
+701
+00:24:20,680 --> 00:24:21,000
+goods,
+
+702
+00:24:21,000 --> 00:24:22,680
+services, wages,
+
+703
+00:24:22,680 --> 00:24:23,960
+what we call CPI inflation
+
+704
+00:24:23,960 --> 00:24:25,560
+because CPI doesn't look at assets,
+
+705
+00:24:25,560 --> 00:24:27,480
+sort of dicks around at the bottom.
+
+706
+00:24:27,480 --> 00:24:28,800
+And at this time...
+
+707
+00:24:28,800 --> 00:24:29,760
+and then I was like okay,
+
+708
+00:24:29,760 --> 00:24:31,320
+well the asset prices are going to go,
+
+709
+00:24:31,320 --> 00:24:32,640
+stock market is going to go.
+
+710
+00:24:32,640 --> 00:24:35,240
+And that again
+
+711
+00:24:35,240 --> 00:24:35,760
+people...
+
+712
+00:24:35,760 --> 00:24:37,440
+the economy was so weak in 2011,
+
+713
+00:24:37,440 --> 00:24:38,800
+we had this big sovereign debt crisis
+
+714
+00:24:38,800 --> 00:24:40,200
+and we had more austerity.
+
+715
+00:24:40,200 --> 00:24:40,920
+The economy was so weak.
+
+716
+00:24:40,920 --> 00:24:42,720
+Everyone was like, stock market is going to be s**t.
+
+717
+00:24:42,720 --> 00:24:44,640
+But I was like, no,
+
+718
+00:24:44,640 --> 00:24:46,680
+if I'm right on this,
+
+719
+00:24:46,680 --> 00:24:50,280
+stock markets will go, because the economy being s**t
+
+720
+00:24:50,280 --> 00:24:51,120
+if the...
+
+721
+00:24:51,120 --> 00:24:52,960
+if the economy is s**t because governments are in debt
+
+722
+00:24:52,960 --> 00:24:54,000
+well who are they in debt to?
+
+723
+00:24:54,360 --> 00:24:57,560
+That again itself is a manifestation of inequality, right.
+
+724
+00:24:57,560 --> 00:25:00,640
+So I said, stock prices will go up. And then they did.
+
+725
+00:25:00,640 --> 00:25:01,240
+And I said,
+
+726
+00:25:01,240 --> 00:25:04,480
+well you'll get asset price inflation combined with
+
+727
+00:25:04,480 --> 00:25:05,960
+disinflation for the poor. And it did.
+
+728
+00:25:05,960 --> 00:25:08,160
+And what you start seeing is this,
+
+729
+00:25:08,160 --> 00:25:10,400
+this understanding of inequality,
+
+730
+00:25:10,400 --> 00:25:12,960
+it seems to explain all of the incorrect predictions.
+
+731
+00:25:12,960 --> 00:25:13,920
+And then you start being able
+
+732
+00:25:13,920 --> 00:25:15,280
+to predict everything correctly.
+
+733
+00:25:15,280 --> 00:25:17,280
+And I think that is the big giveaway.
+
+734
+00:25:17,280 --> 00:25:20,200
+I think when you understand...
+
+735
+00:25:20,200 --> 00:25:21,360
+you know,
+
+736
+00:25:21,360 --> 00:25:24,360
+I think it would be easy to turn around and say,
+
+737
+00:25:24,360 --> 00:25:26,520
+oh, you're just mad. You know, you're just pessimistic.
+
+738
+00:25:27,680 --> 00:25:30,880
+If I'm pessimistic, why do the bets keep being right?
+
+739
+00:25:30,880 --> 00:25:32,800
+You know, if this is just pessimism,
+
+740
+00:25:32,800 --> 00:25:34,120
+why do the bets keep being right?
+
+741
+00:25:34,120 --> 00:25:38,640
+And, you know, I consistently made money betting on
+
+742
+00:25:38,640 --> 00:25:39,960
+the economy staying weak.
+
+743
+00:25:39,960 --> 00:25:42,120
+Markets continue to predict
+
+744
+00:25:42,120 --> 00:25:44,760
+interest rate normalisation way beyond that.
+
+745
+00:25:44,760 --> 00:25:50,240
+2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019.
+
+746
+00:25:50,240 --> 00:25:52,080
+Rates in this country stayed zero,
+
+747
+00:25:52,080 --> 00:25:53,640
+and there would be a few times
+
+748
+00:25:53,640 --> 00:25:56,640
+you would see rates pop up and the predictions pop up.
+
+749
+00:25:56,640 --> 00:25:58,440
+And I would just go back in and bet,
+
+750
+00:25:58,440 --> 00:26:00,160
+because I knew you can't,
+
+751
+00:26:00,160 --> 00:26:02,400
+if you don't fix this fundamental problem,
+
+752
+00:26:02,400 --> 00:26:03,680
+you're not going be able to fix the economy.
+
+753
+00:26:03,680 --> 00:26:08,480
+And this simple way of understanding it, which is that
+
+754
+00:26:08,480 --> 00:26:10,760
+the growth in wealth inequality,
+
+755
+00:26:10,760 --> 00:26:12,960
+not income inequality, wealth inequality
+
+756
+00:26:12,960 --> 00:26:14,200
+is being missed.
+
+757
+00:26:15,440 --> 00:26:16,520
+And you start being able to
+
+758
+00:26:16,520 --> 00:26:18,120
+predict everything correctly.
+
+759
+00:26:18,120 --> 00:26:20,280
+This one simple idea
+
+760
+00:26:20,280 --> 00:26:22,320
+that inequality is at the center,
+
+761
+00:26:22,320 --> 00:26:23,920
+that it is driving living standards
+
+762
+00:26:23,920 --> 00:26:27,200
+down, has enabled me to correctly predict
+
+763
+00:26:27,200 --> 00:26:29,240
+the weak recovery from 2008.
+
+764
+00:26:29,240 --> 00:26:31,240
+The cost of living crisis during Covid.
+
+765
+00:26:31,240 --> 00:26:33,880
+Stock price rally in the mid 2010s.
+
+766
+00:26:33,880 --> 00:26:35,480
+Stock price rally after Covid.
+
+767
+00:26:35,480 --> 00:26:37,040
+Collapse in living standards.
+
+768
+00:26:37,040 --> 00:26:38,760
+The collapse of central political parties.
+
+769
+00:26:38,760 --> 00:26:40,000
+The rise of the far right.
+
+770
+00:26:40,000 --> 00:26:44,920
+Like I'm not Mystic Meg here. The theories right?
+
+771
+00:26:44,920 --> 00:26:47,880
+The theory is right
+
+772
+00:26:47,880 --> 00:26:49,360
+and it's not being looked at.
+
+773
+00:26:49,360 --> 00:26:51,160
+And if we don't take action on it,
+
+774
+00:26:51,160 --> 00:26:54,040
+it will get worse and worse and worse and worse.
+
+775
+00:26:54,040 --> 00:26:56,280
+So that's it, I think that is why
+
+776
+00:26:56,280 --> 00:26:58,520
+inequality is the core central problem.
+
+777
+00:26:58,520 --> 00:27:00,360
+I would encourage people to care about it
+
+778
+00:27:00,360 --> 00:27:01,920
+because if you don't take action on it,
+
+779
+00:27:01,920 --> 00:27:02,880
+it means living standards
+
+780
+00:27:02,880 --> 00:27:04,360
+getting worse and worse and worse.
+
+781
+00:27:04,360 --> 00:27:06,760
+And we will talk in our next video
+
+782
+00:27:06,760 --> 00:27:07,880
+about how do we fix it.
+
+783
+00:27:07,880 --> 00:27:09,080
+So thank you very much.
+
+784
+00:27:09,080 --> 00:27:10,240
+Thanks for watching.
+
+785
+00:27:10,240 --> 00:27:12,000
+Support the channel. Support the Patreon.
+
+786
+00:27:12,000 --> 00:27:13,680
+Send the videos to your family,
+
+787
+00:27:13,680 --> 00:27:14,880
+to your mum, to your friends.
+
+788
+00:27:15,880 --> 00:27:17,280
+Let's stop things being terrible.
+
+789
+00:27:17,280 --> 00:27:18,160
+Thank you. Take care.
