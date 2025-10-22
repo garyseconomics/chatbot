@@ -2,5 +2,6 @@
   "chunk_size": 300,
   "chunk_overlap": 50,
   "database_directory": "./vector_database/chroma_langchain_db",
+  "documents_directory": "docs",
   "collection_name": "youtube_videos"
 }
