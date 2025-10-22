@@ -34,6 +34,12 @@ pip install -U ollama
 ollama pull llama3
 ```
 
+### Install Chroma database library for Python
+```bash
+pip install -U chromadb
+```
+
+
 ## Testing
 To execute the tests:
 ```bash
