@@ -14,7 +14,7 @@ def test_chunks_config():
 @pytest.fixture
 def sample_srt_file():
     """Fixture to return the path of a sample SRT file for testing."""
-    return "docs/sample.srt"
+    return "tests/sample.srt"
 
 def test_get_splits_from_srt(sample_srt_file):
     # Call the function that splits the SRT document
