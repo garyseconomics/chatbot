@@ -1,6 +1,6 @@
 {
-  "filename": "docs/MOOC_Part_1_What_Is_Wealth.srt",
   "chunk_size": 300,
   "chunk_overlap": 50,
-  "database_directory": "./vector_database/chroma_langchain_db"
+  "database_directory": "./vector_database/chroma_langchain_db",
+  "collection_name": "youtube_videos"
 }
