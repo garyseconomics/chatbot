@@ -11,5 +11,5 @@ def test_create_database():
 
 def test_generate_db_with_documents():
     files_list = ["docs/sample.srt"]
-    vector_database = generate_db_with_documents(test_database_path, files_list)
+    vector_store = generate_db_with_documents(test_database_path, files_list)
     assert isinstance(vector_store, Chroma)
