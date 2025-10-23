@@ -36,5 +36,6 @@ def generate_db_with_documents(database_path, files_list):
 		splits = get_splits_from_srt(filename)
 		print(f"Obtained {len(splits)} splits of text.")
 		for batch in process_in_batches(splits, batch_size):
+			print(f"Adding batch: {batch}")
 			_ = vector_store.add_documents(documents=batch)
 	return vector_store
