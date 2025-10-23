@@ -9,9 +9,6 @@ chunk_size = config['chunk_size']
 chunk_overlap = config['chunk_overlap']
 
 def get_splits_from_srt(filename):
-	print("Extracting content from file:")
-	print(filename)
-
 	# Load the content of the srt file
 	loader = SRTLoader(filename)
 	data = loader.load()

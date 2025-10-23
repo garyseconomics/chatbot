@@ -2,13 +2,12 @@ import json
 from vector_database.srt_splitter import get_splits_from_srt
 from langchain_ollama import OllamaEmbeddings
 from langchain_chroma import Chroma
-from uuid import uuid4
-import chromadb
 
 # Load configuration 
 with open('config.json', 'r') as f:
 		config = json.load(f)
 collection_name=config['collection_name']
+batch_size = config['batch_size']
 
 
 def create_vector_database(database_path):
@@ -23,10 +22,19 @@ def create_vector_database(database_path):
 	)
 	return vector_store
 
+def process_in_batches(splits, batch_size):
+	num_batches = (len(splits) + batch_size - 1) // batch_size
+	for i in range(0, len(splits), batch_size):
+		print(f"Batch {i // batch_size + 1} of {num_batches}")
+		yield splits[i:i + batch_size]
+
 # Creates the database and populates it with the documents provided
 def generate_db_with_documents(database_path, files_list):
 	vector_store = create_vector_database(database_path)
 	for filename in files_list:
+		print(f"Extracting content from file: {filename}")
 		splits = get_splits_from_srt(filename)
-		_ = vector_store.add_documents(documents=splits)
+		print(f"Obtained {len(splits)} splits of text.")
+		for batch in process_in_batches(splits, batch_size):
+			_ = vector_store.add_documents(documents=batch)
 	return vector_store
