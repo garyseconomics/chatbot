@@ -12,14 +12,17 @@ def test_get_chromadb_client():
     assert isinstance(client, chromadb.api.client.Client)
 
 def test_create_database():
-    vector_store = create_vector_database(test_database_path)
     client = get_chromadb_client(test_database_path)
+    # Verify there are no previous collections created
+    assert len(client.list_collections()) == 0
+    # Create the database and collection
+    vector_store = create_vector_database(test_database_path)
     # Verify the returned object is an instance of Chroma
     assert isinstance(vector_store, Chroma)
     collection = client.get_collection(collection_name)
     # Verify the collection has been created
     assert isinstance(collection, chromadb.Collection)
-    assert collection.count() > 0
+    assert len(client.list_collections()) == 1
 
 def test_generate_db_with_documents():
     client = get_chromadb_client(test_database_path)
