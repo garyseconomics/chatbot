@@ -15,7 +15,7 @@ def get_splits_from_srt(filename):
 
 	# Split the document into parts
 	splitter = RecursiveCharacterTextSplitter(
-    	separators = ["\n\n", "\n", " "],
+    	separators = ["\n\n", "\n", "."],
     	chunk_size = chunk_size,
     	chunk_overlap = chunk_overlap
 	)
