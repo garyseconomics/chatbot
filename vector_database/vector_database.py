@@ -2,6 +2,7 @@ import json
 from vector_database.srt_splitter import get_splits_from_srt
 from langchain_ollama import OllamaEmbeddings
 from langchain_chroma import Chroma
+import chromadb
 
 # Load configuration 
 with open('config.json', 'r') as f:
@@ -9,6 +10,9 @@ with open('config.json', 'r') as f:
 collection_name=config['collection_name']
 batch_size = config['batch_size']
 
+def get_chromadb_client(database_path):
+	client = chromadb.PersistentClient(path=database_path)
+	return client
 
 def create_vector_database(database_path):
 	# Embeddings with Ollama
@@ -39,3 +43,16 @@ def generate_db_with_documents(database_path, files_list):
 			print(f"Adding batch: {batch}")
 			_ = vector_store.add_documents(documents=batch)
 	return vector_store
+
+# Returns a list of the collections in the database
+def get_collections_from_database(database_path):
+	client = get_chromadb_client(database_path)
+	return client.list_collections()
+
+# Delete the collections in the database
+def delete_existing_collections(database_path):
+	client = get_chromadb_client(database_path)
+	for collection in client.list_collections():
+		collection_name = collection.name
+		print(f"Deleting collection {collection_name}")
+		client.delete_collection(collection_name)
