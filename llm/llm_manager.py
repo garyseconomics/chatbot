@@ -8,7 +8,7 @@ def get_llm_client():
 	OLLAMA_HOST = os.getenv("OLLAMA_HOST")
 	OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY")
 
-	print(f"Connecting to host: {OLLAMA_HOST}")
+	print(f"Connecting to LLM host")
 
 	# Initialize LangChain with OpenAI API
 	print("Calling the model")
