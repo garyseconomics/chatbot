@@ -11,12 +11,12 @@ def test_get_chromadb_client():
     client = get_chromadb_client(test_database_path)
     assert isinstance(client, chromadb.api.client.Client)
 
-def test_create_database():
+def test_get_or_create_database():
     client = get_chromadb_client(test_database_path)
     # Verify there are no previous collections created
     assert len(client.list_collections()) == 0
     # Create the database and collection
-    vector_store = create_vector_database(test_database_path)
+    vector_store = get_or_create_vector_database(test_database_path)
     # Verify the returned object is an instance of Chroma
     assert isinstance(vector_store, Chroma)
     collection = client.get_collection(collection_name)
@@ -44,7 +44,7 @@ def test_get_collections_from_database():
 
 def test_delete_existing_collections():
    # Ensure that there is a collection in the database
-   create_vector_database(test_database_path)
+   get_or_create_vector_database(test_database_path)
    client = get_chromadb_client(test_database_path)
    assert len(client.list_collections()) > 0
    # Delete existing collections

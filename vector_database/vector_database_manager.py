@@ -14,7 +14,7 @@ def get_chromadb_client(database_path):
 	client = chromadb.PersistentClient(path=database_path)
 	return client
 
-def create_vector_database(database_path):
+def get_or_create_vector_database(database_path):
 	# Embeddings with Ollama
 	embeddings = OllamaEmbeddings(model="llama3")
 
@@ -34,7 +34,7 @@ def process_in_batches(splits, batch_size):
 
 # Creates the database and populates it with the documents provided
 def generate_db_with_documents(database_path, files_list):
-	vector_store = create_vector_database(database_path)
+	vector_store = get_or_create_vector_database(database_path)
 	for filename in files_list:
 		print(f"Extracting content from file: {filename}")
 		splits = get_splits_from_srt(filename)
