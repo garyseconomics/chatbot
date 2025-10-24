@@ -3,12 +3,8 @@ from vector_database.srt_splitter import get_splits_from_srt
 from langchain_ollama import OllamaEmbeddings
 from langchain_chroma import Chroma
 import chromadb
+from config import collection_name, batch_size, show_logs
 
-# Load configuration 
-with open('config.json', 'r') as f:
-		config = json.load(f)
-collection_name=config['collection_name']
-batch_size = config['batch_size']
 
 def get_chromadb_client(database_path):
 	client = chromadb.PersistentClient(path=database_path)
@@ -38,9 +34,11 @@ def generate_db_with_documents(database_path, files_list):
 	for filename in files_list:
 		print(f"Extracting content from file: {filename}")
 		splits = get_splits_from_srt(filename)
-		print(f"Obtained {len(splits)} splits of text.")
+		if show_logs:
+			print(f"Obtained {len(splits)} splits of text.")
 		for batch in process_in_batches(splits, batch_size):
-			print(f"Adding batch: {batch}")
+			if show_logs:
+				print(f"Adding batch: {batch}")
 			_ = vector_store.add_documents(documents=batch)
 	return vector_store
 

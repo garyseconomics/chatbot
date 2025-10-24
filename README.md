@@ -52,6 +52,9 @@ If documents have already been imported before, the script will ask you if you w
 
 <img width="1862" height="532" alt="Image" src="https://github.com/user-attachments/assets/dde03966-f4b2-449c-8cf6-ced28b2cde1d" />
 
+The script will show more information if logs are enabled. To turn the logs on and of, change the variable "show_logs" in config.py to True or False.
+
+
 ### Call the chatbot
 To chat with the chatbot, execute the chatbot script:
 ```bash
@@ -60,6 +63,9 @@ python chatbot.py
 The chatbot will greet you and ask you for a question. After providing the question, the chatbot will search for context in the database and answer you using the context it has find. The answers will be better when the subtitles already uploaded are related to the question asked.
 
 <img width="1863" height="615" alt="Image" src="https://github.com/user-attachments/assets/7acdd1cb-0aa7-4137-8ad8-3d719fb13b3c" />
+
+If logs are enabled, the chatbot will show you the prompt it has generated before calling to the LLM.
+
 
 ### Testing
 To execute the tests:

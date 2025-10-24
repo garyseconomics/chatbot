@@ -1,6 +1,8 @@
 import os
 from langchain_ollama import ChatOllama
 from dotenv import load_dotenv
+from config import show_logs
+
 
 def get_llm_client():
 	# Load environment variables
@@ -8,10 +10,12 @@ def get_llm_client():
 	OLLAMA_HOST = os.getenv("OLLAMA_HOST")
 	OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY")
 
-	print(f"Connecting to LLM host")
+	if show_logs:
+		print(f"Connecting to LLM host")
 
 	# Initialize LangChain with OpenAI API
-	print("Calling the model")
+	if show_logs:
+		print("Calling the model")
 	llm = ChatOllama(model="mistral-small3.1:24b", 
 		api_key=OLLAMA_API_KEY,
 		base_url=OLLAMA_HOST)

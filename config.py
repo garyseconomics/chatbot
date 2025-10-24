@@ -1,0 +1,7 @@
+database_path = "./vector_database/chroma_langchain_db"
+documents_directory = "docs"
+collection_name = "youtube_videos"
+chunk_size = 1024
+chunk_overlap = 105
+batch_size = 10
+show_logs = False

@@ -1,12 +1,8 @@
 import json
 from langchain_community.document_loaders import SRTLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+from config import chunk_size, chunk_overlap
 
-# Load configuration 
-with open('config.json', 'r') as f:
-	config = json.load(f)
-chunk_size = config['chunk_size']
-chunk_overlap = config['chunk_overlap']
 
 def get_splits_from_srt(filename):
 	# Load the content of the srt file
