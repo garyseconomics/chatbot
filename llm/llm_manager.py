@@ -19,8 +19,7 @@ def get_llm_client():
 
 def llm_chat(llm, prompt):
 	try:
-	    response = llm.invoke(prompt)
-	    print("Response:", response)
+		response = llm.invoke(prompt)
+		return response
 	except Exception as e:
 	    print(f"Failed to get response: {e}")
-
