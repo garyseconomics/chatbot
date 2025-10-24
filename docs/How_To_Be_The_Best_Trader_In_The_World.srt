@@ -1,0 +1,4451 @@
+﻿1
+00:00:00,000 --> 00:00:02,360
+Okay, welcome back to Garys Economics.
+
+2
+00:00:02,360 --> 00:00:04,760
+Today, we are going to teach you how
+
+3
+00:00:04,760 --> 00:00:07,120
+to be the best trader in the world.
+
+4
+00:00:08,960 --> 00:00:12,560
+Okay, so this is one of the most commonly
+
+5
+00:00:12,560 --> 00:00:16,000
+asked questions on the channel, which is "Gary,
+
+6
+00:00:16,000 --> 00:00:18,240
+the world's going to ****, we need you to help us.
+
+7
+00:00:18,240 --> 00:00:20,480
+Please, please, please, can you teach us
+
+8
+00:00:20,480 --> 00:00:23,120
+how to trade?" And generally, I've avoided
+
+9
+00:00:23,120 --> 00:00:24,840
+the question for a couple of reasons.
+
+10
+00:00:24,840 --> 00:00:27,360
+One, because I think trading is very
+
+11
+00:00:27,360 --> 00:00:29,880
+dangerous and probably best avoided for ordinary
+
+12
+00:00:29,880 --> 00:00:31,520
+people who are not professionals.
+
+13
+00:00:31,520 --> 00:00:33,920
+And secondly, because this channel is
+
+14
+00:00:33,920 --> 00:00:38,000
+about trying to explain how and why the economy
+
+15
+00:00:38,000 --> 00:00:39,840
+is collapsing and to teach you what you can
+
+16
+00:00:39,840 --> 00:00:41,560
+do to stop your economy from collapsing.
+
+17
+00:00:41,560 --> 00:00:44,040
+And I think that trading, whilst it
+
+18
+00:00:44,040 --> 00:00:45,320
+can make money for the individual, is
+
+19
+00:00:45,320 --> 00:00:47,480
+not going to solve this societal problem.
+
+20
+00:00:47,480 --> 00:00:51,000
+So I have generally avoided it, but if you have
+
+21
+00:00:51,000 --> 00:00:53,000
+been following this channel for a while, you will
+
+22
+00:00:53,000 --> 00:00:55,840
+know that discussing whether or not I am the best
+
+23
+00:00:55,840 --> 00:00:58,560
+trader in the world is a very popular pastime for
+
+24
+00:00:58,560 --> 00:01:02,480
+the British media, both online and in print.
+
+25
+00:01:02,480 --> 00:01:04,360
+I won't comment on that, I'll leave that for
+
+26
+00:01:04,360 --> 00:01:07,920
+the trading Ballon d'Or this year to decide
+
+27
+00:01:07,920 --> 00:01:08,920
+who's the best trader in the world.
+
+28
+00:01:08,920 --> 00:01:11,680
+But, I was Citibank's most profitable
+
+29
+00:01:11,680 --> 00:01:15,200
+trader in 2011, and I have made
+
+30
+00:01:15,200 --> 00:01:16,640
+an awful lot of money trading since.
+
+31
+00:01:16,640 --> 00:01:19,840
+I've got an extremely good track record and
+
+32
+00:01:19,840 --> 00:01:23,600
+in the last few months, and especially weeks,
+
+33
+00:01:23,600 --> 00:01:27,320
+I've been getting really, really frustrated
+
+34
+00:01:27,320 --> 00:01:32,000
+by the differences, basically, in the,
+
+35
+00:01:32,000 --> 00:01:35,800
+the world of economic analysis within trading
+
+36
+00:01:35,800 --> 00:01:38,520
+and in the world that I am in now, which is, I guess,
+
+37
+00:01:38,520 --> 00:01:41,560
+you could call it activism or media or politics.
+
+38
+00:01:41,560 --> 00:01:44,040
+Basically, trying to prevent
+
+39
+00:01:44,040 --> 00:01:45,440
+economic collapse from happening.
+
+40
+00:01:45,440 --> 00:01:47,520
+So I've become, been becoming super frustrated
+
+41
+00:01:47,520 --> 00:01:50,720
+by the kind of contrast, contradictions between
+
+42
+00:01:50,720 --> 00:01:54,000
+the world of trading and this world I'm in
+
+43
+00:01:54,000 --> 00:01:55,640
+now, which I guess is the world of politics.
+
+44
+00:01:55,640 --> 00:01:59,840
+And I thought I'd use that opportunity to finally
+
+45
+00:01:59,840 --> 00:02:02,520
+answer this question of how do you
+
+46
+00:02:02,520 --> 00:02:04,120
+be the best trader in the world.
+
+47
+00:02:04,120 --> 00:02:06,320
+Really use this as a bit of an opportunity to talk
+
+48
+00:02:06,320 --> 00:02:11,160
+about trading, because I kind of, love trading.
+
+49
+00:02:11,160 --> 00:02:13,440
+I think it is a beautiful discipline.
+
+50
+00:02:13,440 --> 00:02:15,400
+I think it's really dangerous.
+
+51
+00:02:15,400 --> 00:02:18,520
+It's something that... It taught me in a
+
+52
+00:02:18,520 --> 00:02:20,880
+sense, everything I know about economics today.
+
+53
+00:02:20,880 --> 00:02:24,160
+So I wanted to talk about it a little bit,
+
+54
+00:02:24,160 --> 00:02:26,600
+educate you about it, and give you what you want in
+
+55
+00:02:26,600 --> 00:02:28,240
+a sense, because I keep getting asked it again and
+
+56
+00:02:28,240 --> 00:02:32,640
+again, but I'm going to ask for something in return.
+
+57
+00:02:32,640 --> 00:02:35,400
+So I'm going to teach you how to be the best trader in the
+
+58
+00:02:35,400 --> 00:02:38,680
+world, and in return, I'm going to ask for two things.
+
+59
+00:02:38,680 --> 00:02:40,200
+One, please be very, very careful
+
+60
+00:02:40,200 --> 00:02:41,080
+if you ever try to do this.
+
+61
+00:02:41,080 --> 00:02:42,320
+It's phenomenally dangerous.
+
+62
+00:02:42,320 --> 00:02:45,440
+And secondly, I want you to think a little
+
+63
+00:02:45,440 --> 00:02:50,280
+bit about what this means for the
+
+64
+00:02:50,280 --> 00:02:52,080
+world we live in, for the country that you
+
+65
+00:02:52,080 --> 00:02:54,000
+live in, for your society and your future.
+
+66
+00:02:54,000 --> 00:02:57,280
+Because I'm going to explain a little bit
+
+67
+00:02:57,280 --> 00:02:59,960
+the way the world of economics works,
+
+68
+00:02:59,960 --> 00:03:03,240
+in trading, in politics, and I think,
+
+69
+00:03:03,240 --> 00:03:05,120
+personally, it's phenomenally worrying.
+
+70
+00:03:05,120 --> 00:03:07,320
+It's one of the reasons why I started this channel.
+
+71
+00:03:07,320 --> 00:03:07,920
+So that's it.
+
+72
+00:03:07,920 --> 00:03:09,920
+I'm going to teach you how to trade, and in return, I want
+
+73
+00:03:09,920 --> 00:03:12,440
+you to think just a little bit about what it means for
+
+74
+00:03:12,440 --> 00:03:15,000
+your society and the future of you and your family.
+
+75
+00:03:15,000 --> 00:03:16,240
+Okay, number one.
+
+76
+00:03:16,240 --> 00:03:18,040
+What is trading?
+
+77
+00:03:18,040 --> 00:03:21,440
+So there's lots of different kinds of trading.
+
+78
+00:03:21,440 --> 00:03:23,520
+I was a professional trader for Citibank
+
+79
+00:03:23,520 --> 00:03:29,400
+from 2008 until 2014, and
+
+80
+00:03:29,400 --> 00:03:34,320
+I am now somebody who trades on my laptop,
+
+81
+00:03:34,320 --> 00:03:37,080
+using leverage essentially, essentially betting.
+
+82
+00:03:37,080 --> 00:03:38,640
+There's a few different kinds of trading.
+
+83
+00:03:38,640 --> 00:03:41,320
+I also wrote a book.
+
+84
+00:03:41,320 --> 00:03:43,360
+This is the book that I wrote, The Trading Game.
+
+85
+00:03:43,360 --> 00:03:45,040
+Still in the top 10, would you believe?
+
+86
+00:03:45,040 --> 00:03:47,520
+Seven, eight months later after it came out.
+
+87
+00:03:47,520 --> 00:03:50,120
+And if you read this book, you'll see that there
+
+88
+00:03:50,120 --> 00:03:51,800
+are lots of different kinds of traders and there are a
+
+89
+00:03:51,800 --> 00:03:54,400
+few different kinds of ways to make money in trading.
+
+90
+00:03:54,400 --> 00:03:56,560
+A lot of traders who work for big banks
+
+91
+00:03:56,560 --> 00:03:58,040
+tend to make money because they have
+
+92
+00:03:58,040 --> 00:03:59,680
+found clever ways to rip people off.
+
+93
+00:03:59,680 --> 00:04:01,840
+But the kind of trading which I am
+
+94
+00:04:01,840 --> 00:04:04,040
+most interested in, and which I made my
+
+95
+00:04:04,040 --> 00:04:08,560
+money on is basically economic forecasting.
+
+96
+00:04:08,560 --> 00:04:10,800
+So I'm going to talk about... a little bit about
+
+97
+00:04:10,800 --> 00:04:15,240
+this kind of trading, economic forecasting as trading.
+
+98
+00:04:15,240 --> 00:04:16,480
+How does it work?
+
+99
+00:04:16,480 --> 00:04:19,440
+So basically, I think the simplest way to
+
+100
+00:04:19,440 --> 00:04:22,600
+understand is imagine the weather forecast.
+
+101
+00:04:22,600 --> 00:04:25,520
+So every morning when I wake up, I pull open
+
+102
+00:04:25,520 --> 00:04:27,560
+this laptop... not immediately when
+
+103
+00:04:27,560 --> 00:04:29,760
+I wake up, but at some point in the morning,
+
+104
+00:04:29,760 --> 00:04:31,400
+and I'll pull open my trading platform
+
+105
+00:04:31,400 --> 00:04:33,600
+and I'll look at all the different prices.
+
+106
+00:04:33,600 --> 00:04:36,680
+And when I see that, it is very similar, I
+
+107
+00:04:36,680 --> 00:04:39,640
+think, to when somebody who is not a trader
+
+108
+00:04:39,640 --> 00:04:41,360
+maybe looks at the weather forecast in the
+
+109
+00:04:41,360 --> 00:04:44,320
+sense, I don't just see a set of prices.
+
+110
+00:04:44,320 --> 00:04:47,480
+When the prices move, what I see is
+
+111
+00:04:47,480 --> 00:04:51,520
+changes in what traders are predicting
+
+112
+00:04:51,520 --> 00:04:53,760
+about what is going to happen in the future.
+
+113
+00:04:53,760 --> 00:04:56,040
+And you can bet on that basically.
+
+114
+00:04:56,040 --> 00:04:58,760
+So trading is betting.
+
+115
+00:04:58,760 --> 00:04:59,960
+It is gambling.
+
+116
+00:04:59,960 --> 00:05:02,440
+So I think the cleanest example is, let's say
+
+117
+00:05:02,440 --> 00:05:05,240
+you looked at the weather forecast and it said
+
+118
+00:05:05,240 --> 00:05:10,120
+that tomorrow there's a 50% chance of rain.
+
+119
+00:05:10,120 --> 00:05:12,720
+And you, for whatever reason, because you're the
+
+120
+00:05:12,720 --> 00:05:15,760
+world's best meteorologist, I don't know, know that
+
+121
+00:05:15,760 --> 00:05:18,440
+actually there is, it's almost certainly going to rain.
+
+122
+00:05:18,440 --> 00:05:21,040
+It's like 95% likely to rain.
+
+123
+00:05:21,040 --> 00:05:22,080
+You can bet on this.
+
+124
+00:05:22,080 --> 00:05:24,480
+And if it's 50%, I've chosen 50% on
+
+125
+00:05:24,480 --> 00:05:27,480
+purpose, 50% is like exactly 50/50.
+
+126
+00:05:27,480 --> 00:05:31,440
+That means that the market will, because both sides are
+
+127
+00:05:31,440 --> 00:05:34,920
+considered equally likely, you should be standing to win
+
+128
+00:05:34,920 --> 00:05:38,480
+exactly as much as you stand to lose if you're wrong.
+
+129
+00:05:38,480 --> 00:05:40,720
+You can think, if you prefer, you
+
+130
+00:05:40,720 --> 00:05:42,480
+can think of it in terms of sports, in terms
+
+131
+00:05:42,480 --> 00:05:45,080
+of football, or in terms of betting.
+
+132
+00:05:45,080 --> 00:05:47,040
+So at the moment, the market thinks that there is a
+
+133
+00:05:47,040 --> 00:05:49,920
+50% chance that Reform will win the next election.
+
+134
+00:05:49,920 --> 00:05:51,400
+So I can bet on that
+
+135
+00:05:51,400 --> 00:05:53,160
+and I say, no, they will definitely win.
+
+136
+00:05:53,160 --> 00:05:55,560
+And if I'm right, I will double my money.
+
+137
+00:05:55,560 --> 00:05:57,400
+I put £100 down.
+
+138
+00:05:57,400 --> 00:05:59,480
+Because it's 50/50, the amount I
+
+139
+00:05:59,480 --> 00:06:01,080
+should win if I'm right is 100 pounds.
+
+140
+00:06:01,080 --> 00:06:01,800
+The amount I should lose if
+
+141
+00:06:01,800 --> 00:06:03,880
+I'm wrong is also 100 pounds.
+
+142
+00:06:03,880 --> 00:06:06,200
+And this is, this is what you do, basically.
+
+143
+00:06:06,200 --> 00:06:09,320
+It's very, very simple, trading
+
+144
+00:06:09,320 --> 00:06:11,840
+as economic forecasting, which is
+
+145
+00:06:11,840 --> 00:06:13,640
+you are looking at what the market thinks,
+
+146
+00:06:13,640 --> 00:06:15,520
+50%, and you're basically saying, "I think it's
+
+147
+00:06:15,520 --> 00:06:18,200
+going to be higher. I think it's going to be lower."
+
+148
+00:06:18,200 --> 00:06:19,760
+Let's shift these numbers about a little bit, right?
+
+149
+00:06:19,760 --> 00:06:21,360
+Let's say the market thinks tomorrow
+
+150
+00:06:21,360 --> 00:06:25,040
+that there is only a 10% chance of rain.
+
+151
+00:06:25,040 --> 00:06:26,920
+So on 50/50 it was simple, right?
+
+152
+00:06:26,920 --> 00:06:29,960
+Because it's 50/50, exactly equal, the
+
+153
+00:06:29,960 --> 00:06:32,000
+amount you stand to win should be exactly
+
+154
+00:06:32,000 --> 00:06:34,240
+the same as the amount you stand to lose.
+
+155
+00:06:34,240 --> 00:06:35,960
+But now the market says, "Oh, it's only a 10%
+
+156
+00:06:35,960 --> 00:06:38,600
+chance of rain." That's like phenomenally unlikely.
+
+157
+00:06:38,600 --> 00:06:41,160
+Well, it's, let's say it's pretty unlikely.
+
+158
+00:06:41,160 --> 00:06:45,440
+But you still think it's almost certainly going to rain.
+
+159
+00:06:45,440 --> 00:06:48,120
+Now because the market thinks the chance of rain
+
+160
+00:06:48,120 --> 00:06:51,920
+is nine times less than the chance of not rain,
+
+161
+00:06:51,920 --> 00:06:54,520
+the amount that you stand to win should be nine
+
+162
+00:06:54,520 --> 00:06:56,520
+times more than the amount that you stand to lose.
+
+163
+00:06:56,520 --> 00:06:58,560
+Because what, what you are saying...
+
+164
+00:06:58,560 --> 00:06:59,920
+the thing that you are saying is going to happen,
+
+165
+00:06:59,920 --> 00:07:02,000
+everybody thinks, "Oh, that's never going to happen.
+
+166
+00:07:02,000 --> 00:07:03,360
+It's phenomenally unlikely." You know?
+
+167
+00:07:03,360 --> 00:07:06,200
+So you're betting on Manchester United winning the
+
+168
+00:07:06,200 --> 00:07:08,200
+league, or something even less likely, like the
+
+169
+00:07:08,200 --> 00:07:10,120
+Conservatives winning the next election, right?
+
+170
+00:07:10,120 --> 00:07:11,760
+If you're going to bet on something phenomenally unlikely
+
+171
+00:07:11,760 --> 00:07:15,280
+like this, then the market will give you more.
+
+172
+00:07:15,280 --> 00:07:19,760
+So if you bet £100 on it raining tomorrow when
+
+173
+00:07:19,760 --> 00:07:22,400
+the market says only 10%, or the Conservatives
+
+174
+00:07:22,400 --> 00:07:23,960
+winning the election, which is actually also
+
+175
+00:07:23,960 --> 00:07:27,720
+similar odds, about 10%, you should stand to
+
+176
+00:07:27,720 --> 00:07:29,600
+win nine times more than you stand to lose.
+
+177
+00:07:29,600 --> 00:07:32,000
+So if you risk £100, the amount that
+
+178
+00:07:32,000 --> 00:07:35,520
+you should win is £900, nine times more.
+
+179
+00:07:35,520 --> 00:07:41,840
+So trading really is basically
+
+180
+00:07:41,840 --> 00:07:44,880
+gambling, but you're gambling on economic things.
+
+181
+00:07:44,880 --> 00:07:48,080
+So when I was a trader, I used to bet a lot
+
+182
+00:07:48,080 --> 00:07:49,720
+on... When I was a professional trader for
+
+183
+00:07:49,720 --> 00:07:52,240
+Citibank, I used to bet a lot on interest rates.
+
+184
+00:07:52,240 --> 00:07:54,360
+And this, again is quite similar.
+
+185
+00:07:54,360 --> 00:07:56,040
+So I can actually... I can pull it up now, actually.
+
+186
+00:07:56,040 --> 00:07:57,360
+We can have a look.
+
+187
+00:07:57,360 --> 00:08:00,200
+So at the moment the Bank of England
+
+188
+00:08:00,200 --> 00:08:03,400
+base rate in the UK is 4%, but we can bet
+
+189
+00:08:03,400 --> 00:08:07,400
+on what the base rate will be in the future.
+
+190
+00:08:07,400 --> 00:08:09,840
+So I can bet on what the base rate will be at
+
+191
+00:08:09,840 --> 00:08:13,040
+the end of next year, and I can put it up now.
+
+192
+00:08:13,040 --> 00:08:14,880
+And the financial markets think
+
+193
+00:08:14,880 --> 00:08:21,320
+that the base rate will be 3.45%.
+
+194
+00:08:21,320 --> 00:08:23,000
+And you can bet on that, basically.
+
+195
+00:08:23,000 --> 00:08:24,200
+And it works in this kind
+
+196
+00:08:24,200 --> 00:08:26,280
+of higher or lower kind of way.
+
+197
+00:08:26,280 --> 00:08:30,960
+So if you, for some reason, knew that rates
+
+198
+00:08:30,960 --> 00:08:34,560
+were going to stay at 4%, you could basically bet
+
+199
+00:08:34,560 --> 00:08:37,600
+like a certain, like a number of pounds per
+
+200
+00:08:37,600 --> 00:08:41,240
+point that it's going to be higher than 3.45%.
+
+201
+00:08:41,240 --> 00:08:42,480
+So I say, "Okay, it's going to be higher than
+
+202
+00:08:42,480 --> 00:08:45,120
+3.45." I know rates are going to stay at four.
+
+203
+00:08:45,120 --> 00:08:52,240
+I bet £100 per .01% and I'll make £100 times 55, which
+
+204
+00:08:52,240 --> 00:08:55,240
+is the amount that I was right by, which is £5,500.
+
+205
+00:08:55,240 --> 00:08:57,040
+And if rates go to zero, I lose much more.
+
+206
+00:08:57,040 --> 00:09:02,200
+So, really, trading is just gambling it... Just
+
+207
+00:09:02,200 --> 00:09:04,200
+in the same way that you could bet on a football
+
+208
+00:09:04,200 --> 00:09:06,600
+match, if you bet on something really unlikely, like
+
+209
+00:09:06,600 --> 00:09:08,040
+Man United winning the league, you'll make
+
+210
+00:09:08,040 --> 00:09:09,000
+a lot of money.
+
+211
+00:09:09,000 --> 00:09:10,520
+If you bet on something really likely, like
+
+212
+00:09:10,520 --> 00:09:12,760
+Liverpool winning the league, you'll make less money.
+
+213
+00:09:12,760 --> 00:09:17,800
+Now, let me tell you why I like this.
+
+214
+00:09:17,800 --> 00:09:24,480
+This kind of system of thinking about the economy
+
+215
+00:09:24,480 --> 00:09:26,600
+rewards you for a couple of things,
+
+216
+00:09:26,600 --> 00:09:29,640
+which I think are good and are important.
+
+217
+00:09:29,640 --> 00:09:32,360
+Number one, it rewards you in particular
+
+218
+00:09:32,360 --> 00:09:35,520
+for being right when everybody is wrong.
+
+219
+00:09:35,520 --> 00:09:39,880
+So I was like a counter-trend trader, and I was
+
+220
+00:09:39,880 --> 00:09:44,320
+looking for things which everybody thought was unlikely.
+
+221
+00:09:44,320 --> 00:09:46,240
+And my big trade, which made me
+
+222
+00:09:46,240 --> 00:09:48,280
+my big money when I was at Citibank,
+
+223
+00:09:48,280 --> 00:09:51,000
+was essentially betting that interest rates would
+
+224
+00:09:51,000 --> 00:09:55,360
+stay low for a long time after the 2008 crisis.
+
+225
+00:09:55,360 --> 00:09:58,760
+And I made that bet because I thought the economy
+
+226
+00:09:58,760 --> 00:10:01,400
+would be weak for a long time after that crisis.
+
+227
+00:10:01,400 --> 00:10:05,960
+And I believed that because I could see that
+
+228
+00:10:05,960 --> 00:10:08,240
+ordinary people were struggling financially,
+
+229
+00:10:08,240 --> 00:10:10,320
+whereas the rich were accumulating a lot of assets.
+
+230
+00:10:10,320 --> 00:10:13,720
+And I knew that ordinary people are essentially,
+
+231
+00:10:13,720 --> 00:10:15,560
+or were, it's becoming less true,
+
+232
+00:10:15,560 --> 00:10:17,960
+ordinary people are the driver of the economy.
+
+233
+00:10:17,960 --> 00:10:23,040
+So I bet on this thing in specifically 2011,
+
+234
+00:10:23,040 --> 00:10:24,760
+when I was Citibank's most profitable trader
+
+235
+00:10:24,760 --> 00:10:27,480
+in the world, that the economy would
+
+236
+00:10:27,480 --> 00:10:29,160
+be really weak, that rates would stay zero.
+
+237
+00:10:29,160 --> 00:10:31,040
+And the reason I made so much money on that was not
+
+238
+00:10:31,040 --> 00:10:35,240
+because that happened, but it was particularly because
+
+239
+00:10:35,240 --> 00:10:38,040
+at that time, at the beginning of 2011,
+
+240
+00:10:38,040 --> 00:10:41,320
+nobody thought it was going to happen.
+
+241
+00:10:41,320 --> 00:10:43,720
+So I'd correctly identified this thing, which
+
+242
+00:10:43,720 --> 00:10:45,680
+was that the economy's ******, ordinary families
+
+243
+00:10:45,680 --> 00:10:47,600
+are ******, the economy is going to be weak.
+
+244
+00:10:47,600 --> 00:10:51,840
+And when I put that trade on at the beginning of 2011,
+
+245
+00:10:51,840 --> 00:10:55,680
+that's, that was a few years after the Lehman crisis.
+
+246
+00:10:55,680 --> 00:10:58,040
+Inflation was starting to rise,
+
+247
+00:10:58,040 --> 00:10:59,920
+and people had been waiting for a long time
+
+248
+00:10:59,920 --> 00:11:02,920
+after Lehman crisis for the economy to recover.
+
+249
+00:11:02,920 --> 00:11:05,560
+And everybody, well, the vast majority of economists
+
+250
+00:11:05,560 --> 00:11:08,440
+and traders thought the economy was going to recover.
+
+251
+00:11:08,440 --> 00:11:11,920
+And the reason that I made so much money on that trade
+
+252
+00:11:11,920 --> 00:11:14,680
+was not because rates stayed at zero, but
+
+253
+00:11:14,680 --> 00:11:17,640
+because rates stayed at zero and everybody
+
+254
+00:11:17,640 --> 00:11:20,160
+thought that rates were going to go up.
+
+255
+00:11:20,160 --> 00:11:22,760
+And I did a very similar thing
+
+256
+00:11:22,760 --> 00:11:24,640
+at the beginning of COVID.
+
+257
+00:11:24,640 --> 00:11:27,040
+So, by the beginning of COVID, I'd
+
+258
+00:11:27,040 --> 00:11:28,280
+been looking at trading for a long time.
+
+259
+00:11:28,280 --> 00:11:31,920
+So I'd really fallen into this style of looking at
+
+260
+00:11:31,920 --> 00:11:38,640
+trading, which is try to understand specifically
+
+261
+00:11:38,640 --> 00:11:42,080
+what it is that everybody is missing.
+
+262
+00:11:42,080 --> 00:11:46,280
+So I had become, and still am very
+
+263
+00:11:46,280 --> 00:11:48,480
+interested in inequality and distribution.
+
+264
+00:11:48,480 --> 00:11:51,440
+I think that in general, economists don't
+
+265
+00:11:51,440 --> 00:11:54,120
+look at or think about inequality or distribution.
+
+266
+00:11:54,120 --> 00:11:58,680
+So basically, I developed one simple way to very
+
+267
+00:11:58,680 --> 00:12:01,080
+consistently make money in financial markets, which has
+
+268
+00:12:01,080 --> 00:12:03,760
+worked very well for me for a long time now, which is
+
+269
+00:12:03,760 --> 00:12:10,600
+super simple. Whenever anything big happens, understand
+
+270
+00:12:10,600 --> 00:12:16,080
+what that is going to do to inequality and distribution.
+
+271
+00:12:16,080 --> 00:12:20,360
+Because most economists don't think very much,
+
+272
+00:12:20,360 --> 00:12:21,640
+especially about inequality of
+
+273
+00:12:21,640 --> 00:12:24,720
+wealth and distribution of wealth.
+
+274
+00:12:24,720 --> 00:12:28,240
+So at the beginning of COVID, I asked myself the
+
+275
+00:12:28,240 --> 00:12:30,160
+same question I always ask myself when anything
+
+276
+00:12:30,160 --> 00:12:33,200
+big happens, "What is this going to do to distribution?
+
+277
+00:12:33,200 --> 00:12:35,320
+What is this going to do to distribution of wealth?
+
+278
+00:12:35,320 --> 00:12:38,480
+What is it going to do to the different groups
+
+279
+00:12:38,480 --> 00:12:42,600
+in society?" And I think... So the first video
+
+280
+00:12:42,600 --> 00:12:45,960
+I ever did on this channel was in June 2020.
+
+281
+00:12:45,960 --> 00:12:48,000
+And if you go back and look at it, and I
+
+282
+00:12:48,000 --> 00:12:50,600
+think we'll put a link in the description, you will
+
+283
+00:12:50,600 --> 00:12:56,120
+see that that video is precisely going through that
+
+284
+00:12:56,120 --> 00:12:58,800
+line of consciousness, that line of thought,
+
+285
+00:12:58,800 --> 00:13:01,720
+which is understanding, asking some questions
+
+286
+00:13:01,720 --> 00:13:04,240
+about, "What's happening in COVID economically?
+
+287
+00:13:04,240 --> 00:13:05,880
+How is that going to affect distribution?
+
+288
+00:13:05,880 --> 00:13:08,400
+How is that going to affect different groups?"
+
+289
+00:13:08,400 --> 00:13:10,640
+And it's so easy to make money when you do that
+
+290
+00:13:10,640 --> 00:13:13,240
+because it is a massive driver of the
+
+291
+00:13:13,240 --> 00:13:15,960
+economy, and economists never talk about it.
+
+292
+00:13:15,960 --> 00:13:17,600
+And what I saw very quickly, and if you want
+
+293
+00:13:17,600 --> 00:13:19,320
+you can go back and see that video, I used to
+
+294
+00:13:19,320 --> 00:13:21,400
+talk about it loads on the channel, was that the
+
+295
+00:13:21,400 --> 00:13:23,080
+government would give a huge amount of money out.
+
+296
+00:13:23,080 --> 00:13:24,400
+Government debt would increase.
+
+297
+00:13:24,400 --> 00:13:27,160
+Ordinary people would use that money to pay their rent,
+
+298
+00:13:27,160 --> 00:13:30,840
+their mortgages, their bills, their food.
+
+299
+00:13:30,840 --> 00:13:33,360
+It would end up getting accumulated by the rich
+
+300
+00:13:33,360 --> 00:13:36,040
+people who own the assets that are involved in
+
+301
+00:13:36,040 --> 00:13:38,800
+providing those services, such as owning the
+
+302
+00:13:38,800 --> 00:13:40,520
+houses, owning the government debt, owning the
+
+303
+00:13:40,520 --> 00:13:43,120
+corporations, owning the natural resources.
+
+304
+00:13:43,120 --> 00:13:44,640
+Money always flows to them when you spend
+
+305
+00:13:44,640 --> 00:13:46,880
+money, but what was interesting about COVID was,
+
+306
+00:13:46,880 --> 00:13:49,520
+because luxury spending was banned, these rich
+
+307
+00:13:49,520 --> 00:13:51,640
+people weren't able to spend the money, and what
+
+308
+00:13:51,640 --> 00:13:54,040
+you saw was this enormous flood of money from
+
+309
+00:13:54,040 --> 00:13:56,960
+the government through the poor to the rich.
+
+310
+00:13:56,960 --> 00:13:59,120
+And the way it was being generally portrayed
+
+311
+00:13:59,120 --> 00:14:00,960
+in the media at the time was, there was a lot
+
+312
+00:14:00,960 --> 00:14:02,800
+of focus on, like, furloughed workers, money
+
+313
+00:14:02,800 --> 00:14:04,640
+is... Or stimulus check if you're in the US.
+
+314
+00:14:04,640 --> 00:14:05,400
+Money is going to the poor.
+
+315
+00:14:05,400 --> 00:14:06,160
+Money is going to the poor.
+
+316
+00:14:06,160 --> 00:14:07,240
+Money is going to the poor.
+
+317
+00:14:07,240 --> 00:14:09,680
+But what was never really discussed was the fact
+
+318
+00:14:09,680 --> 00:14:12,000
+that the poor are spending that money because they're
+
+319
+00:14:12,000 --> 00:14:14,120
+not getting their wages, and it's ending up being
+
+320
+00:14:14,120 --> 00:14:16,240
+accumulated by rich people who can't spend it.
+
+321
+00:14:16,240 --> 00:14:19,520
+And when we come out of COVID, what you will have is
+
+322
+00:14:19,520 --> 00:14:22,600
+rich people sitting on these enormous bank balances.
+
+323
+00:14:22,600 --> 00:14:26,160
+And that was so, so, so easy to monetise, precisely
+
+324
+00:14:26,160 --> 00:14:27,920
+because of the same two reasons, which are the
+
+325
+00:14:27,920 --> 00:14:31,160
+same two things I always think about, which is,
+
+326
+00:14:31,160 --> 00:14:33,000
+what's happening to inequality and distribution,
+
+327
+00:14:33,000 --> 00:14:34,520
+because that's the main economic driver and
+
+328
+00:14:34,520 --> 00:14:37,960
+economists don't look at it, and what element of
+
+329
+00:14:37,960 --> 00:14:41,960
+that is not being recognised in the narrative?
+
+330
+00:14:41,960 --> 00:14:44,760
+In 2008, I recognised that the narrative wasn't
+
+331
+00:14:44,760 --> 00:14:47,960
+recognising that ordinary people, middle-class people,
+
+332
+00:14:47,960 --> 00:14:51,160
+poor people, were really struggling, and that meant
+
+333
+00:14:51,160 --> 00:14:53,200
+that the economy would be weak for a long time.
+
+334
+00:14:53,200 --> 00:14:55,440
+But in COVID, what people didn't realise is that the
+
+335
+00:14:55,440 --> 00:14:57,520
+rich and the very rich were accumulating enormous
+
+336
+00:14:57,520 --> 00:15:00,480
+amounts of money, and that that would lead to an
+
+337
+00:15:00,480 --> 00:15:02,840
+inequality crisis, a cost of living crisis, an
+
+338
+00:15:02,840 --> 00:15:06,480
+inflation crisis, and most obviously, an asset
+
+339
+00:15:06,480 --> 00:15:10,200
+price, massive, massive asset price increase, crisis.
+
+340
+00:15:10,200 --> 00:15:12,760
+So I bet enormously on the gold price going up.
+
+341
+00:15:12,760 --> 00:15:14,200
+I bought a huge amount of gold right at the beginning
+
+342
+00:15:14,200 --> 00:15:17,040
+of COVID, and I also bought quite lot of stocks.
+
+343
+00:15:17,040 --> 00:15:18,440
+And those have done very, very well.
+
+344
+00:15:18,440 --> 00:15:20,480
+And it's just basically based on
+
+345
+00:15:20,480 --> 00:15:23,520
+understanding always the same thing, which is,
+
+346
+00:15:23,520 --> 00:15:25,520
+economists don't look at inequality.
+
+347
+00:15:25,520 --> 00:15:27,720
+Inequality is really, at this point,
+
+348
+00:15:27,720 --> 00:15:30,440
+the main driver of big economic moves.
+
+349
+00:15:30,440 --> 00:15:31,840
+So if you understand what's going to happen to
+
+350
+00:15:31,840 --> 00:15:33,760
+inequality, you can understand very easily
+
+351
+00:15:33,760 --> 00:15:35,360
+what's going to happen to the economy.
+
+352
+00:15:35,360 --> 00:15:40,120
+So the lesson of this basically answers the
+
+353
+00:15:40,120 --> 00:15:42,560
+question in the title of this video, "How to be the
+
+354
+00:15:42,560 --> 00:15:46,880
+best trader in the world." All you really need to do
+
+355
+00:15:46,880 --> 00:15:50,240
+to be a very, very good trader from an economic analysis
+
+356
+00:15:50,240 --> 00:15:55,840
+perspective is understand specifically, "What is it that
+
+357
+00:15:55,840 --> 00:15:59,800
+is very important that is not being understood by the
+
+358
+00:15:59,800 --> 00:16:02,840
+majority of economists and traders?" Because if you bet
+
+359
+00:16:02,840 --> 00:16:05,720
+on something that's definitely going to happen, like, for
+
+360
+00:16:05,720 --> 00:16:09,240
+example, you know, betting on Liverpool or Manchester
+
+361
+00:16:09,240 --> 00:16:12,240
+City winning the league, or, you know, everybody
+
+362
+00:16:12,240 --> 00:16:13,920
+knows it's not going to rain tomorrow and you say, "It's
+
+363
+00:16:13,920 --> 00:16:15,560
+not going to rain tomorrow," you don't make any money.
+
+364
+00:16:15,560 --> 00:16:19,520
+You make the money when you have correctly identified
+
+365
+00:16:19,520 --> 00:16:22,720
+something that everybody is wrong about.
+
+366
+00:16:22,720 --> 00:16:27,520
+And you only need to identify one of these things if
+
+367
+00:16:27,520 --> 00:16:28,760
+people are consistently wrong about it.
+
+368
+00:16:28,760 --> 00:16:32,000
+So all of the money I've ever made, and it's
+
+369
+00:16:32,000 --> 00:16:34,800
+at this point quite a lot, on trading,
+
+370
+00:16:34,800 --> 00:16:37,920
+is based on one simple understanding.
+
+371
+00:16:37,920 --> 00:16:41,880
+Economists do not recognise the macroeconomic
+
+372
+00:16:41,880 --> 00:16:44,880
+importance of growing wealth inequality.
+
+373
+00:16:44,880 --> 00:16:47,360
+And whenever anything happens, I
+
+374
+00:16:47,360 --> 00:16:49,040
+look at the wealth distribution.
+
+375
+00:16:49,040 --> 00:16:50,560
+What's going to happen?
+
+376
+00:16:50,560 --> 00:16:53,080
+Because the economists are not looking at it, I will
+
+377
+00:16:53,080 --> 00:16:56,400
+be able to predict things that will happen, such as the
+
+378
+00:16:56,400 --> 00:17:00,240
+phenomenal weakness after 2008, or the inflation price...
+
+379
+00:17:00,240 --> 00:17:03,960
+the inflation crisis, cost of living crisis after COVID.
+
+380
+00:17:03,960 --> 00:17:05,040
+They will not be predicted.
+
+381
+00:17:05,040 --> 00:17:06,120
+I can predict them.
+
+382
+00:17:06,120 --> 00:17:07,360
+That's how you make your money.
+
+383
+00:17:07,360 --> 00:17:09,320
+To be the best trader in the world, you
+
+384
+00:17:09,320 --> 00:17:12,960
+simply need to identify something that is very
+
+385
+00:17:12,960 --> 00:17:15,240
+important that the economists have missed.
+
+386
+00:17:15,240 --> 00:17:17,720
+So now I've spoken about that, I want to talk a little
+
+387
+00:17:17,720 --> 00:17:23,280
+bit abo- more about why I... I never talk about this on
+
+388
+00:17:23,280 --> 00:17:25,800
+the channel but it's true... why I kind of love trading.
+
+389
+00:17:25,800 --> 00:17:28,760
+So there's this one element which is, it rewards you
+
+390
+00:17:28,760 --> 00:17:32,120
+for recognising things everybody else has missed.
+
+391
+00:17:32,120 --> 00:17:33,440
+And I don't know if that's just part of
+
+392
+00:17:33,440 --> 00:17:36,200
+my personality, but I think it's, I think
+
+393
+00:17:36,200 --> 00:17:38,040
+it's very important for society, right?
+
+394
+00:17:38,040 --> 00:17:40,680
+Like, if there is something badly wrong
+
+395
+00:17:40,680 --> 00:17:43,000
+that nobody's noticed, that is the kind of
+
+396
+00:17:43,000 --> 00:17:45,120
+thing you want to incentivise people to reward.
+
+397
+00:17:45,120 --> 00:17:47,720
+You know, if you're building a bridge, or let's
+
+398
+00:17:47,720 --> 00:17:50,040
+say you're building a rocket ship, and everybody
+
+399
+00:17:50,040 --> 00:17:53,040
+thinks it's going to fly but there's one thing in
+
+400
+00:17:53,040 --> 00:17:55,800
+there that's going to cause it to blow up, you want
+
+401
+00:17:55,800 --> 00:17:58,960
+to incentivise people to find that thing, right?
+
+402
+00:17:58,960 --> 00:18:01,280
+So trading does this phenomenal thing of
+
+403
+00:18:01,280 --> 00:18:03,880
+really incentivising and rewarding people
+
+404
+00:18:03,880 --> 00:18:07,360
+for recognising when everybody is wrong on a thing.
+
+405
+00:18:07,360 --> 00:18:08,960
+And I think there's a real beauty
+
+406
+00:18:08,960 --> 00:18:10,600
+to that and there's an importance to that.
+
+407
+00:18:10,600 --> 00:18:15,080
+Because most of our methods of analysis
+
+408
+00:18:15,080 --> 00:18:18,200
+in society, say, be it in politics or in
+
+409
+00:18:18,200 --> 00:18:20,680
+the media or in academia, they don't really
+
+410
+00:18:20,680 --> 00:18:23,880
+incentivise or reward people who kind of fight
+
+411
+00:18:23,880 --> 00:18:26,400
+against or push back against the groupthink.
+
+412
+00:18:26,400 --> 00:18:29,120
+And trading does this, and I think that that
+
+413
+00:18:29,120 --> 00:18:31,280
+is something that is really beautiful and
+
+414
+00:18:31,280 --> 00:18:33,040
+something that is really useful for society.
+
+415
+00:18:33,040 --> 00:18:36,320
+Unfortunately, it's not really often used for the
+
+416
+00:18:36,320 --> 00:18:39,280
+good of society, which is something I'll get into later.
+
+417
+00:18:39,280 --> 00:18:40,760
+But it does another thing as well, which
+
+418
+00:18:40,760 --> 00:18:43,360
+is it rewards you for kind of putting
+
+419
+00:18:43,360 --> 00:18:45,080
+your nuts on the line, on a thing.
+
+420
+00:18:45,080 --> 00:18:46,120
+So you can do this.
+
+421
+00:18:46,120 --> 00:18:48,920
+So when I say, as a trader, you only really
+
+422
+00:18:48,920 --> 00:18:52,360
+need to recognise one thing the economists are
+
+423
+00:18:52,360 --> 00:18:55,000
+missing, and you just bet on that one thing.
+
+424
+00:18:55,000 --> 00:18:57,080
+So as a trader, you can make as many bets as
+
+425
+00:18:57,080 --> 00:18:58,840
+you like, but you can choose what you're going to
+
+426
+00:18:58,840 --> 00:19:00,800
+bet a lot of money on, and you can choose what
+
+427
+00:19:00,800 --> 00:19:02,400
+you're going to bet a little bit of money on.
+
+428
+00:19:02,400 --> 00:19:04,880
+So the kind of traders that really, really do
+
+429
+00:19:04,880 --> 00:19:08,440
+well, in my opinion, are the traders who... at
+
+430
+00:19:08,440 --> 00:19:10,760
+least this is definitely my side of trading, they
+
+431
+00:19:10,760 --> 00:19:13,720
+recognise the thing that they are really good at,
+
+432
+00:19:13,720 --> 00:19:15,480
+the thing that they have a really good understanding
+
+433
+00:19:15,480 --> 00:19:20,240
+on, and they bet all of their money on that thing.
+
+434
+00:19:20,240 --> 00:19:23,560
+And I think it's a really good way to recognise and
+
+435
+00:19:23,560 --> 00:19:27,800
+identify good people, to find people who are willing
+
+436
+00:19:27,800 --> 00:19:31,080
+to make outrageous predictions that everybody says are
+
+437
+00:19:31,080 --> 00:19:37,160
+wrong and bet enormous amounts of their own money on it.
+
+438
+00:19:37,160 --> 00:19:38,880
+And I think this is
+
+439
+00:19:38,880 --> 00:19:41,440
+such an important element of trading.
+
+440
+00:19:41,440 --> 00:19:42,480
+And I was talking to Jack
+
+441
+00:19:42,480 --> 00:19:43,880
+before we shot this about this.
+
+442
+00:19:43,880 --> 00:19:46,680
+So there's a line from one of
+
+443
+00:19:46,680 --> 00:19:50,960
+my sort of trading mentors, which is, "Don't tell
+
+444
+00:19:50,960 --> 00:19:54,600
+me your opinion, tell me your position." And
+
+445
+00:19:54,600 --> 00:19:57,080
+what he means when he says this, so a position
+
+446
+00:19:57,080 --> 00:20:00,240
+is what traders call the thing or the group of
+
+447
+00:20:00,240 --> 00:20:04,120
+things that they have actually bet their money on.
+
+448
+00:20:04,120 --> 00:20:06,640
+And there's this thing that happens when you're
+
+449
+00:20:06,640 --> 00:20:09,280
+a trader, which is you're a young trader and at
+
+450
+00:20:09,280 --> 00:20:12,280
+some point you're going to put your first big bet on.
+
+451
+00:20:12,280 --> 00:20:15,000
+And you go into the office and you put your
+
+452
+00:20:15,000 --> 00:20:18,000
+big bet on and then you go home and then you sit
+
+453
+00:20:18,000 --> 00:20:22,000
+down, and if you are wrong in this bet, you're
+
+454
+00:20:22,000 --> 00:20:25,280
+going to... you personally are going to lose £100,000
+
+455
+00:20:25,280 --> 00:20:26,160
+It's your first big trade.
+
+456
+00:20:26,160 --> 00:20:27,240
+It's your first big bet.
+
+457
+00:20:27,240 --> 00:20:29,960
+You sit down, and this has happened to me and I think
+
+458
+00:20:29,960 --> 00:20:31,880
+it has probably happened to any professional trader.
+
+459
+00:20:31,880 --> 00:20:40,960
+You think, "******, am I actually right on that thing?
+
+460
+00:20:40,960 --> 00:20:45,720
+Because if I'm wrong on that thing, I'm going to lose
+
+461
+00:20:45,720 --> 00:20:48,360
+£100,000 and that's going to be ****." And then
+
+462
+00:20:48,360 --> 00:20:51,400
+you start thinking about that trade,
+
+463
+00:20:51,400 --> 00:20:55,880
+that bet, that ultimately it is an opinion of yours,
+
+464
+00:20:55,880 --> 00:20:57,960
+and you're going to start... you're going to really start
+
+465
+00:20:57,960 --> 00:21:01,480
+really thinking, "Is that trade actually right?
+
+466
+00:21:01,480 --> 00:21:02,480
+Am I actually right?
+
+467
+00:21:02,480 --> 00:21:04,360
+Is that opinion actually right?" And you
+
+468
+00:21:04,360 --> 00:21:06,680
+might realise, "Uh, but what about this thing?
+
+469
+00:21:06,680 --> 00:21:07,400
+I haven't looked at that
+
+470
+00:21:07,400 --> 00:21:08,640
+I haven't thought about that thing.
+
+471
+00:21:08,640 --> 00:21:10,080
+What about this thing that that guy said?
+
+472
+00:21:10,080 --> 00:21:11,160
+Could that be important?
+
+473
+00:21:11,160 --> 00:21:11,920
+Could this be important?
+
+474
+00:21:11,920 --> 00:21:14,280
+Maybe I need to research this thing." And
+
+475
+00:21:14,280 --> 00:21:19,000
+I, basically think once you've experienced
+
+476
+00:21:19,000 --> 00:21:21,840
+betting a huge amount of your personal money
+
+477
+00:21:21,840 --> 00:21:28,160
+on what is essentially just an opinion, you start to
+
+478
+00:21:28,160 --> 00:21:31,360
+fundamentally think about opinions in a different
+
+479
+00:21:31,360 --> 00:21:33,600
+way that you have never thought about before.
+
+480
+00:21:33,600 --> 00:21:36,560
+You start to really, really sit and think,
+
+481
+00:21:36,560 --> 00:21:42,120
+"Are my opinions actually right?" And this is what
+
+482
+00:21:42,120 --> 00:21:44,800
+my old trading mentor, in the book he's called, Billy,
+
+483
+00:21:44,800 --> 00:21:49,000
+meant when he said, "I don't care about your opinion,
+
+484
+00:21:49,000 --> 00:21:53,440
+I want to know your position." Which is basically
+
+485
+00:21:53,440 --> 00:21:58,080
+once you have been a trader and you have experienced
+
+486
+00:21:58,080 --> 00:22:01,680
+the concept of putting yourself at risk of facing
+
+487
+00:22:01,680 --> 00:22:04,320
+enormous personal loss if your opinions are wrong,
+
+488
+00:22:04,320 --> 00:22:07,040
+you start to really, really think long and hard about
+
+489
+00:22:07,040 --> 00:22:09,000
+whether your opinions are right or wrong or not.
+
+490
+00:22:09,000 --> 00:22:13,000
+And you kind of start to not really care
+
+491
+00:22:13,000 --> 00:22:15,000
+about people expressing opinions who are
+
+492
+00:22:15,000 --> 00:22:16,880
+not willing to bet their own money on it.
+
+493
+00:22:16,880 --> 00:22:19,200
+Because you kind of realise that at the end of
+
+494
+00:22:19,200 --> 00:22:22,840
+the day, opinions that people are not willing
+
+495
+00:22:22,840 --> 00:22:25,240
+to support with their own, like, financial loss
+
+496
+00:22:25,240 --> 00:22:30,040
+are often, like, kind of bull****, basically.
+
+497
+00:22:30,040 --> 00:22:31,440
+And this is what I love about trading.
+
+498
+00:22:31,440 --> 00:22:34,600
+It force you to not chat bull****, to
+
+499
+00:22:34,600 --> 00:22:36,560
+really, really interrogate yourself, to really,
+
+500
+00:22:36,560 --> 00:22:38,760
+really ask yourself, "Am I actually right?
+
+501
+00:22:38,760 --> 00:22:41,560
+Is that the right answer?" To not just sort of
+
+502
+00:22:41,560 --> 00:22:45,160
+chat ****, whatever sort of **** works at the time.
+
+503
+00:22:45,160 --> 00:22:47,440
+It forces you to ask yourself, like, "Which of my
+
+504
+00:22:47,440 --> 00:22:49,880
+opinions am I really, really, really confident on?
+
+505
+00:22:49,880 --> 00:22:51,040
+Which ones am I really, really
+
+506
+00:22:51,040 --> 00:22:52,880
+willing to bet my own money on?
+
+507
+00:22:52,880 --> 00:22:55,320
+Which ones am I really willing to back myself
+
+508
+00:22:55,320 --> 00:22:58,280
+on?" And it also rewards you for
+
+509
+00:22:58,280 --> 00:22:59,680
+recognising when other people are wrong.
+
+510
+00:22:59,680 --> 00:23:03,440
+And the last thing, which I love about it,
+
+511
+00:23:03,440 --> 00:23:06,120
+is that it recognises the people who are right.
+
+512
+00:23:06,120 --> 00:23:10,680
+So as I've said, I was a kind of a counter-trend
+
+513
+00:23:10,680 --> 00:23:13,000
+trader, which means I was always looking for
+
+514
+00:23:13,000 --> 00:23:15,000
+times and moments when the narrative
+
+515
+00:23:15,000 --> 00:23:17,080
+was wrong, when the consensus opinion was
+
+516
+00:23:17,080 --> 00:23:19,680
+wrong, when everybody was wrong about a thing.
+
+517
+00:23:19,680 --> 00:23:23,240
+And when I put my big trade on in 2011,
+
+518
+00:23:23,240 --> 00:23:25,200
+that the economy would never recover, that was
+
+519
+00:23:25,200 --> 00:23:28,160
+my first big, like, counter-consensus trade.
+
+520
+00:23:28,160 --> 00:23:30,960
+And lots of people thought I was wrong.
+
+521
+00:23:30,960 --> 00:23:34,920
+And, yeah, I love economics, obviously.
+
+522
+00:23:34,920 --> 00:23:39,120
+And I hired a junior who was, like, fresh
+
+523
+00:23:39,120 --> 00:23:41,720
+out of Bocconi in Italy, economics graduate,
+
+524
+00:23:41,720 --> 00:23:43,480
+and we would argue about economics all the time.
+
+525
+00:23:43,480 --> 00:23:46,080
+And I would argue with a lot of richer,
+
+526
+00:23:46,080 --> 00:23:48,240
+posher, better-connected people about the economy.
+
+527
+00:23:48,240 --> 00:23:50,080
+And very often people would say that I was wrong
+
+528
+00:23:50,080 --> 00:23:52,400
+because I was taking these counter-trend positions.
+
+529
+00:23:52,400 --> 00:23:53,720
+They would say, "No, you know, the
+
+530
+00:23:53,720 --> 00:23:55,160
+economy is, it's getting better.
+
+531
+00:23:55,160 --> 00:23:56,200
+It's going to be fine.
+
+532
+00:23:56,200 --> 00:23:57,080
+Things are going to be good.
+
+533
+00:23:57,080 --> 00:24:00,960
+Things are getting better." And as a trader then,
+
+534
+00:24:00,960 --> 00:24:03,520
+and to be honest, even still now, because I do still
+
+535
+00:24:03,520 --> 00:24:06,200
+trade now, when I'm in this kind of situation where
+
+536
+00:24:06,200 --> 00:24:08,120
+everybody's saying to me, "Again, oh, you're wrong.
+
+537
+00:24:08,120 --> 00:24:08,840
+No, you're wrong.
+
+538
+00:24:08,840 --> 00:24:09,800
+Things are going to be fine.
+
+539
+00:24:09,800 --> 00:24:12,240
+Things aren't going to get worse." The trader
+
+540
+00:24:12,240 --> 00:24:16,920
+in me, like, really loves it. Because I know
+
+541
+00:24:16,920 --> 00:24:19,960
+that the more people say I'm wrong, and the more
+
+542
+00:24:19,960 --> 00:24:22,040
+people think I'm wrong, and the more people argue
+
+543
+00:24:22,040 --> 00:24:25,720
+I'm wrong, the more money I'm going to make.
+
+544
+00:24:25,720 --> 00:24:28,120
+And there's something about my personality that
+
+545
+00:24:28,120 --> 00:24:32,480
+I really enjoy there, and it's this... In a way, it
+
+546
+00:24:32,480 --> 00:24:36,600
+kind of helps because I have always made money betting
+
+547
+00:24:36,600 --> 00:24:38,680
+on terrible things, and predicting terrible
+
+548
+00:24:38,680 --> 00:24:42,200
+things, and I know things are going to get worse.
+
+549
+00:24:42,200 --> 00:24:45,480
+And as a trader, you have this thing, which is at least,
+
+550
+00:24:45,480 --> 00:24:47,760
+at the end of the day, I'm going to be right, they're going to
+
+551
+00:24:47,760 --> 00:24:50,280
+be wrong, they're going to have to give me loads of money.
+
+552
+00:24:50,280 --> 00:24:52,400
+And at the end of the day, everybody's going to look at
+
+553
+00:24:52,400 --> 00:24:54,800
+the numbers and they're going to see that I was right.
+
+554
+00:24:54,800 --> 00:24:57,800
+And it doesn't stop the world from collapsing.
+
+555
+00:24:57,800 --> 00:24:59,560
+It doesn't stop the world from being ****.
+
+556
+00:24:59,560 --> 00:25:02,160
+But what it does do is it forces them to
+
+557
+00:25:02,160 --> 00:25:05,240
+recognise at the end of the day that you were right
+
+558
+00:25:05,240 --> 00:25:08,200
+and they were wrong, and that allows you to sort
+
+559
+00:25:08,200 --> 00:25:11,680
+of at least get a little bit of respect for the
+
+560
+00:25:11,680 --> 00:25:14,040
+fact that you correctly predicted this disaster.
+
+561
+00:25:14,040 --> 00:25:18,760
+And this then brings me to the weaknesses of
+
+562
+00:25:18,760 --> 00:25:25,120
+trading, which is as much as you are able to be rewarded
+
+563
+00:25:25,120 --> 00:25:31,760
+and recognised for correctly identifying big problems in
+
+564
+00:25:31,760 --> 00:25:38,240
+society, you can't do anything as a trader to fix them.
+
+565
+00:25:38,240 --> 00:25:40,360
+And this is one of the questions I get asked a lot
+
+566
+00:25:40,360 --> 00:25:43,360
+when I do interviews, which is people say to me, "Gary,
+
+567
+00:25:43,360 --> 00:25:47,320
+do you think it was wrong that you bet on society
+
+568
+00:25:47,320 --> 00:25:51,320
+collapsing and you made so much money?" And
+
+569
+00:25:51,320 --> 00:25:54,320
+in a sense, that's kind of a funny question because
+
+570
+00:25:54,320 --> 00:25:57,240
+it kind of assumes that there was like an alternative.
+
+571
+00:25:57,240 --> 00:26:00,520
+There not... So, there's not a phone
+
+572
+00:26:00,520 --> 00:26:02,440
+on the trading floor that you can go to and, you
+
+573
+00:26:02,440 --> 00:26:03,960
+know, ring up the prime minister or the president,
+
+574
+00:26:03,960 --> 00:26:07,080
+and say, "Hey, listen, I'm Citibank's number
+
+575
+00:26:07,080 --> 00:26:09,480
+one trader, and I've recognised your economy is
+
+576
+00:26:09,480 --> 00:26:11,200
+going to collapse, and would you like to do
+
+577
+00:26:11,200 --> 00:26:13,760
+something about it?" That phone doesn't exist.
+
+578
+00:26:13,760 --> 00:26:19,880
+What you can do if you want to fix the economy
+
+579
+00:26:19,880 --> 00:26:22,960
+is basically exactly what I have done, which
+
+580
+00:26:22,960 --> 00:26:25,240
+is, very, very shortly after becoming
+
+581
+00:26:25,240 --> 00:26:28,160
+Citibank's most profitable trader, in
+
+582
+00:26:28,160 --> 00:26:32,080
+2011, I started trying to quit the bank because
+
+583
+00:26:32,080 --> 00:26:35,200
+wanted to try and stop our society from collapsing.
+
+584
+00:26:35,200 --> 00:26:45,760
+And what I find super interesting is, as a trader,
+
+585
+00:26:45,760 --> 00:26:48,160
+because I had this very, very good long term track
+
+586
+00:26:48,160 --> 00:26:53,440
+record of being right, I was very well-esteemed and
+
+587
+00:26:53,440 --> 00:26:56,160
+very well-respected, and I would get any resources
+
+588
+00:26:56,160 --> 00:26:58,960
+that I want and I could talk to anybody that I want.
+
+589
+00:26:58,960 --> 00:27:01,480
+And it was kind of generally recognised that, you
+
+590
+00:27:01,480 --> 00:27:03,840
+know, Gary is one of the best traders in the bank.
+
+591
+00:27:03,840 --> 00:27:06,800
+So you have this thing in trading at a bank called
+
+592
+00:27:06,800 --> 00:27:10,800
+P&L, profit and loss, and it's very visible.
+
+593
+00:27:10,800 --> 00:27:12,520
+Spreadsheet goes round, everybody can
+
+594
+00:27:12,520 --> 00:27:13,720
+see everybody else's profit and loss, so
+
+595
+00:27:13,720 --> 00:27:15,680
+everybody knows who the best traders are.
+
+596
+00:27:15,680 --> 00:27:18,800
+And because I was number one in 2011,
+
+597
+00:27:18,800 --> 00:27:22,200
+I was like kind of a bit famous at Citibank
+
+598
+00:27:22,200 --> 00:27:24,160
+for being like... I was very young in 2011.
+
+599
+00:27:24,160 --> 00:27:25,680
+I turned 25 at the end of the year.
+
+600
+00:27:25,680 --> 00:27:27,320
+Everybody was sort of like, "This guy is like one
+
+601
+00:27:27,320 --> 00:27:29,640
+of the hot young traders." And I got paid a
+
+602
+00:27:29,640 --> 00:27:32,920
+lot of money and I got given a lot of recognition.
+
+603
+00:27:32,920 --> 00:27:35,640
+And I... When I came out of trading,
+
+604
+00:27:35,640 --> 00:27:38,160
+I was kind of a little bit naive.
+
+605
+00:27:38,160 --> 00:27:40,560
+I kind of thought that, you know, if I can get paid
+
+606
+00:27:40,560 --> 00:27:43,760
+£2 million a year working for a bank, if I can be
+
+607
+00:27:43,760 --> 00:27:44,960
+one of the best traders in the world for one the
+
+608
+00:27:44,960 --> 00:27:49,360
+biggest banks in the world, surely government and,
+
+609
+00:27:49,360 --> 00:27:53,760
+and the media and think tanks will want to listen to me.
+
+610
+00:27:53,760 --> 00:27:56,680
+But the truth is,
+
+611
+00:27:56,680 --> 00:27:59,400
+really they haven't listened so much.
+
+612
+00:27:59,400 --> 00:28:03,720
+And I've been out in the world of
+
+613
+00:28:03,720 --> 00:28:07,080
+public-facing economics for... I actually quit Citibank
+
+614
+00:28:07,080 --> 00:28:09,680
+in 2014, is when I finally got out, and I've been
+
+615
+00:28:09,680 --> 00:28:12,680
+speaking very publicly since the beginning of 2020.
+
+616
+00:28:12,680 --> 00:28:14,960
+And I've really struggled
+
+617
+00:28:14,960 --> 00:28:16,640
+to get people to listen, really.
+
+618
+00:28:16,640 --> 00:28:19,600
+And this is the big frustration
+
+619
+00:28:19,600 --> 00:28:23,000
+I find with being somebody who was a trader and
+
+620
+00:28:23,000 --> 00:28:25,680
+is now in the world of trying to actually do
+
+621
+00:28:25,680 --> 00:28:27,920
+something about the economy, which is... When
+
+622
+00:28:27,920 --> 00:28:30,800
+you're a trader, when I was a trader, and I was a
+
+623
+00:28:30,800 --> 00:28:33,960
+counter-trend trader, people disagree with you a lot.
+
+624
+00:28:33,960 --> 00:28:35,800
+And it's fantastic because you're going to make tons of
+
+625
+00:28:35,800 --> 00:28:37,760
+money, and at the end of the year, everybody's going to
+
+626
+00:28:37,760 --> 00:28:41,480
+say, "Gary was right." But now in this world of like
+
+627
+00:28:41,480 --> 00:28:46,000
+public-facing economics, that basically doesn't happen.
+
+628
+00:28:46,000 --> 00:28:51,000
+So, my first video on this channel in
+
+629
+00:28:51,000 --> 00:28:54,320
+2020, I... You know, you should go back and
+
+630
+00:28:54,320 --> 00:28:58,040
+watch it because it's ******* very good, basically.
+
+631
+00:28:58,040 --> 00:29:00,120
+It was June 2020, the beginning of COVID, when
+
+632
+00:29:00,120 --> 00:29:02,200
+everybody was still saying, "You know, we're going to
+
+633
+00:29:02,200 --> 00:29:06,440
+have a really massive economic recovery after COVID,
+
+634
+00:29:06,440 --> 00:29:09,640
+pent-up demand, roaring 20s." And I correctly predicted
+
+635
+00:29:09,640 --> 00:29:12,560
+the cost of living crisis, the inflation crisis, the
+
+636
+00:29:12,560 --> 00:29:16,680
+austerity crisis, the... That there would be a massive
+
+637
+00:29:16,680 --> 00:29:19,520
+increase in asset prices, house prices.
+
+638
+00:29:19,520 --> 00:29:20,680
+At the time, The Guardian was
+
+639
+00:29:20,680 --> 00:29:22,360
+predicting a house price collapse.
+
+640
+00:29:22,360 --> 00:29:24,840
+Everybody was predicting a massive economic boom.
+
+641
+00:29:24,840 --> 00:29:28,080
+But my predictions were super correct.
+
+642
+00:29:28,080 --> 00:29:29,400
+And it's basically for the
+
+643
+00:29:29,400 --> 00:29:30,960
+same reason it's always been, because I
+
+644
+00:29:30,960 --> 00:29:32,680
+understand the importance of inequality.
+
+645
+00:29:32,680 --> 00:29:36,680
+And as somebody who was a trader, you have this
+
+646
+00:29:36,680 --> 00:29:40,080
+instinct which is like, "Oh my God, I'm going to make so
+
+647
+00:29:40,080 --> 00:29:42,240
+much money." And, and I did make a load of money, but,
+
+648
+00:29:42,240 --> 00:29:44,400
+you know, at the end of the year, everybody's going to
+
+649
+00:29:44,400 --> 00:29:47,240
+see that my predictions are right, everybody else's
+
+650
+00:29:47,240 --> 00:29:49,400
+predictions were wrong, and then maybe I'm going to be
+
+651
+00:29:49,400 --> 00:29:51,560
+able to get a little bit of recognition and maybe we're
+
+652
+00:29:51,560 --> 00:29:54,760
+going to be able to solve this massive economic crisis.
+
+653
+00:29:54,760 --> 00:29:57,680
+But the truth is, it didn't work out that way.
+
+654
+00:29:57,680 --> 00:29:59,600
+I made these phenomenal economic predictions
+
+655
+00:29:59,600 --> 00:30:01,840
+and I made a lot of excellent trades and I made a
+
+656
+00:30:01,840 --> 00:30:04,800
+lot of money, and the cost of living crisis happened
+
+657
+00:30:04,800 --> 00:30:07,880
+and the inequality crisis happened and the,
+
+658
+00:30:07,880 --> 00:30:11,680
+the austerity crisis happened and is happening.
+
+659
+00:30:11,680 --> 00:30:13,240
+Asset prices went through the roof.
+
+660
+00:30:13,240 --> 00:30:16,000
+All of these things happened, and I
+
+661
+00:30:16,000 --> 00:30:18,360
+was kind of screaming to government
+
+662
+00:30:18,360 --> 00:30:20,160
+that we need to do something about it.
+
+663
+00:30:20,160 --> 00:30:23,120
+And I got a little bit of coverage in the media.
+
+664
+00:30:23,120 --> 00:30:28,240
+But this crazy thing happened where basically
+
+665
+00:30:28,240 --> 00:30:32,240
+nobody or almost nobody in the public sector cared.
+
+666
+00:30:32,240 --> 00:30:35,120
+And I think this is the
+
+667
+00:30:35,120 --> 00:30:37,000
+point that I want to make with you.
+
+668
+00:30:37,000 --> 00:30:41,360
+We've created an economy where people who are
+
+669
+00:30:41,360 --> 00:30:45,120
+very, very, very, very good at understanding the
+
+670
+00:30:45,120 --> 00:30:48,560
+economy will collapse can get paid millions of pounds
+
+671
+00:30:48,560 --> 00:30:52,040
+a year working for any bank in the City, in Canary
+
+672
+00:30:52,040 --> 00:30:54,080
+Wharf, in your country's financial district.
+
+673
+00:30:54,080 --> 00:30:56,440
+But I have been out here speaking publicly about
+
+674
+00:30:56,440 --> 00:30:58,920
+these things now for very little money, usually
+
+675
+00:30:58,920 --> 00:31:01,920
+for free, and I have not been able to speak
+
+676
+00:31:01,920 --> 00:31:06,320
+to or advise any British government for free.
+
+677
+00:31:06,320 --> 00:31:07,680
+And that is the thing which
+
+678
+00:31:07,680 --> 00:31:09,320
+you... I want you to understand.
+
+679
+00:31:09,320 --> 00:31:13,480
+I could get paid millions of pounds a year
+
+680
+00:31:13,480 --> 00:31:16,240
+working for pretty much any bank in the world,
+
+681
+00:31:16,240 --> 00:31:19,840
+and I cannot advise the government for free.
+
+682
+00:31:19,840 --> 00:31:20,760
+So why is that?
+
+683
+00:31:20,760 --> 00:31:25,600
+And I think the reason for that is primarily because
+
+684
+00:31:25,600 --> 00:31:29,160
+we have split economics into two worlds,
+
+685
+00:31:29,160 --> 00:31:32,200
+where we view trading as like practical
+
+686
+00:31:32,200 --> 00:31:35,760
+economics, and we don't view it as proper
+
+687
+00:31:35,760 --> 00:31:38,680
+economics, which is kind of academic economics.
+
+688
+00:31:38,680 --> 00:31:43,840
+And in this public policy world, government,
+
+689
+00:31:43,840 --> 00:31:47,720
+academia, universities, think tanks, they
+
+690
+00:31:47,720 --> 00:31:50,320
+want a different kind of economist who
+
+691
+00:31:50,320 --> 00:31:52,760
+has gone through a more academic route,
+
+692
+00:31:52,760 --> 00:31:57,200
+and they don't view trading as economic analysis.
+
+693
+00:31:57,200 --> 00:31:59,120
+So we need to talk quickly about the
+
+694
+00:31:59,120 --> 00:32:02,080
+question, is trading economic analysis?
+
+695
+00:32:02,080 --> 00:32:06,240
+So I did my undergrad a long time ago now at
+
+696
+00:32:06,240 --> 00:32:08,440
+the London School of Economics, which is one of
+
+697
+00:32:08,440 --> 00:32:11,360
+the most famous and most prestigious economics
+
+698
+00:32:11,360 --> 00:32:13,720
+universities in the world, probably the most
+
+699
+00:32:13,720 --> 00:32:16,040
+famous economic specialist university in the world.
+
+700
+00:32:16,040 --> 00:32:17,760
+It's very hard to get into.
+
+701
+00:32:17,760 --> 00:32:21,840
+It's, you know, it's full of very, very rich people.
+
+702
+00:32:21,840 --> 00:32:27,240
+And when I was there, I did maths and economics, and
+
+703
+00:32:27,240 --> 00:32:29,120
+I want you to understand a little bit about what is
+
+704
+00:32:29,120 --> 00:32:32,040
+happening in that space, which is when I was there, the
+
+705
+00:32:32,040 --> 00:32:36,520
+vast majority of the best students wanted to be traders.
+
+706
+00:32:36,520 --> 00:32:38,640
+And it was very, very difficult to become a trader,
+
+707
+00:32:38,640 --> 00:32:41,040
+but it was extraordinarily competitive, and most
+
+708
+00:32:41,040 --> 00:32:45,720
+of the best students were able to become traders.
+
+709
+00:32:45,720 --> 00:32:49,840
+And that is probably true for most
+
+710
+00:32:49,840 --> 00:32:53,000
+economics universities across the world.
+
+711
+00:32:53,000 --> 00:32:56,480
+Then when you get onto the trading floor, what you
+
+712
+00:32:56,480 --> 00:33:02,600
+find is tons of people absolutely obsessed with
+
+713
+00:33:02,600 --> 00:33:04,520
+being the best economist, doing the best economic
+
+714
+00:33:04,520 --> 00:33:07,680
+analysis, aggressively competing, working 100-hour
+
+715
+00:33:07,680 --> 00:33:10,480
+weeks, waking up at 5:00 AM to be the besteconomist.
+
+716
+00:33:10,480 --> 00:33:13,520
+The best-paid 10,000 economists in the world
+
+717
+00:33:13,520 --> 00:33:16,360
+are all traders, every single one of them.
+
+718
+00:33:16,360 --> 00:33:18,520
+But you are not going to hear their voices on
+
+719
+00:33:18,520 --> 00:33:20,920
+the news, and they are not going to be advising
+
+720
+00:33:20,920 --> 00:33:23,000
+your government, and they are not going to be in
+
+721
+00:33:23,000 --> 00:33:24,960
+the political parties that run your country.
+
+722
+00:33:24,960 --> 00:33:26,880
+They're not working for your newspapers.
+
+723
+00:33:26,880 --> 00:33:28,120
+You don't see them on TV.
+
+724
+00:33:28,120 --> 00:33:30,640
+You don't see them on the internet.
+
+725
+00:33:30,640 --> 00:33:33,560
+So what we have is this situation where
+
+726
+00:33:33,560 --> 00:33:35,400
+the vast majority of the best young
+
+727
+00:33:35,400 --> 00:33:39,120
+economists are desperately trying to become
+
+728
+00:33:39,120 --> 00:33:41,920
+traders, then the best resourced and the hardest
+
+729
+00:33:41,920 --> 00:33:45,840
+working economists are pretty much all traders.
+
+730
+00:33:45,840 --> 00:33:51,720
+And yet you are watching a kind of, in a sense,
+
+731
+00:33:51,720 --> 00:33:55,040
+like a TV show about economics, which is
+
+732
+00:33:55,040 --> 00:33:58,360
+the media, the politicians, the central banks.
+
+733
+00:33:58,360 --> 00:34:02,040
+And they're telling you they are the best economists
+
+734
+00:34:02,040 --> 00:34:04,960
+in the world, but they are not including any of
+
+735
+00:34:04,960 --> 00:34:06,960
+the best paid 10,000 economists in the world.
+
+736
+00:34:06,960 --> 00:34:09,800
+It's a little bit like you are watching a
+
+737
+00:34:09,800 --> 00:34:12,360
+football game, and you are being told like, "This
+
+738
+00:34:12,360 --> 00:34:15,280
+is the Champions League final, the best football
+
+739
+00:34:15,280 --> 00:34:18,640
+game." And yet none of the 10,000 best paid
+
+740
+00:34:18,640 --> 00:34:21,280
+footballers in the world are playing in this game.
+
+741
+00:34:21,280 --> 00:34:26,280
+Basically, you are being governed by and being
+
+742
+00:34:26,280 --> 00:34:29,320
+spoken to you by third division economists
+
+743
+00:34:29,320 --> 00:34:32,200
+pretending to be Premier League economists.
+
+744
+00:34:32,200 --> 00:34:34,000
+And that is where we are, to be honest.
+
+745
+00:34:34,000 --> 00:34:36,800
+And I was hesitant actually
+
+746
+00:34:36,800 --> 00:34:39,600
+about putting that line in the video, because
+
+747
+00:34:39,600 --> 00:34:42,880
+I think part of the reason maybe why I've found it
+
+748
+00:34:42,880 --> 00:34:46,680
+difficult to get influence in the world that
+
+749
+00:34:46,680 --> 00:34:49,960
+I'm in now, the world of politics and media and
+
+750
+00:34:49,960 --> 00:34:55,240
+academia, is because I say things like that that are
+
+751
+00:34:55,240 --> 00:35:00,080
+not nice to hear for the economists in things like
+
+752
+00:35:00,080 --> 00:35:02,360
+government and politics and central bank.
+
+753
+00:35:02,360 --> 00:35:04,960
+And you need to recognise... And the media,
+
+754
+00:35:04,960 --> 00:35:08,640
+of course, you need to recognise these guys were
+
+755
+00:35:08,640 --> 00:35:13,440
+at uni with people like me, and they saw most of
+
+756
+00:35:13,440 --> 00:35:18,120
+their smartest friends go and get these jobs in
+
+757
+00:35:18,120 --> 00:35:20,280
+the banks and get paid much more than them.
+
+758
+00:35:20,280 --> 00:35:22,440
+And they kind of don't like it when people
+
+759
+00:35:22,440 --> 00:35:24,240
+like me come out and say, "All right, guys.
+
+760
+00:35:24,240 --> 00:35:25,720
+Now, I've made a ton of money, I'm going to tell
+
+761
+00:35:25,720 --> 00:35:27,960
+you how to do your jobs." And they don't like
+
+762
+00:35:27,960 --> 00:35:29,960
+it and then, and they don't listen to me.
+
+763
+00:35:29,960 --> 00:35:33,360
+But then that raises the question, what do you do?
+
+764
+00:35:33,360 --> 00:35:34,720
+What do you do?
+
+765
+00:35:34,720 --> 00:35:38,080
+If you are somebody who is very, very, very good
+
+766
+00:35:38,080 --> 00:35:40,640
+at being right on things and has identified
+
+767
+00:35:40,640 --> 00:35:45,000
+a problem, and you have a field out there like
+
+768
+00:35:45,000 --> 00:35:47,800
+trading, which is very, very good at aggressively
+
+769
+00:35:47,800 --> 00:35:51,040
+rewarding people who are right about things.
+
+770
+00:35:51,040 --> 00:35:52,560
+And then you have another field out there, which is
+
+771
+00:35:52,560 --> 00:35:56,160
+politics, which kind of doesn't really care if you
+
+772
+00:35:56,160 --> 00:35:58,240
+have a track record about being right about things.
+
+773
+00:35:58,240 --> 00:35:59,360
+What do you do?
+
+774
+00:35:59,360 --> 00:36:01,400
+How do you actually fix your country?
+
+775
+00:36:01,400 --> 00:36:06,160
+it's so much easier to bet on things and
+
+776
+00:36:06,160 --> 00:36:08,920
+make money on things than have any actual influence.
+
+777
+00:36:08,920 --> 00:36:11,840
+And this is basically what has been frustrating
+
+778
+00:36:11,840 --> 00:36:13,920
+me in the last couple of years, well,
+
+779
+00:36:13,920 --> 00:36:16,360
+especially the last couple of months and weeks.
+
+780
+00:36:16,360 --> 00:36:19,400
+And that is when you're a trader, if you are a very
+
+781
+00:36:19,400 --> 00:36:22,840
+good trader, it's very easy to make yourself visible
+
+782
+00:36:22,840 --> 00:36:25,240
+and it's very easy to find the best people and
+
+783
+00:36:25,240 --> 00:36:26,720
+it's very easy to know who you might talk to
+
+784
+00:36:26,720 --> 00:36:29,320
+because everybody has this ******* number on their
+
+785
+00:36:29,320 --> 00:36:31,400
+head, this profit and loss number on their head.
+
+786
+00:36:31,400 --> 00:36:34,360
+And everybody at, for example, Citibank, knows
+
+787
+00:36:34,360 --> 00:36:36,040
+who are the most profitable traders on this
+
+788
+00:36:36,040 --> 00:36:39,040
+trading floor. And if there's a guy over there
+
+789
+00:36:39,040 --> 00:36:41,080
+in another department, he's very profitable, I
+
+790
+00:36:41,080 --> 00:36:42,720
+can go and speak to him, and he's going to listen
+
+791
+00:36:42,720 --> 00:36:45,000
+to me because he knows that I'm very profitable.
+
+792
+00:36:45,000 --> 00:36:46,280
+And there might be some people that are just
+
+793
+00:36:46,280 --> 00:36:48,520
+kind of chatting **** or they found a way to,
+
+794
+00:36:48,520 --> 00:36:50,440
+like, rip somebody off or steal some money.
+
+795
+00:36:50,440 --> 00:36:53,040
+But you could very easily recognise, who
+
+796
+00:36:53,040 --> 00:36:55,040
+are the guys that we should maybe listen to?
+
+797
+00:36:55,040 --> 00:36:57,480
+Who are the guys that we should maybe discuss with?
+
+798
+00:36:57,480 --> 00:37:00,320
+And you can very easily make yourself visible as one
+
+799
+00:37:00,320 --> 00:37:02,120
+of those guys who should be made to be listened to.
+
+800
+00:37:02,120 --> 00:37:05,760
+And this is why somebody like me from a
+
+801
+00:37:05,760 --> 00:37:08,520
+very poor background without any connections or
+
+802
+00:37:08,520 --> 00:37:11,400
+friends, was able to become kind of a legendary
+
+803
+00:37:11,400 --> 00:37:14,200
+trader within Citibank at the age of 24.
+
+804
+00:37:14,200 --> 00:37:17,680
+Because trading is a space which allows
+
+805
+00:37:17,680 --> 00:37:19,600
+people with very good understanding to
+
+806
+00:37:19,600 --> 00:37:21,680
+make themselves very visible, very quickly.
+
+807
+00:37:21,680 --> 00:37:24,400
+And I think we can't... we don't have a lot of
+
+808
+00:37:24,400 --> 00:37:26,320
+space in our society that are like that anymore.
+
+809
+00:37:26,320 --> 00:37:28,880
+I think the only other place that I can think of,
+
+810
+00:37:28,880 --> 00:37:32,120
+obviously, which kind of allows very good people to
+
+811
+00:37:32,120 --> 00:37:35,120
+become very visible at a very young age, is basically
+
+812
+00:37:35,120 --> 00:37:38,120
+football, or soccer for our American viewers.
+
+813
+00:37:38,120 --> 00:37:39,440
+That's the only place where, because if you're
+
+814
+00:37:39,440 --> 00:37:41,120
+really good, you can be visible very quickly.
+
+815
+00:37:41,120 --> 00:37:44,520
+Whereas, in this world of, like, public-facing
+
+816
+00:37:44,520 --> 00:37:46,840
+economics, the, the big struggle which I've had
+
+817
+00:37:46,840 --> 00:37:50,160
+in the last few years is, "Okay, I know I'm right.
+
+818
+00:37:50,160 --> 00:37:51,320
+I know I'm very good at this.
+
+819
+00:37:51,320 --> 00:37:53,720
+I know I can make a ton of money on it, but I actually
+
+820
+00:37:53,720 --> 00:37:56,200
+want to try to stop my society from collapsing.
+
+821
+00:37:56,200 --> 00:37:58,000
+How do I get that visibility?
+
+822
+00:37:58,000 --> 00:37:59,280
+How do I get that visibility?" And
+
+823
+00:37:59,280 --> 00:38:00,760
+it's been a real struggle.
+
+824
+00:38:00,760 --> 00:38:02,240
+It's been a real frustration.
+
+825
+00:38:02,240 --> 00:38:06,000
+And I developed this plan, basically, which was
+
+826
+00:38:06,000 --> 00:38:08,840
+I saw, and I think it's crazy that I had to do this...
+
+827
+00:38:08,840 --> 00:38:10,880
+I should probably add quickly before I explain
+
+828
+00:38:10,880 --> 00:38:13,120
+the plan I developed, I... First of all, I went
+
+829
+00:38:13,120 --> 00:38:16,160
+back to university, and I thought that I would be able
+
+830
+00:38:16,160 --> 00:38:19,920
+to say to the economists, you know, show them the way
+
+831
+00:38:19,920 --> 00:38:22,200
+that they're wrong, give them the data, give them the
+
+832
+00:38:22,200 --> 00:38:24,720
+evidence, and we could kinda have a discussion about it.
+
+833
+00:38:24,720 --> 00:38:28,840
+So I went to do a master's at Oxford, 2017 to 2019,
+
+834
+00:38:28,840 --> 00:38:31,680
+and at that time, I was, you know, just recently, one of
+
+835
+00:38:31,680 --> 00:38:34,720
+the most profitable interest rate traders in the world.
+
+836
+00:38:34,720 --> 00:38:36,560
+We had a lecture about interest rates.
+
+837
+00:38:36,560 --> 00:38:39,480
+I went to the professor, and I said, "Hey,
+
+838
+00:38:39,480 --> 00:38:42,120
+you know, do you want to talk about why we've been so
+
+839
+00:38:42,120 --> 00:38:45,400
+wrong on interest rates for so long?" At that time,
+
+840
+00:38:45,400 --> 00:38:47,920
+we had been, you know, in every Western country
+
+841
+00:38:47,920 --> 00:38:49,720
+in the world, pretty much, we'd spent 10 years
+
+842
+00:38:49,720 --> 00:38:52,000
+predicting that rates would come up very quickly,
+
+843
+00:38:52,000 --> 00:38:54,440
+which means the economy would normalise very quickly.
+
+844
+00:38:54,440 --> 00:38:56,480
+And we'd been wrong for 10 years.
+
+845
+00:38:56,480 --> 00:38:59,320
+And the professor said to me, "Oh, no, we always
+
+846
+00:38:59,320 --> 00:39:02,920
+knew rates would stay zero forever." Which, was
+
+847
+00:39:02,920 --> 00:39:06,440
+categorically, provably wrong, and I was amazed by that.
+
+848
+00:39:06,440 --> 00:39:08,000
+So I sent him the data and I said, "Look, we can
+
+849
+00:39:08,000 --> 00:39:09,960
+see, actually, you've been wrong for 10 years.
+
+850
+00:39:09,960 --> 00:39:12,360
+Do you want to talk about it?" And the guy was just
+
+851
+00:39:12,360 --> 00:39:14,920
+not in the slightest bit interested, basically.
+
+852
+00:39:14,920 --> 00:39:17,760
+So this is the situation we're in, really.
+
+853
+00:39:17,760 --> 00:39:20,240
+Academia doesn't really care
+
+854
+00:39:20,240 --> 00:39:21,720
+about being consistently wrong.
+
+855
+00:39:21,720 --> 00:39:24,800
+Just after the recent Labour government was elected,
+
+856
+00:39:24,800 --> 00:39:27,840
+I was able to find myself in a room with,
+
+857
+00:39:27,840 --> 00:39:31,720
+a senior Labour policy advisor, who I won't name.
+
+858
+00:39:31,720 --> 00:39:32,640
+And I said the same thing to him.
+
+859
+00:39:32,640 --> 00:39:33,400
+I was like, "Hey, look, you know,
+
+860
+00:39:33,400 --> 00:39:34,880
+you've just won the election.
+
+861
+00:39:34,880 --> 00:39:36,200
+You know, what are going to do about inequality?
+
+862
+00:39:36,200 --> 00:39:37,920
+Because if you don't do anything about inequality,
+
+863
+00:39:37,920 --> 00:39:40,480
+then living standards will keep falling, and you
+
+864
+00:39:40,480 --> 00:39:43,120
+will be very unpopular, very, very quickly." And,
+
+865
+00:39:43,120 --> 00:39:45,240
+he knew who I was because this was not that
+
+866
+00:39:45,240 --> 00:39:48,120
+long ago, and his instant reply was
+
+867
+00:39:48,120 --> 00:39:51,640
+to talk to me about his sort of plan for how they
+
+868
+00:39:51,640 --> 00:39:54,760
+were going to deal with that from a comms perspective,
+
+869
+00:39:54,760 --> 00:39:57,240
+which was very frustrating for a policy advisor.
+
+870
+00:39:57,240 --> 00:39:59,160
+But I think that kind of shows you what is
+
+871
+00:39:59,160 --> 00:40:03,920
+happening here, which is in trading, we've created
+
+872
+00:40:03,920 --> 00:40:08,040
+this space where young people, mainly young men,
+
+873
+00:40:08,040 --> 00:40:10,480
+compete very, very aggressively to be right, to
+
+874
+00:40:10,480 --> 00:40:12,680
+be right, to be right, to be right, to be right.
+
+875
+00:40:12,680 --> 00:40:16,120
+And it allows us to relatively easily identify people
+
+876
+00:40:16,120 --> 00:40:19,000
+who have good understanding and who are right, but they
+
+877
+00:40:19,000 --> 00:40:22,240
+are then not allowed at all to have a public voice.
+
+878
+00:40:22,240 --> 00:40:25,760
+And then you have this world of public-facing
+
+879
+00:40:25,760 --> 00:40:27,520
+economists in things like governments and
+
+880
+00:40:27,520 --> 00:40:31,760
+universities and think tanks and the media,
+
+881
+00:40:31,760 --> 00:40:36,000
+and I honestly think most of these guys are
+
+882
+00:40:36,000 --> 00:40:39,600
+not really trying to be right, unfortunately.
+
+883
+00:40:39,600 --> 00:40:42,040
+And that's not in a sense their fault.
+
+884
+00:40:42,040 --> 00:40:44,560
+They are playing a different game, really.
+
+885
+00:40:44,560 --> 00:40:47,040
+So if you are a trader, you're paid to be right, you're
+
+886
+00:40:47,040 --> 00:40:49,120
+rewarded to be right, you're incentivised to be right.
+
+887
+00:40:49,120 --> 00:40:52,200
+But if you are an advisor to government,
+
+888
+00:40:52,200 --> 00:40:54,440
+your main thing is winning elections, right?
+
+889
+00:40:54,440 --> 00:40:56,400
+And if you want to win elections, you need
+
+890
+00:40:56,400 --> 00:40:58,160
+to think about your ******* comms strategy.
+
+891
+00:40:58,160 --> 00:40:59,320
+So, I don't think it's really a
+
+892
+00:40:59,320 --> 00:41:03,080
+surprise that Labour policy advisors are
+
+893
+00:41:03,080 --> 00:41:04,760
+mainly thinking about comms strategy.
+
+894
+00:41:04,760 --> 00:41:07,040
+And if you are a university professor in economics,
+
+895
+00:41:07,040 --> 00:41:10,440
+that is an phenomenally competitive job, but you are not
+
+896
+00:41:10,440 --> 00:41:13,320
+paid to understand why we're wrong on interest rates.
+
+897
+00:41:13,320 --> 00:41:16,720
+These guys have to write lots of really, really
+
+898
+00:41:16,720 --> 00:41:18,880
+difficult complicated mathematical papers.
+
+899
+00:41:18,880 --> 00:41:21,000
+There's this thing called publish or perish.
+
+900
+00:41:21,000 --> 00:41:22,960
+You have to write more and more complicated
+
+901
+00:41:22,960 --> 00:41:24,400
+mathematical papers so that... The
+
+902
+00:41:24,400 --> 00:41:26,080
+economics professors, unfortunately, they
+
+903
+00:41:26,080 --> 00:41:28,400
+are also not really trying to be right.
+
+904
+00:41:28,400 --> 00:41:31,360
+You know, if you work as an economist in the media,
+
+905
+00:41:31,360 --> 00:41:32,880
+realistically, obviously, these guys
+
+906
+00:41:32,880 --> 00:41:33,920
+are trying to get clicks, right?
+
+907
+00:41:33,920 --> 00:41:35,200
+That's the way the media works.
+
+908
+00:41:35,200 --> 00:41:36,720
+That's the way that YouTube works.
+
+909
+00:41:36,720 --> 00:41:40,360
+These guys working in public service are
+
+910
+00:41:40,360 --> 00:41:43,480
+not really incentivised to be right, and I
+
+911
+00:41:43,480 --> 00:41:45,200
+think that is why they don't really care when
+
+912
+00:41:45,200 --> 00:41:46,600
+somebody like me comes along and says, "Well,
+
+913
+00:41:46,600 --> 00:41:48,560
+I've got a very good track record of being right.
+
+914
+00:41:48,560 --> 00:41:51,200
+Do you want to listen?" So, I had to develop
+
+915
+00:41:51,200 --> 00:41:56,240
+a plan for how do we use this ability to be
+
+916
+00:41:56,240 --> 00:41:59,800
+consistently right to get ourselves some voice
+
+917
+00:41:59,800 --> 00:42:02,600
+and some power, essentially, in politics?
+
+918
+00:42:02,600 --> 00:42:07,640
+And my plan that started in sort of 2020, really,
+
+919
+00:42:07,640 --> 00:42:09,280
+I thought there was a gap in YouTube.
+
+920
+00:42:09,280 --> 00:42:11,920
+I thought political power was going to shift to YouTube,
+
+921
+00:42:11,920 --> 00:42:14,760
+and I thought that the public... The great
+
+922
+00:42:14,760 --> 00:42:16,520
+thing about YouTube is I can keep doing this
+
+923
+00:42:16,520 --> 00:42:19,920
+thing which I do, which I have done in this video.
+
+924
+00:42:19,920 --> 00:42:21,520
+I can say, "Go back and look at the
+
+925
+00:42:21,520 --> 00:42:23,040
+predictions that I made in 2020.
+
+926
+00:42:23,040 --> 00:42:26,080
+Go back and watch the videos I made in 2020."
+
+927
+00:42:26,080 --> 00:42:27,720
+And I think that gives me a lot of credibility
+
+928
+00:42:27,720 --> 00:42:30,040
+because you can see I'm not just some guy
+
+929
+00:42:30,040 --> 00:42:32,760
+who's trying to, like, get clicks on YouTube.
+
+930
+00:42:32,760 --> 00:42:34,200
+I'm a guy who has a very long
+
+931
+00:42:34,200 --> 00:42:35,440
+track record of being right.
+
+932
+00:42:35,440 --> 00:42:40,640
+And, and the reason why my videos in 2020 have correct
+
+933
+00:42:40,640 --> 00:42:43,960
+predictions is the same reason I was Citibank's
+
+934
+00:42:43,960 --> 00:42:45,120
+best trader in the world,
+
+935
+00:42:45,120 --> 00:42:48,160
+which is, I'm ******* good
+
+936
+00:42:48,160 --> 00:42:50,480
+at this and I actually have a good understanding.
+
+937
+00:42:50,480 --> 00:42:54,080
+And I think YouTube, in going directly
+
+938
+00:42:54,080 --> 00:42:56,200
+to the people, maybe gives us a way... Well,
+
+939
+00:42:56,200 --> 00:42:58,120
+I was hoping would give us a bit of a way
+
+940
+00:42:58,120 --> 00:42:59,960
+to get leverage over the public.
+
+941
+00:42:59,960 --> 00:43:01,640
+I needed to build that plan out, so I needed to
+
+942
+00:43:01,640 --> 00:43:03,400
+figure out how to bring the audience to the YouTube,
+
+943
+00:43:03,400 --> 00:43:05,440
+which is really why I wrote the book.
+
+944
+00:43:05,440 --> 00:43:07,240
+And that was phenomenally successful.
+
+945
+00:43:07,240 --> 00:43:09,640
+And now we get, you know, half a
+
+946
+00:43:09,640 --> 00:43:12,080
+million, a million views on every video.
+
+947
+00:43:12,080 --> 00:43:16,760
+And I was kind of thinking, hoping, now that I
+
+948
+00:43:16,760 --> 00:43:19,600
+am not only formally best trader in the world for
+
+949
+00:43:19,600 --> 00:43:22,320
+Citibank, but also have a very good track record
+
+950
+00:43:22,320 --> 00:43:25,840
+of predicting online and am also the biggest
+
+951
+00:43:25,840 --> 00:43:28,640
+politics show in the country, bigger than Question
+
+952
+00:43:28,640 --> 00:43:32,320
+Time, maybe now the politicians will listen to me.
+
+953
+00:43:32,320 --> 00:43:36,080
+But the truth is, unfortunately,
+
+954
+00:43:36,080 --> 00:43:37,680
+it seems that they still won't.
+
+955
+00:43:37,680 --> 00:43:41,680
+And now you have a political party that is
+
+956
+00:43:41,680 --> 00:43:45,240
+supposed to be the center-left political party, so
+
+957
+00:43:45,240 --> 00:43:48,280
+stubbornly refusing to do anything about inequality and
+
+958
+00:43:48,280 --> 00:43:51,600
+taxation of the rich that not only will they collapse
+
+959
+00:43:51,600 --> 00:43:56,080
+the economy, they will also lose disastrously to a
+
+960
+00:43:56,080 --> 00:43:58,520
+new far-right political party in the next election.
+
+961
+00:43:58,520 --> 00:44:00,120
+And they still won't listen.
+
+962
+00:44:00,120 --> 00:44:05,800
+And it's insane and it's frustrating, and
+
+963
+00:44:05,800 --> 00:44:10,320
+it forces us to ask the question, what can we do?
+
+964
+00:44:10,320 --> 00:44:11,520
+Okay, so that is it.
+
+965
+00:44:11,520 --> 00:44:12,640
+That is where we are.
+
+966
+00:44:12,640 --> 00:44:15,440
+If you want to be the best trader in the world,
+
+967
+00:44:15,440 --> 00:44:18,960
+all you need to do is understand something that
+
+968
+00:44:18,960 --> 00:44:21,920
+nobody else in the world, or the vast majority of
+
+969
+00:44:21,920 --> 00:44:24,400
+economists, don't understand about the economy.
+
+970
+00:44:24,400 --> 00:44:26,800
+And, if you want something, I'll tell you it, the
+
+971
+00:44:26,800 --> 00:44:28,960
+exact thing I've made pretty much all my money on.
+
+972
+00:44:28,960 --> 00:44:32,840
+Growing inequality of wealth is destroying the economy
+
+973
+00:44:32,840 --> 00:44:36,520
+and pretty much everything that happens
+
+974
+00:44:36,520 --> 00:44:39,760
+can be predicted by understanding what will
+
+975
+00:44:39,760 --> 00:44:41,560
+happen with growing inequality of wealth.
+
+976
+00:44:41,560 --> 00:44:44,160
+The irony of this is, this is exactly the
+
+977
+00:44:44,160 --> 00:44:46,200
+message that I've been sending you in pretty
+
+978
+00:44:46,200 --> 00:44:48,240
+much every video for the last five years.
+
+979
+00:44:48,240 --> 00:44:51,720
+So every single person who has sent me the message,
+
+980
+00:44:51,720 --> 00:44:54,040
+"Can you please teach me, how to be the best trader
+
+981
+00:44:54,040 --> 00:44:56,360
+in the world?" has failed to realise that that is
+
+982
+00:44:56,360 --> 00:44:59,600
+exactly what I've been doing for the last five years.
+
+983
+00:44:59,600 --> 00:45:02,000
+If you want to understand the economy better
+
+984
+00:45:02,000 --> 00:45:04,280
+than the economists, you can do that very, very
+
+985
+00:45:04,280 --> 00:45:07,920
+simply by understanding that growing inequality
+
+986
+00:45:07,920 --> 00:45:10,240
+of wealth is a massive economic driver.
+
+987
+00:45:10,240 --> 00:45:12,320
+And that's true if you want to be a good trader,
+
+988
+00:45:12,320 --> 00:45:15,160
+and it's true if you want to be in government.
+
+989
+00:45:15,160 --> 00:45:19,400
+But the quid pro quo was that I asked you to think
+
+990
+00:45:19,400 --> 00:45:23,360
+about what this system will do to our society.
+
+991
+00:45:23,360 --> 00:45:26,120
+So we have a system which very aggressively
+
+992
+00:45:26,120 --> 00:45:30,120
+takes all of our best young economic minds, sends
+
+993
+00:45:30,120 --> 00:45:32,080
+them to skyscrapers to bet on the end of the
+
+994
+00:45:32,080 --> 00:45:35,040
+world, and doesn't allow them to speak publicly.
+
+995
+00:45:35,040 --> 00:45:38,040
+And when one of those traders comes out of the
+
+996
+00:45:38,040 --> 00:45:41,320
+skyscrapers and tries to tell the academics,
+
+997
+00:45:41,320 --> 00:45:44,160
+the media, the politicians that their society is
+
+998
+00:45:44,160 --> 00:45:47,200
+going to collapse, for free, despite being worth
+
+999
+00:45:47,200 --> 00:45:48,640
+a couple of million pounds a year according
+
+1000
+00:45:48,640 --> 00:45:51,320
+to the banks, the governments don't listen.
+
+1001
+00:45:51,320 --> 00:45:53,240
+What will that do to our society?
+
+1002
+00:45:53,240 --> 00:45:54,520
+What will that do to our future?
+
+1003
+00:45:54,520 --> 00:45:56,400
+So that's it, how to be
+
+1004
+00:45:56,400 --> 00:45:57,480
+the best trader in the world.
+
+1005
+00:45:57,480 --> 00:46:02,040
+Leaving it on that note is a little bit depressing.
+
+1006
+00:46:02,040 --> 00:46:04,600
+And the truth is, I've been a little bit
+
+1007
+00:46:04,600 --> 00:46:06,960
+depressed the last couple of months because we've
+
+1008
+00:46:06,960 --> 00:46:11,120
+achieved so much here on this channel, and it is
+
+1009
+00:46:11,120 --> 00:46:13,920
+so obvious that the governments need something new.
+
+1010
+00:46:13,920 --> 00:46:16,200
+And I think it should be unbelievably
+
+1011
+00:46:16,200 --> 00:46:18,560
+painfully obvious that what they need is us.
+
+1012
+00:46:18,560 --> 00:46:23,600
+And yet they look like they are going to basically
+
+1013
+00:46:23,600 --> 00:46:27,480
+commit suicide, die on the hill of not taxing the rich.
+
+1014
+00:46:27,480 --> 00:46:29,600
+And that is depressing.
+
+1015
+00:46:29,600 --> 00:46:33,520
+But I've told myself that in this new series,
+
+1016
+00:46:33,520 --> 00:46:36,640
+we're not going to end the video on any depressing notes.
+
+1017
+00:46:36,640 --> 00:46:38,000
+So I want to finish by giving a
+
+1018
+00:46:38,000 --> 00:46:40,880
+little bit of a message of hope.
+
+1019
+00:46:40,880 --> 00:46:41,840
+I don't think I've spoken
+
+1020
+00:46:41,840 --> 00:46:43,280
+about this on the channel before.
+
+1021
+00:46:43,280 --> 00:46:44,920
+People sometimes ask me,
+
+1022
+00:46:44,920 --> 00:46:46,280
+"What are you hopeful about?
+
+1023
+00:46:46,280 --> 00:46:48,400
+What are you hopeful about?" And a few
+
+1024
+00:46:48,400 --> 00:46:51,080
+years ago, just when Rishi Sunak had been
+
+1025
+00:46:51,080 --> 00:46:53,920
+recently... Was he, was he just made Chancellor?
+
+1026
+00:46:53,920 --> 00:46:55,360
+Was he just made Prime Minister?
+
+1027
+00:46:55,360 --> 00:46:59,000
+I got sent to a little military town
+
+1028
+00:46:59,000 --> 00:47:01,720
+in North Yorkshire called Colburn,
+
+1029
+00:47:01,720 --> 00:47:05,120
+which is Rishi Sunak's constituency.
+
+1030
+00:47:05,120 --> 00:47:08,360
+And the plan was for me to go there, to go to a
+
+1031
+00:47:08,360 --> 00:47:11,880
+food bank, and talk to some food bank users
+
+1032
+00:47:11,880 --> 00:47:17,000
+about how they feel about their new... about their
+
+1033
+00:47:17,000 --> 00:47:19,560
+MP being the richest MP in the history of the country.
+
+1034
+00:47:19,560 --> 00:47:21,160
+And I didn't love that idea because I thought
+
+1035
+00:47:21,160 --> 00:47:22,960
+it was a little bit like poverty p**n, but
+
+1036
+00:47:22,960 --> 00:47:23,920
+I went along with it because I thought, you
+
+1037
+00:47:23,920 --> 00:47:25,520
+know, we might get some views, whatever.
+
+1038
+00:47:25,520 --> 00:47:27,040
+I wasn't that famous at the time.
+
+1039
+00:47:27,040 --> 00:47:29,640
+And when I went there, what I found was the
+
+1040
+00:47:29,640 --> 00:47:31,920
+food bank was not being used as a food bank.
+
+1041
+00:47:31,920 --> 00:47:35,320
+And the reason for that was that it was the
+
+1042
+00:47:35,320 --> 00:47:38,160
+weekend after the Russian invasion of Ukraine,
+
+1043
+00:47:38,160 --> 00:47:40,200
+and the food bank had been rapidly turned
+
+1044
+00:47:40,200 --> 00:47:44,720
+into a kind of supply collection center.
+
+1045
+00:47:44,720 --> 00:47:46,680
+So people were sending in, you know, tinned
+
+1046
+00:47:46,680 --> 00:47:50,320
+food and warm clothes and medicines and
+
+1047
+00:47:50,320 --> 00:47:52,320
+stuff for babies and stuff like that.
+
+1048
+00:47:52,320 --> 00:47:54,400
+And the food bank was full of people, like, sorting
+
+1049
+00:47:54,400 --> 00:47:57,400
+this stuff out, packing it into boxes, and they were
+
+1050
+00:47:57,400 --> 00:48:01,560
+going to put the boxes into a van and these people from
+
+1051
+00:48:01,560 --> 00:48:04,040
+North Yorkshire were going to drive themselves the van
+
+1052
+00:48:04,040 --> 00:48:06,320
+all the way to Ukraine to deliver these supplies.
+
+1053
+00:48:06,320 --> 00:48:08,400
+And it kind of ****** my plan really, because the
+
+1054
+00:48:08,400 --> 00:48:10,440
+food bank wasn't being used as a food bank, so
+
+1055
+00:48:10,440 --> 00:48:13,320
+it wasn't full of these poverty p**n food bank
+
+1056
+00:48:13,320 --> 00:48:17,000
+users, the poorest people in the area.
+
+1057
+00:48:17,000 --> 00:48:19,640
+But, you know, what else can you do?
+
+1058
+00:48:19,640 --> 00:48:20,800
+I helped them, like, pack stuff
+
+1059
+00:48:20,800 --> 00:48:22,480
+into boxes and I got talking to them.
+
+1060
+00:48:22,480 --> 00:48:25,480
+And what I found out when I was talking to them
+
+1061
+00:48:25,480 --> 00:48:27,080
+was that they were the food bank users.
+
+1062
+00:48:27,080 --> 00:48:29,440
+The people that were there in the first
+
+1063
+00:48:29,440 --> 00:48:31,760
+week of the Russian invasion of Ukraine,
+
+1064
+00:48:31,760 --> 00:48:34,440
+packing stuff into boxes, making donations
+
+1065
+00:48:34,440 --> 00:48:36,880
+to drive to Ukraine, were food bank users.
+
+1066
+00:48:36,880 --> 00:48:39,000
+People who, in normal times,
+
+1067
+00:48:39,000 --> 00:48:40,440
+struggle to feed their kids.
+
+1068
+00:48:40,440 --> 00:48:43,120
+And yet when something bad happened to a bunch of people
+
+1069
+00:48:43,120 --> 00:48:45,040
+from a different country with a different language
+
+1070
+00:48:45,040 --> 00:48:48,040
+thousands of miles away, their first instinct was to go
+
+1071
+00:48:48,040 --> 00:48:51,520
+down to the food bank and pack stuff into boxes to help.
+
+1072
+00:48:51,520 --> 00:48:55,040
+And when I see what's happening today, I spoke
+
+1073
+00:48:55,040 --> 00:48:57,720
+in last week's video about going to the recent
+
+1074
+00:48:57,720 --> 00:49:00,000
+protests outside the hotels and seeing people on
+
+1075
+00:49:00,000 --> 00:49:02,800
+different side of the road shouting at each other,
+
+1076
+00:49:02,800 --> 00:49:06,520
+sometimes I worry that that vision, two
+
+1077
+00:49:06,520 --> 00:49:08,880
+separate groups of people standing on opposite
+
+1078
+00:49:08,880 --> 00:49:11,200
+sides of the road shouting names at each other,
+
+1079
+00:49:11,200 --> 00:49:14,240
+is kind of a metaphor for our future as a country.
+
+1080
+00:49:14,240 --> 00:49:17,520
+And when I feel that way, I try to remember back to
+
+1081
+00:49:17,520 --> 00:49:20,760
+this day that I went to Colburn in North Yorkshire,
+
+1082
+00:49:20,760 --> 00:49:24,080
+in a very poor, very deprived area, and seeing
+
+1083
+00:49:24,080 --> 00:49:26,240
+the poorest people in our country packing stuff
+
+1084
+00:49:26,240 --> 00:49:29,280
+into boxes to help people thousands of miles away.
+
+1085
+00:49:29,280 --> 00:49:31,320
+Because I suspect that some of those people might
+
+1086
+00:49:31,320 --> 00:49:33,840
+be some of the same people going to these protests.
+
+1087
+00:49:33,840 --> 00:49:36,720
+What that tells me is that this country,
+
+1088
+00:49:36,720 --> 00:49:38,920
+and I'm sure it's true in your country too,
+
+1089
+00:49:38,920 --> 00:49:40,640
+is not full of bad people.
+
+1090
+00:49:40,640 --> 00:49:43,600
+These people want a positive vision for the future.
+
+1091
+00:49:43,600 --> 00:49:46,400
+If we provide that, they will support us.
+
+1092
+00:49:46,400 --> 00:49:48,760
+And I want to do a shout-out here to all of the
+
+1093
+00:49:48,760 --> 00:49:51,200
+economists who might be watching in the Labour
+
+1094
+00:49:51,200 --> 00:49:53,440
+Party, in the Democratic Party, in whatever
+
+1095
+00:49:53,440 --> 00:49:55,600
+political party all over the world, in the
+
+1096
+00:49:55,600 --> 00:49:59,040
+universities, in the think tanks, in the media.
+
+1097
+00:49:59,040 --> 00:50:01,360
+I might have given the impression that I don't
+
+1098
+00:50:01,360 --> 00:50:03,840
+think you guys are the smartest people in the world.
+
+1099
+00:50:03,840 --> 00:50:05,200
+You have an important part to play.
+
+1100
+00:50:05,200 --> 00:50:07,080
+You have an important part to play.
+
+1101
+00:50:07,080 --> 00:50:08,360
+I'm here.
+
+1102
+00:50:08,360 --> 00:50:10,000
+I'm ready to build it.
+
+1103
+00:50:10,000 --> 00:50:13,880
+If we create a story that will save ordinary
+
+1104
+00:50:13,880 --> 00:50:16,320
+people from poverty, ordinary people across
+
+1105
+00:50:16,320 --> 00:50:19,880
+the world are ready to get behind it.
+
+1106
+00:50:19,880 --> 00:50:20,880
+So that's it.
+
+1107
+00:50:20,880 --> 00:50:22,880
+How do you be the best trader in the world?
+
+1108
+00:50:22,880 --> 00:50:24,480
+You bet on the end of the world.
+
+1109
+00:50:24,480 --> 00:50:28,280
+But maybe we should stop the end of the world.
+
+1110
+00:50:28,280 --> 00:50:29,360
+Tax wealth, not work.
+
+1111
+00:50:29,360 --> 00:50:30,000
+Make things better.
+
+1112
+00:50:30,000 --> 00:50:31,800
+Support the channel, tell your friends, tell your mum.
+
+1113
+00:50:31,800 --> 00:50:33,280
+Thank you.

@@ -1,0 +1,3523 @@
+﻿1
+00:00:00,480 --> 00:00:02,840
+Okay, welcome back to Gary's Economics.
+
+2
+00:00:02,840 --> 00:00:05,600
+Today's video is going to be about mental health.
+
+3
+00:00:07,640 --> 00:00:10,880
+Okay, so when I decide to do these videos, I've
+
+4
+00:00:10,880 --> 00:00:14,040
+got a really long Google Doc which has a list of all
+
+5
+00:00:14,040 --> 00:00:16,600
+the subjects that I want to do a video about, and
+
+6
+00:00:16,600 --> 00:00:21,200
+I've had one on that list about mental health and the
+
+7
+00:00:21,200 --> 00:00:24,400
+relationship between mental health and the economy,
+
+8
+00:00:24,400 --> 00:00:26,960
+and economy and mental health for a long, long time.
+
+9
+00:00:26,960 --> 00:00:28,480
+And one of my friends is always
+
+10
+00:00:28,480 --> 00:00:30,480
+telling me I need to make that video, but
+
+11
+00:00:30,480 --> 00:00:32,800
+I've put it off for a long time.
+
+12
+00:00:32,800 --> 00:00:36,520
+Largely because, firstly, I don't like to
+
+13
+00:00:36,520 --> 00:00:39,080
+do videos on subjects that are not directly
+
+14
+00:00:39,080 --> 00:00:41,000
+related to the economy, and I like to try and
+
+15
+00:00:41,000 --> 00:00:43,080
+stay in my lane and be super economy-focused.
+
+16
+00:00:43,080 --> 00:00:48,000
+And secondly, because, it felt a little bit,
+
+17
+00:00:48,000 --> 00:00:49,720
+perhaps a bit personal, a bit indulgent.
+
+18
+00:00:49,720 --> 00:00:52,160
+Anyone who's read my book will know that I've
+
+19
+00:00:52,160 --> 00:00:54,040
+had problems with mental health in the past, and
+
+20
+00:00:54,040 --> 00:00:56,760
+perhaps I was a little bit unwilling to be one
+
+21
+00:00:56,760 --> 00:00:58,480
+of those typical guys on YouTube that starts talking
+
+22
+00:00:58,480 --> 00:01:01,240
+about his own mental health in his videos.
+
+23
+00:01:01,240 --> 00:01:04,400
+But I've decided to do it this week for a couple of reasons.
+
+24
+00:01:04,400 --> 00:01:07,520
+The first one is, the last few months
+
+25
+00:01:07,520 --> 00:01:10,160
+since I got back from being away,
+
+26
+00:01:10,160 --> 00:01:12,040
+I've been doing a lot of videos about
+
+27
+00:01:12,040 --> 00:01:14,960
+explaining why we need wealth taxes, how can you
+
+28
+00:01:14,960 --> 00:01:17,160
+convince your friends that we need wealth taxes.
+
+29
+00:01:17,160 --> 00:01:20,320
+And obviously, really, this whole channel is
+
+30
+00:01:20,320 --> 00:01:23,520
+me trying to persuade you and, me trying to
+
+31
+00:01:23,520 --> 00:01:26,720
+persuade the public that we need wealth taxes.
+
+32
+00:01:26,720 --> 00:01:29,000
+And the longer I've been doing that, especially
+
+33
+00:01:29,000 --> 00:01:30,440
+the last couple of weeks, where you put out
+
+34
+00:01:30,440 --> 00:01:33,240
+your arguments for wealth taxes and you see
+
+35
+00:01:33,240 --> 00:01:34,360
+people coming back with their arguments
+
+36
+00:01:34,360 --> 00:01:36,120
+why we shouldn't,
+
+37
+00:01:36,120 --> 00:01:39,360
+the more I start to feel that in a way
+
+38
+00:01:39,360 --> 00:01:42,720
+we're not really arguing about the economy at all.
+
+39
+00:01:42,720 --> 00:01:44,200
+I think we're putting out this
+
+40
+00:01:44,200 --> 00:01:46,120
+idea into the world, there's massive
+
+41
+00:01:46,120 --> 00:01:47,560
+economic problems, we need to fix things.
+
+42
+00:01:47,560 --> 00:01:51,680
+And, often what we get back I
+
+43
+00:01:51,680 --> 00:01:53,840
+think is kind of an emotional response.
+
+44
+00:01:53,840 --> 00:01:57,280
+And I think the emotional response we get back
+
+45
+00:01:57,280 --> 00:01:59,400
+when we send this message, "The economy is collapsing,"
+
+46
+00:01:59,400 --> 00:02:01,800
+is a pretty understandable emotional response, which
+
+47
+00:02:01,800 --> 00:02:05,240
+is that people are scared and people are worried, and
+
+48
+00:02:05,240 --> 00:02:07,560
+they don't want the situation to be what I'm saying
+
+49
+00:02:07,560 --> 00:02:10,320
+it is, which is that the situation is really bad.
+
+50
+00:02:10,320 --> 00:02:11,240
+It's getting worse.
+
+51
+00:02:11,240 --> 00:02:13,280
+The way to deal with it is to work together
+
+52
+00:02:13,280 --> 00:02:15,960
+to fight against the richest and most powerful
+
+53
+00:02:15,960 --> 00:02:18,200
+people in society, because that's scary.
+
+54
+00:02:18,200 --> 00:02:20,440
+And I think really, a lot of what I've been
+
+55
+00:02:20,440 --> 00:02:23,120
+doing the last few months, these few years, trying to
+
+56
+00:02:23,120 --> 00:02:27,120
+convince people we need wealth taxes in the economy,
+
+57
+00:02:27,120 --> 00:02:30,360
+a lot of the problem we are having is actually about
+
+58
+00:02:30,360 --> 00:02:34,120
+mental health and people who are scared
+
+59
+00:02:34,120 --> 00:02:35,400
+about what's happening in the economy.
+
+60
+00:02:35,400 --> 00:02:37,840
+And people who, because they are scared, are
+
+61
+00:02:37,840 --> 00:02:39,640
+looking for simple solutions and are
+
+62
+00:02:39,640 --> 00:02:43,000
+unwilling to engage with what we are saying.
+
+63
+00:02:43,000 --> 00:02:44,200
+So wanted talk bit about that.
+
+64
+00:02:44,200 --> 00:02:47,000
+I wanted to talk about my relationship with that,
+
+65
+00:02:47,000 --> 00:02:48,200
+because this is something that I went through
+
+66
+00:02:48,200 --> 00:02:50,560
+when I first realised these things were happening.
+
+67
+00:02:50,560 --> 00:02:53,080
+The second reason why I wanted to do it is because
+
+68
+00:02:53,080 --> 00:02:55,360
+I myself have been having a little bit of a difficult
+
+69
+00:02:55,360 --> 00:02:58,320
+time, especially the last, say, month or so, mental
+
+70
+00:02:58,320 --> 00:03:01,320
+health-wise, motivation-wise, and I thought that meant
+
+71
+00:03:01,320 --> 00:03:03,680
+it was a good time to talk about mental health, what
+
+72
+00:03:03,680 --> 00:03:05,600
+it means to the economy, what it means for this
+
+73
+00:03:05,600 --> 00:03:08,000
+channel, and what it means about how we fix things.
+
+74
+00:03:08,000 --> 00:03:10,000
+And thirdly, I've been re-reading one of my
+
+75
+00:03:10,000 --> 00:03:11,960
+favorite books recently, which is this book here.
+
+76
+00:03:11,960 --> 00:03:13,680
+Not being paid by Camus.
+
+77
+00:03:13,680 --> 00:03:14,400
+He's dead.
+
+78
+00:03:14,400 --> 00:03:16,640
+This is, The Plague by Albert Camus.
+
+79
+00:03:16,640 --> 00:03:19,720
+Camus is a French-Algerian author who wrote
+
+80
+00:03:19,720 --> 00:03:22,200
+this really beautiful book about what it means to live
+
+81
+00:03:22,200 --> 00:03:25,080
+in a collapsing society and what that,
+
+82
+00:03:25,080 --> 00:03:26,520
+what that does to us and our mental health.
+
+83
+00:03:26,520 --> 00:03:29,520
+So yeah, we're going to talk about mental health
+
+84
+00:03:29,520 --> 00:03:31,200
+today and how that affects the economy.
+
+85
+00:03:31,200 --> 00:03:33,760
+All right, so the first point I want to make, which
+
+86
+00:03:33,760 --> 00:03:36,160
+is that the crisis of mental health which we're
+
+87
+00:03:36,160 --> 00:03:38,520
+living in, in this country, in the US, across
+
+88
+00:03:38,520 --> 00:03:41,680
+the world, and the crisis of the economy are super
+
+89
+00:03:41,680 --> 00:03:43,600
+related in a way that should be really, really
+
+90
+00:03:43,600 --> 00:03:46,280
+obvious, but for some reason is often ignored.
+
+91
+00:03:46,280 --> 00:03:48,600
+So I went on Question Time this year,
+
+92
+00:03:48,600 --> 00:03:50,400
+I think it was maybe in March, and
+
+93
+00:03:50,400 --> 00:03:54,120
+the subject of mental health came up.
+
+94
+00:03:54,120 --> 00:03:55,280
+There's lots of statistics showing
+
+95
+00:03:55,280 --> 00:03:56,440
+that, especially for young people, like
+
+96
+00:03:56,440 --> 00:03:58,880
+mental health is really deteriorating.
+
+97
+00:03:58,880 --> 00:03:59,840
+Lots of people are stressed.
+
+98
+00:03:59,840 --> 00:04:01,000
+Lots of people are depressed.
+
+99
+00:04:01,000 --> 00:04:03,160
+And we were asked, the panel, you know, "Why do you
+
+100
+00:04:03,160 --> 00:04:05,120
+think people are stressed and depressed?" And,
+
+101
+00:04:05,120 --> 00:04:06,680
+one of the ladies on the panel said she thinks it's
+
+102
+00:04:06,680 --> 00:04:08,680
+because of mobile phones and social media.
+
+103
+00:04:08,680 --> 00:04:11,520
+And you know, perhaps that is a part to
+
+104
+00:04:11,520 --> 00:04:13,560
+play in it, but it was very frustrating for
+
+105
+00:04:13,560 --> 00:04:16,640
+me because we live here in a society where
+
+106
+00:04:16,640 --> 00:04:20,720
+it is increasingly impossible to do like simple things
+
+107
+00:04:20,720 --> 00:04:23,840
+like buy a house and have security for a family,
+
+108
+00:04:23,840 --> 00:04:25,840
+be able to get like a decent living environment.
+
+109
+00:04:25,840 --> 00:04:29,400
+To get that you need work all the hours God sends.
+
+110
+00:04:29,400 --> 00:04:31,520
+You need to get a really competitive degree, and
+
+111
+00:04:31,520 --> 00:04:34,120
+I think it should be really, really obvious that
+
+112
+00:04:34,120 --> 00:04:36,160
+a big part of the reason why people, especially
+
+113
+00:04:36,160 --> 00:04:37,720
+young people, are having mental health problems,
+
+114
+00:04:37,720 --> 00:04:40,000
+is because it's increasingly impossible just be
+
+115
+00:04:40,000 --> 00:04:42,240
+able to afford the basics of life for most people.
+
+116
+00:04:42,240 --> 00:04:44,680
+So I think we'll put up a little clip of me
+
+117
+00:04:44,680 --> 00:04:47,240
+trying to convince the people on Question Time
+
+118
+00:04:47,240 --> 00:04:49,960
+that mental health is, is not just because
+
+119
+00:04:49,960 --> 00:04:51,520
+of phones and it's not just because of individual
+
+120
+00:04:51,520 --> 00:04:54,280
+problems, but is related to societal problems.
+
+121
+00:04:54,280 --> 00:04:58,000
+I think we need to talk about the unbelievably
+
+122
+00:04:58,000 --> 00:04:59,760
+hostile circumstances young people face
+
+123
+00:04:59,760 --> 00:05:01,800
+with regards to their economic futures.
+
+124
+00:05:01,800 --> 00:05:02,960
+More and more and more young
+
+125
+00:05:02,960 --> 00:05:04,120
+people growing up in poverty.
+
+126
+00:05:04,120 --> 00:05:07,480
+But even aside from that, we've got
+
+127
+00:05:07,480 --> 00:05:09,720
+people with jobs in London who are homeless.
+
+128
+00:05:09,720 --> 00:05:12,040
+So that means if you're a young person, you
+
+129
+00:05:12,040 --> 00:05:13,760
+know that even if you get an ordinary job,
+
+130
+00:05:13,760 --> 00:05:15,680
+it's not going to be enough to buy a home.
+
+131
+00:05:15,680 --> 00:05:17,400
+It's not going to be enough to have a family.
+
+132
+00:05:17,400 --> 00:05:19,240
+So, so just doing the right thing,
+
+133
+00:05:19,240 --> 00:05:21,640
+working and getting job is, it doesn't
+
+134
+00:05:21,640 --> 00:05:23,240
+even guarantee you can feed your kids.
+
+135
+00:05:23,240 --> 00:05:25,280
+You know, we have to look at this and then
+
+136
+00:05:25,280 --> 00:05:26,480
+obviously, if you're a young person, you're
+
+137
+00:05:26,480 --> 00:05:28,760
+thinking, "Well, if I don't get the best grades
+
+138
+00:05:28,760 --> 00:05:31,000
+and I don't get into the best university, then
+
+139
+00:05:31,000 --> 00:05:33,040
+I'm not even going to be able to have a family."
+
+140
+00:05:33,040 --> 00:05:35,400
+You know, what kind of world have we made here?
+
+141
+00:05:35,400 --> 00:05:36,920
+You know, we need to look at it...
+
+142
+00:05:36,920 --> 00:05:38,280
+We always look at the individual.
+
+143
+00:05:38,280 --> 00:05:39,320
+This person has a mental health problem.
+
+144
+00:05:39,320 --> 00:05:40,600
+This person has a mental health problem.
+
+145
+00:05:40,600 --> 00:05:41,960
+It doesn't come out of nowhere.
+
+146
+00:05:41,960 --> 00:05:43,840
+These people don't just suddenly get sick.
+
+147
+00:05:43,840 --> 00:05:46,080
+My dad worked for the post office and he had a
+
+148
+00:05:46,080 --> 00:05:48,440
+family and he bought a house and he has a retirement.
+
+149
+00:05:48,440 --> 00:05:49,920
+He has a pension.
+
+150
+00:05:49,920 --> 00:05:51,240
+Kids can't get that.
+
+151
+00:05:51,240 --> 00:05:52,120
+Kids can't get that.
+
+152
+00:05:52,120 --> 00:05:53,560
+Unless they make millions of pounds,
+
+153
+00:05:53,560 --> 00:05:54,720
+they can't even have a family.
+
+154
+00:05:54,720 --> 00:05:56,160
+It's ridiculous, you know.
+
+155
+00:05:56,160 --> 00:05:57,200
+It's not just a problem for
+
+156
+00:05:57,200 --> 00:05:59,160
+individuals, it's a societal problem.
+
+157
+00:05:59,440 --> 00:06:01,400
+We need make sure young people have economic
+
+158
+00:06:01,400 --> 00:06:06,800
+opportunity. It's super, super, super
+
+159
+00:06:06,800 --> 00:06:09,200
+frustrating when people treat mental health
+
+160
+00:06:09,200 --> 00:06:10,800
+problems as if they're like a broken leg.
+
+161
+00:06:10,800 --> 00:06:11,880
+Like, you ****** up, you jumped
+
+162
+00:06:11,880 --> 00:06:13,200
+off a building, you broke your leg.
+
+163
+00:06:13,200 --> 00:06:14,680
+Now you have a problem.
+
+164
+00:06:14,680 --> 00:06:16,320
+These things are to do with society.
+
+165
+00:06:16,320 --> 00:06:18,880
+If you create a society where people have security,
+
+166
+00:06:18,880 --> 00:06:21,680
+where people can get good quality secure work, and
+
+167
+00:06:21,680 --> 00:06:23,920
+that secure work will be able to provide them with
+
+168
+00:06:23,920 --> 00:06:26,400
+the basics they need to support a family and to
+
+169
+00:06:26,400 --> 00:06:29,320
+support a family with dignity, then a lot of people
+
+170
+00:06:29,320 --> 00:06:32,240
+will be relatively happy and calm and relaxed.
+
+171
+00:06:32,240 --> 00:06:35,480
+If you create society like we live in now... I live
+
+172
+00:06:35,480 --> 00:06:37,640
+in a city where people work full-time jobs and are
+
+173
+00:06:37,640 --> 00:06:39,880
+homeless because they can't afford to pay rent, you
+
+174
+00:06:39,880 --> 00:06:42,160
+know, nevermind being able to do things like support
+
+175
+00:06:42,160 --> 00:06:44,080
+a family with dignity, get financial security.
+
+176
+00:06:44,080 --> 00:06:46,440
+People will feel insecure because
+
+177
+00:06:46,440 --> 00:06:48,600
+they genuinely are insecure.
+
+178
+00:06:48,600 --> 00:06:50,240
+And I think it's really, really important
+
+179
+00:06:50,240 --> 00:06:53,160
+that we start viewing mental health problems,
+
+180
+00:06:53,160 --> 00:06:55,400
+especially when they exist in societies where
+
+181
+00:06:55,400 --> 00:06:57,280
+the economic conditions are deteriorating
+
+182
+00:06:57,280 --> 00:07:00,480
+really quickly, as being related to the economy.
+
+183
+00:07:00,480 --> 00:07:02,080
+So, mental health and
+
+184
+00:07:02,080 --> 00:07:03,480
+the economy are not unrelated.
+
+185
+00:07:03,480 --> 00:07:05,520
+If you create an economy where people can live well,
+
+186
+00:07:05,520 --> 00:07:07,680
+a lot of people will feel secure because they are secure.
+
+187
+00:07:07,680 --> 00:07:09,080
+If you create an economy where it's very,
+
+188
+00:07:09,080 --> 00:07:11,280
+very difficult to get security, people will
+
+189
+00:07:11,280 --> 00:07:14,080
+feel insecure because they will be insecure.
+
+190
+00:07:14,080 --> 00:07:18,080
+And this relates very much to my own
+
+191
+00:07:18,080 --> 00:07:21,120
+personal story and, the story of my book.
+
+192
+00:07:21,120 --> 00:07:22,840
+So, some of you might not have read
+
+193
+00:07:22,840 --> 00:07:24,960
+my book so, or know my personal story.
+
+194
+00:07:24,960 --> 00:07:30,200
+So I made most of my money in 2011 by betting that
+
+195
+00:07:30,200 --> 00:07:34,480
+basically the... the economic crisis would last forever.
+
+196
+00:07:34,480 --> 00:07:36,120
+That was just after the 2008 crisis.
+
+197
+00:07:36,120 --> 00:07:38,520
+And what I bet on was that the economy and
+
+198
+00:07:38,520 --> 00:07:39,800
+living standards for ordinary people would get
+
+199
+00:07:39,800 --> 00:07:41,480
+worse and worse and worse and worse and worse.
+
+200
+00:07:41,480 --> 00:07:45,120
+And I bet on that again,
+
+201
+00:07:45,120 --> 00:07:47,400
+at the beginning of COVID 2020.
+
+202
+00:07:47,400 --> 00:07:51,720
+So I'm somebody who has been very aware for a
+
+203
+00:07:51,720 --> 00:07:53,480
+long time that living standards were going to fall.
+
+204
+00:07:53,480 --> 00:07:55,680
+And a big part of the story of my book,
+
+205
+00:07:55,680 --> 00:07:58,320
+especially the last section of my book,
+
+206
+00:07:58,320 --> 00:08:00,360
+is very explicitly about
+
+207
+00:08:00,360 --> 00:08:01,920
+depression and mental health.
+
+208
+00:08:01,920 --> 00:08:04,320
+And that was me sort of trying to deal with
+
+209
+00:08:04,320 --> 00:08:07,960
+this recent awareness that I had at
+
+210
+00:08:07,960 --> 00:08:11,080
+a very young age, in 2011 I was 24, that living
+
+211
+00:08:11,080 --> 00:08:12,680
+standards were going to get worse forever and
+
+212
+00:08:12,680 --> 00:08:15,480
+that, there would be big explosions in poverty in
+
+213
+00:08:15,480 --> 00:08:17,600
+my country, in your country, in the Western world.
+
+214
+00:08:17,600 --> 00:08:20,360
+And you'd get people who'd read the book
+
+215
+00:08:20,360 --> 00:08:21,920
+asking me, you know, "So, how did you make your
+
+216
+00:08:21,920 --> 00:08:23,400
+money?" "Oh, I made my money betting society would
+
+217
+00:08:23,400 --> 00:08:25,320
+collapse." And then they'd say, "But how did you fall
+
+218
+00:08:25,320 --> 00:08:27,360
+into depression when you made so much money?" And I
+
+219
+00:08:27,360 --> 00:08:30,400
+think it would be like super interesting really that,
+
+220
+00:08:30,400 --> 00:08:33,680
+that so many people sort of failed to recognise
+
+221
+00:08:33,680 --> 00:08:39,320
+that, knowing that the society you're in is
+
+222
+00:08:39,320 --> 00:08:42,600
+collapsing and is going to collapse would have
+
+223
+00:08:42,600 --> 00:08:44,360
+an effect on an individual's mental health.
+
+224
+00:08:44,360 --> 00:08:47,000
+The, the little quote at
+
+225
+00:08:47,000 --> 00:08:48,040
+the front of the book, I've got couple.
+
+226
+00:08:48,040 --> 00:08:52,200
+One of them is from the Japanese film director, Akira
+
+227
+00:08:52,200 --> 00:08:54,920
+Kurosawa, saying, "In mad world, only the mad are
+
+228
+00:08:54,920 --> 00:08:59,120
+sane." and this is basically about the...
+
+229
+00:08:59,120 --> 00:09:02,080
+What I wanted in this was to point out the fact
+
+230
+00:09:02,080 --> 00:09:06,720
+that the book is partially about me going mad, but
+
+231
+00:09:06,720 --> 00:09:09,680
+is it a mad thing to do, to go mad when you know
+
+232
+00:09:09,680 --> 00:09:11,840
+you're in a society that is about to collapse?
+
+233
+00:09:11,840 --> 00:09:14,440
+Yeah, that's really what I wanted to talk
+
+234
+00:09:14,440 --> 00:09:15,520
+about in this video because I think it's
+
+235
+00:09:15,520 --> 00:09:18,000
+super relevant to our work, trying to persuade
+
+236
+00:09:18,000 --> 00:09:20,680
+people they need to take action on inequality.
+
+237
+00:09:20,680 --> 00:09:24,080
+This question of what does it do to the individual when
+
+238
+00:09:24,080 --> 00:09:28,600
+they realise they are in a society that is collapsing?
+
+239
+00:09:28,600 --> 00:09:32,360
+The way that this crisis is often represented
+
+240
+00:09:32,360 --> 00:09:36,640
+in the media or from politicians is kind of as what
+
+241
+00:09:36,640 --> 00:09:39,080
+we call a recession, which means a couple of bad years.
+
+242
+00:09:39,080 --> 00:09:41,360
+One bad year, two bad years, maybe if you're
+
+243
+00:09:41,360 --> 00:09:43,240
+really unlucky, three bad years, and then
+
+244
+00:09:43,240 --> 00:09:44,760
+things will start getting better again.
+
+245
+00:09:44,760 --> 00:09:49,120
+But the reality is unless you're in the top 10%,
+
+246
+00:09:49,120 --> 00:09:51,040
+really this just gets worse and worse
+
+247
+00:09:51,040 --> 00:09:52,840
+and worse and worse and worse for you.
+
+248
+00:09:52,840 --> 00:09:55,520
+So, my plan was like, well, listen, this is like
+
+249
+00:09:55,520 --> 00:09:57,600
+really big political opportunity because the
+
+250
+00:09:57,600 --> 00:10:00,080
+political status quo works really, really badly
+
+251
+00:10:00,080 --> 00:10:02,960
+for like 90% of the population, and that means
+
+252
+00:10:02,960 --> 00:10:04,880
+we have a really good chance here to unite 90% of
+
+253
+00:10:04,880 --> 00:10:06,800
+the population to push for something different.
+
+254
+00:10:06,800 --> 00:10:09,560
+Like in a democracy, if you have a status quo,
+
+255
+00:10:09,560 --> 00:10:11,680
+which is going to impoverish the kids and grandkids
+
+256
+00:10:11,680 --> 00:10:15,160
+of 90% of the population, all you need to do is
+
+257
+00:10:15,160 --> 00:10:17,680
+show them the truth that this is going to happen,
+
+258
+00:10:17,680 --> 00:10:20,640
+and you'll be able to motivate them to demand
+
+259
+00:10:20,640 --> 00:10:22,400
+something different from their politicians.
+
+260
+00:10:22,400 --> 00:10:25,440
+And I think the problem with that plan
+
+261
+00:10:25,440 --> 00:10:29,480
+is really a problem of mental health.
+
+262
+00:10:29,480 --> 00:10:32,120
+And I'll explain why.
+
+263
+00:10:32,120 --> 00:10:35,480
+So this concept that what we were actually in
+
+264
+00:10:35,480 --> 00:10:38,000
+economically was a structural crisis of growing
+
+265
+00:10:38,000 --> 00:10:41,240
+inequality, that the bottom 90% was having their
+
+266
+00:10:41,240 --> 00:10:43,160
+wealth kind of aggressively out by the
+
+267
+00:10:43,160 --> 00:10:48,360
+top 1%, that is something that I realised in 2011
+
+268
+00:10:48,360 --> 00:10:49,720
+when I was working as a trader.
+
+269
+00:10:49,720 --> 00:10:53,520
+At the time, my job was basically to predict
+
+270
+00:10:53,520 --> 00:10:56,520
+and bet on the future strength of like nations.
+
+271
+00:10:56,520 --> 00:11:01,600
+So the UK, the US, Europe, these kinds of things.
+
+272
+00:11:01,600 --> 00:11:05,240
+And it's a funny job in a way because
+
+273
+00:11:05,240 --> 00:11:07,760
+if you think that the economy is going to be really
+
+274
+00:11:07,760 --> 00:11:10,760
+bad and the economy turns out to be really bad,
+
+275
+00:11:10,760 --> 00:11:15,160
+then you make money betting on terrible things.
+
+276
+00:11:15,160 --> 00:11:17,880
+But that is your job, so it's this kind of strange
+
+277
+00:11:17,880 --> 00:11:20,760
+job which is slightly dehumanised in a way.
+
+278
+00:11:20,760 --> 00:11:22,200
+Like if you think a bad thing's going to
+
+279
+00:11:22,200 --> 00:11:23,640
+happen, your job is to bet that bad thing is
+
+280
+00:11:23,640 --> 00:11:25,080
+going to happen, and you're kind of encouraged
+
+281
+00:11:25,080 --> 00:11:26,880
+to think abstractly, step outside the box.
+
+282
+00:11:26,880 --> 00:11:30,600
+And, if you get it right, you make a
+
+283
+00:11:30,600 --> 00:11:32,440
+ton of money and nobody really questions like
+
+284
+00:11:32,440 --> 00:11:34,040
+whether it's the right or the wrong thing to do.
+
+285
+00:11:34,040 --> 00:11:37,280
+And it felt like a very natural thing
+
+286
+00:11:37,280 --> 00:11:40,160
+to do for somebody who studied economics.
+
+287
+00:11:40,160 --> 00:11:42,440
+So, I did economics undergrad at London School of
+
+288
+00:11:42,440 --> 00:11:45,040
+Economics, and then went into an economic analysis job.
+
+289
+00:11:45,040 --> 00:11:47,920
+Your job is to look at economies, analyze economies,
+
+290
+00:11:47,920 --> 00:11:49,600
+make predictions, bet on those predictions.
+
+291
+00:11:49,600 --> 00:11:54,800
+So when I first put this bet on, I didn't really on
+
+292
+00:11:54,800 --> 00:11:58,880
+any conscious level think, "What does it mean to bet
+
+293
+00:11:58,880 --> 00:12:01,640
+on a collapsing economy?" Like I was a young person,
+
+294
+00:12:01,640 --> 00:12:03,880
+this was my job, I was trying to make money.
+
+295
+00:12:03,880 --> 00:12:05,000
+I put the bet on.
+
+296
+00:12:05,000 --> 00:12:08,400
+And it wasn't really until the end of
+
+297
+00:12:08,400 --> 00:12:12,360
+the year... That year, so this was 2011.
+
+298
+00:12:12,360 --> 00:12:13,520
+At the end of the year when I got paid on the year,
+
+299
+00:12:13,520 --> 00:12:15,480
+that I started to really think about, "What does that
+
+300
+00:12:15,480 --> 00:12:18,760
+mean?" And to be honest, what you see in the sort of
+
+301
+00:12:18,760 --> 00:12:22,640
+latter part of my book is a long period of me having
+
+302
+00:12:22,640 --> 00:12:25,000
+this, what you might call, like cognitive dissonance,
+
+303
+00:12:25,000 --> 00:12:27,960
+which is one part of my brain knows... Well, I
+
+304
+00:12:27,960 --> 00:12:29,680
+think the first thing say is, when you first put the
+
+305
+00:12:29,680 --> 00:12:32,360
+bet on, you don't know for sure that you're right.
+
+306
+00:12:32,360 --> 00:12:35,280
+It's kind of, you're confident, you're confident enough
+
+307
+00:12:35,280 --> 00:12:37,000
+to bet on it, but you're not sure it's going to happen.
+
+308
+00:12:37,000 --> 00:12:39,360
+Then at the end of 2011, I was Citibank's
+
+309
+00:12:39,360 --> 00:12:42,160
+most profitable trader in the year that year,
+
+310
+00:12:42,160 --> 00:12:43,680
+based on betting society would collapse.
+
+311
+00:12:43,680 --> 00:12:45,240
+And you get paid a ton of money.
+
+312
+00:12:45,240 --> 00:12:47,400
+And I think that's probably where like part
+
+313
+00:12:47,400 --> 00:12:51,680
+of you starts thinking, "Is that like, okay?
+
+314
+00:12:51,680 --> 00:12:53,400
+Like, should that be the way the world
+
+315
+00:12:53,400 --> 00:12:55,760
+works?" Like, should you just be paid
+
+316
+00:12:55,760 --> 00:12:57,000
+a ton of money if the world's going to collapse?
+
+317
+00:12:57,000 --> 00:13:00,120
+Should you do anything about the economy collapsing?
+
+318
+00:13:00,120 --> 00:13:03,360
+But I think this is really the big question,
+
+319
+00:13:03,360 --> 00:13:06,720
+which was, you know, my plan is to show people the
+
+320
+00:13:06,720 --> 00:13:08,720
+economy is collapsing and hope they will take action.
+
+321
+00:13:08,720 --> 00:13:11,000
+But when I myself realised the economy was
+
+322
+00:13:11,000 --> 00:13:14,400
+collapsing, it was a long time before I took action.
+
+323
+00:13:14,400 --> 00:13:17,440
+And it started a sort of battle in myself where
+
+324
+00:13:17,440 --> 00:13:19,280
+first of all, you just kind of...
+
+325
+00:13:19,280 --> 00:13:22,000
+You don't want to accept it.
+
+326
+00:13:22,000 --> 00:13:23,680
+You don't want to... Because I think if you
+
+327
+00:13:23,680 --> 00:13:27,960
+were to accept it, it would demand action from you.
+
+328
+00:13:27,960 --> 00:13:31,080
+So for me as somebody who had made millions
+
+329
+00:13:31,080 --> 00:13:34,480
+of pounds betting on society collapsing,
+
+330
+00:13:34,480 --> 00:13:36,120
+I think there's a pretty obvious moral case to
+
+331
+00:13:36,120 --> 00:13:39,120
+make to somebody like that, that is like, "Well,
+
+332
+00:13:39,120 --> 00:13:42,080
+maybe you should stop the economy from collapsing."
+
+333
+00:13:42,080 --> 00:13:45,800
+But obviously to do that, I would have had to quit
+
+334
+00:13:45,800 --> 00:13:47,680
+my job, and I was making an enormous amount of money.
+
+335
+00:13:47,680 --> 00:13:49,120
+That would be scary.
+
+336
+00:13:49,120 --> 00:13:50,960
+Like, I worked really, really hard to get that job.
+
+337
+00:13:50,960 --> 00:13:53,080
+I came from a poor background, so walking away
+
+338
+00:13:53,080 --> 00:13:55,160
+from like such a well-paid job was a big thing.
+
+339
+00:13:55,160 --> 00:13:58,280
+But also like, what do you do?
+
+340
+00:13:58,280 --> 00:14:00,600
+Like, how can you actually stop this?
+
+341
+00:14:00,600 --> 00:14:03,720
+And you have these arguments towards the latter
+
+342
+00:14:03,720 --> 00:14:06,360
+part of the book, where I'm sort of arguing with other
+
+343
+00:14:06,360 --> 00:14:09,120
+guys at Citibank, my colleagues saying, "Maybe we
+
+344
+00:14:09,120 --> 00:14:12,400
+should do something." There's one specific discussion
+
+345
+00:14:12,400 --> 00:14:14,400
+with, a guy who in the book is called Arthur,
+
+346
+00:14:14,400 --> 00:14:15,720
+where I say to him, like, "Do you think we should
+
+347
+00:14:15,720 --> 00:14:18,960
+do something about the collapsing economy?" And,
+
+348
+00:14:18,960 --> 00:14:20,680
+he thinks I mean like, "Do you think we should put
+
+349
+00:14:20,680 --> 00:14:22,440
+a trade on?" He just keeps saying, "But you already
+
+350
+00:14:22,440 --> 00:14:24,120
+put the trade on." And I keep saying, "Should we
+
+351
+00:14:24,120 --> 00:14:26,200
+do something?" And he just doesn't understand it.
+
+352
+00:14:26,200 --> 00:14:29,440
+And I think what you kind of see here
+
+353
+00:14:29,440 --> 00:14:33,400
+is basically when you confront somebody
+
+354
+00:14:33,400 --> 00:14:35,920
+who is working really hard, leads a stressful
+
+355
+00:14:35,920 --> 00:14:37,720
+life, has worked hard to get the job that they're
+
+356
+00:14:37,720 --> 00:14:39,960
+in, or is struggling to put food on the table,
+
+357
+00:14:39,960 --> 00:14:42,440
+anybody, you say, "Hey, society is collapsing.
+
+358
+00:14:42,440 --> 00:14:45,120
+Let's stop it," I think a very, very normal
+
+359
+00:14:45,120 --> 00:14:48,400
+emotional human response is to say like, "**** you.
+
+360
+00:14:48,400 --> 00:14:49,400
+I'm busy.
+
+361
+00:14:49,400 --> 00:14:50,560
+I'm stressed.
+
+362
+00:14:50,560 --> 00:14:52,560
+Don't come and tell me we need
+
+363
+00:14:52,560 --> 00:14:54,120
+save the world, because not my job.
+
+364
+00:14:54,120 --> 00:14:55,600
+That's the job of the politicians.
+
+365
+00:14:55,600 --> 00:14:57,880
+Other people should be doing that." And I think a
+
+366
+00:14:57,880 --> 00:15:02,560
+lot of the pushback that we get, that I get
+
+367
+00:15:02,560 --> 00:15:05,720
+is basically from people who are kind of struggling
+
+368
+00:15:05,720 --> 00:15:07,160
+emotionally with the same thing I struggled
+
+369
+00:15:07,160 --> 00:15:11,240
+emotionally with for a long time, which was, "Oh, ****,
+
+370
+00:15:11,240 --> 00:15:13,400
+the society we live in is collapsing.
+
+371
+00:15:13,400 --> 00:15:17,920
+What the **** do we do?" And I think this kind of
+
+372
+00:15:17,920 --> 00:15:21,960
+debate which I had in my head or in my heart or
+
+373
+00:15:21,960 --> 00:15:26,480
+in my body sort of in 2011, 2012, and I didn't
+
+374
+00:15:26,480 --> 00:15:30,760
+finally quit that job till 2014, is to some degree
+
+375
+00:15:30,760 --> 00:15:32,840
+the argument that we're having in society now.
+
+376
+00:15:32,840 --> 00:15:37,800
+Because it was pretty clear to me by 2012 that
+
+377
+00:15:37,800 --> 00:15:40,200
+what was going to happen was living standards would
+
+378
+00:15:40,200 --> 00:15:42,800
+keep falling basically forever until we stop them.
+
+379
+00:15:42,800 --> 00:15:45,320
+But I don't think that became really obvious in wider
+
+380
+00:15:45,320 --> 00:15:48,800
+society, until maybe the last couple of years.
+
+381
+00:15:48,800 --> 00:15:50,920
+I think you did start to see this
+
+382
+00:15:50,920 --> 00:15:52,480
+understanding grow more and more and more.
+
+383
+00:15:52,480 --> 00:15:54,160
+I think that's part of the reason why Brexit happened.
+
+384
+00:15:54,160 --> 00:15:56,000
+I think that's part of the reason why Trump
+
+385
+00:15:56,000 --> 00:16:00,160
+got elected both the first time and the second time.
+
+386
+00:16:00,160 --> 00:16:02,800
+Now we're sort of moving into this space where
+
+387
+00:16:02,800 --> 00:16:05,720
+it becomes more and more obvious to everyone
+
+388
+00:16:05,720 --> 00:16:09,760
+that society is collapsing forever, the economy is
+
+389
+00:16:09,760 --> 00:16:16,520
+collapsing forever, and people as individuals need to
+
+390
+00:16:16,520 --> 00:16:19,800
+basically decide, "Okay, what do I do with that?
+
+391
+00:16:19,800 --> 00:16:21,080
+How do I deal with that?" And
+
+392
+00:16:21,080 --> 00:16:22,160
+this is where Camus comes in.
+
+393
+00:16:22,160 --> 00:16:24,720
+So I think this book, this book... Camus,
+
+394
+00:16:24,720 --> 00:16:27,440
+a French Algerian author, he lived in France
+
+395
+00:16:27,440 --> 00:16:29,360
+during the Nazi occupation of France, and he saw
+
+396
+00:16:29,360 --> 00:16:32,360
+the rise of the Nazis in the mid-20th Century.
+
+397
+00:16:32,360 --> 00:16:34,400
+And the book is about an epidemic
+
+398
+00:16:34,400 --> 00:16:37,640
+of plague in a city in Algeria.
+
+399
+00:16:37,640 --> 00:16:41,000
+It's a metaphor for, for fascism and for
+
+400
+00:16:41,000 --> 00:16:43,840
+the Nazis and the growth of Nazism in Europe.
+
+401
+00:16:43,840 --> 00:16:46,720
+But what he talks about is when you live
+
+402
+00:16:46,720 --> 00:16:50,680
+in the society that starts to collapse,
+
+403
+00:16:50,680 --> 00:16:53,840
+what do people... how do people react
+
+404
+00:16:53,840 --> 00:16:55,440
+to that, and how should people react to that?
+
+405
+00:16:55,440 --> 00:16:58,960
+And in the book, what you see is, basically
+
+406
+00:16:58,960 --> 00:17:01,360
+most people just kind of freak the
+
+407
+00:17:01,360 --> 00:17:03,080
+**** out and kind of lose their minds.
+
+408
+00:17:03,080 --> 00:17:05,440
+And I'm not going to criticise that response at all
+
+409
+00:17:05,440 --> 00:17:08,080
+because, that's basically what happened to me.
+
+410
+00:17:08,080 --> 00:17:10,280
+I had basically a breakdown
+
+411
+00:17:10,280 --> 00:17:11,800
+when I realised society was collapsing.
+
+412
+00:17:11,800 --> 00:17:13,600
+I realised it a long time before everybody else.
+
+413
+00:17:13,600 --> 00:17:16,000
+I've had about 14 years to come to terms with it now.
+
+414
+00:17:16,000 --> 00:17:19,200
+And you see some people become extremely religious.
+
+415
+00:17:19,200 --> 00:17:21,120
+Some people become extremely angry.
+
+416
+00:17:21,120 --> 00:17:22,440
+Some people become violent.
+
+417
+00:17:22,440 --> 00:17:24,920
+Some people become greedy.
+
+418
+00:17:24,920 --> 00:17:26,480
+A lot of people become hedonistic.
+
+419
+00:17:26,480 --> 00:17:29,240
+And I think it's super, super
+
+420
+00:17:29,240 --> 00:17:31,840
+understandable, this is a reaction.
+
+421
+00:17:31,840 --> 00:17:34,120
+And when I put my message out there into the
+
+422
+00:17:34,120 --> 00:17:36,280
+world on the videos saying, "Listen, if we
+
+423
+00:17:36,280 --> 00:17:38,920
+don't take action, society is going to collapse,"
+
+424
+00:17:38,920 --> 00:17:41,520
+a lot of the responses I get back
+
+425
+00:17:41,520 --> 00:17:45,200
+are basically... And, you know, people say, "Oh,
+
+426
+00:17:45,200 --> 00:17:47,080
+the pro- but the actual solution is Bitcoin.
+
+427
+00:17:47,080 --> 00:17:49,040
+What you actually need to do is to print money.
+
+428
+00:17:49,040 --> 00:17:51,280
+You know, the problem is actually immigrants.
+
+429
+00:17:51,280 --> 00:17:53,360
+The problem is actually foreigners." What
+
+430
+00:17:53,360 --> 00:17:55,240
+I really hear is a lot of people saying,
+
+431
+00:17:55,240 --> 00:17:57,440
+"Listen, I'm ******* stressed enough as it is.
+
+432
+00:17:57,440 --> 00:17:59,640
+Don't you dare tell me that this is my problem and
+
+433
+00:17:59,640 --> 00:18:01,880
+I need to fix it." The best example of that
+
+434
+00:18:01,880 --> 00:18:05,440
+was I gave a speech at like a really fancy,
+
+435
+00:18:05,440 --> 00:18:08,600
+advertising company once, and I was on a panel.
+
+436
+00:18:08,600 --> 00:18:11,000
+And I did this thing that I do where
+
+437
+00:18:11,000 --> 00:18:12,280
+I say, "Listen, actually we have this
+
+438
+00:18:12,280 --> 00:18:13,560
+fundamental problem with inequality.
+
+439
+00:18:13,560 --> 00:18:15,040
+It's going to get worse and worse.
+
+440
+00:18:15,040 --> 00:18:17,520
+If we don't take action, society will collapse."
+
+441
+00:18:17,520 --> 00:18:20,240
+And, um... a lady went up after me and
+
+442
+00:18:20,240 --> 00:18:22,280
+I think by all accounts, she's a very nice lady.
+
+443
+00:18:22,280 --> 00:18:26,240
+And what she said was, "Listen, the economy
+
+444
+00:18:26,240 --> 00:18:29,720
+is part of God's plan and it's like nature.
+
+445
+00:18:29,720 --> 00:18:31,280
+It's like the changing of the seasons.
+
+446
+00:18:31,280 --> 00:18:33,640
+Sometimes it gets better and sometimes it gets
+
+447
+00:18:33,640 --> 00:18:37,280
+worse." And, this was very frustrating for
+
+448
+00:18:37,280 --> 00:18:40,280
+me in this room full of rich people because
+
+449
+00:18:40,280 --> 00:18:44,360
+if these people can persuade themselves
+
+450
+00:18:44,360 --> 00:18:47,600
+that inequality is part of God's plan,
+
+451
+00:18:47,600 --> 00:18:49,160
+that sometimes it gets better and sometimes it gets
+
+452
+00:18:49,160 --> 00:18:53,120
+worse, that is a very, very good way of convincing
+
+453
+00:18:53,120 --> 00:18:55,040
+themselves that they don't need to take action.
+
+454
+00:18:55,040 --> 00:18:57,960
+And I think a lot of what we are seeing at the
+
+455
+00:18:57,960 --> 00:19:01,000
+moment is people starting to realise their society
+
+456
+00:19:01,000 --> 00:19:03,400
+is collapsing and desperately trying to find a
+
+457
+00:19:03,400 --> 00:19:07,000
+story to tell themselves, "I'm going to be okay.
+
+458
+00:19:07,000 --> 00:19:08,120
+I don't need to take action.
+
+459
+00:19:08,120 --> 00:19:10,880
+I don't need to be responsible for fixing this."
+
+460
+00:19:10,880 --> 00:19:12,560
+So, the truth is, what we are selling here
+
+461
+00:19:12,560 --> 00:19:17,080
+on this channel is the truth, but it's not
+
+462
+00:19:17,080 --> 00:19:19,280
+the most promising choice, right?
+
+463
+00:19:19,280 --> 00:19:22,440
+Because what we are saying is
+
+464
+00:19:22,440 --> 00:19:24,440
+we have a society-wide economic problem.
+
+465
+00:19:24,440 --> 00:19:28,120
+The problem is being caused by the very rich.
+
+466
+00:19:28,120 --> 00:19:31,040
+The people who are supposed be fixing it,
+
+467
+00:19:31,040 --> 00:19:35,480
+the politicians, the economists, are kind of
+
+468
+00:19:35,480 --> 00:19:37,520
+incompetent, kind of a little bit bought.
+
+469
+00:19:37,520 --> 00:19:38,920
+They're not going to fix it.
+
+470
+00:19:38,920 --> 00:19:42,120
+The job and the responsibility falls on you, ordinary
+
+471
+00:19:42,120 --> 00:19:47,720
+people, to unite together to educate one another
+
+472
+00:19:47,720 --> 00:19:49,600
+so that you can push back and fight against the
+
+473
+00:19:49,600 --> 00:19:51,800
+richest and most powerful people in society.
+
+474
+00:19:51,800 --> 00:19:55,120
+I think we have to accept that especially in the
+
+475
+00:19:55,120 --> 00:19:57,360
+very individualistic societies we live in here in
+
+476
+00:19:57,360 --> 00:20:02,400
+the UK, US, that is not the most appealing message.
+
+477
+00:20:02,400 --> 00:20:04,200
+And we're not the only guys selling a message
+
+478
+00:20:04,200 --> 00:20:05,640
+about, "How do you fix this?" There are a
+
+479
+00:20:05,640 --> 00:20:08,080
+lot of other messages online that's saying
+
+480
+00:20:08,080 --> 00:20:09,600
+there are other ways to fix your poverty.
+
+481
+00:20:09,600 --> 00:20:11,800
+I'm going to show you one now from a Instagram
+
+482
+00:20:11,800 --> 00:20:13,120
+account I've been really enjoying lately.
+
+483
+00:20:13,120 --> 00:20:14,960
+Listen to this.
+
+484
+00:20:14,960 --> 00:20:18,800
+Slaves worked all the hours they were awake
+
+485
+00:20:18,800 --> 00:20:19,920
+for their entire lives.
+
+486
+00:20:19,920 --> 00:20:22,120
+I think, like, if they can do it, so can I.
+
+487
+00:20:22,120 --> 00:20:24,360
+You know, Aldous Huxley once said that a
+
+488
+00:20:24,360 --> 00:20:27,320
+really efficient totalitarian state would
+
+489
+00:20:27,320 --> 00:20:30,040
+be one with slaves who do not have to be
+
+490
+00:20:30,040 --> 00:20:32,840
+coerced because they love their servitude.
+
+491
+00:20:32,840 --> 00:20:36,440
+The reason I wanted show you that is because
+
+492
+00:20:36,440 --> 00:20:38,480
+as we move further and further and further into this
+
+493
+00:20:38,480 --> 00:20:41,920
+collapsing economy, and more and more people lose
+
+494
+00:20:41,920 --> 00:20:47,320
+their minds, people are going to look for ways to get
+
+495
+00:20:47,320 --> 00:20:50,600
+out of this that they think can protect themselves.
+
+496
+00:20:50,600 --> 00:20:52,360
+And I think one thing that is super
+
+497
+00:20:52,360 --> 00:20:54,920
+interesting about this is one of the other
+
+498
+00:20:54,920 --> 00:20:57,280
+big solutions that people being sold is if you
+
+499
+00:20:57,280 --> 00:20:59,960
+just work harder, if you work really, really,
+
+500
+00:20:59,960 --> 00:21:02,680
+really, really, really, really hard, maybe you
+
+501
+00:21:02,680 --> 00:21:04,840
+will survive the collapse of your whole economy.
+
+502
+00:21:04,840 --> 00:21:10,080
+And I think it's... it's really appealing
+
+503
+00:21:10,080 --> 00:21:13,360
+in this post-Thatcher/Reagan world.
+
+504
+00:21:13,360 --> 00:21:15,800
+There was a quote which, Jack, my
+
+505
+00:21:15,800 --> 00:21:19,200
+cameraman, told me from Margaret Thatcher.
+
+506
+00:21:19,200 --> 00:21:20,960
+She said, "Economics are the method.
+
+507
+00:21:20,960 --> 00:21:24,320
+The object is to change the soul."
+
+508
+00:21:24,320 --> 00:21:27,640
+And I think that maybe 50 or 60 years ago, we might
+
+509
+00:21:27,640 --> 00:21:30,000
+have lived in countries where people understood
+
+510
+00:21:30,000 --> 00:21:32,120
+that the best way to protect your interests
+
+511
+00:21:32,120 --> 00:21:33,640
+from the rich is to work together.
+
+512
+00:21:33,640 --> 00:21:36,280
+But as we've moved into very sort of individualistic
+
+513
+00:21:36,280 --> 00:21:38,840
+mindset, people have been increasingly convinced
+
+514
+00:21:38,840 --> 00:21:40,520
+that the best way to protect yourself from
+
+515
+00:21:40,520 --> 00:21:43,040
+the rich is to work really, really, really,
+
+516
+00:21:43,040 --> 00:21:44,720
+really, really, really, really, really
+
+517
+00:21:44,720 --> 00:21:46,400
+hard and to compete with other poor people.
+
+518
+00:21:46,400 --> 00:21:50,960
+If you do that, if everybody does that, if
+
+519
+00:21:50,960 --> 00:21:53,040
+everybody works really, really, really, really hard to
+
+520
+00:21:53,040 --> 00:21:55,760
+be the best and lowest paid and hardest working slave,
+
+521
+00:21:55,760 --> 00:21:59,520
+all you will do is push wages down incredibly quickly
+
+522
+00:21:59,520 --> 00:22:02,440
+and impoverish yourself and everyone around you.
+
+523
+00:22:02,440 --> 00:22:04,040
+The only way to fix this is
+
+524
+00:22:04,040 --> 00:22:05,280
+to find ways to work together.
+
+525
+00:22:05,280 --> 00:22:07,880
+Okay, so what do you do if you're in that situation,
+
+526
+00:22:07,880 --> 00:22:09,560
+if you're in a society that is collapsing?
+
+527
+00:22:09,560 --> 00:22:11,480
+The rich are taking everything.
+
+528
+00:22:11,480 --> 00:22:13,600
+The 90% are being killed.
+
+529
+00:22:13,600 --> 00:22:16,560
+The only real way to stop it is to try and unite
+
+530
+00:22:16,560 --> 00:22:19,400
+that 90% somehow, or as many of it as you can.
+
+531
+00:22:19,400 --> 00:22:20,960
+But you live in this
+
+532
+00:22:20,960 --> 00:22:23,760
+phenomenally individualistic society.
+
+533
+00:22:23,760 --> 00:22:25,440
+Okay, so I'll talk about what I did.
+
+534
+00:22:25,440 --> 00:22:28,240
+And the truth is, you know, I kind of had
+
+535
+00:22:28,240 --> 00:22:29,840
+a mental breakdown basically, and this is
+
+536
+00:22:29,840 --> 00:22:31,480
+the story of the latter part of the book.
+
+537
+00:22:31,480 --> 00:22:33,440
+I think it's quite beautifully written
+
+538
+00:22:33,440 --> 00:22:35,640
+personally, but you can read it if you're interested.
+
+539
+00:22:35,640 --> 00:22:39,880
+And I tried really, really hard to
+
+540
+00:22:39,880 --> 00:22:43,080
+convince myself that this was not my problem.
+
+541
+00:22:43,080 --> 00:22:46,360
+There's a side character in my book who,
+
+542
+00:22:46,360 --> 00:22:48,440
+I wanted to include more, but I didn't have space.
+
+543
+00:22:48,440 --> 00:22:50,400
+There's a guy called... In the book, he's called Hong.
+
+544
+00:22:50,400 --> 00:22:53,840
+Really, really nice guy, maybe not the best trader.
+
+545
+00:22:53,840 --> 00:22:58,040
+But he did this amazing thing, which
+
+546
+00:22:58,040 --> 00:23:01,000
+is he used to take like 30 sick days a year.
+
+547
+00:23:01,000 --> 00:23:02,840
+And another guy who I used to work with
+
+548
+00:23:02,840 --> 00:23:04,160
+called Billy had a little book where
+
+549
+00:23:04,160 --> 00:23:05,560
+he used to record all of his sick days.
+
+550
+00:23:05,560 --> 00:23:07,560
+That was on top of his 25 holiday days.
+
+551
+00:23:07,560 --> 00:23:10,520
+And, nobody got really pissed about
+
+552
+00:23:10,520 --> 00:23:13,760
+this because he was such a nice guy, and,
+
+553
+00:23:13,760 --> 00:23:15,760
+he had managed to do this thing in his work
+
+554
+00:23:15,760 --> 00:23:18,880
+where he had kind of emotionally detached himself
+
+555
+00:23:18,880 --> 00:23:22,160
+from his work, and he wasn't making the most
+
+556
+00:23:22,160 --> 00:23:23,720
+money as a trader, but he was a really nice guy.
+
+557
+00:23:23,720 --> 00:23:27,000
+He was doing his job pretty well, and
+
+558
+00:23:27,000 --> 00:23:28,560
+he had managed to be emotionally detached.
+
+559
+00:23:28,560 --> 00:23:32,120
+And I used to sit on my desk on Citibank
+
+560
+00:23:32,120 --> 00:23:34,120
+trading floor, and I used look at this guy.
+
+561
+00:23:34,120 --> 00:23:35,320
+In the book, he's called Hong.
+
+562
+00:23:35,320 --> 00:23:37,320
+This is the scene I wanted to include in the book.
+
+563
+00:23:37,320 --> 00:23:39,000
+And I used to say to myself, "Why
+
+564
+00:23:39,000 --> 00:23:41,360
+can't you just be more like Hong?
+
+565
+00:23:41,360 --> 00:23:44,160
+Why can't you not give a **** about being the best
+
+566
+00:23:44,160 --> 00:23:46,720
+trader, not give a **** about the world collapsing?
+
+567
+00:23:46,720 --> 00:23:49,160
+Just get paid your half a million pound
+
+568
+00:23:49,160 --> 00:23:52,880
+a year and live a ******* good life."
+
+569
+00:23:52,880 --> 00:23:55,160
+And I tried and I tried and I tried for a long
+
+570
+00:23:55,160 --> 00:24:00,680
+time, to ignore this sort of, I guess, this
+
+571
+00:24:00,680 --> 00:24:02,720
+social responsibility to try and fix things.
+
+572
+00:24:02,720 --> 00:24:06,320
+And then when I tried speak to traders
+
+573
+00:24:06,320 --> 00:24:07,960
+around me, you know, "Should we do things?"
+
+574
+00:24:07,960 --> 00:24:09,640
+They just sort of laughed, you know.
+
+575
+00:24:09,640 --> 00:24:11,800
+Because obviously there's no... You can't pick
+
+576
+00:24:11,800 --> 00:24:14,040
+up the phone and speak to David Cameron and say,
+
+577
+00:24:14,040 --> 00:24:16,960
+"The economy's collapsing." And they
+
+578
+00:24:16,960 --> 00:24:19,600
+said, "It's impossible to do anything." And,
+
+579
+00:24:19,600 --> 00:24:21,640
+I told myself it was impossible to do anything.
+
+580
+00:24:21,640 --> 00:24:23,880
+And the truth is, you know, I made this realisation
+
+581
+00:24:23,880 --> 00:24:28,000
+in 2011. I didn't quit 'til 2014.
+
+582
+00:24:28,000 --> 00:24:30,840
+I tried really, really, really, really hard
+
+583
+00:24:30,840 --> 00:24:33,960
+to not do anything about the collapsing economy.
+
+584
+00:24:33,960 --> 00:24:36,560
+But eventually, the truth is, my body kind
+
+585
+00:24:36,560 --> 00:24:38,920
+of made the decision for me, and, I got more
+
+586
+00:24:38,920 --> 00:24:40,640
+and more depressed, and I got more and more sick.
+
+587
+00:24:40,640 --> 00:24:42,960
+And I didn't really get better until I chose to
+
+588
+00:24:42,960 --> 00:24:46,080
+quit that job and try and ******* do something.
+
+589
+00:24:46,080 --> 00:24:50,520
+So personally, I think, and I think this is
+
+590
+00:24:50,520 --> 00:24:52,960
+the message that Camus comes across in his book,
+
+591
+00:24:52,960 --> 00:24:55,280
+in a society that is collapsing,
+
+592
+00:24:55,280 --> 00:24:58,520
+the only way to be healthy and to be calm is
+
+593
+00:24:58,520 --> 00:25:01,480
+to try to do something to stop that collapse.
+
+594
+00:25:01,480 --> 00:25:03,080
+But the truth is, even when I did quit in
+
+595
+00:25:03,080 --> 00:25:06,920
+2014, I didn't work very aggressively, at
+
+596
+00:25:06,920 --> 00:25:09,120
+fixing the collapsing economy for a long time.
+
+597
+00:25:09,120 --> 00:25:11,320
+This YouTube channel was started in 2020.
+
+598
+00:25:11,320 --> 00:25:12,880
+So I haven't spoken much about the
+
+599
+00:25:12,880 --> 00:25:15,680
+period between me quitting my job in 2014
+
+600
+00:25:15,680 --> 00:25:19,520
+and me starting this YouTube channel in 2020.
+
+601
+00:25:19,520 --> 00:25:22,560
+And people who read my book, I kind of wanted
+
+602
+00:25:22,560 --> 00:25:25,080
+give the impression that I never really wanted
+
+603
+00:25:25,080 --> 00:25:26,320
+to work for charity and it was kind of like
+
+604
+00:25:26,320 --> 00:25:28,640
+a game I was using get out of the bank.
+
+605
+00:25:28,640 --> 00:25:32,160
+But the truth is, that whole period, 2014 - 2020,
+
+606
+00:25:32,160 --> 00:25:36,120
+I was working in trying to find ways
+
+607
+00:25:36,120 --> 00:25:37,840
+to stop the economy from collapsing.
+
+608
+00:25:37,840 --> 00:25:41,840
+And the first thing I did, which I think is
+
+609
+00:25:41,840 --> 00:25:43,880
+kind of the logical thing to do if your plan is
+
+610
+00:25:43,880 --> 00:25:45,720
+try and do something about growing inequality,
+
+611
+00:25:45,720 --> 00:25:48,280
+is I went and I researched the political Left.
+
+612
+00:25:48,280 --> 00:25:52,720
+It's a common, conspiracy that I'm some sort of
+
+613
+00:25:52,720 --> 00:25:54,720
+leftist, some massive leftist, some massive communist.
+
+614
+00:25:54,720 --> 00:25:56,840
+But the truth is, I was never on the political
+
+615
+00:25:56,840 --> 00:26:01,600
+Left and, I never voted for Labour,
+
+616
+00:26:01,600 --> 00:26:02,720
+at the point of leaving my job.
+
+617
+00:26:02,720 --> 00:26:04,560
+But because I thought the problem
+
+618
+00:26:04,560 --> 00:26:06,880
+was inequality, I assumed the political
+
+619
+00:26:06,880 --> 00:26:08,160
+Left would be the right place to go.
+
+620
+00:26:08,160 --> 00:26:10,080
+And I started research the political Left
+
+621
+00:26:10,080 --> 00:26:11,360
+and I volunteered at some think tanks.
+
+622
+00:26:11,360 --> 00:26:13,280
+And, you know, I met some great people
+
+623
+00:26:13,280 --> 00:26:14,880
+who I do still talk to today.
+
+624
+00:26:14,880 --> 00:26:17,280
+But I was actually like often very,
+
+625
+00:26:17,280 --> 00:26:19,720
+very frustrated at, number one,
+
+626
+00:26:19,720 --> 00:26:22,000
+there was almost nobody working on inequality.
+
+627
+00:26:22,000 --> 00:26:24,840
+And number two, there were a lot of sort of very
+
+628
+00:26:24,840 --> 00:26:28,120
+posh, well-meaning people who didn't seem super, super,
+
+629
+00:26:28,120 --> 00:26:31,480
+like really actively concerned and aggressive
+
+630
+00:26:31,480 --> 00:26:34,920
+about working really hard try and fix inequality.
+
+631
+00:26:34,920 --> 00:26:40,160
+And I think this is another sort of mental health
+
+632
+00:26:40,160 --> 00:26:42,440
+wall you can hit when you try to fix things, which...
+
+633
+00:26:42,440 --> 00:26:45,280
+And we see this a lot, which is people watch our
+
+634
+00:26:45,280 --> 00:26:49,200
+videos, they become convinced like I was convinced,
+
+635
+00:26:49,200 --> 00:26:51,640
+and they're like, "Oh my God, I want to do something.
+
+636
+00:26:51,640 --> 00:26:55,240
+I want to help." But they, similarly to
+
+637
+00:26:55,240 --> 00:26:57,760
+me in that period of time, they don't know where
+
+638
+00:26:57,760 --> 00:27:00,360
+to go, they don't know where to use their energy,
+
+639
+00:27:00,360 --> 00:27:03,480
+they don't know how to actually take action.
+
+640
+00:27:03,480 --> 00:27:06,160
+So, this is a kind of next step from a mental health
+
+641
+00:27:06,160 --> 00:27:08,440
+perspective, which is you've realised what's
+
+642
+00:27:08,440 --> 00:27:10,960
+happening, you've had your freak-out, you've gone
+
+643
+00:27:10,960 --> 00:27:13,480
+mental for a bit, you've managed to calm yourself down.
+
+644
+00:27:13,480 --> 00:27:14,840
+You're like, "Now I want to help," and
+
+645
+00:27:14,840 --> 00:27:18,400
+you can't actually find a place to help.
+
+646
+00:27:18,400 --> 00:27:22,080
+So, I think with regards to this, I'm always...
+
+647
+00:27:22,200 --> 00:27:23,400
+We have this discussion quite a lot on
+
+648
+00:27:23,400 --> 00:27:26,000
+the channel, where we, we talk about like
+
+649
+00:27:26,000 --> 00:27:27,880
+should we get people to send letters to their
+
+650
+00:27:27,880 --> 00:27:29,640
+MPs or should we give them like calls to action?
+
+651
+00:27:29,640 --> 00:27:31,560
+Should we arrange like a march?
+
+652
+00:27:31,560 --> 00:27:33,040
+Should we arrange like rally?
+
+653
+00:27:33,040 --> 00:27:39,120
+And I've always been on the side of, I don't want to
+
+654
+00:27:39,120 --> 00:27:42,240
+arrange these kind of big grandstand events.
+
+655
+00:27:42,240 --> 00:27:45,040
+What I want to... Because we're not...
+
+656
+00:27:45,040 --> 00:27:47,360
+I don't want people to give everything, get
+
+657
+00:27:47,360 --> 00:27:49,640
+super excited, and then burn themself out
+
+658
+00:27:49,640 --> 00:27:51,600
+because we haven't built those structures.
+
+659
+00:27:51,600 --> 00:27:53,920
+So what I would say is if you do want to help
+
+660
+00:27:53,920 --> 00:27:58,240
+and you're in that sort of space, recognise it's
+
+661
+00:27:58,240 --> 00:28:04,040
+a long-term battle, recognise it's not all on you.
+
+662
+00:28:04,040 --> 00:28:07,280
+We are not able to give jobs and work
+
+663
+00:28:07,280 --> 00:28:08,080
+to everybody who wants to support.
+
+664
+00:28:08,080 --> 00:28:11,680
+What we would ask you to do is always
+
+665
+00:28:11,680 --> 00:28:13,760
+watch and understand the videos, share the
+
+666
+00:28:13,760 --> 00:28:16,680
+videos, share the message, get good at explaining
+
+667
+00:28:16,680 --> 00:28:18,560
+in a simple way that the reason the economy is
+
+668
+00:28:18,560 --> 00:28:20,440
+getting worse is because of growing inequality,
+
+669
+00:28:20,440 --> 00:28:22,280
+and just build that message, build that message.
+
+670
+00:28:22,280 --> 00:28:25,240
+If you're an ordinary person,
+
+671
+00:28:25,240 --> 00:28:26,400
+that's all we would ask of you.
+
+672
+00:28:26,400 --> 00:28:28,600
+If you are somebody who is in some position
+
+673
+00:28:28,600 --> 00:28:32,440
+of power, like you... you are on the political
+
+674
+00:28:32,440 --> 00:28:34,400
+Left or you are on the political Right, I
+
+675
+00:28:34,400 --> 00:28:36,200
+think you should be asking yourself, how can
+
+676
+00:28:36,200 --> 00:28:38,720
+you create spaces for other people to get
+
+677
+00:28:38,720 --> 00:28:41,560
+involved so that they can support this message?
+
+678
+00:28:41,560 --> 00:28:44,480
+But the final big realisation that I made in that
+
+679
+00:28:44,480 --> 00:28:48,640
+period when I was trying to figure out ways to fix it
+
+680
+00:28:48,640 --> 00:28:52,440
+was basically that the fire engines are not coming.
+
+681
+00:28:52,440 --> 00:28:54,920
+So, there are these institutions in society that are
+
+682
+00:28:54,920 --> 00:28:57,520
+supposed to protect us from economic collapse,
+
+683
+00:28:57,520 --> 00:29:00,560
+which are most obviously the politicians, but also
+
+684
+00:29:00,560 --> 00:29:04,520
+the academic economists, institutions like central
+
+685
+00:29:04,520 --> 00:29:06,320
+banks, which are full of economists that are supposed
+
+686
+00:29:06,320 --> 00:29:11,120
+protect your country's economy, things
+
+687
+00:29:11,120 --> 00:29:13,200
+like the civil service, things like the media.
+
+688
+00:29:13,200 --> 00:29:14,480
+These guys are all supposed to
+
+689
+00:29:14,480 --> 00:29:15,960
+realise there is an economic collapse.
+
+690
+00:29:15,960 --> 00:29:19,960
+And the big thing that I realised after leaving
+
+691
+00:29:19,960 --> 00:29:23,400
+the bank is that basically these institutions are all
+
+692
+00:29:23,400 --> 00:29:27,920
+kind of broken and not able to recognise that basically
+
+693
+00:29:27,920 --> 00:29:29,880
+what is happening is being caused by inequality.
+
+694
+00:29:29,880 --> 00:29:33,040
+And that was kind of the second
+
+695
+00:29:33,040 --> 00:29:34,840
+big shocking realisation for me.
+
+696
+00:29:34,840 --> 00:29:38,360
+And it's also another big shocking realisation,
+
+697
+00:29:38,360 --> 00:29:40,280
+I think for... to give to ordinary people.
+
+698
+00:29:40,280 --> 00:29:43,920
+The truth is, the institutions that are supposed
+
+699
+00:29:43,920 --> 00:29:46,360
+to protect your economy are not functioning.
+
+700
+00:29:46,360 --> 00:29:48,920
+They're unable to realise
+
+701
+00:29:48,920 --> 00:29:50,280
+that inequality is the core problem.
+
+702
+00:29:50,280 --> 00:29:52,160
+That's another thing we just need to sit and
+
+703
+00:29:52,160 --> 00:29:54,600
+take a long breath and think about, because
+
+704
+00:29:54,600 --> 00:29:57,960
+that means that if you are just a regular person,
+
+705
+00:29:57,960 --> 00:30:00,720
+the responsibility to protect your family and
+
+706
+00:30:00,720 --> 00:30:03,280
+your kids' and your grandkids' future falls upon you.
+
+707
+00:30:03,280 --> 00:30:05,360
+And that is another thing which is going to freak
+
+708
+00:30:05,360 --> 00:30:08,160
+people out from a mental health perspective.
+
+709
+00:30:08,160 --> 00:30:10,080
+But I think the way to deal with it
+
+710
+00:30:10,080 --> 00:30:13,280
+is to understand it, to accept it, and to find
+
+711
+00:30:13,280 --> 00:30:15,440
+some way that you can contribute fixing things.
+
+712
+00:30:15,440 --> 00:30:16,760
+Take it easy.
+
+713
+00:30:16,760 --> 00:30:18,120
+Don't work too hard.
+
+714
+00:30:18,120 --> 00:30:19,480
+Support us.
+
+715
+00:30:19,480 --> 00:30:21,280
+If you are able to get yourself into a
+
+716
+00:30:21,280 --> 00:30:26,520
+position of power, we really, really need to
+
+717
+00:30:26,520 --> 00:30:30,400
+get this idea better understood amongst people
+
+718
+00:30:30,400 --> 00:30:33,640
+like politicians, economic academics,
+
+719
+00:30:33,640 --> 00:30:38,360
+economists, the media, civil servants.
+
+720
+00:30:38,360 --> 00:30:40,400
+We need these think tanks.
+
+721
+00:30:40,400 --> 00:30:42,560
+We need these people to understand better.
+
+722
+00:30:42,560 --> 00:30:44,800
+If you do not deal with growing
+
+723
+00:30:44,800 --> 00:30:46,640
+inequality, your society will collapse.
+
+724
+00:30:46,640 --> 00:30:49,880
+And if you are working in one of those spaces or are able
+
+725
+00:30:49,880 --> 00:30:52,400
+to work in one of those spaces, please try your best to
+
+726
+00:30:52,400 --> 00:30:55,480
+spread that message so that people can understand it.
+
+727
+00:30:55,480 --> 00:30:57,320
+So that brings us to where we are now basically.
+
+728
+00:30:57,320 --> 00:31:03,320
+The message that I want to send across is that
+
+729
+00:31:03,320 --> 00:31:06,800
+the reality of the situation is really, really bad.
+
+730
+00:31:06,800 --> 00:31:12,160
+That is a massive opportunity because it is going to
+
+731
+00:31:12,160 --> 00:31:15,080
+damage 90% of families in my country and your country.
+
+732
+00:31:15,080 --> 00:31:17,120
+If we can unite those families, we can
+
+733
+00:31:17,120 --> 00:31:20,560
+definitely create change politically.
+
+734
+00:31:20,560 --> 00:31:26,040
+But it is a massive blow to tell people that
+
+735
+00:31:26,040 --> 00:31:29,560
+that is going to happen, and we need to find ways
+
+736
+00:31:29,560 --> 00:31:32,480
+to support each other to get people to understand
+
+737
+00:31:32,480 --> 00:31:34,960
+what's happening and not freak the **** out.
+
+738
+00:31:34,960 --> 00:31:36,720
+And that's true for me as
+
+739
+00:31:36,720 --> 00:31:37,800
+well, and it's true for you.
+
+740
+00:31:37,800 --> 00:31:40,480
+Listen, I've known for 14 years now
+
+741
+00:31:40,480 --> 00:31:42,920
+that our economy was going to collapse, and,
+
+742
+00:31:42,920 --> 00:31:44,600
+the truth is like for the last three years
+
+743
+00:31:44,600 --> 00:31:46,400
+I've known we had a real opportunity, a really
+
+744
+00:31:46,400 --> 00:31:49,040
+big opportunity to build something big here.
+
+745
+00:31:49,040 --> 00:31:51,160
+I'm really proud of what we've built.
+
+746
+00:31:51,160 --> 00:31:54,680
+I have probably pushed myself a bit too hard.
+
+747
+00:31:54,680 --> 00:31:58,240
+I took six, seven weeks off earlier this
+
+748
+00:31:58,240 --> 00:32:00,640
+year, and I came back, and I was really
+
+749
+00:32:00,640 --> 00:32:03,600
+sort of gunning for it, ready to sort of
+
+750
+00:32:03,600 --> 00:32:05,240
+go and hold the politicians to account.
+
+751
+00:32:05,240 --> 00:32:07,840
+And, I've been meeting people at think tanks.
+
+752
+00:32:07,840 --> 00:32:10,600
+I've been speaking to politicians and celebrities
+
+753
+00:32:10,600 --> 00:32:12,960
+and trying to build... trying to build a bigger
+
+754
+00:32:12,960 --> 00:32:15,120
+social media infrastructure for these sort of ideas.
+
+755
+00:32:15,120 --> 00:32:19,640
+But for the last few weeks, I've been really
+
+756
+00:32:19,640 --> 00:32:23,840
+struggling a little bit just to make videos, just
+
+757
+00:32:23,840 --> 00:32:26,880
+to sort of find the creativity to make good videos.
+
+758
+00:32:26,880 --> 00:32:29,200
+It's a funny thing for me because my background is
+
+759
+00:32:29,200 --> 00:32:31,600
+maths and economics, and, I'm always really, really,
+
+760
+00:32:31,600 --> 00:32:34,360
+really confident with the economics understanding.
+
+761
+00:32:34,360 --> 00:32:36,160
+I'm really confident at trading.
+
+762
+00:32:36,160 --> 00:32:39,360
+But this YouTube and also the book,
+
+763
+00:32:39,360 --> 00:32:41,880
+it's not just about understanding the economy.
+
+764
+00:32:41,880 --> 00:32:43,960
+A huge part of it is this kind of creative
+
+765
+00:32:43,960 --> 00:32:46,920
+job of how do you package it, how do you make
+
+766
+00:32:46,920 --> 00:32:49,120
+it compelling, how do you draw people in?
+
+767
+00:32:49,120 --> 00:32:51,040
+And it's really, it's that kind of creative
+
+768
+00:32:51,040 --> 00:32:52,520
+energy that I've been struggling a little bit
+
+769
+00:32:52,520 --> 00:32:55,120
+with recently, and it's, it's the first time
+
+770
+00:32:55,120 --> 00:32:56,720
+that's ever really happened to me, to be honest.
+
+771
+00:32:56,720 --> 00:32:58,720
+When I wrote the book, it was kind of amazing,
+
+772
+00:32:58,720 --> 00:33:01,200
+I could just... it took a long time for
+
+773
+00:33:01,200 --> 00:33:02,680
+me to figure out the shape of it, but once
+
+774
+00:33:02,680 --> 00:33:05,320
+I had that, it just really flowed through.
+
+775
+00:33:05,320 --> 00:33:07,520
+And for the last sort of two, three years, I've taken
+
+776
+00:33:07,520 --> 00:33:09,600
+these big breaks, but I've felt really, really
+
+777
+00:33:09,600 --> 00:33:13,080
+confident about the creative product we've been making.
+
+778
+00:33:13,080 --> 00:33:15,320
+And especially the first half of this year,
+
+779
+00:33:15,320 --> 00:33:17,360
+I thought the videos were amazing, and I really
+
+780
+00:33:17,360 --> 00:33:19,280
+wanted come back and really hit the ground running
+
+781
+00:33:19,280 --> 00:33:21,880
+with videos, but I'm honestly just starting
+
+782
+00:33:21,880 --> 00:33:23,800
+to feel like I'm a little bit running on empty.
+
+783
+00:33:23,800 --> 00:33:26,560
+And that, and that's been difficult for me.
+
+784
+00:33:26,560 --> 00:33:27,520
+But I think I've got my
+
+785
+00:33:27,520 --> 00:33:29,680
+plan for what I'm going to do.
+
+786
+00:33:29,680 --> 00:33:31,480
+I'm going to mix up videos a bit.
+
+787
+00:33:31,480 --> 00:33:33,560
+You might find this surprising.
+
+788
+00:33:33,560 --> 00:33:37,120
+I hate talking to camera, and if
+
+789
+00:33:37,120 --> 00:33:40,160
+you look at the older videos we used to do,
+
+790
+00:33:40,160 --> 00:33:43,240
+I used to do a lot of videos where I would talk
+
+791
+00:33:43,240 --> 00:33:45,800
+to, my mate Simran used to stand over here, and,
+
+792
+00:33:45,800 --> 00:33:48,320
+I found those videos way, way easier to make.
+
+793
+00:33:48,320 --> 00:33:51,640
+I think I might need to basically
+
+794
+00:33:51,640 --> 00:33:54,480
+reduce a little bit my shoot days, and
+
+795
+00:33:54,480 --> 00:33:56,680
+only do some to camera and do some off camera.
+
+796
+00:33:56,680 --> 00:33:58,080
+I think I'm going to have to do that
+
+797
+00:33:58,080 --> 00:33:59,480
+basically in order to slow things down.
+
+798
+00:33:59,480 --> 00:34:03,080
+It's disappointing for me because,
+
+799
+00:34:03,080 --> 00:34:04,400
+I really feel like we're sort of, we're
+
+800
+00:34:04,400 --> 00:34:06,040
+really getting close to building something.
+
+801
+00:34:06,040 --> 00:34:10,520
+But I can only carry as much as I can carry, and,
+
+802
+00:34:10,520 --> 00:34:13,480
+basically I need you guys to do a little bit more.
+
+803
+00:34:13,480 --> 00:34:15,440
+I need especially... If you are somebody
+
+804
+00:34:15,440 --> 00:34:18,320
+who has influence in one of those spaces,
+
+805
+00:34:18,320 --> 00:34:22,240
+the political left, the political right,
+
+806
+00:34:22,240 --> 00:34:25,360
+government, politicians, media, civil servants,
+
+807
+00:34:25,360 --> 00:34:28,400
+academia, I really need you guys to start
+
+808
+00:34:28,400 --> 00:34:29,720
+carrying it a bit more and push it a bit more.
+
+809
+00:34:29,720 --> 00:34:32,000
+Because I don't think I'm going to be able to keep
+
+810
+00:34:32,000 --> 00:34:34,320
+pushing it as much as I have been the last few years.
+
+811
+00:34:34,320 --> 00:34:36,040
+But I'm not going to take a break.
+
+812
+00:34:36,040 --> 00:34:37,480
+We're going to keep shooting at least
+
+813
+00:34:37,480 --> 00:34:38,360
+for another couple of months.
+
+814
+00:34:38,360 --> 00:34:41,920
+Look, the strategy is simple.
+
+815
+00:34:41,920 --> 00:34:44,080
+If we've got enough people, we don't need
+
+816
+00:34:44,080 --> 00:34:46,000
+individuals to throw themselves at the barricades.
+
+817
+00:34:46,000 --> 00:34:48,640
+We don't need individuals to burn themselves out.
+
+818
+00:34:48,640 --> 00:34:52,480
+Understand the message, spread it, bring people in.
+
+819
+00:34:52,480 --> 00:34:55,640
+But we also need to build models of
+
+820
+00:34:55,640 --> 00:34:58,720
+strength that aren't just about individualism,
+
+821
+00:34:58,720 --> 00:35:01,600
+people being the best, people being richest.
+
+822
+00:35:01,600 --> 00:35:04,920
+Because the problem is here is really quite simple.
+
+823
+00:35:04,920 --> 00:35:08,440
+If we can find enough people in this country,
+
+824
+00:35:08,440 --> 00:35:11,640
+in your country, who are willing to be unselfish
+
+825
+00:35:11,640 --> 00:35:14,080
+enough that they don't prioritise just their
+
+826
+00:35:14,080 --> 00:35:17,520
+interests, but they work together to build and
+
+827
+00:35:17,520 --> 00:35:20,920
+spread a simple message, then their financial
+
+828
+00:35:20,920 --> 00:35:23,160
+interests will be protected in the long run.
+
+829
+00:35:23,160 --> 00:35:26,920
+If we are a country that is too selfish, that it
+
+830
+00:35:26,920 --> 00:35:29,880
+cannot find enough people to protect their collective
+
+831
+00:35:29,880 --> 00:35:34,080
+interests, then most people will be bankrupted.
+
+832
+00:35:34,080 --> 00:35:37,560
+So it's kind of this beautiful irony in
+
+833
+00:35:37,560 --> 00:35:40,120
+a way, which is if people are so
+
+834
+00:35:40,120 --> 00:35:42,520
+blinded by their selfish material interests,
+
+835
+00:35:42,520 --> 00:35:45,080
+then they will be materially bankrupted.
+
+836
+00:35:45,080 --> 00:35:48,280
+But if enough people can stand together to work
+
+837
+00:35:48,280 --> 00:35:51,600
+together to protect their joint material interests,
+
+838
+00:35:51,600 --> 00:35:53,440
+then their material interests will be protected.
+
+839
+00:35:53,440 --> 00:35:56,320
+So it's a battle in a sense
+
+840
+00:35:56,320 --> 00:35:57,280
+for the soul of the country.
+
+841
+00:35:57,280 --> 00:35:59,680
+I know which side I'm going to fight on.
+
+842
+00:35:59,680 --> 00:36:02,120
+I hope you fight too.
+
+843
+00:36:02,120 --> 00:36:03,840
+You know, I've mentioned Margaret Thatcher in this
+
+844
+00:36:03,840 --> 00:36:08,040
+video, and she said once, "There is, no such thing
+
+845
+00:36:08,040 --> 00:36:12,440
+as society." I think what she meant by that was
+
+846
+00:36:12,440 --> 00:36:17,040
+it is the job of all of us to simply protect ourselves.
+
+847
+00:36:17,040 --> 00:36:20,120
+The problem is we are in a competition for
+
+848
+00:36:20,120 --> 00:36:23,480
+resources here, and if we deal with this
+
+849
+00:36:23,480 --> 00:36:25,880
+in a series of one-on-one battles,
+
+850
+00:36:25,880 --> 00:36:31,000
+then basically the rich will take everything.
+
+851
+00:36:31,000 --> 00:36:33,920
+So if we live in a society of individuals
+
+852
+00:36:33,920 --> 00:36:36,080
+where nobody helps each other, where nobody protects
+
+853
+00:36:36,080 --> 00:36:39,120
+each other, then who protects the poor from the rich?
+
+854
+00:36:39,120 --> 00:36:40,680
+So that's it basically.
+
+855
+00:36:40,680 --> 00:36:41,720
+My video on mental health.
+
+856
+00:36:41,720 --> 00:36:44,440
+I think it's difficult to be mentally well
+
+857
+00:36:44,440 --> 00:36:47,040
+when you're in society that's falling apart,
+
+858
+00:36:47,040 --> 00:36:49,680
+especially a society that tells us
+
+859
+00:36:49,680 --> 00:36:51,800
+our individual responsibilities are only to
+
+860
+00:36:51,800 --> 00:36:54,520
+ourselves, but makes it almost impossible
+
+861
+00:36:54,520 --> 00:36:55,960
+for us protect ourselves individually.
+
+862
+00:36:55,960 --> 00:36:59,880
+I think the way for us to stay
+
+863
+00:36:59,880 --> 00:37:03,280
+mentally healthy is... is to fight back,
+
+864
+00:37:03,280 --> 00:37:05,800
+but to fight back in a way that is balanced.
+
+865
+00:37:05,800 --> 00:37:07,240
+Don't burn yourself out.
+
+866
+00:37:07,240 --> 00:37:08,280
+Support each other.
+
+867
+00:37:08,280 --> 00:37:09,560
+You're going to need each other.
+
+868
+00:37:09,560 --> 00:37:11,680
+All right, that's it for this week.
+
+869
+00:37:11,680 --> 00:37:12,960
+We're going to do some more,
+
+870
+00:37:12,960 --> 00:37:14,480
+off-camera stuff I think.
+
+871
+00:37:14,480 --> 00:37:16,200
+I've got a couple of good ones coming up.
+
+872
+00:37:16,200 --> 00:37:18,800
+One about how to build a wealth tax in
+
+873
+00:37:18,800 --> 00:37:21,080
+terms of implementation, and one about
+
+874
+00:37:21,080 --> 00:37:22,200
+why you need to forget about money.
+
+875
+00:37:22,200 --> 00:37:24,160
+Yeah, we're going to try some
+
+876
+00:37:24,160 --> 00:37:25,440
+new sort of video styles out.
+
+877
+00:37:25,440 --> 00:37:27,440
+Let us know what you think when you see them.
+
+878
+00:37:27,440 --> 00:37:28,280
+That's it.
+
+879
+00:37:28,280 --> 00:37:29,160
+Thanks for your support.
+
+880
+00:37:29,160 --> 00:37:30,160
+Tax wealth, not work.
+
+881
+00:37:30,160 --> 00:37:31,560
+Thank you.

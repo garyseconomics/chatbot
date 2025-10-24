@@ -1,0 +1,1919 @@
+﻿1
+00:00:00,200 --> 00:00:02,160
+Okay. Welcome back to Garys Economics.
+
+2
+00:00:02,160 --> 00:00:06,520
+Today we are going to explain mortgages.
+
+3
+00:00:06,520 --> 00:00:09,120
+Okay, I wanted to do a video on mortgages.
+
+4
+00:00:09,120 --> 00:00:11,280
+And the reason being is
+
+5
+00:00:11,280 --> 00:00:12,240
+I talk a lot in this video
+
+6
+00:00:12,240 --> 00:00:14,360
+about wealth inequality increasing.
+
+7
+00:00:14,360 --> 00:00:16,200
+That means wealth is being transferred
+
+8
+00:00:16,200 --> 00:00:18,480
+away from primarily
+
+9
+00:00:18,480 --> 00:00:20,960
+ordinary people, middle classes towards the very rich.
+
+10
+00:00:20,960 --> 00:00:23,200
+And there's a variety of ways
+
+11
+00:00:23,200 --> 00:00:25,120
+in which we see that happening.
+
+12
+00:00:25,120 --> 00:00:28,920
+So number one is lower rates of homeownership.
+
+13
+00:00:28,920 --> 00:00:29,760
+And we're really seeing that
+
+14
+00:00:29,760 --> 00:00:32,160
+especially for younger people.
+
+15
+00:00:32,160 --> 00:00:33,000
+Number two
+
+16
+00:00:33,000 --> 00:00:36,480
+is the lack of ability of people to accumulate
+
+17
+00:00:36,480 --> 00:00:38,800
+financial assets like stocks and shares.
+
+18
+00:00:38,800 --> 00:00:41,120
+So we primarily see that through pensions.
+
+19
+00:00:41,120 --> 00:00:43,800
+Older generations were much more able to accumulate
+
+20
+00:00:43,800 --> 00:00:45,920
+financial assets in pensions. And now they're not.
+
+21
+00:00:45,920 --> 00:00:48,720
+Number three is the loss of government wealth,
+
+22
+00:00:48,720 --> 00:00:50,640
+which means government
+
+23
+00:00:50,640 --> 00:00:53,280
+privatisations and increased government debt.
+
+24
+00:00:53,280 --> 00:00:54,840
+But those first three...
+
+25
+00:00:54,840 --> 00:00:56,760
+well, the first one is very visible.
+
+26
+00:00:56,760 --> 00:00:57,960
+The second one,
+
+27
+00:00:57,960 --> 00:00:59,000
+less pensions
+
+28
+00:00:59,000 --> 00:01:01,480
+and less government wealth, we often don't see them.
+
+29
+00:01:01,480 --> 00:01:02,640
+What we often
+
+30
+00:01:02,640 --> 00:01:04,680
+do see and one of the most visible ways
+
+31
+00:01:04,680 --> 00:01:07,800
+in which ordinary families are becoming poorer versus
+
+32
+00:01:07,800 --> 00:01:12,720
+the very rich is increased sizes of mortgages.
+
+33
+00:01:12,720 --> 00:01:15,200
+And I wanted to speak a little bit about that,
+
+34
+00:01:15,200 --> 00:01:17,400
+because I think a lot of people don't
+
+35
+00:01:17,400 --> 00:01:22,280
+see the way in which increased sizes of mortgages
+
+36
+00:01:22,280 --> 00:01:25,480
+is a transfer of wealth from
+
+37
+00:01:25,480 --> 00:01:26,920
+the middle class towards the super rich.
+
+38
+00:01:26,920 --> 00:01:28,560
+I think they kind of think
+
+39
+00:01:28,560 --> 00:01:30,960
+house prices going up, mortgages are bigger,
+
+40
+00:01:30,960 --> 00:01:32,080
+that's just the way it is.
+
+41
+00:01:32,080 --> 00:01:33,320
+And in this video I'm
+
+42
+00:01:33,320 --> 00:01:34,640
+going to explain
+
+43
+00:01:34,640 --> 00:01:36,680
+how increase to mortgage debt
+
+44
+00:01:36,680 --> 00:01:39,840
+is a manifestation of increased wealth inequality.
+
+45
+00:01:39,840 --> 00:01:41,400
+So the first thing I need to explain
+
+46
+00:01:41,400 --> 00:01:42,320
+in order to explain
+
+47
+00:01:42,320 --> 00:01:43,920
+this is something that I have spoken
+
+48
+00:01:43,920 --> 00:01:45,240
+about before on the channel.
+
+49
+00:01:45,240 --> 00:01:47,920
+We've got two videos, one called Debt and one called
+
+50
+00:01:47,920 --> 00:01:48,960
+What is Money?
+
+51
+00:01:48,960 --> 00:01:50,640
+If you want to understand these concepts better,
+
+52
+00:01:50,640 --> 00:01:52,240
+you can go and watch them afterwards.
+
+53
+00:01:52,240 --> 00:01:54,680
+The basic concept which you need to understand is
+
+54
+00:01:55,680 --> 00:02:01,080
+total mortgage debt is always zero.
+
+55
+00:02:01,080 --> 00:02:02,320
+This is the first you need to understand.
+
+56
+00:02:02,320 --> 00:02:04,200
+Total mortgage debt is always zero.
+
+57
+00:02:04,200 --> 00:02:06,360
+If you look at the amount of debt across
+
+58
+00:02:06,360 --> 00:02:09,120
+the whole society, mortgage debt is always zero.
+
+59
+00:02:09,120 --> 00:02:10,760
+And that might seem crazy.
+
+60
+00:02:10,760 --> 00:02:11,280
+You know,
+
+61
+00:02:11,280 --> 00:02:12,160
+so many people have mortgages,
+
+62
+00:02:12,160 --> 00:02:14,400
+how could it possibly add up to zero?
+
+63
+00:02:14,400 --> 00:02:16,680
+That is because
+
+64
+00:02:16,680 --> 00:02:20,240
+every debt has a creditor.
+
+65
+00:02:20,240 --> 00:02:21,360
+For everyone who is in debt,
+
+66
+00:02:21,360 --> 00:02:23,760
+there is somebody who is in credit.
+
+67
+00:02:23,760 --> 00:02:26,360
+Your money is always owed to somebody.
+
+68
+00:02:26,360 --> 00:02:28,000
+So what that means on a very simple level
+
+69
+00:02:28,000 --> 00:02:30,600
+is, the total amount of debt
+
+70
+00:02:30,600 --> 00:02:33,840
+always has to equal the total amount of credit
+
+71
+00:02:33,840 --> 00:02:36,120
+and the total amount of mortgage interest
+
+72
+00:02:36,120 --> 00:02:36,400
+that is
+
+73
+00:02:36,400 --> 00:02:39,000
+paid always has to equal the total
+
+74
+00:02:39,000 --> 00:02:40,320
+amount of mortgage interest
+
+75
+00:02:40,320 --> 00:02:42,600
+that is received by somebody.
+
+76
+00:02:42,600 --> 00:02:46,320
+So what that means is, it is not possible for
+
+77
+00:02:47,360 --> 00:02:48,600
+mortgage debt to
+
+78
+00:02:48,600 --> 00:02:51,080
+grow massively for the middle classes,
+
+79
+00:02:51,080 --> 00:02:52,200
+for ordinary families,
+
+80
+00:02:52,200 --> 00:02:55,400
+unless somebody is accumulating a huge amount of money.
+
+81
+00:02:55,400 --> 00:02:57,240
+Now this is an important concept,
+
+82
+00:02:57,240 --> 00:02:59,760
+and I think I'm going to sit on it for a little bit
+
+83
+00:02:59,760 --> 00:03:01,320
+and explain it a little bit more clearly,
+
+84
+00:03:01,320 --> 00:03:02,680
+because I think it's important
+
+85
+00:03:02,680 --> 00:03:04,120
+to understand
+
+86
+00:03:04,120 --> 00:03:05,080
+how debt works
+
+87
+00:03:05,080 --> 00:03:07,640
+and how money works in order to understand
+
+88
+00:03:07,640 --> 00:03:10,200
+how mortgages are working in our society.
+
+89
+00:03:10,200 --> 00:03:13,640
+We live in a debt based monetary system.
+
+90
+00:03:13,640 --> 00:03:15,360
+That's true whether you're in the UK,
+
+91
+00:03:15,360 --> 00:03:17,760
+the US, Europe, Australia, anywhere.
+
+92
+00:03:17,760 --> 00:03:21,920
+Our monetary system is a debt based monetary system.
+
+93
+00:03:21,920 --> 00:03:22,720
+What I mean by
+
+94
+00:03:22,720 --> 00:03:24,200
+that is
+
+95
+00:03:24,200 --> 00:03:26,160
+all money in our society
+
+96
+00:03:26,160 --> 00:03:29,520
+is created by the making of a loan.
+
+97
+00:03:29,520 --> 00:03:33,080
+So at the very first instance,
+
+98
+00:03:33,080 --> 00:03:35,520
+money is created by, in this country,
+
+99
+00:03:35,520 --> 00:03:36,920
+the Bank of England,
+
+100
+00:03:36,920 --> 00:03:39,440
+lending money to a commercial bank
+
+101
+00:03:39,440 --> 00:03:43,440
+such as Lloyds, Halifax, Barclays. So at that point
+
+102
+00:03:44,400 --> 00:03:46,520
+a bank borrows money from the Bank of England.
+
+103
+00:03:46,520 --> 00:03:49,520
+They get money and they also get debt.
+
+104
+00:03:49,520 --> 00:03:52,160
+The money and the debt are created at the same time.
+
+105
+00:03:52,160 --> 00:03:52,840
+And that's important
+
+106
+00:03:52,840 --> 00:03:54,400
+and it has to work like that
+
+107
+00:03:54,400 --> 00:03:57,120
+because the person who has the money
+
+108
+00:03:57,120 --> 00:03:59,040
+receives the interest,
+
+109
+00:03:59,040 --> 00:04:01,200
+and it is only possible to receive interest
+
+110
+00:04:01,200 --> 00:04:03,680
+if somebody is paying interest.
+
+111
+00:04:03,680 --> 00:04:05,280
+And if somebody is paying interest,
+
+112
+00:04:05,280 --> 00:04:07,440
+that means somebody has debt.
+
+113
+00:04:07,440 --> 00:04:12,000
+Now all money in our monetary system works like this.
+
+114
+00:04:12,000 --> 00:04:15,240
+It's not obvious that that is happening.
+
+115
+00:04:15,240 --> 00:04:18,240
+And I'll explain why, I’ll give you an example.
+
+116
+00:04:18,240 --> 00:04:21,920
+So say I borrow £100 from the bank.
+
+117
+00:04:21,920 --> 00:04:23,200
+I've got £100.
+
+118
+00:04:23,200 --> 00:04:25,880
+Then I use that £100 to pay Jack
+
+119
+00:04:25,880 --> 00:04:27,480
+for filming this video.
+
+120
+00:04:27,480 --> 00:04:31,120
+Jack then has the £100, but he doesn't have the debt.
+
+121
+00:04:31,120 --> 00:04:32,000
+I've got the debt.
+
+122
+00:04:32,000 --> 00:04:33,720
+So from the perspective of Jack, he just thinks, well,
+
+123
+00:04:33,720 --> 00:04:34,560
+I've got £100.
+
+124
+00:04:34,560 --> 00:04:36,760
+You know, there's no debt against this £100.
+
+125
+00:04:36,760 --> 00:04:38,120
+But if you look from the perspective
+
+126
+00:04:38,120 --> 00:04:39,600
+of the whole of society,
+
+127
+00:04:39,600 --> 00:04:42,160
+there has to be a debt balancing it.
+
+128
+00:04:42,160 --> 00:04:44,160
+And in this case, I'm the person with the debt.
+
+129
+00:04:44,160 --> 00:04:47,840
+So I pay interest to the bank that lent me the money.
+
+130
+00:04:47,840 --> 00:04:50,040
+And then the Bank of England pays interest to Jack. So
+
+131
+00:04:51,000 --> 00:04:52,600
+I really want to hammer this in.
+
+132
+00:04:52,600 --> 00:04:54,440
+Because you need to understand this.
+
+133
+00:04:54,440 --> 00:04:57,960
+All money is credit. All money is debt.
+
+134
+00:04:57,960 --> 00:04:59,720
+All money is credit.
+
+135
+00:04:59,720 --> 00:05:01,680
+All money is debt.
+
+136
+00:05:01,680 --> 00:05:02,120
+In fact,
+
+137
+00:05:02,120 --> 00:05:05,040
+I think you understand money better if you
+
+138
+00:05:05,040 --> 00:05:06,720
+you almost stop using the term money at all
+
+139
+00:05:06,720 --> 00:05:09,280
+and you just think about money as credit.
+
+140
+00:05:09,280 --> 00:05:10,600
+Every form of money is credit.
+
+141
+00:05:10,600 --> 00:05:12,000
+What that means is
+
+142
+00:05:12,000 --> 00:05:15,280
+it is money owed to you by someone,
+
+143
+00:05:15,280 --> 00:05:17,080
+and they pay you interest on that money.
+
+144
+00:05:17,080 --> 00:05:21,120
+So if you have money in Barclays Bank, that's credit.
+
+145
+00:05:21,120 --> 00:05:22,360
+Barclays owes you that money.
+
+146
+00:05:22,360 --> 00:05:24,600
+If you have a government bond that's credit
+
+147
+00:05:24,600 --> 00:05:25,920
+the government owes you that money.
+
+148
+00:05:25,920 --> 00:05:28,520
+And even if we think about cash,
+
+149
+00:05:28,520 --> 00:05:31,840
+if you pull a banknote out of your wallet,
+
+150
+00:05:31,840 --> 00:05:34,400
+you will see at the top it says here,
+
+151
+00:05:34,400 --> 00:05:37,920
+I promise to pay the bearer on demand the sum of £20.
+
+152
+00:05:37,920 --> 00:05:39,040
+I don't think you'll be able to get that,
+
+153
+00:05:39,040 --> 00:05:40,440
+but if you've got a £20 note.
+
+154
+00:05:41,640 --> 00:05:44,200
+So even this cash is
+
+155
+00:05:44,200 --> 00:05:45,720
+essentially a form of credit
+
+156
+00:05:45,720 --> 00:05:48,040
+the government offers to pay you money.
+
+157
+00:05:48,040 --> 00:05:49,720
+And if you give this money to a bank,
+
+158
+00:05:49,720 --> 00:05:51,520
+the government will pay interest on this cash.
+
+159
+00:05:51,520 --> 00:05:52,840
+That's why you can make money on cash.
+
+160
+00:05:52,840 --> 00:05:57,080
+So all money is credit, and all money is debt.
+
+161
+00:05:57,080 --> 00:05:59,240
+There is always somebody in debt
+
+162
+00:05:59,240 --> 00:06:01,960
+for every piece of money or credit anybody has.
+
+163
+00:06:01,960 --> 00:06:02,880
+And that has to be true.
+
+164
+00:06:02,880 --> 00:06:05,040
+Otherwise there would be nobody to pay the interest.
+
+165
+00:06:05,040 --> 00:06:07,960
+On the flip side, if anybody has debt,
+
+166
+00:06:07,960 --> 00:06:10,360
+there is always somebody with credit against it.
+
+167
+00:06:10,360 --> 00:06:12,320
+This is the way money works.
+
+168
+00:06:12,320 --> 00:06:14,120
+I always get some people get very angry
+
+169
+00:06:14,120 --> 00:06:15,840
+when I say this on the channel.
+
+170
+00:06:15,840 --> 00:06:17,200
+Unfortunately, it is true.
+
+171
+00:06:17,200 --> 00:06:19,200
+We live in a debt based monetary system.
+
+172
+00:06:19,200 --> 00:06:24,360
+Debt and credit always have to totally equal.
+
+173
+00:06:24,360 --> 00:06:25,560
+So what this means is
+
+174
+00:06:26,760 --> 00:06:30,480
+if mortgage debt is suddenly exploding
+
+175
+00:06:30,480 --> 00:06:32,040
+and getting much bigger,
+
+176
+00:06:32,040 --> 00:06:34,880
+somebody somewhere must be accumulating
+
+177
+00:06:34,880 --> 00:06:36,840
+an enormous amount of credit.
+
+178
+00:06:36,840 --> 00:06:38,640
+Somebody somewhere must be accumulating
+
+179
+00:06:38,640 --> 00:06:40,680
+an enormous amount of money.
+
+180
+00:06:40,680 --> 00:06:42,400
+And the reverse is also true.
+
+181
+00:06:42,400 --> 00:06:43,440
+If some group
+
+182
+00:06:43,440 --> 00:06:46,080
+somewhere is accumulating an enormous amount of money,
+
+183
+00:06:46,080 --> 00:06:48,040
+somebody must be going into debt.
+
+184
+00:06:48,040 --> 00:06:50,320
+It's the only... it's the only way it works.
+
+185
+00:06:50,320 --> 00:06:51,840
+These two things have to balance.
+
+186
+00:06:51,840 --> 00:06:54,480
+So if one group in society tries to accumulate money,
+
+187
+00:06:54,480 --> 00:06:57,240
+somebody else has to accumulate debt.
+
+188
+00:06:57,240 --> 00:06:59,520
+If one group in society starts to accumulate debt
+
+189
+00:06:59,520 --> 00:07:01,120
+somebody else has to accumulate money.
+
+190
+00:07:01,120 --> 00:07:03,760
+These debts and credits, this debt and money
+
+191
+00:07:03,760 --> 00:07:04,720
+that are the same thing,
+
+192
+00:07:04,720 --> 00:07:06,480
+there are two sides of the same coin.
+
+193
+00:07:06,480 --> 00:07:08,840
+One side cannot exist without the other.
+
+194
+00:07:08,840 --> 00:07:11,720
+So when you see mortgage debt increasing massively,
+
+195
+00:07:11,720 --> 00:07:12,840
+or for example,
+
+196
+00:07:12,840 --> 00:07:14,920
+when you see government debt increasing
+
+197
+00:07:14,920 --> 00:07:18,480
+massively during Covid, you should be asking yourself
+
+198
+00:07:18,480 --> 00:07:21,000
+who is accumulating money here?
+
+199
+00:07:21,000 --> 00:07:22,440
+And you should be understanding
+
+200
+00:07:22,440 --> 00:07:25,320
+it is only possible for those debts to increase
+
+201
+00:07:25,320 --> 00:07:27,480
+because a group is accumulating money.
+
+202
+00:07:27,480 --> 00:07:30,120
+And in fact, if a group accumulates money,
+
+203
+00:07:30,120 --> 00:07:33,720
+they are forcing somebody to go into debt.
+
+204
+00:07:33,720 --> 00:07:36,000
+So in a very real sense,
+
+205
+00:07:36,000 --> 00:07:39,640
+these increased mortgages, these increased debts
+
+206
+00:07:39,640 --> 00:07:42,720
+of ordinary families of the middle class,
+
+207
+00:07:42,720 --> 00:07:44,640
+they literally
+
+208
+00:07:44,640 --> 00:07:47,760
+are the accumulations of wealth of the rich.
+
+209
+00:07:47,760 --> 00:07:49,200
+It would not be possible
+
+210
+00:07:49,200 --> 00:07:50,680
+for your family, for your kids,
+
+211
+00:07:50,680 --> 00:07:53,280
+for your grandkids to go massively into debt
+
+212
+00:07:53,280 --> 00:07:56,760
+unless some group of people, which in this case is...
+
+213
+00:07:56,760 --> 00:07:58,440
+which in this case is the very rich
+
+214
+00:07:58,440 --> 00:07:59,880
+are accumulating money.
+
+215
+00:07:59,880 --> 00:08:02,000
+In fact, what you are seeing here
+
+216
+00:08:02,000 --> 00:08:05,200
+is a manifestation of what I talk about
+
+217
+00:08:05,200 --> 00:08:08,480
+in my Flows of Wealth video,
+
+218
+00:08:08,480 --> 00:08:11,040
+which is when you live in a very wealth,
+
+219
+00:08:11,040 --> 00:08:13,680
+unequal society, as increasingly we do.
+
+220
+00:08:13,680 --> 00:08:16,880
+What that means is a small group of people own
+
+221
+00:08:16,880 --> 00:08:18,480
+all of the
+
+222
+00:08:18,480 --> 00:08:20,640
+companies, they own all of the commercial property,
+
+223
+00:08:20,640 --> 00:08:22,720
+they own most of the properties.
+
+224
+00:08:22,720 --> 00:08:23,960
+And ordinary people
+
+225
+00:08:23,960 --> 00:08:26,600
+are continually having to pay them rents,
+
+226
+00:08:26,600 --> 00:08:27,960
+profits and interest.
+
+227
+00:08:29,040 --> 00:08:29,800
+If inequality
+
+228
+00:08:29,800 --> 00:08:31,400
+gets very large,
+
+229
+00:08:31,400 --> 00:08:32,880
+these flows of cash
+
+230
+00:08:32,880 --> 00:08:35,920
+from ordinary families to the rich become very large.
+
+231
+00:08:35,920 --> 00:08:37,560
+And they have to balance somehow.
+
+232
+00:08:37,560 --> 00:08:39,480
+And there's only really three ways
+
+233
+00:08:39,480 --> 00:08:42,120
+that those cash flows can be balanced.
+
+234
+00:08:42,120 --> 00:08:43,600
+One is ordinary
+
+235
+00:08:43,600 --> 00:08:45,800
+people work much more for the rich,
+
+236
+00:08:45,800 --> 00:08:47,640
+although in reality, if you try and do that,
+
+237
+00:08:47,640 --> 00:08:50,040
+it tends to just push wages down.
+
+238
+00:08:50,040 --> 00:08:54,240
+Two is ordinary families sell their assets to the rich,
+
+239
+00:08:54,240 --> 00:08:56,000
+and that is why we are seeing reduced
+
+240
+00:08:56,000 --> 00:08:58,120
+homeownership rates and reduced ability
+
+241
+00:08:58,120 --> 00:09:00,240
+to save in pensions.
+
+242
+00:09:00,240 --> 00:09:02,000
+But the third one is
+
+243
+00:09:02,000 --> 00:09:05,720
+the rich can lend that money back to the poor.
+
+244
+00:09:05,720 --> 00:09:07,920
+And that is what we're seeing when we see
+
+245
+00:09:07,920 --> 00:09:09,480
+mortgage sizes increase.
+
+246
+00:09:09,480 --> 00:09:10,080
+What you are seeing
+
+247
+00:09:10,080 --> 00:09:12,240
+there is the rich taking enormous
+
+248
+00:09:12,240 --> 00:09:14,040
+amounts of money from working families
+
+249
+00:09:14,040 --> 00:09:15,960
+and then lending it back.
+
+250
+00:09:15,960 --> 00:09:17,200
+Okay, but up till now, that's
+
+251
+00:09:17,200 --> 00:09:18,440
+all been very theoretical.
+
+252
+00:09:18,440 --> 00:09:21,240
+But I want to talk about how it works in practice.
+
+253
+00:09:21,240 --> 00:09:23,280
+So let's take a practical example,
+
+254
+00:09:23,280 --> 00:09:24,840
+which happened recently.
+
+255
+00:09:24,840 --> 00:09:26,080
+So I speak a lot on the channel
+
+256
+00:09:26,080 --> 00:09:28,200
+about how during Covid, governments
+
+257
+00:09:28,200 --> 00:09:29,960
+gave out an enormous amount of money.
+
+258
+00:09:29,960 --> 00:09:31,800
+And that money was largely,
+
+259
+00:09:31,800 --> 00:09:34,080
+in the end, accumulated by richer people.
+
+260
+00:09:34,080 --> 00:09:35,480
+If you want to understand how that worked,
+
+261
+00:09:35,480 --> 00:09:37,240
+you can go and watch our first video on the channel
+
+262
+00:09:37,240 --> 00:09:39,000
+How The Rich Got Rich From Covid 19.
+
+263
+00:09:39,000 --> 00:09:41,320
+When these rich people started to accumulate cash,
+
+264
+00:09:41,320 --> 00:09:42,160
+what do they do?
+
+265
+00:09:42,160 --> 00:09:43,800
+So rich people,
+
+266
+00:09:43,800 --> 00:09:47,880
+they tend to want to own a balanced portfolio.
+
+267
+00:09:47,880 --> 00:09:49,160
+What that means is
+
+268
+00:09:49,160 --> 00:09:51,960
+they want to own things like stocks and shares,
+
+269
+00:09:51,960 --> 00:09:54,440
+but they also want to own things like bonds,
+
+270
+00:09:54,440 --> 00:09:56,560
+because bonds pay a very regular interest
+
+271
+00:09:56,560 --> 00:09:58,800
+and they want to own things like gold.
+
+272
+00:09:58,800 --> 00:09:59,920
+They want to own property as well.
+
+273
+00:10:01,080 --> 00:10:03,360
+At first they'll go out and they'll...
+
+274
+00:10:03,360 --> 00:10:04,880
+they’ll buy the stuff that's easy to buy,
+
+275
+00:10:04,880 --> 00:10:06,960
+stocks and shares these kinds of things.
+
+276
+00:10:06,960 --> 00:10:08,600
+But eventually
+
+277
+00:10:08,600 --> 00:10:09,720
+they're going to want to diversify
+
+278
+00:10:09,720 --> 00:10:12,080
+and they're going to want to own property.
+
+279
+00:10:12,080 --> 00:10:14,440
+But the problem with property is it's very difficult
+
+280
+00:10:14,440 --> 00:10:16,040
+for super rich people
+
+281
+00:10:16,040 --> 00:10:18,560
+to buy enormous amounts of property.
+
+282
+00:10:18,560 --> 00:10:18,960
+So say,
+
+283
+00:10:18,960 --> 00:10:20,000
+if you if you're very rich
+
+284
+00:10:20,000 --> 00:10:22,880
+and you suddenly receive an income of £10 million,
+
+285
+00:10:22,880 --> 00:10:24,960
+you can quite easily buy £10 million of stocks.
+
+286
+00:10:24,960 --> 00:10:26,840
+You can do it really at the drop of a hat.
+
+287
+00:10:26,840 --> 00:10:29,760
+It's much harder to buy £10 million of property.
+
+288
+00:10:29,760 --> 00:10:30,600
+If you were to buy
+
+289
+00:10:30,600 --> 00:10:33,320
+£10 million of property, you would then have to manage
+
+290
+00:10:33,320 --> 00:10:34,000
+these properties.
+
+291
+00:10:34,000 --> 00:10:36,320
+You'd have to worry about tenants, worry about rent.
+
+292
+00:10:36,320 --> 00:10:38,520
+You have to worry about people's boilers breaking.
+
+293
+00:10:38,520 --> 00:10:39,920
+It's a hassle, basically.
+
+294
+00:10:39,920 --> 00:10:41,760
+So what do rich people do?
+
+295
+00:10:41,760 --> 00:10:43,360
+Well, let me give you an example.
+
+296
+00:10:43,360 --> 00:10:49,080
+If I had £500,000 cash and I wanted to buy a property,
+
+297
+00:10:49,080 --> 00:10:51,720
+I could go out and spend £500,000,
+
+298
+00:10:51,720 --> 00:10:53,240
+buy a flat in London.
+
+299
+00:10:53,240 --> 00:10:55,000
+£500,000 is kind of roughly
+
+300
+00:10:55,000 --> 00:10:56,880
+what a flat in London costs nowadays.
+
+301
+00:10:56,880 --> 00:11:00,040
+I could rent it to my sister and she could pay me
+
+302
+00:11:00,040 --> 00:11:01,360
+rent every month.
+
+303
+00:11:01,360 --> 00:11:05,280
+Alternatively, I could lend that money to my sister.
+
+304
+00:11:06,400 --> 00:11:08,480
+She could go out and buy the house herself,
+
+305
+00:11:08,480 --> 00:11:10,800
+and then she could pay me interest every month.
+
+306
+00:11:10,800 --> 00:11:13,320
+How are these two things different to me?
+
+307
+00:11:13,320 --> 00:11:16,080
+Well, the first thing I want to point out is,
+
+308
+00:11:16,080 --> 00:11:18,480
+what is the difference between those two examples
+
+309
+00:11:18,480 --> 00:11:21,680
+on the housing market and on house prices?
+
+310
+00:11:21,680 --> 00:11:24,600
+The answer is that is exactly no difference.
+
+311
+00:11:24,600 --> 00:11:28,080
+You know the housing market doesn't see whether it's me
+
+312
+00:11:28,080 --> 00:11:29,160
+or whether it's my sister,
+
+313
+00:11:29,160 --> 00:11:30,640
+whether I'm buying directly
+
+314
+00:11:30,640 --> 00:11:31,720
+or whether I'm lending to my sister.
+
+315
+00:11:31,720 --> 00:11:34,160
+All the housing market sees
+
+316
+00:11:34,160 --> 00:11:37,080
+is somebody’s coming in with £500,000
+
+317
+00:11:37,080 --> 00:11:38,280
+and buying a house.
+
+318
+00:11:38,280 --> 00:11:41,120
+So what that shows you is
+
+319
+00:11:41,120 --> 00:11:43,080
+whether I buy the house directly
+
+320
+00:11:43,080 --> 00:11:45,880
+or whether I lend the money out to buy the house.
+
+321
+00:11:45,880 --> 00:11:49,160
+In both cases, I drive the house price up.
+
+322
+00:11:49,160 --> 00:11:52,160
+The second thing is this question of
+
+323
+00:11:52,160 --> 00:11:54,680
+who actually owns the house.
+
+324
+00:11:55,760 --> 00:11:57,360
+So legally, technically, if
+
+325
+00:11:57,360 --> 00:11:58,200
+I lent the money to my sister,
+
+326
+00:11:58,200 --> 00:11:59,120
+my sister owns the house.
+
+327
+00:11:59,120 --> 00:12:01,560
+But what is her net worth after she buys it?
+
+328
+00:12:01,560 --> 00:12:05,200
+Well, she buys a flat that's worth £500,000.
+
+329
+00:12:05,200 --> 00:12:07,200
+She has debt of £500,000.
+
+330
+00:12:07,200 --> 00:12:08,440
+She's worth nothing.
+
+331
+00:12:08,440 --> 00:12:11,760
+So, essentially, I own the equity in the house.
+
+332
+00:12:11,760 --> 00:12:13,600
+So what I'm trying to say here...
+
+333
+00:12:13,600 --> 00:12:15,440
+Oh, we should also look at cash flows, right?
+
+334
+00:12:15,440 --> 00:12:17,680
+Given that interest rates now are about 5%,
+
+335
+00:12:17,680 --> 00:12:20,160
+the amount of rent you would pay if you rented it is
+
+336
+00:12:20,160 --> 00:12:22,560
+probably not that dissimilar to the amount of interest
+
+337
+00:12:22,560 --> 00:12:24,240
+she would pay on borrowing that money.
+
+338
+00:12:24,240 --> 00:12:25,200
+So really,
+
+339
+00:12:25,200 --> 00:12:26,160
+whichever way you cut it
+
+340
+00:12:26,160 --> 00:12:27,320
+and there are some differences.
+
+341
+00:12:27,320 --> 00:12:29,760
+Obviously if the house price goes up,
+
+342
+00:12:29,760 --> 00:12:31,120
+I prefer to own the house.
+
+343
+00:12:31,120 --> 00:12:33,640
+The house price goes down. I prefer to be the lender.
+
+344
+00:12:33,640 --> 00:12:34,800
+But really
+
+345
+00:12:34,800 --> 00:12:36,600
+the point I'm trying to make here
+
+346
+00:12:36,600 --> 00:12:38,960
+is lending money for mortgages
+
+347
+00:12:38,960 --> 00:12:42,880
+is essentially a way for the rich to buy houses
+
+348
+00:12:42,880 --> 00:12:43,720
+via the middle class,
+
+349
+00:12:43,720 --> 00:12:46,400
+and not have to worry about the house price movements,
+
+350
+00:12:46,400 --> 00:12:48,280
+and not have to worry about managements.
+
+351
+00:12:48,280 --> 00:12:49,280
+Mortgage lending
+
+352
+00:12:49,280 --> 00:12:51,400
+and the accumulation of credit by the rich
+
+353
+00:12:51,400 --> 00:12:55,800
+is the way in which rich people buy houses.
+
+354
+00:12:55,800 --> 00:12:57,360
+And if you are sitting on a house
+
+355
+00:12:57,360 --> 00:12:58,880
+with an enormous mortgage,
+
+356
+00:12:58,880 --> 00:13:00,840
+realistically you don't own that house.
+
+357
+00:13:00,840 --> 00:13:03,120
+The person who lent you the money owns that house.
+
+358
+00:13:03,120 --> 00:13:04,480
+And it's important to understand this
+
+359
+00:13:04,480 --> 00:13:06,680
+because as we go forward,
+
+360
+00:13:06,680 --> 00:13:09,120
+this increased size of mortgage
+
+361
+00:13:09,120 --> 00:13:10,600
+is going to be the primary way
+
+362
+00:13:10,600 --> 00:13:14,520
+in which we see the wealth of the middle class decline,
+
+363
+00:13:14,520 --> 00:13:16,240
+especially here in the UK.
+
+364
+00:13:16,240 --> 00:13:17,000
+In the UK,
+
+365
+00:13:17,000 --> 00:13:20,400
+ordinary people tend to hold their assets in property,
+
+366
+00:13:20,400 --> 00:13:22,000
+and there is
+
+367
+00:13:22,000 --> 00:13:24,480
+and there will be less direct owning of property
+
+368
+00:13:24,480 --> 00:13:25,960
+by ordinary families.
+
+369
+00:13:25,960 --> 00:13:28,360
+But what you will see increasingly, is
+
+370
+00:13:28,360 --> 00:13:30,200
+the government need to keep people
+
+371
+00:13:30,200 --> 00:13:31,520
+owning property politically.
+
+372
+00:13:31,520 --> 00:13:33,880
+The rich have this enormous amount of cash,
+
+373
+00:13:33,880 --> 00:13:35,760
+which is driving house prices up.
+
+374
+00:13:35,760 --> 00:13:37,200
+The way that the government can square
+
+375
+00:13:37,200 --> 00:13:39,600
+that circle is to encourage
+
+376
+00:13:39,600 --> 00:13:42,080
+rich people to lend that money.
+
+377
+00:13:42,080 --> 00:13:43,400
+And that money gets borrowed
+
+378
+00:13:43,400 --> 00:13:44,760
+eventually by ordinary people.
+
+379
+00:13:44,760 --> 00:13:47,000
+And I think this gets disguised somewhat
+
+380
+00:13:47,000 --> 00:13:49,080
+by the fact that this lending tends
+
+381
+00:13:49,080 --> 00:13:50,520
+to go through the banking system.
+
+382
+00:13:50,520 --> 00:13:52,640
+And I think a lot of people assume
+
+383
+00:13:52,640 --> 00:13:54,720
+that when mortgages go up,
+
+384
+00:13:54,720 --> 00:13:57,640
+what that means is the bank is accumulating credit.
+
+385
+00:13:57,640 --> 00:13:58,600
+But remember what I said
+
+386
+00:13:58,600 --> 00:14:01,200
+at the beginning of this video, that credit and debt
+
+387
+00:14:01,200 --> 00:14:02,280
+always equals in society.
+
+388
+00:14:02,280 --> 00:14:04,160
+So we can go and we can look at any individual
+
+389
+00:14:04,160 --> 00:14:06,400
+and we can say how much credit do you have?
+
+390
+00:14:06,400 --> 00:14:09,600
+How much money do you have versus how much do you have?
+
+391
+00:14:09,600 --> 00:14:11,160
+And you can take the credit and the money.
+
+392
+00:14:11,160 --> 00:14:12,600
+You can subtract off the debt
+
+393
+00:14:12,600 --> 00:14:14,880
+and we can work out your total money position.
+
+394
+00:14:14,880 --> 00:14:16,600
+We can do that to any individual in society,
+
+395
+00:14:16,600 --> 00:14:17,880
+any company in society.
+
+396
+00:14:17,880 --> 00:14:18,560
+When we add it up,
+
+397
+00:14:18,560 --> 00:14:20,720
+we know it's going to work out to zero.
+
+398
+00:14:20,720 --> 00:14:22,240
+If you look at the banks,
+
+399
+00:14:22,240 --> 00:14:24,160
+the banks do have an enormous amount of credit
+
+400
+00:14:24,160 --> 00:14:25,760
+because anyone who has a mortgage owes
+
+401
+00:14:25,760 --> 00:14:26,960
+money to the bank.
+
+402
+00:14:26,960 --> 00:14:30,920
+But the bank has also an enormous amount of debt.
+
+403
+00:14:30,920 --> 00:14:31,600
+And if you look at it,
+
+404
+00:14:31,600 --> 00:14:33,200
+you'll find that the debts of banks,
+
+405
+00:14:33,200 --> 00:14:35,720
+which is money they owe to depositors, money
+
+406
+00:14:35,720 --> 00:14:39,320
+they owe to lenders such as bondholders of the banks.
+
+407
+00:14:39,320 --> 00:14:41,640
+These debts, in most cases,
+
+408
+00:14:41,640 --> 00:14:43,800
+are pretty much the same as the total amount of credit
+
+409
+00:14:43,800 --> 00:14:44,800
+they lend out.
+
+410
+00:14:44,800 --> 00:14:47,680
+What this means is banks are essentially middlemen.
+
+411
+00:14:47,680 --> 00:14:49,360
+They borrow money from the rich,
+
+412
+00:14:49,360 --> 00:14:51,840
+they lend money to mortgages,
+
+413
+00:14:51,840 --> 00:14:53,960
+and the mortgage interest goes from you,
+
+414
+00:14:53,960 --> 00:14:56,120
+the mortgager, to the bank to the rich.
+
+415
+00:14:56,120 --> 00:14:58,560
+These people are essentially just middlemen in between.
+
+416
+00:14:58,560 --> 00:15:00,240
+So you need to understand this,
+
+417
+00:15:00,240 --> 00:15:02,920
+because governments
+
+418
+00:15:02,920 --> 00:15:05,800
+will see the only way to keep ordinary people in houses
+
+419
+00:15:05,800 --> 00:15:07,640
+is to encourage
+
+420
+00:15:07,640 --> 00:15:11,120
+high levels of lending, high levels of mortgages, to
+
+421
+00:15:11,120 --> 00:15:11,680
+do things
+
+422
+00:15:11,680 --> 00:15:14,840
+like reduce the checks on mortgage eligibility,
+
+423
+00:15:14,840 --> 00:15:16,200
+to encourage things like longer term
+
+424
+00:15:16,200 --> 00:15:17,320
+mortgages, to encourage things
+
+425
+00:15:17,320 --> 00:15:18,920
+like multi-generational mortgages.
+
+426
+00:15:18,920 --> 00:15:21,960
+And this is exactly
+
+427
+00:15:21,960 --> 00:15:23,000
+the transfer of wealth
+
+428
+00:15:23,000 --> 00:15:25,480
+from the middle class to the rich.
+
+429
+00:15:25,480 --> 00:15:26,960
+You are getting further and further into debt.
+
+430
+00:15:28,040 --> 00:15:30,280
+The rich are getting further and further into credit.
+
+431
+00:15:30,280 --> 00:15:33,360
+They are owning your house via your mortgage
+
+432
+00:15:33,360 --> 00:15:35,560
+and they are driving you into poverty.
+
+433
+00:15:35,560 --> 00:15:36,480
+Yeah, I should be clear.
+
+434
+00:15:36,480 --> 00:15:38,480
+I'm not saying don't take a mortgage.
+
+435
+00:15:38,480 --> 00:15:40,280
+I'm not saying don't buy a house.
+
+436
+00:15:40,280 --> 00:15:41,360
+Ordinary people,
+
+437
+00:15:41,360 --> 00:15:42,600
+especially ordinary young people, are
+
+438
+00:15:42,600 --> 00:15:43,440
+put in a situation
+
+439
+00:15:43,440 --> 00:15:46,520
+where you either have to pay rent to the rich,
+
+440
+00:15:46,520 --> 00:15:49,040
+or you have to pay interest to the rich.
+
+441
+00:15:49,040 --> 00:15:50,240
+There's no way of getting out of that
+
+442
+00:15:50,240 --> 00:15:51,600
+unless your parents are rich
+
+443
+00:15:51,600 --> 00:15:54,200
+and they can let you live in their house.
+
+444
+00:15:54,200 --> 00:15:56,760
+You can't really escape this system.
+
+445
+00:15:56,760 --> 00:15:58,560
+Over time, house prices tend to go up,
+
+446
+00:15:58,560 --> 00:15:59,640
+which means that financially,
+
+447
+00:15:59,640 --> 00:16:00,680
+you probably are better off
+
+448
+00:16:00,680 --> 00:16:03,320
+borrowing as opposed to renting.
+
+449
+00:16:03,320 --> 00:16:05,120
+But what this means is
+
+450
+00:16:05,120 --> 00:16:06,680
+your kids will have larger
+
+451
+00:16:06,680 --> 00:16:08,240
+and larger and larger mortgages.
+
+452
+00:16:08,240 --> 00:16:10,680
+They will have larger and larger amounts of debt.
+
+453
+00:16:10,680 --> 00:16:12,600
+You know, it's already normal for an ordinary person
+
+454
+00:16:12,600 --> 00:16:14,360
+that £500,000 of debt in a mortgage
+
+455
+00:16:14,360 --> 00:16:15,320
+that will become £1 million,
+
+456
+00:16:15,320 --> 00:16:16,800
+that will become £2 million.
+
+457
+00:16:16,800 --> 00:16:17,880
+And that means that your kids
+
+458
+00:16:17,880 --> 00:16:19,920
+and your grandkids will end up with mortgages
+
+459
+00:16:19,920 --> 00:16:22,120
+that they can never, ever, ever repay.
+
+460
+00:16:22,120 --> 00:16:24,000
+And that will be debt owed to the rich,
+
+461
+00:16:24,000 --> 00:16:25,440
+and it'll be interest paid to the rich.
+
+462
+00:16:25,440 --> 00:16:26,640
+And they can use that interest
+
+463
+00:16:26,640 --> 00:16:29,400
+to push house prices up even further and out
+
+464
+00:16:29,400 --> 00:16:32,120
+compete your kids for the assets that they need.
+
+465
+00:16:33,640 --> 00:16:35,280
+This will get worse and worse over time.
+
+466
+00:16:35,280 --> 00:16:37,560
+That is the nature of compound interest.
+
+467
+00:16:37,560 --> 00:16:39,280
+I want to be clear. I don't think banks are evil.
+
+468
+00:16:39,280 --> 00:16:40,440
+I don't think lenders are evil.
+
+469
+00:16:40,440 --> 00:16:42,720
+I don't think mortgages are evil.
+
+470
+00:16:42,720 --> 00:16:45,480
+But increased mortgages are debt to somebody.
+
+471
+00:16:45,480 --> 00:16:47,720
+They are debt to the rich, they will grow and grow.
+
+472
+00:16:47,720 --> 00:16:49,920
+This increased debt is the main way
+
+473
+00:16:49,920 --> 00:16:50,920
+in which we will see
+
+474
+00:16:50,920 --> 00:16:53,520
+ordinary families get poorer over time.
+
+475
+00:16:53,520 --> 00:16:57,600
+The only way to fight it is to rebalance power.
+
+476
+00:16:57,600 --> 00:16:59,120
+It's to increase tax on the rich.
+
+477
+00:16:59,120 --> 00:17:02,120
+It is to decrease taxes on ordinary families.
+
+478
+00:17:02,120 --> 00:17:03,720
+That's what we campaign for on this channel.
+
+479
+00:17:03,720 --> 00:17:04,640
+Please support us.
+
+480
+00:17:04,640 --> 00:17:06,320
+Tell your friends. Tell your mum. Good luck.

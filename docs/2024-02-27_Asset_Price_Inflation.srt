@@ -1,0 +1,959 @@
+﻿1
+00:00:00,360 --> 00:00:02,040
+Welcome back to Gary's Economics.
+
+2
+00:00:02,040 --> 00:00:05,840
+Today we are going to talk about asset price inflation.
+
+3
+00:00:08,800 --> 00:00:10,080
+So the main thing I want to explain
+
+4
+00:00:10,080 --> 00:00:11,400
+today is the difference
+
+5
+00:00:11,400 --> 00:00:13,040
+between asset price inflation
+
+6
+00:00:13,040 --> 00:00:15,720
+and goods and services inflation,
+
+7
+00:00:15,720 --> 00:00:19,480
+which you might call shop price inflation and why it is important.
+
+8
+00:00:19,480 --> 00:00:20,640
+The first obvious thing to say
+
+9
+00:00:20,640 --> 00:00:22,640
+is the rate at which asset price increases
+
+10
+00:00:22,640 --> 00:00:24,360
+is not always the same as the rate
+
+11
+00:00:24,360 --> 00:00:27,240
+at which prices in the shops increase.
+
+12
+00:00:27,240 --> 00:00:29,280
+And in general, in the last 20, 30 years,
+
+13
+00:00:29,280 --> 00:00:32,040
+there's been a significant trend for assets
+
+14
+00:00:32,040 --> 00:00:35,040
+to increase more quickly than
+
+15
+00:00:35,040 --> 00:00:37,080
+goods and service prices, and also wages,
+
+16
+00:00:37,080 --> 00:00:40,640
+which has, of course, made housing less affordable.
+
+17
+00:00:40,640 --> 00:00:41,600
+The first thing you need to know
+
+18
+00:00:41,600 --> 00:00:43,560
+is in the main measures of inflation,
+
+19
+00:00:43,560 --> 00:00:45,320
+which you will see on the news.
+
+20
+00:00:45,320 --> 00:00:47,000
+The most well known one is CPI,
+
+21
+00:00:47,000 --> 00:00:48,440
+consumer price inflation.
+
+22
+00:00:48,440 --> 00:00:51,800
+But you might also see RPI, retail price inflation.
+
+23
+00:00:51,800 --> 00:00:53,280
+These measures of inflation
+
+24
+00:00:53,280 --> 00:00:57,280
+only look at the prices of goods in the shops,
+
+25
+00:00:57,280 --> 00:00:59,040
+the regular things that you buy
+
+26
+00:00:59,040 --> 00:01:00,960
+and also services, transport,
+
+27
+00:01:00,960 --> 00:01:02,640
+basically your regular expenditures,
+
+28
+00:01:02,640 --> 00:01:06,080
+but they do not look at asset prices.
+
+29
+00:01:06,080 --> 00:01:07,920
+So these measures of inflation
+
+30
+00:01:07,920 --> 00:01:09,120
+do not look at asset prices,
+
+31
+00:01:09,120 --> 00:01:12,120
+which means that these measures of inflation,
+
+32
+00:01:12,120 --> 00:01:12,720
+I would argue
+
+33
+00:01:12,720 --> 00:01:15,600
+they basically underestimate actual inflation
+
+34
+00:01:15,600 --> 00:01:17,720
+because I think house prices and other asset
+
+35
+00:01:17,720 --> 00:01:19,440
+prices are a part of inflation.
+
+36
+00:01:19,440 --> 00:01:21,760
+But these are only looking at prices in the shops
+
+37
+00:01:21,760 --> 00:01:23,520
+which are going up more slowly.
+
+38
+00:01:23,520 --> 00:01:25,560
+So the second thing is
+
+39
+00:01:25,560 --> 00:01:26,360
+in my opinion,
+
+40
+00:01:26,360 --> 00:01:28,800
+there is a structural tendency in our economy
+
+41
+00:01:28,800 --> 00:01:31,760
+for asset prices to go up more quickly
+
+42
+00:01:31,760 --> 00:01:32,720
+than shop prices.
+
+43
+00:01:32,720 --> 00:01:34,920
+And the reason for this is, in my opinion,
+
+44
+00:01:34,920 --> 00:01:36,120
+growing inequality.
+
+45
+00:01:36,120 --> 00:01:38,760
+Now, I have looked at this for a very, very long time.
+
+46
+00:01:38,760 --> 00:01:41,360
+This is actually what I wrote my thesis on at Oxford,
+
+47
+00:01:41,360 --> 00:01:42,720
+which is on my website if you want to look at it,
+
+48
+00:01:42,720 --> 00:01:45,480
+I'll put a link in the comments.
+
+49
+00:01:45,480 --> 00:01:47,600
+The reason for that is very simple.
+
+50
+00:01:47,600 --> 00:01:49,320
+So ordinary people
+
+51
+00:01:49,320 --> 00:01:51,080
+spend almost all of the income
+
+52
+00:01:51,080 --> 00:01:53,360
+they receive in their lifetime.
+
+53
+00:01:53,360 --> 00:01:56,480
+This means that over the course of their life,
+
+54
+00:01:56,480 --> 00:01:57,600
+everything they receive,
+
+55
+00:01:57,600 --> 00:01:59,760
+they spend on goods and services.
+
+56
+00:01:59,760 --> 00:02:01,400
+Rich people act very differently.
+
+57
+00:02:01,400 --> 00:02:02,480
+They spend the majority of their
+
+58
+00:02:02,480 --> 00:02:04,200
+income on buying assets.
+
+59
+00:02:04,200 --> 00:02:05,280
+The richer you are,
+
+60
+00:02:05,280 --> 00:02:06,840
+the greater percentage of your income
+
+61
+00:02:06,840 --> 00:02:08,760
+you are likely to spend on assets
+
+62
+00:02:08,760 --> 00:02:10,600
+and the lower percentage of your income
+
+63
+00:02:10,600 --> 00:02:13,360
+you're likely to spend on goods and services.
+
+64
+00:02:13,360 --> 00:02:17,400
+So as an economy becomes more wealth unequal,
+
+65
+00:02:17,400 --> 00:02:20,360
+what you then have is a greater share of the assets
+
+66
+00:02:20,360 --> 00:02:22,800
+and a greater share of the purchasing power
+
+67
+00:02:22,800 --> 00:02:26,040
+being held by the rich and the very rich,
+
+68
+00:02:26,040 --> 00:02:27,800
+and a smaller share of the assets
+
+69
+00:02:27,800 --> 00:02:31,840
+and the purchasing power being held by ordinary people.
+
+70
+00:02:31,840 --> 00:02:32,840
+Since ordinary people
+
+71
+00:02:32,840 --> 00:02:35,160
+like goods and services and rich people like assets,
+
+72
+00:02:35,160 --> 00:02:37,280
+as the economy becomes more and more equal,
+
+73
+00:02:37,280 --> 00:02:41,280
+the society as a whole will start to desire more assets
+
+74
+00:02:41,280 --> 00:02:45,640
+and desire less goods and services, which means that
+
+75
+00:02:45,640 --> 00:02:46,960
+asset prices tend to increase
+
+76
+00:02:46,960 --> 00:02:48,600
+relative to wages over time.
+
+77
+00:02:48,600 --> 00:02:51,400
+This makes housing increasingly unaffordable
+
+78
+00:02:51,400 --> 00:02:52,440
+over time in a way
+
+79
+00:02:52,440 --> 00:02:53,960
+that basically tends
+
+80
+00:02:53,960 --> 00:02:56,160
+to get often ignored by economists,
+
+81
+00:02:56,160 --> 00:02:59,120
+because economists focus only on
+
+82
+00:02:59,120 --> 00:03:02,040
+shop price inflation, CPI inflation.
+
+83
+00:03:02,040 --> 00:03:04,680
+So housing just gets more and more unaffordable
+
+84
+00:03:04,680 --> 00:03:06,920
+and basically nothing gets done about it.
+
+85
+00:03:06,920 --> 00:03:08,160
+The next thing you need to understand
+
+86
+00:03:08,160 --> 00:03:10,120
+is that central banks
+
+87
+00:03:10,120 --> 00:03:12,280
+such as the Bank of England here in the UK
+
+88
+00:03:12,280 --> 00:03:14,600
+or the Federal Reserve in the US,
+
+89
+00:03:14,600 --> 00:03:17,680
+they try to keep inflation at a 2% level,
+
+90
+00:03:17,680 --> 00:03:18,960
+but when they talk about inflation,
+
+91
+00:03:18,960 --> 00:03:20,960
+they are only looking at
+
+92
+00:03:20,960 --> 00:03:23,400
+shop price inflation, wage inflation.
+
+93
+00:03:23,400 --> 00:03:25,440
+They are not talking about inflation.
+
+94
+00:03:25,440 --> 00:03:27,280
+So basically the central bank,
+
+95
+00:03:27,280 --> 00:03:28,640
+not only is it doing
+
+96
+00:03:28,640 --> 00:03:30,440
+nothing to
+
+97
+00:03:30,440 --> 00:03:33,120
+stop housing from becoming more unaffordable,
+
+98
+00:03:33,120 --> 00:03:35,040
+in a sense it's exacerbating the problem
+
+99
+00:03:35,040 --> 00:03:36,720
+because while they
+
+100
+00:03:36,720 --> 00:03:38,520
+almost completely ignore rising
+
+101
+00:03:38,520 --> 00:03:40,720
+asset prices, rising house prices,
+
+102
+00:03:40,720 --> 00:03:45,600
+they are pretty much refusing to allow wages to rise
+
+103
+00:03:45,600 --> 00:03:47,920
+more than 2% or 2.5% a year.
+
+104
+00:03:47,920 --> 00:03:49,600
+So this creates a structural problem.
+
+105
+00:03:49,600 --> 00:03:50,480
+We have a system
+
+106
+00:03:50,480 --> 00:03:51,240
+in which
+
+107
+00:03:51,240 --> 00:03:52,440
+it is almost inevitable
+
+108
+00:03:52,440 --> 00:03:55,080
+that housing will become more expensive over time
+
+109
+00:03:55,080 --> 00:03:57,960
+and we are not allowing wages to rise.
+
+110
+00:03:57,960 --> 00:03:59,560
+So we can kind of see inevitably
+
+111
+00:03:59,560 --> 00:04:01,080
+this gap will increase.
+
+112
+00:04:01,080 --> 00:04:02,600
+But we have a double problem.
+
+113
+00:04:02,600 --> 00:04:05,720
+So as house prices go up and wages
+
+114
+00:04:05,720 --> 00:04:07,080
+don't go up as quickly,
+
+115
+00:04:07,080 --> 00:04:09,440
+there's only basically two ways to fix this problem.
+
+116
+00:04:09,440 --> 00:04:12,800
+One is more rapid increases in wages,
+
+117
+00:04:12,800 --> 00:04:14,760
+which the central banks won't allow,
+
+118
+00:04:14,760 --> 00:04:17,040
+and one is falls in house prices.
+
+119
+00:04:17,040 --> 00:04:20,120
+So if you have rapid falls in house prices,
+
+120
+00:04:20,120 --> 00:04:20,880
+which is what we would need
+
+121
+00:04:20,880 --> 00:04:23,960
+to make housing significantly more expensive,
+
+122
+00:04:23,960 --> 00:04:26,920
+this causes massive problems, essentially.
+
+123
+00:04:26,920 --> 00:04:29,480
+We see these kinds of collapses.
+
+124
+00:04:29,480 --> 00:04:31,120
+People buy houses with big mortgages.
+
+125
+00:04:31,120 --> 00:04:32,800
+So if your house price suddenly collapses,
+
+126
+00:04:32,800 --> 00:04:35,520
+you are basically immediately bankrupt
+
+127
+00:04:35,520 --> 00:04:37,280
+because you've bought a half million
+
+128
+00:04:37,280 --> 00:04:39,920
+pound house, you borrowed £450,000.
+
+129
+00:04:39,920 --> 00:04:42,120
+Now your house is worth only £300.
+
+130
+00:04:42,120 --> 00:04:44,280
+Your net worth is -150.
+
+131
+00:04:44,280 --> 00:04:46,320
+So people immediately become bankrupted
+
+132
+00:04:46,320 --> 00:04:48,760
+and it can cause massive economic problems.
+
+133
+00:04:48,760 --> 00:04:51,840
+So basically, we've created an unfixable problem.
+
+134
+00:04:51,840 --> 00:04:54,600
+We need wages to go up, central bank won’t allow it.
+
+135
+00:04:54,600 --> 00:04:56,520
+We need house prices to come down.
+
+136
+00:04:56,520 --> 00:04:57,840
+If house prices come down quickly,
+
+137
+00:04:57,840 --> 00:04:59,160
+it causes an economic collapse,
+
+138
+00:04:59,160 --> 00:05:01,080
+causes people to be bankrupted.
+
+139
+00:05:01,080 --> 00:05:04,600
+So the situation is essentially unfixable.
+
+140
+00:05:04,600 --> 00:05:06,480
+And I think the way that you fix
+
+141
+00:05:06,480 --> 00:05:11,840
+it is basically to understand that inflation is not one
+
+142
+00:05:11,840 --> 00:05:12,920
+single measure, right?
+
+143
+00:05:12,920 --> 00:05:14,880
+It's not just simply CPI.
+
+144
+00:05:14,880 --> 00:05:17,840
+What you have is three different things, essentially.
+
+145
+00:05:17,840 --> 00:05:20,200
+I think three different main categories of inflation
+
+146
+00:05:20,200 --> 00:05:21,680
+you want to look at, which is goods
+
+147
+00:05:21,680 --> 00:05:23,760
+and service inflation.
+
+148
+00:05:23,760 --> 00:05:25,680
+And within that we can divide luxury goods
+
+149
+00:05:25,680 --> 00:05:28,080
+and services and essential goods and services,
+
+150
+00:05:28,080 --> 00:05:30,160
+wage inflation and asset
+
+151
+00:05:30,160 --> 00:05:32,480
+inflation like house prices inflation.
+
+152
+00:05:32,480 --> 00:05:33,480
+Now, the kind of inflation
+
+153
+00:05:33,480 --> 00:05:35,680
+that we've had in the last four or five years
+
+154
+00:05:35,680 --> 00:05:38,360
+is basically the worst possible kind of inflation.
+
+155
+00:05:38,360 --> 00:05:39,160
+It's been driven
+
+156
+00:05:39,160 --> 00:05:41,000
+primarily by
+
+157
+00:05:41,000 --> 00:05:41,880
+goods and services,
+
+158
+00:05:41,880 --> 00:05:45,280
+especially basic essentials like food and energy.
+
+159
+00:05:45,280 --> 00:05:46,560
+Wages have lagged behind,
+
+160
+00:05:46,560 --> 00:05:47,560
+which means ordinary people's
+
+161
+00:05:47,560 --> 00:05:49,680
+living conditions have fallen,
+
+162
+00:05:49,680 --> 00:05:50,680
+and yet houses
+
+163
+00:05:50,680 --> 00:05:53,360
+have become extremely more expensive in that period.
+
+164
+00:05:53,360 --> 00:05:55,240
+So it is the worst possible
+
+165
+00:05:55,240 --> 00:05:57,680
+combination of inflation for ordinary people.
+
+166
+00:05:57,680 --> 00:05:59,040
+But it's probably worth bearing in mind
+
+167
+00:05:59,040 --> 00:06:00,640
+that it's a really good combination
+
+168
+00:06:00,640 --> 00:06:04,200
+for people who own assets and consume labour.
+
+169
+00:06:04,200 --> 00:06:05,760
+So if you're a very wealthy person,
+
+170
+00:06:05,760 --> 00:06:07,200
+you own a load of assets,
+
+171
+00:06:07,200 --> 00:06:09,120
+you own a lot of natural resources,
+
+172
+00:06:09,120 --> 00:06:12,640
+and what you do is you consume other people's labour,
+
+173
+00:06:12,640 --> 00:06:13,680
+then your situation is great
+
+174
+00:06:13,680 --> 00:06:15,800
+because the things you own have become more expensive
+
+175
+00:06:15,800 --> 00:06:17,760
+and the workers
+
+176
+00:06:17,760 --> 00:06:19,760
+who you might use to do your goods and...
+
+177
+00:06:19,760 --> 00:06:22,400
+to do your services have become cheaper.
+
+178
+00:06:22,400 --> 00:06:24,120
+In a sense, it's a kind of a
+
+179
+00:06:24,120 --> 00:06:25,920
+you could describe it as a class warfare
+
+180
+00:06:25,920 --> 00:06:26,720
+kind of inflation.
+
+181
+00:06:26,720 --> 00:06:28,960
+And we've kind of built that into the system
+
+182
+00:06:28,960 --> 00:06:30,360
+we have baked into our system
+
+183
+00:06:30,360 --> 00:06:32,360
+a kind of inflation where assets,
+
+184
+00:06:32,360 --> 00:06:35,560
+which is a measure of the power of the rich, continue
+
+185
+00:06:35,560 --> 00:06:37,080
+to become more expensive,
+
+186
+00:06:37,080 --> 00:06:38,160
+whereas wages,
+
+187
+00:06:38,160 --> 00:06:40,240
+which is a measure of the power of ordinary people,
+
+188
+00:06:40,240 --> 00:06:43,320
+are basically not allowed to go up by the central bank.
+
+189
+00:06:43,320 --> 00:06:44,760
+I think it should be obvious
+
+190
+00:06:44,760 --> 00:06:45,680
+the best way to fix
+
+191
+00:06:45,680 --> 00:06:47,600
+the housing crisis is to stabilise
+
+192
+00:06:47,600 --> 00:06:52,040
+house prices and encourage specifically wage inflation.
+
+193
+00:06:52,040 --> 00:06:55,320
+Now, there is no other way to make housing affordable.
+
+194
+00:06:55,320 --> 00:06:59,440
+And I would encourage economists to think about this.
+
+195
+00:06:59,440 --> 00:07:00,720
+It's the only way to fix it, really.
+
+196
+00:07:00,720 --> 00:07:02,360
+You need to get wages to go up.
+
+197
+00:07:02,360 --> 00:07:04,840
+I think the best way to make wages
+
+198
+00:07:04,840 --> 00:07:06,680
+go up and house prices not go up
+
+199
+00:07:06,680 --> 00:07:09,280
+is to move that spending power back.
+
+200
+00:07:09,280 --> 00:07:11,480
+Ordinary people buy goods and services.
+
+201
+00:07:11,480 --> 00:07:13,600
+You as a worker, produce goods and services.
+
+202
+00:07:13,600 --> 00:07:16,560
+If you get money into the hands of ordinary people,
+
+203
+00:07:16,560 --> 00:07:17,920
+they will buy the stuff you produce
+
+204
+00:07:17,920 --> 00:07:19,480
+and your wages will go up.
+
+205
+00:07:19,480 --> 00:07:21,440
+If instead we put all the money
+
+206
+00:07:21,440 --> 00:07:22,440
+in the hands of the rich.
+
+207
+00:07:22,440 --> 00:07:24,960
+They will buy assets. They will buy your houses.
+
+208
+00:07:24,960 --> 00:07:26,320
+Housing will become more expensive
+
+209
+00:07:26,320 --> 00:07:28,320
+and they will become stronger.
+
+210
+00:07:28,320 --> 00:07:30,880
+You will become weaker and you will lose your house.
+
+211
+00:07:30,880 --> 00:07:32,880
+So that's it, basically.
+
+212
+00:07:32,880 --> 00:07:37,600
+To conclude, there's not just one measure of inflation.
+
+213
+00:07:37,600 --> 00:07:40,320
+Asset inflation is very important,
+
+214
+00:07:40,320 --> 00:07:41,600
+the kind of inflation on the news
+
+215
+00:07:41,600 --> 00:07:43,800
+only ever looks at goods and services
+
+216
+00:07:43,800 --> 00:07:46,080
+and wage inflation is important as well.
+
+217
+00:07:46,080 --> 00:07:48,480
+Secondly, not all kinds of inflation are bad
+
+218
+00:07:48,480 --> 00:07:50,400
+If your wages are going up
+
+219
+00:07:50,400 --> 00:07:52,160
+faster than the price of goods and services
+
+220
+00:07:52,160 --> 00:07:54,080
+and faster than the price of housing,
+
+221
+00:07:54,080 --> 00:07:55,680
+your life will get better.
+
+222
+00:07:55,680 --> 00:07:57,120
+If housing and goods and services
+
+223
+00:07:57,120 --> 00:07:58,640
+are going up faster than the price of your wages,
+
+224
+00:07:58,640 --> 00:08:00,280
+your life will get worse.
+
+225
+00:08:00,280 --> 00:08:02,200
+I want your life to get better.
+
+226
+00:08:02,200 --> 00:08:03,680
+So let's ask for higher wages
+
+227
+00:08:03,680 --> 00:08:05,880
+and let's not accept the myth
+
+228
+00:08:05,880 --> 00:08:08,320
+in the media that if your wages go up, it's bad.
+
+229
+00:08:08,320 --> 00:08:11,240
+Pretty obviously your wage going up is good,
+
+230
+00:08:11,240 --> 00:08:12,600
+especially if they're going up faster than house
+
+231
+00:08:12,600 --> 00:08:14,040
+prices and goods and services.
+
+232
+00:08:14,040 --> 00:08:15,320
+And the way to do that
+
+233
+00:08:15,320 --> 00:08:17,320
+is to take purchasing power away from the rich,
+
+234
+00:08:17,320 --> 00:08:18,920
+put it in the hands of ordinary people.
+
+235
+00:08:18,920 --> 00:08:21,200
+And the way to achieve that is to tax the rich more
+
+236
+00:08:21,200 --> 00:08:24,200
+and to tax you and ordinary working people less.
+
+237
+00:08:24,200 --> 00:08:26,920
+We campaign for that on this channel every week.
+
+238
+00:08:26,920 --> 00:08:27,960
+Send the video to your friends,
+
+239
+00:08:27,960 --> 00:08:29,120
+send the video to your Mum.
+
+240
+00:08:29,120 --> 00:08:30,200
+Thanks for your support. Take care.

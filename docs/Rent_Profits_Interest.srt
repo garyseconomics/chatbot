@@ -1,0 +1,1475 @@
+﻿1
+00:00:00,120 --> 00:00:01,760
+Welcome back to Gary's economics.
+
+2
+00:00:01,760 --> 00:00:03,640
+Today, we're going to explain why
+
+3
+00:00:03,640 --> 00:00:07,720
+rent, profits and interest are all the same thing.
+
+4
+00:00:10,920 --> 00:00:12,520
+So I wanted to bring it back to basics
+
+5
+00:00:12,520 --> 00:00:14,400
+and do a nice educational video
+
+6
+00:00:14,400 --> 00:00:16,440
+that is going to help you to understand
+
+7
+00:00:16,440 --> 00:00:18,680
+the way the economy works.
+
+8
+00:00:18,680 --> 00:00:21,880
+Now, I've always considered rent,
+
+9
+00:00:21,880 --> 00:00:23,840
+profits and interest
+
+10
+00:00:23,840 --> 00:00:27,200
+to be basically transformations of the same thing,
+
+11
+00:00:27,200 --> 00:00:30,840
+but I don't think many people think of them in that way.
+
+12
+00:00:30,840 --> 00:00:34,560
+So I want to explain why I think this
+
+13
+00:00:34,560 --> 00:00:35,640
+I think is going to help you explain
+
+14
+00:00:35,640 --> 00:00:38,160
+basically the structure of our economy.
+
+15
+00:00:38,160 --> 00:00:39,960
+Now, the first thing to say is
+
+16
+00:00:39,960 --> 00:00:42,640
+the title is not to be taken exactly, literally, of course.
+
+17
+00:00:42,640 --> 00:00:44,200
+There are important differences
+
+18
+00:00:44,200 --> 00:00:45,720
+between rent, profits and interests.
+
+19
+00:00:45,720 --> 00:00:47,320
+And we're going to explain them
+
+20
+00:00:47,320 --> 00:00:48,840
+in more detail in this video.
+
+21
+00:00:48,840 --> 00:00:51,320
+But in a very real important sense,
+
+22
+00:00:51,320 --> 00:00:53,400
+these three things are all the same thing.
+
+23
+00:00:53,400 --> 00:00:56,040
+And the way they can basically be described
+
+24
+00:00:56,040 --> 00:00:58,680
+is all three, rent, profits and interests
+
+25
+00:00:58,680 --> 00:00:59,880
+are payments
+
+26
+00:00:59,880 --> 00:01:05,080
+that are made by poorer people, the non owners of assets,
+
+27
+00:01:05,080 --> 00:01:06,480
+to richer people,
+
+28
+00:01:06,480 --> 00:01:11,320
+the owners of assets in order to use those assets.
+
+29
+00:01:11,320 --> 00:01:12,960
+And I think the best way to explain
+
+30
+00:01:12,960 --> 00:01:16,920
+how that works is to go through an example.
+
+31
+00:01:16,920 --> 00:01:20,200
+So let's say I've got half a million pounds
+
+32
+00:01:20,200 --> 00:01:23,080
+and you are a person who has nowhere to live
+
+33
+00:01:23,080 --> 00:01:24,640
+and you need somewhere to live.
+
+34
+00:01:24,640 --> 00:01:25,360
+So you come to me
+
+35
+00:01:25,360 --> 00:01:26,000
+and you say, alright
+
+36
+00:01:26,000 --> 00:01:27,360
+Gary, I've got nowhere to live,
+
+37
+00:01:27,360 --> 00:01:28,960
+you've got a half million pounds,
+
+38
+00:01:28,960 --> 00:01:31,360
+can you help me to get a house to live in?
+
+39
+00:01:31,360 --> 00:01:32,520
+We can do this
+
+40
+00:01:32,520 --> 00:01:35,200
+and we can structure this in three different ways.
+
+41
+00:01:35,200 --> 00:01:37,600
+So number one, the most obvious way, is
+
+42
+00:01:37,600 --> 00:01:39,720
+I use that half million pounds to buy a house,
+
+43
+00:01:39,720 --> 00:01:41,440
+I rent that house to you.
+
+44
+00:01:41,440 --> 00:01:45,040
+This is the classic landlord tenant relationship.
+
+45
+00:01:45,040 --> 00:01:46,200
+I buy the house.
+
+46
+00:01:46,200 --> 00:01:50,160
+I rent it to you. You pay me £25,000 a year rent.
+
+47
+00:01:50,160 --> 00:01:51,800
+Number one,
+
+48
+00:01:51,800 --> 00:01:53,200
+rents.
+
+49
+00:01:53,200 --> 00:01:56,240
+The second way we can do is I lend you the money.
+
+50
+00:01:56,240 --> 00:01:57,840
+I lend you the half million pounds.
+
+51
+00:01:57,840 --> 00:01:59,040
+You buy the house
+
+52
+00:01:59,040 --> 00:02:00,960
+and then you pay me
+
+53
+00:02:00,960 --> 00:02:05,800
+£25,000 interest every year, in order to live in the house.
+
+54
+00:02:05,800 --> 00:02:07,760
+So now you're paying £25,000, the same amount,
+
+55
+00:02:07,760 --> 00:02:09,600
+but in interest.
+
+56
+00:02:09,600 --> 00:02:10,560
+And the third way
+
+57
+00:02:10,560 --> 00:02:13,880
+that we construct this is, I set up a company,
+
+58
+00:02:13,880 --> 00:02:16,800
+I use the company to buy a house.
+
+59
+00:02:16,800 --> 00:02:18,320
+You live in the house.
+
+60
+00:02:18,320 --> 00:02:20,920
+You pay £25,000 a year rent to the company.
+
+61
+00:02:20,920 --> 00:02:22,920
+That company makes £25,000
+
+62
+00:02:22,920 --> 00:02:26,160
+a year profits, and it pays it to me in dividends.
+
+63
+00:02:26,160 --> 00:02:28,840
+So in all three of these cases,
+
+64
+00:02:28,840 --> 00:02:31,560
+I use my half million pounds to buy a house.
+
+65
+00:02:31,560 --> 00:02:33,600
+I'm allowing you to live in that house
+
+66
+00:02:33,600 --> 00:02:36,880
+and you are paying me £25,000 a year to live in the house.
+
+67
+00:02:36,880 --> 00:02:39,360
+But in situation one, I receive rent.
+
+68
+00:02:39,360 --> 00:02:42,760
+In situation number two, I receive interest.
+
+69
+00:02:42,760 --> 00:02:44,760
+And in situation number three,
+
+70
+00:02:44,760 --> 00:02:47,360
+I receive dividends from profits.
+
+71
+00:02:47,360 --> 00:02:49,720
+So you see from the perspective of me
+
+72
+00:02:49,720 --> 00:02:52,360
+as a wealthy person, as an investor,
+
+73
+00:02:52,360 --> 00:02:54,360
+once I have a certain amount of wealth,
+
+74
+00:02:54,360 --> 00:02:56,280
+I can buy, in this case,
+
+75
+00:02:56,280 --> 00:02:59,120
+the exact same asset, the exact same house
+
+76
+00:02:59,120 --> 00:03:00,760
+in three different ways.
+
+77
+00:03:00,760 --> 00:03:02,480
+And the financial structure
+
+78
+00:03:02,480 --> 00:03:04,520
+I choose around that purchase
+
+79
+00:03:04,520 --> 00:03:05,520
+basically determines
+
+80
+00:03:05,520 --> 00:03:09,480
+whether I receive rent, interest or dividends.
+
+81
+00:03:09,480 --> 00:03:12,000
+So for me as an investor, they're basically the same thing.
+
+82
+00:03:12,000 --> 00:03:13,360
+I have half a million pounds.
+
+83
+00:03:13,360 --> 00:03:16,440
+I want to receive some sort of passive income stream
+
+84
+00:03:16,440 --> 00:03:19,440
+and I can choose what to do. And for me
+
+85
+00:03:19,440 --> 00:03:22,280
+it's really easy to transfer between the two.
+
+86
+00:03:22,280 --> 00:03:23,760
+So let's say I chose the third option
+
+87
+00:03:23,760 --> 00:03:25,080
+and I bought the house in a company.
+
+88
+00:03:25,080 --> 00:03:27,280
+Eventually, I’m thinking, okay,
+
+89
+00:03:27,280 --> 00:03:29,520
+the structure of a company is not working for me.
+
+90
+00:03:29,520 --> 00:03:30,800
+I'm going to collapse the company.
+
+91
+00:03:30,800 --> 00:03:32,760
+I'm going to take direct ownership of the property.
+
+92
+00:03:32,760 --> 00:03:35,280
+Now I'm receiving rent directly,
+
+93
+00:03:35,280 --> 00:03:36,520
+so I don't want to receive rent anymore.
+
+94
+00:03:36,520 --> 00:03:37,560
+I want to start receiving interests.
+
+95
+00:03:37,560 --> 00:03:39,000
+Okay, well, I sell the house.
+
+96
+00:03:39,000 --> 00:03:40,080
+I'll buy government bonds.
+
+97
+00:03:40,080 --> 00:03:42,840
+Now I'm receiving interest from the government.
+
+98
+00:03:42,840 --> 00:03:44,120
+I can sell those government bonds
+
+99
+00:03:44,120 --> 00:03:45,200
+and I can buy mortgage bonds.
+
+100
+00:03:45,200 --> 00:03:47,160
+Now I'm receiving, again
+
+101
+00:03:47,160 --> 00:03:49,320
+your mortgage interest payments for the house.
+
+102
+00:03:49,320 --> 00:03:50,640
+That's not working for me. I sell it.
+
+103
+00:03:50,640 --> 00:03:51,600
+I buy the stock market.
+
+104
+00:03:51,600 --> 00:03:53,480
+Now I'm receiving company profits.
+
+105
+00:03:53,480 --> 00:03:55,720
+So from the perspective of the individual, it's
+
+106
+00:03:55,720 --> 00:03:57,600
+super easy to transfer between these things.
+
+107
+00:03:57,600 --> 00:03:58,920
+And I think,
+
+108
+00:03:58,920 --> 00:04:01,440
+I think ordinary people don't tend to realise that.
+
+109
+00:04:01,440 --> 00:04:03,960
+Basically, once you are a wealthy person,
+
+110
+00:04:03,960 --> 00:04:06,440
+you own a certain amount of assets.
+
+111
+00:04:06,440 --> 00:04:08,280
+Even by buying just the same asset,
+
+112
+00:04:08,280 --> 00:04:12,440
+you can choose to receive rent, interest, dividends,
+
+113
+00:04:12,440 --> 00:04:14,480
+which is profit. They're basically the same thing.
+
+114
+00:04:14,480 --> 00:04:17,280
+And in all three cases
+
+115
+00:04:17,280 --> 00:04:18,720
+that cash flow,
+
+116
+00:04:18,720 --> 00:04:20,800
+you know, many people describe these cash
+
+117
+00:04:20,800 --> 00:04:23,440
+flows on the internet as passive income.
+
+118
+00:04:23,440 --> 00:04:25,200
+In all three cases, it's not really passive income.
+
+119
+00:04:25,200 --> 00:04:26,760
+It's money that comes from you.
+
+120
+00:04:26,760 --> 00:04:28,000
+I own the house,
+
+121
+00:04:28,000 --> 00:04:30,640
+you live in the house and you're paying me your salary
+
+122
+00:04:30,640 --> 00:04:32,160
+to live in the house.
+
+123
+00:04:32,160 --> 00:04:35,160
+And this is basically what all of these things are.
+
+124
+00:04:35,160 --> 00:04:37,240
+These are payments made by you.
+
+125
+00:04:37,240 --> 00:04:39,360
+A poorer person who does not have assets
+
+126
+00:04:39,360 --> 00:04:42,000
+to me, a rich person who has assets
+
+127
+00:04:42,000 --> 00:04:43,840
+in order to use those assets.
+
+128
+00:04:43,840 --> 00:04:46,440
+And it goes a lot beyond housing.
+
+129
+00:04:46,440 --> 00:04:49,680
+Let's say you book a flight, you go to Portugal with EasyJet,
+
+130
+00:04:49,680 --> 00:04:53,040
+you go to the barber, let's take the flight situation.
+
+131
+00:04:53,040 --> 00:04:54,720
+You need a plane.
+
+132
+00:04:54,720 --> 00:04:56,040
+So as a very wealthy person,
+
+133
+00:04:56,040 --> 00:04:58,560
+I could own a plane and I could rent it to EasyJet.
+
+134
+00:04:58,560 --> 00:04:59,560
+And part of your ticket
+
+135
+00:04:59,560 --> 00:05:02,640
+will go towards that rental of the plane, which goes to me.
+
+136
+00:05:02,640 --> 00:05:06,520
+Or I could buy EasyJet stock. Part of your
+
+137
+00:05:06,520 --> 00:05:08,280
+ticket price goes towards EasyJet profits,
+
+138
+00:05:08,280 --> 00:05:09,400
+which comes to me.
+
+139
+00:05:09,400 --> 00:05:11,280
+Or I can lend money to EasyJet,
+
+140
+00:05:11,280 --> 00:05:12,320
+in which case part of your ticket
+
+141
+00:05:12,320 --> 00:05:15,600
+goes to interest payments again, to me.
+
+142
+00:05:15,600 --> 00:05:17,160
+So once again,
+
+143
+00:05:17,160 --> 00:05:18,680
+when you buy this ticket,
+
+144
+00:05:18,680 --> 00:05:19,840
+some of that money is going to me
+
+145
+00:05:19,840 --> 00:05:20,800
+as the owner of the assets.
+
+146
+00:05:20,800 --> 00:05:22,560
+If you go to the barber,
+
+147
+00:05:22,560 --> 00:05:24,360
+somebody owns that barber shop
+
+148
+00:05:24,360 --> 00:05:25,640
+and it could be that the barber is paying
+
+149
+00:05:25,640 --> 00:05:27,600
+rent to the owner of the property,
+
+150
+00:05:27,600 --> 00:05:30,360
+or it could be that the owner has taken a loan
+
+151
+00:05:30,360 --> 00:05:33,160
+to buy that property to pay interest to use the property.
+
+152
+00:05:33,160 --> 00:05:35,280
+Or it could be that
+
+153
+00:05:35,280 --> 00:05:36,000
+that barber is part
+
+154
+00:05:36,000 --> 00:05:38,040
+of a big barber corporation
+
+155
+00:05:38,040 --> 00:05:40,360
+and all of those properties are owned by the shareholders
+
+156
+00:05:40,360 --> 00:05:42,360
+and they receive the profits.
+
+157
+00:05:42,360 --> 00:05:45,720
+So in both cases, whether you’re taking a plane,
+
+158
+00:05:45,720 --> 00:05:47,080
+living in a house,
+
+159
+00:05:47,080 --> 00:05:48,480
+going to get your haircut,
+
+160
+00:05:48,480 --> 00:05:50,320
+you are paying some amount of money
+
+161
+00:05:50,320 --> 00:05:53,280
+to the owners of the physical assets that are being used.
+
+162
+00:05:53,280 --> 00:05:56,240
+The owners receive that in either profits, interest
+
+163
+00:05:56,240 --> 00:05:57,720
+or rent directly.
+
+164
+00:05:57,720 --> 00:05:58,080
+And you know,
+
+165
+00:05:58,080 --> 00:05:59,760
+this is even the case with the other
+
+166
+00:05:59,760 --> 00:06:01,200
+basic essentials that you need.
+
+167
+00:06:01,200 --> 00:06:01,360
+You know,
+
+168
+00:06:01,360 --> 00:06:03,320
+when you buy food, a big chunk of that goes
+
+169
+00:06:03,320 --> 00:06:05,520
+towards the owners of the farmland.
+
+170
+00:06:05,520 --> 00:06:07,480
+And again, that can take any one of these forms.
+
+171
+00:06:07,480 --> 00:06:10,080
+When you use energy to heat your home,
+
+172
+00:06:10,080 --> 00:06:12,040
+a big part of that money goes towards the owners
+
+173
+00:06:12,040 --> 00:06:15,680
+of the energy production infrastructure in our country.
+
+174
+00:06:15,680 --> 00:06:18,080
+Now, I want to talk a little bit about
+
+175
+00:06:18,080 --> 00:06:19,200
+a couple of big exceptions,
+
+176
+00:06:19,200 --> 00:06:20,560
+because I know there's going to be people
+
+177
+00:06:20,560 --> 00:06:23,080
+out there that say, listen,
+
+178
+00:06:23,080 --> 00:06:24,480
+if I buy a property
+
+179
+00:06:24,480 --> 00:06:27,240
+with a mortgage that's totally different from renting,
+
+180
+00:06:27,240 --> 00:06:29,240
+renting is money down the drain.
+
+181
+00:06:29,240 --> 00:06:30,520
+If I buy a house with a mortgage,
+
+182
+00:06:30,520 --> 00:06:33,120
+I can pay the mortgage off over time, I'm building up
+
+183
+00:06:33,120 --> 00:06:34,440
+equity in my house over time.
+
+184
+00:06:34,440 --> 00:06:36,200
+These two things are totally different,
+
+185
+00:06:36,200 --> 00:06:39,880
+and from one perspective, that is totally true.
+
+186
+00:06:39,880 --> 00:06:41,960
+If you as an individual rent a house,
+
+187
+00:06:41,960 --> 00:06:44,480
+you are not the legal owner of the house.
+
+188
+00:06:44,480 --> 00:06:46,680
+But if you take a mortgage and buy the house,
+
+189
+00:06:46,680 --> 00:06:48,000
+you are the legal owner of the house.
+
+190
+00:06:48,000 --> 00:06:50,200
+But let's go back to my example, right.
+
+191
+00:06:50,200 --> 00:06:51,360
+You know,
+
+192
+00:06:51,360 --> 00:06:54,240
+let's assume I've used half a million pounds to
+
+193
+00:06:54,240 --> 00:06:55,880
+buy a property, rent it to my sister.
+
+194
+00:06:55,880 --> 00:06:58,320
+She pays £25,000 a year rent.
+
+195
+00:06:58,320 --> 00:07:01,240
+If I lend £500,000 to my sister,
+
+196
+00:07:01,240 --> 00:07:03,840
+she buys the property, she pays £25,000 interest.
+
+197
+00:07:03,840 --> 00:07:04,440
+Now, assuming
+
+198
+00:07:04,440 --> 00:07:07,320
+she doesn't make any extra payments above the interest
+
+199
+00:07:07,320 --> 00:07:08,880
+in both cases, financially
+
+200
+00:07:08,880 --> 00:07:10,520
+her situation is exactly the same, basically.
+
+201
+00:07:10,520 --> 00:07:12,400
+She pays £25,000 a year rent
+
+202
+00:07:12,400 --> 00:07:14,600
+or she pays £25,000 a year interest.
+
+203
+00:07:14,600 --> 00:07:15,960
+So financially
+
+204
+00:07:15,960 --> 00:07:17,680
+there's no difference between these two things.
+
+205
+00:07:17,680 --> 00:07:19,440
+But there is one
+
+206
+00:07:19,440 --> 00:07:26,640
+very big important technical difference between buying with
+
+207
+00:07:26,640 --> 00:07:28,480
+a mortgage and renting,
+
+208
+00:07:28,480 --> 00:07:30,640
+which is who bears
+
+209
+00:07:30,640 --> 00:07:34,680
+the risk of changes in the price, changes in the value.
+
+210
+00:07:34,680 --> 00:07:38,880
+And I think this is the reason why people in this country
+
+211
+00:07:38,880 --> 00:07:40,480
+are so keen on buying with mortgages.
+
+212
+00:07:40,480 --> 00:07:44,760
+So if you rent and the price of the property goes up,
+
+213
+00:07:44,760 --> 00:07:47,800
+you are unaffected. You don't own the property,
+
+214
+00:07:47,800 --> 00:07:49,800
+but if you buy with the mortgage
+
+215
+00:07:49,800 --> 00:07:51,400
+and the price of the property goes up,
+
+216
+00:07:51,400 --> 00:07:54,880
+you take the, you take the profit, basically.
+
+217
+00:07:54,880 --> 00:07:57,000
+You take the upward movement in price.
+
+218
+00:07:57,000 --> 00:07:58,120
+And of course, in the last 30,
+
+219
+00:07:58,120 --> 00:08:00,240
+40 years, house prices in this country
+
+220
+00:08:00,240 --> 00:08:03,440
+and in most countries in the world have gone
+
+221
+00:08:03,440 --> 00:08:04,440
+very aggressively up
+
+222
+00:08:04,440 --> 00:08:06,480
+with only a few sort of downward hiccups,
+
+223
+00:08:06,480 --> 00:08:08,160
+which means that if you as an individual
+
+224
+00:08:08,160 --> 00:08:09,640
+have chosen to buy with a mortgage,
+
+225
+00:08:09,640 --> 00:08:11,680
+you would have done massively better
+
+226
+00:08:11,680 --> 00:08:14,720
+than if you have chosen to rent over the last 40 years.
+
+227
+00:08:14,720 --> 00:08:15,720
+But I think it's important
+
+228
+00:08:15,720 --> 00:08:18,440
+to realise the only real reason that
+
+229
+00:08:18,440 --> 00:08:20,280
+people have used mortgages
+
+230
+00:08:20,280 --> 00:08:21,160
+and paid interest
+
+231
+00:08:21,160 --> 00:08:23,880
+rather than people who have rented and paid rent have done
+
+232
+00:08:23,880 --> 00:08:26,400
+better is basically because prices have gone up
+
+233
+00:08:26,400 --> 00:08:27,240
+really aggressively.
+
+234
+00:08:27,240 --> 00:08:28,800
+If prices hadn't gone up
+
+235
+00:08:28,800 --> 00:08:29,960
+really aggressively., you'd be in
+
+236
+00:08:29,960 --> 00:08:31,840
+pretty much the exact same situation.
+
+237
+00:08:31,840 --> 00:08:32,840
+And I think it's worth
+
+238
+00:08:32,840 --> 00:08:36,600
+also recognising that if prices had gone down,
+
+239
+00:08:36,600 --> 00:08:39,440
+people who had bought with mortgages would have been
+
+240
+00:08:39,440 --> 00:08:40,120
+totally screwed.
+
+241
+00:08:40,120 --> 00:08:42,280
+If you buy a property with a big mortgage,
+
+242
+00:08:42,280 --> 00:08:43,120
+the price goes down.
+
+243
+00:08:43,120 --> 00:08:45,520
+You can become bankrupted extremely quickly.
+
+244
+00:08:45,520 --> 00:08:47,920
+This is what happened in Japan in the early nineties
+
+245
+00:08:47,920 --> 00:08:50,000
+when the housing market popped.
+
+246
+00:08:50,000 --> 00:08:51,360
+There was an enormous number of people
+
+247
+00:08:51,360 --> 00:08:53,360
+immediately bankrupted.
+
+248
+00:08:53,360 --> 00:08:54,800
+But I think it's
+
+249
+00:08:54,800 --> 00:08:56,800
+important to say I've said many times on this channel,
+
+250
+00:08:56,800 --> 00:08:58,440
+I think house prices will continue to go up.
+
+251
+00:08:58,440 --> 00:09:01,200
+So I'm not saying you shouldn't buy with mortgages,
+
+252
+00:09:01,200 --> 00:09:03,720
+but it's important to recognise that
+
+253
+00:09:03,720 --> 00:09:08,080
+both ways of doing it, buying with a mortgage or renting,
+
+254
+00:09:08,080 --> 00:09:09,480
+you will pay an enormous amount
+
+255
+00:09:09,480 --> 00:09:12,200
+of either rent or interest
+
+256
+00:09:12,200 --> 00:09:13,400
+to either
+
+257
+00:09:13,400 --> 00:09:15,000
+the guy who provided the loan or the owner of the house,
+
+258
+00:09:15,000 --> 00:09:17,480
+which is essentially the same thing.
+
+259
+00:09:17,480 --> 00:09:18,600
+There's no way of getting out of it,
+
+260
+00:09:18,600 --> 00:09:21,160
+If you do not own any wealth
+
+261
+00:09:21,160 --> 00:09:22,560
+and you want to live in a house,
+
+262
+00:09:22,560 --> 00:09:24,880
+you will pay these huge amounts of passive income,
+
+263
+00:09:24,880 --> 00:09:28,160
+either way. Using a mortgage or using rent.
+
+264
+00:09:28,160 --> 00:09:31,560
+The only difference is in one case you bear the price risk,
+
+265
+00:09:31,560 --> 00:09:33,840
+which is good if prices go up and they probably will,
+
+266
+00:09:33,840 --> 00:09:35,120
+but terrible if prices go down.
+
+267
+00:09:35,120 --> 00:09:37,040
+And the other way, you don't.
+
+268
+00:09:37,040 --> 00:09:41,280
+So I think the reason that this is important to understand
+
+269
+00:09:41,280 --> 00:09:44,040
+that rent, interest
+
+270
+00:09:44,040 --> 00:09:45,840
+and profits are the same thing
+
+271
+00:09:45,840 --> 00:09:50,080
+is because it helps us to recognise that underneath
+
+272
+00:09:50,080 --> 00:09:52,200
+these enormous amount of different cash flows,
+
+273
+00:09:52,200 --> 00:09:54,400
+which can take different names,
+
+274
+00:09:54,400 --> 00:09:58,560
+there exists a real country with real things.
+
+275
+00:09:58,560 --> 00:09:59,280
+There are
+
+276
+00:09:59,280 --> 00:10:02,120
+real houses, real commercial buildings,
+
+277
+00:10:02,120 --> 00:10:05,480
+there is real farmland, there are real natural resources.
+
+278
+00:10:05,480 --> 00:10:09,360
+And every time you use those things,
+
+279
+00:10:09,360 --> 00:10:10,560
+every time you live in a house,
+
+280
+00:10:10,560 --> 00:10:13,800
+every time you eat food, every time you use energy,
+
+281
+00:10:13,800 --> 00:10:15,160
+you are paying money to the owners
+
+282
+00:10:15,160 --> 00:10:16,520
+of those natural resources.
+
+283
+00:10:16,520 --> 00:10:18,480
+And whether it's called profits,
+
+284
+00:10:18,480 --> 00:10:21,760
+whether it's called interest, or whether it's called rent,
+
+285
+00:10:21,760 --> 00:10:23,400
+it's always the same thing, basically.
+
+286
+00:10:23,400 --> 00:10:24,240
+You as an individual
+
+287
+00:10:24,240 --> 00:10:27,080
+without wealth have to pay money to the individuals
+
+288
+00:10:27,080 --> 00:10:30,560
+who own the assets in order to basically live your life.
+
+289
+00:10:30,560 --> 00:10:33,600
+And this is essentially why
+
+290
+00:10:33,600 --> 00:10:37,200
+it's kind of inevitable that unless you
+
+291
+00:10:37,200 --> 00:10:40,960
+take some sort of preventative measures, wealth inequality
+
+292
+00:10:40,960 --> 00:10:43,560
+will and does tend to get higher over time.
+
+293
+00:10:43,560 --> 00:10:46,880
+And that's because, you know, you
+
+294
+00:10:46,880 --> 00:10:47,560
+as an individual,
+
+295
+00:10:47,560 --> 00:10:50,760
+you have an income of 30, 40 or 50 grand a year.
+
+296
+00:10:50,760 --> 00:10:53,280
+You spend the vast majority of that on
+
+297
+00:10:53,280 --> 00:10:54,720
+living in a house, eating food,
+
+298
+00:10:54,720 --> 00:10:56,920
+using energy, other essential costs.
+
+299
+00:10:56,920 --> 00:11:03,040
+And your salary goes in the form of profit, interest, rents
+
+300
+00:11:03,040 --> 00:11:04,200
+to the owners of the asset.
+
+301
+00:11:04,200 --> 00:11:06,360
+So after you've paid your essential costs,
+
+302
+00:11:06,360 --> 00:11:08,280
+you’re only maybe making,
+
+303
+00:11:08,280 --> 00:11:11,040
+you know, 10, 15 grand a year if you're lucky,
+
+304
+00:11:11,040 --> 00:11:12,440
+and the rest of your money has gone
+
+305
+00:11:12,440 --> 00:11:13,680
+to the owners of the assets.
+
+306
+00:11:13,680 --> 00:11:18,800
+So there's this massive constant drive of cash from the non
+
+307
+00:11:18,800 --> 00:11:20,720
+owners of assets, less rich people,
+
+308
+00:11:20,720 --> 00:11:22,440
+to the owners of assets, richer people.
+
+309
+00:11:22,440 --> 00:11:24,520
+And while that is happening,
+
+310
+00:11:24,520 --> 00:11:25,680
+these guys accumulate money
+
+311
+00:11:25,680 --> 00:11:26,640
+which they will inevitably use
+
+312
+00:11:26,640 --> 00:11:28,280
+to buy the rest of the assets.
+
+313
+00:11:28,280 --> 00:11:29,760
+So to conclude,
+
+314
+00:11:29,760 --> 00:11:31,800
+one of the big reasons I wanted to bring this up
+
+315
+00:11:31,800 --> 00:11:33,640
+is because I wanted people to realise that
+
+316
+00:11:33,640 --> 00:11:39,320
+because rent and interest are in many ways the same thing.
+
+317
+00:11:39,320 --> 00:11:41,520
+Owning property, but with
+
+318
+00:11:41,520 --> 00:11:43,440
+increasingly enormous amounts of debt
+
+319
+00:11:43,440 --> 00:11:47,240
+is very similar to not owning properties at all.
+
+320
+00:11:47,240 --> 00:11:49,240
+And the reason why it's important that you understand
+
+321
+00:11:49,240 --> 00:11:52,200
+this is generationally in this country,
+
+322
+00:11:52,200 --> 00:11:54,080
+whilst there is still a sort of big middle
+
+323
+00:11:54,080 --> 00:11:55,880
+class of property owners,
+
+324
+00:11:55,880 --> 00:11:57,880
+those property owners are increasingly needing
+
+325
+00:11:57,880 --> 00:11:59,640
+larger and larger amounts of debt
+
+326
+00:11:59,640 --> 00:12:01,480
+in order to own the properties.
+
+327
+00:12:01,480 --> 00:12:04,840
+So if we consider my granddad's generation, by 40
+
+328
+00:12:04,840 --> 00:12:05,640
+in many cases
+
+329
+00:12:05,640 --> 00:12:07,640
+they would have paid off the majority of their mortgage
+
+330
+00:12:07,640 --> 00:12:09,640
+and be close to owning their property.
+
+331
+00:12:09,640 --> 00:12:11,160
+Whereas my dad's generation
+
+332
+00:12:11,160 --> 00:12:13,440
+would probably be about halfway there by 40.
+
+333
+00:12:13,440 --> 00:12:15,960
+And my generation will, in many cases,
+
+334
+00:12:15,960 --> 00:12:18,760
+still having 90 or 80% mortgages
+
+335
+00:12:18,760 --> 00:12:20,040
+by the time they're 40 because they will
+
+336
+00:12:20,040 --> 00:12:22,440
+in many cases have only just bought.
+
+337
+00:12:22,440 --> 00:12:25,920
+And I think this ties in nicely to the video from last week
+
+338
+00:12:25,920 --> 00:12:28,800
+where we spoke about the illusion of improvement.
+
+339
+00:12:28,800 --> 00:12:32,280
+And the way that individuals
+
+340
+00:12:32,280 --> 00:12:34,200
+when they focus narrowly on their own
+
+341
+00:12:34,200 --> 00:12:36,760
+financial situation, may feel that they are improving,
+
+342
+00:12:36,760 --> 00:12:38,040
+whereas generationally
+
+343
+00:12:38,040 --> 00:12:40,320
+their family is getting poorer over time.
+
+344
+00:12:40,320 --> 00:12:43,320
+So individuals who own their own property with a mortgage,
+
+345
+00:12:43,320 --> 00:12:45,280
+they will be slowly paying their debt down
+
+346
+00:12:45,280 --> 00:12:46,760
+and they will often feel like I'm doing
+
+347
+00:12:46,760 --> 00:12:48,960
+when I'm getting richer without realising
+
+348
+00:12:48,960 --> 00:12:51,360
+that their children and grandchildren
+
+349
+00:12:51,360 --> 00:12:53,520
+are in a much worse situation,
+
+350
+00:12:53,520 --> 00:12:55,360
+largely because of the much higher property prices.
+
+351
+00:12:55,360 --> 00:12:57,920
+And will need to have much higher levels of debt.
+
+352
+00:12:57,920 --> 00:12:58,560
+So even though you
+
+353
+00:12:58,560 --> 00:13:01,760
+as individual are becoming less indebted over time,
+
+354
+00:13:01,760 --> 00:13:04,920
+you as a family are becoming more indebted over time.
+
+355
+00:13:04,920 --> 00:13:06,000
+This is really important to understand.
+
+356
+00:13:06,000 --> 00:13:07,600
+It's happening to our governments as well,
+
+357
+00:13:07,600 --> 00:13:09,920
+and governments are increasingly going in debt
+
+358
+00:13:09,920 --> 00:13:12,000
+to the rich, paying large amounts of interest to the rich.
+
+359
+00:13:12,000 --> 00:13:13,960
+Families are doing the same thing.
+
+360
+00:13:13,960 --> 00:13:15,560
+This is a big way that we lose our middle class
+
+361
+00:13:15,560 --> 00:13:16,800
+and our country falls into poverty.
+
+362
+00:13:16,800 --> 00:13:18,760
+So you need to be aware.
+
+363
+00:13:18,760 --> 00:13:20,480
+You need to understand interest,
+
+364
+00:13:20,480 --> 00:13:22,880
+rent, profits all the same thing.
+
+365
+00:13:22,880 --> 00:13:24,400
+Payments made
+
+366
+00:13:24,400 --> 00:13:26,400
+from poor people to rich people
+
+367
+00:13:26,400 --> 00:13:28,360
+that make wealth inequality get higher.
+
+368
+00:13:28,360 --> 00:13:29,480
+We're going to keep talking about it
+
+369
+00:13:29,480 --> 00:13:31,200
+until we understand it. Thank you very much.

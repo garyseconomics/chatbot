@@ -1,0 +1,1239 @@
+﻿1
+00:00:00,120 --> 00:00:01,960
+Welcome back to Gary’s Economics.
+
+2
+00:00:01,960 --> 00:00:07,960
+Today we are going to talk about why growth is stupid.
+
+3
+00:00:09,400 --> 00:00:10,240
+Okay, this is a thing
+
+4
+00:00:10,240 --> 00:00:12,000
+which I've been thinking about for a while.
+
+5
+00:00:12,000 --> 00:00:15,440
+And, it was prompted this week by an article
+
+6
+00:00:15,440 --> 00:00:17,360
+which I read in the New Yorker,
+
+7
+00:00:17,360 --> 00:00:19,720
+a good long article about British economics,
+
+8
+00:00:19,720 --> 00:00:21,960
+by a guy with Sam Knight
+
+9
+00:00:21,960 --> 00:00:22,480
+where he talks
+
+10
+00:00:22,480 --> 00:00:25,400
+about basically the collapse of the British economy,
+
+11
+00:00:25,400 --> 00:00:26,920
+the collapse of British politics.
+
+12
+00:00:26,920 --> 00:00:28,040
+A lot of people are looking at us saying,
+
+13
+00:00:28,040 --> 00:00:30,600
+what's going on in Britain. It's falling apart.
+
+14
+00:00:30,600 --> 00:00:33,960
+And he interviewed a guy called Mark Carney,
+
+15
+00:00:33,960 --> 00:00:36,720
+who is a former governor of the Bank of England.
+
+16
+00:00:36,720 --> 00:00:38,280
+He was a governor of the Bank of England back
+
+17
+00:00:38,280 --> 00:00:40,680
+when I was a trader.
+
+18
+00:00:40,680 --> 00:00:42,160
+And Mark Carney
+
+19
+00:00:42,160 --> 00:00:44,400
+had this very pithy way
+
+20
+00:00:44,400 --> 00:00:47,080
+of describing the British economy
+
+21
+00:00:47,080 --> 00:00:48,240
+and the British economic problem.
+
+22
+00:00:48,240 --> 00:00:50,040
+And I've got the exact quote here.
+
+23
+00:00:50,040 --> 00:00:53,280
+What he said was, it's just not that productive
+
+24
+00:00:53,280 --> 00:00:55,360
+an economy anymore.
+
+25
+00:00:55,360 --> 00:00:56,680
+This is Mark Carney, former
+
+26
+00:00:56,680 --> 00:00:58,480
+head of the Bank of England.
+
+27
+00:00:58,480 --> 00:01:00,000
+The problem with Britain is that it
+
+28
+00:01:00,000 --> 00:01:02,400
+is just not that productive an economy.
+
+29
+00:01:02,400 --> 00:01:04,840
+And we hear these kinds of arguments
+
+30
+00:01:04,840 --> 00:01:07,680
+all the time on the news,
+
+31
+00:01:07,680 --> 00:01:09,040
+from the Conservative Party, sometimes
+
+32
+00:01:09,040 --> 00:01:09,800
+even the Labour Party.
+
+33
+00:01:09,800 --> 00:01:11,440
+The problem with Britain is
+
+34
+00:01:11,440 --> 00:01:12,840
+we're just not productive enough.
+
+35
+00:01:12,840 --> 00:01:15,200
+We as Britain's have a fundamental problem,
+
+36
+00:01:15,200 --> 00:01:17,640
+our productivity is lacking,
+
+37
+00:01:17,640 --> 00:01:19,040
+we're sort of fundamentally weak,
+
+38
+00:01:19,040 --> 00:01:20,120
+we need to fix productivity.
+
+39
+00:01:20,120 --> 00:01:21,440
+And
+
+40
+00:01:21,440 --> 00:01:22,800
+I have a problem with this way
+
+41
+00:01:22,800 --> 00:01:24,680
+of describing the economy.
+
+42
+00:01:24,680 --> 00:01:27,080
+First of all, I'm not against productivity.
+
+43
+00:01:27,080 --> 00:01:28,200
+I'm not against economic growth.
+
+44
+00:01:28,200 --> 00:01:30,960
+I think these things are all good things.
+
+45
+00:01:30,960 --> 00:01:35,640
+If fundamentally the biggest problem was a lack of UK
+
+46
+00:01:35,640 --> 00:01:37,200
+productivity,
+
+47
+00:01:37,200 --> 00:01:39,280
+number one, what we'd be seeing is living
+
+48
+00:01:39,280 --> 00:01:41,920
+standards falling specifically in the UK.
+
+49
+00:01:41,920 --> 00:01:44,400
+And I think a lot of people who live in the UK
+
+50
+00:01:44,400 --> 00:01:47,000
+feel that what we have is a specific UK problem.
+
+51
+00:01:47,000 --> 00:01:49,000
+It's very important to recognise
+
+52
+00:01:49,000 --> 00:01:50,880
+living standards are falling for middle
+
+53
+00:01:50,880 --> 00:01:53,320
+classes all across the world, all across the world.
+
+54
+00:01:53,320 --> 00:01:54,320
+So this YouTube
+
+55
+00:01:54,320 --> 00:01:55,440
+channel is watched all across the world.
+
+56
+00:01:55,440 --> 00:01:56,560
+We've got a lot of viewers
+
+57
+00:01:56,560 --> 00:01:59,320
+in America, in Australia and places like Germany,
+
+58
+00:01:59,320 --> 00:02:00,320
+the Netherlands.
+
+59
+00:02:00,320 --> 00:02:02,760
+We get messages all the time saying
+
+60
+00:02:02,760 --> 00:02:04,360
+living standards are collapsing here
+
+61
+00:02:04,360 --> 00:02:06,960
+in the US, in Germany, it's
+
+62
+00:02:06,960 --> 00:02:08,000
+definitely happening in places
+
+63
+00:02:08,000 --> 00:02:10,760
+like Italy and Spain, even a country like Australia,
+
+64
+00:02:10,760 --> 00:02:12,960
+which is generally considered to have
+
+65
+00:02:12,960 --> 00:02:13,880
+strong living standards,
+
+66
+00:02:13,880 --> 00:02:15,000
+a good place to live, living
+
+67
+00:02:15,000 --> 00:02:15,840
+standards are falling there.
+
+68
+00:02:15,840 --> 00:02:19,840
+So if the problem was specifically UK productivity,
+
+69
+00:02:19,840 --> 00:02:20,640
+and I'm not saying
+
+70
+00:02:20,640 --> 00:02:22,760
+we don't have a problem with productivity,
+
+71
+00:02:22,760 --> 00:02:24,360
+if that was the main problem,
+
+72
+00:02:24,360 --> 00:02:25,760
+why are living standards
+
+73
+00:02:25,760 --> 00:02:28,000
+collapsing all across the world?
+
+74
+00:02:28,000 --> 00:02:31,200
+The second thing is to say,
+
+75
+00:02:31,200 --> 00:02:35,200
+if the problem was a lack of growth in productivity,
+
+76
+00:02:35,200 --> 00:02:35,920
+and I'm not saying
+
+77
+00:02:35,920 --> 00:02:38,240
+we don't have a lack of growth in productivity,
+
+78
+00:02:38,240 --> 00:02:40,480
+why are living standards falling?
+
+79
+00:02:40,480 --> 00:02:43,080
+So in the last five years specifically,
+
+80
+00:02:43,080 --> 00:02:45,360
+we have seen really a collapse
+
+81
+00:02:45,360 --> 00:02:47,840
+in the living standards of the average British family.
+
+82
+00:02:47,840 --> 00:02:48,960
+This has happened at the same time
+
+83
+00:02:48,960 --> 00:02:51,280
+as enormous growth in inequality.
+
+84
+00:02:51,280 --> 00:02:53,000
+We've reached a situation now when,
+
+85
+00:02:53,000 --> 00:02:54,880
+you know, about half of the families
+
+86
+00:02:54,880 --> 00:02:55,920
+in the country
+
+87
+00:02:55,920 --> 00:02:58,480
+struggle to simultaneously feed their kids
+
+88
+00:02:58,480 --> 00:03:01,320
+and turn the heating on in the winter.
+
+89
+00:03:01,320 --> 00:03:03,080
+And this has not coincided
+
+90
+00:03:03,080 --> 00:03:05,480
+with the collapse in British productivity.
+
+91
+00:03:05,480 --> 00:03:06,760
+Yeah, we can argue that a stagnation
+
+92
+00:03:06,760 --> 00:03:09,480
+in British productivity,
+
+93
+00:03:09,480 --> 00:03:10,960
+but productivity is not collapsing
+
+94
+00:03:10,960 --> 00:03:12,240
+and yet living standards are collapsing.
+
+95
+00:03:12,240 --> 00:03:15,280
+So again, we have a second disconnected.
+
+96
+00:03:15,280 --> 00:03:16,200
+The third thing, and I think
+
+97
+00:03:16,200 --> 00:03:18,360
+the most important disconnect is
+
+98
+00:03:18,360 --> 00:03:20,640
+if the fundamental problem
+
+99
+00:03:20,640 --> 00:03:21,560
+in the British economy
+
+100
+00:03:21,560 --> 00:03:24,920
+or even the global economy is a lack of productivity,
+
+101
+00:03:24,920 --> 00:03:29,800
+why is wealth of the richest people in the country,
+
+102
+00:03:29,800 --> 00:03:30,720
+the richest people in the world,
+
+103
+00:03:30,720 --> 00:03:32,080
+millionaires and billionaires,
+
+104
+00:03:32,080 --> 00:03:33,880
+why are these people's wealth
+
+105
+00:03:33,880 --> 00:03:36,240
+exploding through the ceiling?
+
+106
+00:03:36,240 --> 00:03:37,160
+So I'm sitting here now.
+
+107
+00:03:37,160 --> 00:03:38,800
+We're filming this at the beginning of April.
+
+108
+00:03:38,800 --> 00:03:39,920
+In the last couple of weeks,
+
+109
+00:03:39,920 --> 00:03:40,800
+we have seen
+
+110
+00:03:40,800 --> 00:03:45,440
+almost every single stock market in the entire world,
+
+111
+00:03:45,440 --> 00:03:49,800
+hit a new record all time high.
+
+112
+00:03:49,800 --> 00:03:51,360
+Does that sound like a world
+
+113
+00:03:51,360 --> 00:03:54,960
+which has a problem of fundamental productivity growth?
+
+114
+00:03:54,960 --> 00:03:57,200
+So we saw
+
+115
+00:03:57,200 --> 00:03:59,480
+another piece of news that came out yesterday
+
+116
+00:03:59,480 --> 00:04:00,360
+was that the world
+
+117
+00:04:00,360 --> 00:04:03,400
+gains 141 new billionaires
+
+118
+00:04:03,400 --> 00:04:06,680
+last year, and an amazing year for rich people.
+
+119
+00:04:06,680 --> 00:04:08,720
+I always remember
+
+120
+00:04:08,720 --> 00:04:10,360
+in the middle of the depths
+
+121
+00:04:10,360 --> 00:04:11,400
+of the cost of living crisis,
+
+122
+00:04:11,400 --> 00:04:13,360
+the Financial Times ran an article
+
+123
+00:04:13,360 --> 00:04:15,520
+and the headline was ‘Will
+
+124
+00:04:15,520 --> 00:04:19,000
+the boom in luxury goods ever stop?’
+
+125
+00:04:19,000 --> 00:04:20,920
+That was the article.
+
+126
+00:04:20,920 --> 00:04:22,400
+You know, we saw in the first year of Covid,
+
+127
+00:04:22,400 --> 00:04:26,840
+the largest and fastest ever increasing wealth
+
+128
+00:04:26,840 --> 00:04:28,480
+of the richest people in the country.
+
+129
+00:04:28,480 --> 00:04:30,840
+We saw the average US billionaire double their wealth
+
+130
+00:04:30,840 --> 00:04:32,760
+in a single year.
+
+131
+00:04:32,760 --> 00:04:35,680
+The average UK billionaire made £630 million
+
+132
+00:04:35,680 --> 00:04:38,120
+in a single year.
+
+133
+00:04:38,120 --> 00:04:40,120
+Does this sound to you
+
+134
+00:04:40,120 --> 00:04:41,520
+like a country and a world
+
+135
+00:04:41,520 --> 00:04:45,760
+where the fundamental problem is productivity growth?
+
+136
+00:04:45,760 --> 00:04:47,600
+And I'll keep saying I'm
+
+137
+00:04:47,600 --> 00:04:51,040
+not against productivity growth, productivity is great.
+
+138
+00:04:51,040 --> 00:04:53,040
+If you live in a country and a world
+
+139
+00:04:53,040 --> 00:04:54,720
+where living standards of ordinary people
+
+140
+00:04:54,720 --> 00:04:55,840
+are collapsing
+
+141
+00:04:55,840 --> 00:04:57,400
+and living standards of the richest
+
+142
+00:04:57,400 --> 00:04:59,400
+are exploding through the roof,
+
+143
+00:04:59,400 --> 00:05:02,000
+stock markets are exploding to new all time highs.
+
+144
+00:05:02,000 --> 00:05:03,320
+The gold price hit a massive
+
+145
+00:05:03,320 --> 00:05:06,840
+new all time high yesterday.
+
+146
+00:05:06,840 --> 00:05:09,200
+Do you really think the problem is productivity growth?
+
+147
+00:05:09,200 --> 00:05:10,840
+Do you not think there might be a deeper problem
+
+148
+00:05:10,840 --> 00:05:11,520
+with inequality?
+
+149
+00:05:11,520 --> 00:05:13,600
+So I think we need to look a little bit closer
+
+150
+00:05:13,600 --> 00:05:15,240
+at who this guy Mark Carney is right.
+
+151
+00:05:15,240 --> 00:05:17,400
+So Mark Carney as I've said,
+
+152
+00:05:17,400 --> 00:05:20,920
+was former head of the Bank of England.
+
+153
+00:05:20,920 --> 00:05:22,440
+He's actually a Canadian, he's not British.
+
+154
+00:05:22,440 --> 00:05:24,360
+Before that he was head of the Bank of Canada,
+
+155
+00:05:24,360 --> 00:05:27,000
+and before that he was a very well paid banker
+
+156
+00:05:27,000 --> 00:05:27,720
+for Goldman Sachs.
+
+157
+00:05:27,720 --> 00:05:30,480
+So what you have here is a very wealthy man
+
+158
+00:05:30,480 --> 00:05:32,920
+who has been very well paid throughout his career.
+
+159
+00:05:32,920 --> 00:05:35,280
+I'm sure him and his family are all very rich.
+
+160
+00:05:35,280 --> 00:05:37,080
+They are part of a class of very wealthy
+
+161
+00:05:37,080 --> 00:05:38,280
+people who are getting richer
+
+162
+00:05:38,280 --> 00:05:40,960
+very rapidly, who’s living standards are increasing
+
+163
+00:05:40,960 --> 00:05:42,960
+very rapidly.
+
+164
+00:05:42,960 --> 00:05:44,480
+Turning around to you and saying
+
+165
+00:05:44,480 --> 00:05:45,880
+the problem is productivity.
+
+166
+00:05:45,880 --> 00:05:49,320
+You guys are just not productive enough.
+
+167
+00:05:49,320 --> 00:05:53,400
+And I think what we have here
+
+168
+00:05:53,400 --> 00:05:56,040
+is one single example of a much broader problem,
+
+169
+00:05:56,040 --> 00:05:59,040
+which is that economists and politicians who
+
+170
+00:05:59,040 --> 00:06:03,280
+very often are very rich,
+
+171
+00:06:03,280 --> 00:06:06,040
+live in an economy which is
+
+172
+00:06:06,040 --> 00:06:09,360
+seeing lifestyles of the very rich get
+
+173
+00:06:09,360 --> 00:06:10,440
+fantastically better.
+
+174
+00:06:10,440 --> 00:06:13,080
+Seeing the wealth of the very rich explode very quickly
+
+175
+00:06:13,080 --> 00:06:16,080
+while your living standards collapse,
+
+176
+00:06:16,080 --> 00:06:17,480
+turning around to you and saying
+
+177
+00:06:17,480 --> 00:06:20,040
+the problem is your productivity.
+
+178
+00:06:20,040 --> 00:06:22,760
+And let's unwrap
+
+179
+00:06:22,760 --> 00:06:23,760
+a little bit what productivity is,
+
+180
+00:06:23,760 --> 00:06:24,760
+because I think productivity
+
+181
+00:06:24,760 --> 00:06:26,640
+sounds like a very moralistic term.
+
+182
+00:06:26,640 --> 00:06:29,680
+Productivity is basically GDP per worker,
+
+183
+00:06:29,680 --> 00:06:33,280
+or sometimes it's GDP per hour worked.
+
+184
+00:06:33,280 --> 00:06:34,080
+So essentially,
+
+185
+00:06:34,080 --> 00:06:35,160
+unless, you know,
+
+186
+00:06:35,160 --> 00:06:36,600
+people are working rapidly more hours,
+
+187
+00:06:36,600 --> 00:06:38,440
+which in the UK they are,
+
+188
+00:06:38,440 --> 00:06:40,760
+essentially it comes down to GDP growth.
+
+189
+00:06:40,760 --> 00:06:42,000
+And these guys are basically saying
+
+190
+00:06:42,000 --> 00:06:43,520
+the reason you're poor
+
+191
+00:06:43,520 --> 00:06:47,840
+is because GDP growth is not high enough.
+
+192
+00:06:47,840 --> 00:06:52,080
+And first to say GDP is not falling.
+
+193
+00:06:52,080 --> 00:06:53,040
+GDP of the UK
+
+194
+00:06:53,040 --> 00:06:54,960
+now is higher than it was before Covid,
+
+195
+00:06:54,960 --> 00:06:57,320
+GDP of almost every Western country is higher
+
+196
+00:06:57,320 --> 00:06:59,160
+now than it was before Covid.
+
+197
+00:06:59,160 --> 00:07:01,000
+GDP is enormously higher than it was 30,
+
+198
+00:07:01,000 --> 00:07:02,240
+40, 50 years ago
+
+199
+00:07:02,240 --> 00:07:03,960
+when people like my dad, possibly
+
+200
+00:07:03,960 --> 00:07:08,280
+your dad were able to work regular jobs and buy houses.
+
+201
+00:07:08,280 --> 00:07:11,520
+GDP goes up and up and up and up and up.
+
+202
+00:07:11,520 --> 00:07:13,240
+The wealth of the richest goes up and up and up.
+
+203
+00:07:13,240 --> 00:07:16,200
+Living standards for the rich go up and up and up.
+
+204
+00:07:16,200 --> 00:07:20,560
+Ordinary people are really getting poorer very rapidly.
+
+205
+00:07:20,560 --> 00:07:23,840
+And wealthy men like Mark Carney
+
+206
+00:07:23,840 --> 00:07:24,720
+turn around and say it's
+
+207
+00:07:24,720 --> 00:07:27,200
+because your productivity is not good enough.
+
+208
+00:07:27,200 --> 00:07:30,360
+We had a very similar example where Andrew Bailey,
+
+209
+00:07:30,360 --> 00:07:33,360
+who is the current governor of the Bank of England,
+
+210
+00:07:33,360 --> 00:07:35,400
+said that inflation is your fault
+
+211
+00:07:35,400 --> 00:07:36,880
+for asking for high wages
+
+212
+00:07:36,880 --> 00:07:41,240
+and Andrew Bailey is paid £500,000 a year.
+
+213
+00:07:41,240 --> 00:07:44,280
+We have an increasing problem of economists
+
+214
+00:07:44,280 --> 00:07:46,800
+trying to tell you
+
+215
+00:07:46,800 --> 00:07:48,480
+that it's your fault
+
+216
+00:07:48,480 --> 00:07:50,280
+and in many cases even saying it's not happening.
+
+217
+00:07:50,280 --> 00:07:52,040
+There was a conservative politician on TV
+
+218
+00:07:52,040 --> 00:07:53,320
+just last week
+
+219
+00:07:53,320 --> 00:07:55,120
+saying that
+
+220
+00:07:55,120 --> 00:07:58,360
+living standards are better than they've ever been.
+
+221
+00:07:58,360 --> 00:08:00,200
+It's very, very important
+
+222
+00:08:00,200 --> 00:08:03,520
+that people like you understand inequality is growing
+
+223
+00:08:03,520 --> 00:08:06,280
+and inequality is growing very quickly.
+
+224
+00:08:06,280 --> 00:08:07,640
+And when inequality grows quickly,
+
+225
+00:08:07,640 --> 00:08:08,880
+living standards for the rich increase
+
+226
+00:08:08,880 --> 00:08:11,520
+and living standards for the poor fall.
+
+227
+00:08:11,520 --> 00:08:13,640
+Economists have a fundamental blindspot
+
+228
+00:08:13,640 --> 00:08:14,880
+about inequality.
+
+229
+00:08:14,880 --> 00:08:18,800
+What they are obsessed about is growth.
+
+230
+00:08:18,800 --> 00:08:20,400
+And they will always be obsessed about growth,
+
+231
+00:08:20,400 --> 00:08:21,160
+and they will always tell you
+
+232
+00:08:21,160 --> 00:08:22,600
+that growth is the problem
+
+233
+00:08:22,600 --> 00:08:25,000
+and lack of productivity is the problem.
+
+234
+00:08:25,000 --> 00:08:25,840
+In my opinion,
+
+235
+00:08:25,840 --> 00:08:27,120
+and I've got lots of videos
+
+236
+00:08:27,120 --> 00:08:28,440
+where I hope I’ll convince you,
+
+237
+00:08:28,440 --> 00:08:31,280
+we have a fundamental problem of growing inequality.
+
+238
+00:08:31,280 --> 00:08:34,320
+And what I see is a sick economy
+
+239
+00:08:34,320 --> 00:08:37,440
+which has a growing cancer of inequality.
+
+240
+00:08:37,440 --> 00:08:39,040
+Going to the doctor and the doctor
+
+241
+00:08:39,040 --> 00:08:41,600
+saying, listen, don't worry about your cancer.
+
+242
+00:08:41,600 --> 00:08:43,640
+Grow your way out of it.
+
+243
+00:08:43,640 --> 00:08:46,440
+Listen, we grow year after year
+
+244
+00:08:46,440 --> 00:08:48,200
+and living standards fall
+
+245
+00:08:48,200 --> 00:08:49,400
+and it's not going to work.
+
+246
+00:08:49,400 --> 00:08:51,120
+And growth is great,
+
+247
+00:08:51,120 --> 00:08:53,440
+but I think it has become basically
+
+248
+00:08:53,440 --> 00:08:54,840
+a mantra, basically
+
+249
+00:08:54,840 --> 00:08:56,920
+a prayer of our intellectual classes,
+
+250
+00:08:56,920 --> 00:09:00,360
+which is don't worry about anything else, just grow.
+
+251
+00:09:00,360 --> 00:09:01,280
+Just grow.
+
+252
+00:09:01,280 --> 00:09:02,880
+And I think it's basically reached the point
+
+253
+00:09:02,880 --> 00:09:05,520
+where growth has become essentially a codeword
+
+254
+00:09:05,520 --> 00:09:09,200
+from the very rich, which is I'm an idiot.
+
+255
+00:09:09,200 --> 00:09:10,560
+I don't understand this problem.
+
+256
+00:09:10,560 --> 00:09:15,760
+I have no real solutions, but just f**king grow
+
+257
+00:09:15,760 --> 00:09:16,840
+with no plan.
+
+258
+00:09:16,840 --> 00:09:18,640
+We're in this absolutely absurd
+
+259
+00:09:18,640 --> 00:09:21,320
+situation in this country where
+
+260
+00:09:21,320 --> 00:09:22,520
+we have a conservative government
+
+261
+00:09:22,520 --> 00:09:24,400
+whose plan is just grow,
+
+262
+00:09:24,400 --> 00:09:26,880
+whilst absolutely starving
+
+263
+00:09:26,880 --> 00:09:28,480
+people and government of the funds
+
+264
+00:09:28,480 --> 00:09:30,840
+they need to provide any sort of growth.
+
+265
+00:09:30,840 --> 00:09:32,600
+We have a Labour government are going to come in
+
+266
+00:09:32,600 --> 00:09:34,840
+and their plan is we're going to grow the economy
+
+267
+00:09:34,840 --> 00:09:36,360
+without doing any investment,
+
+268
+00:09:36,360 --> 00:09:39,400
+without putting any money in your pockets.
+
+269
+00:09:39,400 --> 00:09:42,240
+I think growth has become
+
+270
+00:09:42,240 --> 00:09:45,560
+such a meaningless word that it's just something
+
+271
+00:09:45,560 --> 00:09:47,280
+economists and politicians scream
+
+272
+00:09:47,280 --> 00:09:51,240
+about with no real plan.
+
+273
+00:09:51,240 --> 00:09:53,040
+I would like you
+
+274
+00:09:53,040 --> 00:09:55,120
+to turn around to these economists
+
+275
+00:09:55,120 --> 00:09:58,640
+and these politicians and ask them with what money?
+
+276
+00:09:58,640 --> 00:10:00,200
+What money do you want us to grow with?
+
+277
+00:10:00,200 --> 00:10:02,160
+If we have no money to go out
+
+278
+00:10:02,160 --> 00:10:05,400
+to our shops, to our high streets, and to spend,
+
+279
+00:10:05,400 --> 00:10:09,360
+then where is the economic growth going to come from?
+
+280
+00:10:09,360 --> 00:10:12,480
+And if the problem is a lack of growth,
+
+281
+00:10:12,480 --> 00:10:13,640
+then why do the wealths
+
+282
+00:10:13,640 --> 00:10:15,080
+of the richest people in our country
+
+283
+00:10:15,080 --> 00:10:16,080
+and the richest people of the world
+
+284
+00:10:16,080 --> 00:10:19,040
+keep growing more and more?
+
+285
+00:10:19,040 --> 00:10:20,880
+So
+
+286
+00:10:20,880 --> 00:10:22,280
+I would like to leave you with a message
+
+287
+00:10:22,280 --> 00:10:24,720
+that growth in our modern age,
+
+288
+00:10:24,720 --> 00:10:26,400
+as much it would be wonderful,
+
+289
+00:10:26,400 --> 00:10:29,600
+has become basically a signal of stupidity.
+
+290
+00:10:29,600 --> 00:10:34,160
+People with no plans, people with no understanding of
+
+291
+00:10:34,160 --> 00:10:36,680
+the problem of growing inequality,
+
+292
+00:10:36,680 --> 00:10:38,160
+are insisting that the problem
+
+293
+00:10:38,160 --> 00:10:40,880
+is our lack of economic growth.
+
+294
+00:10:40,880 --> 00:10:42,120
+we won't go anywhere good
+
+295
+00:10:42,120 --> 00:10:43,320
+when all the money goes to the rich
+
+296
+00:10:43,320 --> 00:10:45,600
+and nothing goes to anybody else.
+
+297
+00:10:45,600 --> 00:10:47,760
+People like Mark Carney, people like Andrew Bailey,
+
+298
+00:10:47,760 --> 00:10:50,400
+people like our very wealthy politicians,
+
+299
+00:10:50,400 --> 00:10:51,720
+they're not going to do anything about it.
+
+300
+00:10:51,720 --> 00:10:54,560
+It has to be you. It has to be me.
+
+301
+00:10:54,560 --> 00:10:56,320
+We have to scream at these politicians and say,
+
+302
+00:10:56,320 --> 00:10:59,040
+the problem is not economic growth.
+
+303
+00:10:59,040 --> 00:11:01,560
+The problem is growth of inequality of wealth.
+
+304
+00:11:01,560 --> 00:11:02,880
+If you don't fix it,
+
+305
+00:11:02,880 --> 00:11:04,160
+our living standards will collapse.
+
+306
+00:11:04,160 --> 00:11:06,800
+So I’ll keep making videos about it,
+
+307
+00:11:06,800 --> 00:11:08,520
+if you keep talking about it.
+
+308
+00:11:08,520 --> 00:11:09,320
+It's not growth,
+
+309
+00:11:09,320 --> 00:11:11,360
+it's not Mark Carney, it’s inequality stupid.
+
+310
+00:11:11,360 --> 00:11:12,600
+We have to fix it. Thank you.

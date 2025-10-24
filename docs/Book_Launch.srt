@@ -1,0 +1,1739 @@
+﻿1
+00:00:00,120 --> 00:00:00,640
+Okay.
+
+2
+00:00:00,640 --> 00:00:03,240
+Welcome back to today's special bonus
+
+3
+00:00:03,240 --> 00:00:04,920
+edition of Gary's Economics,
+
+4
+00:00:04,920 --> 00:00:08,720
+where we are going to talk about truth, lies and games.
+
+5
+00:00:11,760 --> 00:00:14,600
+Okay, so today is the 30th of January,
+
+6
+00:00:14,600 --> 00:00:16,960
+which means it is the release
+
+7
+00:00:16,960 --> 00:00:18,880
+of the paperback of my book,
+
+8
+00:00:18,880 --> 00:00:21,680
+this, new paperback version. It's much cheaper.
+
+9
+00:00:21,680 --> 00:00:23,760
+I think it's about £10, something like that.
+
+10
+00:00:23,760 --> 00:00:27,040
+And to commemorate the release of the paperback,
+
+11
+00:00:27,040 --> 00:00:29,080
+I wanted to do an edition
+
+12
+00:00:29,080 --> 00:00:31,680
+where I speak about a story
+
+13
+00:00:31,680 --> 00:00:33,840
+that happened to me when I was a trader,
+
+14
+00:00:33,840 --> 00:00:35,360
+which I write about in the book,
+
+15
+00:00:35,360 --> 00:00:39,000
+which really helped me to understand, in my mind,
+
+16
+00:00:39,000 --> 00:00:42,320
+Donald Trump during the last Donald Trump presidency.
+
+17
+00:00:42,320 --> 00:00:44,040
+So obviously Donald Trump is back.
+
+18
+00:00:44,040 --> 00:00:46,000
+And I wanted to share a story
+
+19
+00:00:46,000 --> 00:00:48,120
+from the book which helped me
+
+20
+00:00:48,120 --> 00:00:50,800
+think about it, deal with it, and understand it.
+
+21
+00:00:50,800 --> 00:00:53,880
+Okay, so towards the end of my time at Citibank,
+
+22
+00:00:53,880 --> 00:00:56,120
+I decided I wanted to leave.
+
+23
+00:00:56,120 --> 00:00:59,200
+And, the opening scene of my book is,
+
+24
+00:00:59,200 --> 00:01:02,760
+my boss at the time, basically, pretty strongly
+
+25
+00:01:02,760 --> 00:01:03,920
+threatening me that,
+
+26
+00:01:03,920 --> 00:01:05,280
+I could get in quite a lot of trouble
+
+27
+00:01:05,280 --> 00:01:06,640
+if I tried to leave the bank.
+
+28
+00:01:06,640 --> 00:01:07,720
+That led to the beginning
+
+29
+00:01:07,720 --> 00:01:10,680
+of kind of a crazy period in my life
+
+30
+00:01:10,680 --> 00:01:13,760
+where I was quite frequently
+
+31
+00:01:13,760 --> 00:01:17,040
+threatened by senior management at Citibank.
+
+32
+00:01:17,040 --> 00:01:18,800
+And I entered this period at work,
+
+33
+00:01:18,800 --> 00:01:20,800
+which I call the meeting period,
+
+34
+00:01:20,800 --> 00:01:22,440
+which was where
+
+35
+00:01:22,440 --> 00:01:25,160
+for about 3 or 4 weeks,
+
+36
+00:01:25,160 --> 00:01:26,280
+every single day,
+
+37
+00:01:26,280 --> 00:01:29,280
+I would have 2 or 3 or 4 meetings
+
+38
+00:01:29,280 --> 00:01:31,640
+with senior management at Citibank.
+
+39
+00:01:31,640 --> 00:01:33,840
+And at the time I was living in Tokyo,
+
+40
+00:01:33,840 --> 00:01:35,920
+working in Tokyo, in Japan.
+
+41
+00:01:35,920 --> 00:01:37,600
+And Citibank is obviously
+
+42
+00:01:37,600 --> 00:01:39,440
+a massive, massive, massive organisation.
+
+43
+00:01:39,440 --> 00:01:40,720
+And there's all these different members
+
+44
+00:01:40,720 --> 00:01:41,560
+of senior management.
+
+45
+00:01:41,560 --> 00:01:42,960
+And every meeting
+
+46
+00:01:42,960 --> 00:01:45,360
+would have like, a different combination
+
+47
+00:01:45,360 --> 00:01:48,120
+of bank senior managers in the meeting.
+
+48
+00:01:48,120 --> 00:01:51,120
+So one day might be a one-on-one
+
+49
+00:01:51,120 --> 00:01:52,920
+with a specific manager in Tokyo.
+
+50
+00:01:52,920 --> 00:01:55,400
+And then the next meeting might be four guys,
+
+51
+00:01:55,400 --> 00:01:57,000
+one in New York, one in London,
+
+52
+00:01:57,000 --> 00:01:59,080
+one in Tokyo, one in Singapore.
+
+53
+00:01:59,080 --> 00:02:02,880
+Then there might be a big zoom call with like ten guys.
+
+54
+00:02:04,520 --> 00:02:06,560
+And each one of these meetings...
+
+55
+00:02:06,560 --> 00:02:09,000
+what was interesting about these meetings was
+
+56
+00:02:09,000 --> 00:02:10,800
+each one of these meetings,
+
+57
+00:02:10,800 --> 00:02:13,480
+the management would have basically
+
+58
+00:02:13,480 --> 00:02:15,080
+a different kind of strategy
+
+59
+00:02:15,080 --> 00:02:17,280
+of what we're going to do in this meeting.
+
+60
+00:02:17,280 --> 00:02:19,520
+So you might, for example,
+
+61
+00:02:19,520 --> 00:02:21,840
+have a good cop, bad cop meeting.
+
+62
+00:02:21,840 --> 00:02:23,000
+So for those who don't know,
+
+63
+00:02:23,000 --> 00:02:24,680
+you're meeting with two guys
+
+64
+00:02:24,680 --> 00:02:27,840
+and one of them just like shouts in your face.
+
+65
+00:02:27,840 --> 00:02:29,400
+And then he takes breaks and the other guy
+
+66
+00:02:29,400 --> 00:02:30,800
+says, listen,
+
+67
+00:02:30,800 --> 00:02:33,480
+I want to help you, I want to be on your side,
+
+68
+00:02:33,480 --> 00:02:35,160
+I want to deal with this.
+
+69
+00:02:35,160 --> 00:02:36,600
+But then you might have another meeting
+
+70
+00:02:36,600 --> 00:02:38,480
+where you just have
+
+71
+00:02:38,480 --> 00:02:40,920
+6, 7 top senior management,
+
+72
+00:02:40,920 --> 00:02:44,520
+and beforehand they've decided with each other,
+
+73
+00:02:44,520 --> 00:02:45,160
+what we're going to do
+
+74
+00:02:45,160 --> 00:02:46,160
+is we're just going to be really,
+
+75
+00:02:46,160 --> 00:02:47,760
+really supportive to Gary.
+
+76
+00:02:47,760 --> 00:02:49,640
+We're going to tell him we're behind him.
+
+77
+00:02:49,640 --> 00:02:50,440
+So you would have this like
+
+78
+00:02:50,440 --> 00:02:51,600
+really weird combination
+
+79
+00:02:51,600 --> 00:02:53,040
+of, you go into to one meeting
+
+80
+00:02:53,040 --> 00:02:55,640
+and a guy would, like, scream in your face for an hour
+
+81
+00:02:55,640 --> 00:02:57,600
+and you go into the next meeting.
+
+82
+00:02:57,600 --> 00:02:58,560
+Sometimes these meetings
+
+83
+00:02:58,560 --> 00:03:00,160
+could be like even directly back
+
+84
+00:03:00,160 --> 00:03:03,200
+to back in the same kind of like zoom office room.
+
+85
+00:03:03,200 --> 00:03:03,920
+And everyone would be like,
+
+86
+00:03:03,920 --> 00:03:05,440
+we love you, we support you.
+
+87
+00:03:05,440 --> 00:03:10,160
+And, sometimes you would get this amazing situation
+
+88
+00:03:10,160 --> 00:03:11,920
+where the same guy
+
+89
+00:03:11,920 --> 00:03:14,200
+who had just been shouting you for an hour
+
+90
+00:03:14,200 --> 00:03:16,640
+was also scheduled to be in the next meeting,
+
+91
+00:03:16,640 --> 00:03:18,520
+which was immediately afterwards.
+
+92
+00:03:18,520 --> 00:03:20,560
+So you'd have a guy stop shouting at you,
+
+93
+00:03:20,560 --> 00:03:22,080
+sit down,
+
+94
+00:03:22,080 --> 00:03:26,280
+turn on this like zoom call on the big screen.
+
+95
+00:03:26,280 --> 00:03:28,440
+And one by one, everyone, including him, would say,
+
+96
+00:03:28,440 --> 00:03:30,560
+we believe in you, you know, we’re really behind you,
+
+97
+00:03:30,560 --> 00:03:31,600
+we really support you.
+
+98
+00:03:31,600 --> 00:03:33,080
+And,
+
+99
+00:03:33,080 --> 00:03:34,800
+you know, when I told Jack about this earlier,
+
+100
+00:03:34,800 --> 00:03:36,080
+he said, oh it must have made you go mad.
+
+101
+00:03:36,080 --> 00:03:39,600
+But actually, these little weird features
+
+102
+00:03:40,600 --> 00:03:43,200
+were kind of what kept me sane in the period
+
+103
+00:03:43,200 --> 00:03:45,520
+because they were so funny.
+
+104
+00:03:45,520 --> 00:03:47,760
+It was so funny to see this guy
+
+105
+00:03:47,760 --> 00:03:50,240
+immediately switch from being like,
+
+106
+00:03:50,240 --> 00:03:51,480
+like a crazy animal,
+
+107
+00:03:51,480 --> 00:03:52,240
+just shouting at you
+
+108
+00:03:52,240 --> 00:03:54,200
+to being like a kind of cuddly teddy bear.
+
+109
+00:03:54,200 --> 00:03:56,880
+Just because he's turned a zoom call on
+
+110
+00:03:56,880 --> 00:03:58,920
+and it's a different meeting.
+
+111
+00:03:58,920 --> 00:04:01,760
+And what this made me realise,
+
+112
+00:04:01,760 --> 00:04:02,720
+and it wasn't just this,
+
+113
+00:04:02,720 --> 00:04:04,640
+it was a lot of things when I was working at Citibank,
+
+114
+00:04:04,640 --> 00:04:06,000
+is that
+
+115
+00:04:06,000 --> 00:04:08,440
+rich and powerful people
+
+116
+00:04:08,440 --> 00:04:14,160
+have quite a different attitude and approach to truth
+
+117
+00:04:14,160 --> 00:04:19,160
+and lies and games compared to ordinary people.
+
+118
+00:04:19,160 --> 00:04:21,920
+So I think most ordinary people,
+
+119
+00:04:21,920 --> 00:04:25,040
+when they are having a conversation with somebody,
+
+120
+00:04:25,040 --> 00:04:26,640
+there is a kind of assumption
+
+121
+00:04:26,640 --> 00:04:29,960
+that if you say something, it is because you
+
+122
+00:04:29,960 --> 00:04:31,000
+believe it,
+
+123
+00:04:31,000 --> 00:04:32,040
+and it is because you think it,
+
+124
+00:04:32,040 --> 00:04:32,960
+it is because you feel it.
+
+125
+00:04:32,960 --> 00:04:34,760
+That is why you say things.
+
+126
+00:04:34,760 --> 00:04:35,800
+And there's a kind of assumption
+
+127
+00:04:35,800 --> 00:04:37,640
+that people say things because they're true
+
+128
+00:04:37,640 --> 00:04:39,360
+or it's what they think.
+
+129
+00:04:39,360 --> 00:04:43,360
+But a lot of rich people and a lot of powerful people,
+
+130
+00:04:43,360 --> 00:04:44,680
+they don't
+
+131
+00:04:44,680 --> 00:04:47,080
+approach their conversations in this way,
+
+132
+00:04:47,080 --> 00:04:48,720
+especially if it is conversations
+
+133
+00:04:48,720 --> 00:04:49,800
+which have any relationship
+
+134
+00:04:49,800 --> 00:04:52,840
+with money or power or their work.
+
+135
+00:04:52,840 --> 00:04:55,080
+They will often go into
+
+136
+00:04:55,080 --> 00:04:58,080
+a conversation with a kind of a game playing mentality,
+
+137
+00:04:58,080 --> 00:05:01,600
+which is what is our objective from this conversation?
+
+138
+00:05:01,600 --> 00:05:04,080
+What is our objective from this meeting?
+
+139
+00:05:04,080 --> 00:05:06,480
+So in the case of the story in my book,
+
+140
+00:05:07,440 --> 00:05:08,360
+they didn't want me to quit.
+
+141
+00:05:08,360 --> 00:05:08,720
+So it's like,
+
+142
+00:05:08,720 --> 00:05:09,720
+what is our strategy
+
+143
+00:05:09,720 --> 00:05:12,000
+to stop Gary from quitting basically.
+
+144
+00:05:12,000 --> 00:05:14,720
+And then you'll go in basically
+
+145
+00:05:14,720 --> 00:05:17,280
+playing a character and trying to think, what is the...
+
+146
+00:05:17,280 --> 00:05:19,560
+what do I need to say
+
+147
+00:05:19,560 --> 00:05:22,320
+in order to get the things that I want?
+
+148
+00:05:22,320 --> 00:05:25,840
+What is the optimal choice of words, choice of strategy
+
+149
+00:05:25,840 --> 00:05:29,240
+to try and get the outcome that I want?
+
+150
+00:05:29,240 --> 00:05:34,480
+And because I spent a lot of time at Citibank,
+
+151
+00:05:34,480 --> 00:05:39,360
+working with very rich, very powerful people,
+
+152
+00:05:39,360 --> 00:05:43,320
+you start to realise that this is a very normal way
+
+153
+00:05:43,320 --> 00:05:44,560
+of interacting,
+
+154
+00:05:44,560 --> 00:05:45,680
+of human interactions
+
+155
+00:05:45,680 --> 00:05:47,520
+in this world of rich and powerful people.
+
+156
+00:05:47,520 --> 00:05:49,120
+And for that reason,
+
+157
+00:05:49,120 --> 00:05:51,800
+when Donald Trump came into power,
+
+158
+00:05:51,800 --> 00:05:54,600
+I was not really surprised at all
+
+159
+00:05:55,960 --> 00:05:57,840
+by the way,
+
+160
+00:05:57,840 --> 00:06:00,120
+the things that he said and the way that he behaved.
+
+161
+00:06:00,120 --> 00:06:01,480
+So Donald Trump
+
+162
+00:06:01,480 --> 00:06:02,880
+and of course, you've also got Elon Musk
+
+163
+00:06:02,880 --> 00:06:04,480
+now in this new administration.
+
+164
+00:06:04,480 --> 00:06:06,760
+They both tend to do this thing
+
+165
+00:06:06,760 --> 00:06:10,440
+of saying an awful lot of things.
+
+166
+00:06:10,440 --> 00:06:11,480
+They say, we're going to do this.
+
+167
+00:06:11,480 --> 00:06:12,240
+They say we're going to do that.
+
+168
+00:06:12,240 --> 00:06:16,160
+And sometimes the things that they say seem crazy.
+
+169
+00:06:16,160 --> 00:06:18,320
+And you get people in the media saying,
+
+170
+00:06:18,320 --> 00:06:20,400
+oh my God, if they do that policy,
+
+171
+00:06:20,400 --> 00:06:22,440
+how is it going to affect us?
+
+172
+00:06:22,440 --> 00:06:24,080
+What's it going to do?
+
+173
+00:06:24,080 --> 00:06:25,120
+And then what you would often
+
+174
+00:06:25,120 --> 00:06:27,720
+find in the last administration is
+
+175
+00:06:27,720 --> 00:06:29,280
+he would say, we're going to do this thing.
+
+176
+00:06:29,280 --> 00:06:32,120
+And then nothing would come of it.
+
+177
+00:06:32,120 --> 00:06:33,800
+There would never be any actual policy
+
+178
+00:06:33,800 --> 00:06:38,160
+or ever even any attempt at a policy. And this
+
+179
+00:06:39,360 --> 00:06:43,080
+confused people because a lot of people assumed
+
+180
+00:06:43,080 --> 00:06:45,880
+that if somebody like Donald Trump says,
+
+181
+00:06:45,880 --> 00:06:48,000
+I want to do this thing, or I'm going to do this thing
+
+182
+00:06:48,000 --> 00:06:50,280
+that means that he wants to do this thing,
+
+183
+00:06:50,280 --> 00:06:52,680
+or he's going to do that thing.
+
+184
+00:06:52,680 --> 00:06:55,240
+But from somebody who's
+
+185
+00:06:55,240 --> 00:06:57,000
+been in these meetings
+
+186
+00:06:57,000 --> 00:06:59,360
+and seen how people basically say
+
+187
+00:06:59,360 --> 00:07:01,240
+whatever they think works in that specific meeting,
+
+188
+00:07:01,240 --> 00:07:04,280
+I was not surprised at all, really.
+
+189
+00:07:04,280 --> 00:07:07,200
+This is a very, very common way
+
+190
+00:07:07,200 --> 00:07:08,840
+of rich and powerful people behaving.
+
+191
+00:07:08,840 --> 00:07:16,160
+So what that means is we shouldn't really read anything
+
+192
+00:07:16,160 --> 00:07:18,080
+in terms of what rich or powerful people
+
+193
+00:07:18,080 --> 00:07:20,400
+actually say, or actually want,
+
+194
+00:07:20,400 --> 00:07:22,360
+or actually are going to do from what they say
+
+195
+00:07:22,360 --> 00:07:24,120
+they want, or what they say they're going to do.
+
+196
+00:07:24,120 --> 00:07:24,720
+When people...
+
+197
+00:07:24,720 --> 00:07:26,760
+when rich and powerful people say something
+
+198
+00:07:26,760 --> 00:07:27,920
+really more than anything,
+
+199
+00:07:27,920 --> 00:07:29,320
+it tells us something about what
+
+200
+00:07:29,320 --> 00:07:31,440
+they want us to believe.
+
+201
+00:07:31,440 --> 00:07:34,680
+And this also explains often why
+
+202
+00:07:34,680 --> 00:07:36,720
+what people say is so at odds with what they do.
+
+203
+00:07:36,720 --> 00:07:37,360
+For example,
+
+204
+00:07:37,360 --> 00:07:39,000
+you've got the Conservatives
+
+205
+00:07:39,000 --> 00:07:40,600
+who continually said
+
+206
+00:07:40,600 --> 00:07:43,560
+they were anti-migration and yet enormously increased
+
+207
+00:07:43,560 --> 00:07:46,640
+the number of legal migration into the country.
+
+208
+00:07:46,640 --> 00:07:47,840
+You have Elon Musk,
+
+209
+00:07:47,840 --> 00:07:50,880
+who again, is trying to fund anti-immigration parties
+
+210
+00:07:50,880 --> 00:07:52,320
+and yet is trying to increase
+
+211
+00:07:52,320 --> 00:07:54,560
+immigration of many kinds into the US.
+
+212
+00:07:54,560 --> 00:07:56,400
+When these rich and powerful people speak,
+
+213
+00:07:56,400 --> 00:07:58,480
+we should always be asking us
+
+214
+00:07:58,480 --> 00:08:00,680
+fundamentally, at the very heart,
+
+215
+00:08:00,680 --> 00:08:03,560
+what do these people want?
+
+216
+00:08:03,560 --> 00:08:05,840
+And in the vast majority of cases,
+
+217
+00:08:05,840 --> 00:08:08,160
+what rich and powerful people want
+
+218
+00:08:08,160 --> 00:08:10,880
+is more wealth, more power,
+
+219
+00:08:10,880 --> 00:08:13,280
+not just for them, but also for their kids.
+
+220
+00:08:13,280 --> 00:08:14,480
+So a few years ago,
+
+221
+00:08:14,480 --> 00:08:17,480
+when Vladimir Putin invaded Ukraine,
+
+222
+00:08:17,480 --> 00:08:19,520
+I won't lie, I was surprised.
+
+223
+00:08:19,520 --> 00:08:20,520
+I'm not a Putin expert,
+
+224
+00:08:20,520 --> 00:08:22,080
+and I was surprised he did that
+
+225
+00:08:22,080 --> 00:08:24,120
+because I thought immediately,
+
+226
+00:08:24,120 --> 00:08:26,800
+he's already super rich, he's already super powerful,
+
+227
+00:08:26,800 --> 00:08:28,680
+that jeopardises
+
+228
+00:08:28,680 --> 00:08:30,920
+his situation, it jeopardises his future.
+
+229
+00:08:30,920 --> 00:08:31,560
+Why would he do that?
+
+230
+00:08:31,560 --> 00:08:33,480
+And the first thing I did was
+
+231
+00:08:33,480 --> 00:08:36,000
+I went onto Wikipedia, I looked up Vladimir Putin.
+
+232
+00:08:36,000 --> 00:08:38,360
+I wanted to know how old he was.
+
+233
+00:08:38,360 --> 00:08:41,600
+Does he have any kids? Does he have any sons?
+
+234
+00:08:41,600 --> 00:08:45,920
+And that is because I understand that most
+
+235
+00:08:46,920 --> 00:08:49,840
+elderly, wealthy, powerful
+
+236
+00:08:49,840 --> 00:08:52,880
+men are primarily concerned
+
+237
+00:08:52,880 --> 00:08:55,120
+with successfully transferring their wealth
+
+238
+00:08:55,120 --> 00:08:56,760
+and their power to their kids
+
+239
+00:08:56,760 --> 00:08:58,240
+and in many cases,
+
+240
+00:08:58,240 --> 00:09:00,840
+they're focused on getting it to their sons
+
+241
+00:09:00,840 --> 00:09:02,720
+or one particular son.
+
+242
+00:09:02,720 --> 00:09:04,880
+And I think this is
+
+243
+00:09:04,880 --> 00:09:08,200
+the way that you can primarily understand
+
+244
+00:09:08,200 --> 00:09:13,120
+people like Musk, people like Putin, people like Trump.
+
+245
+00:09:13,120 --> 00:09:15,840
+You need to understand their motivations.
+
+246
+00:09:15,840 --> 00:09:17,400
+What do they want? What do they want?
+
+247
+00:09:17,400 --> 00:09:18,280
+What do they want?
+
+248
+00:09:18,280 --> 00:09:20,480
+And of course, everyone is an individual
+
+249
+00:09:20,480 --> 00:09:21,560
+and people want different things
+
+250
+00:09:21,560 --> 00:09:23,640
+and you can't perfectly know what Putin wants.
+
+251
+00:09:23,640 --> 00:09:25,080
+We can't perfectly know what Trump wants.
+
+252
+00:09:25,080 --> 00:09:27,080
+We can't perfectly know what Musk wants.
+
+253
+00:09:27,080 --> 00:09:28,480
+But most of the time
+
+254
+00:09:28,480 --> 00:09:32,200
+it is about amassing further wealth and power
+
+255
+00:09:32,200 --> 00:09:35,120
+for themselves, for their kids.
+
+256
+00:09:35,120 --> 00:09:36,720
+You know, they always say in football,
+
+257
+00:09:36,720 --> 00:09:39,080
+you know, don’t watch the man
+
+258
+00:09:39,080 --> 00:09:39,880
+watch the ball
+
+259
+00:09:39,880 --> 00:09:41,640
+because he's going to throw all kinds of feints.
+
+260
+00:09:41,640 --> 00:09:42,280
+Pretend he's going to be this way,
+
+261
+00:09:42,280 --> 00:09:43,280
+pretend he's going to go that way.
+
+262
+00:09:43,280 --> 00:09:46,200
+Ultimately, he wants to get the ball into the goal
+
+263
+00:09:46,200 --> 00:09:49,560
+and most of the time, getting the ball into the goal
+
+264
+00:09:49,560 --> 00:09:51,640
+means getting more money, getting more wealth.
+
+265
+00:09:51,640 --> 00:09:53,640
+And I wanted to say like, this is not...
+
+266
+00:09:53,640 --> 00:09:54,600
+if you want to understand,
+
+267
+00:09:54,600 --> 00:09:55,680
+I spoke to a friend about this
+
+268
+00:09:55,680 --> 00:09:59,440
+and he said, you know, I can't really understand
+
+269
+00:09:59,440 --> 00:10:02,640
+this way of being, where you’ll basically say anything
+
+270
+00:10:02,640 --> 00:10:05,200
+if you think is going to get you what you want,
+
+271
+00:10:05,200 --> 00:10:07,320
+because most people don't do that.
+
+272
+00:10:07,320 --> 00:10:09,120
+But the truth is,
+
+273
+00:10:09,120 --> 00:10:12,720
+when you are in a game situation, this often happens.
+
+274
+00:10:12,720 --> 00:10:14,080
+I was around a friend's house
+
+275
+00:10:14,080 --> 00:10:16,080
+playing Catan a couple of months ago.
+
+276
+00:10:16,080 --> 00:10:17,280
+Good friends house, I’m good friends
+
+277
+00:10:17,280 --> 00:10:19,120
+with both her and her husband.
+
+278
+00:10:19,120 --> 00:10:21,720
+And her husband was trying to do this trade with me.
+
+279
+00:10:21,720 --> 00:10:23,480
+And he said, look, I'll trade this with you.
+
+280
+00:10:23,480 --> 00:10:24,240
+And I said, no.
+
+281
+00:10:24,240 --> 00:10:26,000
+And he said, listen, I've got this card.
+
+282
+00:10:26,000 --> 00:10:27,160
+If I use this card, I'm
+
+283
+00:10:27,160 --> 00:10:28,920
+going to take that resource anyway.
+
+284
+00:10:28,920 --> 00:10:30,600
+So whether you do the trade
+
+285
+00:10:30,600 --> 00:10:32,080
+or I'm going to take it anyway.
+
+286
+00:10:32,080 --> 00:10:33,440
+So I did the trade with him
+
+287
+00:10:33,440 --> 00:10:34,520
+and it later transpired
+
+288
+00:10:34,520 --> 00:10:38,200
+he didn't even have the card that he said he had.
+
+289
+00:10:38,200 --> 00:10:39,480
+And I was kind of shocked,
+
+290
+00:10:39,480 --> 00:10:41,680
+basically because it was a lie
+
+291
+00:10:41,680 --> 00:10:43,560
+and I was sort of like, wow, I can't believe you lied.
+
+292
+00:10:43,560 --> 00:10:44,760
+And he said, look, it's a game.
+
+293
+00:10:44,760 --> 00:10:46,320
+You know, I'm trying to win the game.
+
+294
+00:10:46,320 --> 00:10:47,240
+You know, that's... 
+
+295
+00:10:48,080 --> 00:10:49,480
+that’s the way that it is.
+
+296
+00:10:49,480 --> 00:10:53,280
+And I'm reminded also of a friend of mine
+
+297
+00:10:53,280 --> 00:10:54,200
+when we were teenagers,
+
+298
+00:10:54,200 --> 00:10:56,040
+I used to play a lot of Monopoly,
+
+299
+00:10:56,040 --> 00:10:58,120
+and I played with my high school friends.
+
+300
+00:10:58,120 --> 00:11:00,720
+And I think the first three games
+
+301
+00:11:00,720 --> 00:11:03,160
+I won, I was quite good at monopoly,
+
+302
+00:11:03,160 --> 00:11:04,560
+which is quite a big deal because it’s
+
+303
+00:11:04,560 --> 00:11:06,080
+a 5/6 player game.
+
+304
+00:11:06,080 --> 00:11:08,440
+And then one of my friends decided that the way to win
+
+305
+00:11:08,440 --> 00:11:10,960
+Monopoly is to specifically stop Gary from winning.
+
+306
+00:11:10,960 --> 00:11:12,160
+And he would attack all of...
+
+307
+00:11:12,160 --> 00:11:13,760
+every time I tried to trade with someone,
+
+308
+00:11:13,760 --> 00:11:15,240
+he would just attack that other person,
+
+309
+00:11:15,240 --> 00:11:17,760
+like brutally insult the other person.
+
+310
+00:11:17,760 --> 00:11:20,240
+And I would ask him afterwards, like, why, why,
+
+311
+00:11:20,240 --> 00:11:21,400
+why are you telling everyone these deals are bad?
+
+312
+00:11:21,400 --> 00:11:22,440
+You know they're not bad deals.
+
+313
+00:11:22,440 --> 00:11:24,600
+But he would genuinely believe in his heart
+
+314
+00:11:24,600 --> 00:11:26,160
+that they were bad deals.
+
+315
+00:11:26,160 --> 00:11:28,160
+And I would start doing a thing where
+
+316
+00:11:28,160 --> 00:11:29,880
+if he attacked a deal,
+
+317
+00:11:29,880 --> 00:11:31,920
+I would start saying to the person
+
+318
+00:11:31,920 --> 00:11:33,320
+I was trying to trade with, okay,
+
+319
+00:11:33,320 --> 00:11:34,360
+if you think that's a bad deal,
+
+320
+00:11:34,360 --> 00:11:36,120
+let's completely flip the deal.
+
+321
+00:11:36,120 --> 00:11:37,680
+I will take everything you were going to have,
+
+322
+00:11:37,680 --> 00:11:39,400
+and you can have everything I was going to have.
+
+323
+00:11:39,400 --> 00:11:41,000
+And this friend of mine would immediately
+
+324
+00:11:41,000 --> 00:11:42,960
+switch on an instant
+
+325
+00:11:42,960 --> 00:11:45,240
+into attacking the other side of the deal,
+
+326
+00:11:45,240 --> 00:11:47,520
+and he didn't think it was at all consistent
+
+327
+00:11:47,520 --> 00:11:48,760
+to attack both sides of the deal.
+
+328
+00:11:48,760 --> 00:11:51,040
+Whichever side of the deal I was on.
+
+329
+00:11:51,040 --> 00:11:52,920
+I think what this shows is
+
+330
+00:11:52,920 --> 00:11:55,720
+when people really, really want something,
+
+331
+00:11:55,720 --> 00:11:57,360
+they will
+
+332
+00:11:57,360 --> 00:11:58,480
+basically believe
+
+333
+00:11:58,480 --> 00:12:00,520
+whatever they need to believe in that moment
+
+334
+00:12:00,520 --> 00:12:02,760
+and say whatever they need to say in that moment
+
+335
+00:12:02,760 --> 00:12:04,000
+to get that thing.
+
+336
+00:12:04,000 --> 00:12:06,680
+So don't expect consistency.
+
+337
+00:12:06,680 --> 00:12:09,120
+Don't expect consistent ideology.
+
+338
+00:12:09,120 --> 00:12:10,840
+Don't expect consistent beliefs.
+
+339
+00:12:10,840 --> 00:12:12,160
+What you should expect
+
+340
+00:12:12,160 --> 00:12:15,720
+consistently is a consistent drive
+
+341
+00:12:15,720 --> 00:12:18,240
+to accumulate wealth and power.
+
+342
+00:12:18,240 --> 00:12:20,800
+And what I want you to do when that happens
+
+343
+00:12:20,800 --> 00:12:22,960
+is to not get sucked in to the games
+
+344
+00:12:22,960 --> 00:12:23,920
+that are being played.
+
+345
+00:12:23,920 --> 00:12:26,320
+Lots of words are going to be thrown around.
+
+346
+00:12:26,320 --> 00:12:28,320
+Lots of stories are going to be thrown around,
+
+347
+00:12:28,320 --> 00:12:30,000
+lots of ideas are going to be thrown around,
+
+348
+00:12:31,040 --> 00:12:32,880
+which are generally going to
+
+349
+00:12:32,880 --> 00:12:35,280
+be designed to destabilise you
+
+350
+00:12:35,280 --> 00:12:36,560
+and make you weak
+
+351
+00:12:36,560 --> 00:12:37,680
+so that your wealth
+
+352
+00:12:37,680 --> 00:12:39,440
+and your resources can be transferred
+
+353
+00:12:39,440 --> 00:12:42,280
+to the powerful over time.
+
+354
+00:12:42,280 --> 00:12:44,280
+Don't get sucked into the game.
+
+355
+00:12:44,280 --> 00:12:45,800
+I think if you can be dragged
+
+356
+00:12:45,800 --> 00:12:47,640
+into a game playing mentality,
+
+357
+00:12:47,640 --> 00:12:50,760
+we can end up in a situation where it's a straight
+
+358
+00:12:50,760 --> 00:12:55,240
+shoot out in a game between the powerful and the weak,
+
+359
+00:12:55,240 --> 00:12:57,360
+and unless you're a multi-millionaire,
+
+360
+00:12:57,360 --> 00:12:58,960
+you are one of the weak.
+
+361
+00:12:58,960 --> 00:13:03,000
+The way you win this game is to not play the game.
+
+362
+00:13:03,000 --> 00:13:06,360
+Step outside the rules of the game, and realise
+
+363
+00:13:06,360 --> 00:13:09,840
+you need to ally with other poor
+
+364
+00:13:09,840 --> 00:13:12,840
+and ordinary people because if you don't,
+
+365
+00:13:12,840 --> 00:13:14,400
+the rich will win the game,
+
+366
+00:13:14,400 --> 00:13:15,720
+they will take your resources.
+
+367
+00:13:15,720 --> 00:13:18,000
+And ultimately,
+
+368
+00:13:18,000 --> 00:13:19,080
+in a crazy way,
+
+369
+00:13:19,080 --> 00:13:22,320
+I think that's how I won my battle with Citibank.
+
+370
+00:13:22,320 --> 00:13:25,440
+I went a little bit crazy.
+
+371
+00:13:25,440 --> 00:13:28,320
+I broke a few of the rules, I stepped outside the game,
+
+372
+00:13:28,320 --> 00:13:30,480
+and I never got sued, and I never went to prison.
+
+373
+00:13:30,480 --> 00:13:32,960
+I never got bankrupted.
+
+374
+00:13:32,960 --> 00:13:35,400
+And that is why I was able to write this book.
+
+375
+00:13:38,840 --> 00:13:40,280
+It's out today.
+
+376
+00:13:40,280 --> 00:13:42,520
+I'm very proud of it. It's called the Trading Game.
+
+377
+00:13:43,800 --> 00:13:45,520
+I wanted to talk about truth, lies and games
+
+378
+00:13:45,520 --> 00:13:48,000
+because for me, a big part of the story is about
+
+379
+00:13:48,000 --> 00:13:50,040
+how I got sucked into a game,
+
+380
+00:13:50,040 --> 00:13:51,720
+how young people get sucked into a game,
+
+381
+00:13:51,720 --> 00:13:54,200
+and how when you get sucked into a game,
+
+382
+00:13:54,200 --> 00:13:55,560
+an obsession with the game
+
+383
+00:13:55,560 --> 00:13:59,720
+can basically kind of kill your humanity inside.
+
+384
+00:13:59,720 --> 00:14:02,040
+And it's that journey for me.
+
+385
+00:14:02,040 --> 00:14:03,000
+I don't want it to happen to you.
+
+386
+00:14:03,000 --> 00:14:04,120
+I don't want to happen to us.
+
+387
+00:14:04,120 --> 00:14:05,160
+Listen,
+
+388
+00:14:05,160 --> 00:14:09,880
+the next few years are going to be a difficult time.
+
+389
+00:14:09,880 --> 00:14:12,120
+And they're going to be difficult
+
+390
+00:14:12,120 --> 00:14:13,520
+for your mental health,
+
+391
+00:14:13,520 --> 00:14:15,400
+and they're going to be difficult for society.
+
+392
+00:14:15,400 --> 00:14:17,160
+And they're going to be difficult
+
+393
+00:14:17,160 --> 00:14:18,120
+economically as well.
+
+394
+00:14:19,080 --> 00:14:20,920
+I think the most important thing
+
+395
+00:14:20,920 --> 00:14:24,920
+is that you try to stay mentally healthy.
+
+396
+00:14:24,920 --> 00:14:27,560
+And that means talking to each other,
+
+397
+00:14:27,560 --> 00:14:28,960
+trying your best to be compassionate
+
+398
+00:14:28,960 --> 00:14:31,880
+and understanding of each other. Very rich and very...
+
+399
+00:14:31,880 --> 00:14:32,640
+very rich
+
+400
+00:14:32,640 --> 00:14:33,520
+and very powerful people
+
+401
+00:14:33,520 --> 00:14:35,600
+are going to be trying to drive us apart
+
+402
+00:14:35,600 --> 00:14:37,960
+and to make us unstable and to make us angry
+
+403
+00:14:37,960 --> 00:14:40,200
+and to make us hate each other.
+
+404
+00:14:40,200 --> 00:14:42,320
+There's a great section in a great book about this.
+
+405
+00:14:42,320 --> 00:14:43,920
+I think it's the two minutes hate
+
+406
+00:14:43,920 --> 00:14:46,800
+or the three minutes hate in 1984 by George Orwell,
+
+407
+00:14:46,800 --> 00:14:48,600
+but he's basically talking about how
+
+408
+00:14:48,600 --> 00:14:51,600
+if the powerful can convince the poor to hate,
+
+409
+00:14:51,600 --> 00:14:54,160
+not even anything specific, but just hate in general,
+
+410
+00:14:54,160 --> 00:14:56,760
+then it's very easy to control them.
+
+411
+00:14:56,760 --> 00:15:00,440
+Because people who hate are not people who can unite.
+
+412
+00:15:00,440 --> 00:15:01,440
+And who of you can't unite,
+
+413
+00:15:01,440 --> 00:15:02,560
+are not able to be powerful.
+
+414
+00:15:04,440 --> 00:15:06,600
+Stay strong, speak to each other.
+
+415
+00:15:06,600 --> 00:15:08,920
+
+
+416
+00:15:08,920 --> 00:15:11,040
+I'll finish by just saying
+
+417
+00:15:11,040 --> 00:15:12,480
+thank you to everyone who supported us
+
+418
+00:15:12,480 --> 00:15:13,800
+so much since the comeback.
+
+419
+00:15:13,800 --> 00:15:17,400
+The views have been just crazy.
+
+420
+00:15:17,400 --> 00:15:19,400
+And the amount of attention has been crazy.
+
+421
+00:15:19,400 --> 00:15:21,520
+But I'm really appreciative.
+
+422
+00:15:21,520 --> 00:15:23,520
+And I will try my best
+
+423
+00:15:23,520 --> 00:15:26,160
+to build something that can help us,
+
+424
+00:15:26,160 --> 00:15:27,680
+but you need to build things to,
+
+425
+00:15:27,680 --> 00:15:29,360
+be there for each other.
+
+426
+00:15:29,360 --> 00:15:30,360
+Thank you for support.
+
+427
+00:15:30,360 --> 00:15:30,920
+Thank you
+
+428
+00:15:30,920 --> 00:15:32,880
+especially for everyone who signed up for the Patreon.
+
+429
+00:15:32,880 --> 00:15:33,960
+We really appreciate that.
+
+430
+00:15:33,960 --> 00:15:36,960
+If you can buy the book, it's a very good book,
+
+431
+00:15:36,960 --> 00:15:38,000
+but if you can't,
+
+432
+00:15:38,000 --> 00:15:38,920
+then just support us
+
+433
+00:15:38,920 --> 00:15:40,200
+and then help us to drive forward
+
+434
+00:15:40,200 --> 00:15:41,720
+and help us try to make things better.
+
+435
+00:15:41,720 --> 00:15:42,520
+Thank you. Good luck.

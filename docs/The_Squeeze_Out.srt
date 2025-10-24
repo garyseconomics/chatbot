@@ -1,0 +1,2831 @@
+﻿1
+00:00:00,000 --> 00:00:00,400
+Okay.
+
+2
+00:00:00,400 --> 00:00:01,960
+Welcome back to Garys Economics.
+
+3
+00:00:01,960 --> 00:00:04,320
+Today, we are going to explain why
+
+4
+00:00:04,320 --> 00:00:06,640
+Labour is crushing your living standards.
+
+5
+00:00:08,520 --> 00:00:08,760
+Okay.
+
+6
+00:00:08,760 --> 00:00:12,080
+So if you are watching this video on Sunday the
+
+7
+00:00:12,080 --> 00:00:14,240
+30th of March, which is when it's gonna go out,
+
+8
+00:00:14,240 --> 00:00:17,120
+or shortly afterwards, you will be watching in the
+
+9
+00:00:17,120 --> 00:00:21,080
+immediate aftermath of Labour's Spring Statement.
+
+10
+00:00:21,080 --> 00:00:24,560
+The news will have been absolutely covered in
+
+11
+00:00:24,560 --> 00:00:28,880
+discussion of things like fiscal rules and
+
+12
+00:00:28,880 --> 00:00:33,560
+government bond rates and forecasts for growth.
+
+13
+00:00:33,560 --> 00:00:35,520
+And you're probably be expecting that I
+
+14
+00:00:35,520 --> 00:00:37,840
+will do something on the Spring Statement.
+
+15
+00:00:37,840 --> 00:00:41,360
+But to be honest, at times like this, when we have
+
+16
+00:00:41,360 --> 00:00:46,760
+these kind of theatrical political set plays, I often
+
+17
+00:00:46,760 --> 00:00:50,520
+get frustrated with the way the media has a kind of
+
+18
+00:00:50,520 --> 00:00:54,680
+a fixation with nailing in on the specific details.
+
+19
+00:00:54,680 --> 00:00:56,560
+Which tax has he risen?
+
+20
+00:00:56,560 --> 00:00:58,080
+or which tax has she risen?
+
+21
+00:00:58,080 --> 00:01:00,520
+Which spending has she cut?
+
+22
+00:01:00,520 --> 00:01:04,040
+And there's very often very little discussion
+
+23
+00:01:04,040 --> 00:01:06,760
+of what is actually happening in the big picture.
+
+24
+00:01:06,760 --> 00:01:10,760
+Why is Labour choosing to do austerity 2.0?
+
+25
+00:01:10,760 --> 00:01:14,640
+What are the reasons driving basically
+
+26
+00:01:14,640 --> 00:01:16,120
+the need for, for Labour to do this?
+
+27
+00:01:16,120 --> 00:01:17,720
+Why are they being forced to do this?
+
+28
+00:01:17,720 --> 00:01:21,240
+When I was a trader, one of the first
+
+29
+00:01:21,240 --> 00:01:24,000
+things which I found really interesting was that
+
+30
+00:01:24,000 --> 00:01:26,600
+you very quickly realise as a trader that the
+
+31
+00:01:26,600 --> 00:01:30,120
+things which are portrayed as important on the news
+
+32
+00:01:30,120 --> 00:01:33,920
+are very often not important for traders at all.
+
+33
+00:01:33,920 --> 00:01:36,120
+And the things which are important for traders in the
+
+34
+00:01:36,120 --> 00:01:39,480
+markets are very often not shown in the news at all.
+
+35
+00:01:39,480 --> 00:01:43,080
+So you have a situation where the news likes these
+
+36
+00:01:43,080 --> 00:01:48,160
+kind of set plays, like budgets, spring statements,
+
+37
+00:01:48,160 --> 00:01:52,360
+but really what matters for traders, the economy
+
+38
+00:01:52,360 --> 00:01:54,160
+for your living standards are what are the
+
+39
+00:01:54,160 --> 00:01:57,440
+big picture, long-term changes in the economy?
+
+40
+00:01:57,440 --> 00:01:59,280
+So what I want to do today is I want
+
+41
+00:01:59,280 --> 00:02:03,840
+to explain why it is that Labour is
+
+42
+00:02:03,840 --> 00:02:08,400
+doing austerity 2.0, why Labour is cutting spending,
+
+43
+00:02:08,400 --> 00:02:11,200
+cutting benefits, raising taxes on workers.
+
+44
+00:02:11,200 --> 00:02:14,040
+Why is Labour crushing your living standards?
+
+45
+00:02:14,040 --> 00:02:18,200
+So I was very pessimistic about
+
+46
+00:02:18,200 --> 00:02:20,200
+Labour before the election.
+
+47
+00:02:20,200 --> 00:02:23,680
+I was very confident that they would basically
+
+48
+00:02:23,680 --> 00:02:25,960
+fail to significantly grow the economy, that
+
+49
+00:02:25,960 --> 00:02:28,240
+they would preside over falling living standards.
+
+50
+00:02:28,240 --> 00:02:29,720
+And I thought there was always a
+
+51
+00:02:29,720 --> 00:02:31,080
+significant risk that they would basically
+
+52
+00:02:31,080 --> 00:02:34,800
+move into this austerity 2.0 space.
+
+53
+00:02:34,800 --> 00:02:38,200
+And, the reason for this is because I understood
+
+54
+00:02:38,200 --> 00:02:40,880
+the big picture trend which has dominated the
+
+55
+00:02:40,880 --> 00:02:43,280
+economy really for the last 20 years, really,
+
+56
+00:02:43,280 --> 00:02:44,960
+but especially since, for the last five years,
+
+57
+00:02:44,960 --> 00:02:49,280
+since COVID, which I am calling the squeeze out.
+
+58
+00:02:49,280 --> 00:02:51,480
+The squeeze out of the working class, the squeeze out
+
+59
+00:02:51,480 --> 00:02:53,600
+of the middle class, the squeeze out of the government.
+
+60
+00:02:53,600 --> 00:02:56,360
+And in this video, we're going to go
+
+61
+00:02:56,360 --> 00:02:58,920
+through nice and slowly, in detail what
+
+62
+00:02:58,920 --> 00:03:01,320
+the squeeze out is and how it affects you.
+
+63
+00:03:01,320 --> 00:03:01,640
+Okay.
+
+64
+00:03:01,640 --> 00:03:04,920
+So the squeeze out really is kind of a
+
+65
+00:03:04,920 --> 00:03:06,760
+new way of framing something that I've
+
+66
+00:03:06,760 --> 00:03:09,240
+been speaking about for a long time.
+
+67
+00:03:09,240 --> 00:03:10,840
+But I've been really moving
+
+68
+00:03:10,840 --> 00:03:12,280
+towards this kind of framing recently.
+
+69
+00:03:12,280 --> 00:03:13,600
+And I think it's a really powerful way
+
+70
+00:03:13,600 --> 00:03:15,720
+to explain to ordinary people what's
+
+71
+00:03:15,720 --> 00:03:17,640
+happening and how it affects them.
+
+72
+00:03:17,640 --> 00:03:19,280
+So on this channel, I speak a
+
+73
+00:03:19,280 --> 00:03:21,000
+lot about wealth inequality.
+
+74
+00:03:21,000 --> 00:03:23,360
+But I think wealth inequality,
+
+75
+00:03:23,360 --> 00:03:26,640
+as a concept, can sound a little bit academic.
+
+76
+00:03:26,640 --> 00:03:31,200
+It can sound a little bit idealistic, egalitarian.
+
+77
+00:03:31,200 --> 00:03:33,640
+People can kind of think this is politics
+
+78
+00:03:33,640 --> 00:03:35,880
+of envy, how does that affect me?
+
+79
+00:03:35,880 --> 00:03:41,440
+And I think the squeeze out is a focus on really the
+
+80
+00:03:41,440 --> 00:03:45,840
+most damaging and most dangerous direct consequence
+
+81
+00:03:45,840 --> 00:03:48,640
+of wealth inequality for ordinary people, which is
+
+82
+00:03:48,640 --> 00:03:51,800
+that the rich accumulate an enormous amount of money.
+
+83
+00:03:51,800 --> 00:03:54,640
+And they use that to out-compete other
+
+84
+00:03:54,640 --> 00:03:56,800
+groups in society, such as the working
+
+85
+00:03:56,800 --> 00:03:58,920
+class and the middle class, for assets.
+
+86
+00:03:58,920 --> 00:04:01,480
+Meaning that over time, the working class and the
+
+87
+00:04:01,480 --> 00:04:03,760
+middle class have less and less and less assets,
+
+88
+00:04:03,760 --> 00:04:05,920
+and go further and further and further into debt.
+
+89
+00:04:05,920 --> 00:04:07,920
+And to be honest, it was an understanding of
+
+90
+00:04:07,920 --> 00:04:11,440
+this phenomenon which actually led me to become
+
+91
+00:04:11,440 --> 00:04:14,400
+interested in wealth inequality in the first place.
+
+92
+00:04:14,400 --> 00:04:17,120
+When I was a trader in the aftermath of 2008,
+
+93
+00:04:17,120 --> 00:04:19,760
+everybody was predicting a strong economic recovery.
+
+94
+00:04:19,760 --> 00:04:24,200
+But I couldn't help but notice that ordinary families
+
+95
+00:04:24,200 --> 00:04:26,640
+were getting poorer and poorer year after year,
+
+96
+00:04:26,640 --> 00:04:29,840
+generation after generation, and so were the government.
+
+97
+00:04:29,840 --> 00:04:32,000
+And this was basically what led me to
+
+98
+00:04:32,000 --> 00:04:34,600
+understanding that inequality is important.
+
+99
+00:04:34,600 --> 00:04:39,200
+So if we reframe and focus instead of wealth inequality
+
+100
+00:04:39,200 --> 00:04:42,240
+itself and on the squeezing out of the working class
+
+101
+00:04:42,240 --> 00:04:45,520
+and the middle class, I think it makes it a lot more
+
+102
+00:04:45,520 --> 00:04:48,240
+visceral and powerful for ordinary people, ordinary
+
+103
+00:04:48,240 --> 00:04:50,720
+families like you, because you start to see what this
+
+104
+00:04:50,720 --> 00:04:55,040
+means is me and my family are gonna lose our wealth.
+
+105
+00:04:55,040 --> 00:04:56,160
+We're gonna lose our houses.
+
+106
+00:04:56,160 --> 00:04:57,760
+We're gonna get driven into debt.
+
+107
+00:04:57,760 --> 00:04:58,840
+Okay.
+
+108
+00:04:58,840 --> 00:05:04,520
+So what I'm gonna do from now is basically a nice
+
+109
+00:05:04,520 --> 00:05:07,400
+historical lesson of the history of wealth inequality.
+
+110
+00:05:07,400 --> 00:05:10,080
+I'm gonna focus mainly on this country, in the UK.
+
+111
+00:05:10,080 --> 00:05:12,160
+And we're gonna talk about how ordinary
+
+112
+00:05:12,160 --> 00:05:14,640
+families got wealth and how they got
+
+113
+00:05:14,640 --> 00:05:16,440
+squeezed out and are being squeezed out.
+
+114
+00:05:16,440 --> 00:05:16,720
+Okay.
+
+115
+00:05:16,720 --> 00:05:18,680
+So first, some historical context.
+
+116
+00:05:18,680 --> 00:05:21,320
+The period 70 years after World War
+
+117
+00:05:21,320 --> 00:05:23,640
+II is not historically normal, and
+
+118
+00:05:23,640 --> 00:05:25,640
+it's not internationally normal.
+
+119
+00:05:25,960 --> 00:05:27,920
+During that period of 70 years, we saw
+
+120
+00:05:27,920 --> 00:05:30,320
+a lot of ordinary people, a lot of ordinary
+
+121
+00:05:30,320 --> 00:05:32,520
+families, people earning average or even
+
+122
+00:05:32,520 --> 00:05:35,400
+less than average incomes being able to
+
+123
+00:05:35,400 --> 00:05:38,120
+own homes without significant debt, get things
+
+124
+00:05:38,120 --> 00:05:41,880
+like pensions, basically own a chunk of the wealth.
+
+125
+00:05:41,880 --> 00:05:43,920
+That is not common.
+
+126
+00:05:43,920 --> 00:05:46,600
+If you go to most of the world, to be honest,
+
+127
+00:05:46,600 --> 00:05:48,520
+outside Europe and North America, if you go to most
+
+128
+00:05:48,520 --> 00:05:51,520
+countries in Africa, in Latin America, in Asia,
+
+129
+00:05:51,520 --> 00:05:55,960
+what you see is small, very wealthy elites and
+
+130
+00:05:55,960 --> 00:05:58,280
+a very small middle class below that.
+
+131
+00:05:58,280 --> 00:06:01,280
+And that most people live, don't own significant wealth.
+
+132
+00:06:01,280 --> 00:06:02,400
+What they own is worth very little
+
+133
+00:06:02,400 --> 00:06:03,920
+and they live in poverty.
+
+134
+00:06:03,920 --> 00:06:06,080
+And that was true in Europe and in
+
+135
+00:06:06,080 --> 00:06:07,800
+this country, the UK, and in the United
+
+136
+00:06:07,800 --> 00:06:10,120
+States for most of history as well.
+
+137
+00:06:10,120 --> 00:06:12,000
+And that is basically, to be honest, that is the
+
+138
+00:06:12,000 --> 00:06:15,520
+long term history of sort of post-agricultural
+
+139
+00:06:15,520 --> 00:06:17,520
+human civilisations, is you tend to have a
+
+140
+00:06:17,520 --> 00:06:19,840
+small elite and a lot of poverty around them.
+
+141
+00:06:19,840 --> 00:06:21,560
+In the history of this country, the UK, you do
+
+142
+00:06:21,560 --> 00:06:24,000
+have sort of a couple of historical examples when
+
+143
+00:06:24,000 --> 00:06:27,160
+working people were able to get themself a little
+
+144
+00:06:27,160 --> 00:06:29,480
+bit more power and a little bit more wealth.
+
+145
+00:06:29,480 --> 00:06:31,440
+After the plague, after the Black
+
+146
+00:06:31,440 --> 00:06:33,800
+Death when 50% of the population of Europe
+
+147
+00:06:33,800 --> 00:06:36,120
+died, working people were a bit more needed.
+
+148
+00:06:36,120 --> 00:06:37,880
+They were able to get a little bit more of a share.
+
+149
+00:06:37,880 --> 00:06:40,040
+You were able to see women get a bit more of a share
+
+150
+00:06:40,040 --> 00:06:42,640
+than they did historically at that point in time.
+
+151
+00:06:42,640 --> 00:06:44,640
+During the Industrial Revolution, in the Industrial
+
+152
+00:06:44,640 --> 00:06:46,240
+Revolution, you had a period where basically
+
+153
+00:06:46,240 --> 00:06:48,400
+all of the world's production was happening in,
+
+154
+00:06:48,400 --> 00:06:51,440
+you know, a small part of Northwestern Europe.
+
+155
+00:06:51,440 --> 00:06:54,640
+And after a lot of fighting, ordinary working
+
+156
+00:06:54,640 --> 00:06:56,640
+people were again able to get a bit of a share.
+
+157
+00:06:56,640 --> 00:06:59,120
+But even then realistically, these societies
+
+158
+00:06:59,120 --> 00:07:01,080
+lived in very high levels of inequality, most
+
+159
+00:07:01,080 --> 00:07:03,120
+of the wealth owned by super elite.
+
+160
+00:07:03,120 --> 00:07:05,680
+But in the 20th century, this all changed basically.
+
+161
+00:07:05,680 --> 00:07:07,480
+People sometimes forget that even at the
+
+162
+00:07:07,480 --> 00:07:09,720
+beginning of the 20th century, the 1900s, there
+
+163
+00:07:09,720 --> 00:07:12,200
+was still really, really widespread poverty and
+
+164
+00:07:12,200 --> 00:07:14,920
+extreme inequality even in this country, the UK.
+
+165
+00:07:14,920 --> 00:07:17,400
+My grandmother, who was born in the '20s,
+
+166
+00:07:17,400 --> 00:07:19,400
+saw I think three or four of her siblings
+
+167
+00:07:19,400 --> 00:07:21,960
+die of tuberculosis, which is basically a
+
+168
+00:07:21,960 --> 00:07:23,800
+disease, a preventable disease of poverty.
+
+169
+00:07:23,800 --> 00:07:24,800
+Yeah, people lived in desperate
+
+170
+00:07:24,800 --> 00:07:26,320
+poverty in the early 20th century.
+
+171
+00:07:26,320 --> 00:07:28,840
+But during and immediately after World War
+
+172
+00:07:28,840 --> 00:07:30,520
+II, there was really significant change here.
+
+173
+00:07:30,520 --> 00:07:33,800
+And what you see if you compare pre-World War II
+
+174
+00:07:33,800 --> 00:07:36,920
+to post-World War II is suddenly a massive increase
+
+175
+00:07:36,920 --> 00:07:40,840
+in wealth holding of the government and some of that
+
+176
+00:07:40,840 --> 00:07:44,480
+wealth being held by the middle class and eventually
+
+177
+00:07:44,480 --> 00:07:47,560
+even significant amounts of working class wealth.
+
+178
+00:07:47,560 --> 00:07:50,240
+So I often talk about how my dad worked for the post
+
+179
+00:07:50,240 --> 00:07:53,240
+office making 20 grand a year, less than average wage.
+
+180
+00:07:53,240 --> 00:07:55,920
+And, he was able to buy property, things like that.
+
+181
+00:07:55,920 --> 00:07:58,880
+So what you see is suddenly
+
+182
+00:07:58,880 --> 00:08:01,480
+this historic wealth dynamic of the rich owning
+
+183
+00:08:01,480 --> 00:08:03,680
+everything changes in the 20th century.
+
+184
+00:08:03,680 --> 00:08:04,720
+And I think that the key to
+
+185
+00:08:04,720 --> 00:08:06,960
+that is basically World War II.
+
+186
+00:08:06,960 --> 00:08:09,200
+And I think World War II sees basically, like,
+
+187
+00:08:09,200 --> 00:08:11,520
+a big shift in the ownership of wealth.
+
+188
+00:08:11,520 --> 00:08:13,120
+And, to be honest, I would like to
+
+189
+00:08:13,120 --> 00:08:16,640
+understand a little bit more about exactly how
+
+190
+00:08:16,640 --> 00:08:19,040
+that wealth shifts during World War II from
+
+191
+00:08:19,040 --> 00:08:21,360
+being owned by the rich, to being owned
+
+192
+00:08:21,360 --> 00:08:23,280
+by the government and by ordinary people.
+
+193
+00:08:23,280 --> 00:08:24,480
+I've been looking into it.
+
+194
+00:08:24,480 --> 00:08:25,880
+I've got my theories.
+
+195
+00:08:25,880 --> 00:08:26,800
+Probably we'll get an expert in
+
+196
+00:08:26,800 --> 00:08:28,800
+to speak about it one day.
+
+197
+00:08:28,800 --> 00:08:30,640
+I think it's interesting to consider because at the
+
+198
+00:08:30,640 --> 00:08:33,560
+moment when there is a lot of attention on, can we tax
+
+199
+00:08:33,560 --> 00:08:36,440
+the rich, people sometimes forget that the 20th century
+
+200
+00:08:36,440 --> 00:08:38,960
+is a really good example of the fact that wealth can
+
+201
+00:08:38,960 --> 00:08:41,360
+be redistributed, It doesn't just have to flow one way.
+
+202
+00:08:41,360 --> 00:08:43,440
+It can flow back to ordinary people.
+
+203
+00:08:43,440 --> 00:08:44,680
+But what you need to know for now
+
+204
+00:08:44,680 --> 00:08:47,960
+is essentially World War II saw
+
+205
+00:08:47,960 --> 00:08:50,360
+a really historic shift in who owns the wealth.
+
+206
+00:08:50,360 --> 00:08:52,960
+And it was no longer owned just by a small elite, and
+
+207
+00:08:52,960 --> 00:08:55,760
+it was suddenly owned in large part by the government
+
+208
+00:08:55,760 --> 00:08:58,040
+and by the middle class and by the working class.
+
+209
+00:08:58,040 --> 00:09:01,520
+And in the period 30, 40 years after World War
+
+210
+00:09:01,520 --> 00:09:06,880
+II, this kind of stayed relatively unchanged.
+
+211
+00:09:06,880 --> 00:09:08,920
+And this was largely because in that period, we
+
+212
+00:09:08,920 --> 00:09:12,560
+had very, very high rates of tax on rich people,
+
+213
+00:09:12,560 --> 00:09:15,120
+which essentially prevented the flow of wealth, which
+
+214
+00:09:15,120 --> 00:09:17,800
+I talk about a lot on this channel, from happening.
+
+215
+00:09:17,800 --> 00:09:20,520
+So whenever you have inequality, you have this kind of
+
+216
+00:09:20,520 --> 00:09:23,320
+problematic, you know, monopoly game style situation,
+
+217
+00:09:23,320 --> 00:09:26,080
+which is these guys own the assets, these guys don't.
+
+218
+00:09:26,080 --> 00:09:27,240
+You have to pay your salary to them.
+
+219
+00:09:27,240 --> 00:09:28,560
+And over time, that wealth
+
+220
+00:09:28,560 --> 00:09:30,440
+difference grows and grows and grows.
+
+221
+00:09:30,440 --> 00:09:33,200
+But in the 50s, 60s, 70s, we had very high rates of
+
+222
+00:09:33,200 --> 00:09:35,480
+tax on the richest, which basically prevented the
+
+223
+00:09:35,480 --> 00:09:39,680
+rich from accumulating money and buying up the assets.
+
+224
+00:09:39,680 --> 00:09:42,880
+Then in the 80s, you have the Thatcher in this country,
+
+225
+00:09:42,880 --> 00:09:45,480
+Reagan in the US governments come in and, basically
+
+226
+00:09:45,480 --> 00:09:49,360
+totally rewrite the story around economics.
+
+227
+00:09:49,360 --> 00:09:50,840
+Lots of people don't like Thatcher and Reagan,
+
+228
+00:09:50,840 --> 00:09:53,040
+but I think when you look back at what they did,
+
+229
+00:09:53,040 --> 00:09:56,760
+we can kind of view them as a, as a hopeful example that
+
+230
+00:09:56,760 --> 00:09:59,600
+tax policies can be changed, distributions can be
+
+231
+00:09:59,600 --> 00:10:01,880
+changed, the story about economics can be changed.
+
+232
+00:10:01,880 --> 00:10:04,520
+And these guys basically changed the story.
+
+233
+00:10:04,520 --> 00:10:05,600
+I will add that's what we're
+
+234
+00:10:05,600 --> 00:10:06,720
+trying to do on this channel, basically,
+
+235
+00:10:06,720 --> 00:10:08,240
+change the story about economics.
+
+236
+00:10:08,240 --> 00:10:09,720
+Thatcher and Reagan came in, they changed
+
+237
+00:10:09,720 --> 00:10:12,160
+the story on economics, and they massively,
+
+238
+00:10:12,160 --> 00:10:14,840
+massively slashed taxation on the richest people.
+
+239
+00:10:14,840 --> 00:10:16,800
+And as soon as you do that, that's
+
+240
+00:10:16,800 --> 00:10:18,960
+when the squeeze out begins.
+
+241
+00:10:18,960 --> 00:10:21,640
+And we enter stage one of the squeeze out.
+
+242
+00:10:21,640 --> 00:10:24,160
+Okay, so part one of the squeeze out, taxes
+
+243
+00:10:24,160 --> 00:10:26,600
+have been cut on rich people in the 80s.
+
+244
+00:10:26,600 --> 00:10:28,200
+And suddenly, rich people start
+
+245
+00:10:28,200 --> 00:10:30,760
+to accumulate a lot of money.
+
+246
+00:10:30,760 --> 00:10:33,440
+Now, one key feature of rich people, which I speak about
+
+247
+00:10:33,440 --> 00:10:35,600
+a lot on the channel, is that rich people have what
+
+248
+00:10:35,600 --> 00:10:39,720
+economists call a low marginal propensity to consume.
+
+249
+00:10:39,720 --> 00:10:41,200
+What that means is if you give rich
+
+250
+00:10:41,200 --> 00:10:42,640
+people a lot of money, they will not
+
+251
+00:10:42,640 --> 00:10:44,720
+increase their consumption significantly.
+
+252
+00:10:44,720 --> 00:10:46,080
+What they will do instead is they will
+
+253
+00:10:46,080 --> 00:10:49,480
+start to buy significantly assets.
+
+254
+00:10:49,480 --> 00:10:52,280
+So the rich get lot of money, they start buying assets.
+
+255
+00:10:52,280 --> 00:10:55,480
+The first thing you see is asset prices rising.
+
+256
+00:10:55,480 --> 00:10:57,360
+You start to see stock markets... you
+
+257
+00:10:57,360 --> 00:10:59,480
+start to see stock markets going up, and
+
+258
+00:10:59,480 --> 00:11:02,520
+you start to see house prices going up.
+
+259
+00:11:02,520 --> 00:11:04,960
+What's interesting about this is most people
+
+260
+00:11:04,960 --> 00:11:08,800
+perceive this stage one as a really good thing.
+
+261
+00:11:08,800 --> 00:11:11,480
+So, you know, we're existing in this post-war economy
+
+262
+00:11:11,480 --> 00:11:15,160
+where lots of people, even poorer people own assets, and
+
+263
+00:11:15,160 --> 00:11:18,280
+they start to see their house price go up, or they start
+
+264
+00:11:18,280 --> 00:11:20,480
+to see their stock holdings go up if you're in a country
+
+265
+00:11:20,480 --> 00:11:23,240
+where, like the US or Germany where people own stocks.
+
+266
+00:11:23,240 --> 00:11:24,400
+People are really excited, like, "My house
+
+267
+00:11:24,400 --> 00:11:26,480
+price is going up, stock price is going up.
+
+268
+00:11:26,480 --> 00:11:28,760
+Like, this is really, really good."
+
+269
+00:11:28,760 --> 00:11:31,720
+And I think what people don't realise is those
+
+270
+00:11:31,720 --> 00:11:34,880
+rising stock prices and those rising house
+
+271
+00:11:34,880 --> 00:11:38,680
+prices are basically a manifestation of the rich
+
+272
+00:11:38,680 --> 00:11:42,840
+starting to squeeze people out of asset holding.
+
+273
+00:11:42,840 --> 00:11:45,520
+And, what you will see first is the
+
+274
+00:11:45,520 --> 00:11:48,880
+very poorest people will respond to these
+
+275
+00:11:48,880 --> 00:11:52,400
+increased asset prices by selling their assets.
+
+276
+00:11:52,400 --> 00:11:54,080
+And I think the first thing that you saw was,
+
+277
+00:11:54,080 --> 00:11:58,640
+in particular, older people from poorer families
+
+278
+00:11:58,640 --> 00:12:01,880
+using that, I suppose, asset windfall to
+
+279
+00:12:01,880 --> 00:12:06,160
+give themselves more comfortable retirements.
+
+280
+00:12:06,160 --> 00:12:09,760
+I want to point out, comfortable retirements are not
+
+281
+00:12:09,760 --> 00:12:12,240
+a historical or an international norm, but
+
+282
+00:12:12,240 --> 00:12:14,200
+this is a thing which we started to get in
+
+283
+00:12:14,200 --> 00:12:16,440
+particular in this first stage of the squeeze out.
+
+284
+00:12:16,440 --> 00:12:18,360
+So if you're... if you're poor, you've lived a
+
+285
+00:12:18,360 --> 00:12:20,360
+poor life and suddenly you see your house price
+
+286
+00:12:20,360 --> 00:12:22,680
+going up, what you are probably gonna do is
+
+287
+00:12:22,680 --> 00:12:24,200
+you're gonna say, "Okay, this is great.
+
+288
+00:12:24,200 --> 00:12:28,120
+I'm gonna use that increased price to give myself
+
+289
+00:12:28,120 --> 00:12:30,800
+a little bit of luxury, and a little bit of comfort
+
+290
+00:12:30,800 --> 00:12:34,120
+in my retirement." And what this means is the
+
+291
+00:12:34,120 --> 00:12:36,560
+first stage of the squeeze out, it feels great
+
+292
+00:12:36,560 --> 00:12:39,040
+even for the poor, especially if you own property.
+
+293
+00:12:39,040 --> 00:12:40,840
+You're like, "My asset price is going up,
+
+294
+00:12:40,840 --> 00:12:44,000
+I'm gonna sell the asset and I'm going
+
+295
+00:12:44,000 --> 00:12:46,760
+to live a better life." So what we see is
+
+296
+00:12:46,760 --> 00:12:48,800
+in the first stage, the rich are accumulating
+
+297
+00:12:48,800 --> 00:12:52,440
+money, but they are not using that to out-compete
+
+298
+00:12:52,440 --> 00:12:55,760
+the poor or the middle class for consumption, which
+
+299
+00:12:55,760 --> 00:12:59,680
+means living standards don't fall for ordinary people.
+
+300
+00:12:59,680 --> 00:13:02,200
+What they are doing is they're using it
+
+301
+00:13:02,200 --> 00:13:05,280
+to squeeze the weakest hands, which is the
+
+302
+00:13:05,280 --> 00:13:08,240
+historical working class, out of ownership
+
+303
+00:13:08,240 --> 00:13:10,960
+of assets, out of ownership of property.
+
+304
+00:13:10,960 --> 00:13:14,560
+Now, that goes on and on, and eventually you start
+
+305
+00:13:14,560 --> 00:13:17,160
+to see property prices are going up and up and up.
+
+306
+00:13:17,160 --> 00:13:21,480
+Poorer families eventually over time are
+
+307
+00:13:21,480 --> 00:13:22,600
+owning less and less housing.
+
+308
+00:13:22,600 --> 00:13:24,920
+I think a really good example of this is, the
+
+309
+00:13:24,920 --> 00:13:28,080
+Right to Buy scheme here in the UK, which is when
+
+310
+00:13:28,080 --> 00:13:33,320
+the UK government sold off its housing to poorer people,
+
+311
+00:13:33,320 --> 00:13:35,320
+and those poorer people owned their houses for
+
+312
+00:13:35,320 --> 00:13:38,320
+a bit, eventually sold them in order to fund
+
+313
+00:13:38,320 --> 00:13:41,280
+decent retirements and ended up owning nothing.
+
+314
+00:13:41,280 --> 00:13:42,920
+Now, the properties are owned by rich people
+
+315
+00:13:42,920 --> 00:13:44,720
+and they're buy to let properties, and the
+
+316
+00:13:44,720 --> 00:13:46,960
+poor end up with the government having no
+
+317
+00:13:46,960 --> 00:13:49,000
+assets and themselves having no assets.
+
+318
+00:13:49,000 --> 00:13:51,240
+This is a really, really good example of how
+
+319
+00:13:51,240 --> 00:13:54,840
+in stage one of the squeeze out asset prices
+
+320
+00:13:54,840 --> 00:13:56,720
+get pushed up and up and up and up and up, and
+
+321
+00:13:56,720 --> 00:13:59,560
+that squeezes out the weakest hands in society
+
+322
+00:13:59,560 --> 00:14:01,760
+who are in the first place, the working class.
+
+323
+00:14:01,760 --> 00:14:04,720
+But the working class often, and this is not
+
+324
+00:14:04,720 --> 00:14:06,280
+just the working class, the squeezed out class
+
+325
+00:14:06,280 --> 00:14:09,200
+often enjoys it because they are able to consume
+
+326
+00:14:09,200 --> 00:14:11,840
+more while they are dis-saving their wealth.
+
+327
+00:14:11,840 --> 00:14:13,440
+And they often don't look down the line and
+
+328
+00:14:13,440 --> 00:14:15,080
+think, "What's gonna happen when we don't
+
+329
+00:14:15,080 --> 00:14:18,800
+have any wealth left?" So what you see here is
+
+330
+00:14:18,800 --> 00:14:23,080
+weaker and weaker hands dis-saving their assets,
+
+331
+00:14:23,080 --> 00:14:25,560
+getting poorer and poorer in wealth terms, but
+
+332
+00:14:25,560 --> 00:14:27,720
+using that to sustain a good quality of life.
+
+333
+00:14:27,720 --> 00:14:30,960
+And I think I'll just make it clear what dis-saving is.
+
+334
+00:14:30,960 --> 00:14:33,480
+Dis-saving is I have some wealth
+
+335
+00:14:33,480 --> 00:14:36,800
+and I'm gonna, for a period of time, spend more
+
+336
+00:14:36,800 --> 00:14:39,800
+than my income by basically selling the wealth
+
+337
+00:14:39,800 --> 00:14:42,680
+that I have to the rich or by taking on debt.
+
+338
+00:14:42,680 --> 00:14:44,880
+So dis-saving is... dis-saving is really a key
+
+339
+00:14:44,880 --> 00:14:46,600
+concept to understanding the squeeze out, which
+
+340
+00:14:46,600 --> 00:14:49,040
+is, I have some assets, over time I sell them
+
+341
+00:14:49,040 --> 00:14:51,360
+to the rich, and that enables me to live a good
+
+342
+00:14:51,360 --> 00:14:54,840
+quality of life while I'm being squeezed out.
+
+343
+00:14:54,840 --> 00:14:56,520
+So you kind of have people cheering
+
+344
+00:14:56,520 --> 00:14:58,480
+on their own demise in a sense.
+
+345
+00:14:58,480 --> 00:15:00,080
+But over time, less and less
+
+346
+00:15:00,080 --> 00:15:02,520
+and less poor people own homes.
+
+347
+00:15:02,520 --> 00:15:04,480
+The asset price goes up and up.
+
+348
+00:15:04,480 --> 00:15:05,960
+Rich people are accumulating more
+
+349
+00:15:05,960 --> 00:15:07,920
+wealth and accumulating more money.
+
+350
+00:15:07,920 --> 00:15:09,720
+And you reach a situation where the only
+
+351
+00:15:09,720 --> 00:15:12,160
+way for especially the working class,
+
+352
+00:15:12,160 --> 00:15:15,320
+but also often the middle class, to own
+
+353
+00:15:15,320 --> 00:15:17,120
+homes, to compete with the rich for ownership
+
+354
+00:15:17,120 --> 00:15:20,400
+of homes, is to borrow the money from the rich.
+
+355
+00:15:20,400 --> 00:15:23,280
+So you're seeing less ownership of property and
+
+356
+00:15:23,280 --> 00:15:26,680
+increasing levels of debt, increasing size of mortgages.
+
+357
+00:15:26,680 --> 00:15:28,640
+And this keeps happening.
+
+358
+00:15:28,640 --> 00:15:30,320
+The rich get richer and richer and richer,
+
+359
+00:15:30,320 --> 00:15:32,400
+house prices go up and up and up and up, levels
+
+360
+00:15:32,400 --> 00:15:34,720
+of debt increase and increase and increase.
+
+361
+00:15:34,720 --> 00:15:38,200
+And eventually you reach a point where the rich are
+
+362
+00:15:38,200 --> 00:15:40,800
+looking at the poor and the middle class and they're
+
+363
+00:15:40,800 --> 00:15:43,880
+saying, "Well, you don't have any assets anymore.
+
+364
+00:15:43,880 --> 00:15:46,360
+You are in a massive amount of debt to us.
+
+365
+00:15:46,360 --> 00:15:49,760
+We don't think you are creditworthy anymore." And
+
+366
+00:15:49,760 --> 00:15:53,520
+that is when you enter stage two of the squeeze out.
+
+367
+00:15:53,520 --> 00:15:55,200
+So when we get to stage two, you have
+
+368
+00:15:55,200 --> 00:15:57,320
+this problem where basically a big chunk
+
+369
+00:15:57,320 --> 00:15:59,400
+of society can't borrow money anymore.
+
+370
+00:15:59,400 --> 00:16:02,360
+And this happens in 2008.
+
+371
+00:16:02,360 --> 00:16:05,640
+So up until 2008, a big chunk of society is
+
+372
+00:16:05,640 --> 00:16:07,280
+getting squeezed out, but they're able to still
+
+373
+00:16:07,280 --> 00:16:10,080
+spend because the rich are lending to them.
+
+374
+00:16:10,080 --> 00:16:11,360
+They basically reach a point where the
+
+375
+00:16:11,360 --> 00:16:13,600
+rich says, "They're no longer in good credit.
+
+376
+00:16:13,600 --> 00:16:15,000
+Let's stop lending to them." And that
+
+377
+00:16:15,000 --> 00:16:17,400
+is when you enter an economic crisis.
+
+378
+00:16:17,400 --> 00:16:19,200
+Suddenly the lending is not there.
+
+379
+00:16:19,200 --> 00:16:21,680
+This means a massive chunk of society can't afford to
+
+380
+00:16:21,680 --> 00:16:24,480
+spend and you essentially enter an economic depression.
+
+381
+00:16:24,480 --> 00:16:26,840
+People can't spend, businesses shut down.
+
+382
+00:16:26,840 --> 00:16:28,400
+That means even more people can't spend.
+
+383
+00:16:28,400 --> 00:16:31,760
+And that is for the first point in the squeeze out
+
+384
+00:16:31,760 --> 00:16:34,440
+when the rich are not only taking your assets, but
+
+385
+00:16:34,440 --> 00:16:39,240
+they start to basically not allow you to consume.
+
+386
+00:16:39,240 --> 00:16:40,880
+And what this of course means is
+
+387
+00:16:40,880 --> 00:16:43,960
+there's a massive increase in poverty.
+
+388
+00:16:43,960 --> 00:16:45,440
+Suddenly people lose their job, people
+
+389
+00:16:45,440 --> 00:16:46,760
+can't borrow, people can't spend, there's
+
+390
+00:16:46,760 --> 00:16:48,600
+a massive economic depression, and that
+
+391
+00:16:48,600 --> 00:16:51,160
+means that governments have to step in.
+
+392
+00:16:51,160 --> 00:16:54,120
+So here in Western Europe, we generally live in
+
+393
+00:16:54,120 --> 00:16:56,680
+welfare states where the governments have a kind
+
+394
+00:16:56,680 --> 00:16:59,640
+of theoretical responsibility to make sure that the
+
+395
+00:16:59,640 --> 00:17:02,600
+majority of their populations stay out of poverty.
+
+396
+00:17:02,600 --> 00:17:05,080
+But the majority of the population
+
+397
+00:17:05,080 --> 00:17:06,840
+by the beginning of stage two, they've
+
+398
+00:17:06,840 --> 00:17:08,960
+got no wealth, they've got no power.
+
+399
+00:17:08,960 --> 00:17:10,400
+They basically have no way to
+
+400
+00:17:10,400 --> 00:17:12,080
+keep themselves out of poverty.
+
+401
+00:17:12,080 --> 00:17:13,920
+So governments step in.
+
+402
+00:17:13,920 --> 00:17:16,040
+But the government has a problem, which is the rich
+
+403
+00:17:16,040 --> 00:17:17,560
+are getting richer and richer and richer and richer.
+
+404
+00:17:17,560 --> 00:17:18,960
+They have the assets.
+
+405
+00:17:18,960 --> 00:17:20,200
+This group of people, the working
+
+406
+00:17:20,200 --> 00:17:22,520
+class, they've got nothing.
+
+407
+00:17:22,520 --> 00:17:23,960
+The government needs the assets from
+
+408
+00:17:23,960 --> 00:17:26,040
+the rich to support the working class.
+
+409
+00:17:26,040 --> 00:17:27,760
+But unfortunately, the government has been very
+
+410
+00:17:27,760 --> 00:17:29,920
+reluctant to tax the rich, so they turn around to
+
+411
+00:17:29,920 --> 00:17:32,680
+the rich and they say, "What do you want in order
+
+412
+00:17:32,680 --> 00:17:35,520
+for you to allow the poor to, to live, to have a good
+
+413
+00:17:35,520 --> 00:17:37,880
+quality of life?" And the rich basically say to the
+
+414
+00:17:37,880 --> 00:17:39,760
+government the same thing that they said to the poor,
+
+415
+00:17:39,760 --> 00:17:42,200
+which was, "We want your assets and we'll
+
+416
+00:17:42,200 --> 00:17:45,680
+lend you the money." And then, then you see basically
+
+417
+00:17:45,680 --> 00:17:48,400
+the exact same thing happening to government, which
+
+418
+00:17:48,400 --> 00:17:50,680
+happened to the poor in stage one, which is the
+
+419
+00:17:50,680 --> 00:17:52,800
+rich... The government gradually sells off its
+
+420
+00:17:52,800 --> 00:17:55,400
+assets, sells off its assets, sells off its assets.
+
+421
+00:17:55,400 --> 00:17:57,560
+Government dis-saving essentially.
+
+422
+00:17:57,560 --> 00:17:59,480
+Asset prices start to go up again because the
+
+423
+00:17:59,480 --> 00:18:00,840
+rich are getting richer and richer and richer.
+
+424
+00:18:00,840 --> 00:18:03,880
+And I think it's worth noting that after 2008, even
+
+425
+00:18:03,880 --> 00:18:05,960
+though the initial move was a crash in asset prices,
+
+426
+00:18:05,960 --> 00:18:08,480
+there was then a massive increase in asset prices.
+
+427
+00:18:08,480 --> 00:18:09,560
+The government are put in the same
+
+428
+00:18:09,560 --> 00:18:11,360
+situation that the working class were in.
+
+429
+00:18:11,360 --> 00:18:14,200
+The only way they can support living standards for the
+
+430
+00:18:14,200 --> 00:18:17,320
+working class is to sell their assets and to take debt.
+
+431
+00:18:17,320 --> 00:18:19,000
+And the government gets poorer and poorer
+
+432
+00:18:19,000 --> 00:18:21,000
+and poorer, fewer and fewer assets, and
+
+433
+00:18:21,000 --> 00:18:22,720
+more and more and more and more debt.
+
+434
+00:18:22,720 --> 00:18:25,360
+And I think we'll try and flash up a graph of Thomas
+
+435
+00:18:25,360 --> 00:18:29,120
+Piketty's data on the wealth of governments, which
+
+436
+00:18:29,120 --> 00:18:31,760
+has massively, massively collapsed in the last 20 years.
+
+437
+00:18:31,760 --> 00:18:34,040
+So what you see on this graph is a graph by the
+
+438
+00:18:34,040 --> 00:18:37,720
+French economist Thomas Piketty looking at the wealth
+
+439
+00:18:37,720 --> 00:18:40,000
+levels, total amount of assets versus total amount
+
+440
+00:18:40,000 --> 00:18:43,960
+of debt of all of the world's biggest governments.
+
+441
+00:18:43,960 --> 00:18:45,800
+And what you see here is the US and also
+
+442
+00:18:45,800 --> 00:18:47,360
+European governments, basically their
+
+443
+00:18:47,360 --> 00:18:49,360
+wealth has collapsed all the way to zero.
+
+444
+00:18:49,360 --> 00:18:51,720
+It's worth noting that this graph stops before
+
+445
+00:18:51,720 --> 00:18:54,680
+COVID, and in COVID, these wealth levels collapsed.
+
+446
+00:18:54,680 --> 00:18:57,680
+So what you have now is a situation where basically
+
+447
+00:18:57,680 --> 00:19:00,240
+western governments are not only zero wealth,
+
+448
+00:19:00,240 --> 00:19:03,080
+they're actually massively in negative wealth.
+
+449
+00:19:03,080 --> 00:19:05,560
+And this is a perfect example of the government
+
+450
+00:19:05,560 --> 00:19:07,280
+being squeezed out, just like the poor were.
+
+451
+00:19:07,280 --> 00:19:08,480
+So what you have there is basically stage
+
+452
+00:19:08,480 --> 00:19:10,360
+two and stage three of the squeeze out.
+
+453
+00:19:10,360 --> 00:19:12,400
+Stage two is the economic depression.
+
+454
+00:19:12,400 --> 00:19:13,960
+Ordinary people can't spend.
+
+455
+00:19:13,960 --> 00:19:15,560
+Suddenly there is a collapse in consumption,
+
+456
+00:19:15,560 --> 00:19:17,400
+a first collapse in living standards.
+
+457
+00:19:17,400 --> 00:19:19,880
+And stage three is the government stepping in, the
+
+458
+00:19:19,880 --> 00:19:21,880
+government supporting living standards, but the
+
+459
+00:19:21,880 --> 00:19:24,560
+government gradually itself getting squeezed out.
+
+460
+00:19:24,560 --> 00:19:26,080
+Eventually when the government runs out of
+
+461
+00:19:26,080 --> 00:19:27,720
+wealth and is too far in debt to borrow any
+
+462
+00:19:27,720 --> 00:19:30,240
+further, that is when we enter stage four.
+
+463
+00:19:30,240 --> 00:19:33,120
+So stage four is basically where we are now.
+
+464
+00:19:33,120 --> 00:19:36,040
+And I think stage four perfectly explains what is
+
+465
+00:19:36,040 --> 00:19:38,840
+happening now to the UK government, what increasingly
+
+466
+00:19:38,840 --> 00:19:41,000
+will happen to the US government, what increasingly
+
+467
+00:19:41,000 --> 00:19:43,240
+will happen to European governments, which is
+
+468
+00:19:43,240 --> 00:19:46,520
+the government has tried to step in to protect
+
+469
+00:19:46,520 --> 00:19:48,040
+the poor who are having their wealth squeezed
+
+470
+00:19:48,040 --> 00:19:50,960
+out by this rapidly growing wealth of the rich.
+
+471
+00:19:50,960 --> 00:19:53,520
+And as a result of doing that, they have
+
+472
+00:19:53,520 --> 00:19:55,080
+had their own wealth squeezed out, and
+
+473
+00:19:55,080 --> 00:19:57,200
+now they have no wealth left either.
+
+474
+00:19:57,200 --> 00:19:59,680
+And they are left in a situation where
+
+475
+00:19:59,680 --> 00:20:01,920
+there's basically nothing they can do.
+
+476
+00:20:01,920 --> 00:20:03,520
+Well, there is one thing they could do.
+
+477
+00:20:03,520 --> 00:20:05,400
+They could tax the rich, but whilst that is off
+
+478
+00:20:05,400 --> 00:20:07,960
+the table, they really simply have no choice
+
+479
+00:20:07,960 --> 00:20:10,280
+but to shut down the welfare states, because
+
+480
+00:20:10,280 --> 00:20:12,720
+we are moving back to that pre-World War II
+
+481
+00:20:12,720 --> 00:20:14,840
+period where all of the wealth, all of the
+
+482
+00:20:14,840 --> 00:20:17,600
+assets, all of the power are held by the rich.
+
+483
+00:20:17,600 --> 00:20:19,560
+The working class have nothing left.
+
+484
+00:20:19,560 --> 00:20:20,920
+The government have nothing left.
+
+485
+00:20:20,920 --> 00:20:23,600
+They have no wealth in order to provide you with
+
+486
+00:20:23,600 --> 00:20:25,600
+the things which they are supposed to provide you.
+
+487
+00:20:25,600 --> 00:20:27,960
+So what you see and what we have seen in the last 10, 15
+
+488
+00:20:27,960 --> 00:20:30,080
+years and what we will see more aggressively in the next
+
+489
+00:20:30,080 --> 00:20:33,640
+10 years is basically the shutting down of government.
+
+490
+00:20:33,640 --> 00:20:36,440
+So you see the closing of local services, you
+
+491
+00:20:36,440 --> 00:20:38,520
+see the aggressive contraction of welfare,
+
+492
+00:20:38,520 --> 00:20:40,240
+you see the defunding of the courts and the
+
+493
+00:20:40,240 --> 00:20:42,120
+defunding of the police, and eventually the
+
+494
+00:20:42,120 --> 00:20:45,240
+defunding of things like education and healthcare.
+
+495
+00:20:45,240 --> 00:20:47,920
+We saw the defunding of social housing a long time ago.
+
+496
+00:20:47,920 --> 00:20:49,360
+Basically because the government have been
+
+497
+00:20:49,360 --> 00:20:54,040
+squeezed out, they have no choice but to
+
+498
+00:20:54,040 --> 00:20:57,480
+basically shut down all of these services.
+
+499
+00:20:57,480 --> 00:21:01,200
+And I think, I think this is the part of the discussion
+
+500
+00:21:01,200 --> 00:21:03,160
+which is never really spoken about by economists
+
+501
+00:21:03,160 --> 00:21:04,480
+and never really spoken about in the media.
+
+502
+00:21:04,480 --> 00:21:06,760
+I think what you will have seen... And we are shooting
+
+503
+00:21:06,760 --> 00:21:08,680
+this before the spring statement came out, by the way.
+
+504
+00:21:08,680 --> 00:21:11,080
+But what you will have seen is the government...
+
+505
+00:21:11,080 --> 00:21:14,640
+the media talking a lot about fiscal rules without
+
+506
+00:21:14,640 --> 00:21:18,400
+really recognising the underlying reality, which is all
+
+507
+00:21:18,400 --> 00:21:21,640
+of the wealth has gone increasingly to a small elite.
+
+508
+00:21:21,640 --> 00:21:23,440
+And that means that the government really, if
+
+509
+00:21:23,440 --> 00:21:24,800
+they're not willing to tax the elite with that
+
+510
+00:21:24,800 --> 00:21:27,880
+wealth, the only option they have is to try and
+
+511
+00:21:27,880 --> 00:21:30,720
+squeeze as much as they can the one remaining
+
+512
+00:21:30,720 --> 00:21:33,080
+section of society which has a bit of wealth and
+
+513
+00:21:33,080 --> 00:21:35,440
+has a bit of power, which is the middle class.
+
+514
+00:21:35,440 --> 00:21:37,400
+And that is kind of what the government is doing.
+
+515
+00:21:37,400 --> 00:21:39,480
+They're trying to fill this middle gap
+
+516
+00:21:39,480 --> 00:21:40,760
+of, "We're gonna tax the middle class
+
+517
+00:21:40,760 --> 00:21:41,760
+because they're the only guys with wealth.
+
+518
+00:21:41,760 --> 00:21:44,360
+We're gonna try to borrow from the rich." But really
+
+519
+00:21:44,360 --> 00:21:47,840
+all that does is further squeeze out the next weakest
+
+520
+00:21:47,840 --> 00:21:51,240
+hand, which is the middle class, and further enrich
+
+521
+00:21:51,240 --> 00:21:54,600
+the guys who are doing the squeezing, which is the rich.
+
+522
+00:21:54,600 --> 00:21:56,040
+And then you end up in a situation which
+
+523
+00:21:56,040 --> 00:21:57,840
+I think increasingly we are coming into
+
+524
+00:21:57,840 --> 00:21:59,880
+and we will come into, where basically
+
+525
+00:21:59,880 --> 00:22:02,720
+nobody has any wealth except for the rich.
+
+526
+00:22:02,720 --> 00:22:05,080
+And then what you start to see is the
+
+527
+00:22:05,080 --> 00:22:07,520
+physical transformation of society,
+
+528
+00:22:07,520 --> 00:22:10,760
+which is, we have lived for the last 70 years
+
+529
+00:22:10,760 --> 00:22:13,720
+in middle class, working class societies.
+
+530
+00:22:13,720 --> 00:22:16,440
+And what I mean by that is we have lived in societies
+
+531
+00:22:16,440 --> 00:22:19,880
+which unusually have provided things such as good
+
+532
+00:22:19,880 --> 00:22:22,480
+quality housing and education and healthcare and goods
+
+533
+00:22:22,480 --> 00:22:25,520
+and services to the middle class and the working class.
+
+534
+00:22:25,520 --> 00:22:28,120
+But those guys have no wealth and no power anymore.
+
+535
+00:22:28,120 --> 00:22:29,960
+So you need to change what you produce, you
+
+536
+00:22:29,960 --> 00:22:31,320
+need to change the physical shape of your
+
+537
+00:22:31,320 --> 00:22:34,360
+economy, and you need to stop producing things
+
+538
+00:22:34,360 --> 00:22:36,600
+for the working class, stop producing things for the
+
+539
+00:22:36,600 --> 00:22:40,160
+middle class and start producing only for the rich.
+
+540
+00:22:40,160 --> 00:22:42,400
+And I think a couple good historical examples of
+
+541
+00:22:42,400 --> 00:22:46,600
+these are the famous potato famine in Ireland where
+
+542
+00:22:46,600 --> 00:22:48,880
+basically food was being grown in Ireland
+
+543
+00:22:48,880 --> 00:22:51,840
+and exported to rich people who... while
+
+544
+00:22:51,840 --> 00:22:53,880
+the Irish died because they were poor.
+
+545
+00:22:53,880 --> 00:22:56,880
+I think of the famines in India where people were
+
+546
+00:22:56,880 --> 00:22:58,720
+dying in India because the fields were growing
+
+547
+00:22:58,720 --> 00:23:00,880
+tea that was being sent halfway across the world.
+
+548
+00:23:00,880 --> 00:23:01,960
+I think another great
+
+549
+00:23:01,960 --> 00:23:03,960
+example of that is, is MrBeast.
+
+550
+00:23:03,960 --> 00:23:07,040
+MrBeast goes to Africa, he spends $500 to
+
+551
+00:23:07,040 --> 00:23:09,240
+give a kid their eyesight back forever.
+
+552
+00:23:09,240 --> 00:23:12,280
+The reason that that kid doesn't have his eyesight is
+
+553
+00:23:12,280 --> 00:23:15,280
+because he lives in a very unequal country, he is a
+
+554
+00:23:15,280 --> 00:23:18,560
+member of the poor class, he does not get anything.
+
+555
+00:23:18,560 --> 00:23:19,960
+He's been fully squeezed out.
+
+556
+00:23:19,960 --> 00:23:22,920
+The resources that he needs to get his eyesight back are
+
+557
+00:23:22,920 --> 00:23:25,040
+being used by the rich and he can't compete with them.
+
+558
+00:23:25,040 --> 00:23:28,040
+So you need to move into a completely transformed
+
+559
+00:23:28,040 --> 00:23:31,400
+society, which does not produce anything
+
+560
+00:23:31,400 --> 00:23:32,800
+for the poor or for the middle class.
+
+561
+00:23:32,800 --> 00:23:34,760
+I think the best example you can see of
+
+562
+00:23:34,760 --> 00:23:37,440
+that, especially here where I live, is housing.
+
+563
+00:23:37,440 --> 00:23:40,440
+So I grew up in Ilford, in East London.
+
+564
+00:23:40,440 --> 00:23:42,760
+It was a, it was a working class street we
+
+565
+00:23:42,760 --> 00:23:44,800
+grew up in, it was quite a working class town.
+
+566
+00:23:44,800 --> 00:23:46,160
+lots of small families
+
+567
+00:23:46,160 --> 00:23:47,920
+living in small terraced houses.
+
+568
+00:23:47,920 --> 00:23:49,920
+But it was respectable, it was dignified.
+
+569
+00:23:49,920 --> 00:23:51,320
+There was a degree of space.
+
+570
+00:23:51,320 --> 00:23:53,360
+And if you go back to Ilford now, you'll
+
+571
+00:23:53,360 --> 00:23:55,760
+see that physical transformation, which is
+
+572
+00:23:55,760 --> 00:23:57,800
+all of those houses have been expanded up,
+
+573
+00:23:57,800 --> 00:23:59,440
+they've been expanded back, they're rented
+
+574
+00:23:59,440 --> 00:24:01,560
+out by the room, quality of life is very low.
+
+575
+00:24:01,560 --> 00:24:03,000
+It's basically a slum.
+
+576
+00:24:03,000 --> 00:24:05,080
+There's all of these enormous blocks of tiny,
+
+577
+00:24:05,080 --> 00:24:07,040
+tiny flats which have very low standard of
+
+578
+00:24:07,040 --> 00:24:09,000
+living inside them. And what you are seeing
+
+579
+00:24:09,000 --> 00:24:11,080
+here is the building of the slum.
+
+580
+00:24:11,080 --> 00:24:13,560
+And if you go into Central London, you will see these
+
+581
+00:24:13,560 --> 00:24:16,320
+unbelievably luxurious flats being built everywhere.
+
+582
+00:24:16,320 --> 00:24:18,280
+You will see luxurious restaurants, luxurious
+
+583
+00:24:18,280 --> 00:24:20,480
+hotels, luxurious bars, absolutely full of
+
+584
+00:24:20,480 --> 00:24:22,640
+rich people because rich people have taken
+
+585
+00:24:22,640 --> 00:24:24,240
+all the wealth, they've squeezed everyone else
+
+586
+00:24:24,240 --> 00:24:26,760
+out, and they are taking all the resources.
+
+587
+00:24:26,760 --> 00:24:27,880
+So this is it, really.
+
+588
+00:24:27,880 --> 00:24:30,360
+This is what is dominating the government situation, which
+
+589
+00:24:30,360 --> 00:24:34,000
+is not getting spoken about much, which is weak hands
+
+590
+00:24:34,000 --> 00:24:36,880
+are being progressively squeezed out of our society.
+
+591
+00:24:36,880 --> 00:24:38,400
+I think if you're from the working
+
+592
+00:24:38,400 --> 00:24:39,880
+class, if you're from a poor family,
+
+593
+00:24:39,880 --> 00:24:41,760
+you've been able to see that for a while.
+
+594
+00:24:41,760 --> 00:24:44,160
+If you're from a more middle-class situation, you
+
+595
+00:24:44,160 --> 00:24:47,640
+might not have realised it's starting coming for you.
+
+596
+00:24:47,640 --> 00:24:49,480
+But this is the way that it goes.
+
+597
+00:24:49,480 --> 00:24:51,520
+The working class gets squeezed out first, then
+
+598
+00:24:51,520 --> 00:24:53,440
+the government gets squeezed out, then the middle
+
+599
+00:24:53,440 --> 00:24:55,480
+class gets squeezed out, and eventually you move
+
+600
+00:24:55,480 --> 00:24:58,880
+to this kind of South Africa-style, Brazil-style,
+
+601
+00:24:58,880 --> 00:25:01,160
+India-style economy where everything is owned
+
+602
+00:25:01,160 --> 00:25:04,040
+by the rich and no one else has anything left.
+
+603
+00:25:04,040 --> 00:25:07,320
+This is what is dominating our political narrative.
+
+604
+00:25:07,320 --> 00:25:09,800
+And unless the government does something
+
+605
+00:25:09,800 --> 00:25:13,640
+about this squeeze out, there will be
+
+606
+00:25:13,640 --> 00:25:15,080
+basically nothing that they can do.
+
+607
+00:25:15,080 --> 00:25:18,000
+And this will simply go further and further.
+
+608
+00:25:18,000 --> 00:25:19,560
+It will get worse and worse.
+
+609
+00:25:19,560 --> 00:25:21,200
+I think it's interesting to ask, what do the
+
+610
+00:25:21,200 --> 00:25:23,280
+rich do once they've squeezed everybody else out?
+
+611
+00:25:23,280 --> 00:25:24,360
+Because at this point, they will have
+
+612
+00:25:24,360 --> 00:25:26,280
+enormous amounts of passive income.
+
+613
+00:25:26,280 --> 00:25:28,640
+There'll be no weak hands to squeeze out of the economy.
+
+614
+00:25:28,640 --> 00:25:31,640
+The only thing that they can do with their enormous
+
+615
+00:25:31,640 --> 00:25:33,000
+income, their enormous wealth, their enormous
+
+616
+00:25:33,000 --> 00:25:36,080
+resources, is try to squeeze out each other.
+
+617
+00:25:36,080 --> 00:25:39,320
+And historically, that basically means war.
+
+618
+00:25:39,320 --> 00:25:40,400
+The rich have everything.
+
+619
+00:25:40,400 --> 00:25:41,080
+They want more.
+
+620
+00:25:41,080 --> 00:25:43,280
+The only people you can take from are other rich people.
+
+621
+00:25:43,280 --> 00:25:45,280
+And, you know, this is the history of Europe, you know.
+
+622
+00:25:45,280 --> 00:25:47,200
+And World War II essentially was the
+
+623
+00:25:47,200 --> 00:25:49,320
+climax of it, you know, the Holocaust,
+
+624
+00:25:49,320 --> 00:25:51,360
+the nuclear bombing of Japan.
+
+625
+00:25:51,360 --> 00:25:54,480
+This basically was the logical endpoint of the continual
+
+626
+00:25:54,480 --> 00:25:56,120
+squeeze out, which is the rich take more, the rich
+
+627
+00:25:56,120 --> 00:25:57,520
+take more, the rich take more, the rich takes more.
+
+628
+00:25:57,520 --> 00:26:00,200
+And eventually, you have nothing, and you're
+
+629
+00:26:00,200 --> 00:26:02,080
+worthless, and you can be used as a pawn in a war.
+
+630
+00:26:02,080 --> 00:26:04,760
+But we're not there yet.
+
+631
+00:26:04,760 --> 00:26:07,000
+What I wanna talk about right now is how this is
+
+632
+00:26:07,000 --> 00:26:08,880
+relevant to the statement that came out in the
+
+633
+00:26:08,880 --> 00:26:13,280
+week, which is, the government is essentially
+
+634
+00:26:13,280 --> 00:26:16,200
+rowing a boat with a massive hole in the bottom.
+
+635
+00:26:16,200 --> 00:26:18,200
+Your wealth is being squeezed out.
+
+636
+00:26:18,200 --> 00:26:19,520
+You are losing your power.
+
+637
+00:26:19,520 --> 00:26:21,200
+The government is losing wealth and power.
+
+638
+00:26:21,200 --> 00:26:22,040
+The rich are getting richer and
+
+639
+00:26:22,040 --> 00:26:23,720
+richer and richer every day.
+
+640
+00:26:23,720 --> 00:26:25,000
+And the reality of that is
+
+641
+00:26:25,000 --> 00:26:27,160
+you simply have to get poorer.
+
+642
+00:26:27,160 --> 00:26:29,440
+You are losing your relative position in society.
+
+643
+00:26:29,440 --> 00:26:32,800
+And until you, the working class, the middle classes
+
+644
+00:26:32,800 --> 00:26:35,960
+of the UK, the US, and the government are willing
+
+645
+00:26:35,960 --> 00:26:38,560
+to start putting that in reverse, there simply is
+
+646
+00:26:38,560 --> 00:26:41,160
+no alternative other than to shut the welfare state
+
+647
+00:26:41,160 --> 00:26:44,200
+down and to basically drive yourself into poverty.
+
+648
+00:26:44,200 --> 00:26:46,720
+Okay, so to recap, the squeeze out is why the
+
+649
+00:26:46,720 --> 00:26:48,440
+government is destroying your living standards.
+
+650
+00:26:48,440 --> 00:26:49,720
+It's why you and your family and
+
+651
+00:26:49,720 --> 00:26:51,520
+your kids will be increasingly poor.
+
+652
+00:26:51,520 --> 00:26:53,360
+There are five stages of the squeeze out.
+
+653
+00:26:53,360 --> 00:26:55,880
+Stage one, the rich starts to accumulate money.
+
+654
+00:26:55,880 --> 00:26:57,440
+They drive asset prices up, and they
+
+655
+00:26:57,440 --> 00:26:59,880
+out-compete the working class for resources,
+
+656
+00:26:59,880 --> 00:27:01,600
+and they drive the working class into debt.
+
+657
+00:27:01,600 --> 00:27:04,960
+Stage two, the working class have run out of resources.
+
+658
+00:27:04,960 --> 00:27:06,120
+They can no longer borrow anymore.
+
+659
+00:27:06,120 --> 00:27:07,520
+They can no longer spend anymore.
+
+660
+00:27:07,520 --> 00:27:09,880
+You get an economic depression and a crisis.
+
+661
+00:27:09,880 --> 00:27:11,760
+That's when the government has to step in.
+
+662
+00:27:11,760 --> 00:27:13,960
+Stage three, the government increasingly
+
+663
+00:27:13,960 --> 00:27:15,560
+runs out of resources as well.
+
+664
+00:27:15,560 --> 00:27:17,000
+The government too becomes
+
+665
+00:27:17,000 --> 00:27:18,600
+massively in debt to the rich.
+
+666
+00:27:18,600 --> 00:27:20,280
+That's when we enter stage four.
+
+667
+00:27:20,280 --> 00:27:21,880
+The government has no choice but to
+
+668
+00:27:21,880 --> 00:27:23,960
+slowly eviscerate the middle class.
+
+669
+00:27:23,960 --> 00:27:25,920
+Eventually, there is no wealth left other
+
+670
+00:27:25,920 --> 00:27:28,080
+than that held by the rich, and the physical
+
+671
+00:27:28,080 --> 00:27:30,560
+structure of your society changes such that
+
+672
+00:27:30,560 --> 00:27:33,320
+it only supports consumption for rich people.
+
+673
+00:27:33,320 --> 00:27:35,320
+At this point, almost everybody in the
+
+674
+00:27:35,320 --> 00:27:37,320
+country lives in desperate poverty.
+
+675
+00:27:37,320 --> 00:27:39,080
+Stage five, there are no weak
+
+676
+00:27:39,080 --> 00:27:40,760
+hands left to be squeezed out.
+
+677
+00:27:40,760 --> 00:27:43,000
+The rich own everything, and the only way they
+
+678
+00:27:43,000 --> 00:27:45,080
+can try to grow their wealth is by sending
+
+679
+00:27:45,080 --> 00:27:47,600
+you to fight in their wars against each other.
+
+680
+00:27:47,600 --> 00:27:50,040
+So another, characteristically
+
+681
+00:27:50,040 --> 00:27:51,840
+depressing video from Garys Economics.
+
+682
+00:27:51,840 --> 00:27:54,440
+Listen, I wanna make it clear.
+
+683
+00:27:54,440 --> 00:27:56,080
+Your grandparents fought for a better
+
+684
+00:27:56,080 --> 00:27:58,280
+settlement, and they got a better settlement.
+
+685
+00:27:58,280 --> 00:28:01,680
+They lived in a world where there was desperate
+
+686
+00:28:01,680 --> 00:28:03,160
+widespread poverty,
+
+687
+00:28:03,160 --> 00:28:03,560
+and they fought for
+
+688
+00:28:03,560 --> 00:28:05,520
+something better, and they got something better.
+
+689
+00:28:05,520 --> 00:28:06,320
+They understood the only way
+
+690
+00:28:06,320 --> 00:28:08,760
+to do that was to tax the rich.
+
+691
+00:28:08,760 --> 00:28:09,480
+We're campaigning on this
+
+692
+00:28:09,480 --> 00:28:11,400
+channel to tax wealth, not work.
+
+693
+00:28:11,400 --> 00:28:13,680
+We are reaching out to the guys at Labour.
+
+694
+00:28:13,680 --> 00:28:15,600
+We would love them to talk to us about policy.
+
+695
+00:28:15,600 --> 00:28:19,720
+This will get worse.
+
+696
+00:28:19,720 --> 00:28:21,920
+Until the government gets serious about taxing
+
+697
+00:28:21,920 --> 00:28:24,440
+the rich, there's basically nothing they can do.
+
+698
+00:28:24,440 --> 00:28:27,440
+I'm gonna try to make them serious about it,
+
+699
+00:28:27,440 --> 00:28:30,080
+and your support is the only power that I have.
+
+700
+00:28:30,080 --> 00:28:32,920
+So support the channel, share it with your friends,
+
+701
+00:28:32,920 --> 00:28:34,840
+share with your family, send it to your mum,
+
+702
+00:28:34,840 --> 00:28:37,720
+send it to Rachel Reeves, maybe she's interested.
+
+703
+00:28:37,720 --> 00:28:39,120
+If you lose all your wealth, you lose all
+
+704
+00:28:39,120 --> 00:28:41,160
+your power, and you lose everything else.
+
+705
+00:28:41,160 --> 00:28:42,200
+Stop the squeeze out.
+
+706
+00:28:42,200 --> 00:28:43,320
+Take the wealth back.
+
+707
+00:28:43,320 --> 00:28:44,240
+Tax wealth, not work.
+
+708
+00:28:44,240 --> 00:28:45,000
+Thank you.

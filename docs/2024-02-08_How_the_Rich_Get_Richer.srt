@@ -1,0 +1,999 @@
+﻿1
+00:00:00,120 --> 00:00:02,280
+Okay, welcome back to Gary's economics.
+
+2
+00:00:02,280 --> 00:00:07,000
+Today, we are going to explain why the rich get richer.
+
+3
+00:00:09,120 --> 00:00:10,680
+All right. So I was talking the other day
+
+4
+00:00:10,680 --> 00:00:13,040
+to a good friend of mine,
+
+5
+00:00:13,040 --> 00:00:17,120
+a Dutch guy who I studied economics with back at Oxford
+
+6
+00:00:17,120 --> 00:00:19,560
+when I was doing my Master's in ‘17 to ’19.
+
+7
+00:00:19,560 --> 00:00:23,400
+And when I was at Oxford, I was very adamant,
+
+8
+00:00:23,400 --> 00:00:25,080
+very adamant that the
+
+9
+00:00:25,080 --> 00:00:27,120
+economy would get worse and worse for ordinary people.
+
+10
+00:00:27,120 --> 00:00:28,480
+Living standards would fall
+
+11
+00:00:28,480 --> 00:00:31,400
+because inequality was increasing and increasing.
+
+12
+00:00:31,400 --> 00:00:33,720
+Now, this is not a popular idea
+
+13
+00:00:33,720 --> 00:00:37,080
+in modern university, academic economics.
+
+14
+00:00:37,080 --> 00:00:40,960
+And this guy sort of was quite skeptical at the time,
+
+15
+00:00:40,960 --> 00:00:43,560
+but it's obviously been five or six years since then.
+
+16
+00:00:43,560 --> 00:00:45,240
+And he and I
+
+17
+00:00:45,240 --> 00:00:46,920
+and you have seen
+
+18
+00:00:46,920 --> 00:00:48,440
+inequality massively increase
+
+19
+00:00:48,440 --> 00:00:50,480
+and living standards massively decrease.
+
+20
+00:00:50,480 --> 00:00:52,960
+And he's kind of started to be convinced
+
+21
+00:00:52,960 --> 00:00:55,440
+that I'm correct, which
+
+22
+00:00:55,440 --> 00:00:56,960
+if you stick with my channel for long enough
+
+23
+00:00:56,960 --> 00:00:58,200
+and keep seeing my predictions
+
+24
+00:00:58,200 --> 00:00:59,960
+be right, hopefully you will be too.
+
+25
+00:00:59,960 --> 00:01:02,520
+So he messaged me the other day, and he was like, look,
+
+26
+00:01:02,520 --> 00:01:04,240
+I think you're right.
+
+27
+00:01:04,240 --> 00:01:07,200
+Inequality is just destroying the economy.
+
+28
+00:01:07,200 --> 00:01:09,200
+I think it's important,
+
+29
+00:01:09,200 --> 00:01:10,920
+we need to do something about it.
+
+30
+00:01:10,920 --> 00:01:16,200
+But he asked me, why is it that suddenly now
+
+31
+00:01:16,200 --> 00:01:17,040
+in the last
+
+32
+00:01:17,040 --> 00:01:18,440
+twenty years, ten years,
+
+33
+00:01:18,440 --> 00:01:19,560
+especially the last five years,
+
+34
+00:01:19,560 --> 00:01:23,040
+why is inequality increasing now?
+
+35
+00:01:23,040 --> 00:01:27,240
+What is actually causing the increase in inequality?
+
+36
+00:01:27,240 --> 00:01:28,720
+And I thought that was a really interesting question
+
+37
+00:01:28,720 --> 00:01:30,120
+and something that was worth
+
+38
+00:01:30,120 --> 00:01:32,400
+discussing and explaining on the channel.
+
+39
+00:01:32,400 --> 00:01:34,920
+So I think the first thing you need to know
+
+40
+00:01:34,920 --> 00:01:36,720
+in order to answer that question
+
+41
+00:01:36,720 --> 00:01:40,080
+is that for the vast majority of human history,
+
+42
+00:01:40,080 --> 00:01:43,320
+at least in the last 2000 years,
+
+43
+00:01:43,320 --> 00:01:45,440
+human societies have been extremely unequal
+
+44
+00:01:45,440 --> 00:01:47,240
+and living standards have been, in most cases,
+
+45
+00:01:47,240 --> 00:01:48,440
+very, very low.
+
+46
+00:01:48,440 --> 00:01:51,560
+It was only really after the Second World War
+
+47
+00:01:51,560 --> 00:01:54,000
+that inequality decreased significantly
+
+48
+00:01:54,000 --> 00:01:55,720
+in parts of the world,
+
+49
+00:01:55,720 --> 00:01:57,960
+here in the UK, in Western Europe,
+
+50
+00:01:57,960 --> 00:02:00,840
+North America, places like Japan.
+
+51
+00:02:00,840 --> 00:02:02,000
+But of course in the rest of the world,
+
+52
+00:02:02,000 --> 00:02:03,360
+inequality stayed very high
+
+53
+00:02:03,360 --> 00:02:05,200
+and living standards stayed very low.
+
+54
+00:02:05,200 --> 00:02:08,000
+But if you go back and look before World War Two,
+
+55
+00:02:08,000 --> 00:02:10,040
+basically most of history is
+
+56
+00:02:10,040 --> 00:02:11,840
+extremely unequal societies.
+
+57
+00:02:11,840 --> 00:02:14,400
+So I think in order to answer the question,
+
+58
+00:02:14,400 --> 00:02:17,200
+why is inequality rising now?
+
+59
+00:02:17,200 --> 00:02:19,560
+You first need to understand that
+
+60
+00:02:19,560 --> 00:02:25,440
+really it is the last 70 years that are the exception.
+
+61
+00:02:25,440 --> 00:02:29,280
+What we have had is an exceptional period
+
+62
+00:02:29,280 --> 00:02:31,600
+only in certain places, which is that
+
+63
+00:02:31,600 --> 00:02:33,600
+Western Europe, North America,
+
+64
+00:02:33,600 --> 00:02:35,800
+Japan, Australia, a few other places
+
+65
+00:02:35,800 --> 00:02:37,480
+have had historically
+
+66
+00:02:37,480 --> 00:02:38,720
+very equal,
+
+67
+00:02:38,720 --> 00:02:39,960
+low inequality societies
+
+68
+00:02:39,960 --> 00:02:42,720
+for 70 years and very high living standards.
+
+69
+00:02:42,720 --> 00:02:43,720
+That's not normal.
+
+70
+00:02:43,720 --> 00:02:46,160
+That didn't exist
+
+71
+00:02:46,160 --> 00:02:50,040
+almost ever basically. It was a specific period.
+
+72
+00:02:50,040 --> 00:02:52,200
+So the reason that I mention that is
+
+73
+00:02:52,200 --> 00:02:55,200
+it's not actually something
+
+74
+00:02:55,200 --> 00:02:57,240
+unusual that is happening now,
+
+75
+00:02:57,240 --> 00:02:59,800
+that inequality is becoming very large.
+
+76
+00:02:59,800 --> 00:03:03,120
+This is actually the norm.
+
+77
+00:03:03,120 --> 00:03:05,640
+So I think if we look at human history,
+
+78
+00:03:05,640 --> 00:03:09,480
+we kind of have to accept that human societies
+
+79
+00:03:09,480 --> 00:03:12,640
+tend towards very high levels of inequality.
+
+80
+00:03:12,640 --> 00:03:15,000
+And we have a few examples
+
+81
+00:03:15,000 --> 00:03:16,440
+in the last 70 years of places
+
+82
+00:03:16,440 --> 00:03:18,080
+where that didn't happen.
+
+83
+00:03:18,080 --> 00:03:20,560
+So let's discuss why it happens,
+
+84
+00:03:20,560 --> 00:03:22,080
+why the inequality grows
+
+85
+00:03:22,080 --> 00:03:26,800
+in the context of this basically always happens.
+
+86
+00:03:26,800 --> 00:03:29,640
+And what I said to my friend was really,
+
+87
+00:03:29,640 --> 00:03:30,680
+really it’s very simple.
+
+88
+00:03:30,680 --> 00:03:33,880
+So you can look at it in the very specific case,
+
+89
+00:03:33,880 --> 00:03:37,280
+which is in our societies that we live in now.
+
+90
+00:03:37,280 --> 00:03:38,920
+What happens is you go to work,
+
+91
+00:03:38,920 --> 00:03:41,040
+you get paid your 30, 40 grand a year.
+
+92
+00:03:41,040 --> 00:03:42,600
+You spend almost all of it on
+
+93
+00:03:42,600 --> 00:03:43,400
+rent, mortgage,
+
+94
+00:03:43,400 --> 00:03:44,400
+food, bills,
+
+95
+00:03:44,400 --> 00:03:47,040
+and it goes towards the owners of the properties,
+
+96
+00:03:47,040 --> 00:03:50,720
+the owners of the debt, the owners of the
+
+97
+00:03:50,720 --> 00:03:53,520
+production, of the things that you need,
+
+98
+00:03:53,520 --> 00:03:54,840
+which is essentially rich people.
+
+99
+00:03:54,840 --> 00:03:56,640
+So you go to work, you make 40 grand,
+
+100
+00:03:56,640 --> 00:03:58,240
+you give it all to rich people.
+
+101
+00:03:58,240 --> 00:04:00,760
+They use that to buy the rest of the assets.
+
+102
+00:04:00,760 --> 00:04:02,280
+It's a relatively simple dynamic.
+
+103
+00:04:02,280 --> 00:04:04,520
+I've spoken about it a lot on the channel.
+
+104
+00:04:04,520 --> 00:04:06,520
+But this is the specific case.
+
+105
+00:04:06,520 --> 00:04:08,680
+I think what this is,
+
+106
+00:04:08,680 --> 00:04:10,240
+is a specific example
+
+107
+00:04:10,240 --> 00:04:12,520
+of basically a more general concept,
+
+108
+00:04:12,520 --> 00:04:17,200
+which is when power is unequally distributed,
+
+109
+00:04:17,200 --> 00:04:19,160
+people who have a lot of power,
+
+110
+00:04:19,160 --> 00:04:22,280
+which in our society basically means rich people
+
+111
+00:04:22,280 --> 00:04:27,360
+can use that power to dispossess the less powerful.
+
+112
+00:04:27,360 --> 00:04:28,160
+So in our society,
+
+113
+00:04:28,160 --> 00:04:31,200
+that means rich people use your salary,
+
+114
+00:04:31,200 --> 00:04:34,120
+which you've paid to them, they give it to their
+
+115
+00:04:34,120 --> 00:04:35,440
+kids, their kids buy your house.
+
+116
+00:04:35,440 --> 00:04:37,600
+Your kids don't have a house.
+
+117
+00:04:37,600 --> 00:04:40,400
+But this can manifest differently in different ways.
+
+118
+00:04:40,400 --> 00:04:41,600
+This is simply
+
+119
+00:04:41,600 --> 00:04:43,480
+a specific case of the general rule
+
+120
+00:04:43,480 --> 00:04:45,680
+that when power is unequal,
+
+121
+00:04:45,680 --> 00:04:48,120
+the powerful can dispossessed the weak.
+
+122
+00:04:48,120 --> 00:04:49,680
+And this leads very naturally
+
+123
+00:04:49,680 --> 00:04:53,400
+to an accumulation of power. I'm powerful. You're not.
+
+124
+00:04:53,400 --> 00:04:56,360
+I use that power to take your stuff. And
+
+125
+00:04:56,360 --> 00:04:57,280
+you can see this happen.
+
+126
+00:04:57,280 --> 00:04:58,000
+If you look throughout
+
+127
+00:04:58,000 --> 00:05:00,120
+sort of the history of medieval Europe.
+
+128
+00:05:00,120 --> 00:05:02,080
+What you saw was, for a period
+
+129
+00:05:02,080 --> 00:05:03,480
+it was lots of small states.
+
+130
+00:05:03,480 --> 00:05:06,160
+And then when certain kingdoms became powerful,
+
+131
+00:05:06,160 --> 00:05:09,160
+they used that power to take the kingdoms around them.
+
+132
+00:05:09,160 --> 00:05:12,840
+It's another example of this, you know,
+
+133
+00:05:12,840 --> 00:05:14,640
+this is why human history tends
+
+134
+00:05:14,640 --> 00:05:15,920
+towards high levels of inequality,
+
+135
+00:05:15,920 --> 00:05:17,760
+because once you have inequality,
+
+136
+00:05:17,760 --> 00:05:19,120
+then the rich can use their power
+
+137
+00:05:19,120 --> 00:05:22,800
+to dispossess the weak. And that's all of history.
+
+138
+00:05:22,800 --> 00:05:23,520
+That is all of history.
+
+139
+00:05:23,520 --> 00:05:25,120
+That is what happens in human societies.
+
+140
+00:05:25,120 --> 00:05:26,960
+If you look at the history of human societies,
+
+141
+00:05:26,960 --> 00:05:28,840
+human societies have always been very unequal,
+
+142
+00:05:28,840 --> 00:05:32,480
+except for one period in time,
+
+143
+00:05:32,480 --> 00:05:34,160
+70 years after the Second World War,
+
+144
+00:05:34,160 --> 00:05:35,640
+when a lot of societies
+
+145
+00:05:35,640 --> 00:05:38,160
+suddenly became much more equal.
+
+146
+00:05:38,160 --> 00:05:39,640
+Why was that?
+
+147
+00:05:39,640 --> 00:05:42,840
+I think the best clue, I always remember
+
+148
+00:05:42,840 --> 00:05:44,560
+there's a song by the Beatles.
+
+149
+00:05:44,560 --> 00:05:45,600
+I'm a big fan of the Beatles,
+
+150
+00:05:45,600 --> 00:05:47,520
+first time I’ve mentioned that on the channel,
+
+151
+00:05:47,520 --> 00:05:48,960
+called Taxman.
+
+152
+00:05:48,960 --> 00:05:50,200
+Yeah, one of the opening lines of the song
+
+153
+00:05:50,200 --> 00:05:51,960
+is written from the perspective of the Taxman,
+
+154
+00:05:51,960 --> 00:05:54,080
+which says, one for you, 19 for Me.
+
+155
+00:05:54,080 --> 00:05:56,840
+And this is because the Beatles, at the
+
+156
+00:05:56,840 --> 00:05:58,200
+peak of their success, were paying
+
+157
+00:05:58,200 --> 00:06:01,080
+95% top income tax rate in the UK.
+
+158
+00:06:01,080 --> 00:06:05,880
+Now, I'm not advocating for a 95% top income tax rate.
+
+159
+00:06:05,880 --> 00:06:08,560
+The top inheritance tax rate at the time was 90%
+
+160
+00:06:08,560 --> 00:06:12,720
+during that period up until the eighties specifically,
+
+161
+00:06:12,720 --> 00:06:15,960
+we had in Western Europe and also in America,
+
+162
+00:06:15,960 --> 00:06:18,080
+which has a reputation as a low tax society,
+
+163
+00:06:18,080 --> 00:06:21,240
+up until the eighties we had extremely high tax rates
+
+164
+00:06:21,240 --> 00:06:23,640
+on the very rich
+
+165
+00:06:23,640 --> 00:06:25,840
+and that basically prevented
+
+166
+00:06:25,840 --> 00:06:29,360
+the rich from rapidly accumulating
+
+167
+00:06:29,360 --> 00:06:32,760
+wealth of the rest of their countries.
+
+168
+00:06:32,760 --> 00:06:36,160
+That is the exception. That is the exception.
+
+169
+00:06:36,160 --> 00:06:39,440
+If you have systems that prevent the rich
+
+170
+00:06:39,440 --> 00:06:42,280
+and the powerful from taking the wealth and power
+
+171
+00:06:42,280 --> 00:06:46,680
+of the poor, then you can prevent it.
+
+172
+00:06:46,680 --> 00:06:48,360
+If you don't have those system, you can't prevent it.
+
+173
+00:06:48,360 --> 00:06:52,840
+So the reason that inequality is increasing
+
+174
+00:06:52,840 --> 00:06:54,120
+is that
+
+175
+00:06:54,120 --> 00:06:55,440
+the rich are very powerful
+
+176
+00:06:55,440 --> 00:06:56,960
+and they can
+
+177
+00:06:56,960 --> 00:06:58,200
+use the income that they get from you
+
+178
+00:06:58,200 --> 00:06:59,320
+to take the rest of the stuff.
+
+179
+00:06:59,320 --> 00:07:01,960
+And this is always the way it has been
+
+180
+00:07:01,960 --> 00:07:05,040
+and it's always the way it will be.
+
+181
+00:07:05,040 --> 00:07:07,120
+But I don't want to be excessively fatalistic here
+
+182
+00:07:07,120 --> 00:07:08,280
+because I see people in the comments
+
+183
+00:07:08,280 --> 00:07:09,720
+all the time saying it was always like that.
+
+184
+00:07:09,720 --> 00:07:10,640
+It was always like that.
+
+185
+00:07:10,640 --> 00:07:13,320
+Listen, we had 70 years when it was not like that.
+
+186
+00:07:13,320 --> 00:07:14,520
+We had 70 years
+
+187
+00:07:14,520 --> 00:07:16,800
+when inequality was unusually low
+
+188
+00:07:16,800 --> 00:07:19,000
+in a lot of countries, especially, you know,
+
+189
+00:07:19,000 --> 00:07:20,880
+most of the countries of Western Europe,
+
+190
+00:07:20,880 --> 00:07:23,360
+and that was 70 years in which
+
+191
+00:07:23,360 --> 00:07:26,400
+postmen and cleaners and hairdressers
+
+192
+00:07:26,400 --> 00:07:28,600
+could buy houses and go on holidays
+
+193
+00:07:28,600 --> 00:07:31,320
+and raise families and afford space.
+
+194
+00:07:31,320 --> 00:07:32,640
+This is not the norm.
+
+195
+00:07:32,640 --> 00:07:34,680
+This is not the norm.
+
+196
+00:07:34,680 --> 00:07:36,720
+But we had that because we had
+
+197
+00:07:36,720 --> 00:07:40,240
+very high rates of tax on wealthier people.
+
+198
+00:07:40,240 --> 00:07:42,480
+Listen, you need that.
+
+199
+00:07:42,480 --> 00:07:46,200
+You need to have structures in place in your economy
+
+200
+00:07:46,200 --> 00:07:49,960
+that prevent the rich from taking all of the wealth.
+
+201
+00:07:49,960 --> 00:07:52,320
+If you don't have that, history teaches us
+
+202
+00:07:52,320 --> 00:07:53,840
+the rich get all of the wealth.
+
+203
+00:07:53,840 --> 00:07:56,200
+And once the rich have all of the wealth,
+
+204
+00:07:56,200 --> 00:08:00,080
+not just history, but the present world shows us
+
+205
+00:08:00,080 --> 00:08:02,160
+ordinary people end up with very poor
+
+206
+00:08:02,160 --> 00:08:02,880
+living conditions.
+
+207
+00:08:02,880 --> 00:08:06,280
+If you go to countries that are very unequal,
+
+208
+00:08:06,280 --> 00:08:06,840
+if you go to...
+
+209
+00:08:06,840 --> 00:08:08,520
+I mean, it's most of the world, to be honest.
+
+210
+00:08:08,520 --> 00:08:12,360
+You go to a places like India, South Africa,
+
+211
+00:08:12,360 --> 00:08:14,040
+you know, almost anywhere in Latin America,
+
+212
+00:08:14,040 --> 00:08:16,080
+very unequal societies
+
+213
+00:08:16,080 --> 00:08:18,200
+lead to very poor living standards.
+
+214
+00:08:18,200 --> 00:08:19,680
+This is the norm.
+
+215
+00:08:19,680 --> 00:08:21,120
+We prevented it before.
+
+216
+00:08:21,120 --> 00:08:23,520
+We prevented it by levying
+
+217
+00:08:23,520 --> 00:08:27,400
+very high tax rates on the very, very rich. So,
+
+218
+00:08:27,400 --> 00:08:28,720
+you know, I know I see
+
+219
+00:08:28,720 --> 00:08:30,160
+people in the comments all the time
+
+220
+00:08:30,160 --> 00:08:31,680
+accusing me of being a communist
+
+221
+00:08:31,680 --> 00:08:33,160
+because I want high tax rates on the rich.
+
+222
+00:08:33,160 --> 00:08:35,560
+Listen, I'm a trader in my heart of hearts.
+
+223
+00:08:35,560 --> 00:08:37,880
+I made a lot of money betting on this.
+
+224
+00:08:37,880 --> 00:08:39,360
+I'm still betting on it now.
+
+225
+00:08:39,360 --> 00:08:40,160
+My firm belief
+
+226
+00:08:40,160 --> 00:08:43,960
+is that if you don't tax rich people,
+
+227
+00:08:43,960 --> 00:08:47,440
+living standards collapse for ordinary people.
+
+228
+00:08:47,440 --> 00:08:50,440
+It's happening now. It will continue to happen.
+
+229
+00:08:50,440 --> 00:08:53,120
+We can reverse it, but we need to tax the rich.
+
+230
+00:08:53,120 --> 00:08:55,600
+And I'm not talking about you, Dave,
+
+231
+00:08:55,600 --> 00:08:57,960
+in the comments, who's an accountant making £60 grand.
+
+232
+00:08:57,960 --> 00:09:00,240
+I'm talking about families with £10 million,
+
+233
+00:09:00,240 --> 00:09:01,640
+£100 million in assets.
+
+234
+00:09:01,640 --> 00:09:02,640
+If you don't tax them,
+
+235
+00:09:02,640 --> 00:09:03,680
+they'll take everything
+
+236
+00:09:03,680 --> 00:09:05,400
+that includes all of your assets,
+
+237
+00:09:05,400 --> 00:09:07,760
+your kids will be poor, your grandkids will be poor.
+
+238
+00:09:07,760 --> 00:09:08,880
+You won’t own anything.
+
+239
+00:09:08,880 --> 00:09:10,040
+You need to protect yourself
+
+240
+00:09:10,040 --> 00:09:11,200
+from the people who are taking your assets,
+
+241
+00:09:11,200 --> 00:09:12,400
+that is the rich.
+
+242
+00:09:12,400 --> 00:09:14,880
+We're fighting against it. Support the channel.
+
+243
+00:09:14,880 --> 00:09:15,720
+Educate yourself,
+
+244
+00:09:15,720 --> 00:09:18,040
+educate your friends, educate your family.
+
+245
+00:09:18,040 --> 00:09:19,600
+If enough people say no, we can change it
+
+246
+00:09:19,600 --> 00:09:21,240
+just like we changed after World War Two.
+
+247
+00:09:21,240 --> 00:09:22,560
+But it needs enough people
+
+248
+00:09:22,560 --> 00:09:24,440
+to step forward and push back.
+
+249
+00:09:24,440 --> 00:09:26,040
+I'm pushing. I hope you’ll push too.
+
+250
+00:09:26,040 --> 00:09:27,240
+Thank you very much.

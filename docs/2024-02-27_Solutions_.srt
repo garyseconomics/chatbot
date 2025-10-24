@@ -1,0 +1,1619 @@
+﻿1
+00:00:00,000 --> 00:00:03,680
+So we get a lot of comments
+
+2
+00:00:03,680 --> 00:00:05,040
+saying, oh yeah, it's all well
+
+3
+00:00:05,040 --> 00:00:06,480
+and good, you identified the problem,
+
+4
+00:00:06,480 --> 00:00:09,200
+but how do we fix it? How do we fix it?
+
+5
+00:00:09,200 --> 00:00:10,680
+Understandable frustration
+
+6
+00:00:10,680 --> 00:00:13,320
+because things are bad, things are getting worse,
+
+7
+00:00:13,320 --> 00:00:15,600
+and I make that very clear.
+
+8
+00:00:15,600 --> 00:00:19,120
+But I guess people would suggest, like,
+
+9
+00:00:19,120 --> 00:00:22,440
+how does that help? Unless you have a solution.
+
+10
+00:00:22,440 --> 00:00:25,560
+So I wanted to do a video where we basically, sort of,
+
+11
+00:00:25,560 --> 00:00:27,720
+talk about that and talk about what the solution is.
+
+12
+00:00:27,720 --> 00:00:29,280
+And for me,
+
+13
+00:00:29,280 --> 00:00:33,040
+whenever I hear people say, what are the solutions,
+
+14
+00:00:33,040 --> 00:00:35,880
+I always hear
+
+15
+00:00:35,880 --> 00:00:37,800
+in my head two separate questions.
+
+16
+00:00:37,800 --> 00:00:39,520
+So, I mean, the first thing is,
+
+17
+00:00:39,520 --> 00:00:40,360
+if you want a solution,
+
+18
+00:00:40,360 --> 00:00:41,600
+you do need to understand the problem.
+
+19
+00:00:41,600 --> 00:00:44,080
+And I have a very, very clear understanding of,
+
+20
+00:00:44,080 --> 00:00:46,120
+in my opinion, what the problem is,
+
+21
+00:00:46,120 --> 00:00:48,280
+which is that we have a growing wealth inequality.
+
+22
+00:00:48,280 --> 00:00:49,160
+If you want to make things better,
+
+23
+00:00:49,160 --> 00:00:51,400
+you have to bring that wealth inequality down.
+
+24
+00:00:51,400 --> 00:00:52,720
+If you want to stop things getting worse,
+
+25
+00:00:52,720 --> 00:00:54,240
+you at least have to stop it from increasing.
+
+26
+00:00:54,240 --> 00:00:56,200
+It's increasing at the moment very quickly.
+
+27
+00:00:56,200 --> 00:00:58,280
+This is what we talk about all the time,
+
+28
+00:00:58,280 --> 00:01:02,360
+it's up to people whether they agree with me on that.
+
+29
+00:01:02,360 --> 00:01:04,280
+Once you accept that, then how do you fix it?
+
+30
+00:01:04,280 --> 00:01:06,120
+And I always hear two questions there,
+
+31
+00:01:06,120 --> 00:01:07,480
+which is, number one,
+
+32
+00:01:07,480 --> 00:01:10,800
+technically, how do you reduce wealth inequality
+
+33
+00:01:10,800 --> 00:01:15,720
+or at least how do you stop it from increasing?
+
+34
+00:01:15,720 --> 00:01:16,600
+And number two,
+
+35
+00:01:16,600 --> 00:01:18,360
+how do you build the popular support for it?
+
+36
+00:01:18,360 --> 00:01:20,000
+I think these are basically,
+
+37
+00:01:20,000 --> 00:01:21,760
+these are the two battles which you have to win.
+
+38
+00:01:21,760 --> 00:01:23,160
+You have to win both.
+
+39
+00:01:23,160 --> 00:01:24,520
+There's no point winning one without the other.
+
+40
+00:01:24,520 --> 00:01:26,080
+You know, if you work out the taxes
+
+41
+00:01:26,080 --> 00:01:28,080
+but people don't support, you won't get the tax.
+
+42
+00:01:28,080 --> 00:01:29,800
+If you get people to support it but you then, you
+
+43
+00:01:29,800 --> 00:01:32,640
+then apply the tax badly, you’ll f*ck things up.
+
+44
+00:01:32,640 --> 00:01:37,840
+So you need to win both of those battles.
+
+45
+00:01:37,840 --> 00:01:40,080
+And I think
+
+46
+00:01:40,080 --> 00:01:43,720
+the first thing which I want people to understand is
+
+47
+00:01:43,720 --> 00:01:48,920
+we are not going to win this soon.
+
+48
+00:01:48,920 --> 00:01:51,120
+This is like number one thing
+
+49
+00:01:51,120 --> 00:01:53,440
+which you have to realise.
+
+50
+00:01:53,440 --> 00:01:54,840
+We are not going to...
+
+51
+00:01:54,840 --> 00:01:56,040
+at the moment wealth inequality
+
+52
+00:01:56,040 --> 00:01:57,960
+is increasing really quickly.
+
+53
+00:01:57,960 --> 00:02:01,200
+Living standards are falling quite quickly.
+
+54
+00:02:01,200 --> 00:02:02,280
+That will continue,
+
+55
+00:02:02,280 --> 00:02:03,720
+you know, I'd be very surprised
+
+56
+00:02:03,720 --> 00:02:04,800
+if we got any improvement on that
+
+57
+00:02:04,800 --> 00:02:06,960
+in at least a couple of years.
+
+58
+00:02:06,960 --> 00:02:10,000
+So, number one, like, sit with that for a bit
+
+59
+00:02:10,000 --> 00:02:12,160
+because that's something to deal with.
+
+60
+00:02:12,160 --> 00:02:14,480
+Like, that is something that you need to recognise.
+
+61
+00:02:14,480 --> 00:02:18,440
+Like, if you are hoping for better soon,
+
+62
+00:02:18,440 --> 00:02:21,080
+you're not going to get better soon.
+
+63
+00:02:21,080 --> 00:02:24,840
+And that is like a really depressing message to give.
+
+64
+00:02:24,840 --> 00:02:28,440
+But it's better to know that now
+
+65
+00:02:28,440 --> 00:02:30,320
+than to sit around hoping for improvement
+
+66
+00:02:30,320 --> 00:02:31,640
+that doesn't come.
+
+67
+00:02:31,640 --> 00:02:34,480
+So number one, except that, once you've accepted that,
+
+68
+00:02:34,480 --> 00:02:36,480
+then the next thing that you should accept after that,
+
+69
+00:02:36,480 --> 00:02:38,360
+is that if we want to,
+
+70
+00:02:38,360 --> 00:02:39,240
+if we want improvement, we
+
+71
+00:02:39,240 --> 00:02:40,600
+have to win the long term battle
+
+72
+00:02:40,600 --> 00:02:41,840
+because we're not going to win the short term battle.
+
+73
+00:02:41,840 --> 00:02:43,720
+We lost the short term battle.
+
+74
+00:02:43,720 --> 00:02:45,440
+We have to win the long term battle.
+
+75
+00:02:45,440 --> 00:02:48,240
+And that is why everything that I do
+
+76
+00:02:48,240 --> 00:02:51,680
+is focused on winning the long term battle.
+
+77
+00:02:51,680 --> 00:02:54,160
+Which is,
+
+78
+00:02:54,160 --> 00:02:56,160
+let me flip it
+
+79
+00:02:56,160 --> 00:02:57,720
+to a more positive way of looking at it,
+
+80
+00:02:57,720 --> 00:03:00,520
+which I think is true.
+
+81
+00:03:00,520 --> 00:03:03,120
+The opportunity here
+
+82
+00:03:03,120 --> 00:03:05,520
+to win the kind of
+
+83
+00:03:05,520 --> 00:03:07,360
+ideological theoretical debate
+
+84
+00:03:07,360 --> 00:03:10,520
+has never been bigger because
+
+85
+00:03:10,520 --> 00:03:12,560
+the percentage of people
+
+86
+00:03:12,560 --> 00:03:13,280
+in this country
+
+87
+00:03:13,280 --> 00:03:14,200
+and throughout the West
+
+88
+00:03:14,200 --> 00:03:16,320
+are being really hurt by the economic changes
+
+89
+00:03:16,320 --> 00:03:20,120
+now is bigger than it has been
+
+90
+00:03:20,120 --> 00:03:22,200
+for, since before the Second World
+
+91
+00:03:22,200 --> 00:03:23,920
+War, basically an enormous amount.
+
+92
+00:03:23,920 --> 00:03:25,240
+The current system is not working
+
+93
+00:03:25,240 --> 00:03:26,520
+for an enormous number of people
+
+94
+00:03:26,520 --> 00:03:28,320
+and that percentage of people is increasing.
+
+95
+00:03:28,320 --> 00:03:30,360
+Now, if you go back and you look at
+
+96
+00:03:30,360 --> 00:03:35,880
+the 2010, 2015 austerity period of the 2010s, basically
+
+97
+00:03:35,880 --> 00:03:38,240
+austerity decade in this country,
+
+98
+00:03:38,240 --> 00:03:42,000
+the pain was really loaded on like the bottom 20%.
+
+99
+00:03:42,000 --> 00:03:43,800
+And a lot of people will have felt a bit of pain.
+
+100
+00:03:43,800 --> 00:03:46,440
+But the pain was really loaded on the poorest.
+
+101
+00:03:46,440 --> 00:03:48,960
+And from the perspective of a democracy,
+
+102
+00:03:48,960 --> 00:03:50,120
+it's difficult to stop that
+
+103
+00:03:50,120 --> 00:03:51,400
+because the poorest are a minority
+
+104
+00:03:51,400 --> 00:03:53,160
+and it's hard for them to defend themselves.
+
+105
+00:03:53,160 --> 00:03:55,160
+Whereas now what you have is
+
+106
+00:03:55,160 --> 00:03:56,720
+50, 60, 70,
+
+107
+00:03:56,720 --> 00:03:59,680
+you know, pushing up to 80% of people getting hit.
+
+108
+00:03:59,680 --> 00:04:00,480
+That won't change.
+
+109
+00:04:00,480 --> 00:04:01,880
+That's going to keep happening.
+
+110
+00:04:01,880 --> 00:04:04,080
+So you have a massive opportunity here
+
+111
+00:04:04,080 --> 00:04:05,160
+to create this
+
+112
+00:04:05,160 --> 00:04:06,440
+broad political coalition of
+
+113
+00:04:06,440 --> 00:04:08,240
+people that are getting hurt.
+
+114
+00:04:08,240 --> 00:04:09,720
+So we have a massive opportunity
+
+115
+00:04:09,720 --> 00:04:12,120
+and not only that, it is definitely becoming
+
+116
+00:04:12,120 --> 00:04:13,120
+increasingly clear
+
+117
+00:04:13,120 --> 00:04:15,360
+to an increasingly large number of people
+
+118
+00:04:15,360 --> 00:04:16,680
+that the status quo is not working.
+
+119
+00:04:16,680 --> 00:04:19,320
+And there's really demand for an alternative.
+
+120
+00:04:19,320 --> 00:04:22,240
+And I don't think there are many
+
+121
+00:04:22,240 --> 00:04:23,680
+appealing alternatives being pushed.
+
+122
+00:04:23,680 --> 00:04:24,800
+And the ones that are being pushed,
+
+123
+00:04:24,800 --> 00:04:26,400
+I think are unlikely to work.
+
+124
+00:04:26,400 --> 00:04:31,680
+So the gap which we can fill has never been bigger.
+
+125
+00:04:31,680 --> 00:04:32,760
+There's a real big space
+
+126
+00:04:32,760 --> 00:04:34,680
+to bring a lot of people together to change the system,
+
+127
+00:04:34,680 --> 00:04:35,920
+which is increasingly
+
+128
+00:04:35,920 --> 00:04:39,200
+clearly not working for a large number of people.
+
+129
+00:04:39,200 --> 00:04:41,440
+But we're a long way from reaching them.
+
+130
+00:04:41,440 --> 00:04:43,760
+So
+
+131
+00:04:43,760 --> 00:04:48,040
+I think, I’m me, I’m one person.
+
+132
+00:04:48,040 --> 00:04:52,440
+And I think the biggest thing that I can do is to
+
+133
+00:04:52,440 --> 00:04:53,760
+grow this voice as
+
+134
+00:04:53,760 --> 00:04:56,480
+possible and I think, as big as possible.
+
+135
+00:04:56,480 --> 00:04:58,640
+But I think it needs to be really
+
+136
+00:04:58,640 --> 00:05:00,680
+clearly focused on
+
+137
+00:05:00,680 --> 00:05:03,720
+building this really clear narrative
+
+138
+00:05:03,720 --> 00:05:06,240
+that the reason things are getting worse
+
+139
+00:05:06,240 --> 00:05:08,640
+is because wealth inequality is getting worse.
+
+140
+00:05:08,640 --> 00:05:11,640
+And the only way to make things better
+
+141
+00:05:11,640 --> 00:05:14,200
+is to make wealth inequality better.
+
+142
+00:05:14,200 --> 00:05:15,200
+And the strength
+
+143
+00:05:15,200 --> 00:05:18,320
+that we will always have with that argument
+
+144
+00:05:18,320 --> 00:05:20,280
+is that it's correct,
+
+145
+00:05:20,280 --> 00:05:23,160
+which means that time will continually prove it
+
+146
+00:05:23,160 --> 00:05:25,440
+correct in the sense that,
+
+147
+00:05:25,440 --> 00:05:25,760
+you know,
+
+148
+00:05:25,760 --> 00:05:28,240
+Rishi Sunak and Jeremy Hunt are going to go on TV.
+
+149
+00:05:28,240 --> 00:05:29,040
+They're going to get voted out.
+
+150
+00:05:29,040 --> 00:05:31,080
+But, you know, Labour will come in
+
+151
+00:05:31,080 --> 00:05:32,400
+and they will say,
+
+152
+00:05:32,400 --> 00:05:33,480
+we're going to do the things,
+
+153
+00:05:33,480 --> 00:05:34,560
+I'm going to fix the economy,
+
+154
+00:05:34,560 --> 00:05:35,680
+we're going to make the economy better,
+
+155
+00:05:35,680 --> 00:05:37,200
+but they won't fix wealth inequality.
+
+156
+00:05:37,200 --> 00:05:39,240
+And I'll come out in this channel and I will say,
+
+157
+00:05:39,240 --> 00:05:40,640
+well, Labour will make all these promises,
+
+158
+00:05:40,640 --> 00:05:41,760
+but they're not going to make the economy better
+
+159
+00:05:41,760 --> 00:05:43,120
+because they're not victims of inequality.
+
+160
+00:05:43,120 --> 00:05:44,000
+And I will be right
+
+161
+00:05:44,000 --> 00:05:45,560
+and I will make a lot of clear predictions
+
+162
+00:05:45,560 --> 00:05:47,000
+about how that will manifest.
+
+163
+00:05:47,000 --> 00:05:48,800
+Rising house prices, decreased home
+
+164
+00:05:48,800 --> 00:05:50,280
+ownership, increased levels of debt,
+
+165
+00:05:50,280 --> 00:05:51,560
+decrease living conditions,
+
+166
+00:05:51,560 --> 00:05:52,920
+And I will be the one who is right.
+
+167
+00:05:52,920 --> 00:05:54,280
+My predictions will be right
+
+168
+00:05:54,280 --> 00:05:56,640
+and this will keep happening.
+
+169
+00:05:56,640 --> 00:06:00,720
+So I think the power that we have behind this voice
+
+170
+00:06:00,720 --> 00:06:01,880
+is that it's correct,
+
+171
+00:06:01,880 --> 00:06:05,400
+whereas the mainstream politicians will continually
+
+172
+00:06:05,400 --> 00:06:08,640
+sell tales of improvement, which won't happen.
+
+173
+00:06:08,640 --> 00:06:10,560
+We will be out saying, no, things will get worse.
+
+174
+00:06:10,560 --> 00:06:11,240
+You know,
+
+175
+00:06:11,240 --> 00:06:14,000
+you can go back and look at our videos from June 2020.
+
+176
+00:06:14,000 --> 00:06:15,440
+You know what I'm predicting
+
+177
+00:06:15,440 --> 00:06:16,320
+there's going to be an inflation
+
+178
+00:06:16,320 --> 00:06:17,520
+crisis, there’s going to be a cost of living
+
+179
+00:06:17,520 --> 00:06:19,680
+crisis, there's going to be like a massive
+
+180
+00:06:19,680 --> 00:06:21,440
+collapse in living standards in this country.
+
+181
+00:06:21,440 --> 00:06:22,560
+And that's all proved right.
+
+182
+00:06:22,560 --> 00:06:25,320
+You know, the longer we keep making this channel,
+
+183
+00:06:25,320 --> 00:06:27,840
+the longer we have this long
+
+184
+00:06:27,840 --> 00:06:29,080
+track record of
+
+185
+00:06:29,080 --> 00:06:30,800
+of being correct when everyone else is being wrong.
+
+186
+00:06:30,800 --> 00:06:33,240
+And I think that gives us this really
+
+187
+00:06:33,240 --> 00:06:37,080
+powerful opportunity to build a big message.
+
+188
+00:06:37,080 --> 00:06:38,280
+And I think there will be people out there
+
+189
+00:06:38,280 --> 00:06:40,480
+that would say, you know, well,
+
+190
+00:06:40,480 --> 00:06:41,360
+we don't
+
+191
+00:06:41,360 --> 00:06:43,520
+you know, we don't want to support your channel, Gary,
+
+192
+00:06:43,520 --> 00:06:45,640
+we don't want this to be like, you know,
+
+193
+00:06:45,640 --> 00:06:47,000
+you're not going to just be some saviour
+
+194
+00:06:47,000 --> 00:06:47,720
+that saves the world.
+
+195
+00:06:47,720 --> 00:06:51,200
+And I 100% agree with that message
+
+196
+00:06:51,200 --> 00:06:53,240
+because I don't want it to be just me, you know.
+
+197
+00:06:53,240 --> 00:06:55,920
+And it won't and we won't win if it's just me.
+
+198
+00:06:55,920 --> 00:07:00,160
+Like what I see myself as doing is
+
+199
+00:07:00,160 --> 00:07:02,320
+helping people to understand what's happening.
+
+200
+00:07:02,320 --> 00:07:04,320
+And then you go take the understanding
+
+201
+00:07:04,320 --> 00:07:06,480
+and you build your message.
+
+202
+00:07:06,480 --> 00:07:07,880
+This is the way like,
+
+203
+00:07:07,880 --> 00:07:10,560
+of course I'm trying to grow my message,
+
+204
+00:07:10,560 --> 00:07:12,360
+but we don't win by making this YouTube
+
+205
+00:07:12,360 --> 00:07:13,480
+channel have a million subs,
+
+206
+00:07:13,480 --> 00:07:14,400
+you know what I mean, it's no good.
+
+207
+00:07:14,400 --> 00:07:15,240
+We're not going to win.
+
+208
+00:07:15,240 --> 00:07:16,800
+It would be great if we had millions subs,
+
+209
+00:07:16,800 --> 00:07:19,680
+and I think we will get there one day, but
+
+210
+00:07:19,680 --> 00:07:20,480
+we won't win.
+
+211
+00:07:20,480 --> 00:07:21,720
+We will win
+
+212
+00:07:21,720 --> 00:07:23,640
+if my YouTube channel has a million subs
+
+213
+00:07:23,640 --> 00:07:25,920
+and f*cking his does, and his does, and his does,
+
+214
+00:07:25,920 --> 00:07:27,840
+and you know, not just on YouTube, you’re
+
+215
+00:07:27,840 --> 00:07:30,360
+spreading your message in whatever way you can,
+
+216
+00:07:30,360 --> 00:07:31,800
+you know what I mean, and that's like,
+
+217
+00:07:31,800 --> 00:07:32,040
+you know
+
+218
+00:07:32,040 --> 00:07:34,000
+if you can build a big voice for yourself great
+
+219
+00:07:34,000 --> 00:07:34,920
+but you don't need to
+
+220
+00:07:34,920 --> 00:07:35,520
+you know
+
+221
+00:07:35,520 --> 00:07:37,320
+if enough people spread this message
+
+222
+00:07:37,320 --> 00:07:40,200
+within their communities, that would be enough.
+
+223
+00:07:40,200 --> 00:07:41,520
+You know, their friends, their family,
+
+224
+00:07:41,520 --> 00:07:43,440
+the people they go to football with, their workmates.
+
+225
+00:07:43,440 --> 00:07:44,880
+You know, this...
+
+226
+00:07:44,880 --> 00:07:47,640
+I don't see this is as about being me...
+
+227
+00:07:47,640 --> 00:07:49,040
+I don't want this to be about me.
+
+228
+00:07:49,040 --> 00:07:53,400
+I want this to be about one clear, true idea,
+
+229
+00:07:53,400 --> 00:07:56,040
+which is you cannot make this better
+
+230
+00:07:56,040 --> 00:07:57,360
+unless you deal with this problem,
+
+231
+00:07:57,360 --> 00:07:59,280
+this problem of wealth inequality.
+
+232
+00:07:59,280 --> 00:08:02,640
+And, you know, I look at the way that,
+
+233
+00:08:02,640 --> 00:08:04,440
+you know, Nigel Farage
+
+234
+00:08:04,440 --> 00:08:07,840
+created a country where, you know, 60% of people
+
+235
+00:08:08,880 --> 00:08:11,520
+demanded Brexit and he f*cking got his Brexit.
+
+236
+00:08:11,520 --> 00:08:12,320
+You know,
+
+237
+00:08:12,320 --> 00:08:14,480
+for better or worse he got it, you know,
+
+238
+00:08:14,480 --> 00:08:15,720
+and you know that
+
+239
+00:08:15,720 --> 00:08:16,680
+as everybody is seeing
+
+240
+00:08:16,680 --> 00:08:18,840
+and I think people continue to see did not
+
+241
+00:08:18,840 --> 00:08:21,640
+and will not fix our economic problems,
+
+242
+00:08:21,640 --> 00:08:24,200
+we need to make this happen for wealth inequality.
+
+243
+00:08:24,200 --> 00:08:27,040
+We need to create a country where it becomes
+
+244
+00:08:27,040 --> 00:08:30,120
+common knowledge, just general common sense.
+
+245
+00:08:30,120 --> 00:08:31,120
+If you don't fix wealth inequality,
+
+246
+00:08:31,120 --> 00:08:31,920
+don't fix the problem.
+
+247
+00:08:31,920 --> 00:08:33,800
+And then then people like me
+
+248
+00:08:33,800 --> 00:08:36,680
+and hopefully other people who will adopt the message.
+
+249
+00:08:36,680 --> 00:08:38,520
+We can hold the politicians feet to the fire
+
+250
+00:08:38,520 --> 00:08:40,400
+and we can say, no, you know,
+
+251
+00:08:40,400 --> 00:08:42,400
+the people demand this thing
+
+252
+00:08:42,400 --> 00:08:44,120
+and they will not vote for you
+
+253
+00:08:44,120 --> 00:08:45,720
+unless you give them this thing in the same way
+
+254
+00:08:45,720 --> 00:08:48,560
+that Nigel Farage did. So,
+
+255
+00:08:48,560 --> 00:08:49,760
+you know,
+
+256
+00:08:49,760 --> 00:08:50,680
+this is not a message
+
+257
+00:08:50,680 --> 00:08:51,960
+that rich people want you to hear.
+
+258
+00:08:51,960 --> 00:08:52,600
+So, you know,
+
+259
+00:08:52,600 --> 00:08:54,800
+we will always get kickback from
+
+260
+00:08:54,800 --> 00:08:56,760
+billionaire funded think tanks, billionaire owned
+
+261
+00:08:56,760 --> 00:08:59,560
+newspapers, billionaire owned radio stations.
+
+262
+00:08:59,560 --> 00:09:00,960
+And that will always be what we fight against.
+
+263
+00:09:00,960 --> 00:09:04,880
+But what we have, what they don't is that
+
+264
+00:09:04,880 --> 00:09:07,000
+this is correct and the predictions will be right.
+
+265
+00:09:07,000 --> 00:09:08,440
+And I'll keep making right predictions
+
+266
+00:09:08,440 --> 00:09:11,120
+even if they're horrible predictions.
+
+267
+00:09:11,120 --> 00:09:13,440
+And, you know, that's the way I see it.
+
+268
+00:09:13,440 --> 00:09:14,080
+And, you know,
+
+269
+00:09:14,080 --> 00:09:16,000
+I focus on that because that's what I can do.
+
+270
+00:09:16,000 --> 00:09:18,840
+But I think people watching
+
+271
+00:09:18,840 --> 00:09:20,360
+who are demanding solutions,
+
+272
+00:09:20,360 --> 00:09:23,320
+I think they have a choice to make, you know, which is,
+
+273
+00:09:23,320 --> 00:09:24,600
+number one, do you support
+
+274
+00:09:24,600 --> 00:09:26,880
+people like me who would do what we're doing?
+
+275
+00:09:26,880 --> 00:09:29,120
+And number two, do you create your own things?
+
+276
+00:09:29,120 --> 00:09:30,960
+You know, do you spread the message in your own space?
+
+277
+00:09:30,960 --> 00:09:32,160
+You know,
+
+278
+00:09:32,160 --> 00:09:33,680
+whether that means, you know,
+
+279
+00:09:33,680 --> 00:09:36,760
+creating your own forms of communication
+
+280
+00:09:36,760 --> 00:09:39,120
+or whether that means spreading amongst your community.
+
+281
+00:09:39,120 --> 00:09:40,560
+And
+
+282
+00:09:40,560 --> 00:09:41,880
+the last thing I want to
+
+283
+00:09:41,880 --> 00:09:44,760
+add on this topic of solutions
+
+284
+00:09:44,760 --> 00:09:47,720
+is that I think if you've accepted
+
+285
+00:09:47,720 --> 00:09:49,760
+that it's a long term battle,
+
+286
+00:09:49,760 --> 00:09:52,040
+then I think the other thing
+
+287
+00:09:52,040 --> 00:09:56,360
+which is really important is like the...
+
+288
+00:09:56,360 --> 00:09:57,480
+as much as possible,
+
+289
+00:09:57,480 --> 00:10:00,960
+how do we maintain our mental health
+
+290
+00:10:00,960 --> 00:10:03,360
+and our mental health as communities basically?
+
+291
+00:10:03,360 --> 00:10:06,360
+Because we're going to head into some really,
+
+292
+00:10:06,360 --> 00:10:07,880
+really, really difficult times
+
+293
+00:10:07,880 --> 00:10:08,840
+and there's going to be a lot of
+
+294
+00:10:08,840 --> 00:10:10,840
+like super divisive narratives going around about
+
+295
+00:10:10,840 --> 00:10:12,840
+and increasingly
+
+296
+00:10:12,840 --> 00:10:14,080
+young people are going to be forced
+
+297
+00:10:14,080 --> 00:10:15,480
+to live lives of poverty.
+
+298
+00:10:15,480 --> 00:10:19,640
+And that is going to be hard.
+
+299
+00:10:19,640 --> 00:10:21,120
+And I see the damage
+
+300
+00:10:21,120 --> 00:10:24,160
+it does to the mental health of young people who
+
+301
+00:10:24,160 --> 00:10:26,120
+are being driven into poverty,
+
+302
+00:10:26,120 --> 00:10:27,480
+really through no fault of their own,
+
+303
+00:10:27,480 --> 00:10:29,040
+through a collapsing economy.
+
+304
+00:10:29,040 --> 00:10:33,840
+And what I want young people to understand is that
+
+305
+00:10:33,840 --> 00:10:35,360
+the economy is changing in such a way
+
+306
+00:10:35,360 --> 00:10:37,960
+that poverty is being forced on more and more people.
+
+307
+00:10:37,960 --> 00:10:39,920
+So I know this is not...
+
+308
+00:10:39,920 --> 00:10:41,480
+this is easier said than done,
+
+309
+00:10:41,480 --> 00:10:43,520
+but I think that we
+
+310
+00:10:43,520 --> 00:10:47,560
+all have to be gentle with ourselves and one another.
+
+311
+00:10:47,560 --> 00:10:48,800
+And the way that we judge one
+
+312
+00:10:48,800 --> 00:10:50,520
+another's financial positions,
+
+313
+00:10:50,520 --> 00:10:52,600
+because we've been kind of trained with this idea
+
+314
+00:10:52,600 --> 00:10:54,120
+that if you're rich
+
+315
+00:10:54,120 --> 00:10:54,800
+it’s because you're great
+
+316
+00:10:54,800 --> 00:10:55,480
+and if you're poor, it's
+
+317
+00:10:55,480 --> 00:10:57,720
+because you're f*cking dumb or something, you know,
+
+318
+00:10:57,720 --> 00:10:59,800
+and when you give people that message
+
+319
+00:10:59,800 --> 00:11:01,400
+in a world that gives people no chance
+
+320
+00:11:01,400 --> 00:11:02,640
+but to be poor, it's
+
+321
+00:11:02,640 --> 00:11:05,360
+unbelievably damaging to people’s self-esteem.
+
+322
+00:11:05,360 --> 00:11:08,040
+And, you know, we're not going to win this fight
+
+323
+00:11:08,040 --> 00:11:09,240
+with a bunch of people
+
+324
+00:11:09,240 --> 00:11:11,640
+who have been trained to believe that
+
+325
+00:11:11,640 --> 00:11:13,320
+they're useless and that their failures,
+
+326
+00:11:13,320 --> 00:11:15,040
+they're pathetic, you know?
+
+327
+00:11:15,040 --> 00:11:17,920
+So we need to realise
+
+328
+00:11:17,920 --> 00:11:19,120
+there's a systemic problem
+
+329
+00:11:19,120 --> 00:11:21,560
+that is that is f*cking our young people.
+
+330
+00:11:21,560 --> 00:11:24,080
+And that means that they will be poor
+
+331
+00:11:24,080 --> 00:11:25,600
+and it's not their fault.
+
+332
+00:11:25,600 --> 00:11:26,280
+So, you know,
+
+333
+00:11:26,280 --> 00:11:27,440
+if you're out there and you’re struggle
+
+334
+00:11:27,440 --> 00:11:28,440
+and you're seeing other people
+
+335
+00:11:28,440 --> 00:11:30,280
+who are doing better than you,
+
+336
+00:11:30,280 --> 00:11:31,800
+the truth is probably because of the family
+
+337
+00:11:31,800 --> 00:11:33,400
+they're from, the family assets that they hold.
+
+338
+00:11:33,400 --> 00:11:36,240
+Don't beat yourself up on this.
+
+339
+00:11:36,240 --> 00:11:37,440
+But at the same time, people
+
+340
+00:11:37,440 --> 00:11:39,360
+need to understand that it's going to be hard
+
+341
+00:11:39,360 --> 00:11:41,280
+and you're going to have to work hard
+
+342
+00:11:41,280 --> 00:11:42,480
+in many cases to support yourself,
+
+343
+00:11:42,480 --> 00:11:44,040
+to support your family.
+
+344
+00:11:44,040 --> 00:11:44,640
+But just like
+
+345
+00:11:44,640 --> 00:11:45,840
+I spoke before about
+
+346
+00:11:45,840 --> 00:11:48,320
+we only win this if we win the technical battle
+
+347
+00:11:48,320 --> 00:11:51,520
+and the ideological battle,
+
+348
+00:11:51,520 --> 00:11:53,200
+individual people will only be able
+
+349
+00:11:53,200 --> 00:11:54,480
+to secure their futures
+
+350
+00:11:54,480 --> 00:11:56,280
+if they win their personal battles
+
+351
+00:11:56,280 --> 00:11:58,320
+as well as the political battle.
+
+352
+00:11:58,320 --> 00:12:00,040
+Because
+
+353
+00:12:00,040 --> 00:12:00,920
+it doesn't matter how
+
+354
+00:12:00,920 --> 00:12:02,960
+well I do out here with the politicians, you know,
+
+355
+00:12:02,960 --> 00:12:04,400
+you need to feed your kids.
+
+356
+00:12:04,400 --> 00:12:07,440
+So if that means you work hard
+
+357
+00:12:07,440 --> 00:12:08,600
+and you don’t have time to support
+
+358
+00:12:08,600 --> 00:12:10,320
+anything we do politically, then that’s you.
+
+359
+00:12:10,320 --> 00:12:12,960
+I would never judge anyone in that position.
+
+360
+00:12:12,960 --> 00:12:14,760
+But if you work hard
+
+361
+00:12:14,760 --> 00:12:15,360
+and do everything you can
+
+362
+00:12:15,360 --> 00:12:16,080
+to support your kids
+
+363
+00:12:16,080 --> 00:12:18,120
+but the economy collapses, which it will,
+
+364
+00:12:18,120 --> 00:12:20,280
+then you know it's going to hit your family as well,
+
+365
+00:12:20,280 --> 00:12:21,400
+you know.
+
+366
+00:12:21,400 --> 00:12:21,920
+You know,
+
+367
+00:12:21,920 --> 00:12:23,840
+sometimes your boat can sink in two ways
+
+368
+00:12:23,840 --> 00:12:26,800
+and you need to plug a few holes and
+
+369
+00:12:26,800 --> 00:12:29,200
+I think that...
+
+370
+00:12:29,200 --> 00:12:32,240
+We will win as a country and as a society
+
+371
+00:12:32,240 --> 00:12:35,720
+if enough of us are able to
+
+372
+00:12:35,720 --> 00:12:37,240
+fight both our personal battles
+
+373
+00:12:37,240 --> 00:12:39,800
+and our collective political battle at the same time.
+
+374
+00:12:39,800 --> 00:12:42,280
+And I'm well aware that that's much easier for me
+
+375
+00:12:42,280 --> 00:12:43,720
+who does not have the financial difficulties
+
+376
+00:12:43,720 --> 00:12:45,960
+that people, other people have.
+
+377
+00:12:45,960 --> 00:12:47,520
+And for that reason, I will try my best
+
+378
+00:12:47,520 --> 00:12:49,520
+to take more than my share of the load.
+
+379
+00:12:49,520 --> 00:12:52,320
+But it will be about whether enough of us can, can
+
+380
+00:12:52,320 --> 00:12:53,160
+come in and support it.
+
+381
+00:12:53,160 --> 00:12:55,480
+And, you know, hopefully we'll see this thing grow
+
+382
+00:12:55,480 --> 00:12:56,400
+and then I'll start to get,
+
+383
+00:12:56,400 --> 00:12:58,480
+I'll start to get some the politicians
+
+384
+00:12:58,480 --> 00:12:59,760
+and we can start having more discussions
+
+385
+00:12:59,760 --> 00:13:00,600
+about the technicalities
+
+386
+00:13:00,600 --> 00:13:02,320
+of what kind of taxes you bring in.
+
+387
+00:13:02,320 --> 00:13:04,160
+But now is not the time for that
+
+388
+00:13:04,160 --> 00:13:05,920
+because we're losing the ideological battle.
+
+389
+00:13:05,920 --> 00:13:08,400
+And, you know, and,
+
+390
+00:13:08,400 --> 00:13:09,960
+you know, bad things can happen if we don't win that.
+
+391
+00:13:09,960 --> 00:13:11,320
+So I'm going to focus on that.
+
+392
+00:13:11,320 --> 00:13:14,640
+I would like to thank everybody for their support.
+
+393
+00:13:14,640 --> 00:13:16,360
+You know, I'm sorry to be always coming in
+
+394
+00:13:16,360 --> 00:13:17,480
+with negative messages,
+
+395
+00:13:17,480 --> 00:13:18,560
+but I think it's better to know
+
+396
+00:13:18,560 --> 00:13:20,840
+the truth of what's coming than...
+
+397
+00:13:20,840 --> 00:13:22,680
+than to be living in a bubble of false hope.
+
+398
+00:13:22,680 --> 00:13:23,880
+You know, this is what we need to do.
+
+399
+00:13:23,880 --> 00:13:24,600
+It's going to be hard.
+
+400
+00:13:24,600 --> 00:13:27,120
+But, you know, tough times create strong people.
+
+401
+00:13:27,120 --> 00:13:28,760
+And, you know, if we get enough strong people,
+
+402
+00:13:28,760 --> 00:13:29,640
+then I think we can win.
+
+403
+00:13:29,640 --> 00:13:32,080
+So, yeah, thanks, everyone, for
+
+404
+00:13:32,080 --> 00:13:33,480
+thank you, everybody for your support
+
+405
+00:13:33,480 --> 00:13:35,280
+and keep supporting the channel. Thank you.

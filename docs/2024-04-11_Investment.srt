@@ -1,0 +1,967 @@
+﻿1
+00:00:00,040 --> 00:00:02,440
+Okay. Welcome back to Gary's Economics.
+
+2
+00:00:02,440 --> 00:00:08,600
+Today we're going to talk about investment.
+
+3
+00:00:08,600 --> 00:00:10,000
+This is building on some stuff
+
+4
+00:00:10,000 --> 00:00:12,160
+we've been talking about about growth.
+
+5
+00:00:12,160 --> 00:00:13,680
+And there's a question about, okay
+
+6
+00:00:13,680 --> 00:00:14,640
+how do you get growth?
+
+7
+00:00:14,640 --> 00:00:16,920
+You need to invest, invest to build your economy.
+
+8
+00:00:16,920 --> 00:00:19,080
+Invest, invest, invest. Let's grow.
+
+9
+00:00:19,080 --> 00:00:22,680
+And I think it's important to understand
+
+10
+00:00:22,680 --> 00:00:24,080
+how does investment work.
+
+11
+00:00:24,080 --> 00:00:27,440
+Because I think there's a very simplistic
+
+12
+00:00:27,440 --> 00:00:28,800
+understanding of investment,
+
+13
+00:00:28,800 --> 00:00:30,000
+which is if you want to invest,
+
+14
+00:00:30,000 --> 00:00:31,920
+you need to give loads of money to rich people,
+
+15
+00:00:31,920 --> 00:00:33,560
+because who does investments?
+
+16
+00:00:33,560 --> 00:00:34,240
+Rich people,
+
+17
+00:00:34,240 --> 00:00:35,960
+if you give loads of money to rich people,
+
+18
+00:00:35,960 --> 00:00:38,080
+we’ll get investments and we’ll grow.
+
+19
+00:00:38,080 --> 00:00:40,160
+If you look at the last 20, 30 years
+
+20
+00:00:40,160 --> 00:00:40,920
+when the wealth of the rich
+
+21
+00:00:40,920 --> 00:00:42,960
+has grown really significantly, investment
+
+22
+00:00:42,960 --> 00:00:45,160
+has actually fallen in many countries,
+
+23
+00:00:45,160 --> 00:00:46,680
+especially here in the UK.
+
+24
+00:00:46,680 --> 00:00:49,200
+So why is it that when you give money to rich people,
+
+25
+00:00:49,200 --> 00:00:52,240
+it doesn't necessarily lead to investment?
+
+26
+00:00:52,240 --> 00:00:53,760
+But the first thing I would say is
+
+27
+00:00:53,760 --> 00:00:55,440
+when a rich person invests,
+
+28
+00:00:55,440 --> 00:00:57,600
+it doesn't necessarily lead to the creation
+
+29
+00:00:57,600 --> 00:00:59,840
+of new productive capacity.
+
+30
+00:00:59,840 --> 00:01:02,400
+So for example, if I make £2 million
+
+31
+00:01:02,400 --> 00:01:04,600
+and I use it to buy all your mum's houses,
+
+32
+00:01:04,600 --> 00:01:06,480
+it doesn't really do much to improve the economy.
+
+33
+00:01:06,480 --> 00:01:09,480
+So rich people can simply invest by buying your assets.
+
+34
+00:01:09,480 --> 00:01:11,280
+And this leads us to thinking
+
+35
+00:01:11,280 --> 00:01:12,000
+and a little bit
+
+36
+00:01:12,000 --> 00:01:14,520
+of a more nuanced way about investment.
+
+37
+00:01:14,520 --> 00:01:16,160
+And for me,
+
+38
+00:01:16,160 --> 00:01:17,840
+when you want to create investment
+
+39
+00:01:17,840 --> 00:01:20,640
+to create new productive capacity,
+
+40
+00:01:20,640 --> 00:01:22,080
+there's basically two things you need.
+
+41
+00:01:22,080 --> 00:01:23,520
+Yes, you do need somebody
+
+42
+00:01:23,520 --> 00:01:24,800
+to basically fund that investment,
+
+43
+00:01:24,800 --> 00:01:27,560
+which is basically I'm going to use the resources
+
+44
+00:01:27,560 --> 00:01:30,680
+that I have to create something new,
+
+45
+00:01:30,680 --> 00:01:32,560
+to build something new, to build a new factory,
+
+46
+00:01:32,560 --> 00:01:33,560
+to build a new windmill,
+
+47
+00:01:33,560 --> 00:01:35,040
+to build the new diamond mine,
+
+48
+00:01:35,040 --> 00:01:37,720
+whatever, to build the new office block.
+
+49
+00:01:37,720 --> 00:01:38,320
+You need somebody
+
+50
+00:01:38,320 --> 00:01:40,440
+to say, I'm going to provide the resources
+
+51
+00:01:40,440 --> 00:01:42,280
+and in a modern society,
+
+52
+00:01:42,280 --> 00:01:44,360
+which is very unequal, that is often the rich.
+
+53
+00:01:44,360 --> 00:01:47,480
+But, you know, when you look back at the postwar period
+
+54
+00:01:47,480 --> 00:01:48,800
+when investment was much higher,
+
+55
+00:01:48,800 --> 00:01:50,280
+it could be government or it could
+
+56
+00:01:50,280 --> 00:01:52,920
+be, you know, a group of ordinarily non
+
+57
+00:01:52,920 --> 00:01:55,000
+super wealthy people putting their resources
+
+58
+00:01:55,000 --> 00:01:56,440
+towards building new things.
+
+59
+00:01:56,440 --> 00:01:59,640
+But it doesn't just require
+
+60
+00:01:59,640 --> 00:02:01,720
+people to fund the investment.
+
+61
+00:02:01,720 --> 00:02:06,480
+You also need profitable investments to exist.
+
+62
+00:02:06,480 --> 00:02:09,680
+So I have been
+
+63
+00:02:09,680 --> 00:02:12,480
+essentially retired ten years ago.
+
+64
+00:02:12,480 --> 00:02:13,320
+And since then
+
+65
+00:02:13,320 --> 00:02:16,160
+I've basically been living off my investments
+
+66
+00:02:16,160 --> 00:02:17,840
+and so I guess you could say I'm
+
+67
+00:02:17,840 --> 00:02:19,800
+a professional investor in a way,
+
+68
+00:02:19,800 --> 00:02:21,240
+although I think that's probably
+
+69
+00:02:21,240 --> 00:02:22,280
+a little bit of an excessive
+
+70
+00:02:22,280 --> 00:02:24,840
+fancy word to say, A rich person.
+
+71
+00:02:24,840 --> 00:02:25,800
+In that course of time,
+
+72
+00:02:25,800 --> 00:02:27,240
+I've done loads of different investments
+
+73
+00:02:27,240 --> 00:02:29,520
+and some of them were like productive investments.
+
+74
+00:02:29,520 --> 00:02:31,080
+Let's build something, that's create
+
+75
+00:02:31,080 --> 00:02:32,920
+something new in the economy.
+
+76
+00:02:32,920 --> 00:02:33,960
+And some of them were,
+
+77
+00:02:33,960 --> 00:02:35,760
+you know, I'm just going to buy existing assets.
+
+78
+00:02:35,760 --> 00:02:37,720
+I'm going to buy the stock market, I'm going to buy
+
+79
+00:02:37,720 --> 00:02:40,160
+gold, I'm going to buy a property.
+
+80
+00:02:40,160 --> 00:02:43,000
+And in the course of those ten years as an investor,
+
+81
+00:02:43,000 --> 00:02:48,360
+almost all of the times I tried to invest in actually
+
+82
+00:02:48,360 --> 00:02:49,720
+building new
+
+83
+00:02:49,720 --> 00:02:50,760
+productive capacity,
+
+84
+00:02:50,760 --> 00:02:52,600
+increasing the size of the economy.
+
+85
+00:02:52,600 --> 00:02:54,280
+I lost money, basically,
+
+86
+00:02:54,280 --> 00:02:56,320
+those investments almost all failed.
+
+87
+00:02:56,320 --> 00:02:58,200
+And almost every single time
+
+88
+00:02:58,200 --> 00:03:00,840
+I just bought stuff that already existed,
+
+89
+00:03:00,840 --> 00:03:01,800
+I made a ton of money.
+
+90
+00:03:01,800 --> 00:03:03,240
+The most profitable investment I ever did
+
+91
+00:03:03,240 --> 00:03:05,200
+was probably buying a ton of gold
+
+92
+00:03:05,200 --> 00:03:06,280
+at the beginning of Covid.
+
+93
+00:03:06,280 --> 00:03:10,080
+I made an absolute fortune on that. And,
+
+94
+00:03:10,080 --> 00:03:11,640
+I think it's pretty clear that me buying
+
+95
+00:03:11,640 --> 00:03:14,640
+a ton of gold does nothing to help grow the economy.
+
+96
+00:03:14,640 --> 00:03:15,920
+And this raises the question of
+
+97
+00:03:15,920 --> 00:03:20,160
+why is it that trying to build new stuff
+
+98
+00:03:20,160 --> 00:03:21,560
+is not profitable,
+
+99
+00:03:21,560 --> 00:03:25,200
+but buying existing stuff is profitable?
+
+100
+00:03:25,200 --> 00:03:28,560
+And I think that is because essentially,
+
+101
+00:03:28,560 --> 00:03:30,200
+to make a productive investment,
+
+102
+00:03:30,200 --> 00:03:33,120
+a profitable investment, you need a customer.
+
+103
+00:03:33,120 --> 00:03:34,720
+At the end of the day it's not enough
+
+104
+00:03:34,720 --> 00:03:36,720
+just for rich people like me to turn up and say,
+
+105
+00:03:36,720 --> 00:03:37,800
+here's the money.
+
+106
+00:03:37,800 --> 00:03:39,360
+You also need businesses to say, well,
+
+107
+00:03:39,360 --> 00:03:42,360
+we know that there's a massive customer base out there,
+
+108
+00:03:42,360 --> 00:03:44,680
+so we want to build new stuff for these people.
+
+109
+00:03:44,680 --> 00:03:47,400
+And I think the story of the last 20, 30 years
+
+110
+00:03:47,400 --> 00:03:50,160
+is basically the impoverishment of the middle class
+
+111
+00:03:50,160 --> 00:03:52,480
+and the ordinary British family,
+
+112
+00:03:52,480 --> 00:03:54,600
+the ordinary American family, European family,
+
+113
+00:03:54,600 --> 00:03:57,000
+Australian family, whoever you are,
+
+114
+00:03:57,000 --> 00:03:58,600
+at the expense of the very rich.
+
+115
+00:03:58,600 --> 00:04:00,480
+And that is why
+
+116
+00:04:00,480 --> 00:04:02,440
+trying to grow the economy has basically failed.
+
+117
+00:04:02,440 --> 00:04:03,520
+And if you look at this,
+
+118
+00:04:03,520 --> 00:04:04,480
+the parts of the economy
+
+119
+00:04:04,480 --> 00:04:05,920
+that have grown a lot,
+
+120
+00:04:05,920 --> 00:04:07,920
+it's almost exclusively
+
+121
+00:04:07,920 --> 00:04:10,760
+luxury stuff and services for the rich.
+
+122
+00:04:10,760 --> 00:04:12,840
+So I think
+
+123
+00:04:12,840 --> 00:04:18,000
+this sort of drive towards growth and investment
+
+124
+00:04:18,000 --> 00:04:19,080
+will not work
+
+125
+00:04:19,080 --> 00:04:22,480
+unless you deal with the fundamental inequality
+
+126
+00:04:22,480 --> 00:04:23,880
+that exists in our society.
+
+127
+00:04:23,880 --> 00:04:25,800
+And that is because
+
+128
+00:04:25,800 --> 00:04:27,880
+no matter how much money you give to the rich,
+
+129
+00:04:27,880 --> 00:04:29,640
+when they go to businesses and say, here's
+
+130
+00:04:29,640 --> 00:04:31,680
+the money, businesses are going to look and say,
+
+131
+00:04:31,680 --> 00:04:33,360
+well, where is the customer?
+
+132
+00:04:33,360 --> 00:04:35,040
+And if the only people they see
+
+133
+00:04:35,040 --> 00:04:35,720
+who are accumulating
+
+134
+00:04:35,720 --> 00:04:37,560
+a ton of money are very rich people,
+
+135
+00:04:37,560 --> 00:04:40,640
+even if we do build new productive capacity,
+
+136
+00:04:40,640 --> 00:04:42,400
+the only stuff they're going to
+
+137
+00:04:42,400 --> 00:04:44,600
+create is super luxury,
+
+138
+00:04:44,600 --> 00:04:46,400
+expensive stuff that you can't afford
+
+139
+00:04:46,400 --> 00:04:47,520
+that is for the rich,
+
+140
+00:04:47,520 --> 00:04:48,840
+because these guys have the money.
+
+141
+00:04:48,840 --> 00:04:52,120
+And I think what you need to understand is
+
+142
+00:04:52,120 --> 00:04:54,840
+a capitalist economy is very flexible.
+
+143
+00:04:54,840 --> 00:04:56,200
+It will provide stuff
+
+144
+00:04:56,200 --> 00:04:59,440
+specifically for people who have money.
+
+145
+00:04:59,440 --> 00:05:00,720
+You know,
+
+146
+00:05:00,720 --> 00:05:01,880
+I often think, you know,
+
+147
+00:05:01,880 --> 00:05:05,160
+since I started this YouTube channel, people like to
+
+148
+00:05:05,160 --> 00:05:06,480
+tell you go and be like Mr. Beast.
+
+149
+00:05:06,480 --> 00:05:08,960
+For those of you who don't know, Mr. Beast is,
+
+150
+00:05:08,960 --> 00:05:12,720
+I think, the most biggest, most watched YouTuber ever.
+
+151
+00:05:12,720 --> 00:05:14,720
+And he does a lot of stuff, like he goes to Africa
+
+152
+00:05:14,720 --> 00:05:16,480
+and he pays for like cheap
+
+153
+00:05:16,480 --> 00:05:18,720
+eye surgery for people in sub-Saharan
+
+154
+00:05:18,720 --> 00:05:20,720
+Africa, in poor communities
+
+155
+00:05:20,720 --> 00:05:23,400
+and these are very cheap surgeries
+
+156
+00:05:23,400 --> 00:05:26,600
+that provide extraordinarily, phenomenally
+
+157
+00:05:26,600 --> 00:05:28,400
+significant improvements
+
+158
+00:05:28,400 --> 00:05:30,440
+in life for people in poor communities.
+
+159
+00:05:30,440 --> 00:05:32,440
+So if you think from an investment perspective
+
+160
+00:05:32,440 --> 00:05:34,120
+like this should be what we're investing in right?
+
+161
+00:05:34,120 --> 00:05:35,720
+Here are people who,
+
+162
+00:05:35,720 --> 00:05:37,080
+you don't need to put a lot of money in,
+
+163
+00:05:37,080 --> 00:05:38,320
+and you can really significantly
+
+164
+00:05:38,320 --> 00:05:40,320
+improve their quality of life.
+
+165
+00:05:40,320 --> 00:05:41,280
+So why don't we do that?
+
+166
+00:05:41,280 --> 00:05:43,560
+Why does capitalism, why do businesses,
+
+167
+00:05:43,560 --> 00:05:47,880
+not build healthcare in sub-Saharan Africa?
+
+168
+00:05:47,880 --> 00:05:50,000
+The answer is quite simply
+
+169
+00:05:50,000 --> 00:05:52,480
+because sub-Saharan Africans are poor
+
+170
+00:05:52,480 --> 00:05:53,640
+and capitalism
+
+171
+00:05:53,640 --> 00:05:55,960
+does not provide investment for poor people
+
+172
+00:05:55,960 --> 00:05:58,080
+because they want it to be profitable.
+
+173
+00:05:58,080 --> 00:05:59,880
+And the reason you should be worried about
+
+174
+00:05:59,880 --> 00:06:02,760
+this is because in the West, in the UK,
+
+175
+00:06:02,760 --> 00:06:06,000
+US, Europe, Australia, increasingly
+
+176
+00:06:06,000 --> 00:06:08,160
+ordinary people are poor.
+
+177
+00:06:08,160 --> 00:06:12,120
+You are poor. Your future is poor.
+
+178
+00:06:12,120 --> 00:06:15,840
+So if you want growth, if you want investment,
+
+179
+00:06:15,840 --> 00:06:16,920
+you're not going to get it.
+
+180
+00:06:16,920 --> 00:06:19,320
+Unless you deal with the fundamental fact
+
+181
+00:06:19,320 --> 00:06:20,520
+that you are poor,
+
+182
+00:06:20,520 --> 00:06:22,120
+you need to deal with the distribution.
+
+183
+00:06:22,120 --> 00:06:23,040
+Listen,
+
+184
+00:06:23,040 --> 00:06:25,880
+capitalism has for a long time not provided
+
+185
+00:06:25,880 --> 00:06:28,640
+anything for people in sub-Saharan Africa.
+
+186
+00:06:28,640 --> 00:06:31,320
+People in lots of Latin America, People in lots of Asia
+
+187
+00:06:31,320 --> 00:06:32,760
+because they were poor people.
+
+188
+00:06:32,760 --> 00:06:33,960
+And it was easy for
+
+189
+00:06:33,960 --> 00:06:35,400
+people like us not to worry about it
+
+190
+00:06:35,400 --> 00:06:37,720
+because we were the comfortable middle class.
+
+191
+00:06:37,720 --> 00:06:41,960
+Now we are poor. The average British person is poor.
+
+192
+00:06:41,960 --> 00:06:44,160
+The only way to get things
+
+193
+00:06:44,160 --> 00:06:45,320
+is to change the distribution.
+
+194
+00:06:45,320 --> 00:06:46,800
+If you don't change the distribution,
+
+195
+00:06:46,800 --> 00:06:48,160
+then all of that new investment
+
+196
+00:06:48,160 --> 00:06:49,320
+will be luxury
+
+197
+00:06:49,320 --> 00:06:52,640
+consumption, luxury properties, luxury holidays
+
+198
+00:06:52,640 --> 00:06:56,000
+for the rich and that is not going to help you at all.
+
+199
+00:06:56,000 --> 00:06:57,160
+So this relates to the videos
+
+200
+00:06:57,160 --> 00:06:57,720
+you've been doing
+
+201
+00:06:57,720 --> 00:06:59,200
+about the stupidity of growth,
+
+202
+00:06:59,200 --> 00:07:02,000
+which is if you focus only on growth
+
+203
+00:07:02,000 --> 00:07:04,080
+without focusing on distribution,
+
+204
+00:07:04,080 --> 00:07:05,960
+all you do is keep running
+
+205
+00:07:05,960 --> 00:07:08,520
+towards slavery at a faster rate.
+
+206
+00:07:08,520 --> 00:07:11,320
+Listen, there's a fundamental imbalance of power
+
+207
+00:07:11,320 --> 00:07:12,200
+and resources.
+
+208
+00:07:12,200 --> 00:07:16,000
+You are in a competition with the rich for resources.
+
+209
+00:07:16,000 --> 00:07:19,080
+If we're going to invest in this unequal system,
+
+210
+00:07:19,080 --> 00:07:21,000
+businesses will have a choice.
+
+211
+00:07:21,000 --> 00:07:22,240
+Are we going to build
+
+212
+00:07:22,240 --> 00:07:24,520
+healthcare centers in sub-Saharan Africa?
+
+213
+00:07:24,520 --> 00:07:26,320
+Are we going to build affordable homes
+
+214
+00:07:26,320 --> 00:07:28,080
+for poor people in the UK,
+
+215
+00:07:28,080 --> 00:07:30,000
+or are we going to build a sixth
+
+216
+00:07:30,000 --> 00:07:33,600
+helipad on the top of Elon Musk's f**king skyscraper?
+
+217
+00:07:33,600 --> 00:07:35,600
+You are going to lose that competition.
+
+218
+00:07:35,600 --> 00:07:37,600
+As the rich get richer and richer,
+
+219
+00:07:37,600 --> 00:07:39,120
+they will take the resources
+
+220
+00:07:39,120 --> 00:07:41,000
+and the investment that you need,
+
+221
+00:07:41,000 --> 00:07:43,680
+and the economy will turn into an economy
+
+222
+00:07:43,680 --> 00:07:45,600
+which provides only for them.
+
+223
+00:07:45,600 --> 00:07:48,080
+I don't know if you've seen The Hunger Games.
+
+224
+00:07:48,080 --> 00:07:51,160
+They have this city, which has one super luxury center
+
+225
+00:07:51,160 --> 00:07:52,440
+where all of the rich people live,
+
+226
+00:07:52,440 --> 00:07:54,480
+living lives of unbelievable luxury,
+
+227
+00:07:54,480 --> 00:07:56,600
+surrounded by terrible poverty.
+
+228
+00:07:56,600 --> 00:07:58,840
+Listen, that is what investment
+
+229
+00:07:58,840 --> 00:08:01,240
+looks like in an unequal society.
+
+230
+00:08:01,240 --> 00:08:02,320
+The only way to get investment
+
+231
+00:08:02,320 --> 00:08:03,960
+for you is to get wealth back.
+
+232
+00:08:03,960 --> 00:08:05,320
+To get power back
+
+233
+00:08:05,320 --> 00:08:08,320
+from the superrich into the hands of ordinary families.
+
+234
+00:08:08,320 --> 00:08:11,520
+And the only way to do that is to tax the rich.
+
+235
+00:08:11,520 --> 00:08:13,160
+And I know I say it millions of times,
+
+236
+00:08:13,160 --> 00:08:14,640
+and I'll say it millions of times more,
+
+237
+00:08:14,640 --> 00:08:16,080
+because until we do that,
+
+238
+00:08:16,080 --> 00:08:17,920
+our society will collapse into poverty.
+
+239
+00:08:17,920 --> 00:08:20,160
+Taxation is the only way
+
+240
+00:08:20,160 --> 00:08:23,880
+to escape poverty for your kids and your grandkids.
+
+241
+00:08:23,880 --> 00:08:26,720
+Tax the rich more, tax working people less.
+
+242
+00:08:26,720 --> 00:08:30,240
+Save the f**king future. Good luck.

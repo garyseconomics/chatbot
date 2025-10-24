@@ -1,0 +1,603 @@
+﻿1
+00:00:00,480 --> 00:00:01,960
+Welcome back to Gary's economics.
+
+2
+00:00:01,960 --> 00:00:06,280
+Today, we are going to explain how you lose your house.
+
+3
+00:00:09,360 --> 00:00:13,360
+Alright, I wanted to do a video that explains very explicitly
+
+4
+00:00:13,360 --> 00:00:16,520
+how you lose your house.
+
+5
+00:00:16,520 --> 00:00:19,200
+Because we exist in a country
+
+6
+00:00:19,200 --> 00:00:23,440
+and in the world, in fact, of rapidly growing wealth inequality.
+
+7
+00:00:23,440 --> 00:00:25,080
+And yet when I talk about this,
+
+8
+00:00:25,080 --> 00:00:27,280
+we often see a number of people saying, well,
+
+9
+00:00:27,280 --> 00:00:28,840
+you know, I own my own property.
+
+10
+00:00:28,840 --> 00:00:30,520
+You know, I'm going to pass my property on to my kids,
+
+11
+00:00:30,520 --> 00:00:32,000
+I'm going to get my property from my parents.
+
+12
+00:00:32,000 --> 00:00:34,760
+So I don't want tax to be raised because, you know, we're okay.
+
+13
+00:00:34,760 --> 00:00:36,480
+We've got property we're going to protect that.
+
+14
+00:00:36,480 --> 00:00:37,680
+The reality of the situation is
+
+15
+00:00:37,680 --> 00:00:39,120
+that ordinary families are getting poorer.
+
+16
+00:00:39,120 --> 00:00:39,960
+They losing their wealth.
+
+17
+00:00:39,960 --> 00:00:43,400
+So I want to explain explicitly how that is happening.
+
+18
+00:00:43,400 --> 00:00:46,920
+So I think the first thing to say is a big part of this
+
+19
+00:00:46,920 --> 00:00:51,080
+dynamic is basically about two different
+
+20
+00:00:51,080 --> 00:00:54,040
+mentalities and attitudes towards wealth building
+
+21
+00:00:54,040 --> 00:00:55,640
+that differ across generations.
+
+22
+00:00:55,640 --> 00:00:58,400
+So my parents generation,
+
+23
+00:00:58,400 --> 00:01:01,280
+my parents are born in the late fifties, early sixties.
+
+24
+00:01:01,280 --> 00:01:02,480
+They were part of a generation
+
+25
+00:01:02,480 --> 00:01:06,600
+which was unusually able to buy property
+
+26
+00:01:06,600 --> 00:01:09,040
+with the money they made from working.
+
+27
+00:01:09,040 --> 00:01:11,400
+Back in those periods of time,
+
+28
+00:01:11,400 --> 00:01:12,840
+the average property was only sort of two
+
+29
+00:01:12,840 --> 00:01:14,680
+or three times income in many places.
+
+30
+00:01:14,680 --> 00:01:15,840
+Interest rates were high,
+
+31
+00:01:15,840 --> 00:01:17,680
+you could save up money, build some interest,
+
+32
+00:01:17,680 --> 00:01:19,360
+buy property relatively easily.
+
+33
+00:01:19,360 --> 00:01:20,920
+So these people lived in a world
+
+34
+00:01:20,920 --> 00:01:22,520
+where if you were willing to, sort of,
+
+35
+00:01:22,520 --> 00:01:24,680
+work hard and save up, you could buy property.
+
+36
+00:01:24,680 --> 00:01:27,000
+The world has changed a lot since then
+
+37
+00:01:27,000 --> 00:01:31,240
+and younger people nowadays live in a world where it's increasingly
+
+38
+00:01:31,240 --> 00:01:36,320
+almost impossible to buy property without a big inheritance
+
+39
+00:01:36,320 --> 00:01:38,200
+from your parents.
+
+40
+00:01:38,200 --> 00:01:40,240
+So what this means is
+
+41
+00:01:40,240 --> 00:01:42,000
+there's a kind of a disconnect
+
+42
+00:01:42,000 --> 00:01:44,120
+in understanding between generations here.
+
+43
+00:01:44,120 --> 00:01:47,040
+Which is the older generation, which still owns,
+
+44
+00:01:47,040 --> 00:01:50,240
+in many cases, a decent chunk of wealth in terms of housing.
+
+45
+00:01:50,240 --> 00:01:52,560
+They think that the younger generation
+
+46
+00:01:52,560 --> 00:01:54,920
+will be able to buy their own homes,
+
+47
+00:01:54,920 --> 00:01:57,280
+but that is effectively impossible.
+
+48
+00:01:57,280 --> 00:01:58,480
+So what that means is
+
+49
+00:01:58,480 --> 00:02:00,120
+the older generation is thinking, well,
+
+50
+00:02:00,120 --> 00:02:02,360
+I'm going to use this money to,
+
+51
+00:02:02,360 --> 00:02:06,120
+you know, basically pay for my my end of life care,
+
+52
+00:02:06,120 --> 00:02:07,080
+hoping that,
+
+53
+00:02:07,080 --> 00:02:07,400
+you know,
+
+54
+00:02:07,400 --> 00:02:09,640
+and their retirements, hoping that the younger generation
+
+55
+00:02:09,640 --> 00:02:14,080
+will be able to buy properties on the back of their own work
+
+56
+00:02:14,080 --> 00:02:15,800
+which is impossible.
+
+57
+00:02:15,800 --> 00:02:19,280
+So what you then have is the older generation
+
+58
+00:02:19,280 --> 00:02:20,880
+releasing the equity in their homes,
+
+59
+00:02:20,880 --> 00:02:23,000
+selling their homes, using equity release schemes
+
+60
+00:02:23,000 --> 00:02:23,720
+in order to pay
+
+61
+00:02:23,720 --> 00:02:25,800
+for their retirements, pay for their end of life care,
+
+62
+00:02:25,800 --> 00:02:27,520
+thinking that their kids will be alright
+
+63
+00:02:27,520 --> 00:02:29,960
+because they can buy their own homes and then the kids
+
+64
+00:02:29,960 --> 00:02:32,120
+can't buy their own homes essentially.
+
+65
+00:02:32,120 --> 00:02:33,280
+And the kids are left in a situation
+
+66
+00:02:33,280 --> 00:02:35,120
+where the only way to buy a home
+
+67
+00:02:35,120 --> 00:02:37,920
+is to take out a really enormous mortgage
+
+68
+00:02:37,920 --> 00:02:40,560
+or basically to rent for their whole lives.
+
+69
+00:02:40,560 --> 00:02:44,640
+So I should add, you know, my grandparents,
+
+70
+00:02:44,640 --> 00:02:45,960
+all of them own their own property,
+
+71
+00:02:45,960 --> 00:02:47,440
+and they've all passed away now,
+
+72
+00:02:47,440 --> 00:02:48,960
+and none of them were able
+
+73
+00:02:48,960 --> 00:02:50,640
+to pass significant amounts of equity down
+
+74
+00:02:50,640 --> 00:02:52,600
+because that money was basically
+
+75
+00:02:52,600 --> 00:02:55,200
+all used to pay for their end of life care.
+
+76
+00:02:55,200 --> 00:02:59,040
+Increasingly, elderly people are living into their nineties.
+
+77
+00:02:59,040 --> 00:03:01,120
+They have to pay for end of life care for a long period of time.
+
+78
+00:03:01,120 --> 00:03:02,640
+It's very expensive
+
+79
+00:03:02,640 --> 00:03:04,440
+and this is essentially the way in
+
+80
+00:03:04,440 --> 00:03:06,640
+which ordinary people are losing their houses.
+
+81
+00:03:06,640 --> 00:03:09,680
+But, the question I always ask is, you know,
+
+82
+00:03:09,680 --> 00:03:12,000
+the amount of housing is not decreasing.
+
+83
+00:03:12,000 --> 00:03:13,480
+The amount of debt adds up to zero.
+
+84
+00:03:13,480 --> 00:03:16,240
+So if ordinary families are owning less homes,
+
+85
+00:03:16,240 --> 00:03:17,400
+using more debt,
+
+86
+00:03:17,400 --> 00:03:20,280
+that can only mean that the rich are owning more homes
+
+87
+00:03:20,280 --> 00:03:24,240
+and having increasingly large amounts of money owed to them.
+
+88
+00:03:24,240 --> 00:03:25,960
+So in a sense,
+
+89
+00:03:25,960 --> 00:03:27,480
+the lack of home ownership
+
+90
+00:03:27,480 --> 00:03:30,520
+and the increased indebtedness of ordinary families
+
+91
+00:03:30,520 --> 00:03:32,760
+is a manifestation is in fact the exact mirror
+
+92
+00:03:32,760 --> 00:03:36,240
+image of this rapidly growing wealth of the very rich,
+
+93
+00:03:36,240 --> 00:03:37,560
+of the very rich that I talk about.
+
+94
+00:03:37,560 --> 00:03:38,880
+So, you know,
+
+95
+00:03:38,880 --> 00:03:41,280
+I think maybe people sometimes think I'm just sort of hate
+
+96
+00:03:41,280 --> 00:03:41,920
+rich people.
+
+97
+00:03:41,920 --> 00:03:44,120
+I am a rich person. I don't hate rich people.
+
+98
+00:03:44,120 --> 00:03:49,080
+But if you are allowing the wealth of the rich to grow enormously
+
+99
+00:03:49,080 --> 00:03:51,320
+at a time when the economy is not growing,
+
+100
+00:03:51,320 --> 00:03:52,600
+the only way that that can happen
+
+101
+00:03:52,600 --> 00:03:54,720
+is that the wealth of the middle classes
+
+102
+00:03:54,720 --> 00:03:56,960
+is being moved over to the rich.
+
+103
+00:03:56,960 --> 00:04:00,360
+And that can only happen if ordinary people are losing their homes.
+
+104
+00:04:00,360 --> 00:04:00,960
+And, you know,
+
+105
+00:04:00,960 --> 00:04:02,720
+I wanted to connect this to, we’ve
+
+106
+00:04:02,720 --> 00:04:05,880
+been speaking a little bit about tax in some of our shorts.
+
+107
+00:04:05,880 --> 00:04:08,800
+The reality of the situation is
+
+108
+00:04:08,800 --> 00:04:10,800
+most ordinary families
+
+109
+00:04:10,800 --> 00:04:14,560
+are going to lose a significant chunks of their
+
+110
+00:04:14,560 --> 00:04:18,600
+property wealth in order to pay for end of life care.
+
+111
+00:04:18,600 --> 00:04:21,880
+And through that mechanism, ordinary families will become poorer.
+
+112
+00:04:21,880 --> 00:04:23,160
+They'll lose their assets.
+
+113
+00:04:23,160 --> 00:04:27,920
+You know, one alternative to this would be to tax very rich people
+
+114
+00:04:27,920 --> 00:04:29,600
+who are seeing the biggest
+
+115
+00:04:29,600 --> 00:04:30,080
+and fastest
+
+116
+00:04:30,080 --> 00:04:32,160
+ever increases in their wealth in history,
+
+117
+00:04:32,160 --> 00:04:36,520
+tax them more to pay for a government funded care service.
+
+118
+00:04:36,520 --> 00:04:38,360
+And then in that case,
+
+119
+00:04:38,360 --> 00:04:40,080
+your dad, your grandad, you know,
+
+120
+00:04:40,080 --> 00:04:41,600
+you yourself, when you’re old wouldn’t
+
+121
+00:04:41,600 --> 00:04:43,880
+need to sell your home
+
+122
+00:04:43,880 --> 00:04:48,120
+in order to be able to live a dignified life in old age.
+
+123
+00:04:48,120 --> 00:04:52,920
+So I think people often instinctively think we need to reduce tax
+
+124
+00:04:52,920 --> 00:04:55,200
+to protect my wealth.
+
+125
+00:04:55,200 --> 00:04:56,520
+But we do have an alternative,
+
+126
+00:04:56,520 --> 00:04:58,800
+which is tax the people who are increasingly
+
+127
+00:04:58,800 --> 00:05:02,520
+going to own your wealth to pay for the things that you need.
+
+128
+00:05:02,520 --> 00:05:05,800
+I think we need to address the reality of the situation here,
+
+129
+00:05:05,800 --> 00:05:07,520
+which is
+
+130
+00:05:07,520 --> 00:05:09,880
+ordinary families are losing their wealth.
+
+131
+00:05:09,880 --> 00:05:11,520
+Rich people are gaining it.
+
+132
+00:05:11,520 --> 00:05:13,520
+And tax can be used
+
+133
+00:05:13,520 --> 00:05:16,320
+as a defense, as an alternative, basically, you know.
+
+134
+00:05:16,320 --> 00:05:17,480
+If we tax the wealth back
+
+135
+00:05:17,480 --> 00:05:19,400
+from the people who are taking your wealth,
+
+136
+00:05:19,400 --> 00:05:22,080
+we can use that to give you the things you need,
+
+137
+00:05:22,080 --> 00:05:26,240
+which you will otherwise have to sell your home to afford.
+
+138
+00:05:26,240 --> 00:05:27,520
+You know, I talk about a lot on this channel.
+
+139
+00:05:27,520 --> 00:05:30,560
+It's very important to understand the flows of wealth, understand
+
+140
+00:05:30,560 --> 00:05:32,160
+which groups are getting richer,
+
+141
+00:05:32,160 --> 00:05:33,720
+which groups are getting poorer
+
+142
+00:05:33,720 --> 00:05:35,520
+at the moment is ordinary families
+
+143
+00:05:35,520 --> 00:05:36,000
+who over
+
+144
+00:05:36,000 --> 00:05:39,360
+the generations are getting poorer, generation after generation,
+
+145
+00:05:39,360 --> 00:05:42,320
+going further into debt and in fewer houses
+
+146
+00:05:42,320 --> 00:05:44,600
+and having lower standards of living.
+
+147
+00:05:44,600 --> 00:05:46,680
+That wealth is going to the rich.
+
+148
+00:05:46,680 --> 00:05:49,120
+The only way to reverse that is to tax the rich more.
+
+149
+00:05:49,120 --> 00:05:50,800
+We're going to campaign for more on this channel.
+
+150
+00:05:50,800 --> 00:05:54,400
+Tell your friends, tell your family, send the video to your mum,
+
+151
+00:05:54,400 --> 00:05:56,480
+and hopefully we can make a change. Thank you.
