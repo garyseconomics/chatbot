@@ -1,5 +1,5 @@
 import json, os
-from vector_database.vector_database import generate_db_with_documents, get_collections_from_database, delete_existing_collections
+from vector_database.vector_database_manager import generate_db_with_documents, get_collections_from_database, delete_existing_collections
 
 # Load database path from configuration file
 with open('config.json', 'r') as f:

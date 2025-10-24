@@ -1,7 +1,7 @@
 import pytest
 import chromadb
 from langchain_chroma import Chroma
-from vector_database.vector_database import *
+from vector_database.vector_database_manager import *
 
 test_database_path = './tests/chroma_langchain_db'
 collection_name = 'youtube_videos'
