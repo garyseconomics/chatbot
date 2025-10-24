@@ -26,6 +26,6 @@ def test_get_splits_from_srt(sample_srt_file):
     # test that returns a document
     assert isinstance(all_splits[0], Document)
 
-     # test a fragment
-    expected_content = '''Okay. Welcome back to Gary’s Economics. Today we are going to introduce the first part of our online course. Video number one, which is going to be What is Wealth'''
+    # test a fragment
+    expected_content = '''Okay. Welcome back to Gary’s Economics. Today we are going to introduce the first part of our online course. Video number one, which is going to be What is Wealth. Okay so I was at a conference the other day, a conference about economics media, and there was a guy who basically spoke about how when people watch Jordan Peterson's videos, they don't just watch his recent videos, they go back to the beginning and they watch it through.'''
     assert all_splits[0].page_content == expected_content

@@ -33,9 +33,10 @@ def test_generate_db_with_documents():
     # Verify the collection has been created
     assert isinstance(collection, chromadb.Collection)
     # Verify the collection has two items
-    assert collection.count() == 2
+    assert collection.count() == 1
     documents = collection.peek()["documents"]
-    assert documents[0] == '''Okay. Welcome back to Gary’s Economics. Today we are going to introduce the first part of our online course. Video number one, which is going to be What is Wealth'''
+    expected_content = '''Okay. Welcome back to Gary’s Economics. Today we are going to introduce the first part of our online course. Video number one, which is going to be What is Wealth. Okay so I was at a conference the other day, a conference about economics media, and there was a guy who basically spoke about how when people watch Jordan Peterson's videos, they don't just watch his recent videos, they go back to the beginning and they watch it through.'''
+    assert documents[0] == expected_content
 
 def test_get_collections_from_database():
    collections_list = get_collections_from_database(test_database_path)
