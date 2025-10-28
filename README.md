@@ -75,6 +75,15 @@ python telegram_bot.py
 ```
 Then you can talk with the chatbot using this link to access the bot on Telegram: http://t.me/GarysEconomics_bot
 
+### Discord chatbot
+To run the bot in discord:
+- Add the discord token to the .env file as DISCORD_TOKEN.
+- Set the name of the channel on config.py in discord_channel.
+- Launch the bot:
+```bash
+python discord_bot.py
+```
+
 
 ### Testing
 To execute the tests:
