@@ -68,6 +68,14 @@ The chatbot will greet you and ask you for a question. After providing the quest
 If logs are enabled, the chatbot will show you the prompt it has generated before calling to the LLM.
 
 
+### Telegram chatbot
+You can also access the chatbot through Telegram. To enable this, you have to start the telegram bot:
+```bash
+python telegram_bot.py
+```
+Then you can talk with the chatbot using this link to access the bot on Telegram: http://t.me/GarysEconomics_bot
+
+
 ### Testing
 To execute the tests:
 ```bash
