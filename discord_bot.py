@@ -46,8 +46,6 @@ class DiscordClient:
                 ch = discord.utils.get(self.bot.guilds[0].text_channels, name=discord_channel)
                 await ch.send(rag_answer)
 
-#           await self.bot.process_commands(message)
-
     def run(self):
         print("Connecting Discord...")
         self.bot.run(self.discord_token)
