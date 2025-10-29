@@ -24,11 +24,11 @@ def test_get_or_create_database():
     assert isinstance(collection, chromadb.Collection)
     assert len(client.list_collections()) == 1
 
-def test_generate_db_with_documents():
+def test_add_documents_to_vector_database():
     client = get_chromadb_client(test_database_path)
     client.delete_collection(collection_name)
     files_list = ["tests/sample.srt"]
-    vector_store = generate_db_with_documents(test_database_path, files_list)
+    vector_store = add_documents_to_vector_database(test_database_path, files_list)
     collection = client.get_collection(collection_name)
     # Verify the collection has been created
     assert isinstance(collection, chromadb.Collection)

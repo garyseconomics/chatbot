@@ -29,7 +29,7 @@ def process_in_batches(splits, batch_size):
 		yield splits[i:i + batch_size]
 
 # Creates the database and populates it with the documents provided
-def generate_db_with_documents(database_path, files_list):
+def add_documents_to_vector_database(database_path, files_list):
 	vector_store = get_or_create_vector_database(database_path)
 	for filename in files_list:
 		print(f"Extracting content from file: {filename}")
