@@ -1,5 +1,5 @@
 database_path = "./vector_database/chroma_langchain_db"
-documents_directory = "docs"
+documents_directory = "docs/import"
 collection_name = "youtube_videos"
 chunk_size = 1024
 chunk_overlap = 105

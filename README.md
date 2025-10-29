@@ -24,12 +24,20 @@ pip install -U python-telegram-bot
 
 ```
 
-### Install Ollama and download the Llama 3 model 
+### Install Ollama and download the embedding model
+Before adding the documents to the vectorized database, they have to be processed with an embedding model. For this, we need to install Ollama in our server and then download the embedding model.
 ```bash
 sudo apt install curl
 curl -fsSL https://ollama.com/install.sh | sh
-ollama pull llama3
+ollama pull qwen3-embedding:8b
 ```
+By default we are using the embedding model [Qwen3](https://ollama.com/library/qwen3-embedding).
+You can select a diferent embedding model by chaging the model name in config.py and downloading the new model with Ollama.
+```bash
+ollama pull model_name
+```
+Check the [Ollama library](https://ollama.com/library?sort=newest&q=embedding) for embedding models to use.
+
 
 ## Using this application
 Open a terminal, go to the project directory and activate the virtual enviroment with this command:
@@ -40,9 +48,9 @@ source venv/bin/activate
 This application uses subtitles in srt format as information source. For the chatbot to be able to access this information it has to be imported to the database.
 To import the documents, follow this steps:
 
-- Select the subtitles in srt format that you want to import by moving them to the [docs folder](https://github.com/garyseconomics/chatbot/tree/main/docs).
+- Select the subtitles in srt format that you want to import by moving them to the [docs/import folder](https://github.com/garyseconomics/chatbot/tree/main/docs).
 
-> Note: All the documents in the docs folder will be imported, one after the other. This can take a while, so we advise that you try only with one subtitle on your first attemp, to get an idea of how long it'll take. Selecting files one by one to import is not implemented yet, but you can select the files by copying and deleting them from the docs folder before starting the regenerate database script. 
+> Note: All the documents in the import folder will be imported, one after the other. This can take a while, so we advise that you try only with one subtitle on your first attemp, to get an idea of how long it'll take. Selecting files one by one to import is not implemented yet, but you can select the files by moving them to the import folder before starting the regenerate database script.
 
 
 - Execute the regenerate database script.
