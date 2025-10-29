@@ -1,4 +1,4 @@
-import json, os
+import os
 from vector_database.vector_database_manager import add_documents_to_vector_database, get_collections_from_database, delete_existing_collections
 from config import database_path, documents_directory
 
