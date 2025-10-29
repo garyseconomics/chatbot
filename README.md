@@ -44,7 +44,7 @@ Open a terminal, go to the project directory and activate the virtual enviroment
 ```bash
 source venv/bin/activate
 ```
-### Load documents to the database
+### Import documents to the database
 This application uses subtitles in srt format as information source. For the chatbot to be able to access this information it has to be imported to the database.
 To import the documents, follow this steps:
 
@@ -53,9 +53,9 @@ To import the documents, follow this steps:
 > Note: All the documents in the import folder will be imported, one after the other. This can take a while, so we advise that you try only with one subtitle on your first attemp, to get an idea of how long it'll take. Selecting files one by one to import is not implemented yet, but you can select the files by moving them to the import folder before starting the regenerate database script.
 
 
-- Execute the regenerate database script.
+- Execute the import documents script.
 ```bash
-python regenerate_database.py
+python import_documents.py
 ```
 If documents have already been imported before, the script will ask you if you want to delete the collection. Answer "yes" only if you are sure you want to delete everything and start from scratch. Any answer except "yes" or "y" will skip this step and start importing the documents.
 
