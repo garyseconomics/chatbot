@@ -1,4 +1,4 @@
-from config import documents_directory
+from config import documents_directory, video_ids_separator
 
 # Get the list of youtube videos from the context
 def get_video_link(context):
@@ -8,7 +8,7 @@ def get_video_link(context):
     for doc in context:
         file_source = doc.metadata["source"]
         # Takes the video id from the name of the file
-        video_id = file_source.strip(documents_directory).split('_')[0]
+        video_id = file_source.strip(documents_directory).split(video_ids_separator)[0]
         video_url = "https://www.youtube.com/watch?v="+video_id
         if not video_url in videos_list:
             videos_list.append(video_url)

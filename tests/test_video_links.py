@@ -5,10 +5,10 @@ from video_links import get_video_link, videos_text_for_chat
 # Testing examples
 video1 = "https://www.youtube.com/watch?v=bReS9FLpgT4"
 video2 = "https://www.youtube.com/watch?v=CivlU8hJVwc"
-filename1 = "docs/import/bReS9FLpgT4_MOOC_Part_1_What_Is_Wealth.srt"
-filename2 = "docs/import/CivlU8hJVwc_MOOC_Part_3.srt"
-doc1 = Document(metadata={"source": "docs/import/bReS9FLpgT4_MOOC_Part_1_What_Is_Wealth.srt"}, page_content="")
-doc2 = Document(metadata={"source": "docs/import/CivlU8hJVwc_MOOC_Part_3.srt"}, page_content="")
+filename1 = "docs/import/bReS9FLpgT4__MOOC_Part_1_What_Is_Wealth.srt"
+filename2 = "docs/import/CivlU8hJVwc__MOOC_Part_3.srt"
+doc1 = Document(metadata={"source": "docs/import/bReS9FLpgT4__MOOC_Part_1_What_Is_Wealth.srt"}, page_content="")
+doc2 = Document(metadata={"source": "docs/import/CivlU8hJVwc__MOOC_Part_3.srt"}, page_content="")
 
 
 def test_get_video_link_when_no_documents():

@@ -6,3 +6,4 @@ chunk_overlap = 105
 batch_size = 10
 show_logs = True
 embedding_model = "qwen3-embedding:8b"
+video_ids_separator = "__"
