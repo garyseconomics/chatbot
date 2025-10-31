@@ -5,5 +5,6 @@ chunk_size = 1024
 chunk_overlap = 105
 batch_size = 10
 show_logs = True
+discord_channel = "youtube-chatbot"
 embedding_model = "qwen3-embedding:8b"
 video_ids_separator = "__"
