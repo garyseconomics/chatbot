@@ -1,9 +1,9 @@
-import json
+import time
 from vector_database.srt_splitter import get_splits_from_srt
 from langchain_ollama import OllamaEmbeddings
 from langchain_chroma import Chroma
 import chromadb
-from config import collection_name, batch_size, show_logs
+from config import collection_name, batch_size, show_logs, embedding_model
 
 
 def get_chromadb_client(database_path):
@@ -12,7 +12,7 @@ def get_chromadb_client(database_path):
 
 def get_or_create_vector_database(database_path):
 	# Embeddings with Ollama
-	embeddings = OllamaEmbeddings(model="llama3")
+	embeddings = OllamaEmbeddings(model=embedding_model)
 
 	# Create vector database with Chroma
 	vector_store = Chroma(
@@ -29,17 +29,25 @@ def process_in_batches(splits, batch_size):
 		yield splits[i:i + batch_size]
 
 # Creates the database and populates it with the documents provided
-def generate_db_with_documents(database_path, files_list):
+def add_documents_to_vector_database(database_path, files_list):
 	vector_store = get_or_create_vector_database(database_path)
 	for filename in files_list:
 		print(f"Extracting content from file: {filename}")
 		splits = get_splits_from_srt(filename)
+		start_time = time.time()
 		if show_logs:
 			print(f"Obtained {len(splits)} splits of text.")
 		for batch in process_in_batches(splits, batch_size):
 			if show_logs:
+				current_time = time.time()
+				time_processing = current_time - start_time
 				print(f"Adding batch: {batch}")
+				# Shows how long its been since the processing started.
+				print(f"Time since start: {time_processing:.2f} seconds")
 			_ = vector_store.add_documents(documents=batch)
+		end_time = time.time()
+		total_time = end_time - start_time
+		print(f"Total time processing: {total_time:.2f} seconds")  
 	return vector_store
 
 # Returns a list of the collections in the database

@@ -1,8 +1,10 @@
 database_path = "./vector_database/chroma_langchain_db"
-documents_directory = "docs"
+documents_directory = "docs/import"
 collection_name = "youtube_videos"
 chunk_size = 1024
 chunk_overlap = 105
 batch_size = 10
 show_logs = True
-discord_channel = "general"
+discord_channel = "youtube-chatbot"
+embedding_model = "qwen3-embedding:8b"
+video_ids_separator = "__"
