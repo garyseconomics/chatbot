@@ -43,7 +43,8 @@ def add_documents_to_vector_database(database_path, files_list):
 				time_processing = current_time - start_time
 				print(f"Adding batch: {batch}")
 				# Shows how long its been since the processing started.
-				print(f"Time since start: {time_processing:.2f} seconds")
+				now = time.localtime()
+				print(f"{now.tm_hour}:{now.tm_min} - Time since start: {time_processing:.2f} seconds")
 			_ = vector_store.add_documents(documents=batch)
 		end_time = time.time()
 		total_time = end_time - start_time
