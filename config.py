@@ -8,3 +8,4 @@ show_logs = True
 discord_channel = "youtube-chatbot"
 embedding_model = "qwen3-embedding:8b"
 video_ids_separator = "__"
+bot_greeting = "Hello. This is Garys Economics Youtube chatbot. You can ask me questions and I'll answer them using the content of our videos."

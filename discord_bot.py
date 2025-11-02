@@ -2,7 +2,7 @@ import os
 import discord
 from discord.ext import commands
 from rag.RAG_manager import RAG_query
-from config import discord_channel, show_logs
+from config import discord_channel, show_logs, bot_greeting
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -16,7 +16,6 @@ class DiscordClient:
         # Setting access permissions
         self.discordintents = discord.Intents.default()
         self.discordintents.messages = True
-        self.discordintents.members = True
         self.discordintents.message_content = True
         # Creates the bot instance
         self.bot = commands.Bot(
@@ -28,6 +27,9 @@ class DiscordClient:
         @self.bot.event
         async def on_ready():
             print(f'Bot conected as {self.bot.user.name} - {self.bot.user.id}')
+            channel = discord.utils.get(self.bot.guilds[0].text_channels, name=discord_channel)
+            print(f"Connected to channel {channel}")
+            await channel.send(bot_greeting)
 
         @self.bot.event
         async def on_message(message):
@@ -37,14 +39,15 @@ class DiscordClient:
             # The bot answers when it is mentioned
             if self.bot.user in message.mentions:
                 bot_id = str(self.bot.user.id)
+                # Eliminates the bot mention from the message
                 clean_message = message.content.lstrip('<@'+bot_id+'> ')
                 if show_logs:
                     print(f"Message received: {clean_message}")
                 rag_answer = RAG_query(clean_message)["answer"]
                 if show_logs:
                     print(f"RAG answer: {rag_answer}")
-                ch = discord.utils.get(self.bot.guilds[0].text_channels, name=discord_channel)
-                await ch.send(rag_answer)
+                channel = discord.utils.get(self.bot.guilds[0].text_channels, name=discord_channel)
+                await channel.send(rag_answer)
 
     def run(self):
         print("Connecting Discord...")
