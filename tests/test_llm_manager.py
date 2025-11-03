@@ -4,8 +4,12 @@ from langchain_core.prompts import ChatPromptTemplate
 from llm.llm_manager import *
 from llm.prompt_template import get_rag_prompt
 
-def test_get_llm_client():
-	llm = get_llm_client()
+def test_get_llm_client_remote():
+	llm = get_llm_client(force_local_llm=False)
+	assert isinstance(llm,ChatOllama)
+
+def test_get_llm_client_local():
+	llm = get_llm_client(force_local_llm=True)
 	assert isinstance(llm,ChatOllama)
 
 def test_llm_chat_simple_prompt():
@@ -28,3 +32,8 @@ def test_llm_chat_with_prompt_template():
     response = llm_chat(llm, messages)
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
 
+def test_llm_chat_local():
+	llm = get_llm_client(force_local_llm=True)
+	prompt = "Hello"
+	response = llm_chat(llm, prompt)
+	assert isinstance(response, langchain_core.messages.ai.AIMessage)
