@@ -3,10 +3,9 @@ from telegram import Update
 from telegram.ext import filters, MessageHandler, ApplicationBuilder, CommandHandler, ContextTypes
 from dotenv import load_dotenv
 from rag.RAG_manager import RAG_query
-from config import show_logs
+from config import show_logs, bot_greeting
 from video_links import get_video_link, videos_text_for_chat
 
-welcome_message = "This is the chatbot for Gary's Economics YouTube channel. You can ask me questions, and I will answer them using the content from our videos."
 
 # Setting up the logging module
 logging.basicConfig(
@@ -19,7 +18,7 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 # Start funtion. This function will be called every time the Bot receives a Telegram message that contains the /start command.
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text=welcome_message)
+    await context.bot.send_message(chat_id=update.effective_chat.id, text=bot_greeting)
 
 # Question funtion. This funtion will answer when a user sends a text message to the bot.
 async def question(update: Update, context: ContextTypes.DEFAULT_TYPE):

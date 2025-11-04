@@ -1,8 +1,8 @@
 from rag.RAG_manager import RAG_query
-from config import show_logs
+from config import show_logs, bot_greeting
 from video_links import get_video_link, videos_text_for_chat
 
-print("This is the chatbot for Gary's Economics YouTube channel. You can ask me questions, and I will answer them using the content from our videos.")
+print(bot_greeting)
 question = input("Your question: ")
 response = RAG_query(question)
 if show_logs:
