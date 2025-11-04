@@ -26,11 +26,11 @@ def test_prompt_template():
 	assert isinstance(messages, langchain_core.prompt_values.ChatPromptValue)
 
 def test_llm_chat_with_prompt_template():
-    llm = get_llm_client()
-    prompt = ChatPromptTemplate.from_messages([("human", "Hello")])
-    messages = prompt.invoke({"question": "Who are you?", "context": "You are an AI assistant."})
-    response = llm_chat(llm, messages)
-    assert isinstance(response, langchain_core.messages.ai.AIMessage)
+	llm = get_llm_client()
+	prompt = ChatPromptTemplate.from_messages([("human", "Hello")])
+	messages = prompt.invoke({"question": "Who are you?", "context": "You are an AI assistant."})
+	response = llm_chat(llm, messages)
+	assert isinstance(response, langchain_core.messages.ai.AIMessage)
 
 def test_llm_chat_local():
 	llm = get_llm_client(force_local_llm=True)
