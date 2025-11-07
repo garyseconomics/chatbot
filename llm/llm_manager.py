@@ -21,14 +21,16 @@ def get_llm_client(force_local_llm=False):
 		OLLAMA_HOST = os.getenv("OLLAMA_HOST")
 		OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY")
 		# Calling remote LLM
-		print("Calling the remote LLM {remote_llm}")
+		print(f"Calling the remote LLM {remote_llm}")
 		llm = ChatOllama(model=remote_llm,
 			api_key=OLLAMA_API_KEY,
 			base_url=OLLAMA_HOST)
 		return llm
 
-def llm_chat(llm, prompt):
+def llm_chat(prompt, llm=None):
 	try:
+		if not llm:
+			llm = get_llm_client(force_local_llm=False)
 		response = llm.invoke(prompt)
 		return response
 	except Exception as e:

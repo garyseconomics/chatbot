@@ -1,7 +1,7 @@
 from typing_extensions import List, TypedDict
 from langchain_core.documents import Document
 from langgraph.graph import START, StateGraph
-from llm.llm_manager import get_llm_client
+from llm.llm_manager import llm_chat
 from llm.prompt_template import get_rag_prompt
 from vector_database.vector_database_manager import get_or_create_vector_database
 from config import database_path, show_logs
@@ -25,8 +25,7 @@ def generate(state: State):
     messages = prompt.invoke({"question": state["question"], "context": docs_content})
     if show_logs:
         print(f'\nPrompt generated:\n{messages}\n')
-    llm = get_llm_client()
-    response = llm.invoke(messages)
+    response = llm_chat(messages)
     return {"answer": response.content}
 
 def RAG_query(question):
