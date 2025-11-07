@@ -32,5 +32,9 @@ def RAG_query(question):
     graph_builder = StateGraph(State).add_sequence([retrieve, generate])
     graph_builder.add_edge(START, "retrieve")
     graph = graph_builder.compile()
-    response = graph.invoke({"question": question})
-    return response
+    try:
+        response = graph.invoke({"question": question})
+        return response
+    except Exception as e:
+        print(f"Failed while quering the RAG. Error: {e}")
+        return {"answer":"I'm sorry. I'm having some tecnical problems."}
