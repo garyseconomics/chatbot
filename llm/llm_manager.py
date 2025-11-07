@@ -4,13 +4,15 @@ from dotenv import load_dotenv
 from config import use_remote_llm, remote_llm, local_llm
 
 
-def get_llm_client(force_local_llm=False):
+def get_llm_client(force_local_llm=False, model_name=""):
 	# Uses the local Ollama when use_remote_llm in the config is set to False
 	# or when this funtion is called with the parameter force_local_llm set to True
 	if	force_local_llm or not use_remote_llm:
 		# Using the local LLM
-		print(f"Using local LLM {local_llm}")
-		llm = ChatOllama(model=local_llm)
+		if not model_name:
+			model_name = local_llm
+		print(f"Using local LLM {model_name}")
+		llm = ChatOllama(model=model_name)
 		return llm
 	else:
 		# If use_remote_llm in config is set to True and force_local_llm is False,
@@ -21,20 +23,20 @@ def get_llm_client(force_local_llm=False):
 		OLLAMA_HOST = os.getenv("OLLAMA_HOST")
 		OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY")
 		# Calling remote LLM
-		print(f"Calling the remote LLM {remote_llm}")
-		llm = ChatOllama(model=remote_llm,
-			api_key=OLLAMA_API_KEY,
-			base_url=OLLAMA_HOST)
+		if not model_name:
+			model_name = remote_llm
+		print(f"Calling the remote LLM {model_name}")
+		llm = ChatOllama(model=model_name, api_key=OLLAMA_API_KEY, base_url=OLLAMA_HOST)
 		return llm
 
-def llm_chat(prompt, llm=None):
+def llm_chat(prompt, llm=None, model_name=""):
 	try:
 		if not llm:
-			llm = get_llm_client(force_local_llm=False)
+			llm = get_llm_client(force_local_llm=False, model_name=model_name)
 		response = llm.invoke(prompt)
 		return response
 	except Exception as e:
 		print(f"Failed to get response from LLM: {e}")
-		llm = get_llm_client(force_local_llm=True)
+		llm = get_llm_client(force_local_llm=True, model_name=model_name)
 		response = llm.invoke(prompt)
 		return response
