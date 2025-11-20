@@ -21,6 +21,7 @@ pip install --upgrade pip
 pip install -U pytest pysrt chromadb ollama
 pip install -U langchain langchain_community langchain-ollama langchain_chroma langgraph
 pip install -U python-telegram-bot
+pip install -U dspy
 
 ```
 
