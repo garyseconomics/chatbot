@@ -26,7 +26,7 @@ def get_llm_client(force_local_llm=False, model_name=""):
 		if not model_name:
 			model_name = remote_llm
 		print(f"Calling the remote LLM {model_name}")
-		llm = ChatOllama(model=model_name, api_key=OLLAMA_API_KEY, base_url=OLLAMA_HOST)
+		llm = ChatOllama(model=model_name, base_url=OLLAMA_HOST)
 		return llm
 
 def llm_chat(prompt, llm=None, model_name=""):
