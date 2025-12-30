@@ -1,0 +1,13 @@
+chromadb
+discord.py
+langchain
+langchain-chroma
+langchain-community
+langchain-ollama
+langchain-text-splitters
+langgraph
+ollama
+pysrt
+python-dotenv
+python-telegram-bot
+pytest

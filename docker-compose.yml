@@ -1,0 +1,11 @@
+services:
+  chatbot:
+    image: ghcr.io/garyseconomics/chatbot:latest
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./docs/import:/app/docs/import
+      - ./vector_database:/app/vector_database
+    command: ["python", "telegram_bot.py"]
+    tty: true
