@@ -6,6 +6,7 @@ langchain-community
 langchain-ollama
 langchain-text-splitters
 langgraph
+langfuse
 ollama
 pysrt
 python-dotenv

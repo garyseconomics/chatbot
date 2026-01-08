@@ -2,6 +2,7 @@ import os
 from langchain_ollama import ChatOllama
 from dotenv import load_dotenv
 from config import use_remote_llm, remote_llm, local_llm
+from llm.langfuse_manager import LangfuseManager
 
 
 def get_llm_client(force_local_llm=False, model_name=""):
@@ -38,5 +39,8 @@ def llm_chat(prompt, llm=None, model_name=""):
 	except Exception as e:
 		print(f"Failed to get response from LLM: {e}")
 		llm = get_llm_client(force_local_llm=True, model_name=model_name)
+		langfuse = LangfuseManager()
+		langfuse.trace(prompt)
 		response = llm.invoke(prompt)
+		langfuse.end(response)
 		return response
