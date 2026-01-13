@@ -2,9 +2,43 @@
 
 A prototype chatbot designed to answer questions by referencing videos from Gary's Economics YouTube channel.
 
-## Initial Setup
+## Setup with Docker
+Note: This instructions asume you are on an Ubuntu server. 
 
-These are the instructions to run the project on an Ubuntu server. 
+### Configure the enviroment variables
+Make a copy of the file named [.env.sample](https://github.com/garyseconomics/chatbot/blob/main/.env.sample), naming it .env. In this file you have to configure the information of your API keys to access diferent services.
+For more information about each of the content of this file, consult the section [setting-up-the-remote-services](https://github.com/garyseconomics/chatbot/tree/main?tab=readme-ov-file#setting-up-the-remote-services).
+
+### Include a copy of the database
+To run the application you need a copy of the vectorized dabase with the subtitles. You can use a copy of the database (recomended) or you can create your own.
+
+Using a copy: 
+- Download a copy of "chroma.sqlite3" from [this repository]( https://github.com/garyseconomics/chatbot-database)
+- Create a folder named "chroma_langchain_db" in the "vectorized_database" folder.
+- Move chroma.sqlite3 to the chroma_langchain_db folder. 
+
+The path of the file should be:
+```bash
+chatbot/vector_database/chroma_langchain_db/chroma.sqlite3
+```
+
+Alternativately, you can generate your own database following the steps on the [Import documents to the database section](https://github.com/garyseconomics/chatbot/edit/main/README.md#import-documents-to-the-database). 
+
+### Build the docker container
+Build the docker container executing this command while you are in the chatbot folder:
+```bash
+docker compose build chatbot
+```
+### Run the docker container
+Once you have build the container, run it using this command:
+```bash
+docker compose up
+```
+
+## Setup without Docker
+
+Note: This instructions asume you are on an Ubuntu server. 
+
 Open a terminal, go to the project directory and execute the following commands:
 
 ### Activate Virtual Environment
