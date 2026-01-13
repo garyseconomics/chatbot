@@ -5,6 +5,7 @@ from rag.RAG_manager import RAG_query
 from config import discord_channel, show_logs, bot_greeting
 from dotenv import load_dotenv
 load_dotenv()
+LANGFUSE_APP_NAME = os.environ.get("LANGFUSE_APP_NAME", "GarysEconomics_bot")
 
 
 class DiscordClient:
@@ -43,7 +44,12 @@ class DiscordClient:
                 clean_message = message.content.lstrip('<@'+bot_id+'> ')
                 if show_logs:
                     print(f"Message received: {clean_message}")
-                rag_answer = RAG_query(clean_message)["answer"]
+                user_id = message.author.display_name
+                rag_answer = RAG_query(
+                    clean_message,
+                    user_id=user_id,
+                    app_name=LANGFUSE_APP_NAME,
+                )["answer"]
                 if show_logs:
                     print(f"RAG answer: {rag_answer}")
                 channel = discord.utils.get(self.bot.guilds[0].text_channels, name=discord_channel)

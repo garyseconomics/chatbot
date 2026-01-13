@@ -30,17 +30,31 @@ def get_llm_client(force_local_llm=False, model_name=""):
 		llm = ChatOllama(model=model_name, base_url=OLLAMA_HOST)
 		return llm
 
-def llm_chat(prompt, llm=None, model_name=""):
+def llm_chat(prompt, llm=None, model_name="", user_id="", app_name=""):
+	langfuse = LangfuseManager()
 	try:
 		if not llm:
 			llm = get_llm_client(force_local_llm=False, model_name=model_name)
-		response = llm.invoke(prompt)
+		active_model_name = model_name or remote_llm
+		response = langfuse.invoke(
+			llm,
+			prompt,
+			model_name=active_model_name,
+			provider="ollama-remote",
+			user_id=user_id,
+			app_name=app_name,
+		)
 		return response
 	except Exception as e:
 		print(f"Failed to get response from LLM: {e}")
 		llm = get_llm_client(force_local_llm=True, model_name=model_name)
-		langfuse = LangfuseManager()
-		langfuse.trace(prompt)
-		response = llm.invoke(prompt)
-		langfuse.end(response)
+		active_model_name = model_name or local_llm
+		response = langfuse.invoke(
+			llm,
+			prompt,
+			model_name=active_model_name,
+			provider="ollama-local",
+			user_id=user_id,
+			app_name=app_name,
+		)
 		return response

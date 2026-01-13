@@ -1,33 +1,43 @@
 import os
 from dotenv import load_dotenv
 from langfuse import Langfuse, observe
-from config import remote_llm
 
 class LangfuseManager:
 	def __init__(self):
-		langfuse_client = self.get_langfuse_client()
-		trace = None
-		span = None
+		self.langfuse_client = self.get_langfuse_client()
 
 	def get_langfuse_client(self):
 		load_dotenv()
-		langfuse_client = Langfuse()
-		return langfuse_client
+		return Langfuse()
 
-	@observe(name="ollama_request", capture_input=True, capture_output=True)
-	def trace(self, prompt):
-		self.trace = self.langfuse_client.trace(
-			name="GarysEconomics_bot",
-			user_id="carmen",
-			metadata={"model": remote_llm, "provider": "ollama"},
+	def invoke(
+		self,
+		llm,
+		prompt,
+		model_name="",
+		provider="ollama",
+		user_id="carmen",
+		app_name="GarysEconomics_bot",
+	):
+		if not app_name:
+			app_name = os.getenv("LANGFUSE_APP_NAME", "GarysEconomics_bot")
+		try:
+			return self._invoke_observed(
+				llm,
+				prompt,
+				model_name=model_name,
+				provider=provider,
+				user_id=user_id,
+				app_name=app_name,
+			)
+		finally:
+			self.langfuse_client.flush()
+
+	@observe(name="ollama_request", as_type="generation", capture_input=True, capture_output=True)
+	def _invoke_observed(self, llm, prompt, model_name="", provider="ollama", user_id="", app_name=""):
+		self.langfuse_client.update_current_trace(
+			name=app_name,
+			user_id=user_id,
+			metadata={"model": model_name, "provider": provider},
 		)
-
-		self.span = self.trace.span(
-			name="llm-call",
-			input={"prompt": prompt},
-		)
-		
-	def end(self, response):
-		self.span.end(output={"response": response})
-		self.langfuse_client.flush()
-
+		return llm.invoke(prompt)

@@ -15,6 +15,7 @@ logging.basicConfig(
 # Load the telegram bot token from the environment variable
 load_dotenv()
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+LANGFUSE_APP_NAME = os.getenv("LANGFUSE_APP_NAME", "GarysEconomics_bot")
 
 # Start funtion. This function will be called every time the Bot receives a Telegram message that contains the /start command.
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -23,7 +24,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Question funtion. This funtion will answer when a user sends a text message to the bot.
 async def question(update: Update, context: ContextTypes.DEFAULT_TYPE):
     question = update.message.text
-    rag_answer = RAG_query(question)
+    user_id = update.effective_user.username or str(update.effective_user.id)
+    rag_answer = RAG_query(question, user_id=user_id, app_name=LANGFUSE_APP_NAME)
     answer = rag_answer["answer"]
     video_links = get_video_link(rag_answer["context"])
     if video_links:

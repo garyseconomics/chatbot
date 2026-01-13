@@ -1,18 +1,91 @@
+import os
 import time
+from dotenv import load_dotenv
 from vector_database.srt_splitter import get_splits_from_srt
 from langchain_ollama import OllamaEmbeddings
+from pydantic import PrivateAttr
 from langchain_chroma import Chroma
 import chromadb
+from langfuse import observe
 from config import collection_name, batch_size, show_logs, embedding_model
+from llm.langfuse_manager import LangfuseManager
 
 
 def get_chromadb_client(database_path):
 	client = chromadb.PersistentClient(path=database_path)
 	return client
 
-def get_or_create_vector_database(database_path):
+class LangfuseOllamaEmbeddings(OllamaEmbeddings):
+	_langfuse = PrivateAttr()
+	_user_id = PrivateAttr()
+	_app_name = PrivateAttr()
+	_provider = PrivateAttr()
+
+	def __init__(
+		self,
+		model,
+		user_id="carmen",
+		app_name="GarysEconomics_bot",
+		provider="ollama-embeddings",
+	):
+		load_dotenv()
+		if not app_name:
+			app_name = os.getenv("LANGFUSE_APP_NAME", "GarysEconomics_bot")
+		super().__init__(model=model)
+		self._langfuse = LangfuseManager()
+		self._user_id = user_id
+		self._app_name = app_name
+		self._provider = provider
+
+	def embed_documents(self, texts):
+		try:
+			return self._embed_documents_observed(
+				texts,
+				user_id=self._user_id,
+				app_name=self._app_name,
+				model_name=self.model,
+				provider=self._provider,
+			)
+		finally:
+			self._langfuse.langfuse_client.flush()
+
+	def embed_query(self, text):
+		try:
+			return self._embed_query_observed(
+				text,
+				user_id=self._user_id,
+				app_name=self._app_name,
+				model_name=self.model,
+				provider=self._provider,
+			)
+		finally:
+			self._langfuse.langfuse_client.flush()
+
+	@observe(name="ollama_embeddings_documents", as_type="embedding", capture_input=True, capture_output=True)
+	def _embed_documents_observed(self, texts, user_id="", app_name="", model_name="", provider=""):
+		self._langfuse.langfuse_client.update_current_trace(
+			name=app_name,
+			user_id=user_id,
+			metadata={"model": model_name, "provider": provider},
+		)
+		return super().embed_documents(texts)
+
+	@observe(name="ollama_embeddings_query", as_type="embedding", capture_input=True, capture_output=True)
+	def _embed_query_observed(self, text, user_id="", app_name="", model_name="", provider=""):
+		self._langfuse.langfuse_client.update_current_trace(
+			name=app_name,
+			user_id=user_id,
+			metadata={"model": model_name, "provider": provider},
+		)
+		return super().embed_query(text)
+
+def get_or_create_vector_database(database_path, user_id="", app_name=""):
 	# Embeddings with Ollama
-	embeddings = OllamaEmbeddings(model=embedding_model)
+	embeddings = LangfuseOllamaEmbeddings(
+		model=embedding_model,
+		user_id=user_id,
+		app_name=app_name,
+	)
 
 	# Create vector database with Chroma
 	vector_store = Chroma(

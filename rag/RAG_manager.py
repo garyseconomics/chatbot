@@ -12,10 +12,16 @@ class State(TypedDict):
     question: str
     context: List[Document]
     answer: str
+    user_id: str
+    app_name: str
 
 # Define application steps
 def retrieve(state: State):
-    vector_store = get_or_create_vector_database(database_path)
+    vector_store = get_or_create_vector_database(
+        database_path,
+        user_id=state.get("user_id", ""),
+        app_name=state.get("app_name", ""),
+    )
     retrieved_docs = vector_store.similarity_search(state["question"])
     return {"context": retrieved_docs}
 
@@ -25,16 +31,22 @@ def generate(state: State):
     messages = prompt.invoke({"question": state["question"], "context": docs_content})
     if show_logs:
         print(f'\nPrompt generated:\n{messages}\n')
-    response = llm_chat(messages)
+    response = llm_chat(
+        messages,
+        user_id=state.get("user_id", ""),
+        app_name=state.get("app_name", ""),
+    )
     return {"answer": response.content}
 
-def RAG_query(question):
+def RAG_query(question, user_id="", app_name=""):
     graph_builder = StateGraph(State).add_sequence([retrieve, generate])
     graph_builder.add_edge(START, "retrieve")
     graph = graph_builder.compile()
     try:
-        response = graph.invoke({"question": question})
+        response = graph.invoke(
+            {"question": question, "user_id": user_id, "app_name": app_name}
+        )
         return response
     except Exception as e:
         print(f"Failed while quering the RAG. Error: {e}")
-        return {"answer":"I'm sorry. I'm having some tecnical problems."}
+        return {"answer": "I'm sorry. I'm having some tecnical problems.", "context": []}

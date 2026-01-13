@@ -68,6 +68,7 @@ In .env we have:
 - LANGFUSE_PUBLIC_KEY=""
 - LANGFUSE_SECRET_KEY=""
 - LANGFUSE_HOST="https://cloud.langfuse.com"
+- LANGFUSE_APP_NAME="GarysEconomics_bot"
 
 ### Configuration
 Anything that can be configured and is not on .env, it is in [config.py](https://github.com/garyseconomics/chatbot/blob/main/config.py)
