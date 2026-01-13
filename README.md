@@ -22,7 +22,7 @@ The path of the file should be:
 chatbot/vector_database/chroma_langchain_db/chroma.sqlite3
 ```
 
-Alternativately, you can generate your own database following the steps on the [Import documents to the database section](https://github.com/garyseconomics/chatbot/edit/main/README.md#import-documents-to-the-database). 
+Alternativately, you can generate your own database following the steps on the [Import documents to the database section](https://github.com/garyseconomics/chatbot?tab=readme-ov-file#import-documents-to-the-database).
 
 ### Build the docker container
 Build the docker container executing this command while you are in the chatbot folder:
