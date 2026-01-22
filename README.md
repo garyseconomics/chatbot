@@ -34,6 +34,11 @@ Once you have build the container, run it using this command:
 ```bash
 docker compose up
 ```
+Or, if you want the service to restart automatically:
+```bash
+docker compose up -d
+```
+This will put the docker image running on the background. 
 
 ## Setup without Docker
 
