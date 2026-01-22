@@ -16,7 +16,7 @@ class LangfuseManager:
 		prompt,
 		model_name="",
 		provider="ollama",
-		user_id="carmen",
+		user_id="user",
 		app_name="GarysEconomics_bot",
 	):
 		if not app_name:
