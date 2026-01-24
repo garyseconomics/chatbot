@@ -58,7 +58,8 @@ source venv/bin/activate
 ```bash
 pip install --upgrade pip
 pip install -U pytest pysrt chromadb ollama
-pip install -U langchain langchain_community langchain-ollama langchain_chroma langgraph
+pip install -U langchain langchain_community langchain_core
+pip install -U langchain-ollama langchain_chroma langgraph langfuse
 pip install -U python-telegram-bot
 
 ```
