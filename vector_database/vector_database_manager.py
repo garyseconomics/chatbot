@@ -3,7 +3,10 @@ from vector_database.srt_splitter import get_splits_from_srt
 from langchain_ollama import OllamaEmbeddings
 from langchain_chroma import Chroma
 import chromadb
-from config import collection_name, batch_size, show_logs, embedding_model,embedding_server_url
+from config import collection_name, batch_size, show_logs, embedding_model
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 
 def get_chromadb_client(database_path):
@@ -12,7 +15,8 @@ def get_chromadb_client(database_path):
 
 def get_or_create_vector_database(database_path):
 	# Embeddings with Ollama
-	embeddings = OllamaEmbeddings(model=embedding_model,base_url=embedding_server_url)
+	embedding_server = os.getenv("OLLAMA_HOST")
+	embeddings = OllamaEmbeddings(model=embedding_model,base_url=embedding_server)
 
 	# Create vector database with Chroma
 	vector_store = Chroma(

@@ -7,7 +7,6 @@ batch_size = 10
 show_logs = True
 discord_channel = "github"
 embedding_model = "qwen3-embedding:8b"
-embedding_server_url = "http://localhost:11434"
 use_remote_llm = True
 remote_llm = "qwen3:32b"
 local_llm = "qwen3:4b"
