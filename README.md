@@ -27,7 +27,7 @@ Alternativately, you can generate your own database following the steps on the [
 ### Build the docker container
 Build the docker container executing this command while you are in the chatbot folder:
 ```bash
-docker compose build chatbot
+docker compose build
 ```
 ### Run the docker container
 Once you have build the container, run it using this command:

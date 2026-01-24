@@ -11,3 +11,4 @@ pysrt
 python-dotenv
 python-telegram-bot
 pytest
+langfuse
