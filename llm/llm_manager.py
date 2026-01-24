@@ -1,7 +1,9 @@
 import os
 from langchain_ollama import ChatOllama
+from langfuse import Langfuse, observe
 from dotenv import load_dotenv
-from config import use_remote_llm, remote_llm, local_llm
+from config import use_remote_llm, remote_llm, local_llm, provider, app_name
+load_dotenv()
 
 
 def get_llm_client(force_local_llm=False, model_name=""):
@@ -19,7 +21,6 @@ def get_llm_client(force_local_llm=False, model_name=""):
 		# connect with the remote ollama
 
 		# Load the ollama host and the API key from the environment variables
-		load_dotenv()
 		OLLAMA_HOST = os.getenv("OLLAMA_HOST")
 		OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY")
 		# Calling remote LLM
@@ -29,10 +30,19 @@ def get_llm_client(force_local_llm=False, model_name=""):
 		llm = ChatOllama(model=model_name, base_url=OLLAMA_HOST)
 		return llm
 
-def llm_chat(prompt, llm=None, model_name=""):
+@observe(name="ollama_request", as_type="generation", capture_input=True, capture_output=True)
+def llm_chat(prompt, llm=None, model_name="", user_id="not defined"):
 	try:
 		if not llm:
 			llm = get_llm_client(force_local_llm=False, model_name=model_name)
+		# Update langfuse trace
+		langfuse_client = Langfuse()
+		langfuse_client.update_current_trace(
+			name = app_name,
+			user_id = user_id,
+			metadata={"model": model_name, "provider": provider},
+		)
+		# Calling the chat model with the prompt
 		response = llm.invoke(prompt)
 		return response
 	except Exception as e:
@@ -40,3 +50,5 @@ def llm_chat(prompt, llm=None, model_name=""):
 		llm = get_llm_client(force_local_llm=True, model_name=model_name)
 		response = llm.invoke(prompt)
 		return response
+	finally:
+		langfuse_client.flush()
