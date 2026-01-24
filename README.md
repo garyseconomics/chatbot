@@ -105,6 +105,9 @@ In .env we have:
 - TELEGRAM_TOKEN: This is used to connect with the Telegram bot. You receive the token when you [create a bot in Telegram using the BotFather](https://github.com/garyseconomics/chatbot/edit/main/README.md#telegram-chatbot).
 - DISCORD_TOKEN: This is used to connect with the Discord bot. For this you need a bot installed on a server with permission to read and send messages.
 <img width="729" height="166" alt="Image" src="https://github.com/user-attachments/assets/154a1e8f-335f-4de9-b085-20c8cb57b419" />
+LANGFUSE_PUBLIC_KEY=""
+LANGFUSE_SECRET_KEY=""
+LANGFUSE_HOST="https://cloud.langfuse.com"
 
 ### Configuration
 Anything that can be configured and is not on .env, it is in [config.py](https://github.com/garyseconomics/chatbot/blob/main/config.py)
