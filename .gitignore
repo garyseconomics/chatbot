@@ -137,6 +137,9 @@ celerybeat.pid
 # Environments
 .env
 .envrc
+
+# Private files
+learning.md
 .venv
 env/
 venv/
