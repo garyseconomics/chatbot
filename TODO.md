@@ -16,3 +16,7 @@ Pending tasks and things to investigate.
 - [ ] **Async support** — Evaluate whether to use `asyncio` and `pytest-asyncio` for the
   Telegram and Discord bots. Currently the bots use their framework's async but the core
   RAG pipeline is synchronous. Consider if async would improve performance or simplify the bot code.
+- [ ] **DSPy** — Framework for programming (not prompting) language models. Explore for
+  prompt optimization and evaluation. See `prompt_experiments.py` for initial experiments.
+- [ ] **MLflow** — Platform for tracking ML experiments, models, and metrics. Explore for
+  tracking prompt experiments and RAG pipeline performance.

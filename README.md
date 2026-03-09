@@ -137,7 +137,7 @@ To import the documents, follow this steps:
 
 - Execute the import documents script.
 ```bash
-python import_documents.py
+python -m vector_database.import_documents
 ```
 If documents have already been imported before, the script will ask you if you want to delete the collection. Answer "yes" only if you are sure you want to delete everything and start from scratch. Any answer except "yes" or "y" will skip this step and start importing the documents.
 

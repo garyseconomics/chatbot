@@ -110,6 +110,7 @@ All settings live in `config.py`. Environment variables (API keys, tokens) in `.
 - This project is **open source** and published on GitHub.
 - Never put personal information (names, paths, credentials) in tracked files.
 - Anything private or local-only must go in files listed in `.gitignore`.
+- **Never read `.env`** — it contains secrets (API keys, tokens). Use `.env.sample` to understand the expected variables.
 
 ### Git
 - Small, focused commits.

@@ -7,6 +7,7 @@ dependencies = [
     "chromadb",
     "discord.py",
     "langchain",
+    "langfuse",
     "langchain-chroma",
     "langchain-community",
     "langchain-ollama",
@@ -37,3 +38,6 @@ select = ["E", "F", "W", "I"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+markers = [
+    "langfuse: tests that require a running Langfuse server and credentials",
+]

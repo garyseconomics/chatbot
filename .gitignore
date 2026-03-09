@@ -140,6 +140,7 @@ celerybeat.pid
 
 # Private files
 learning.md
+prompt_experiments.py
 .venv
 env/
 venv/
