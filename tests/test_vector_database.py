@@ -53,3 +53,20 @@ def test_delete_existing_collections():
    # Test that the collections has been deleted
    assert len(client.list_collections()) == 0
 
+
+# --- process_in_batches() tests ---
+
+
+def test_process_in_batches_handles_remainder():
+    items = list(range(7))
+    batches = list(process_in_batches(items, batch_size=3))
+    assert len(batches) == 3
+    assert batches[0] == [0, 1, 2]
+    assert batches[1] == [3, 4, 5]
+    assert batches[2] == [6]
+
+
+def test_process_in_batches_empty_list():
+    batches = list(process_in_batches([], batch_size=5))
+    assert batches == []
+

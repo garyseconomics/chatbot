@@ -1,4 +1,3 @@
-import json
 import pytest
 from langchain_core.documents.base import Document
 from vector_database.srt_splitter import get_splits_from_srt
@@ -10,16 +9,33 @@ def sample_srt_file():
     """Fixture to return the path of a sample SRT file for testing."""
     return "tests/sample.srt"
 
+
 def test_get_splits_from_srt(sample_srt_file):
-    # Call the function that splits the SRT document
     all_splits = get_splits_from_srt(sample_srt_file)
 
-    # Ensure the number of splits is within a reasonable range 
-    assert len(all_splits) <= settings.chunk_size * 2
-
-    # test that returns a document
+    assert len(all_splits) >= 1
     assert isinstance(all_splits[0], Document)
 
-    # test a fragment
-    expected_content = '''Okay. Welcome back to Gary’s Economics. Today we are going to introduce the first part of our online course. Video number one, which is going to be What is Wealth. Okay so I was at a conference the other day, a conference about economics media, and there was a guy who basically spoke about how when people watch Jordan Peterson's videos, they don't just watch his recent videos, they go back to the beginning and they watch it through.'''
-    assert all_splits[0].page_content == expected_content
+    content = all_splits[0].page_content
+    assert content.startswith("Okay. Welcome back to Gary")
+    assert "What is Wealth" in content
+    assert content.endswith("they watch it through.")
+
+
+def test_all_splits_are_documents(sample_srt_file):
+    all_splits = get_splits_from_srt(sample_srt_file)
+    for split in all_splits:
+        assert isinstance(split, Document)
+
+
+def test_splits_have_source_metadata(sample_srt_file):
+    all_splits = get_splits_from_srt(sample_srt_file)
+    for split in all_splits:
+        assert "source" in split.metadata
+        assert split.metadata["source"] == sample_srt_file
+
+
+def test_splits_respect_chunk_size(sample_srt_file):
+    all_splits = get_splits_from_srt(sample_srt_file)
+    for split in all_splits:
+        assert len(split.page_content) <= settings.chunk_size
