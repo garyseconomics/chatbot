@@ -1,52 +1,58 @@
-import signal
-import pytest
+from unittest.mock import patch
+
 import langchain_core
 from langchain_core.prompts import ChatPromptTemplate
-from llm.llm_manager import get_llm_client, llm_chat
-from llm.prompt_template import get_rag_prompt
 from langchain_ollama import ChatOllama
 
-test_model = "qwen3:4b"
-REMOTE_TIMEOUT_SECONDS = 30
+from config import settings
+from llm.llm_manager import get_llm_client, llm_chat
+from llm.prompt_template import get_rag_prompt
+from ollama_helpers import get_available_ollama_host
 
 
-class RemoteTimeout(Exception):
-    pass
+# --- Ollama host fallback tests (mocked, no network calls) ---
+
+def test_uses_remote_host_when_reachable():
+    with patch("ollama_helpers._is_host_reachable", return_value=True):
+        host = get_available_ollama_host()
+    assert host == settings.ollama_host_remote
 
 
-def _on_timeout(signum, frame):
-    raise RemoteTimeout("Remote Ollama timed out")
+def test_falls_back_to_local_when_remote_unreachable():
+    with patch("ollama_helpers._is_host_reachable", return_value=False):
+        host = get_available_ollama_host()
+    assert host == settings.ollama_host_local
 
 
-def llm_chat_with_fallback(timeout=REMOTE_TIMEOUT_SECONDS, **kwargs):
-    """Try llm_chat with remote Ollama. If it times out, fall back to local."""
-    signal.signal(signal.SIGALRM, _on_timeout)
-    signal.alarm(timeout)
-    try:
-        return llm_chat(**kwargs)
-    except RemoteTimeout:
-        print(f"Remote timed out after {timeout}s, falling back to local Ollama")
-        signal.alarm(0)
-        llm = get_llm_client(force_local_llm=True)
-        return llm_chat(llm=llm, **kwargs)
-    finally:
-        signal.alarm(0)
+def test_falls_back_to_local_when_remote_not_configured():
+    with patch.object(settings, "ollama_host_remote", ""):
+        host = get_available_ollama_host()
+    assert host == settings.ollama_host_local
 
 
-# --- Client creation tests (no network calls) ---
+def test_llm_client_uses_remote_model_when_remote_reachable():
+    with patch("ollama_helpers._is_host_reachable", return_value=True):
+        llm = get_llm_client()
+    assert llm.model == settings.remote_llm
+    assert llm.base_url == settings.ollama_host_remote
 
-def test_get_llm_client_remote():
-    llm = get_llm_client(force_local_llm=False)
+
+def test_llm_client_uses_local_model_when_remote_unreachable():
+    with patch("ollama_helpers._is_host_reachable", return_value=False):
+        llm = get_llm_client()
+    assert llm.model == settings.local_llm
+    assert llm.base_url == settings.ollama_host_local
+
+
+# --- Client creation tests (no network calls beyond the connectivity check) ---
+
+def test_get_llm_client():
+    llm = get_llm_client()
     assert isinstance(llm, ChatOllama)
 
 
-def test_get_llm_client_local():
-    llm = get_llm_client(force_local_llm=True)
-    assert isinstance(llm, ChatOllama)
-
-
-def test_get_llm_with_model_name():
-    llm = get_llm_client(force_local_llm=False, model_name=test_model)
+def test_get_llm_client_with_model_name():
+    llm = get_llm_client(model_name="qwen3:4b")
     assert isinstance(llm, ChatOllama)
 
 
@@ -59,43 +65,20 @@ def test_prompt_template():
     assert isinstance(messages, langchain_core.prompt_values.ChatPromptValue)
 
 
-# --- LLM chat tests (with remote timeout fallback to local) ---
+# --- LLM chat tests (uses best available host automatically) ---
 
 def test_llm_chat_simple_prompt():
-    response = llm_chat_with_fallback(prompt="Hello")
+    response = llm_chat(prompt="Hello")
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
 
 
 def test_llm_chat_with_prompt_template():
     prompt = ChatPromptTemplate.from_messages([("human", "Hello")])
     messages = prompt.invoke({"question": "Who are you?", "context": "You are an AI assistant."})
-    response = llm_chat_with_fallback(prompt=messages)
+    response = llm_chat(prompt=messages)
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
 
 
 def test_llm_chat_with_model_name():
-    response = llm_chat_with_fallback(prompt="Hello", model_name=test_model)
+    response = llm_chat(prompt="Hello", model_name="qwen3:4b")
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
-
-
-# --- Local-only test ---
-
-def test_llm_chat_local():
-    llm = get_llm_client(force_local_llm=True)
-    response = llm_chat(prompt="Hello", llm=llm)
-    assert isinstance(response, langchain_core.messages.ai.AIMessage)
-
-
-# --- Remote-only test (must respond within 90 seconds or fail) ---
-
-def test_llm_chat_remote():
-    signal.signal(signal.SIGALRM, _on_timeout)
-    signal.alarm(90)
-    try:
-        llm = get_llm_client(force_local_llm=False)
-        response = llm_chat(prompt="Hello", llm=llm)
-        assert isinstance(response, langchain_core.messages.ai.AIMessage)
-    except RemoteTimeout:
-        pytest.fail("Remote Ollama did not respond within 90 seconds")
-    finally:
-        signal.alarm(0)

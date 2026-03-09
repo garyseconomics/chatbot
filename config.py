@@ -17,7 +17,6 @@ class Settings(BaseSettings):
     ollama_host_remote: str = ""
 
     # LLM settings
-    use_remote_llm: bool = True
     remote_llm: str = "qwen3:32b"
     local_llm: str = "qwen3:4b"
     embedding_model: str = "qwen3-embedding:8b"

@@ -85,8 +85,8 @@ We are also using the local Ollama for the chat as backup in case the remote LLM
 ```bash
 ollama pull llama3.2:3b
 ```
-You can opt for only using the local LLM for the chat, by setting `use_remote_llm` to `False` in [config.py](https://github.com/garyseconomics/chatbot/blob/main/config.py).
-Also, you can install a diferent model for the chat by downloading that model with Ollama and changing `local_llm` in [config.py](https://github.com/garyseconomics/chatbot/blob/main/config.py).
+The chatbot automatically checks if the remote Ollama is reachable and falls back to the local one if it's not. This applies to both chat and embeddings.
+You can install a diferent model for the chat by downloading that model with Ollama and changing `local_llm` in [config.py](https://github.com/garyseconomics/chatbot/blob/main/config.py).
 
 ### Setting up the remote services
 We have a file named .env that contains the secret keys to access the remote LLM, the Telegram and the Discord bots.
@@ -111,7 +111,6 @@ All configuration is managed in [config.py](https://github.com/garyseconomics/ch
 Available settings:
 
 **LLM settings**
-- **use_remote_llm**: By default is True. Change to False if you want to use always the local LLM.
 - **remote_llm**: Name of the LLM in the remote server.
 - **local_llm**: Name of the LLM in the local server. Check the [Ollama section](https://github.com/garyseconomics/chatbot/edit/main/README.md#install-ollama-and-download-the-models) for more information.
 - **embedding_model**: The LLM we use to process the documents before importing them to the vectorized database.
