@@ -1,4 +1,4 @@
-from config import Settings
+from config import Settings, settings
 
 
 def test_constructor_overrides_values():
@@ -35,3 +35,15 @@ def test_type_coercion():
     assert s.chunk_size == 512
     assert s.show_logs is False
     assert s.batch_size == 20
+
+
+def test_ollama_hosts_are_configured():
+    """Both Ollama hosts must be configured. Without them the chatbot can't reach any LLM."""
+    assert settings.ollama_host_local, (
+        "OLLAMA_HOST_LOCAL is not configured. "
+        "Set it in .env (e.g. OLLAMA_HOST_LOCAL=http://localhost:11434)"
+    )
+    assert settings.ollama_host_remote, (
+        "OLLAMA_HOST_REMOTE is not configured. "
+        "Set it in .env (e.g. OLLAMA_HOST_REMOTE=http://your-server:11434)"
+    )
