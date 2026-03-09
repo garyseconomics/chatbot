@@ -112,6 +112,14 @@ All settings live in `config.py`. Environment variables (API keys, tokens) in `.
 - Anything private or local-only must go in files listed in `.gitignore`.
 - **Never read `.env`** — it contains secrets (API keys, tokens). Use `.env.sample` to understand the expected variables.
 
+### Running tests
+```bash
+source .venv/bin/activate
+pytest
+```
+
+**Note on Ollama and tests:** Some tests (e.g., `test_vector_database.py`) call the Ollama embedding server. The local Ollama can crash the machine due to resource usage. Currently embeddings are configured to use the remote Ollama (`OLLAMA_HOST_REMOTE`). If the remote server is temporarily down, tests that need embeddings will fail — this is expected. Adding a fallback for tests is a pending TODO.
+
 ### Git
 - Small, focused commits.
 - Commit messages: imperative mood, concise (e.g., "Add SRT chunking with overlap").
