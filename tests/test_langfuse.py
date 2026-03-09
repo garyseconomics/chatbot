@@ -1,16 +1,12 @@
-import os
 import pytest
-from dotenv import load_dotenv
-
-load_dotenv()
+from config import settings
 
 langfuse_configured = all([
-    os.getenv("LANGFUSE_PUBLIC_KEY"),
-    os.getenv("LANGFUSE_SECRET_KEY"),
-    os.getenv("LANGFUSE_BASE_URL"),
+    settings.langfuse_public_key,
+    settings.langfuse_secret_key,
 ])
 
-skip_reason = "Langfuse env vars not configured (LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY, LANGFUSE_BASE_URL)"
+skip_reason = "Langfuse env vars not configured (LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY)"
 
 
 @pytest.mark.langfuse

@@ -4,7 +4,7 @@ from langgraph.graph import START, StateGraph
 from llm.llm_manager import llm_chat
 from llm.prompt_template import get_rag_prompt
 from vector_database.vector_database_manager import get_or_create_vector_database
-from config import database_path, show_logs
+from config import settings
 
 
 # Define state for application
@@ -15,7 +15,7 @@ class State(TypedDict):
 
 # Define application steps
 def retrieve(state: State):
-    vector_store = get_or_create_vector_database(database_path)
+    vector_store = get_or_create_vector_database(settings.database_path)
     retrieved_docs = vector_store.similarity_search(state["question"])
     return {"context": retrieved_docs}
 
@@ -23,7 +23,7 @@ def generate(state: State):
     docs_content = "\n\n".join(doc.page_content for doc in state["context"])
     prompt = get_rag_prompt()
     messages = prompt.invoke({"question": state["question"], "context": docs_content})
-    if show_logs:
+    if settings.show_logs:
         print(f'\nPrompt generated:\n{messages}\n')
     response = llm_chat(messages)
     return {"answer": response.content}

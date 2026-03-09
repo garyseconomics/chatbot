@@ -1,7 +1,7 @@
 import json
 from langchain_community.document_loaders import SRTLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from config import chunk_size, chunk_overlap
+from config import settings
 
 
 def get_splits_from_srt(filename):
@@ -12,8 +12,8 @@ def get_splits_from_srt(filename):
 	# Split the document into parts
 	splitter = RecursiveCharacterTextSplitter(
     	separators = ["\n\n", "\n", "."],
-    	chunk_size = chunk_size,
-    	chunk_overlap = chunk_overlap
+    	chunk_size = settings.chunk_size,
+    	chunk_overlap = settings.chunk_overlap
 	)
 
 	all_splits = splitter.split_documents(data)

@@ -1,9 +1,8 @@
-import logging, os
+import logging
 from telegram import Update
 from telegram.ext import filters, MessageHandler, ApplicationBuilder, CommandHandler, ContextTypes
-from dotenv import load_dotenv
 from rag.rag_manager import RAG_query
-from config import show_logs, bot_greeting
+from config import settings
 from rag.video_links import get_video_link, videos_text_for_chat
 
 
@@ -12,13 +11,10 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
 )
-# Load the telegram bot token from the environment variable
-load_dotenv()
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 # Start funtion. This function will be called every time the Bot receives a Telegram message that contains the /start command.
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text=bot_greeting)
+    await context.bot.send_message(chat_id=update.effective_chat.id, text=settings.bot_greeting)
 
 # Question funtion. This funtion will answer when a user sends a text message to the bot.
 async def question(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -29,14 +25,14 @@ async def question(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if video_links:
         video_text = videos_text_for_chat(video_links)
         answer = f"{answer}\n\n{video_text}"
-    if show_logs:
+    if settings.show_logs:
         print(rag_answer)
         print(f"Video links: {video_links}")
     await context.bot.send_message(chat_id=update.effective_chat.id, text=answer)
 
 if __name__ == '__main__':
     # Start the application, using the telegram token to connect to the bot
-    application = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
+    application = ApplicationBuilder().token(settings.telegram_token).build()
 
     # Calls the start handler that listen for telegram users starting a new conversation with the bot
     start_handler = CommandHandler('start', start)

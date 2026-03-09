@@ -1,10 +1,10 @@
 import os
 from vector_database.vector_database_manager import add_documents_to_vector_database, get_collections_from_database, delete_existing_collections
-from config import database_path, documents_directory
+from config import settings
 
 
 # Get the files list from the import folder
-files_list = [os.path.join(documents_directory, file) for file in os.listdir(documents_directory)]
+files_list = [os.path.join(settings.documents_directory, file) for file in os.listdir(settings.documents_directory)]
 
 # Gives the option of deleting the existing collections if there are any
 def check_and_delete_existing_collections(database_path):
@@ -15,7 +15,7 @@ def check_and_delete_existing_collections(database_path):
 			delete_existing_collections(database_path)
 
 # Check if there is any collections in the database and offer the option to delete them
-check_and_delete_existing_collections(database_path)
+check_and_delete_existing_collections(settings.database_path)
 
 # Generate or get the database and add the documents on the file list
-vector_database = add_documents_to_vector_database(database_path, files_list)
+vector_database = add_documents_to_vector_database(settings.database_path, files_list)

@@ -15,7 +15,7 @@ dependencies = [
     "langgraph",
     "ollama",
     "pysrt",
-    "python-dotenv",
+    "pydantic-settings",
     "python-telegram-bot",
 ]
 

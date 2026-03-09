@@ -2,7 +2,7 @@ import json
 import pytest
 from langchain_core.documents.base import Document
 from vector_database.srt_splitter import get_splits_from_srt
-from config import chunk_size, chunk_overlap
+from config import settings
 
 
 @pytest.fixture
@@ -15,7 +15,7 @@ def test_get_splits_from_srt(sample_srt_file):
     all_splits = get_splits_from_srt(sample_srt_file)
 
     # Ensure the number of splits is within a reasonable range 
-    assert len(all_splits) <= chunk_size * 2
+    assert len(all_splits) <= settings.chunk_size * 2
 
     # test that returns a document
     assert isinstance(all_splits[0], Document)

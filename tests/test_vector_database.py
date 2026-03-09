@@ -2,7 +2,7 @@ import pytest
 import chromadb
 from langchain_chroma import Chroma
 from vector_database.vector_database_manager import *
-from config import collection_name
+from config import settings
 
 test_database_path = './tests/chroma_langchain_db'
 
@@ -19,17 +19,17 @@ def test_get_or_create_database():
     vector_store = get_or_create_vector_database(test_database_path)
     # Verify the returned object is an instance of Chroma
     assert isinstance(vector_store, Chroma)
-    collection = client.get_collection(collection_name)
+    collection = client.get_collection(settings.collection_name)
     # Verify the collection has been created
     assert isinstance(collection, chromadb.Collection)
     assert len(client.list_collections()) == 1
 
 def test_add_documents_to_vector_database():
     client = get_chromadb_client(test_database_path)
-    client.delete_collection(collection_name)
+    client.delete_collection(settings.collection_name)
     files_list = ["tests/sample.srt"]
     vector_store = add_documents_to_vector_database(test_database_path, files_list)
-    collection = client.get_collection(collection_name)
+    collection = client.get_collection(settings.collection_name)
     # Verify the collection has been created
     assert isinstance(collection, chromadb.Collection)
     # Verify the collection has two items
@@ -41,7 +41,7 @@ def test_add_documents_to_vector_database():
 def test_get_collections_from_database():
    collections_list = get_collections_from_database(test_database_path)
    assert len(collections_list) == 1
-   assert collections_list[0].name == collection_name
+   assert collections_list[0].name == settings.collection_name
 
 def test_delete_existing_collections():
    # Ensure that there is a collection in the database
