@@ -13,9 +13,13 @@ from ollama_helpers import get_available_ollama_host
 # --- Ollama host fallback tests (mocked, no network calls) ---
 
 def test_uses_remote_host_when_reachable():
-    with patch("ollama_helpers._is_host_reachable", return_value=True):
+    remote = "http://remote-server:11434"
+    with (
+        patch.object(settings, "ollama_host_remote", remote),
+        patch("ollama_helpers._is_host_reachable", return_value=True),
+    ):
         host = get_available_ollama_host()
-    assert host == settings.ollama_host_remote
+    assert host == remote
 
 
 def test_falls_back_to_local_when_remote_unreachable():
@@ -31,10 +35,14 @@ def test_falls_back_to_local_when_remote_not_configured():
 
 
 def test_llm_client_uses_remote_model_when_remote_reachable():
-    with patch("ollama_helpers._is_host_reachable", return_value=True):
+    remote = "http://remote-server:11434"
+    with (
+        patch.object(settings, "ollama_host_remote", remote),
+        patch("ollama_helpers._is_host_reachable", return_value=True),
+    ):
         llm = get_llm_client()
     assert llm.model == settings.remote_llm
-    assert llm.base_url == settings.ollama_host_remote
+    assert llm.base_url == remote
 
 
 def test_llm_client_uses_local_model_when_remote_unreachable():
