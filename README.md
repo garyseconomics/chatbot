@@ -42,26 +42,20 @@ This will put the docker image running on the background.
 
 ## Setup without Docker
 
-Note: This instructions asume you are on an Ubuntu server. 
+Note: This instructions asume you are on an Ubuntu server.
 
 Open a terminal, go to the project directory and execute the following commands:
 
-### Activate Virtual Environment
+### Create virtual environment and install dependencies
 ```bash
-sudo apt-get update
-sudo apt-get install python3-venv
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### Install Libraries
-```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install --upgrade pip
-pip install -U pytest pysrt chromadb ollama
-pip install -U langchain langchain_community langchain_core
-pip install -U langchain-ollama langchain_chroma langgraph langfuse
-pip install -U python-telegram-bot
-
+pip install .
+```
+This reads `pyproject.toml` and installs all dependencies. To also install development tools (ruff, pytest):
+```bash
+pip install ".[dev]"
 ```
 
 ### Install Ollama and download the models
@@ -128,9 +122,9 @@ Anything that can be configured and is not on .env, it is in [config.py](https:/
 
 
 ## Using this application
-Open a terminal, go to the project directory and activate the virtual enviroment with this command:
+Open a terminal, go to the project directory and activate the virtual environment with this command:
 ```bash
-source venv/bin/activate
+source .venv/bin/activate
 ```
 ### Import documents to the database
 This application uses subtitles in srt format as information source. For the chatbot to be able to access this information it has to be imported to the database.

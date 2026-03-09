@@ -1,0 +1,39 @@
+[project]
+name = "garys-economics-chatbot"
+version = "0.1.0"
+description = "A RAG chatbot that answers economics questions by referencing Gary's Economics YouTube videos."
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb",
+    "discord.py",
+    "langchain",
+    "langchain-chroma",
+    "langchain-community",
+    "langchain-ollama",
+    "langchain-text-splitters",
+    "langgraph",
+    "ollama",
+    "pysrt",
+    "python-dotenv",
+    "python-telegram-bot",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.setuptools]
+py-modules = []
+packages = []
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
