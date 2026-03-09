@@ -13,21 +13,19 @@ def get_llm_client(force_local_llm=False, model_name=""):
 		# Using the local LLM
 		if not model_name:
 			model_name = local_llm
+		ollama_host = os.getenv("OLLAMA_HOST_LOCAL", "http://localhost:11434")
 		print(f"Using local LLM {model_name}")
-		llm = ChatOllama(model=model_name)
+		llm = ChatOllama(model=model_name, base_url=ollama_host)
 		return llm
 	else:
 		# If use_remote_llm in config is set to True and force_local_llm is False,
 		# connect with the remote ollama
-
-		# Load the ollama host and the API key from the environment variables
-		OLLAMA_HOST = os.getenv("OLLAMA_HOST")
-		OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY")
+		ollama_host = os.getenv("OLLAMA_HOST_REMOTE")
 		# Calling remote LLM
 		if not model_name:
 			model_name = remote_llm
 		print(f"Calling the remote LLM {model_name}")
-		llm = ChatOllama(model=model_name, base_url=OLLAMA_HOST)
+		llm = ChatOllama(model=model_name, base_url=ollama_host)
 		return llm
 
 @observe(name="ollama_request", as_type="generation", capture_input=True, capture_output=True)

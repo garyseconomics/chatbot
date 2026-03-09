@@ -15,8 +15,8 @@ def get_chromadb_client(database_path):
 
 def get_or_create_vector_database(database_path):
 	# Embeddings with Ollama
-	embedding_server = os.getenv("OLLAMA_HOST")
-	embeddings = OllamaEmbeddings(model=embedding_model,base_url=embedding_server)
+	embedding_server = os.getenv("OLLAMA_HOST_LOCAL", "http://localhost:11434")
+	embeddings = OllamaEmbeddings(model=embedding_model, base_url=embedding_server)
 
 	# Create vector database with Chroma
 	vector_store = Chroma(
