@@ -149,7 +149,7 @@ The script will show more information if logs are enabled. To turn the logs on a
 ### Call the chatbot
 To chat with the chatbot, execute the chatbot script:
 ```bash
-python chatbot.py
+python -m interfaces.chatbot
 ```
 The chatbot will greet you and ask you for a question. After providing the question, the chatbot will search for context in the database and answer you using the context it has find. The answers will be better when the subtitles already uploaded are related to the question asked.
 
@@ -177,7 +177,7 @@ More information about Telegram bots in [this link](https://core.telegram.org/bo
 
 **Launch the telegram bot**
 ```bash
-python telegram_bot.py
+python -m interfaces.telegram_bot
 ```
 Then you can talk with the chatbot using the link the BotFather gave you to access the bot on Telegram. For example: http://t.me/GarysEconomics_bot
 
@@ -188,7 +188,7 @@ To run the bot in discord:
 - Set the name of the channel on config.py in discord_channel.
 - Launch the bot:
 ```bash
-python discord_bot.py
+python -m interfaces.discord_bot
 ```
 
 

@@ -2,9 +2,9 @@ import logging, os
 from telegram import Update
 from telegram.ext import filters, MessageHandler, ApplicationBuilder, CommandHandler, ContextTypes
 from dotenv import load_dotenv
-from rag.RAG_manager import RAG_query
+from rag.rag_manager import RAG_query
 from config import show_logs, bot_greeting
-from video_links import get_video_link, videos_text_for_chat
+from rag.video_links import get_video_link, videos_text_for_chat
 
 
 # Setting up the logging module

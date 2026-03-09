@@ -1,6 +1,6 @@
 import pytest
 from langchain_core.documents.base import Document
-from video_links import get_video_link, videos_text_for_chat
+from rag.video_links import get_video_link, videos_text_for_chat
 
 # Testing examples
 video1 = "https://www.youtube.com/watch?v=bReS9FLpgT4"

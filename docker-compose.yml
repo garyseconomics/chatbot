@@ -8,7 +8,7 @@ services:
     volumes:
       - ./docs/import:/app/docs/import
       - ./vector_database:/app/vector_database
-    command: ["python", "telegram_bot.py"]
+    command: ["python", "-m", "interfaces.telegram_bot"]
     tty: true
 
 #  discord-bot:
@@ -20,5 +20,5 @@ services:
 #    volumes:
 #      - ./docs/import:/app/docs/import
 #      - ./vector_database:/app/vector_database
-#    command: ["python", "discord_bot.py"]
+#    command: ["python", "-m", "interfaces.discord_bot"]
 #    tty: true

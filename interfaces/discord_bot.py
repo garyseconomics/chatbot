@@ -1,7 +1,7 @@
 import os
 import discord
 from discord.ext import commands
-from rag.RAG_manager import RAG_query
+from rag.rag_manager import RAG_query
 from config import discord_channel, show_logs, bot_greeting
 from dotenv import load_dotenv
 load_dotenv()

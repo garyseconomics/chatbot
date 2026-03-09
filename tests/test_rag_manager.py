@@ -1,5 +1,5 @@
 import pytest
-from rag.RAG_manager import RAG_query
+from rag.rag_manager import RAG_query
 
 def test_RAG_query():
 	question = "What is wealth?"
