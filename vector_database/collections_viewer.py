@@ -1,6 +1,5 @@
-from vector_database.vector_database_manager import get_collections_from_database
 from config import settings
-
+from vector_database.vector_database_manager import get_collections_from_database
 
 for collection in get_collections_from_database(settings.database_path):
     print(f"Collection name: {collection.name}")

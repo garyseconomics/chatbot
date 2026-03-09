@@ -7,23 +7,23 @@ from langchain_ollama import ChatOllama
 from config import settings
 from llm.llm_manager import get_llm_client, llm_chat
 from llm.prompt_template import get_rag_prompt
-from ollama_helpers import get_available_ollama_host
-
+from llm.ollama_helpers import get_available_ollama_host
 
 # --- Ollama host fallback tests (mocked, no network calls) ---
+
 
 def test_uses_remote_host_when_reachable():
     remote = "http://remote-server:11434"
     with (
         patch.object(settings, "ollama_host_remote", remote),
-        patch("ollama_helpers._is_host_reachable", return_value=True),
+        patch("llm.ollama_helpers._is_host_reachable", return_value=True),
     ):
         host = get_available_ollama_host()
     assert host == remote
 
 
 def test_falls_back_to_local_when_remote_unreachable():
-    with patch("ollama_helpers._is_host_reachable", return_value=False):
+    with patch("llm.ollama_helpers._is_host_reachable", return_value=False):
         host = get_available_ollama_host()
     assert host == settings.ollama_host_local
 
@@ -38,7 +38,7 @@ def test_llm_client_uses_remote_model_when_remote_reachable():
     remote = "http://remote-server:11434"
     with (
         patch.object(settings, "ollama_host_remote", remote),
-        patch("ollama_helpers._is_host_reachable", return_value=True),
+        patch("llm.ollama_helpers._is_host_reachable", return_value=True),
     ):
         llm = get_llm_client()
     assert llm.model == settings.remote_llm
@@ -46,13 +46,14 @@ def test_llm_client_uses_remote_model_when_remote_reachable():
 
 
 def test_llm_client_uses_local_model_when_remote_unreachable():
-    with patch("ollama_helpers._is_host_reachable", return_value=False):
+    with patch("llm.ollama_helpers._is_host_reachable", return_value=False):
         llm = get_llm_client()
     assert llm.model == settings.local_llm
     assert llm.base_url == settings.ollama_host_local
 
 
 # --- Client creation tests (no network calls beyond the connectivity check) ---
+
 
 def test_get_llm_client():
     llm = get_llm_client()
@@ -66,6 +67,7 @@ def test_get_llm_client_with_model_name():
 
 # --- Prompt template test (no network call) ---
 
+
 def test_prompt_template():
     prompt = get_rag_prompt()
     assert isinstance(prompt, ChatPromptTemplate)
@@ -74,6 +76,7 @@ def test_prompt_template():
 
 
 # --- LLM chat tests (uses best available host automatically) ---
+
 
 def test_llm_chat_simple_prompt():
     response = llm_chat(prompt="Hello")

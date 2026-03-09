@@ -3,8 +3,7 @@ from unittest.mock import MagicMock, patch
 from langchain_core.documents import Document
 from langchain_core.messages import AIMessage
 
-from rag.rag_manager import retrieve, generate, RAG_query
-
+from rag.rag_manager import RAG_query, generate, retrieve
 
 # --- retrieve() tests ---
 

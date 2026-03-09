@@ -1,10 +1,13 @@
 import pytest
+
 from config import settings
 
-langfuse_configured = all([
-    settings.langfuse_public_key,
-    settings.langfuse_secret_key,
-])
+langfuse_configured = all(
+    [
+        settings.langfuse_public_key,
+        settings.langfuse_secret_key,
+    ]
+)
 
 skip_reason = "Langfuse env vars not configured (LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY)"
 

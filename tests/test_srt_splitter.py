@@ -1,7 +1,8 @@
 import pytest
 from langchain_core.documents.base import Document
-from vector_database.srt_splitter import get_splits_from_srt
+
 from config import settings
+from vector_database.srt_splitter import get_splits_from_srt
 
 
 @pytest.fixture
