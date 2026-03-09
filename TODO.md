@@ -8,8 +8,8 @@ Pending tasks and things to investigate.
 - [x] **Reorganize package structure** — Review and improve the directory/module layout.
 - [x] **Rethink configuration management** — Migrated to `pydantic-settings`. All settings consolidated in a single `Settings` class in `config.py` with typed fields, defaults, and automatic `.env` loading. All modules now use `from config import settings`.
 - [x] **Improve Ollama configuration for chatbot and embedding models** — Unified with `ollama_helpers.get_available_ollama_host()`: pings remote first, falls back to local. Used by both LLM and embeddings. Removed `use_remote_llm` setting. Tests mock the connectivity check for reliable fallback testing.
-- [ ] **Ensure test coverage** — Review existing tests and add missing coverage for all modules.
-- [ ] **Run tests and fix failures** — Run the full test suite and fix any broken tests.
+- [x] **Ensure test coverage** — Added tests for `config.py`, `ollama_helpers.py`, `rag_manager.py` (retrieve, generate, error handling), `srt_splitter.py` (metadata, chunk size), and `process_in_batches()`. Fixed env-dependent test failures in `test_llm_manager.py`. 51 tests, all passing.
+- [x] **Run tests and fix failures** — Full suite green. Fixed tests that depended on `.env` being present (remote host tests now mock `settings.ollama_host_remote`).
 - [ ] **Clean up the code** — Apply clean code practices following CLAUDE.md conventions (PEP 8, type hints, ruff, small functions, etc.).
 - [ ] **Improve Langfuse integration** — Enhance observability setup and add embedding tracking to Langfuse.
 
