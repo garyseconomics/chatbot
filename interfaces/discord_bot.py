@@ -1,10 +1,19 @@
 import logging
+import warnings
 
-import discord
-from discord.ext import commands
+# Filter third-party warnings we can't fix:
+# - RequestsDependencyWarning: chardet/urllib3 versions newer than requests expects
+# - PyNaCl/davey not installed: discord.py voice dependencies we don't need
+warnings.filterwarnings("ignore", message="urllib3.*doesn't match a supported version")
+logging.getLogger("discord.client").addFilter(
+    lambda record: "is not installed, voice will NOT be supported" not in record.getMessage()
+)
 
-from config import settings
-from rag.rag_manager import RAG_query
+import discord  # noqa: E402
+from discord.ext import commands  # noqa: E402
+
+from config import settings  # noqa: E402
+from rag.rag_manager import RAG_query  # noqa: E402
 
 logger = logging.getLogger(__name__)
 
@@ -60,9 +69,7 @@ class DiscordClient:
                 await message.channel.send(rag_answer)
             except Exception:
                 logger.exception("Failed to handle message")
-                await message.channel.send(
-                    "Sorry, something went wrong. Please try again later."
-                )
+                await message.channel.send("Sorry, something went wrong. Please try again later.")
 
     def run(self) -> None:
         logger.info("Connecting Discord...")

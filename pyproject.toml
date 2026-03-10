@@ -42,3 +42,10 @@ testpaths = ["tests"]
 markers = [
     "langfuse: tests that require a running Langfuse server and credentials",
 ]
+# Filter third-party warnings we can't fix:
+# - audioop: discord.py imports it for voice support, deprecated in Python 3.13
+# - RequestsDependencyWarning: chardet/urllib3 versions newer than requests expects
+filterwarnings = [
+    "ignore:'audioop' is deprecated:DeprecationWarning",
+    "ignore:urllib3.*doesn't match a supported version:requests.exceptions.RequestsDependencyWarning",
+]
