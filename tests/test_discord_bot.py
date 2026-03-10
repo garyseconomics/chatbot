@@ -47,16 +47,18 @@ def discord_bot():
     }
 
 
-def _make_message(author, mentions=None, content="test message"):
-    """Create a mock discord Message."""
+def _make_message(author, mentions=None, content="test message", guild=MagicMock()):
+    """Create a mock discord Message. guild=None simulates a DM."""
     message = MagicMock()
     message.author = author
     message.mentions = mentions or []
     message.content = content
+    message.guild = guild
+    message.channel = AsyncMock()
     return message
 
 
-# --- on_message: basic behavior ---
+# --- on_message: guild channel behavior ---
 
 
 @pytest.mark.asyncio
@@ -65,22 +67,19 @@ async def test_bot_ignores_own_messages(discord_bot):
     on_message = discord_bot["handlers"]["on_message"]
     bot = discord_bot["bot"]
 
-    # Send a message authored by the bot itself
     message = _make_message(author=bot.user, content="hello")
 
     with patch("interfaces.discord_bot.RAG_query") as mock_rag:
         await on_message(message)
-        # RAG should never be called for the bot's own messages
         mock_rag.assert_not_called()
 
 
 @pytest.mark.asyncio
-async def test_bot_ignores_messages_without_mention(discord_bot):
-    """The bot only responds when explicitly @mentioned."""
+async def test_bot_ignores_guild_messages_without_mention(discord_bot):
+    """In guild channels, the bot only responds when explicitly @mentioned."""
     on_message = discord_bot["handlers"]["on_message"]
 
     other_user = MagicMock()
-    # Message from another user, but without mentioning the bot
     message = _make_message(author=other_user, mentions=[], content="hello everyone")
 
     with patch("interfaces.discord_bot.RAG_query") as mock_rag:
@@ -89,97 +88,106 @@ async def test_bot_ignores_messages_without_mention(discord_bot):
 
 
 @pytest.mark.asyncio
-async def test_bot_responds_when_mentioned(discord_bot):
-    """When @mentioned, the bot queries RAG and sends the answer to the channel."""
+async def test_bot_responds_when_mentioned_in_guild(discord_bot):
+    """When @mentioned in a guild channel, the bot queries RAG and replies
+    in the same channel."""
     on_message = discord_bot["handlers"]["on_message"]
     bot = discord_bot["bot"]
 
-    mock_channel = AsyncMock()
-    bot.guilds = [MagicMock()]
+    other_user = MagicMock()
+    message = _make_message(
+        author=other_user,
+        mentions=[bot.user],
+        content=f"<@{bot.user.id}> How is the economy?",
+    )
 
-    with (
-        patch(
-            "interfaces.discord_bot.RAG_query",
-            return_value={"answer": "The economy is complex.", "context": [], "question": "How?"},
-        ),
-        patch("interfaces.discord_bot.discord.utils.get", return_value=mock_channel),
+    with patch(
+        "interfaces.discord_bot.RAG_query",
+        return_value={"answer": "The economy is complex.", "context": [], "question": "How?"},
     ):
-        other_user = MagicMock()
-        message = _make_message(
-            author=other_user,
-            mentions=[bot.user],
-            content=f"<@{bot.user.id}> How is the economy?",
-        )
         await on_message(message)
 
-    mock_channel.send.assert_called_once_with("The economy is complex.")
+    message.channel.send.assert_called_once_with("The economy is complex.")
+
+
+# --- on_message: DM behavior ---
+
+
+@pytest.mark.asyncio
+async def test_bot_responds_to_dm_without_mention(discord_bot):
+    """In DMs, the bot responds to any message without requiring an @mention."""
+    on_message = discord_bot["handlers"]["on_message"]
+
+    other_user = MagicMock()
+    message = _make_message(
+        author=other_user,
+        mentions=[],
+        content="What causes inflation?",
+        guild=None,
+    )
+
+    with patch(
+        "interfaces.discord_bot.RAG_query",
+        return_value={"answer": "Inflation is caused by...", "context": [], "question": "Q"},
+    ):
+        await on_message(message)
+
+    message.channel.send.assert_called_once_with("Inflation is caused by...")
+
+
+@pytest.mark.asyncio
+async def test_bot_ignores_own_dm(discord_bot):
+    """The bot should not respond to its own messages even in DMs."""
+    on_message = discord_bot["handlers"]["on_message"]
+    bot = discord_bot["bot"]
+
+    message = _make_message(author=bot.user, content="hello", guild=None)
+
+    with patch("interfaces.discord_bot.RAG_query") as mock_rag:
+        await on_message(message)
+        mock_rag.assert_not_called()
+
+
+@pytest.mark.asyncio
+async def test_dm_strips_bot_mention_if_present(discord_bot):
+    """If a user @mentions the bot in a DM, the mention is stripped from the question."""
+    on_message = discord_bot["handlers"]["on_message"]
+    bot = discord_bot["bot"]
+
+    other_user = MagicMock()
+    message = _make_message(
+        author=other_user,
+        mentions=[bot.user],
+        content=f"<@{bot.user.id}> What is GDP?",
+        guild=None,
+    )
+
+    with patch("interfaces.discord_bot.RAG_query") as mock_rag:
+        mock_rag.return_value = {"answer": "GDP is...", "context": [], "question": "Q"}
+        await on_message(message)
+        # The question passed to RAG should not contain the mention
+        question_arg = mock_rag.call_args[0][0]
+        assert "<@" not in question_arg
 
 
 # --- on_message: error handling ---
-# The handler catches exceptions, logs them, and sends a fallback error message
-# to the user via message.channel (which always works, even if the channel lookup failed).
 
 
 @pytest.mark.asyncio
-async def test_bot_sends_error_message_when_channel_not_found(discord_bot):
-    """When discord.utils.get returns None (channel name doesn't match), the handler
-    catches the error and replies via message.channel with an error message."""
-    on_message = discord_bot["handlers"]["on_message"]
-    bot = discord_bot["bot"]
-
-    bot.guilds = [MagicMock()]
-
-    with (
-        patch(
-            "interfaces.discord_bot.RAG_query",
-            return_value={"answer": "Answer", "context": [], "question": "Q"},
-        ),
-        # Simulate channel not found
-        patch("interfaces.discord_bot.discord.utils.get", return_value=None),
-    ):
-        other_user = MagicMock()
-        message = _make_message(
-            author=other_user,
-            mentions=[bot.user],
-            content=f"<@{bot.user.id}> question",
-        )
-        # message.channel.send needs to be async
-        message.channel = AsyncMock()
-        await on_message(message)
-
-    # The bot should reply with an error message via message.channel
-    message.channel.send.assert_called_once()
-    error_msg = message.channel.send.call_args[0][0]
-    assert "sorry" in error_msg.lower()
-
-
-@pytest.mark.asyncio
-async def test_bot_sends_error_message_when_send_fails(discord_bot):
-    """When channel.send() raises (e.g. Discord API error), the handler catches it
+async def test_bot_sends_error_message_when_rag_fails(discord_bot):
+    """When RAG_query raises an exception, the handler catches it
     and sends a fallback error message via message.channel."""
     on_message = discord_bot["handlers"]["on_message"]
     bot = discord_bot["bot"]
 
-    mock_channel = AsyncMock()
-    mock_channel.send.side_effect = Exception("Discord API error")
-    bot.guilds = [MagicMock()]
+    other_user = MagicMock()
+    message = _make_message(
+        author=other_user,
+        mentions=[bot.user],
+        content=f"<@{bot.user.id}> question",
+    )
 
-    with (
-        patch(
-            "interfaces.discord_bot.RAG_query",
-            return_value={"answer": "Answer", "context": [], "question": "Q"},
-        ),
-        patch("interfaces.discord_bot.discord.utils.get", return_value=mock_channel),
-    ):
-        other_user = MagicMock()
-        message = _make_message(
-            author=other_user,
-            mentions=[bot.user],
-            content=f"<@{bot.user.id}> question",
-        )
-        # message.channel.send is the fallback — must be a different mock than the
-        # failing channel.send
-        message.channel = AsyncMock()
+    with patch("interfaces.discord_bot.RAG_query", side_effect=Exception("LLM error")):
         await on_message(message)
 
     message.channel.send.assert_called_once()
