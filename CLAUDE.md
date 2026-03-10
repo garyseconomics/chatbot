@@ -105,7 +105,8 @@ All settings live in `config.py` as a `pydantic-settings` `BaseSettings` class w
   and discuss — don't decide silently.
 - **Small steps.** Propose one thing at a time. Wait for feedback before moving on.
 - **Explain the why.** When writing code, briefly explain design decisions.
-- **Tests first when possible.** Write or discuss tests before or alongside implementation.
+- **Tests first.** When implementing new features or fixing bugs, write the tests first,
+  then implement the code to make them pass.
 - **No magic.** Avoid complex abstractions, metaprogramming, or "clever" patterns
   unless explicitly discussed and agreed upon.
 
