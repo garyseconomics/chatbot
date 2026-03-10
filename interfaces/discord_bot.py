@@ -27,35 +27,45 @@ class DiscordClient:
     def _setup_bot(self) -> None:
         @self.bot.event
         async def on_ready():
-            logger.info("Bot connected as %s - %s", self.bot.user.name, self.bot.user.id)
-            channel = discord.utils.get(
-                self.bot.guilds[0].text_channels, name=settings.discord_channel
-            )
-            logger.info("Connected to channel %s", channel)
-            await channel.send(settings.bot_greeting)
+            try:
+                logger.info("Bot connected as %s - %s", self.bot.user.name, self.bot.user.id)
+                channel = discord.utils.get(
+                    self.bot.guilds[0].text_channels, name=settings.discord_channel
+                )
+                logger.info("Connected to channel %s", channel)
+                await channel.send(settings.bot_greeting)
+            except Exception:
+                logger.exception("Failed during on_ready")
 
         @self.bot.event
         async def on_message(message):
-            # The bot  ignores its own messages
+            # The bot ignores its own messages
             if message.author == self.bot.user:
                 return
             # The bot answers when it is mentioned
             if self.bot.user in message.mentions:
-                bot_id = str(self.bot.user.id)
-                # Eliminates the bot mention from the message
-                clean_message = message.content.lstrip("<@" + bot_id + "> ")
-                logger.debug("Message received: %s", clean_message)
-                rag_answer = RAG_query(clean_message)["answer"]
-                logger.debug("RAG answer: %s", rag_answer)
-                channel = discord.utils.get(
-                    self.bot.guilds[0].text_channels, name=settings.discord_channel
-                )
-                await channel.send(rag_answer)
+                try:
+                    bot_id = str(self.bot.user.id)
+                    # Eliminates the bot mention from the message
+                    clean_message = message.content.lstrip("<@" + bot_id + "> ")
+                    logger.debug("Message received: %s", clean_message)
+                    rag_answer = RAG_query(clean_message)["answer"]
+                    logger.debug("RAG answer: %s", rag_answer)
+                    channel = discord.utils.get(
+                        self.bot.guilds[0].text_channels, name=settings.discord_channel
+                    )
+                    await channel.send(rag_answer)
+                except Exception:
+                    logger.exception("Failed to handle message")
+                    await message.channel.send(
+                        "Sorry, something went wrong. Please try again later."
+                    )
 
     def run(self) -> None:
         logger.info("Connecting Discord...")
         self.bot.run(self.discord_token)
 
 
-discord_client = DiscordClient()
-discord_client.run()
+if __name__ == "__main__":
+    discord_client = DiscordClient()
+    discord_client.run()
