@@ -11,12 +11,12 @@ logger = logging.getLogger(__name__)
 
 
 # Start handler. Called when a user sends the /start command.
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await context.bot.send_message(chat_id=update.effective_chat.id, text=settings.bot_greeting)
 
 
 # Question funtion. This funtion will answer when a user sends a text message to the bot.
-async def question(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def question(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     question = update.message.text
     rag_answer = RAG_query(question)
     answer = rag_answer["answer"]

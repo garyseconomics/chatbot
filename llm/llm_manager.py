@@ -1,3 +1,8 @@
+# LangChain type alias: covers strings, message lists, and PromptValue
+from langchain_core.language_models import LanguageModelInput
+
+# Base return type from .invoke() — covers AIMessage, HumanMessage, etc.
+from langchain_core.messages import BaseMessage
 from langchain_ollama import ChatOllama
 from langfuse import Langfuse, observe
 
@@ -21,7 +26,12 @@ def get_llm_client(model_name: str = "") -> ChatOllama:
 
 
 @observe(name="ollama_request", as_type="generation", capture_input=True, capture_output=True)
-def llm_chat(prompt, llm=None, model_name: str = "", user_id: str = "not defined"):
+def llm_chat(
+    prompt: LanguageModelInput,
+    llm: ChatOllama | None = None,
+    model_name: str = "",
+    user_id: str = "not defined",
+) -> BaseMessage:
     if not llm:
         llm = get_llm_client(model_name=model_name)
     langfuse_client = Langfuse()

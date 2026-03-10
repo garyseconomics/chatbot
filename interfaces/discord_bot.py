@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 
 class DiscordClient:
-    def __init__(self):
+    def __init__(self) -> None:
         # Token to connect to discord server
         self.discord_token = settings.discord_token
         # This makes the bot answer to !botname
@@ -24,7 +24,7 @@ class DiscordClient:
         # Setup the bot
         self._setup_bot()
 
-    def _setup_bot(self):
+    def _setup_bot(self) -> None:
         @self.bot.event
         async def on_ready():
             logger.info("Bot connected as %s - %s", self.bot.user.name, self.bot.user.id)
@@ -52,7 +52,7 @@ class DiscordClient:
                 )
                 await channel.send(rag_answer)
 
-    def run(self):
+    def run(self) -> None:
         logger.info("Connecting Discord...")
         self.bot.run(self.discord_token)
 

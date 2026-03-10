@@ -1,10 +1,12 @@
 from pathlib import Path
 
+from langchain_core.documents import Document
+
 from config import settings
 
 
 # Get the list of youtube videos from the context
-def get_video_link(context):
+def get_video_link(context: list[Document]) -> list[str]:
     if not context:
         return []
     videos_list = []
@@ -19,7 +21,7 @@ def get_video_link(context):
 
 
 # Get the list of videos and returns a text for the chatbots
-def videos_text_for_chat(video_links):
+def videos_text_for_chat(video_links: list[str]) -> str:
     if not video_links:
         return ""
     if len(video_links) == 1:
