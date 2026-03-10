@@ -11,14 +11,14 @@ services:
     command: ["python", "-m", "interfaces.telegram_bot"]
     tty: true
 
-#  discord-bot:
-#    image: ghcr.io/garyseconomics/chatbot:latest
-#    build: .
-#    env_file:
-#      - .env
-#    restart: unless-stopped
-#    volumes:
-#      - ./docs/import:/app/docs/import
-#      - ./vector_database:/app/vector_database
-#    command: ["python", "-m", "interfaces.discord_bot"]
-#    tty: true
+  discord-bot:
+    image: ghcr.io/garyseconomics/chatbot:latest
+    build: .
+    env_file:
+      - .env
+    restart: unless-stopped
+    volumes:
+      - ./docs/import:/app/docs/import
+      - ./vector_database:/app/vector_database
+    command: ["python", "-m", "interfaces.discord_bot"]
+    tty: true

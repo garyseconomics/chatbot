@@ -202,6 +202,10 @@ To run the bot in discord:
 python -m interfaces.discord_bot
 ```
 
+The bot supports two modes of interaction:
+- **In channels**: mention the bot with @botname followed by your question.
+- **In DMs**: send a message directly to the bot — no mention needed.
+
 
 ### Testing
 To execute the tests:

@@ -8,7 +8,7 @@ Pending tasks and things to investigate.
   - [x] Dockerfile and docker-compose.yml for Telegram bot.
   - [x] CI/CD workflow to build and push image to GHCR on every push.
   - [x] Restart policy (`unless-stopped`) so container recovers after server reset.
-  - [ ] Enable Discord bot in docker-compose (service exists but is commented out).
+  - [x] Enable Discord bot in docker-compose (service exists but is commented out).
   - [ ] Auto-update running containers when a new image is pushed. Options: (1) Watchtower -- a container that monitors and auto-pulls new images, simplest for single-server; (2) Webhook-based deploy -- CI triggers a webhook on the server to run `docker compose pull && docker compose up -d`; (3) Cron job on the server that periodically pulls the latest image.
 - [ ] **Improve Langfuse integration** ([#17](https://github.com/garyseconomics/chatbot/issues/17)) -- Enhance observability setup and add embedding tracking to Langfuse.
   - [x] Reuse Langfuse client in `llm_chat()` instead of creating a new one per call.
@@ -18,10 +18,11 @@ Pending tasks and things to investigate.
   - [x] Replace `print()` with `logger.info()` in `get_llm_client()`.
   - [ ] Propagate `user_id` from bot interfaces through the RAG pipeline to Langfuse traces.
 - [ ] **Service watcher** ([#21](https://github.com/garyseconomics/chatbot/issues/21)) -- Monitor the bot service availability. Options: (1) HTTP `/health` endpoint polled by Uptime Kuma, or (2) a second bot that pings the main bot through the chat. Observer must run on a different host.
+- [ ] **Remove RequestsDependencyWarning filters** -- `requests 2.32.5` doesn't recognize `chardet 7.0.1` as compatible, causing a harmless `RequestsDependencyWarning`. We added filters in `discord_bot.py` and `pyproject.toml` to suppress it. Once `requests` releases a new version with updated version bounds, remove the filters from both files.
 
 ## New functionality
 
-- [ ] **Discord bot DM support** ([#16](https://github.com/garyseconomics/chatbot/issues/16)) -- Add Direct Message support to the Discord bot (currently only responds in channels). Consider using `message.channel` instead of looking up the channel by name — it's simpler and works for both DMs and channel messages.
+- [x] **Discord bot DM support** ([#16](https://github.com/garyseconomics/chatbot/issues/16)) -- Add Direct Message support to the Discord bot (currently only responds in channels). Consider using `message.channel` instead of looking up the channel by name — it's simpler and works for both DMs and channel messages.
 - [ ] **Multi-turn conversations** ([#6](https://github.com/garyseconomics/chatbot/issues/6)) -- Enable conversations with multiple interactions by implementing chat memory and a conversation loop, so the LLM receives the history of the conversation on each call.
 
 ## To investigate
