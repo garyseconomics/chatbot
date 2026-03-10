@@ -20,7 +20,7 @@ Pending tasks and things to investigate.
   - [x] Replace star import in `test_vector_database.py` with explicit imports.
   - [x] Fix duplicate condition bug in `import_documents.py` (`answer == "y" or answer == "y"` → `answer.strip().lower() in ("y", "yes")`).
   - [x] Extract prompt string as `RAG_PROMPT_TEXT` constant in `prompt_template.py`.
-  - [ ] Add `if __name__ == "__main__":` guards to `import_documents.py` and `collections_viewer.py` (they run code at import time).
+  - [x] Add `if __name__ == "__main__":` guards to `import_documents.py` and `collections_viewer.py` (they run code at import time).
   - [ ] Add error handling to Discord bot `on_message` handler (currently crashes silently if `RAG_query()` fails).
   - [ ] Add type hints to files that are missing them (`video_links.py`, `llm_manager.py`, interfaces).
   - [ ] Replace `print()` with `logging` module throughout the codebase for consistent log handling.
