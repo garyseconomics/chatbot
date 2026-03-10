@@ -7,6 +7,7 @@ from vector_database.vector_database_manager import (
     get_collections_from_database,
 )
 
+
 # Gives the option of deleting the existing collections if there are any
 def check_and_delete_existing_collections(database_path):
     collections_list = get_collections_from_database(database_path)

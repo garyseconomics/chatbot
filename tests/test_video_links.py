@@ -11,9 +11,7 @@ doc1 = Document(
     metadata={"source": "docs/import/bReS9FLpgT4__MOOC_Part_1_What_Is_Wealth.srt"}, page_content=""
 )
 doc2 = Document(metadata={"source": "docs/import/CivlU8hJVwc__MOOC_Part_3.srt"}, page_content="")
-doc3 = Document(
-    metadata={"source": "docs/import/rAb_p5DCC3E__The_Solution.srt"}, page_content=""
-)
+doc3 = Document(metadata={"source": "docs/import/rAb_p5DCC3E__The_Solution.srt"}, page_content="")
 doc4 = Document(
     metadata={"source": "docs/import/mcu03c2dZQI__Predicting_The_Election.srt"},
     page_content="",
