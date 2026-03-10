@@ -16,7 +16,7 @@ Pending tasks and things to investigate.
   - [x] Track retrieval step in Langfuse -- added `@observe` to `retrieve()` in `rag_manager.py` so vector search timing and results are visible.
   - [x] Raise error when Langfuse credentials are missing instead of silently failing.
   - [x] Replace `print()` with `logger.info()` in `get_llm_client()`.
-  - [ ] Propagate `user_id` from bot interfaces through the RAG pipeline to Langfuse traces.
+  - [x] Propagate `user_id` from bot interfaces through the RAG pipeline to Langfuse traces.
 - [ ] **Service watcher** ([#21](https://github.com/garyseconomics/chatbot/issues/21)) -- Monitor the bot service availability. Options: (1) HTTP `/health` endpoint polled by Uptime Kuma, or (2) a second bot that pings the main bot through the chat. Observer must run on a different host.
 - [ ] **Remove RequestsDependencyWarning filters** -- `requests 2.32.5` doesn't recognize `chardet 7.0.1` as compatible, causing a harmless `RequestsDependencyWarning`. We added filters in `discord_bot.py` and `pyproject.toml` to suppress it. Once `requests` releases a new version with updated version bounds, remove the filters from both files.
 

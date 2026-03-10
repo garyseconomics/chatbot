@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 def main() -> None:
     print(settings.bot_greeting)
     question = input("Your question: ")
-    response = RAG_query(question)
+    response = RAG_query(question, user_id="cli")
     logger.debug("Full RAG response: %s", response)
     print(response["answer"])
     video_links = get_video_link(response["context"])

@@ -17,6 +17,7 @@ logger = logging.getLogger(__name__)
 # Define state for application
 class State(TypedDict):
     question: str
+    user_id: str
     context: List[Document]
     answer: str
 
@@ -34,21 +35,22 @@ def generate(state: State):
     prompt = get_rag_prompt()
     messages = prompt.invoke({"question": state["question"], "context": docs_content})
     logger.debug("Prompt generated:\n%s", messages)
-    response = llm_chat(messages)
+    response = llm_chat(messages, user_id=state["user_id"])
     return {"answer": response.content}
 
 
-def RAG_query(question: str) -> State:
+def RAG_query(question: str, user_id: str = "unknown") -> State:
     graph_builder = StateGraph(State).add_sequence([retrieve, generate])
     graph_builder.add_edge(START, "retrieve")
     graph = graph_builder.compile()
     error_state: State = {
         "question": question,
+        "user_id": user_id,
         "context": [],
         "answer": "I'm sorry. I'm having some technical problems.",
     }
     try:
-        response = graph.invoke({"question": question})
+        response = graph.invoke({"question": question, "user_id": user_id})
         return response
     except ConnectionError as e:
         logger.error("Cannot connect to Ollama: %s", e)

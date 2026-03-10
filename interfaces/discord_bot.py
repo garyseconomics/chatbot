@@ -64,7 +64,8 @@ class DiscordClient:
                 bot_mention = f"<@{self.bot.user.id}>"
                 clean_message = message.content.replace(bot_mention, "").strip()
                 logger.debug("Message received: %s", clean_message)
-                rag_answer = RAG_query(clean_message)["answer"]
+                user_id = f"discord:{message.author.id}"
+                rag_answer = RAG_query(clean_message, user_id=user_id)["answer"]
                 logger.debug("RAG answer: %s", rag_answer)
                 await message.channel.send(rag_answer)
             except Exception:

@@ -42,6 +42,7 @@ def test_generate_returns_answer_from_llm(mock_chat):
 
     state = {
         "question": "What is wealth?",
+        "user_id": "telegram:42",
         "context": [
             Document(page_content="Wealth means total assets.", metadata={}),
         ],
@@ -50,13 +51,14 @@ def test_generate_returns_answer_from_llm(mock_chat):
 
     assert result["answer"] == "Wealth is assets minus debts."
     mock_chat.assert_called_once()
+    assert mock_chat.call_args.kwargs["user_id"] == "telegram:42"
 
 
 @patch("rag.rag_manager.llm_chat")
 def test_generate_with_empty_context(mock_chat):
     mock_chat.return_value = AIMessage(content="I don't have enough context.")
 
-    state = {"question": "What is wealth?", "context": []}
+    state = {"question": "What is wealth?", "user_id": "cli", "context": []}
     result = generate(state)
 
     assert isinstance(result["answer"], str)

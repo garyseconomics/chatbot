@@ -41,7 +41,7 @@ def test_chatbot_calls_rag_with_user_question(mock_rag, mock_print, mock_input):
 
     main()
 
-    mock_rag.assert_called_once_with("What is inflation?")
+    mock_rag.assert_called_once_with("What is inflation?", user_id="cli")
 
 
 @patch("interfaces.chatbot.input", return_value="Tell me about GDP")

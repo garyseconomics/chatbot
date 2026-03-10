@@ -51,6 +51,7 @@ def _make_message(author, mentions=None, content="test message", guild=MagicMock
     """Create a mock discord Message. guild=None simulates a DM."""
     message = MagicMock()
     message.author = author
+    message.author.id = getattr(author, "id", 99999)
     message.mentions = mentions or []
     message.content = content
     message.guild = guild

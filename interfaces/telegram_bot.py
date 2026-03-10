@@ -18,7 +18,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 # Question funtion. This funtion will answer when a user sends a text message to the bot.
 async def question(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     question = update.message.text
-    rag_answer = RAG_query(question)
+    user_id = f"telegram:{update.effective_user.id}"
+    rag_answer = RAG_query(question, user_id=user_id)
     answer = rag_answer["answer"]
     video_links = get_video_link(rag_answer["context"])
     if video_links:

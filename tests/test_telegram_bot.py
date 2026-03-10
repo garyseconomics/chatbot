@@ -14,11 +14,14 @@ from langchain_core.documents import Document
 # We mock these objects and the RAG pipeline to test the handlers in isolation.
 
 
-def _make_update(text: str = "What is inflation?", chat_id: int = 42) -> MagicMock:
+def _make_update(
+    text: str = "What is inflation?", chat_id: int = 42, user_id: int = 100
+) -> MagicMock:
     """Create a mock Telegram Update with the given message text and chat id."""
     update = MagicMock()
     update.message.text = text
     update.effective_chat.id = chat_id
+    update.effective_user.id = user_id
     return update
 
 
@@ -65,7 +68,7 @@ async def test_question_calls_rag_with_user_message():
 
         await question(update, context)
 
-    mock_rag.assert_called_once_with("How does GDP work?")
+    mock_rag.assert_called_once_with("How does GDP work?", user_id="telegram:100")
 
 
 @pytest.mark.asyncio
