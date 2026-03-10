@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from config import settings
 
 
@@ -9,9 +11,7 @@ def get_video_link(context):
     for doc in context:
         file_source = doc.metadata["source"]
         # Takes the video id from the name of the file
-        video_id = file_source.strip(settings.documents_directory).split(
-            settings.video_ids_separator
-        )[0]
+        video_id = Path(file_source).stem.split(settings.video_ids_separator)[0]
         video_url = "https://www.youtube.com/watch?v=" + video_id
         if video_url not in videos_list:
             videos_list.append(video_url)
