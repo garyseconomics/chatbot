@@ -2,6 +2,7 @@ from unittest.mock import MagicMock, patch
 
 from langchain_core.documents import Document
 from langchain_core.messages import AIMessage
+from ollama import ResponseError
 
 from rag.rag_manager import RAG_query, generate, retrieve
 
@@ -82,12 +83,46 @@ def test_rag_query_returns_answer(mock_get_db, mock_chat):
 
 @patch("rag.rag_manager.llm_chat")
 @patch("rag.rag_manager.get_or_create_vector_database")
-def test_rag_query_returns_error_message_on_failure(mock_get_db, mock_chat):
-    mock_get_db.side_effect = Exception("DB connection failed")
+def test_rag_query_returns_error_on_connection_error(mock_get_db, mock_chat):
+    mock_get_db.side_effect = ConnectionError("Connection refused")
 
     response = RAG_query("Any question")
 
-    assert "sorry" in response["answer"].lower()
+    assert "can't reach" in response["answer"].lower()
+    assert response["context"] == []
+
+
+@patch("rag.rag_manager.llm_chat")
+@patch("rag.rag_manager.get_or_create_vector_database")
+def test_rag_query_returns_error_on_ollama_response_error(mock_get_db, mock_chat):
+    mock_get_db.side_effect = ResponseError("model not found")
+
+    response = RAG_query("Any question")
+
+    assert "service returned an error" in response["answer"].lower()
+    assert response["context"] == []
+
+
+@patch("rag.rag_manager.llm_chat")
+@patch("rag.rag_manager.get_or_create_vector_database")
+def test_rag_query_returns_error_on_value_error(mock_get_db, mock_chat):
+    mock_get_db.side_effect = ValueError("Model qwen3:32b not found")
+
+    response = RAG_query("Any question")
+
+    assert "configuration" in response["answer"].lower()
+    assert response["context"] == []
+
+
+@patch("rag.rag_manager.llm_chat")
+@patch("rag.rag_manager.get_or_create_vector_database")
+def test_rag_query_returns_error_on_unexpected_exception(mock_get_db, mock_chat):
+    mock_get_db.side_effect = RuntimeError("Something unexpected")
+
+    response = RAG_query("Any question")
+
+    assert "technical problems" in response["answer"].lower()
+    assert response["context"] == []
 
 
 # --- End-to-end test (hits real Ollama and vector DB) ---

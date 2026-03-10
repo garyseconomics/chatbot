@@ -2,6 +2,7 @@ import logging
 
 from langchain_core.documents import Document
 from langgraph.graph import START, StateGraph
+from ollama import ResponseError
 from typing_extensions import List, TypedDict
 
 from config import settings
@@ -39,13 +40,26 @@ def RAG_query(question: str) -> State:
     graph_builder = StateGraph(State).add_sequence([retrieve, generate])
     graph_builder.add_edge(START, "retrieve")
     graph = graph_builder.compile()
+    error_state: State = {
+        "question": question,
+        "context": [],
+        "answer": "I'm sorry. I'm having some technical problems.",
+    }
     try:
         response = graph.invoke({"question": question})
         return response
+    except ConnectionError as e:
+        logger.error("Cannot connect to Ollama: %s", e)
+        error_state["answer"] = "I'm sorry, I can't reach the AI service right now."
+        return error_state
+    except ResponseError as e:
+        logger.error("Ollama returned an error: %s", e)
+        error_state["answer"] = "I'm sorry, the AI service returned an error."
+        return error_state
+    except ValueError as e:
+        logger.error("Configuration error: %s", e)
+        error_state["answer"] = "I'm sorry, there's a configuration problem."
+        return error_state
     except Exception as e:
-        logger.error("Failed while querying the RAG. Error: %s", e)
-        return {
-            "question": question,
-            "context": [],
-            "answer": "I'm sorry. I'm having some technical problems.",
-        }
+        logger.error("Unexpected error while querying the RAG: %s", e)
+        return error_state
