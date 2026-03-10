@@ -12,6 +12,7 @@ Pending tasks and things to investigate.
   - [ ] Auto-update running containers when a new image is pushed. Options: (1) Watchtower -- a container that monitors and auto-pulls new images, simplest for single-server; (2) Webhook-based deploy -- CI triggers a webhook on the server to run `docker compose pull && docker compose up -d`; (3) Cron job on the server that periodically pulls the latest image.
 - [ ] **Improve Langfuse integration** ([#17](https://github.com/garyseconomics/chatbot/issues/17)) -- Enhance observability setup and add embedding tracking to Langfuse.
   - [ ] Reuse Langfuse client in `llm_chat()` instead of creating a new one per call.
+  - [ ] Propagate `user_id` from bot interfaces through the RAG pipeline to Langfuse traces.
 - [ ] **Service watcher** ([#21](https://github.com/garyseconomics/chatbot/issues/21)) -- Monitor the bot service availability. Options: (1) HTTP `/health` endpoint polled by Uptime Kuma, or (2) a second bot that pings the main bot through the chat. Observer must run on a different host.
 
 ## New functionality

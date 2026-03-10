@@ -1,11 +1,13 @@
 from unittest.mock import patch
 
 import langchain_core
+import pytest
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama
 
 from config import settings
-from llm.llm_manager import get_llm_client, llm_chat
+from llm import llm_manager
+from llm.llm_manager import get_langfuse_client, get_llm_client, llm_chat
 from llm.ollama_helpers import get_available_ollama_host
 from llm.prompt_template import get_rag_prompt
 
@@ -93,3 +95,21 @@ def test_llm_chat_with_prompt_template():
 def test_llm_chat_with_model_name():
     response = llm_chat(prompt="Hello", model_name="qwen3:4b")
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
+
+
+# --- Langfuse client tests (mocked, no network calls) ---
+
+
+def test_langfuse_client_raises_when_credentials_missing():
+    # Reset the cached client so get_langfuse_client() re-checks credentials
+    original_client = llm_manager._langfuse_client
+    llm_manager._langfuse_client = None
+    try:
+        with (
+            patch.object(settings, "langfuse_public_key", ""),
+            patch.object(settings, "langfuse_secret_key", ""),
+        ):
+            with pytest.raises(ValueError, match="Langfuse credentials are not configured"):
+                get_langfuse_client()
+    finally:
+        llm_manager._langfuse_client = original_client
