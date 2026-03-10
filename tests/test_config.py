@@ -6,12 +6,12 @@ def test_constructor_overrides_values():
         ollama_host_remote="http://remote:11434",
         remote_llm="llama3:70b",
         chunk_size=2048,
-        show_logs=False,
+        log_level="WARNING",
     )
     assert s.ollama_host_remote == "http://remote:11434"
     assert s.remote_llm == "llama3:70b"
     assert s.chunk_size == 2048
-    assert s.show_logs is False
+    assert s.log_level == "WARNING"
 
 
 def test_secrets_default_to_empty():
@@ -31,9 +31,9 @@ def test_secrets_default_to_empty():
 
 def test_type_coercion():
     """Pydantic coerces string values to the declared field types."""
-    s = Settings(chunk_size="512", show_logs="false", batch_size="20")
+    s = Settings(chunk_size="512", log_level="info", batch_size="20")
     assert s.chunk_size == 512
-    assert s.show_logs is False
+    assert s.log_level == "info"
     assert s.batch_size == 20
 
 

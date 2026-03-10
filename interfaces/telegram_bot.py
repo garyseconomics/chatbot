@@ -7,10 +7,7 @@ from config import settings
 from rag.rag_manager import RAG_query
 from rag.video_links import get_video_link, videos_text_for_chat
 
-# Setting up the logging module
-logging.basicConfig(
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
-)
+logger = logging.getLogger(__name__)
 
 
 # Start handler. Called when a user sends the /start command.
@@ -27,9 +24,8 @@ async def question(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if video_links:
         video_text = videos_text_for_chat(video_links)
         answer = f"{answer}\n\n{video_text}"
-    if settings.show_logs:
-        print(rag_answer)
-        print(f"Video links: {video_links}")
+    logger.debug("RAG answer: %s", rag_answer)
+    logger.debug("Video links: %s", video_links)
     await context.bot.send_message(chat_id=update.effective_chat.id, text=answer)
 
 

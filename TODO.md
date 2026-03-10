@@ -23,7 +23,7 @@ Pending tasks and things to investigate.
   - [x] Add `if __name__ == "__main__":` guards to `import_documents.py` and `collections_viewer.py` (they run code at import time).
   - [ ] Add error handling to Discord bot `on_message` handler (currently crashes silently if `RAG_query()` fails).
   - [ ] Add type hints to files that are missing them (`video_links.py`, `llm_manager.py`, interfaces).
-  - [ ] Replace `print()` with `logging` module throughout the codebase for consistent log handling.
+  - [x] Replace `print()` with `logging` module throughout the codebase -- centralized `logging.basicConfig` in `config.py` (level driven by `show_logs`), each module uses `logging.getLogger(__name__)`, removed all `if settings.show_logs: print()` patterns.
   - [ ] Improve generic `except Exception` in `RAG_query()` with more specific error handling.
 ## Testing
 

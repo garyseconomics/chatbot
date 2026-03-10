@@ -127,7 +127,7 @@ Available settings:
 - **video_ids_separator**: We have put the youtube video ids at the begining of the srt files (we use that to get the links to the videos when the bot is answering the user). This sepparator is the characters we use to sepparate the video id ends from the name of the youtube video. Example: Q9VTje_FM08__Meritocracy.srt -> "Q9VTje_FM08" is the video id, "__" is the separator and "Meritocracy" is the title of the video. If you change this separator, you have to change the name of the files too or the video links won't work.
 
 **App**
-- **show_logs**: Select True if you want to see more information of what is happening on the terminal while you execute. False if not.
+- **log_level**: Logging verbosity level (e.g., DEBUG, INFO, WARNING, ERROR). Defaults to DEBUG.
 - **bot_greeting**: The message that the bot will use to say hello when starting a conversation.
 - **discord_channel**: Name of the channel in discord where the bot is configured to interact with the users.
 

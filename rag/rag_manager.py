@@ -1,3 +1,5 @@
+import logging
+
 from langchain_core.documents import Document
 from langgraph.graph import START, StateGraph
 from typing_extensions import List, TypedDict
@@ -6,6 +8,8 @@ from config import settings
 from llm.llm_manager import llm_chat
 from llm.prompt_template import get_rag_prompt
 from vector_database.vector_database_manager import get_or_create_vector_database
+
+logger = logging.getLogger(__name__)
 
 
 # Define state for application
@@ -26,8 +30,7 @@ def generate(state: State):
     docs_content = "\n\n".join(doc.page_content for doc in state["context"])
     prompt = get_rag_prompt()
     messages = prompt.invoke({"question": state["question"], "context": docs_content})
-    if settings.show_logs:
-        print(f"\nPrompt generated:\n{messages}\n")
+    logger.debug("Prompt generated:\n%s", messages)
     response = llm_chat(messages)
     return {"answer": response.content}
 
@@ -40,5 +43,5 @@ def RAG_query(question):
         response = graph.invoke({"question": question})
         return response
     except Exception as e:
-        print(f"Failed while querying the RAG. Error: {e}")
+        logger.error("Failed while querying the RAG. Error: %s", e)
         return {"answer": "I'm sorry. I'm having some technical problems."}

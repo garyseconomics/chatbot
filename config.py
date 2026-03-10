@@ -1,3 +1,5 @@
+import logging
+
 from dotenv import load_dotenv
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -35,7 +37,7 @@ class Settings(BaseSettings):
 
     # App
     app_name: str = "GarysEconomics_bot"
-    show_logs: bool = True
+    log_level: str = "DEBUG"
     bot_greeting: str = (
         "Hello. This is Garys Economics Youtube chatbot. "
         "You can ask me questions and I'll answer them using the content of our videos."
@@ -53,3 +55,10 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
+
+# Configure logging level based on log_level setting
+logging.basicConfig(
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    # Convert log_level string (e.g. "INFO") to its logging constant (e.g. logging.INFO = 20)
+    level=getattr(logging, settings.log_level.upper(), logging.DEBUG),
+)

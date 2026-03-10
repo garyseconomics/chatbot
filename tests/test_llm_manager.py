@@ -6,8 +6,8 @@ from langchain_ollama import ChatOllama
 
 from config import settings
 from llm.llm_manager import get_llm_client, llm_chat
-from llm.prompt_template import get_rag_prompt
 from llm.ollama_helpers import get_available_ollama_host
+from llm.prompt_template import get_rag_prompt
 
 # --- Ollama host fallback tests (mocked, no network calls) ---
 
