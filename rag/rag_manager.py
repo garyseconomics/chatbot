@@ -1,6 +1,7 @@
 import logging
 
 from langchain_core.documents import Document
+from langfuse import observe
 from langgraph.graph import START, StateGraph
 from ollama import ResponseError
 from typing_extensions import List, TypedDict
@@ -21,6 +22,7 @@ class State(TypedDict):
 
 
 # Define application steps
+@observe(name="vector_search")  # Track retrieval timing and results in Langfuse
 def retrieve(state: State):
     vector_store = get_or_create_vector_database(settings.database_path)
     retrieved_docs = vector_store.similarity_search(state["question"])

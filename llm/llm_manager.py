@@ -14,11 +14,15 @@ from llm.ollama_helpers import get_available_ollama_host
 logger = logging.getLogger(__name__)
 
 
+# Lazy singleton: created on first use, reused across all calls.
 _langfuse_client: Langfuse | None = None
 
 
 def get_langfuse_client() -> Langfuse:
-    """Return the shared Langfuse client, creating it on first use."""
+    """Return the shared Langfuse client, creating it on first use.
+
+    Raises ValueError if credentials are not configured.
+    """
     global _langfuse_client
     if _langfuse_client is None:
         if not settings.langfuse_public_key or not settings.langfuse_secret_key:
@@ -58,7 +62,9 @@ def llm_chat(
     client.update_current_trace(
         name=settings.app_name,
         user_id=user_id,
-        metadata={"model": model_name, "provider": settings.provider},
+        # Use llm.model instead of model_name param — it always has the
+        # resolved model name, even when the caller doesn't pass one.
+        metadata={"model": llm.model, "provider": settings.provider},
     )
     response = llm.invoke(prompt)
     client.flush()
