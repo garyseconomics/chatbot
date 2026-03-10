@@ -7,16 +7,30 @@ It uses a vector database of video subtitles to provide context-aware answers vi
 
 ```
 chatbot/
-├── llm/                    # LLM client management (local & remote via Ollama)
-├── rag/                    # RAG pipeline (LangGraph-based retrieve + generate)
-├── vector_database/        # Chroma vector DB operations and SRT document processing
-├── docs/import/            # SRT subtitle files for import
+├── interfaces/             # Channel integrations
+│   ├── chatbot.py          #   CLI chatbot interface
+│   ├── telegram_bot.py     #   Telegram bot
+│   └── discord_bot.py      #   Discord bot
+├── llm/                    # LLM client management
+│   ├── llm_manager.py      #   Ollama LLM wrapper (remote → local fallback)
+│   ├── ollama_helpers.py   #   Host availability detection
+│   └── prompt_template.py  #   RAG prompt template
+├── rag/                    # RAG pipeline
+│   ├── rag_manager.py      #   LangGraph retrieve → generate graph
+│   └── video_links.py      #   YouTube video link generation
+├── vector_database/        # Chroma vector DB operations
+│   ├── vector_database_manager.py  # DB init, search, add documents
+│   ├── import_documents.py         # Script to import SRT subtitles
+│   ├── srt_splitter.py             # SRT chunking with overlap
+│   └── collections_viewer.py       # DB inspection utility
+├── docs/                   # SRT subtitle files (imported into vector DB)
+│   └── import/             # Staging directory for new SRT files
 ├── tests/                  # pytest test suite
-├── chatbot.py              # CLI chatbot interface
-├── telegram_bot.py         # Telegram bot integration
-├── discord_bot.py          # Discord bot integration
-├── import_documents.py     # Script to import SRT subtitles into vector DB
-├── config.py               # Central configuration (models, paths, settings)
+├── config.py               # Central configuration (pydantic-settings)
+├── pyproject.toml          # Project metadata and dependencies
+├── prompt_experiments.py   # Prompt experimentation scratch file
+├── learning.md             # Developer learning tracker (checked by Claude)
+├── TODO.md                 # Pending tasks and investigations
 ├── docker-compose.yml      # Docker Compose (Telegram bot service)
 ├── Dockerfile              # Docker image (Python 3.11-slim)
 └── .github/workflows/      # CI/CD (Docker build + push to GHCR)
@@ -29,8 +43,8 @@ Channels (CLI / Telegram / Discord)
         │
         ▼
 ┌─────────────────┐
-│   RAG Pipeline   │  ← LangGraph (retrieve → generate)
-│  (RAG_manager)   │
+│   RAG Pipeline  │  ← LangGraph (retrieve → generate)
+│  (RAG_manager)  │
 └────────┬────────┘
          │
     ┌────┴────┐
@@ -43,7 +57,7 @@ Vector DB   LLM Manager
 1. **Channels** — CLI, Telegram bot, Discord bot. Each receives a question and calls the RAG pipeline.
 2. **RAG pipeline** — LangGraph graph: retrieves relevant documents from the vector DB, builds a prompt with context, calls the LLM.
 3. **Vector database** — Chroma with Ollama embeddings. Stores chunked SRT subtitles with video metadata.
-4. **LLM manager** — Wraps Ollama clients. Primary: remote server (`qwen3:32b`). Fallback: local (`qwen3:4b`).
+4. **LLM manager** — Wraps Ollama clients. Primary: remote server (`qwen3:32b`). Fallback: local (`qwen3:4b`). Embeddings: `qwen3-embedding:8b`. Host selection is automatic via `ollama_helpers.get_available_ollama_host()`.
 
 ## Tech stack
 
@@ -53,6 +67,8 @@ Vector DB   LLM Manager
 - **LangChain** + **LangGraph** for RAG pipeline and LLM integration
 - **Chroma** (`chromadb`, `langchain-chroma`) as vector database
 - **Ollama** (`langchain-ollama`) for LLM and embeddings
+- **pydantic-settings** for typed configuration with automatic `.env` loading
+- **Langfuse** for LLM observability and tracing
 - **pysrt** for SRT subtitle parsing
 - **python-dotenv** for environment variable loading
 - **python-telegram-bot** and **discord.py** for bot integrations
@@ -60,7 +76,7 @@ Vector DB   LLM Manager
 
 ## Configuration
 
-All settings live in `config.py`. Environment variables (API keys, tokens) in `.env` — see `.env.sample` for the template.
+All settings live in `config.py` as a `pydantic-settings` `BaseSettings` class with typed fields, defaults, and automatic `.env` loading. Environment variables (API keys, tokens) in `.env` — see `.env.sample` for the template.
 
 ## Project philosophy
 
@@ -118,7 +134,7 @@ source .venv/bin/activate
 pytest
 ```
 
-**Note on Ollama and tests:** Some tests (e.g., `test_vector_database.py`) call the Ollama embedding server. The local Ollama can crash the machine due to resource usage. Currently embeddings are configured to use the remote Ollama (`OLLAMA_HOST_REMOTE`). If the remote server is temporarily down, tests that need embeddings will fail — this is expected. Adding a fallback for tests is a pending TODO.
+**Note on Ollama and tests:** Some tests (e.g., `test_vector_database.py`) call the Ollama embedding server. Host selection uses `ollama_helpers.get_available_ollama_host()` which pings remote first and falls back to local. Tests mock the connectivity check for reliable results. If both remote and local Ollama are unavailable, embedding-dependent tests will fail — this is expected.
 
 ### Git
 - Small, focused commits.
