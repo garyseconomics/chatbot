@@ -27,7 +27,8 @@ Pending tasks and things to investigate.
 
 ## Prompt improvements
 
-- [ ] **Hide RAG internals from the user** ([#22](https://github.com/garyseconomics/chatbot/issues/22)) -- The bot sometimes says things like "the provided content does not include..." or "based on the provided material...", which exposes the RAG mechanism. The prompt should instruct the LLM to never reference "the provided content/material/context" and instead answer naturally, as if the knowledge comes from its own understanding. Example of bad behavior: "The provided content does not include explanations of specific economic concepts."
+- [x] **Hide RAG internals from the user** ([#22](https://github.com/garyseconomics/chatbot/issues/22)) -- The bot sometimes says things like "the provided content does not include..." or "based on the provided material...", which exposes the RAG mechanism. The prompt should instruct the LLM to never reference "the provided content/material/context" and instead answer naturally, as if the knowledge comes from its own understanding. Example of bad behavior: "The provided content does not include explanations of specific economic concepts."
+- [ ] **Test prompt v1 against prompt v2** -- Compare the current prompt (v1) against the new prompt (v2) to evaluate which produces better answers. Use Langfuse to run both prompts against the same set of test questions and compare the results. The test questions from `tests/test_ask_questions.py` can be used as a starting dataset.
 
 ## To investigate
 
