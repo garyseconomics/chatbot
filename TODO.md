@@ -25,6 +25,10 @@ Pending tasks and things to investigate.
 
 - [ ] **Multi-turn conversations** ([#6](https://github.com/garyseconomics/chatbot/issues/6)) -- Enable conversations with multiple interactions by implementing chat memory and a conversation loop, so the LLM receives the history of the conversation on each call.
 
+## Prompt improvements
+
+- [ ] **Hide RAG internals from the user** ([#22](https://github.com/garyseconomics/chatbot/issues/22)) -- The bot sometimes says things like "the provided content does not include..." or "based on the provided material...", which exposes the RAG mechanism. The prompt should instruct the LLM to never reference "the provided content/material/context" and instead answer naturally, as if the knowledge comes from its own understanding. Example of bad behavior: "The provided content does not include explanations of specific economic concepts."
+
 ## To investigate
 
 - [ ] **Async support** -- Evaluate whether to use `asyncio` for the core RAG pipeline.
