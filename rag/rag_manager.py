@@ -35,7 +35,7 @@ def generate(state: State):
     return {"answer": response.content}
 
 
-def RAG_query(question):
+def RAG_query(question: str) -> State:
     graph_builder = StateGraph(State).add_sequence([retrieve, generate])
     graph_builder.add_edge(START, "retrieve")
     graph = graph_builder.compile()
@@ -44,4 +44,8 @@ def RAG_query(question):
         return response
     except Exception as e:
         logger.error("Failed while querying the RAG. Error: %s", e)
-        return {"answer": "I'm sorry. I'm having some technical problems."}
+        return {
+            "question": question,
+            "context": [],
+            "answer": "I'm sorry. I'm having some technical problems.",
+        }
