@@ -21,6 +21,10 @@ Pending tasks and things to investigate.
 - [ ] **Service watcher** ([#21](https://github.com/garyseconomics/chatbot/issues/21)) -- Monitor the bot service availability. Options: (1) HTTP `/health` endpoint polled by Uptime Kuma, or (2) a second bot that pings the main bot through the chat. Observer must run on a different host.
 - [ ] **Remove RequestsDependencyWarning filters** -- `requests 2.32.5` doesn't recognize `chardet 7.0.1` as compatible, causing a harmless `RequestsDependencyWarning`. We added filters in `discord_bot.py` and `pyproject.toml` to suppress it. Once `requests` releases a new version with updated version bounds, remove the filters from both files.
 
+## Bug fixes
+
+- [ ] **Bot crashes when a user replies to a bot message in Discord** ([#23](https://github.com/garyseconomics/chatbot/issues/23)) -- When a user replies to one of the bot's messages mentioning the bot, the bot crashes with the generic error message. Need to check server logs to identify the root cause.
+
 ## New functionality
 
 - [ ] **Multi-turn conversations** ([#6](https://github.com/garyseconomics/chatbot/issues/6)) -- Enable conversations with multiple interactions by implementing chat memory and a conversation loop, so the LLM receives the history of the conversation on each call.
@@ -28,6 +32,8 @@ Pending tasks and things to investigate.
 ## Prompt improvements
 
 - [x] **Hide RAG internals from the user** ([#22](https://github.com/garyseconomics/chatbot/issues/22)) -- The bot sometimes says things like "the provided content does not include..." or "based on the provided material...", which exposes the RAG mechanism. The prompt should instruct the LLM to never reference "the provided content/material/context" and instead answer naturally, as if the knowledge comes from its own understanding. Example of bad behavior: "The provided content does not include explanations of specific economic concepts."
+- [x] **Bot identity clarification** -- The bot sometimes speaks as if it is Gary Stevenson. Added an identity rule to both prompt v1 and v2: "You are NOT Gary Stevenson. You are a chatbot that explains the ideas from his channel."
+- [ ] **Bot is too diplomatic — doesn't reflect the channel's tone and views** ([#24](https://github.com/garyseconomics/chatbot/issues/24)) -- The bot gives overly neutral answers on topics where the channel takes a clear position (e.g., crypto). Need to investigate whether the issue is in retrieval (wrong chunks) or generation (LLM softening the tone), then adjust the prompt accordingly.
 - [ ] **Test prompt v1 against prompt v2** -- Compare the current prompt (v1) against the new prompt (v2) to evaluate which produces better answers. Use Langfuse to run both prompts against the same set of test questions and compare the results. The test questions from `tests/test_ask_questions.py` can be used as a starting dataset.
 
 ## To investigate
