@@ -8,6 +8,7 @@ questions_list = [
     "Who is Gary?",
     "Tell me about the channel",
     "What is Gary's opinion about the Labour party?",
+    "Hi Gary!",
 ]
 
 
