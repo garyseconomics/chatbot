@@ -2,6 +2,7 @@
 name = "garys-economics-chatbot"
 version = "0.1.0"
 description = "A RAG chatbot that answers economics questions by referencing Gary's Economics YouTube videos."
+license = "GPL-3.0-or-later"
 requires-python = ">=3.11"
 dependencies = [
     "chromadb",
