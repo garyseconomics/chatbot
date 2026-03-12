@@ -212,3 +212,7 @@ To execute the tests:
 ```bash
 pytest
 ```
+
+## Testing Plan
+
+We are rolling out the chatbot in phases. See [Testing_Plan.md](Testing_Plan.md) for details.
