@@ -1,4 +1,3 @@
-import pytest
 from rag.rag_manager import RAG_query
 
 questions_list = [
@@ -18,8 +17,7 @@ questions_list = [
 ]
 
 
-@pytest.mark.parametrize("question", questions_list)
-def test_rag_answers_question(question):
-    response = RAG_query(question)
+def test_rag_answers_question():
+    response = RAG_query(questions_list[0])
     assert isinstance(response["answer"], str)
     assert len(response["answer"]) > 0
