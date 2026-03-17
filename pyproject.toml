@@ -8,7 +8,7 @@ dependencies = [
     "chromadb",
     "discord.py",
     "langchain",
-    "langfuse",
+    "langfuse>=3,<4",
     "langchain-chroma",
     "langchain-community",
     "langchain-ollama",
