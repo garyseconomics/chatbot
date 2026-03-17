@@ -213,3 +213,6 @@ __marimo__/
 
 # Chroma database
 chroma_langchain_db/
+
+# Langfuse raw data exports
+analytics/raw_data/
