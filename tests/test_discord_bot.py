@@ -1,3 +1,4 @@
+import asyncio
 from unittest.mock import AsyncMock, MagicMock, patch
 
 import pytest
@@ -39,12 +40,14 @@ def discord_bot():
 
         client = DiscordClient()
 
-    return {
-        "handlers": handlers,
-        "bot": mock_bot,
-        "client": client,
-        "settings": mock_settings,
-    }
+    # Use a short thinking interval in tests so they don't wait 30 real seconds
+    with patch("interfaces.discord_bot.THINKING_INTERVAL", 0.05):
+        yield {
+            "handlers": handlers,
+            "bot": mock_bot,
+            "client": client,
+            "settings": mock_settings,
+        }
 
 
 def _make_message(author, mentions=None, content="test message", guild=MagicMock()):
@@ -194,6 +197,113 @@ async def test_bot_sends_error_message_when_rag_fails(discord_bot):
     message.channel.send.assert_called_once()
     error_msg = message.channel.send.call_args[0][0]
     assert "sorry" in error_msg.lower()
+
+
+# --- on_message: non-blocking RAG and thinking indicator ---
+
+
+@pytest.mark.asyncio
+async def test_thinking_message_sent_during_slow_rag(discord_bot):
+    """When RAG takes longer than the thinking interval, the bot sends
+    a visible 'Thinking...' message."""
+    on_message = discord_bot["handlers"]["on_message"]
+    bot = discord_bot["bot"]
+
+    other_user = MagicMock()
+    message = _make_message(
+        author=other_user,
+        mentions=[bot.user],
+        content=f"<@{bot.user.id}> complex question",
+    )
+
+    async def slow_rag_executor(executor, func):
+        """Simulate a RAG query that takes longer than the thinking interval."""
+        await asyncio.sleep(0.15)
+        return func()
+
+    with patch(
+        "interfaces.discord_bot.RAG_query",
+        return_value={"answer": "Answer.", "context": [], "question": "Q"},
+    ):
+        with patch.object(
+            asyncio.get_running_loop(),
+            "run_in_executor",
+            side_effect=slow_rag_executor,
+        ):
+            await on_message(message)
+
+    sent_messages = [call[0][0] for call in message.channel.send.call_args_list]
+    assert "🤔 Thinking..." in sent_messages
+    assert sent_messages[-1] == "Answer."
+
+
+@pytest.mark.asyncio
+async def test_typing_indicator_used_after_first_thinking_message(discord_bot):
+    """After the first visible 'Thinking...' message, subsequent keepalives
+    use trigger_typing instead of sending more messages."""
+    on_message = discord_bot["handlers"]["on_message"]
+    bot = discord_bot["bot"]
+
+    other_user = MagicMock()
+    message = _make_message(
+        author=other_user,
+        mentions=[bot.user],
+        content=f"<@{bot.user.id}> very complex question",
+    )
+
+    async def very_slow_rag_executor(executor, func):
+        """Simulate a RAG query that takes longer than two thinking intervals."""
+        await asyncio.sleep(0.25)
+        return func()
+
+    with patch(
+        "interfaces.discord_bot.RAG_query",
+        return_value={"answer": "Answer.", "context": [], "question": "Q"},
+    ):
+        with patch.object(
+            asyncio.get_running_loop(),
+            "run_in_executor",
+            side_effect=very_slow_rag_executor,
+        ):
+            await on_message(message)
+
+    sent_messages = [call[0][0] for call in message.channel.send.call_args_list]
+    assert sent_messages[0] == "🤔 Thinking..."
+    assert sent_messages[-1] == "Answer."
+    # No "Still thinking..." messages — subsequent keepalives use trigger_typing
+    assert "Still thinking..." not in sent_messages
+    message.channel.trigger_typing.assert_called()
+
+
+@pytest.mark.asyncio
+async def test_no_thinking_indicator_for_fast_rag(discord_bot):
+    """When RAG responds quickly, no thinking indicator should be sent."""
+    on_message = discord_bot["handlers"]["on_message"]
+    bot = discord_bot["bot"]
+
+    other_user = MagicMock()
+    message = _make_message(
+        author=other_user,
+        mentions=[bot.user],
+        content=f"<@{bot.user.id}> quick question",
+    )
+
+    async def fast_rag_executor(executor, func):
+        return func()
+
+    with patch(
+        "interfaces.discord_bot.RAG_query",
+        return_value={"answer": "Quick answer.", "context": [], "question": "Q"},
+    ):
+        with patch.object(
+            asyncio.get_running_loop(),
+            "run_in_executor",
+            side_effect=fast_rag_executor,
+        ):
+            await on_message(message)
+
+    message.channel.trigger_typing.assert_not_called()
+    message.channel.send.assert_called_once_with("Quick answer.")
 
 
 # --- on_ready ---
