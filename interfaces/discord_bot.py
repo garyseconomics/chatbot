@@ -1,3 +1,4 @@
+import asyncio
 import logging
 import warnings
 
@@ -16,6 +17,8 @@ from config import settings  # noqa: E402
 from rag.rag_manager import RAG_query  # noqa: E402
 
 logger = logging.getLogger(__name__)
+
+THINKING_INTERVAL = 30  # seconds between thinking indicators
 
 
 class DiscordClient:
@@ -65,7 +68,32 @@ class DiscordClient:
                 clean_message = message.content.replace(bot_mention, "").strip()
                 logger.debug("Message received: %s", clean_message)
                 user_id = f"discord:{message.author.id}"
-                rag_answer = RAG_query(clean_message, user_id=user_id)["answer"]
+
+                # Run RAG in a thread executor to avoid blocking the event loop
+                # (blocking causes Discord heartbeat timeouts and reconnects)
+                loop = asyncio.get_running_loop()
+                rag_task = asyncio.ensure_future(
+                    loop.run_in_executor(
+                        None,
+                        lambda: RAG_query(clean_message, user_id=user_id)["answer"],
+                    )
+                )
+
+                # Send thinking indicator and keepalive signals while waiting for RAG.
+                # First timeout sends a visible message; subsequent ones use typing
+                # indicator to stay connected without cluttering the channel.
+                thinking = False
+                while not rag_task.done():
+                    done, _ = await asyncio.wait({rag_task}, timeout=THINKING_INTERVAL)
+                    if done:
+                        break
+                    if not thinking:
+                        await message.channel.send("\U0001f914 Thinking...")
+                        thinking = True
+                    else:
+                        await message.channel.trigger_typing()
+
+                rag_answer = rag_task.result()
                 logger.debug("RAG answer: %s", rag_answer)
                 await message.channel.send(rag_answer)
             except Exception:
