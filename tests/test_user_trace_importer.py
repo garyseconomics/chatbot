@@ -1,6 +1,7 @@
 """Tests for importing user traces from JSON into MySQL."""
 
 import json
+import os
 from unittest.mock import MagicMock, patch
 
 import mysql.connector
@@ -29,10 +30,14 @@ SAMPLE_TRACE = {
 
 # Should return the most recently modified user_traces file.
 def test_find_newest_file_returns_most_recent(tmp_path):
-    old_file = tmp_path / "user_traces_2026-03-16_120000.json"
-    new_file = tmp_path / "user_traces_2026-03-17_120000.json"
+    old_file = tmp_path / "user_traces_old.json"
+    new_file = tmp_path / "user_traces_new.json"
     old_file.write_text("[]")
     new_file.write_text("[]")
+    # Set explicit modification times so the test doesn't depend on filesystem
+    # timestamp resolution (both files created nearly simultaneously).
+    os.utime(old_file, (1000, 1000))
+    os.utime(new_file, (2000, 2000))
 
     result = find_newest_user_traces_file(tmp_path)
 
