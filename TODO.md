@@ -34,6 +34,7 @@ Pending tasks and things to investigate.
 ## Bug fixes
 
 - [ ] **Bot crashes when a user replies to a bot message in Discord** ([#23](https://github.com/garyseconomics/chatbot/issues/23)) -- When a user replies to one of the bot's messages mentioning the bot, the bot crashes with the generic error message. Need to check server logs to identify the root cause.
+- [ ] **Telegram bot crashes on long LLM answers** ([#33](https://github.com/garyseconomics/chatbot/issues/33)) -- When the LLM returns an answer exceeding Telegram's 4096 character limit, `send_message` raises `telegram.error.BadRequest: Message is too long` and the user gets no response. Fix: split long messages into chunks or truncate.
 
 ## New functionality
 
