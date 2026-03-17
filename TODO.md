@@ -67,6 +67,7 @@ Pending tasks and things to investigate.
   - [ ] **Bot still impersonates Gary** ([#25](https://github.com/garyseconomics/chatbot/issues/25)) -- The bot still sometimes speaks as if it is Gary Stevenson. The winning combination must clearly distinguish the bot's identity from Gary's.
   - [ ] **Bot is too diplomatic — doesn't reflect the channel's tone and views** ([#24](https://github.com/garyseconomics/chatbot/issues/24)) -- The bot gives overly neutral answers on topics where the channel takes a clear position (e.g., crypto). The winning combination must reflect the channel's perspective.
   - [ ] **Bot lacks temporal awareness** ([#26](https://github.com/garyseconomics/chatbot/issues/26)) -- The prompt must handle date-aware context correctly. This is the second part of the RAG temporal awareness task: first the vector database needs to be updated with video publish dates (see RAG improvements section), then the prompt must be tested to ensure the winning combination uses temporal metadata properly.
+  - [ ] **Bot answers off-topic questions** -- The bot happily answers questions unrelated to economics (e.g., how to fix a bicycle). Evaluate whether the prompt can gently redirect off-topic conversations back to economics without being too restrictive. A soft redirect ("I'm focused on economics, but...") is preferred over a hard block. Note: rate-limiting per user may be a better abuse-prevention mechanism than strict topic guardrails.
 
 ## To investigate
 
