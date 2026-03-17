@@ -21,6 +21,7 @@ Pending tasks and things to investigate.
   - [x] CI/CD workflow to build and push image to GHCR on every push.
   - [x] Restart policy (`unless-stopped`) so container recovers after server reset.
   - [x] Enable Discord bot in docker-compose (service exists but is commented out).
+  - [ ] Add MySQL service to docker-compose -- Add a `mysql` service with a persistent volume for data, and run `setup_database.py` automatically so the database is ready when the stack starts.
   - [ ] Auto-update running containers when a new image is pushed. Options: (1) Watchtower -- a container that monitors and auto-pulls new images, simplest for single-server; (2) Webhook-based deploy -- CI triggers a webhook on the server to run `docker compose pull && docker compose up -d`; (3) Cron job on the server that periodically pulls the latest image.
 - [ ] **Improve Langfuse integration** ([#17](https://github.com/garyseconomics/chatbot/issues/17)) -- Enhance observability setup and add embedding tracking to Langfuse.
   - [x] Reuse Langfuse client in `llm_chat()` instead of creating a new one per call.
