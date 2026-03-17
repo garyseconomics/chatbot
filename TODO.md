@@ -4,6 +4,11 @@ Pending tasks and things to investigate.
 
 ## Urgent
 
+- [x] **Export traces from Langfuse** -- Fetch all traces from Langfuse, classify them as user or other, and store them as JSON files in `analytics/raw_data/`. Run with `python -m analytics.export`.
+- [ ] **Store user traces in MySQL database** -- Import clean user trace JSON files (from `analytics/raw_data/`) into a MySQL database for analysis. Script checks for duplicates before inserting. MySQL was chosen as the storage backend for analytics data.
+  - [ ] Create the `user_traces` table in MySQL (trace_id, user_id, question, answer, timestamp, model, latency, prompt_version).
+  - [ ] Detect prompt version automatically -- Currently hardcoded to "2". The importer should identify which prompt version was used for each trace (prompt versions are in `llm/prompt_template.py`).
+  - [ ] Store prompt versions in a MySQL table -- Move prompt text from `llm/prompt_template.py` to a `prompt_versions` table so different versions can be managed and referenced from traces.
 - [ ] **Extract metrics from today's session** ([#27](https://github.com/garyseconomics/chatbot/issues/27)) -- Pull metrics from Phase 1 day 1 testing session (Langfuse traces, latency, error rates, usage patterns).
 - [ ] **Investigate why the bot has been resetting so many times** ([#28](https://github.com/garyseconomics/chatbot/issues/28)) -- Check server logs to identify the root cause of frequent bot restarts during Phase 1 testing.
 - [ ] **Redirect LLM requests from Ollama to another provider** ([#29](https://github.com/garyseconomics/chatbot/issues/29)) -- Implement an alternative LLM provider to replace or supplement the self-hosted Ollama setup.
