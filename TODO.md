@@ -4,15 +4,20 @@ Pending tasks and things to investigate.
 
 ## Urgent
 
-- [x] **Export traces from Langfuse** -- Fetch all traces from Langfuse, classify them as user or other, and store them as JSON files in `analytics/raw_data/`. Run with `python -m analytics.export`.
-- [ ] **Store user traces in MySQL database** -- Import clean user trace JSON files (from `analytics/raw_data/`) into a MySQL database for analysis. Script checks for duplicates before inserting. MySQL was chosen as the storage backend for analytics data.
-  - [ ] Create the `user_traces` table in MySQL (trace_id, user_id, question, answer, timestamp, model, latency, prompt_version).
-  - [ ] Detect prompt version automatically -- Currently hardcoded to "2". The importer should identify which prompt version was used for each trace (prompt versions are in `llm/prompt_template.py`).
-  - [ ] Store prompt versions in a MySQL table -- Move prompt text from `llm/prompt_template.py` to a `prompt_versions` table so different versions can be managed and referenced from traces.
-- [ ] **Extract metrics from today's session** ([#27](https://github.com/garyseconomics/chatbot/issues/27)) -- Pull metrics from Phase 1 day 1 testing session (Langfuse traces, latency, error rates, usage patterns).
+- [ ] **Visualize user traces** ([#32](https://github.com/garyseconomics/chatbot/issues/32)) -- Configure Langfuse dashboard to show: (1) Q&A view — questions, answers, user name, timestamp; (2) Performance view — latency metrics, most active users. CLI viewer available as `python -m analytics.trace_viewer`. Fallback: build a Streamlit dashboard if Langfuse doesn't fit our needs.
+- [ ] **Visualize metrics from Phase 1 day 1 session** ([#27](https://github.com/garyseconomics/chatbot/issues/27)) -- Pull metrics from Phase 1 day 1 testing session (Langfuse traces, latency, error rates, usage patterns).
 - [ ] **Investigate why the bot has been resetting so many times** ([#28](https://github.com/garyseconomics/chatbot/issues/28)) -- Check server logs to identify the root cause of frequent bot restarts during Phase 1 testing.
 - [ ] **Redirect LLM requests from Ollama to another provider** ([#29](https://github.com/garyseconomics/chatbot/issues/29)) -- Implement an alternative LLM provider to replace or supplement the self-hosted Ollama setup.
 - [ ] **Evaluate latency and stability with the new provider** ([#30](https://github.com/garyseconomics/chatbot/issues/30)) -- Measure latency and check if the bot crashes less after switching providers.
+- [ ] **Finish Dockerize the application** ([#5](https://github.com/garyseconomics/chatbot/issues/5)) -- Remaining tasks: add MySQL service to docker-compose and auto-update containers. See Deployment & Operations section for details.
+
+
+## Analytics
+
+- [x] **Export traces from Langfuse** -- Fetch all traces from Langfuse, classify them as user or other, and store them as JSON files in `analytics/raw_data/`. Run with `python -m analytics.export`.
+- [x] **Store user traces in MySQL database** -- Import clean user trace JSON files (from `analytics/raw_data/`) into a MySQL database for analysis. Script checks for duplicates before inserting. Run with `python -m analytics.setup_database` then `python -m analytics.user_trace_importer`.
+  - [x] Create the `user_traces` table in MySQL (trace_id, user_id, question, answer, timestamp, model, latency, prompt_version).
+
 
 ## Deployment & Operations
 
@@ -23,14 +28,6 @@ Pending tasks and things to investigate.
   - [x] Enable Discord bot in docker-compose (service exists but is commented out).
   - [ ] Add MySQL service to docker-compose ([#31](https://github.com/garyseconomics/chatbot/issues/31)) -- Add a `mysql` service with a persistent volume for data, and run `setup_database.py` automatically so the database is ready when the stack starts.
   - [ ] Auto-update running containers when a new image is pushed. Options: (1) Watchtower -- a container that monitors and auto-pulls new images, simplest for single-server; (2) Webhook-based deploy -- CI triggers a webhook on the server to run `docker compose pull && docker compose up -d`; (3) Cron job on the server that periodically pulls the latest image.
-- [ ] **Improve Langfuse integration** ([#17](https://github.com/garyseconomics/chatbot/issues/17)) -- Enhance observability setup and add embedding tracking to Langfuse.
-  - [x] Reuse Langfuse client in `llm_chat()` instead of creating a new one per call.
-  - [x] Fix model name in trace metadata -- was always empty because `model_name` param wasn't passed by callers. Now reads `llm.model` which has the resolved name.
-  - [x] Track retrieval step in Langfuse -- added `@observe` to `retrieve()` in `rag_manager.py` so vector search timing and results are visible.
-  - [x] Raise error when Langfuse credentials are missing instead of silently failing.
-  - [x] Replace `print()` with `logger.info()` in `get_llm_client()`.
-  - [x] Propagate `user_id` from bot interfaces through the RAG pipeline to Langfuse traces.
-  - [ ] Verify on the Langfuse platform that traces show correct user IDs, model names, and retrieval steps.
 - [ ] **Service watcher** ([#21](https://github.com/garyseconomics/chatbot/issues/21)) -- Monitor the bot service availability. Options: (1) HTTP `/health` endpoint polled by Uptime Kuma, or (2) a second bot that pings the main bot through the chat. Observer must run on a different host.
 - [ ] **Remove RequestsDependencyWarning filters** -- `requests 2.32.5` doesn't recognize `chardet 7.0.1` as compatible, causing a harmless `RequestsDependencyWarning`. We added filters in `discord_bot.py` and `pyproject.toml` to suppress it. Once `requests` releases a new version with updated version bounds, remove the filters from both files.
 
@@ -48,10 +45,13 @@ Pending tasks and things to investigate.
 
 ## Prompt improvements
 
-- [x] **Hide RAG internals from the user** ([#22](https://github.com/garyseconomics/chatbot/issues/22)) -- The bot sometimes says things like "the provided content does not include..." or "based on the provided material...", which exposes the RAG mechanism. The prompt should instruct the LLM to never reference "the provided content/material/context" and instead answer naturally, as if the knowledge comes from its own understanding. Example of bad behavior: "The provided content does not include explanations of specific economic concepts."
-- [ ] **Bot still impersonates Gary** ([#25](https://github.com/garyseconomics/chatbot/issues/25)) -- The bot still sometimes speaks as if it is Gary Stevenson, despite the identity rule added to both prompt v1 and v2. The prompt update improved it partially, but the bot still doesn't clearly explain that it is not Gary. Needs further prompt work and testing across different models.
-- [ ] **Bot is too diplomatic — doesn't reflect the channel's tone and views** ([#24](https://github.com/garyseconomics/chatbot/issues/24)) -- The bot gives overly neutral answers on topics where the channel takes a clear position (e.g., crypto). Need to investigate whether the issue is in retrieval (wrong chunks) or generation (LLM softening the tone), then adjust the prompt accordingly.
-- [ ] **Test prompt v1 against prompt v2** -- Compare the current prompt (v1) against the new prompt (v2) to evaluate which produces better answers. Use Langfuse to run both prompts against the same set of test questions and compare the results. The test questions from `tests/test_ask_questions.py` can be used as a starting dataset.
+- [ ] **Evaluate prompt + LLM combinations** -- Test different prompt versions against different LLMs to find the best combination that meets all our requirements. Use Langfuse to run each combination against a set of test questions and compare results. The test questions from `tests/test_ask_questions.py` can be used as a starting dataset.
+  - [ ] Store prompt versions in a MySQL table -- Move prompt text from `llm/prompt_template.py` to a `prompt_versions` table so different versions can be managed and referenced from traces.
+  - [ ] Detect prompt version automatically in the importer -- Currently hardcoded to "2". The importer (`user_trace_importer.py`) should identify which prompt version was used for each trace.
+  - [ ] **Hide RAG internals from the user** ([#22](https://github.com/garyseconomics/chatbot/issues/22)) -- The bot sometimes says things like "the provided content does not include..." or "based on the provided material...". The prompt must instruct the LLM to never reference "the provided content/material/context" and instead answer naturally. This is a requirement that the winning prompt+LLM combination must satisfy.
+  - [ ] **Bot still impersonates Gary** ([#25](https://github.com/garyseconomics/chatbot/issues/25)) -- The bot still sometimes speaks as if it is Gary Stevenson. The winning combination must clearly distinguish the bot's identity from Gary's.
+  - [ ] **Bot is too diplomatic — doesn't reflect the channel's tone and views** ([#24](https://github.com/garyseconomics/chatbot/issues/24)) -- The bot gives overly neutral answers on topics where the channel takes a clear position (e.g., crypto). The winning combination must reflect the channel's perspective.
+  - [ ] **Bot lacks temporal awareness** ([#26](https://github.com/garyseconomics/chatbot/issues/26)) -- The prompt must handle date-aware context correctly. This is the second part of the RAG temporal awareness task: first the vector database needs to be updated with video publish dates (see RAG improvements section), then the prompt must be tested to ensure the winning combination uses temporal metadata properly.
 
 ## To investigate
 
@@ -65,6 +65,17 @@ Pending tasks and things to investigate.
   tracking prompt experiments and RAG pipeline performance.
 
 ## Done Tasks
+
+### Deployment & Operations
+
+- [x] **Improve Langfuse integration** ([#17](https://github.com/garyseconomics/chatbot/issues/17)) -- Enhanced observability setup. Dashboard visualization tracked in [#32](https://github.com/garyseconomics/chatbot/issues/32).
+  - [x] Reuse Langfuse client in `llm_chat()` instead of creating a new one per call.
+  - [x] Fix model name in trace metadata -- was always empty because `model_name` param wasn't passed by callers. Now reads `llm.model` which has the resolved name.
+  - [x] Track retrieval step in Langfuse -- added `@observe` to `retrieve()` in `rag_manager.py` so vector search timing and results are visible.
+  - [x] Raise error when Langfuse credentials are missing instead of silently failing.
+  - [x] Replace `print()` with `logger.info()` in `get_llm_client()`.
+  - [x] Propagate `user_id` from bot interfaces through the RAG pipeline to Langfuse traces.
+  - [x] Verify on the Langfuse platform that traces show correct user IDs, model names, and retrieval steps.
 
 ### New functionality
 
