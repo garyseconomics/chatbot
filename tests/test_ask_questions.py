@@ -9,6 +9,12 @@ questions_list = [
     "Tell me about the channel",
     "What is Gary's opinion about the Labour party?",
     "Hi Gary!",
+    # Temporal awareness test case (issue #26) — answer depends on current
+    # chancellor and economic context, requires date-aware retrieval.
+    "Assume a UK chancellor was completely aligned with your analysis and"
+    " theory about the economy, how do you think big influential structures"
+    " like the Bank of England or the bond markets would react to the"
+    " chancellor announcing aggressive wealth taxation policies in the UK?",
 ]
 
 
