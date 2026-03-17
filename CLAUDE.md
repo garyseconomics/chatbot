@@ -122,6 +122,9 @@ All settings live in `config.py` as a `pydantic-settings` `BaseSettings` class w
 - Prefer product-oriented tests: test the behavior as a user would experience it.
 - Mock external services (LLM API, Ollama, etc.) at the boundary.
 - Test naming: `test_<what_it_does>` (e.g., `test_search_returns_relevant_documents`).
+- **Tests must be deterministic.** Never rely on filesystem timestamps, real dates/times,
+  or execution order for correctness. Use explicit values (e.g., `os.utime` for mtime)
+  and `tmp_path` with controlled test data. Tests must pass on any machine at any time.
 
 ### Privacy and publishing
 - This project is **open source** and published on GitHub.
