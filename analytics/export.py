@@ -62,14 +62,16 @@ def classify_traces(raw_traces: list) -> tuple[list[dict], list[dict]]:
         if question is not None:
             user_traces.append(_extract_user_trace(trace))
         else:
-            other_traces.append({
-                "trace_id": trace.id,
-                "user_id": trace.user_id,
-                "raw_input": trace.input,
-                "raw_output": trace.output,
-                "timestamp": trace.timestamp,
-                "latency": trace.latency,
-            })
+            other_traces.append(
+                {
+                    "trace_id": trace.id,
+                    "user_id": trace.user_id,
+                    "raw_input": trace.input,
+                    "raw_output": trace.output,
+                    "timestamp": trace.timestamp,
+                    "latency": trace.latency,
+                }
+            )
 
     logger.info(
         "Classified %d traces: %d user, %d other",
