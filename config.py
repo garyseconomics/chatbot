@@ -28,9 +28,9 @@ class Settings(BaseSettings):
     # Provider priority — try providers in this order, use the first available one.
     # Each name must match a key in the providers property below.
     chat_provider_priority: list[str] = [
+        "ollama_cloud",
         "ollama_self_hosted",
         "ollama_local",
-        "ollama_cloud",
     ]
 
     embedding_provider_priority: list[str] = [
