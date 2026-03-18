@@ -7,7 +7,6 @@ from langchain_core.language_models import BaseChatModel, LanguageModelInput
 # Base return type from .invoke() — covers AIMessage, HumanMessage, etc.
 from langchain_core.messages import BaseMessage
 from langchain_ollama import ChatOllama
-from langchain_openai import ChatOpenAI
 from langfuse import Langfuse, observe
 
 from config import settings
