@@ -116,6 +116,8 @@ All settings live in `config.py` as a `pydantic-settings` `BaseSettings` class w
 - Use `ruff` for linting and formatting.
 - Keep functions small and focused.
 - Docstrings only where the purpose isn't obvious from the name and signature.
+- **Never remove existing comments** without asking first. Comments are there to help
+  the developer understand the code — don't silently delete them.
 
 ### Testing
 - Use `pytest`.
