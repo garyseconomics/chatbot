@@ -10,19 +10,54 @@ load_dotenv()
 
 class Settings(BaseSettings):
     # Pydantic-settings automatically reads env vars matching each field name.
-    # For example, ollama_host_remote reads from OLLAMA_HOST_REMOTE in .env.
+    # For example, ollama_self_hosted reads from OLLAMA_SELF_HOSTED in .env.
     # The values after "=" are defaults used when the env var is not set.
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 
-    # Ollama hosts — read from OLLAMA_HOST_LOCAL and OLLAMA_HOST_REMOTE in .env
-    ollama_host_local: str = "http://localhost:11434"
-    ollama_host_remote: str = ""
+    # Ollama hosts — read the urls from env vars in .env
+    ollama_local_host_url: str = "http://localhost:11434"
+    ollama_self_hosted_url: str = ""
+    ollama_cloud_url: str = ""
+
+    # Ollama Cloud API key — read from .env
+    ollama_cloud_api_key: str = ""
 
     # LLM settings
-    remote_llm: str = "qwen3:32b"
-    local_llm: str = "qwen3:4b"
     embedding_model: str = "qwen3-embedding:8b"
-    provider: str = "ollama"
+
+    # Provider priority — try providers in this order, use the first available one.
+    # Each name must match a key in the providers property below.
+    chat_provider_priority: list[str] = [
+        "ollama_self_hosted",
+        "ollama_local",
+        "ollama_cloud",
+    ]
+
+    embedding_provider_priority: list[str] = [
+        "ollama_self_hosted",
+        "ollama_local",
+    ]
+
+
+    @property
+    def providers(self) -> dict:
+        return {
+            "ollama_local": {
+                "url": self.ollama_local_host_url,
+                "api_key": None,
+                "chat_model": "qwen3:4b",
+            },
+            "ollama_self_hosted": {
+                "url": self.ollama_self_hosted_url,
+                "api_key": None,
+                "chat_model": "qwen3:32b",
+            },
+            "ollama_cloud": {
+                "url": self.ollama_cloud_url,
+                "api_key": self.ollama_cloud_api_key,
+                "chat_model": "qwen3-next:80b",
+            },
+        }
 
     # Vector database
     database_path: str = "./vector_database/chroma_langchain_db"
