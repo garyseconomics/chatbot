@@ -1,15 +1,17 @@
 import logging
 
-# LangChain type alias: covers strings, message lists, and PromptValue
-from langchain_core.language_models import LanguageModelInput
+# BaseChatModel: common base for ChatOllama, ChatOpenAI, etc.
+# LanguageModelInput: covers strings, message lists, and PromptValue
+from langchain_core.language_models import BaseChatModel, LanguageModelInput
 
 # Base return type from .invoke() — covers AIMessage, HumanMessage, etc.
 from langchain_core.messages import BaseMessage
 from langchain_ollama import ChatOllama
+from langchain_openai import ChatOpenAI
 from langfuse import Langfuse, observe
 
 from config import settings
-from llm.ollama_helpers import get_available_ollama_host
+from llm.llm_providers_helpers import select_llm_provider
 
 logger = logging.getLogger(__name__)
 
@@ -17,10 +19,12 @@ logger = logging.getLogger(__name__)
 # Lazy singleton: created on first use, reused across all calls.
 _langfuse_client: Langfuse | None = None
 
+# Tracks the provider selected by get_llm_client(), used in Langfuse metadata.
+_provider_name: str = ""
+
 
 def get_langfuse_client() -> Langfuse:
     """Return the shared Langfuse client, creating it on first use.
-
     Raises ValueError if credentials are not configured.
     """
     global _langfuse_client
@@ -34,37 +38,35 @@ def get_langfuse_client() -> Langfuse:
     return _langfuse_client
 
 
-def get_default_model(host: str) -> str:
-    """Return the default model for the given host: local or remote."""
-    if host == settings.ollama_host_local:
-        return settings.local_llm
-    return settings.remote_llm
+def get_llm_client() -> BaseChatModel:
+    """Return an LLM client from the first available provider in the priority list.
 
+    Iterates through chat_provider_priority, skipping providers that are not reachable.
+    Raises ConnectionError if none are available.
+    """
+    
+    global _provider_name
+    _provider_name = select_llm_provider(settings.chat_provider_priority)
+    provider = settings.providers[_provider_name]
+    logger.info("Using LLM chat model %s on %s (%s)", provider["chat_model"], _provider_name, provider["url"])
 
-def get_llm_client(model_name: str = "") -> ChatOllama:
-    host = get_available_ollama_host()
-    if not model_name:
-        model_name = get_default_model(host)
-    logger.info("Using LLM %s at %s", model_name, host)
-    return ChatOllama(model=model_name, base_url=host)
+    kwargs: dict = {"model": provider["chat_model"], "base_url": provider["url"]}
+    # Pass auth headers for cloud providers (e.g., Ollama Cloud)
+    if provider["api_key"]:
+        kwargs["client_kwargs"] = {
+            "headers": {"Authorization": f"Bearer {provider['api_key']}"}
+        }
+    return ChatOllama(**kwargs)
 
 
 @observe(name="ollama_request", as_type="generation", capture_input=True, capture_output=True)
-def llm_chat(
-    prompt: LanguageModelInput,
-    llm: ChatOllama | None = None,
-    model_name: str = "",
-    user_id: str = "not defined",
-) -> BaseMessage:
-    if not llm:
-        llm = get_llm_client(model_name=model_name)
+def llm_chat(prompt, llm = None, user_id = "tests") -> BaseMessage:
+    if not llm : llm = get_llm_client() 
     client = get_langfuse_client()
     client.update_current_trace(
         name=settings.app_name,
         user_id=user_id,
-        # Use llm.model instead of model_name param — it always has the
-        # resolved model name, even when the caller doesn't pass one.
-        metadata={"model": llm.model, "provider": settings.provider},
+        metadata={"model": llm.model, "provider": _provider_name},
     )
     response = llm.invoke(prompt)
     client.flush()
