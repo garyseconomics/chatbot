@@ -35,6 +35,24 @@ def strip_bot_mention(content, bot_id) -> str:
     return content.replace(f"<@{bot_id}>", "").strip()
 
 
+async def wait_with_thinking(channel, task, interval):
+    """Wait for a task to complete, sending thinking indicators periodically.
+
+    First timeout sends a visible "Thinking..." message. Subsequent timeouts
+    use trigger_typing to stay connected without cluttering the channel.
+    """
+    thinking = False
+    while not task.done():
+        done, _ = await asyncio.wait({task}, timeout=interval)
+        if done:
+            break
+        if not thinking:
+            await channel.send("\U0001f914 Thinking...")
+            thinking = True
+        else:
+            await channel.trigger_typing()
+
+
 class DiscordClient:
     def __init__(self):
         # Token to connect to discord server
@@ -88,20 +106,7 @@ class DiscordClient:
                     )
                 )
 
-                # Send thinking indicator and keepalive signals while waiting for RAG.
-                # First timeout sends a visible message; subsequent ones use typing
-                # indicator to stay connected without cluttering the channel.
-                thinking = False
-                while not rag_task.done():
-                    done, _ = await asyncio.wait({rag_task}, timeout=THINKING_INTERVAL)
-                    if done:
-                        break
-                    if not thinking:
-                        await message.channel.send("\U0001f914 Thinking...")
-                        thinking = True
-                    else:
-                        await message.channel.trigger_typing()
-
+                await wait_with_thinking(message.channel, rag_task, THINKING_INTERVAL)
                 rag_answer = rag_task.result()
                 logger.debug("RAG answer: %s", rag_answer)
                 await message.channel.send(rag_answer)
