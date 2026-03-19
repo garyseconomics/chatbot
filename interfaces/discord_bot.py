@@ -53,6 +53,15 @@ async def wait_with_thinking(channel, task, interval):
             await channel.trigger_typing()
 
 
+async def send_greeting(text_channels):
+    """Find the configured channel and send the greeting message."""
+    channel = discord.utils.get(text_channels, name=settings.discord_channel_for_bot_greeting)
+    if channel is None:
+        logger.error("Channel '%s' not found", settings.discord_channel_for_bot_greeting)
+        return
+    await channel.send(settings.bot_greeting)
+
+
 class DiscordClient:
     def __init__(self):
         # Token to connect to discord server
@@ -73,11 +82,7 @@ class DiscordClient:
         async def on_ready():
             try:
                 logger.info("Bot connected as %s - %s", self.bot.user.name, self.bot.user.id)
-                channel = discord.utils.get(
-                    self.bot.guilds[0].text_channels, name=settings.discord_channel
-                )
-                logger.info("Connected to channel %s", channel)
-                await channel.send(settings.bot_greeting)
+                await send_greeting(self.bot.guilds[0].text_channels)
             except Exception:
                 logger.exception("Failed during on_ready")
 

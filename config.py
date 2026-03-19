@@ -73,10 +73,10 @@ class Settings(BaseSettings):
     app_name: str = "GarysEconomics_bot"
     log_level: str = "DEBUG"
     bot_greeting: str = (
-        "Hello. This is Garys Economics Youtube chatbot. "
-        "You can ask me questions and I'll answer them using the content of our videos."
+        "I'm back online! We're still in the testing phase, "
+        "so I may restart from time to time. Feel free to keep asking questions."
     )
-    discord_channel: str = "github"
+    discord_channel_for_bot_greeting: str = "github"
 
     # Bot tokens — read from TELEGRAM_TOKEN and DISCORD_TOKEN in .env
     telegram_token: str = ""

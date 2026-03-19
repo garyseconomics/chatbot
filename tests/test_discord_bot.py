@@ -3,7 +3,8 @@ from unittest.mock import AsyncMock
 
 import pytest
 
-from interfaces.discord_bot import should_respond, strip_bot_mention, wait_with_thinking
+from config import settings
+from interfaces.discord_bot import send_greeting, should_respond, strip_bot_mention, wait_with_thinking
 
 
 # --- should_respond ---
@@ -123,3 +124,31 @@ async def test_typing_indicator_after_first_thinking_message():
     # Only one "Thinking..." message was sent (not repeated)
     channel.send.assert_called_once_with("🤔 Thinking...")
     channel.trigger_typing.assert_called()
+
+
+# --- send_greeting ---
+
+
+@pytest.mark.asyncio
+async def test_send_greeting_sends_to_matching_channel():
+    settings.discord_channel_for_bot_greeting = "test-channel"
+    settings.bot_greeting = "Hello testers!"
+
+    channel = AsyncMock()
+    channel.name = "test-channel"
+
+    await send_greeting([channel])
+
+    channel.send.assert_called_once_with("Hello testers!")
+
+
+@pytest.mark.asyncio
+async def test_send_greeting_does_nothing_when_channel_not_found():
+    settings.discord_channel_for_bot_greeting = "test-channel"
+
+    channel = AsyncMock()
+    channel.name = "other-channel"
+
+    await send_greeting([channel])
+
+    channel.send.assert_not_called()

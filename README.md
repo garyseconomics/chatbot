@@ -129,7 +129,7 @@ Available settings:
 **App**
 - **log_level**: Logging verbosity level (e.g., DEBUG, INFO, WARNING, ERROR). Defaults to DEBUG.
 - **bot_greeting**: The message that the bot will use to say hello when starting a conversation.
-- **discord_channel**: Name of the channel in discord where the bot is configured to interact with the users.
+- **discord_channel_for_bot_greeting**: Name of the Discord channel where the bot sends its greeting message on startup.
 
 
 ## Using this application
