@@ -64,6 +64,31 @@ Pending tasks and things to investigate.
 - [ ] **MLflow** -- Platform for tracking ML experiments, models, and metrics. Explore for
   tracking prompt experiments and RAG pipeline performance.
 
+## Review and simplify tests
+
+Tests created since commit `82ebb0f` that use mocks and patterns not yet fully understood.
+Go through each one, simplify where possible, and make sure every test is understood.
+Files are ordered from most complex (most mocks) to simplest.
+
+- [ ] **test_discord_bot.py** — 11 tests, ~23 mocks. Most complex file: event handler interception, AsyncMock, patch.object on asyncio, timing-based tests.
+- [ ] **test_fetch_langfuse_traces.py** — 7 tests, ~23 mocks. SimpleNamespace factories, @patch decorators. Tests Langfuse trace extraction and classification.
+- [ ] **test_rag_manager.py** — 8 tests, ~22 mocks. Stacked @patch decorators, side_effect for error simulation. Tests RAG query happy path and error handling.
+- [ ] **test_user_trace_importer.py** — 9 tests, ~19 mocks. @patch, tmp_path, os.utime. Tests file finding, JSON parsing, MySQL import.
+- [ ] **test_chatbot.py** — 4 tests, ~12 mocks. @patch on input/print/RAG_query. Tests CLI chatbot behavior.
+- [ ] **test_telegram_bot.py** — 6 tests, ~7 mocks. AsyncMock, @patch. Tests Telegram bot message handling.
+- [ ] **test_setup_database.py** — 2 tests, ~7 mocks. @patch on MySQL connector. Tests database table creation.
+- [ ] **test_trace_viewer.py** — 5 tests, ~7 mocks. @patch on MySQL connector. Tests CLI trace viewer.
+
+Files with no or minimal mocks (likely fine as-is):
+
+- [ ] **test_vector_database.py** — 1 autouse fixture for test isolation. Review if fixture is clear.
+- [ ] **test_srt_splitter.py** — 1 fixture. Straightforward, likely fine.
+- [ ] **test_config.py** — No mocks. Direct assertions. Likely fine.
+- [ ] **test_langfuse.py** — No mocks, integration tests. Likely fine.
+- [ ] **test_llm_manager.py** — No mocks, integration tests. Likely fine.
+- [ ] **test_video_links.py** — No mocks. Likely fine.
+- [ ] **test_llm_providers_helpers.py** — No mocks. Likely fine.
+
 ## Done Tasks
 
 ### Deployment & Operations

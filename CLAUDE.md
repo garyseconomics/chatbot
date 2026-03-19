@@ -81,6 +81,9 @@ All settings live in `config.py` as a `pydantic-settings` `BaseSettings` class w
 ## Project philosophy
 
 - **Learn by building.** Every piece of code should be understood by the developer.
+- **The developer must understand every test.** If the developer can't confidently explain
+  what a test does and why it's correct, the test is too complex. Simplify it or discuss
+  the pattern first.
 - **Small iterations.** Deliver working value at each step. Each iteration should produce
   something you can run and test.
 - **Tests for everything.** Product-oriented tests preferred (test behavior, not implementation).
@@ -97,10 +100,17 @@ All settings live in `config.py` as a `pydantic-settings` `BaseSettings` class w
 
 ### For Claude (AI assistant)
 - **Check `learning.md`** at the start of each session. It tracks concepts the developer
-  is learning. When these topics come up in code, explain them proactively.
-  When the developer asks about a concept, add it to `learning.md`.
+  is learning and concepts not yet learned. When these topics come up in code, explain
+  them proactively. When the developer asks about a concept, add it to `learning.md`.
+  **Before using any concept listed as "not yet learned" in `learning.md`, stop and
+  discuss it with the developer first.** Only use it in code after the developer confirms
+  they understand it.
 - **Check `TODO.md`** at the start of each session. It tracks pending tasks and things
   to investigate.
+- **No new patterns without discussion.** Before introducing a concept or pattern the
+  developer hasn't used before (e.g., mocks, decorators, async patterns, fixtures),
+  stop and explain it. Add it to `learning.md`. Only use it in code after the developer
+  confirms they understand it.
 - **Ask, don't assume.** When there are meaningful choices to make, present options
   and discuss — don't decide silently.
 - **Small steps.** Propose one thing at a time. Wait for feedback before moving on.
@@ -122,7 +132,15 @@ All settings live in `config.py` as a `pydantic-settings` `BaseSettings` class w
 ### Testing
 - Use `pytest`.
 - Prefer product-oriented tests: test the behavior as a user would experience it.
-- Mock external services (LLM API, Ollama, etc.) at the boundary.
+- **Keep tests simple.** Tests should be readable by the developer without needing to
+  look up how the testing tools work. If a test requires more than one or two mocks,
+  discuss the approach with the developer first.
+- **Prefer real code over mocks.** Only mock when the real dependency is truly impractical
+  to use in tests (network calls, paid APIs, external services). If the code can be
+  tested without mocking, do that.
+- **When mocks are needed, discuss first.** Before adding mocks to a test, explain:
+  (1) what will be mocked and why, (2) how the mock works. Add the concept to
+  `learning.md` if it's new to the developer.
 - Test naming: `test_<what_it_does>` (e.g., `test_search_returns_relevant_documents`).
 - **Tests must be deterministic.** Never rely on filesystem timestamps, real dates/times,
   or execution order for correctness. Use explicit values (e.g., `os.utime` for mtime)
