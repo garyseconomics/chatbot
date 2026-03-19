@@ -2,23 +2,16 @@
 
 Pending tasks and things to investigate.
 
-## Urgent
+## Bug fixes - Priority 1 (most urgent)
+
+- [ ] **Bot crashes when a user replies to a bot message in Discord** ([#23](https://github.com/garyseconomics/chatbot/issues/23)) -- When a user replies to one of the bot's messages mentioning the bot, the bot crashes with the generic error message. Need to check server logs to identify the root cause. Before fixing, clean up `test_discord_bot.py` (see "Review and simplify tests" section) so the tests are understood and simplified.
+- [ ] **Bots crash on long LLM answers** ([#33](https://github.com/garyseconomics/chatbot/issues/33)) -- Telegram bot crashes when the LLM returns an answer exceeding Telegram's 4096 character limit. No error handler registered, so the user never receives a response. Fix: split long messages into chunks ≤4096 chars or truncate with an indication. Before fixing, clean up `test_telegram_bot.py` (see "Review and simplify tests" section) so the tests are understood and simplified.
+
+## Priority 2 (urgent)
 
 - [ ] **Visualize user traces** ([#32](https://github.com/garyseconomics/chatbot/issues/32)) -- Configure Langfuse dashboard to show: (1) Q&A view — questions, answers, user name, timestamp; (2) Performance view — latency metrics, most active users. CLI viewer available as `python -m analytics.trace_viewer`. Fallback: build a Streamlit dashboard if Langfuse doesn't fit our needs.
-- [x] **Visualize metrics from Phase 1 day 1 session** ([#27](https://github.com/garyseconomics/chatbot/issues/27)) -- Pull metrics from Phase 1 day 1 testing session (Langfuse traces, latency, error rates, usage patterns).
-- [x] **Investigate why the bot has been resetting so many times** ([#28](https://github.com/garyseconomics/chatbot/issues/28)) -- Check server logs to identify the root cause of frequent bot restarts during Phase 1 testing.
-- [ ] **Redirect LLM requests from Ollama to another provider** ([#29](https://github.com/garyseconomics/chatbot/issues/29)) -- Add Ollama Cloud as the preferred LLM provider, with self-hosted Ollama as fallback. Embeddings stay on self-hosted Ollama. Future step: add other OpenAI-compatible providers (e.g., OpenRouter).
-  - [x] **Step 1: Add Ollama Cloud with multi-provider priority** -- Added Ollama Cloud as a provider with config settings `ollama_cloud_url`, `ollama_cloud_api_key`, and chat model `qwen3-next:80b` (defined in the `providers` property). Replaced the remote/local fallback with a configurable `chat_provider_priority` list that tries providers in order. Embeddings use a separate `embedding_provider_priority`. Updated `.env.sample`, `ollama_helpers.py`, and tests.
-  - [ ] **Step 2 (future): Add other OpenAI-compatible providers** -- Generalize the provider abstraction to support providers like [OpenRouter](https://openrouter.ai/models/?q=free). Combine with the prompt+LLM evaluation task (see Prompt improvements section) to test different model/prompt combinations.
 - [ ] **Evaluate latency and stability with the new provider** ([#30](https://github.com/garyseconomics/chatbot/issues/30)) -- Measure latency and check if the bot crashes less after switching providers.
 - [ ] **Finish Dockerize the application** ([#5](https://github.com/garyseconomics/chatbot/issues/5)) -- Remaining tasks: add MySQL service to docker-compose and auto-update containers. See Deployment & Operations section for details.
-
-
-## Analytics
-
-- [x] **Export traces from Langfuse** -- Fetch all traces from Langfuse, classify them as user or other, and store them as JSON files in `analytics/raw_data/`. Run with `python -m analytics.export`.
-- [x] **Store user traces in MySQL database** -- Import clean user trace JSON files (from `analytics/raw_data/`) into a MySQL database for analysis. Script checks for duplicates before inserting. Run with `python -m analytics.setup_database` then `python -m analytics.user_trace_importer`.
-  - [x] Create the `user_traces` table in MySQL (trace_id, user_id, question, answer, timestamp, model, latency, prompt_version).
 
 
 ## Deployment & Operations
@@ -34,13 +27,9 @@ Pending tasks and things to investigate.
 - [ ] **Run tests inside Docker image in CI** ([#34](https://github.com/garyseconomics/chatbot/issues/34)) -- Add a CI step that runs `pytest` inside the built Docker image before pushing to GHCR. During Phase 1 day 2, a Langfuse v3→v4 breaking change was only caught in production because tests only ran locally.
 - [ ] **Remove RequestsDependencyWarning filters** -- `requests 2.32.5` doesn't recognize `chardet 7.0.1` as compatible, causing a harmless `RequestsDependencyWarning`. We added filters in `discord_bot.py` and `pyproject.toml` to suppress it. Once `requests` releases a new version with updated version bounds, remove the filters from both files.
 
-## Bug fixes
-
-- [ ] **Bot crashes when a user replies to a bot message in Discord** ([#23](https://github.com/garyseconomics/chatbot/issues/23)) -- When a user replies to one of the bot's messages mentioning the bot, the bot crashes with the generic error message. Need to check server logs to identify the root cause.
-- [ ] **Bots crash on long LLM answers** ([#33](https://github.com/garyseconomics/chatbot/issues/33)) -- Telegram bot crashes when the LLM returns an answer exceeding Telegram's 4096 character limit. No error handler registered, so the user never receives a response. Fix: split long messages into chunks ≤4096 chars or truncate with an indication.
-
 ## New functionality
 
+- [ ] **Add other OpenAI-compatible providers** ([#29](https://github.com/garyseconomics/chatbot/issues/29)) -- Generalize the provider abstraction to support providers like [OpenRouter](https://openrouter.ai/models/?q=free). Combine with the prompt+LLM evaluation task (see Prompt improvements section) to test different model/prompt combinations.
 - [ ] **Multi-turn conversations** ([#6](https://github.com/garyseconomics/chatbot/issues/6)) -- Enable conversations with multiple interactions by implementing chat memory and a conversation loop, so the LLM receives the history of the conversation on each call.
 
 ## RAG improvements
@@ -90,6 +79,18 @@ Files with no or minimal mocks (likely fine as-is):
 - [ ] **test_llm_providers_helpers.py** — No mocks. Likely fine.
 
 ## Done Tasks
+
+### Analytics
+
+- [x] **Export traces from Langfuse** -- Fetch all traces from Langfuse, classify them as user or other, and store them as JSON files in `analytics/raw_data/`. Run with `python -m analytics.export`.
+- [x] **Store user traces in MySQL database** -- Import clean user trace JSON files (from `analytics/raw_data/`) into a MySQL database for analysis. Script checks for duplicates before inserting. Run with `python -m analytics.setup_database` then `python -m analytics.user_trace_importer`.
+  - [x] Create the `user_traces` table in MySQL (trace_id, user_id, question, answer, timestamp, model, latency, prompt_version).
+- [x] **Visualize metrics from Phase 1 day 1 session** ([#27](https://github.com/garyseconomics/chatbot/issues/27)) -- Pull metrics from Phase 1 day 1 testing session (Langfuse traces, latency, error rates, usage patterns).
+
+### Operations
+
+- [x] **Investigate why the bot has been resetting so many times** ([#28](https://github.com/garyseconomics/chatbot/issues/28)) -- Check server logs to identify the root cause of frequent bot restarts during Phase 1 testing.
+- [x] **Redirect LLM requests from Ollama to another provider** ([#29](https://github.com/garyseconomics/chatbot/issues/29)) -- Added Ollama Cloud as a provider with config settings `ollama_cloud_url`, `ollama_cloud_api_key`, and chat model `qwen3-next:80b`. Replaced the remote/local fallback with a configurable `chat_provider_priority` list that tries providers in order. Embeddings use a separate `embedding_provider_priority`.
 
 ### Deployment & Operations
 
