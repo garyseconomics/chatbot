@@ -4,7 +4,6 @@ from unittest.mock import MagicMock, patch
 
 from analytics.trace_viewer import fetch_user_traces, format_trace
 
-
 SAMPLE_ROW = (
     "abc123",
     "telegram:456",

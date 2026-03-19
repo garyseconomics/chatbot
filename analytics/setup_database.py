@@ -22,7 +22,6 @@ def setup_database() -> None:
     db = settings.mysql_database
     user = settings.mysql_user
     password = settings.mysql_password
-    host = settings.mysql_host
 
     cursor.execute(f"CREATE DATABASE IF NOT EXISTS {db}")
     cursor.execute(f"USE {db}")

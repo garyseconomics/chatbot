@@ -1,7 +1,6 @@
 from unittest.mock import AsyncMock, MagicMock, patch
 
 import pytest
-
 from langchain_core.documents import Document
 
 # The Telegram bot has two async handler functions:
