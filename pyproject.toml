@@ -12,7 +12,6 @@ dependencies = [
     "langchain-chroma",
     "langchain-community",
     "langchain-ollama",
-    "langchain-openai",
     "langchain-text-splitters",
     "langgraph",
     "ollama",
