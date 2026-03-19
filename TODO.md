@@ -5,12 +5,11 @@ Pending tasks and things to investigate.
 ## Urgent
 
 - [ ] **Visualize user traces** ([#32](https://github.com/garyseconomics/chatbot/issues/32)) -- Configure Langfuse dashboard to show: (1) Q&A view — questions, answers, user name, timestamp; (2) Performance view — latency metrics, most active users. CLI viewer available as `python -m analytics.trace_viewer`. Fallback: build a Streamlit dashboard if Langfuse doesn't fit our needs.
-- [ ] **Visualize metrics from Phase 1 day 1 session** ([#27](https://github.com/garyseconomics/chatbot/issues/27)) -- Pull metrics from Phase 1 day 1 testing session (Langfuse traces, latency, error rates, usage patterns).
-- [ ] **Investigate why the bot has been resetting so many times** ([#28](https://github.com/garyseconomics/chatbot/issues/28)) -- Check server logs to identify the root cause of frequent bot restarts during Phase 1 testing.
+- [x] **Visualize metrics from Phase 1 day 1 session** ([#27](https://github.com/garyseconomics/chatbot/issues/27)) -- Pull metrics from Phase 1 day 1 testing session (Langfuse traces, latency, error rates, usage patterns).
+- [x] **Investigate why the bot has been resetting so many times** ([#28](https://github.com/garyseconomics/chatbot/issues/28)) -- Check server logs to identify the root cause of frequent bot restarts during Phase 1 testing.
 - [ ] **Redirect LLM requests from Ollama to another provider** ([#29](https://github.com/garyseconomics/chatbot/issues/29)) -- Add Ollama Cloud as the preferred LLM provider, with self-hosted Ollama as fallback. Embeddings stay on self-hosted Ollama. Future step: add other OpenAI-compatible providers (e.g., OpenRouter).
-  - [ ] **Step 1: Add Ollama Cloud as a provider option** -- Make `get_llm_client()` support both `"ollama"` (self-hosted, `ChatOllama`) and `"ollama_cloud"` (Ollama Cloud, `ChatOpenAI` with OpenAI-compatible endpoint). Add config settings: `ollama_cloud_api_key`, `ollama_cloud_base_url` (`https://api.ollama.com`), `ollama_cloud_model` (`qwen3:32b`). Add `langchain-openai` dependency. Update `.env.sample` with new env vars. Write tests first.
-  - [ ] **Step 2: Ollama Cloud preferred, self-hosted fallback** -- Change `get_llm_client()` to try Ollama Cloud first and fall back to self-hosted Ollama if unreachable or on error. Update `ollama_helpers.py` to support checking Ollama Cloud reachability. Embeddings always use self-hosted Ollama (unchanged). Update tests for fallback behavior.
-  - [ ] **Step 3 (future): Add other OpenAI-compatible providers** -- Generalize the provider abstraction to support providers like [OpenRouter](https://openrouter.ai/models/?q=free). This will be easier once we have the `ChatOpenAI` path from Ollama Cloud. Combine with the prompt+LLM evaluation task (see Prompt improvements section) to test different model/prompt combinations.
+  - [x] **Step 1: Add Ollama Cloud with multi-provider priority** -- Added Ollama Cloud as a provider with config settings `ollama_cloud_url`, `ollama_cloud_api_key`, and chat model `qwen3-next:80b` (defined in the `providers` property). Replaced the remote/local fallback with a configurable `chat_provider_priority` list that tries providers in order. Embeddings use a separate `embedding_provider_priority`. Updated `.env.sample`, `ollama_helpers.py`, and tests.
+  - [ ] **Step 2 (future): Add other OpenAI-compatible providers** -- Generalize the provider abstraction to support providers like [OpenRouter](https://openrouter.ai/models/?q=free). Combine with the prompt+LLM evaluation task (see Prompt improvements section) to test different model/prompt combinations.
 - [ ] **Evaluate latency and stability with the new provider** ([#30](https://github.com/garyseconomics/chatbot/issues/30)) -- Measure latency and check if the bot crashes less after switching providers.
 - [ ] **Finish Dockerize the application** ([#5](https://github.com/garyseconomics/chatbot/issues/5)) -- Remaining tasks: add MySQL service to docker-compose and auto-update containers. See Deployment & Operations section for details.
 
@@ -31,24 +30,14 @@ Pending tasks and things to investigate.
   - [x] Enable Discord bot in docker-compose (service exists but is commented out).
   - [ ] Add MySQL service to docker-compose ([#31](https://github.com/garyseconomics/chatbot/issues/31)) -- Add a `mysql` service with a persistent volume for data, and run `setup_database.py` automatically so the database is ready when the stack starts.
   - [ ] Auto-update running containers when a new image is pushed. Options: (1) Watchtower -- a container that monitors and auto-pulls new images, simplest for single-server; (2) Webhook-based deploy -- CI triggers a webhook on the server to run `docker compose pull && docker compose up -d`; (3) Cron job on the server that periodically pulls the latest image.
-  - [ ] Run tests inside Docker image in CI ([#34](https://github.com/garyseconomics/chatbot/issues/34)) -- During Phase 1 day 2, the Docker image installed Langfuse v4 (breaking API change) while local tests ran against v3 and passed. Tests never caught the incompatibility because they only run locally, not against the Docker image. Add a CI step that runs `pytest` inside the built image before pushing.
 - [ ] **Service watcher** ([#21](https://github.com/garyseconomics/chatbot/issues/21)) -- Monitor the bot service availability. Options: (1) HTTP `/health` endpoint polled by Uptime Kuma, or (2) a second bot that pings the main bot through the chat. Observer must run on a different host.
+- [ ] **Run tests inside Docker image in CI** ([#34](https://github.com/garyseconomics/chatbot/issues/34)) -- Add a CI step that runs `pytest` inside the built Docker image before pushing to GHCR. During Phase 1 day 2, a Langfuse v3→v4 breaking change was only caught in production because tests only ran locally.
 - [ ] **Remove RequestsDependencyWarning filters** -- `requests 2.32.5` doesn't recognize `chardet 7.0.1` as compatible, causing a harmless `RequestsDependencyWarning`. We added filters in `discord_bot.py` and `pyproject.toml` to suppress it. Once `requests` releases a new version with updated version bounds, remove the filters from both files.
-
-## Code quality
-
-- [ ] **Fix pre-existing ruff issues** -- `ruff check` reports 6 errors across several files:
-  - `analytics/setup_database.py:25` — unused variable `host` (F841)
-  - `llm/prompt_template.py:76` — no newline at end of file (W292)
-  - `tests/test_chatbot.py:1` — unused import `MagicMock` (F401)
-  - `tests/test_chatbot.py:86` — no newline at end of file (W292)
-  - `tests/test_telegram_bot.py:1` — unsorted import block (I001)
-  - `tests/test_trace_viewer.py:3` — unsorted import block (I001)
 
 ## Bug fixes
 
 - [ ] **Bot crashes when a user replies to a bot message in Discord** ([#23](https://github.com/garyseconomics/chatbot/issues/23)) -- When a user replies to one of the bot's messages mentioning the bot, the bot crashes with the generic error message. Need to check server logs to identify the root cause.
-- [ ] **Telegram bot crashes on long LLM answers** ([#33](https://github.com/garyseconomics/chatbot/issues/33)) -- When the LLM returns an answer exceeding Telegram's 4096 character limit, `send_message` raises `telegram.error.BadRequest: Message is too long` and the user gets no response. Fix: split long messages into chunks or truncate.
+- [ ] **Bots crash on long LLM answers** ([#33](https://github.com/garyseconomics/chatbot/issues/33)) -- Telegram bot crashes when the LLM returns an answer exceeding Telegram's 4096 character limit. No error handler registered, so the user never receives a response. Fix: split long messages into chunks ≤4096 chars or truncate with an indication.
 
 ## New functionality
 
@@ -60,14 +49,9 @@ Pending tasks and things to investigate.
 
 ## Prompt improvements
 
-- [ ] **Evaluate prompt + LLM combinations** -- Test different prompt versions against different LLMs to find the best combination that meets all our requirements. Use Langfuse to run each combination against a set of test questions and compare results. The test questions from `tests/test_ask_questions.py` can be used as a starting dataset.
+- [ ] **Evaluate prompt + LLM combinations** -- Test different prompt versions against different LLMs to find the best combination that meets all our requirements. Use Langfuse to run each combination against a set of test questions and compare results. The test questions from `tests/test_ask_questions.py` can be used as a starting dataset. Known prompt issues to address: bot exposes RAG internals ([#22](https://github.com/garyseconomics/chatbot/issues/22)), bot is too diplomatic ([#24](https://github.com/garyseconomics/chatbot/issues/24)), bot still impersonates Gary ([#25](https://github.com/garyseconomics/chatbot/issues/25)).
   - [ ] Store prompt versions in a MySQL table -- Move prompt text from `llm/prompt_template.py` to a `prompt_versions` table so different versions can be managed and referenced from traces.
   - [ ] Detect prompt version automatically in the importer -- Currently hardcoded to "2". The importer (`user_trace_importer.py`) should identify which prompt version was used for each trace.
-  - [ ] **Hide RAG internals from the user** ([#22](https://github.com/garyseconomics/chatbot/issues/22)) -- The bot sometimes says things like "the provided content does not include..." or "based on the provided material...". The prompt must instruct the LLM to never reference "the provided content/material/context" and instead answer naturally. This is a requirement that the winning prompt+LLM combination must satisfy.
-  - [ ] **Bot still impersonates Gary** ([#25](https://github.com/garyseconomics/chatbot/issues/25)) -- The bot still sometimes speaks as if it is Gary Stevenson. The winning combination must clearly distinguish the bot's identity from Gary's.
-  - [ ] **Bot is too diplomatic — doesn't reflect the channel's tone and views** ([#24](https://github.com/garyseconomics/chatbot/issues/24)) -- The bot gives overly neutral answers on topics where the channel takes a clear position (e.g., crypto). The winning combination must reflect the channel's perspective.
-  - [ ] **Bot lacks temporal awareness** ([#26](https://github.com/garyseconomics/chatbot/issues/26)) -- The prompt must handle date-aware context correctly. This is the second part of the RAG temporal awareness task: first the vector database needs to be updated with video publish dates (see RAG improvements section), then the prompt must be tested to ensure the winning combination uses temporal metadata properly.
-  - [ ] **Bot answers off-topic questions** -- The bot happily answers questions unrelated to economics (e.g., how to fix a bicycle). Evaluate whether the prompt can gently redirect off-topic conversations back to economics without being too restrictive. A soft redirect ("I'm focused on economics, but...") is preferred over a hard block. Note: rate-limiting per user may be a better abuse-prevention mechanism than strict topic guardrails.
 
 ## To investigate
 
