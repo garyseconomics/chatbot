@@ -28,7 +28,7 @@ def test_build_error_state_unknown_error():
 
 
 @pytest.mark.asyncio
-async def test_rag_query_end_to_end():
+async def test_rag_query_end_to_end(use_ollama_for_testing):
     question = "What is wealth?"
     response = await RAG_query(question, user_id="test")
 
