@@ -6,6 +6,7 @@ from config import settings
 
 logger = logging.getLogger(__name__)
 
+
 def _is_host_reachable(host: str, timeout: float = 3.0) -> bool:
     """Check if a server is reachable by hitting its root endpoint."""
     try:

@@ -27,9 +27,7 @@ def _make_user_trace(
         id=trace_id,
         user_id=user_id,
         input={
-            "args": [
-                {"messages": [{"content": prompt_content, "type": "human"}]}
-            ],
+            "args": [{"messages": [{"content": prompt_content, "type": "human"}]}],
             "kwargs": {"user_id": user_id},
         },
         output={"content": answer},
@@ -119,9 +117,7 @@ def test_classify_extracts_user_question_and_answer(mock_langfuse_cls):
 def test_classify_puts_evaluator_traces_in_other(mock_langfuse_cls):
     client = MagicMock()
     mock_langfuse_cls.return_value = client
-    client.api.trace.list.return_value = _make_trace_list(
-        [_make_evaluator_trace()]
-    )
+    client.api.trace.list.return_value = _make_trace_list([_make_evaluator_trace()])
 
     raw = fetch_traces()
     user_traces, other_traces = classify_traces(raw)

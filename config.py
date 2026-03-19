@@ -38,7 +38,6 @@ class Settings(BaseSettings):
         "ollama_local",
     ]
 
-
     @property
     def providers(self) -> dict:
         return {
