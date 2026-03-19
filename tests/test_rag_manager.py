@@ -3,7 +3,6 @@ import pytest
 from config import settings
 from rag.rag_manager import RAG_query, build_error_state
 
-
 # --- build_error_state() tests ---
 
 

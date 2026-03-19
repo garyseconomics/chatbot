@@ -83,7 +83,7 @@ class Settings(BaseSettings):
         "ConnectionError": "I can't reach the AI service right now. Please try again later.",
         "ResponseError": "The AI service is not working properly.",
         "ValueError": "There's a configuration problem. Please contact the admin.",
-        "DefaultError": "I'm having some technical problems. Please try again later."
+        "DefaultError": "I'm having some technical problems. Please try again later.",
     }
 
     # Bot tokens — read from TELEGRAM_TOKEN and DISCORD_TOKEN in .env

@@ -102,9 +102,7 @@ class DiscordClient:
                 user_id = f"discord:{message.author.id}"
 
                 # RAG_query is async, so we can use create_task directly
-                rag_task = asyncio.create_task(
-                    RAG_query(clean_message, user_id=user_id)
-                )
+                rag_task = asyncio.create_task(RAG_query(clean_message, user_id=user_id))
 
                 await wait_with_thinking(message.channel, rag_task, THINKING_INTERVAL)
                 rag_answer = rag_task.result()["answer"]

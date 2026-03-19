@@ -4,8 +4,12 @@ from unittest.mock import AsyncMock
 import pytest
 
 from config import settings
-from interfaces.discord_bot import send_greeting, should_respond, strip_bot_mention, wait_with_thinking
-
+from interfaces.discord_bot import (
+    send_greeting,
+    should_respond,
+    strip_bot_mention,
+    wait_with_thinking,
+)
 
 # --- should_respond ---
 

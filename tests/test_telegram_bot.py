@@ -44,11 +44,13 @@ async def test_start_sends_greeting():
 @pytest.mark.asyncio
 async def test_question_runs_without_errors(monkeypatch):
     """The question handler runs end-to-end without crashing."""
-    mock_rag = AsyncMock(return_value={
-        "answer": "Wealth is...",
-        "context": [],
-        "question": "What is wealth?",
-    })
+    mock_rag = AsyncMock(
+        return_value={
+            "answer": "Wealth is...",
+            "context": [],
+            "question": "What is wealth?",
+        }
+    )
     monkeypatch.setattr("interfaces.telegram_bot.RAG_query", mock_rag)
 
     update = _make_update(text="What is wealth?")

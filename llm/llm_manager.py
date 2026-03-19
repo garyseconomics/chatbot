@@ -47,7 +47,10 @@ def get_llm_client() -> BaseChatModel:
     provider = settings.providers[_provider_name]
     logger.info(
         "Using LLM chat model %s on %s (%s)",
-        provider["chat_model"], _provider_name, provider["url"])
+        provider["chat_model"],
+        _provider_name,
+        provider["url"],
+    )
 
     kwargs: dict = {"model": provider["chat_model"], "base_url": provider["url"]}
     # Pass auth headers for cloud providers (e.g., Ollama Cloud)
