@@ -68,7 +68,7 @@ Files are ordered from most complex (most mocks) to simplest.
 - [x] **test_rag_manager.py** — Simplified to 3 tests, zero mocks. Extracted `build_error_state()` to test error handling directly.
 - [ ] **test_user_trace_importer.py** — 9 tests, ~19 mocks. @patch, tmp_path, os.utime. Tests file finding, JSON parsing, MySQL import.
 - [x] **test_chatbot.py** — Simplified to 1 test, 2 mocks (RAG_query for network, input for blocking I/O). Just verifies main() doesn't crash.
-- [ ] **test_telegram_bot.py** — 6 tests, ~7 mocks. AsyncMock, @patch. Tests Telegram bot message handling.
+- [x] **test_telegram_bot.py** — Simplified to 2 smoke tests. Verifies greeting and RAG answer reach send_message.
 - [ ] **test_setup_database.py** — 2 tests, ~7 mocks. @patch on MySQL connector. Tests database table creation.
 - [ ] **test_trace_viewer.py** — 5 tests, ~7 mocks. @patch on MySQL connector. Tests CLI trace viewer.
 
