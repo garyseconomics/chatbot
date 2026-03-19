@@ -22,8 +22,7 @@ issues we have already found and are working on:
 - The bot impersonating Gary instead of clarifying it is a chatbot
 - The bot giving overly neutral answers on topics where the channel has a clear position
 
-If you find the bot giving a bad answer, please report it in the **#github channel** on
-Discord or the **testing Telegram group**, including:
+If you find the bot giving a bad answer, please report it in this form https://forms.gle/PjzJYwP5GyS4zkZb7 including:
 
 - The question you asked
 - What was wrong with the response
