@@ -7,20 +7,24 @@ Pending tasks and things to investigate.
 - [x] **Make RAG_query async (Phase 1)** -- `RAG_query` is now `async def` and uses `graph.ainvoke()`. The internal functions (`retrieve`, `generate`, `llm_chat`) are still sync — LangGraph runs them in threads automatically. Error handling simplified to a single `except` block with configurable messages in `settings.error_messages`.
 - [x] **Improve error messages** -- Error messages moved to `settings.error_messages` dict in `config.py`, keyed by exception class name. `RAG_query` looks up `type(e).__name__` and returns a user-facing message. Default message under `"DefaultError"` key.
 - [ ] **Make RAG_query async (Phase 2)** -- Convert `retrieve`, `generate`, and `llm_chat` to async with `.ainvoke()` / `.asimilarity_search()` to make the pipeline fully async end-to-end.
-- [ ] **Update callers and tests for async RAG_query** -- Reviewed: (1) `rag_manager.py`: async + `build_error_state()` extracted, (2) `test_rag_manager.py`: simplified to 3 tests with zero mocks, (3) Discord bot: `create_task()` replaces `run_in_executor`, (4) Telegram bot: `await` added, (5) CLI chatbot: `asyncio.run()` wrapper, (6) `test_ask_questions.py`: async. Still pending: (7) Rethink and simplify `test_telegram_bot.py` (see "Review and simplify tests" section), (8) Rethink and simplify `test_chatbot.py` (see "Review and simplify tests" section). Run ruff after review.
+- [x] **Update callers and tests for async RAG_query** -- All callers updated: Discord bot (`create_task`), Telegram bot (`await`), CLI chatbot (`asyncio.run`). All tests updated and simplified: `test_rag_manager.py` (3 tests, zero mocks), `test_chatbot.py` (1 test, 2 mocks), `test_telegram_bot.py` (2 tests, 2 mocks), `test_ask_questions.py` (async). Ruff clean.
 
 ## Bug fixes - Priority 1 (most urgent)
 
-- [ ] **Bot crashes when a user replies to a bot message in Discord** ([#23](https://github.com/garyseconomics/chatbot/issues/23)) -- When a user replies to one of the bot's messages mentioning the bot, the bot crashes with the generic error message. Need to check server logs to identify the root cause. Before fixing, clean up `test_discord_bot.py` (see "Review and simplify tests" section) so the tests are understood and simplified.
+- [ ] **Bot crashes when a user replies to a bot message in Discord** ([#23](https://github.com/garyseconomics/chatbot/issues/23)) -- When a user replies to one of the bot's messages mentioning the bot, the bot crashes with the generic error message. Need to check server logs to identify the root cause.
 - [ ] **Intermittent Ollama Cloud 500 errors** -- Ollama Cloud sometimes returns `ResponseError: Internal Server Error (status code: 500)`. Happens intermittently during tests and likely in production too. Need to investigate: is it a rate limit, model overload, or provider instability? Consider adding retry logic or falling back to the next provider in `chat_provider_priority`.
-- [ ] **Bots crash on long LLM answers** ([#33](https://github.com/garyseconomics/chatbot/issues/33)) -- Telegram bot crashes when the LLM returns an answer exceeding Telegram's 4096 character limit. No error handler registered, so the user never receives a response. Fix: split long messages into chunks ≤4096 chars or truncate with an indication. Before fixing, clean up `test_telegram_bot.py` (see "Review and simplify tests" section) so the tests are understood and simplified.
+- [ ] **Bots crash on long LLM answers** ([#33](https://github.com/garyseconomics/chatbot/issues/33)) -- Telegram bot crashes when the LLM returns an answer exceeding Telegram's 4096 character limit. No error handler registered, so the user never receives a response. Fix: split long messages into chunks ≤4096 chars or truncate with an indication.
 
 ## Priority 2 (urgent)
 
 - [ ] **Visualize user traces** ([#32](https://github.com/garyseconomics/chatbot/issues/32)) -- Configure Langfuse dashboard to show: (1) Q&A view — questions, answers, user name, timestamp; (2) Performance view — latency metrics, most active users. CLI viewer available as `python -m analytics.trace_viewer`. Fallback: build a Streamlit dashboard if Langfuse doesn't fit our needs.
 - [ ] **Evaluate latency and stability with the new provider** ([#30](https://github.com/garyseconomics/chatbot/issues/30)) -- Measure latency and check if the bot crashes less after switching providers.
 - [ ] **Finish Dockerize the application** ([#5](https://github.com/garyseconomics/chatbot/issues/5)) -- Remaining tasks: add MySQL service to docker-compose and auto-update containers. See Deployment & Operations section for details.
-
+- [ ] **Review and simplify analytics tests** -- These tests are related to downloading and reviewing analytics from Langfuse. Not a priority.
+  - [ ] **test_fetch_langfuse_traces.py** — 7 tests, ~23 mocks. SimpleNamespace factories, @patch decorators. Tests Langfuse trace extraction and classification.
+  - [ ] **test_user_trace_importer.py** — 9 tests, ~19 mocks. @patch, tmp_path, os.utime. Tests file finding, JSON parsing, MySQL import.
+  - [ ] **test_setup_database.py** — 2 tests, ~7 mocks. @patch on MySQL connector. Tests database table creation.
+  - [ ] **test_trace_viewer.py** — 5 tests, ~7 mocks. @patch on MySQL connector. Tests CLI trace viewer.
 
 ## Deployment & Operations
 
@@ -61,26 +65,9 @@ Pending tasks and things to investigate.
 
 Tests created since commit `82ebb0f` that use mocks and patterns not yet fully understood.
 Go through each one, simplify where possible, and make sure every test is understood.
-Files are ordered from most complex (most mocks) to simplest.
-
-- [x] **test_discord_bot.py** — Simplified by extracting `should_respond`, `wait_with_thinking`, and `send_greeting` into testable functions. Tests now target those directly.
-- [ ] **test_fetch_langfuse_traces.py** — 7 tests, ~23 mocks. SimpleNamespace factories, @patch decorators. Tests Langfuse trace extraction and classification.
-- [x] **test_rag_manager.py** — Simplified to 3 tests, zero mocks. Extracted `build_error_state()` to test error handling directly.
-- [ ] **test_user_trace_importer.py** — 9 tests, ~19 mocks. @patch, tmp_path, os.utime. Tests file finding, JSON parsing, MySQL import.
-- [x] **test_chatbot.py** — Simplified to 1 test, 2 mocks (RAG_query for network, input for blocking I/O). Just verifies main() doesn't crash.
-- [x] **test_telegram_bot.py** — Simplified to 2 smoke tests. Verifies greeting and RAG answer reach send_message.
-- [ ] **test_setup_database.py** — 2 tests, ~7 mocks. @patch on MySQL connector. Tests database table creation.
-- [ ] **test_trace_viewer.py** — 5 tests, ~7 mocks. @patch on MySQL connector. Tests CLI trace viewer.
-
-Files with no or minimal mocks (likely fine as-is):
 
 - [ ] **test_vector_database.py** — 1 autouse fixture for test isolation. Review if fixture is clear.
-- [ ] **test_srt_splitter.py** — 1 fixture. Straightforward, likely fine.
-- [ ] **test_config.py** — No mocks. Direct assertions. Likely fine.
-- [ ] **test_langfuse.py** — No mocks, integration tests. Likely fine.
-- [ ] **test_llm_manager.py** — No mocks, integration tests. Likely fine.
-- [ ] **test_video_links.py** — No mocks. Likely fine.
-- [ ] **test_llm_providers_helpers.py** — No mocks. Likely fine.
+- [ ] **test_langfuse.py** — No mocks, integration tests.
 
 ## Done Tasks
 
@@ -145,3 +132,14 @@ Files with no or minimal mocks (likely fine as-is):
   - [x] Add tests for CLI chatbot (`test_chatbot.py`) -- 4 tests covering greeting and answer output, RAG query invocation, video link printing, and skipping video text when no context. Refactored `chatbot.py` to extract `main()` with `if __name__ == "__main__":` guard for testability.
   - [x] Add tests for Discord bot (`test_discord_bot.py`) -- 7 tests covering basic behavior (ignores own messages, ignores non-mentions, responds when mentioned), error handling (channel not found, send failure), and on_ready (greeting, channel not found).
 - [x] **Run tests and fix failures** -- Full suite green. Fixed tests that depended on `.env` being present (remote host tests now mock `settings.ollama_host_remote`).
+- [x] **Review and simplify tests** -- Simplified mock-heavy tests to reduce cognitive debt. Previous tests created since commit `82ebb0f` that use mocks and patterns not yet fully understood.
+  - [x] **test_discord_bot.py** — Extracted `should_respond`, `wait_with_thinking`, and `send_greeting` into testable functions. Tests target those directly.
+  - [x] **test_rag_manager.py** — Simplified to 3 tests, zero mocks. Extracted `build_error_state()` to test error handling directly.
+  - [x] **test_chatbot.py** — Simplified to 1 test, 2 mocks (RAG_query + input). Just verifies main() doesn't crash.
+  - [x] **test_telegram_bot.py** — Simplified to 2 smoke tests. Verifies greeting and RAG answer reach send_message.
+  - [x] **tests/conftest.py** — Added autouse fixture to force local Ollama for all tests. Avoids intermittent Ollama Cloud 500 errors.
+  - [x] **test_srt_splitter.py** — Reviewed manually. Fine as-is.
+  - [x] **test_config.py** — Reviewed manually. Fine as-is.
+  - [x] **test_llm_manager.py** — Reviewed manually. Fine as-is.
+  - [x] **test_video_links.py** — Reviewed manually. Fine as-is.
+  - [x] **test_llm_providers_helpers.py** — Reviewed manually. Fine as-is.
