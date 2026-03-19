@@ -2,9 +2,17 @@
 
 Pending tasks and things to investigate.
 
+## Make RAG_query async - Priority 0
+
+- [x] **Make RAG_query async (Phase 1)** -- `RAG_query` is now `async def` and uses `graph.ainvoke()`. The internal functions (`retrieve`, `generate`, `llm_chat`) are still sync — LangGraph runs them in threads automatically. Error handling simplified to a single `except` block with configurable messages in `settings.error_messages`.
+- [x] **Improve error messages** -- Error messages moved to `settings.error_messages` dict in `config.py`, keyed by exception class name. `RAG_query` looks up `type(e).__name__` and returns a user-facing message. Default message under `"DefaultError"` key.
+- [ ] **Make RAG_query async (Phase 2)** -- Convert `retrieve`, `generate`, and `llm_chat` to async with `.ainvoke()` / `.asimilarity_search()` to make the pipeline fully async end-to-end.
+- [ ] **Update callers and tests for async RAG_query** -- Reviewed: (1) `rag_manager.py`: async + `build_error_state()` extracted, (2) `test_rag_manager.py`: simplified to 3 tests with zero mocks, (3) Discord bot: `create_task()` replaces `run_in_executor`, (4) Telegram bot: `await` added, (5) CLI chatbot: `asyncio.run()` wrapper, (6) `test_ask_questions.py`: async. Still pending: (7) Rethink and simplify `test_telegram_bot.py` (see "Review and simplify tests" section), (8) Rethink and simplify `test_chatbot.py` (see "Review and simplify tests" section). Run ruff after review.
+
 ## Bug fixes - Priority 1 (most urgent)
 
 - [ ] **Bot crashes when a user replies to a bot message in Discord** ([#23](https://github.com/garyseconomics/chatbot/issues/23)) -- When a user replies to one of the bot's messages mentioning the bot, the bot crashes with the generic error message. Need to check server logs to identify the root cause. Before fixing, clean up `test_discord_bot.py` (see "Review and simplify tests" section) so the tests are understood and simplified.
+- [ ] **Intermittent Ollama Cloud 500 errors** -- Ollama Cloud sometimes returns `ResponseError: Internal Server Error (status code: 500)`. Happens intermittently during tests and likely in production too. Need to investigate: is it a rate limit, model overload, or provider instability? Consider adding retry logic or falling back to the next provider in `chat_provider_priority`.
 - [ ] **Bots crash on long LLM answers** ([#33](https://github.com/garyseconomics/chatbot/issues/33)) -- Telegram bot crashes when the LLM returns an answer exceeding Telegram's 4096 character limit. No error handler registered, so the user never receives a response. Fix: split long messages into chunks ≤4096 chars or truncate with an indication. Before fixing, clean up `test_telegram_bot.py` (see "Review and simplify tests" section) so the tests are understood and simplified.
 
 ## Priority 2 (urgent)
@@ -30,7 +38,7 @@ Pending tasks and things to investigate.
 ## New functionality
 
 - [ ] **Add other OpenAI-compatible providers** ([#29](https://github.com/garyseconomics/chatbot/issues/29)) -- Generalize the provider abstraction to support providers like [OpenRouter](https://openrouter.ai/models/?q=free). Combine with the prompt+LLM evaluation task (see Prompt improvements section) to test different model/prompt combinations.
-- [ ] **Multi-turn conversations** ([#6](https://github.com/garyseconomics/chatbot/issues/6)) -- Enable conversations with multiple interactions by implementing chat memory and a conversation loop, so the LLM receives the history of the conversation on each call.
+- [ ] **Multi-turn conversations** ([#6](https://github.com/garyseconomics/chatbot/issues/6)) -- Enable conversations with multiple interactions by implementing chat memory and a conversation loop, so the LLM receives the history of the conversation on each call. Note: the CLI chatbot will become a loop, so the current `asyncio.run()` wrapper (one-shot call) will need to change — likely to an async `main()` with `asyncio.run(main())` at the entry point.
 
 ## RAG improvements
 
@@ -44,10 +52,6 @@ Pending tasks and things to investigate.
 
 ## To investigate
 
-- [ ] **Async support** -- Evaluate whether to use `asyncio` for the core RAG pipeline.
-  Currently the bots use their framework's async but the RAG pipeline is synchronous.
-  Consider if async would improve performance or simplify the bot code. Note:
-  `pytest-asyncio` is already installed and used for Discord and Telegram bot handler tests.
 - [ ] **DSPy** -- Framework for programming (not prompting) language models. Explore for
   prompt optimization and evaluation. See `prompt_experiments.py` for initial experiments.
 - [ ] **MLflow** -- Platform for tracking ML experiments, models, and metrics. Explore for

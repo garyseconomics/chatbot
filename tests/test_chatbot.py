@@ -1,11 +1,11 @@
-from unittest.mock import patch
+from unittest.mock import AsyncMock, patch
 
 from langchain_core.documents import Document
 
 
 @patch("interfaces.chatbot.input", return_value="What is inflation?")
 @patch("interfaces.chatbot.print")
-@patch("interfaces.chatbot.RAG_query")
+@patch("interfaces.chatbot.RAG_query", new_callable=AsyncMock)
 def test_chatbot_prints_greeting_and_answer(mock_rag, mock_print, mock_input):
     """The chatbot prints the greeting, asks for input, and prints the RAG answer."""
     mock_rag.return_value = {
@@ -28,7 +28,7 @@ def test_chatbot_prints_greeting_and_answer(mock_rag, mock_print, mock_input):
 
 @patch("interfaces.chatbot.input", return_value="What is inflation?")
 @patch("interfaces.chatbot.print")
-@patch("interfaces.chatbot.RAG_query")
+@patch("interfaces.chatbot.RAG_query", new_callable=AsyncMock)
 def test_chatbot_calls_rag_with_user_question(mock_rag, mock_print, mock_input):
     """The chatbot passes the user's question to RAG_query."""
     mock_rag.return_value = {
@@ -46,7 +46,7 @@ def test_chatbot_calls_rag_with_user_question(mock_rag, mock_print, mock_input):
 
 @patch("interfaces.chatbot.input", return_value="Tell me about GDP")
 @patch("interfaces.chatbot.print")
-@patch("interfaces.chatbot.RAG_query")
+@patch("interfaces.chatbot.RAG_query", new_callable=AsyncMock)
 def test_chatbot_prints_video_links(mock_rag, mock_print, mock_input):
     """When RAG returns context with documents, the chatbot prints video links."""
     mock_rag.return_value = {
@@ -69,7 +69,7 @@ def test_chatbot_prints_video_links(mock_rag, mock_print, mock_input):
 
 @patch("interfaces.chatbot.input", return_value="question")
 @patch("interfaces.chatbot.print")
-@patch("interfaces.chatbot.RAG_query")
+@patch("interfaces.chatbot.RAG_query", new_callable=AsyncMock)
 def test_chatbot_skips_video_text_when_no_context(mock_rag, mock_print, mock_input):
     """When RAG returns no context, no video links line is printed."""
     mock_rag.return_value = {

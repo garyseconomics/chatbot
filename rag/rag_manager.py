@@ -3,7 +3,6 @@ import logging
 from langchain_core.documents import Document
 from langfuse import observe
 from langgraph.graph import START, StateGraph
-from ollama import ResponseError
 from typing_extensions import List, TypedDict
 
 from config import settings
@@ -39,31 +38,25 @@ def generate(state: State):
     return {"answer": response.content}
 
 
-def RAG_query(question: str, user_id: str = "unknown") -> State:
-    graph_builder = StateGraph(State).add_sequence([retrieve, generate])
-    graph_builder.add_edge(START, "retrieve")
-    graph = graph_builder.compile()
-    error_state: State = {
+def build_error_state(e, question, user_id) -> State:
+    error_type = type(e).__name__
+    logger.error("RAG query failed (%s): %s", error_type, e)
+    default_message = settings.error_messages["DefaultError"]
+    return {
         "question": question,
         "user_id": user_id,
         "context": [],
-        "answer": "I'm sorry. I'm having some technical problems.",
+        "answer": settings.error_messages.get(error_type, default_message),
     }
+
+
+async def RAG_query(question, user_id) -> State:
+    graph_builder = StateGraph(State).add_sequence([retrieve, generate])
+    graph_builder.add_edge(START, "retrieve")
+    graph = graph_builder.compile()
     try:
-        response = graph.invoke({"question": question, "user_id": user_id})
+        # LangGraph's ainvoke: async version of invoke that doesn't block the event loop
+        response = await graph.ainvoke({"question": question, "user_id": user_id})
         return response
-    except ConnectionError as e:
-        logger.error("Cannot connect to Ollama: %s", e)
-        error_state["answer"] = "I'm sorry, I can't reach the AI service right now."
-        return error_state
-    except ResponseError as e:
-        logger.error("Ollama returned an error: %s", e)
-        error_state["answer"] = "I'm sorry, the AI service returned an error."
-        return error_state
-    except ValueError as e:
-        logger.error("Configuration error: %s", e)
-        error_state["answer"] = "I'm sorry, there's a configuration problem."
-        return error_state
     except Exception as e:
-        logger.error("Unexpected error while querying the RAG: %s", e)
-        return error_state
+        return build_error_state(e, question, user_id)

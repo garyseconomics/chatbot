@@ -78,6 +78,14 @@ class Settings(BaseSettings):
     )
     discord_channel_for_bot_greeting: str = "github"
 
+    # User-facing error messages — keyed by exception class name.
+    error_messages: dict[str, str] = {
+        "ConnectionError": "I can't reach the AI service right now. Please try again later.",
+        "ResponseError": "The AI service is not working properly.",
+        "ValueError": "There's a configuration problem. Please contact the admin.",
+        "DefaultError": "I'm having some technical problems. Please try again later."
+    }
+
     # Bot tokens — read from TELEGRAM_TOKEN and DISCORD_TOKEN in .env
     telegram_token: str = ""
     discord_token: str = ""

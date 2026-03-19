@@ -61,6 +61,7 @@ async def test_question_calls_rag_with_user_message():
 
     with patch(
         "interfaces.telegram_bot.RAG_query",
+        new_callable=AsyncMock,
         return_value={"answer": "Answer", "context": [], "question": "How does GDP work?"},
     ) as mock_rag:
         from interfaces.telegram_bot import question
@@ -78,6 +79,7 @@ async def test_question_sends_answer_to_chat():
 
     with patch(
         "interfaces.telegram_bot.RAG_query",
+        new_callable=AsyncMock,
         return_value={"answer": "Inflation is rising prices.", "context": [], "question": "q"},
     ):
         from interfaces.telegram_bot import question
@@ -101,6 +103,7 @@ async def test_question_appends_video_links_when_context_has_documents():
     # video ID from it and appends the YouTube link to the answer
     with patch(
         "interfaces.telegram_bot.RAG_query",
+        new_callable=AsyncMock,
         return_value={
             "answer": "GDP measures output.",
             "context": [
@@ -126,6 +129,7 @@ async def test_question_no_video_links_when_context_is_empty():
 
     with patch(
         "interfaces.telegram_bot.RAG_query",
+        new_callable=AsyncMock,
         return_value={"answer": "No info.", "context": [], "question": "q"},
     ):
         from interfaces.telegram_bot import question

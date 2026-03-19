@@ -19,7 +19,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 async def question(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     question = update.message.text
     user_id = f"telegram:{update.effective_user.id}"
-    rag_answer = RAG_query(question, user_id=user_id)
+    rag_answer = await RAG_query(question, user_id=user_id)
     answer = rag_answer["answer"]
     video_links = get_video_link(rag_answer["context"])
     if video_links:

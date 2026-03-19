@@ -101,18 +101,13 @@ class DiscordClient:
                 logger.debug("Message received: %s", clean_message)
                 user_id = f"discord:{message.author.id}"
 
-                # Run RAG in a thread executor to avoid blocking the event loop
-                # (blocking causes Discord heartbeat timeouts and reconnects)
-                loop = asyncio.get_running_loop()
-                rag_task = asyncio.ensure_future(
-                    loop.run_in_executor(
-                        None,
-                        lambda: RAG_query(clean_message, user_id=user_id)["answer"],
-                    )
+                # RAG_query is async, so we can use create_task directly
+                rag_task = asyncio.create_task(
+                    RAG_query(clean_message, user_id=user_id)
                 )
 
                 await wait_with_thinking(message.channel, rag_task, THINKING_INTERVAL)
-                rag_answer = rag_task.result()
+                rag_answer = rag_task.result()["answer"]
                 logger.debug("RAG answer: %s", rag_answer)
                 await message.channel.send(rag_answer)
             except Exception:
