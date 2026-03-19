@@ -63,11 +63,11 @@ Tests created since commit `82ebb0f` that use mocks and patterns not yet fully u
 Go through each one, simplify where possible, and make sure every test is understood.
 Files are ordered from most complex (most mocks) to simplest.
 
-- [ ] **test_discord_bot.py** — 11 tests, ~23 mocks. Most complex file: event handler interception, AsyncMock, patch.object on asyncio, timing-based tests.
+- [x] **test_discord_bot.py** — Simplified by extracting `should_respond`, `wait_with_thinking`, and `send_greeting` into testable functions. Tests now target those directly.
 - [ ] **test_fetch_langfuse_traces.py** — 7 tests, ~23 mocks. SimpleNamespace factories, @patch decorators. Tests Langfuse trace extraction and classification.
-- [ ] **test_rag_manager.py** — 8 tests, ~22 mocks. Stacked @patch decorators, side_effect for error simulation. Tests RAG query happy path and error handling.
+- [x] **test_rag_manager.py** — Simplified to 3 tests, zero mocks. Extracted `build_error_state()` to test error handling directly.
 - [ ] **test_user_trace_importer.py** — 9 tests, ~19 mocks. @patch, tmp_path, os.utime. Tests file finding, JSON parsing, MySQL import.
-- [ ] **test_chatbot.py** — 4 tests, ~12 mocks. @patch on input/print/RAG_query. Tests CLI chatbot behavior.
+- [x] **test_chatbot.py** — Simplified to 1 test, 2 mocks (RAG_query for network, input for blocking I/O). Just verifies main() doesn't crash.
 - [ ] **test_telegram_bot.py** — 6 tests, ~7 mocks. AsyncMock, @patch. Tests Telegram bot message handling.
 - [ ] **test_setup_database.py** — 2 tests, ~7 mocks. @patch on MySQL connector. Tests database table creation.
 - [ ] **test_trace_viewer.py** — 5 tests, ~7 mocks. @patch on MySQL connector. Tests CLI trace viewer.
