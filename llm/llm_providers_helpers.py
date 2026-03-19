@@ -1,6 +1,6 @@
+import logging
 import urllib.error
 import urllib.request
-import logging
 
 from config import settings
 

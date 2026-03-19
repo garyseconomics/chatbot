@@ -1,12 +1,12 @@
 from config import settings
 
 
-def test_basic_configuration(): 
+def test_basic_configuration():
     assert isinstance(settings.app_name, str)
     assert isinstance(settings.log_level, str)
     assert isinstance(settings.bot_greeting, str)
 
-def test_vectorized_database_configuration(): 
+def test_vectorized_database_configuration():
     assert isinstance(settings.database_path, str)
     assert isinstance(settings.collection_name, str)
     assert isinstance(settings.chunk_size, int)

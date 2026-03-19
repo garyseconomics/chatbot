@@ -1,8 +1,7 @@
 import logging
 
 # BaseChatModel: common base for ChatOllama, ChatOpenAI, etc.
-# LanguageModelInput: covers strings, message lists, and PromptValue
-from langchain_core.language_models import BaseChatModel, LanguageModelInput
+from langchain_core.language_models import BaseChatModel
 
 # Base return type from .invoke() — covers AIMessage, HumanMessage, etc.
 from langchain_core.messages import BaseMessage
@@ -43,11 +42,13 @@ def get_llm_client() -> BaseChatModel:
     Iterates through chat_provider_priority, skipping providers that are not reachable.
     Raises ConnectionError if none are available.
     """
-    
     global _provider_name
     _provider_name = select_llm_provider(settings.chat_provider_priority)
     provider = settings.providers[_provider_name]
-    logger.info("Using LLM chat model %s on %s (%s)", provider["chat_model"], _provider_name, provider["url"])
+    logger.info(
+        "Using LLM chat model %s on %s (%s)",
+        provider["chat_model"], _provider_name, provider["url"],
+    )
 
     kwargs: dict = {"model": provider["chat_model"], "base_url": provider["url"]}
     # Pass auth headers for cloud providers (e.g., Ollama Cloud)
@@ -59,8 +60,9 @@ def get_llm_client() -> BaseChatModel:
 
 
 @observe(name="ollama_request", as_type="generation", capture_input=True, capture_output=True)
-def llm_chat(prompt, llm = None, user_id = "tests") -> BaseMessage:
-    if not llm : llm = get_llm_client() 
+def llm_chat(prompt, llm=None, user_id="tests") -> BaseMessage:
+    if not llm:
+        llm = get_llm_client()
     client = get_langfuse_client()
     client.update_current_trace(
         name=settings.app_name,

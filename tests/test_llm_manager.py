@@ -1,10 +1,10 @@
 import langchain_core
 from langchain_core.prompts import ChatPromptTemplate
 
+from config import settings
 from llm.llm_manager import llm_chat
 from llm.prompt_template import get_rag_prompt
 
-from config import settings
 
 def test_llm_chat_simple_prompt():
     response = llm_chat(prompt="Hello")
