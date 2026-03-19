@@ -21,8 +21,22 @@ logger = logging.getLogger(__name__)
 THINKING_INTERVAL = 30  # seconds between thinking indicators
 
 
+def should_respond(author_id, bot_id, is_dm, is_mentioned) -> bool:
+    """Decide whether the bot should respond to this message."""
+    if author_id == bot_id:
+        return False
+    if not is_dm and not is_mentioned:
+        return False
+    return True
+
+
+def strip_bot_mention(content, bot_id) -> str:
+    """Remove the bot's @mention from message text."""
+    return content.replace(f"<@{bot_id}>", "").strip()
+
+
 class DiscordClient:
-    def __init__(self) -> None:
+    def __init__(self):
         # Token to connect to discord server
         self.discord_token = settings.discord_token
         # This makes the bot answer to !botname
@@ -51,21 +65,16 @@ class DiscordClient:
 
         @self.bot.event
         async def on_message(message):
-            # The bot ignores its own messages
-            if message.author == self.bot.user:
-                return
-
-            is_dm = message.guild is None
-            is_mentioned = self.bot.user in message.mentions
-
-            # In DMs: respond to any message. In guilds: only when @mentioned.
-            if not is_dm and not is_mentioned:
+            if not should_respond(
+                author_id=message.author.id,
+                bot_id=self.bot.user.id,
+                is_dm=message.guild is None,
+                is_mentioned=self.bot.user in message.mentions,
+            ):
                 return
 
             try:
-                # Strip the bot mention from the message if present
-                bot_mention = f"<@{self.bot.user.id}>"
-                clean_message = message.content.replace(bot_mention, "").strip()
+                clean_message = strip_bot_mention(message.content, self.bot.user.id)
                 logger.debug("Message received: %s", clean_message)
                 user_id = f"discord:{message.author.id}"
 
@@ -100,7 +109,7 @@ class DiscordClient:
                 logger.exception("Failed to handle message")
                 await message.channel.send("Sorry, something went wrong. Please try again later.")
 
-    def run(self) -> None:
+    def run(self):
         logger.info("Connecting Discord...")
         self.bot.run(self.discord_token)
 

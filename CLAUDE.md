@@ -148,6 +148,9 @@ All settings live in `config.py` as a `pydantic-settings` `BaseSettings` class w
 - **When mocks are needed, discuss first.** Before adding mocks to a test, explain:
   (1) what will be mocked and why, (2) how the mock works. Add the concept to
   `learning.md` if it's new to the developer.
+- **Separate action from assertion.** Store the result in a variable, then assert on it.
+  For example: `result = my_function(x)` then `assert result == expected` — not
+  `assert my_function(x) == expected`. This makes tests easier to read and debug.
 - Test naming: `test_<what_it_does>` (e.g., `test_search_returns_relevant_documents`).
 - **Tests must be deterministic.** Never rely on filesystem timestamps, real dates/times,
   or execution order for correctness. Use explicit values (e.g., `os.utime` for mtime)
