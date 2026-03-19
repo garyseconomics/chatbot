@@ -122,7 +122,9 @@ All settings live in `config.py` as a `pydantic-settings` `BaseSettings` class w
 
 ### Code style
 - Follow PEP 8 and standard Python conventions.
-- Use type hints.
+- **Type hints — return types only.** Add return type annotations (`-> bool`, `-> str`,
+  etc.) but omit parameter type annotations. This keeps function signatures short and
+  readable. Apply this style to new and modified files — no need to update all files at once.
 - Use `ruff` for linting and formatting.
 - Keep functions small and focused.
 - Docstrings only where the purpose isn't obvious from the name and signature.
@@ -138,6 +140,11 @@ All settings live in `config.py` as a `pydantic-settings` `BaseSettings` class w
 - **Prefer real code over mocks.** Only mock when the real dependency is truly impractical
   to use in tests (network calls, paid APIs, external services). If the code can be
   tested without mocking, do that.
+- **Extract logic into small, testable functions.** Isolate behavior in functions with
+  clear inputs and outputs, self-explanatory names, and concrete responsibilities.
+  Test those functions directly — this reduces the need for mocks, makes tests easier
+  to understand, and pinpoints exactly what broke when a test fails. Prefer refactoring
+  production code to make it testable over adding complex test scaffolding.
 - **When mocks are needed, discuss first.** Before adding mocks to a test, explain:
   (1) what will be mocked and why, (2) how the mock works. Add the concept to
   `learning.md` if it's new to the developer.
