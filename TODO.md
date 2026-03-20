@@ -12,12 +12,12 @@ Pending tasks and things to investigate.
 
 - [ ] **Visualize user traces** ([#32](https://github.com/garyseconomics/chatbot/issues/32)) -- Configure Langfuse dashboard to show: (1) Q&A view — questions, answers, user name, timestamp; (2) Performance view — latency metrics, most active users. CLI viewer available as `python -m analytics.trace_viewer`. Fallback: build a Streamlit dashboard if Langfuse doesn't fit our needs.
 - [ ] **Evaluate latency and stability with the new provider** ([#30](https://github.com/garyseconomics/chatbot/issues/30)) -- Measure latency and check if the bot crashes less after switching providers.
-- [ ] **Finish Dockerize the application** ([#5](https://github.com/garyseconomics/chatbot/issues/5)) -- Remaining tasks: add MySQL service to docker-compose and auto-update containers. See Deployment & Operations section for details.
+- [ ] **Finish Dockerize the application** ([#5](https://github.com/garyseconomics/chatbot/issues/5)) -- Remaining task: auto-update containers. See Deployment & Operations section for details.
 - [ ] **Review and simplify analytics tests** -- These tests are related to downloading and reviewing analytics from Langfuse. Not a priority.
   - [ ] **test_fetch_langfuse_traces.py** — 7 tests, ~23 mocks. SimpleNamespace factories, @patch decorators. Tests Langfuse trace extraction and classification.
-  - [ ] **test_user_trace_importer.py** — 9 tests, ~19 mocks. @patch, tmp_path, os.utime. Tests file finding, JSON parsing, MySQL import.
-  - [ ] **test_setup_database.py** — 2 tests, ~7 mocks. @patch on MySQL connector. Tests database table creation.
-  - [ ] **test_trace_viewer.py** — 5 tests, ~7 mocks. @patch on MySQL connector. Tests CLI trace viewer.
+  - [x] **test_user_trace_importer.py** — Rewritten for SQLite. 8 tests using real SQLite databases via `tmp_path`, zero mocks.
+  - [x] **test_setup_database.py** — Rewritten for SQLite. 2 tests using real SQLite via `tmp_path`, zero mocks.
+  - [x] **test_trace_viewer.py** — Rewritten for SQLite. 4 tests using real SQLite via `tmp_path`, zero mocks.
 
 ## Deployment & Operations
 
@@ -26,7 +26,7 @@ Pending tasks and things to investigate.
   - [x] CI/CD workflow to build and push image to GHCR on every push.
   - [x] Restart policy (`unless-stopped`) so container recovers after server reset.
   - [x] Enable Discord bot in docker-compose (service exists but is commented out).
-  - [ ] Add MySQL service to docker-compose ([#31](https://github.com/garyseconomics/chatbot/issues/31)) -- Add a `mysql` service with a persistent volume for data, and run `setup_database.py` automatically so the database is ready when the stack starts.
+  - [x] ~~Add MySQL service to docker-compose~~ ([#31](https://github.com/garyseconomics/chatbot/issues/31)) -- No longer needed. Switched from MySQL to SQLite (2026-03-20) — the database is just a file, no service required.
   - [ ] Auto-update running containers when a new image is pushed. Options: (1) Watchtower -- a container that monitors and auto-pulls new images, simplest for single-server; (2) Webhook-based deploy -- CI triggers a webhook on the server to run `docker compose pull && docker compose up -d`; (3) Cron job on the server that periodically pulls the latest image.
 - [ ] **Service watcher** ([#21](https://github.com/garyseconomics/chatbot/issues/21)) -- Monitor the bot service availability. Options: (1) HTTP `/health` endpoint polled by Uptime Kuma, or (2) a second bot that pings the main bot through the chat. Observer must run on a different host.
 - [ ] **Run tests inside Docker image in CI** ([#34](https://github.com/garyseconomics/chatbot/issues/34)) -- Add a CI step that runs `pytest` inside the built Docker image before pushing to GHCR. During Phase 1 day 2, a Langfuse v3→v4 breaking change was only caught in production because tests only ran locally.
@@ -35,7 +35,7 @@ Pending tasks and things to investigate.
 ## LLM_Client improvements
 
 - [ ] **Add other OpenAI-compatible providers** ([#29](https://github.com/garyseconomics/chatbot/issues/29)) -- Generalize the provider abstraction to support providers like [OpenRouter](https://openrouter.ai/models/?q=free). Currently `_create_chat_client()` always returns `ChatOllama` — needs to select the right LangChain class based on provider type. Combine with the prompt+LLM evaluation task (see Prompt improvements section) to test different model/prompt combinations.
-- [ ] **Embedding provider fallback** -- `get_embedding_model()` currently uses the first available provider with no invoke-level fallback. If a cloud embedding provider is added in the future, it should have the same retry/fallback logic as `chat()`.
+- [x] **Embedding provider fallback** -- `get_embedding_model()` currently uses the first available provider with no invoke-level fallback. If a cloud embedding provider is added in the future, it should have the same retry/fallback logic as `chat()`.
 - [ ] **Chat sessions** -- `LLM_Client` currently creates a new instance per call in `generate()`. For multi-turn conversations, a single instance should persist across the session to track `provider_name` and reuse the working provider.
 
 ## New functionality
@@ -48,13 +48,17 @@ Pending tasks and things to investigate.
   - [ ] Clean up and import transcripts from [garyseconomics/transcripts](https://github.com/garyseconomics/transcripts/tree/main/transcripts) — these need review before they can be used. Clean subtitles should be added to [garyseconomics/subtitle-data](https://github.com/garyseconomics/subtitle-data).
   - [ ] Add older videos (pre-2024) — YouTube's auto-generated subtitles from that era were poor quality. Can regenerate with current AI speech-to-text for better results.
   - [ ] Cambridge talk, Gary's book, interviews on other channels (need permission), Gary's university thesis.
-- [ ] **Bot lacks temporal awareness** ([#26](https://github.com/garyseconomics/chatbot/issues/26)) -- The bot treats all video content as equally recent because chunks have no date metadata. This causes confusion on time-sensitive topics (e.g., referencing the general election when asked about a recent by-election). Need to add video publish dates to chunk metadata and make the retrieval/generation pipeline date-aware.
+- [ ] **Bot lacks temporal awareness** ([#26](https://github.com/garyseconomics/chatbot/issues/26)) -- The bot treats all video content as equally recent because chunks have no date metadata. This causes confusion on time-sensitive topics (e.g., referencing the general election when asked about a recent by-election). Solving together with #36 (inline video links) — each subtitle fragment in the prompt will carry its video link and publish date, so the LLM can reason about recency.
+  - [ ] **Step 1: Rename SRT files to include publish dates** -- 14 of 39 files already have dates in the filename (`VIDEO_ID__YYYY-MM-DD_Title.srt`). Look up publish dates for the remaining 25 files and rename them to match the same format.
+  - [ ] **Step 2: Regenerate the vector database with date metadata** -- Update the import process (`srt_splitter.py`) to extract the publish date from the filename and store it in chunk metadata. Then regenerate the database so all chunks carry their video's publish date.
+  - [ ] **Step 3: Write tests for the new prompt format** -- Tests first. Write tests for the new context formatting that includes video links and dates with each subtitle fragment.
+  - [ ] **Step 4: Include dates and video links with each fragment in the prompt** -- Change `generate()` in `rag_manager.py` to format each chunk with its publish date and YouTube link. The LLM already knows the current date via `{current_datetime}`, so it can reason about which content is recent.
 
 ## Prompt improvements
 
-- [ ] **Evaluate prompt + LLM combinations** -- Test different prompt versions against different LLMs to find the best combination that meets all our requirements. Use Langfuse to run each combination against a set of test questions and compare results. The test questions from `tests/test_ask_questions.py` can be used as a starting dataset. Known prompt issues to address: bot exposes RAG internals ([#22](https://github.com/garyseconomics/chatbot/issues/22)), bot is too diplomatic ([#24](https://github.com/garyseconomics/chatbot/issues/24)), bot still impersonates Gary ([#25](https://github.com/garyseconomics/chatbot/issues/25)). Full list of prompt issues documented in `prompt_issues/prompt_issues.md`. When in doubt about whether Gary has covered a topic, check the subtitle repos: [subtitle-data](https://github.com/garyseconomics/subtitle-data) (imported into vector DB) and [transcripts](https://github.com/garyseconomics/transcripts/tree/main/transcripts) (to be cleaned up for import).
-  - [ ] **Include video links inline with subtitle fragments in the prompt** -- Currently video links are appended as a separate block at the end of the response. Instead, each subtitle fragment provided as context should carry its own video link, so the LLM can reference the correct source naturally within the answer. This is tied to #33 (message length) since inline links change how much space the response uses, and to the video link handling rework noted there.
-  - [ ] Store prompt versions in a MySQL table -- Move prompt text from `llm/prompt_template.py` to a `prompt_versions` table so different versions can be managed and referenced from traces.
+- [ ] **Evaluate prompt + LLM combinations** ([#37](https://github.com/garyseconomics/chatbot/issues/37)) -- Test different prompt versions against different LLMs to find the best combination that meets all our requirements. Use Langfuse to run each combination against a set of test questions and compare results. The test questions from `tests/test_ask_questions.py` can be used as a starting dataset. Covers the behaviour issues from Phase 1 testing (previously tracked as #22, #24, #25 — now closed and centralized in #37): bot exposes RAG internals, bot is too diplomatic, bot impersonates Gary, bot answers out-of-scope questions, bot gives financial advice, bot fabricates Gary's opinions, bot can be manipulated. Full list in `testing_phase_1/feedback_report.md`. Related: #26 (temporal awareness, tracked separately). When in doubt about whether Gary has covered a topic, check the subtitle repos: [subtitle-data](https://github.com/garyseconomics/subtitle-data) (imported into vector DB) and [transcripts](https://github.com/garyseconomics/transcripts/tree/main/transcripts) (to be cleaned up for import).
+  - [ ] **Include video links inline with subtitle fragments in the prompt** ([#36](https://github.com/garyseconomics/chatbot/issues/36)) -- Currently video links are appended as a separate block at the end of the response. Instead, each subtitle fragment provided as context should carry its own video link, so the LLM can reference the correct source naturally within the answer. This is tied to #33 (message length) since inline links change how much space the response uses, and to the video link handling rework noted there. **Being implemented as part of #26 (temporal awareness) — see RAG improvements section.**
+  - [ ] Store prompt versions in the analytics database -- Move prompt text from `llm/prompt_template.py` to a `prompt_versions` table in SQLite so different versions can be managed and referenced from traces.
   - [ ] Detect prompt version automatically in the importer -- Currently hardcoded to "2". The importer (`user_trace_importer.py`) should identify which prompt version was used for each trace.
 
 ## To investigate
@@ -84,8 +88,8 @@ Go through each one, simplify where possible, and make sure every test is unders
 ### Analytics
 
 - [x] **Export traces from Langfuse** -- Fetch all traces from Langfuse, classify them as user or other, and store them as JSON files in `analytics/raw_data/`. Run with `python -m analytics.export`.
-- [x] **Store user traces in MySQL database** -- Import clean user trace JSON files (from `analytics/raw_data/`) into a MySQL database for analysis. Script checks for duplicates before inserting. Run with `python -m analytics.setup_database` then `python -m analytics.user_trace_importer`.
-  - [x] Create the `user_traces` table in MySQL (trace_id, user_id, question, answer, timestamp, model, latency, prompt_version).
+- [x] **Store user traces in database** -- Import clean user trace JSON files (from `analytics/raw_data/`) into a SQLite database for analysis. Script checks for duplicates before inserting. Run with `python -m analytics.setup_database` then `python -m analytics.user_trace_importer`. Originally built with MySQL, switched to SQLite (2026-03-20) — no server needed.
+  - [x] Create the `user_traces` table in SQLite (trace_id, user_id, question, answer, timestamp, model, latency, prompt_version).
 - [x] **Visualize metrics from Phase 1 day 1 session** ([#27](https://github.com/garyseconomics/chatbot/issues/27)) -- Pull metrics from Phase 1 day 1 testing session (Langfuse traces, latency, error rates, usage patterns).
 
 ### LLM management
