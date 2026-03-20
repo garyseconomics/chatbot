@@ -3,10 +3,9 @@ import time
 
 import chromadb
 from langchain_chroma import Chroma
-from langchain_ollama import OllamaEmbeddings
 
 from config import settings
-from llm.llm_providers_helpers import select_llm_provider
+from llm.llm_manager import LLM_Client
 from vector_database.srt_splitter import get_splits_from_srt
 
 logger = logging.getLogger(__name__)
@@ -18,9 +17,8 @@ def get_chromadb_client(database_path):
 
 
 def get_or_create_vector_database(database_path):
-    llm_provider_name = select_llm_provider(settings.embedding_provider_priority)
-    host = settings.providers[llm_provider_name]["url"]
-    embeddings = OllamaEmbeddings(model=settings.embedding_model, base_url=host)
+    client = LLM_Client()
+    embeddings = client.get_embedding_model()
 
     # Create vector database with Chroma
     vector_store = Chroma(

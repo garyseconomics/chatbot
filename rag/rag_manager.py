@@ -6,7 +6,7 @@ from langgraph.graph import START, StateGraph
 from typing_extensions import List, TypedDict
 
 from config import settings
-from llm.llm_manager import llm_chat
+from llm.llm_manager import LLM_Client
 from llm.prompt_template import get_rag_prompt
 from vector_database.vector_database_manager import get_or_create_vector_database
 
@@ -34,7 +34,8 @@ def generate(state: State):
     prompt = get_rag_prompt()
     messages = prompt.invoke({"question": state["question"], "context": docs_content})
     logger.debug("Prompt generated:\n%s", messages)
-    response = llm_chat(messages, user_id=state["user_id"])
+    client = LLM_Client()
+    response = client.chat(messages, user_id=state["user_id"])
     return {"answer": response.content}
 
 
