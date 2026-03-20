@@ -44,11 +44,11 @@ class LLM_Client:
         self.max_attempts = len(settings.providers) * 3
 
     @observe(name="ollama_request", as_type="generation", capture_input=True, capture_output=True)
-    def chat(self, prompt, user_id) -> BaseMessage:
+    async def chat(self, prompt, user_id) -> BaseMessage:
         """Send a prompt to the LLM and return the response.
 
         Tries each reachable chat provider in priority order.
-        If invoke() fails on one provider, tries the next.
+        If ainvoke() fails on one provider, tries the next.
         """
         # Loop until a provider succeeds or _select_provider raises ConnectionError
         while True:
@@ -62,11 +62,11 @@ class LLM_Client:
                     user_id=user_id,
                     metadata={"model": llm.model, "provider": self.provider_name},
                 )
-                response = llm.invoke(prompt)
+                response = await llm.ainvoke(prompt)
                 langfuse_client.flush()
                 return response
             except Exception as e:
-                logger.warning("Provider %s failed on invoke: %s", self.provider_name, e)
+                logger.warning("Provider %s failed on ainvoke: %s", self.provider_name, e)
                 self.providers_errors[self.provider_name] = str(e)
                 self.provider_name = None
 
