@@ -2,16 +2,9 @@
 
 Pending tasks and things to investigate.
 
-## Make RAG_query async - Priority 0
-
-- [x] **Make RAG_query async (Phase 1)** -- `RAG_query` is now `async def` and uses `graph.ainvoke()`. The internal functions (`retrieve`, `generate`, `llm_chat`) are still sync — LangGraph runs them in threads automatically. Error handling simplified to a single `except` block with configurable messages in `settings.error_messages`.
-- [x] **Improve error messages** -- Error messages moved to `settings.error_messages` dict in `config.py`, keyed by exception class name. `RAG_query` looks up `type(e).__name__` and returns a user-facing message. Default message under `"DefaultError"` key.
-- [ ] **Make RAG_query async (Phase 2)** -- Convert `retrieve`, `generate` to async with `.ainvoke()` / `.asimilarity_search()` to make the pipeline fully async end-to-end. `LLM_Client.chat()` uses `llm.invoke()` — change to `llm.ainvoke()`. `retrieve()` uses `vector_store.similarity_search()` — change to `.asimilarity_search()`.
-- [x] **Update callers and tests for async RAG_query** -- All callers updated: Discord bot (`create_task`), Telegram bot (`await`), CLI chatbot (`asyncio.run`). All tests updated and simplified: `test_rag_manager.py` (3 tests, zero mocks), `test_chatbot.py` (1 test, 2 mocks), `test_telegram_bot.py` (2 tests, 2 mocks), `test_ask_questions.py` (async). Ruff clean.
-
 ## Bug fixes - Priority 1 (most urgent)
 
-- [ ] **Bot crashes when a user replies to a bot message in Discord** ([#23](https://github.com/garyseconomics/chatbot/issues/23)) -- When a user replies to one of the bot's messages mentioning the bot, the bot crashes with the generic error message. Need to check server logs to identify the root cause.
+- [ ] **Bot crashes when a user replies to a bot message in Discord** ([#23](https://github.com/garyseconomics/chatbot/issues/23)) -- When a user replies to one of the bot's messages, the bot crashes with the generic error message. Three crash examples found in `prompt_issues/discord_conversations_1.md` (two replies without explicit @mention, one with). Code analysis: `RAG_query` catches all exceptions internally, so the failure is most likely in `message.channel.send(rag_answer)` — probably Discord's 2000-char message limit (`discord.HTTPException`), which overlaps with #33. Other possible causes: intermittent LLM service errors, timeouts. **Next step:** check server logs (`docker compose logs discord-bot`) to confirm the exact exception.
 - [x] **Intermittent Ollama Cloud 500 errors** -- Ollama Cloud sometimes returns `ResponseError: Internal Server Error (status code: 500)`. Addressed by the `LLM_Client` refactor: `chat()` now falls back to the next provider when `invoke()` fails, and `_select_provider()` retries with error reset after exhausting all providers. Tests force self-hosted Ollama via `use_ollama_for_testing` fixture to avoid flaky cloud errors.
 - [ ] **Bots crash on long LLM answers** ([#33](https://github.com/garyseconomics/chatbot/issues/33)) -- Telegram bot crashes when the LLM returns an answer exceeding Telegram's 4096 character limit. No error handler registered, so the user never receives a response. Fix: split long messages into chunks ≤4096 chars or truncate with an indication.
 
@@ -50,11 +43,16 @@ Pending tasks and things to investigate.
 
 ## RAG improvements
 
+- [ ] **Add more content to the vector database** -- The current database only includes video subtitles from early 2024 to November 2025. Several important sources are missing. See `prompt_issues/prompt_issues.md` (Source Material Gaps) for the full list.
+  - [ ] Add subtitles for videos after November 2025.
+  - [ ] Clean up and import transcripts from [garyseconomics/transcripts](https://github.com/garyseconomics/transcripts/tree/main/transcripts) — these need review before they can be used. Clean subtitles should be added to [garyseconomics/subtitle-data](https://github.com/garyseconomics/subtitle-data).
+  - [ ] Add older videos (pre-2024) — YouTube's auto-generated subtitles from that era were poor quality. Can regenerate with current AI speech-to-text for better results.
+  - [ ] Cambridge talk, Gary's book, interviews on other channels (need permission), Gary's university thesis.
 - [ ] **Bot lacks temporal awareness** ([#26](https://github.com/garyseconomics/chatbot/issues/26)) -- The bot treats all video content as equally recent because chunks have no date metadata. This causes confusion on time-sensitive topics (e.g., referencing the general election when asked about a recent by-election). Need to add video publish dates to chunk metadata and make the retrieval/generation pipeline date-aware.
 
 ## Prompt improvements
 
-- [ ] **Evaluate prompt + LLM combinations** -- Test different prompt versions against different LLMs to find the best combination that meets all our requirements. Use Langfuse to run each combination against a set of test questions and compare results. The test questions from `tests/test_ask_questions.py` can be used as a starting dataset. Known prompt issues to address: bot exposes RAG internals ([#22](https://github.com/garyseconomics/chatbot/issues/22)), bot is too diplomatic ([#24](https://github.com/garyseconomics/chatbot/issues/24)), bot still impersonates Gary ([#25](https://github.com/garyseconomics/chatbot/issues/25)).
+- [ ] **Evaluate prompt + LLM combinations** -- Test different prompt versions against different LLMs to find the best combination that meets all our requirements. Use Langfuse to run each combination against a set of test questions and compare results. The test questions from `tests/test_ask_questions.py` can be used as a starting dataset. Known prompt issues to address: bot exposes RAG internals ([#22](https://github.com/garyseconomics/chatbot/issues/22)), bot is too diplomatic ([#24](https://github.com/garyseconomics/chatbot/issues/24)), bot still impersonates Gary ([#25](https://github.com/garyseconomics/chatbot/issues/25)). Full list of prompt issues documented in `prompt_issues/prompt_issues.md`. When in doubt about whether Gary has covered a topic, check the subtitle repos: [subtitle-data](https://github.com/garyseconomics/subtitle-data) (imported into vector DB) and [transcripts](https://github.com/garyseconomics/transcripts/tree/main/transcripts) (to be cleaned up for import).
   - [ ] Store prompt versions in a MySQL table -- Move prompt text from `llm/prompt_template.py` to a `prompt_versions` table so different versions can be managed and referenced from traces.
   - [ ] Detect prompt version automatically in the importer -- Currently hardcoded to "2". The importer (`user_trace_importer.py`) should identify which prompt version was used for each trace.
 
@@ -74,6 +72,13 @@ Go through each one, simplify where possible, and make sure every test is unders
 - [ ] **test_langfuse.py** — No mocks, integration tests.
 
 ## Done Tasks
+
+### Async RAG pipeline
+
+- [x] **Make RAG_query async (Phase 1)** -- `RAG_query` is now `async def` and uses `graph.ainvoke()`. The internal functions (`retrieve`, `generate`, `llm_chat`) are still sync — LangGraph runs them in threads automatically. Error handling simplified to a single `except` block with configurable messages in `settings.error_messages`.
+- [x] **Improve error messages** -- Error messages moved to `settings.error_messages` dict in `config.py`, keyed by exception class name. `RAG_query` looks up `type(e).__name__` and returns a user-facing message. Default message under `"DefaultError"` key.
+- [x] **Make RAG_query async (Phase 2)** -- Pipeline is now fully async end-to-end. `retrieve()` uses `await vector_store.asimilarity_search()`, `generate()` uses `await client.chat()`, and `LLM_Client.chat()` uses `await llm.ainvoke()`. All LLM manager tests updated to async. No more sync functions running in LangGraph's thread pool.
+- [x] **Update callers and tests for async RAG_query** -- All callers updated: Discord bot (`create_task`), Telegram bot (`await`), CLI chatbot (`asyncio.run`). All tests updated and simplified: `test_rag_manager.py` (3 tests, zero mocks), `test_chatbot.py` (1 test, 2 mocks), `test_telegram_bot.py` (2 tests, 2 mocks), `test_ask_questions.py` (async). Ruff clean.
 
 ### Analytics
 

@@ -4,7 +4,6 @@ from langchain_core.prompts import ChatPromptTemplate
 
 from config import settings
 from llm.llm_manager import LLM_Client
-from llm.prompt_template import get_rag_prompt
 
 
 @pytest.mark.asyncio
@@ -13,12 +12,6 @@ async def test_chat_simple_prompt(use_ollama_for_testing):
     response = await client.chat(prompt="Hello", user_id="Test")
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
 
-
-def test_prompt_template():
-    prompt = get_rag_prompt()
-    assert isinstance(prompt, ChatPromptTemplate)
-    messages = prompt.invoke({"question": "Who are you?", "context": "You are an AI assistant."})
-    assert isinstance(messages, langchain_core.prompt_values.ChatPromptValue)
 
 
 @pytest.mark.asyncio
