@@ -24,6 +24,7 @@ class Settings(BaseSettings):
 
     # LLM settings
     embedding_model: str = "qwen3-embedding:8b"
+    max_tokens: int = 500
 
     # Provider priority — try providers in this order, use the first available one.
     # Each name must match a key in the providers property below.
