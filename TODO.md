@@ -6,13 +6,13 @@ Pending tasks and things to investigate.
 
 - [x] **Make RAG_query async (Phase 1)** -- `RAG_query` is now `async def` and uses `graph.ainvoke()`. The internal functions (`retrieve`, `generate`, `llm_chat`) are still sync — LangGraph runs them in threads automatically. Error handling simplified to a single `except` block with configurable messages in `settings.error_messages`.
 - [x] **Improve error messages** -- Error messages moved to `settings.error_messages` dict in `config.py`, keyed by exception class name. `RAG_query` looks up `type(e).__name__` and returns a user-facing message. Default message under `"DefaultError"` key.
-- [ ] **Make RAG_query async (Phase 2)** -- Convert `retrieve`, `generate`, and `llm_chat` to async with `.ainvoke()` / `.asimilarity_search()` to make the pipeline fully async end-to-end.
+- [ ] **Make RAG_query async (Phase 2)** -- Convert `retrieve`, `generate` to async with `.ainvoke()` / `.asimilarity_search()` to make the pipeline fully async end-to-end. `LLM_Client.chat()` uses `llm.invoke()` — change to `llm.ainvoke()`. `retrieve()` uses `vector_store.similarity_search()` — change to `.asimilarity_search()`.
 - [x] **Update callers and tests for async RAG_query** -- All callers updated: Discord bot (`create_task`), Telegram bot (`await`), CLI chatbot (`asyncio.run`). All tests updated and simplified: `test_rag_manager.py` (3 tests, zero mocks), `test_chatbot.py` (1 test, 2 mocks), `test_telegram_bot.py` (2 tests, 2 mocks), `test_ask_questions.py` (async). Ruff clean.
 
 ## Bug fixes - Priority 1 (most urgent)
 
 - [ ] **Bot crashes when a user replies to a bot message in Discord** ([#23](https://github.com/garyseconomics/chatbot/issues/23)) -- When a user replies to one of the bot's messages mentioning the bot, the bot crashes with the generic error message. Need to check server logs to identify the root cause.
-- [ ] **Intermittent Ollama Cloud 500 errors** -- Ollama Cloud sometimes returns `ResponseError: Internal Server Error (status code: 500)`. Happens intermittently during tests and likely in production too. Need to investigate: is it a rate limit, model overload, or provider instability? Consider adding retry logic or falling back to the next provider in `chat_provider_priority`.
+- [x] **Intermittent Ollama Cloud 500 errors** -- Ollama Cloud sometimes returns `ResponseError: Internal Server Error (status code: 500)`. Addressed by the `LLM_Client` refactor: `chat()` now falls back to the next provider when `invoke()` fails, and `_select_provider()` retries with error reset after exhausting all providers. Tests force self-hosted Ollama via `use_ollama_for_testing` fixture to avoid flaky cloud errors.
 - [ ] **Bots crash on long LLM answers** ([#33](https://github.com/garyseconomics/chatbot/issues/33)) -- Telegram bot crashes when the LLM returns an answer exceeding Telegram's 4096 character limit. No error handler registered, so the user never receives a response. Fix: split long messages into chunks ≤4096 chars or truncate with an indication.
 
 ## Priority 2 (urgent)
@@ -39,9 +39,13 @@ Pending tasks and things to investigate.
 - [ ] **Run tests inside Docker image in CI** ([#34](https://github.com/garyseconomics/chatbot/issues/34)) -- Add a CI step that runs `pytest` inside the built Docker image before pushing to GHCR. During Phase 1 day 2, a Langfuse v3→v4 breaking change was only caught in production because tests only ran locally.
 - [ ] **Remove RequestsDependencyWarning filters** -- `requests 2.32.5` doesn't recognize `chardet 7.0.1` as compatible, causing a harmless `RequestsDependencyWarning`. We added filters in `discord_bot.py` and `pyproject.toml` to suppress it. Once `requests` releases a new version with updated version bounds, remove the filters from both files.
 
-## New functionality
+## LLM_Client improvements
 
-- [ ] **Add other OpenAI-compatible providers** ([#29](https://github.com/garyseconomics/chatbot/issues/29)) -- Generalize the provider abstraction to support providers like [OpenRouter](https://openrouter.ai/models/?q=free). Combine with the prompt+LLM evaluation task (see Prompt improvements section) to test different model/prompt combinations.
+- [ ] **Add other OpenAI-compatible providers** ([#29](https://github.com/garyseconomics/chatbot/issues/29)) -- Generalize the provider abstraction to support providers like [OpenRouter](https://openrouter.ai/models/?q=free). Currently `_create_chat_client()` always returns `ChatOllama` — needs to select the right LangChain class based on provider type. Combine with the prompt+LLM evaluation task (see Prompt improvements section) to test different model/prompt combinations.
+- [ ] **Embedding provider fallback** -- `get_embedding_model()` currently uses the first available provider with no invoke-level fallback. If a cloud embedding provider is added in the future, it should have the same retry/fallback logic as `chat()`.
+- [ ] **Chat sessions** -- `LLM_Client` currently creates a new instance per call in `generate()`. For multi-turn conversations, a single instance should persist across the session to track `provider_name` and reuse the working provider.
+
+## New functionality
 - [ ] **Multi-turn conversations** ([#6](https://github.com/garyseconomics/chatbot/issues/6)) -- Enable conversations with multiple interactions by implementing chat memory and a conversation loop, so the LLM receives the history of the conversation on each call. Note: the CLI chatbot will become a loop, so the current `asyncio.run()` wrapper (one-shot call) will need to change — likely to an async `main()` with `asyncio.run(main())` at the entry point.
 
 ## RAG improvements
@@ -77,6 +81,10 @@ Go through each one, simplify where possible, and make sure every test is unders
 - [x] **Store user traces in MySQL database** -- Import clean user trace JSON files (from `analytics/raw_data/`) into a MySQL database for analysis. Script checks for duplicates before inserting. Run with `python -m analytics.setup_database` then `python -m analytics.user_trace_importer`.
   - [x] Create the `user_traces` table in MySQL (trace_id, user_id, question, answer, timestamp, model, latency, prompt_version).
 - [x] **Visualize metrics from Phase 1 day 1 session** ([#27](https://github.com/garyseconomics/chatbot/issues/27)) -- Pull metrics from Phase 1 day 1 testing session (Langfuse traces, latency, error rates, usage patterns).
+
+### LLM management
+
+- [x] **Refactor LLM management into `LLM_Client` class** -- Consolidated all provider management (`llm_manager.py` + `llm_providers_helpers.py`) into a single `LLM_Client` class. `chat()` tries providers in priority order and falls back on invoke failure. `get_embedding_model()` returns an embedding model from the first available provider. `_select_provider()` handles both chat and embeddings with retry logic (do-while loop, error reset, `max_attempts` safety net). `providers_errors` dict tracks all failures. Callers (`rag_manager.py`, `vector_database_manager.py`) now use `LLM_Client` — no longer need to know about Ollama internals. `llm_providers_helpers.py` and its tests deleted. 12 tests including 3 error-path tests with `pytest.raises`.
 
 ### Operations
 
@@ -137,9 +145,9 @@ Go through each one, simplify where possible, and make sure every test is unders
   - [x] **test_rag_manager.py** — Simplified to 3 tests, zero mocks. Extracted `build_error_state()` to test error handling directly.
   - [x] **test_chatbot.py** — Simplified to 1 test, 2 mocks (RAG_query + input). Just verifies main() doesn't crash.
   - [x] **test_telegram_bot.py** — Simplified to 2 smoke tests. Verifies greeting and RAG answer reach send_message.
-  - [x] **tests/conftest.py** — Added autouse fixture to force local Ollama for all tests. Avoids intermittent Ollama Cloud 500 errors.
+  - [x] **tests/conftest.py** — Added `use_ollama_for_testing` fixture (not autouse — applied per-test via parameter) to force self-hosted Ollama for tests that hit the LLM. Avoids intermittent Ollama Cloud 500 errors.
   - [x] **test_srt_splitter.py** — Reviewed manually. Fine as-is.
   - [x] **test_config.py** — Reviewed manually. Fine as-is.
-  - [x] **test_llm_manager.py** — Reviewed manually. Fine as-is.
+  - [x] **test_llm_manager.py** — Rewritten for `LLM_Client` class. 12 tests covering chat, embeddings, fallback, and 3 error-path tests with `pytest.raises`.
   - [x] **test_video_links.py** — Reviewed manually. Fine as-is.
-  - [x] **test_llm_providers_helpers.py** — Reviewed manually. Fine as-is.
+  - [x] **test_llm_providers_helpers.py** — Deleted. Provider selection now tested via `LLM_Client` tests.
