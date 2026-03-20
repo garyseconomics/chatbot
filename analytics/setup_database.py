@@ -1,8 +1,7 @@
-"""One-time setup: creates the MySQL database, tables, and analytics user."""
+"""One-time setup: creates the SQLite database and user_traces table."""
 
 import logging
-
-import mysql.connector
+import sqlite3
 
 from config import settings
 
@@ -10,47 +9,28 @@ logger = logging.getLogger(__name__)
 
 
 def setup_database() -> None:
-    """Connect as root and create the database, user_traces table, and analytics user."""
-    conn = mysql.connector.connect(
-        host=settings.mysql_host,
-        port=settings.mysql_port,
-        user=settings.mysql_root_user,
-        password=settings.mysql_root_password,
-    )
+    """Create the SQLite database file and user_traces table."""
+    conn = sqlite3.connect(settings.analytics_db_path)
     cursor = conn.cursor()
-
-    db = settings.mysql_database
-    user = settings.mysql_user
-    password = settings.mysql_password
-
-    cursor.execute(f"CREATE DATABASE IF NOT EXISTS {db}")
-    cursor.execute(f"USE {db}")
 
     cursor.execute(
         "CREATE TABLE IF NOT EXISTS user_traces ("
-        "  trace_id VARCHAR(255) PRIMARY KEY,"
-        "  user_id VARCHAR(255),"
+        "  trace_id TEXT PRIMARY KEY,"
+        "  user_id TEXT,"
         "  question TEXT,"
         "  answer TEXT,"
-        "  timestamp DATETIME,"
-        "  model VARCHAR(100),"
-        "  latency FLOAT,"
-        "  prompt_version VARCHAR(50)"
+        "  timestamp TEXT,"
+        "  model TEXT,"
+        "  latency REAL,"
+        "  prompt_version TEXT"
         ")"
     )
-
-    # Create the analytics user with only the permissions it needs.
-    # Uses '%' (any host) because when MySQL runs in Docker, connections
-    # come from the Docker bridge IP (e.g. 172.17.0.1), not 'localhost'.
-    cursor.execute(f"CREATE USER IF NOT EXISTS '{user}'@'%' IDENTIFIED BY '{password}'")
-    cursor.execute(f"GRANT SELECT, INSERT ON {db}.* TO '{user}'@'%'")
-    cursor.execute("FLUSH PRIVILEGES")
 
     conn.commit()
     cursor.close()
     conn.close()
 
-    logger.info("Database '%s' and table 'user_traces' created successfully", db)
+    logger.info("SQLite database and table 'user_traces' ready at %s", settings.analytics_db_path)
 
 
 if __name__ == "__main__":

@@ -96,14 +96,8 @@ class Settings(BaseSettings):
     langfuse_secret_key: str = ""
     langfuse_host: str = "https://cloud.langfuse.com"
 
-    # MySQL — read from MYSQL_* env vars in .env
-    mysql_host: str = "localhost"
-    mysql_port: int = 3306
-    mysql_user: str = ""
-    mysql_password: str = ""
-    mysql_database: str = ""
-    mysql_root_user: str = "root"
-    mysql_root_password: str = ""
+    # Analytics database — SQLite file path
+    analytics_db_path: str = "./analytics/analytics.db"
 
 
 settings = Settings()

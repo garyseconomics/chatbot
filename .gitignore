@@ -214,5 +214,6 @@ __marimo__/
 # Chroma database
 chroma_langchain_db/
 
-# Langfuse raw data exports
+# Analytics — raw exports and SQLite database
 analytics/raw_data/
+analytics/*.db

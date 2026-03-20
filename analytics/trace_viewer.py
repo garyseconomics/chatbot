@@ -1,34 +1,18 @@
-"""CLI viewer for user traces stored in MySQL."""
+"""CLI viewer for user traces stored in SQLite."""
 
-import mysql.connector
-from mysql.connector import errorcode
+import sqlite3
 
 from config import settings
-
-_MISSING_DB_OR_TABLE = (errorcode.ER_BAD_DB_ERROR, errorcode.ER_NO_SUCH_TABLE)
 
 _MAX_ANSWER_LENGTH = 300
 
 
-def fetch_user_traces() -> list[tuple]:
+def fetch_user_traces(db_path: str = None) -> list[tuple]:
     """Fetch all user traces from the database, ordered by timestamp descending."""
-    try:
-        conn = mysql.connector.connect(
-            host=settings.mysql_host,
-            port=settings.mysql_port,
-            user=settings.mysql_user,
-            password=settings.mysql_password,
-            database=settings.mysql_database,
-        )
-    except mysql.connector.Error as err:
-        if err.errno in _MISSING_DB_OR_TABLE:
-            print(
-                "Database not found. Run setup_database.py first:\n"
-                "  python -m analytics.setup_database"
-            )
-            return []
-        raise
+    if db_path is None:
+        db_path = settings.analytics_db_path
 
+    conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     try:
         cursor.execute(

@@ -16,7 +16,7 @@ dependencies = [
     "langgraph",
     "ollama",
     "pysrt",
-    "mysql-connector-python",
+
     "pydantic-settings",
     "python-telegram-bot",
 ]

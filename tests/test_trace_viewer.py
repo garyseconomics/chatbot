@@ -1,7 +1,8 @@
 """Tests for the CLI trace viewer."""
 
-from unittest.mock import MagicMock, patch
+import sqlite3
 
+from analytics.setup_database import setup_database
 from analytics.trace_viewer import fetch_user_traces, format_trace
 
 SAMPLE_ROW = (
@@ -16,36 +17,43 @@ SAMPLE_ROW = (
 )
 
 
+def _create_test_db(tmp_path) -> str:
+    """Create a test SQLite database with the user_traces table and return its path."""
+    db_path = str(tmp_path / "test.db")
+    import analytics.setup_database as setup_mod
+    original = setup_mod.settings.analytics_db_path
+    setup_mod.settings.analytics_db_path = db_path
+    setup_database()
+    setup_mod.settings.analytics_db_path = original
+    return db_path
+
+
 # --- fetch_user_traces tests ---
 
 
 # Should query the database and return all rows.
-@patch("analytics.trace_viewer.mysql.connector.connect")
-def test_fetch_user_traces_returns_rows(mock_connect):
-    conn = MagicMock()
-    cursor = MagicMock()
-    mock_connect.return_value = conn
-    conn.cursor.return_value = cursor
-    cursor.fetchall.return_value = [SAMPLE_ROW]
+def test_fetch_user_traces_returns_rows(tmp_path):
+    db_path = _create_test_db(tmp_path)
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+    cursor.execute(
+        "INSERT INTO user_traces VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        SAMPLE_ROW,
+    )
+    conn.commit()
+    conn.close()
 
-    rows = fetch_user_traces()
+    rows = fetch_user_traces(db_path=db_path)
 
     assert len(rows) == 1
     assert rows[0] == SAMPLE_ROW
-    cursor.execute.assert_called_once()
-    conn.close.assert_called_once()
 
 
 # Should return an empty list when there are no traces.
-@patch("analytics.trace_viewer.mysql.connector.connect")
-def test_fetch_user_traces_returns_empty_when_no_data(mock_connect):
-    conn = MagicMock()
-    cursor = MagicMock()
-    mock_connect.return_value = conn
-    conn.cursor.return_value = cursor
-    cursor.fetchall.return_value = []
+def test_fetch_user_traces_returns_empty_when_no_data(tmp_path):
+    db_path = _create_test_db(tmp_path)
 
-    rows = fetch_user_traces()
+    rows = fetch_user_traces(db_path=db_path)
 
     assert rows == []
 
