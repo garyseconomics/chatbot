@@ -144,7 +144,6 @@ class LLM_Client:
         kwargs: dict = {
             "model": provider["chat_model"],
             "base_url": provider["url"],
-            "num_predict": settings.max_tokens,
         }
         # Pass auth headers for cloud providers (e.g., Ollama Cloud)
         if provider["api_key"]:
