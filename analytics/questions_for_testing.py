@@ -1,14 +1,17 @@
-questions_list = [
-    "What is wealth?",
-    "If we tax the rich, will they leave?",
-    "How to fix the economy?",
-    "Who is Gary?",
-    "Tell me about the channel",
-    "What is Gary's opinion about the Labour party?",
-    ]
-
-# Questions from Phase 1 testing, grouped by the prompt issue they exposed.
-issue_questions = {
+questions = {
+    "general": [
+        # "What is wealth?" — Watch for incomplete answers that only mention
+        # physical assets (property, land, factories) because the source material
+        # emphasises those. Wealth also includes financial assets (stocks, bonds,
+        # pensions). The answer should be complete even if the source material
+        # isn't. See prompt_issues.md "Answers mirror gaps in source material".
+        "What is wealth?",
+        "If we tax the rich, will they leave?",
+        "How to fix the economy?",
+        "Who is Gary?",
+        "Tell me about the channel",
+        "What is Gary's opinion about the Labour party?",
+    ],
     "too_diplomatic": [
         "That's cool. What do you think about bitcoin?",
         "What does Gary think about cryptocurrency?",

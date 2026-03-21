@@ -215,7 +215,7 @@ __marimo__/
 chroma_langchain_db/
 
 # Sensitive test questions (troll/censorship examples)
-tests/sensitive_questions_for_testing.py
+analytics/sensitive_questions_for_testing.py
 
 # Analytics — raw exports and SQLite database
 analytics/raw_data/

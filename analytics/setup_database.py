@@ -26,11 +26,23 @@ def setup_database() -> None:
         ")"
     )
 
+    cursor.execute(
+        "CREATE TABLE IF NOT EXISTS qa_test_results ("
+        "  id INTEGER PRIMARY KEY AUTOINCREMENT,"
+        "  timestamp TEXT,"
+        "  issue_category TEXT,"
+        "  question TEXT,"
+        "  answer TEXT,"
+        "  chat_model TEXT,"
+        "  prompt_version TEXT"
+        ")"
+    )
+
     conn.commit()
     cursor.close()
     conn.close()
 
-    logger.info("SQLite database and table 'user_traces' ready at %s", settings.analytics_db_path)
+    logger.info("SQLite database ready at %s", settings.analytics_db_path)
 
 
 if __name__ == "__main__":

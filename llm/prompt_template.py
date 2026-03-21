@@ -90,9 +90,10 @@ RAG_PROMPT_TEXT_V3 = (
     "Step 2: Synthesise the information into a clear, complete answer"
     " that covers the key points from the material.\n"
     "Step 3: You may use general knowledge to supplement your"
-    " explanation, but your answer should be grounded in the"
-    " reference material. Do not express opinions or positions"
-    " that are not supported by the material.\n"
+    " explanation, especially when the reference material covers"
+    " a topic partially and could give an incomplete or misleading"
+    " impression on its own. However, do not express opinions or"
+    " positions that are not supported by the material.\n"
     "Step 4: Answer naturally. Never mention"
     ' "the provided content", "the reference material",'
     ' "the transcript", "the context".'
