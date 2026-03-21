@@ -76,6 +76,15 @@ async def test_provider_name_set_after_chat(use_ollama_for_testing):
     assert client.provider_name is not None
 
 
+@pytest.mark.asyncio
+async def test_chat_model_returns_model_name(use_ollama_for_testing):
+    client = LLM_Client()
+    assert client.chat_model is None
+    await client.chat(prompt="Hello", user_id="Test")
+    expected_model = settings.providers[client.provider_name]["chat_model"]
+    assert client.chat_model == expected_model
+
+
 def test_get_embedding_model(use_ollama_for_testing):
     client = LLM_Client()
     embeddings = client.get_embedding_model()

@@ -82,6 +82,13 @@ class LLM_Client:
         )
         return OllamaEmbeddings(model=settings.embedding_model, base_url=provider["url"])
 
+    @property
+    def chat_model(self) -> str | None:
+        """Return the chat model name of the provider that handled the last request."""
+        if self.provider_name is None:
+            return None
+        return settings.providers[self.provider_name]["chat_model"]
+
     def has_provider_failed(self, provider_name) -> bool:
         return provider_name in self.providers_errors
 

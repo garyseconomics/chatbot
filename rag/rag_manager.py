@@ -19,6 +19,7 @@ class State(TypedDict):
     user_id: str
     context: List[Document]
     answer: str
+    chat_model: str
 
 
 # Define application steps
@@ -36,7 +37,7 @@ async def generate(state: State):
     logger.debug("Prompt generated:\n%s", messages)
     client = LLM_Client()
     response = await client.chat(messages, user_id=state["user_id"])
-    return {"answer": response.content}
+    return {"answer": response.content, "chat_model": client.chat_model}
 
 
 def build_error_state(e, question, user_id) -> State:
@@ -48,6 +49,7 @@ def build_error_state(e, question, user_id) -> State:
         "user_id": user_id,
         "context": [],
         "answer": settings.error_messages.get(error_type, default_message),
+        "chat_model": "",
     }
 
 
