@@ -119,6 +119,10 @@ All settings live in `config.py` as a `pydantic-settings` `BaseSettings` class w
   then implement the code to make them pass.
 - **No magic.** Avoid complex abstractions, metaprogramming, or "clever" patterns
   unless explicitly discussed and agreed upon.
+- **Verify before batch execution.** Before running a script that repeats the same
+  task many times (e.g., calling the RAG pipeline for 96 questions and storing results),
+  first run it on just a couple of examples and verify the output is correct. This
+  catches issues like empty responses before wasting time on a full run.
 
 ### Code style
 - Follow PEP 8 and standard Python conventions.

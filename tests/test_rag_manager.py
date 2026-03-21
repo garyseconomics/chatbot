@@ -36,3 +36,15 @@ async def test_rag_query_end_to_end(use_ollama_for_testing):
     assert isinstance(response["answer"], str)
     assert isinstance(response["chat_model"], str)
     assert len(response["chat_model"]) > 0
+    assert len(response["answer"]) > 0
+
+
+@pytest.mark.asyncio
+async def test_rag_query_ollama_cloud():
+    """Verify qwen3-next:80b returns a non-empty answer."""
+    settings.chat_provider_priority = ["ollama_cloud"]
+    question = "What is wealth?"
+    response = await RAG_query(question, user_id="test")
+
+    assert len(response["answer"]) > 0
+    assert response["chat_model"] == "qwen3-next:80b"
