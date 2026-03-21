@@ -17,7 +17,7 @@ Pending tasks and things to investigate.
 
 ## New functionality
 - [ ] **Add other OpenAI-compatible providers** ([#29](https://github.com/garyseconomics/chatbot/issues/29)) -- Generalize the provider abstraction to support providers like [OpenRouter](https://openrouter.ai/models/?q=free). Currently `_create_chat_client()` always returns `ChatOllama` — needs to select the right LangChain class based on provider type. Combine with the prompt+LLM evaluation task (see Prompt improvements section) to test different model/prompt combinations.
-- [ ] **Multi-turn conversations** ([#6](https://github.com/garyseconomics/chatbot/issues/6)) -- Enable conversations with multiple interactions by implementing chat memory and a conversation loop, so the LLM receives the history of the conversation on each call. Note: the CLI chatbot will become a loop, so the current `asyncio.run()` wrapper (one-shot call) will need to change — likely to an async `main()` with `asyncio.run(main())` at the entry point.
+- [ ] **Multi-turn conversations** ([#6](https://github.com/garyseconomics/chatbot/issues/6)) -- Enable conversations with multiple interactions by implementing chat memory and a conversation loop, so the LLM receives the history of the conversation on each call. One of the most requested features from Phase 1 testers. Plan: implement, test, measure the extra cost (longer prompts = more tokens), then check with Gary's team whether to enable it for Phase 2. Note: the CLI chatbot will become a loop, so the current `asyncio.run()` wrapper (one-shot call) will need to change — likely to an async `main()` with `asyncio.run(main())` at the entry point.
 - [ ] **Chat sessions** -- `LLM_Client` currently creates a new instance per call in `generate()`. For multi-turn conversations, a single instance should persist across the session to track `provider_name` and reuse the working provider.
 
 ## RAG improvements
@@ -42,6 +42,7 @@ Pending tasks and things to investigate.
 
 ## To investigate
 
+- [ ] **LLM-as-judge evaluation pipeline** (part of [#37](https://github.com/garyseconomics/chatbot/issues/37)) -- Run each test question against multiple (prompt × model) combinations and use an LLM judge to evaluate whether the answer meets the expected behavior criteria. This gives a systematic way to compare prompt versions and model backends. Tasks: (1) define evaluation dataset format and create initial entries from known issues; (2) build the eval pipeline to run questions against combinations; (3) implement LLM-as-judge scoring against expected behavior criteria; (4) store results in a database/file for comparison across runs; (5) re-run the eval pipeline after each prompt change to check for regressions.
 - [ ] **DSPy** -- Framework for programming (not prompting) language models. Explore for
   prompt optimization and evaluation. See `prompt_experiments.py` for initial experiments.
 - [ ] **MLflow** -- Platform for tracking ML experiments, models, and metrics. Explore for
