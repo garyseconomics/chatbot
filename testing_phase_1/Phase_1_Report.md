@@ -60,27 +60,11 @@ This is an open-source project licensed under GPLv3. If you want to contribute b
 
 Your testing uncovered several bugs in how the bot runs. For full technical details, see [technical_issues.md](technical_issues.md).
 
-### Bot kept crashing and restarting (fixed)
-
-During the first days of testing, users saw "Sorry, something went wrong" errors or the bot stopped responding entirely, followed by a restart greeting. This was the most disruptive issue — server logs showed 46 reconnects.
-
-The root cause was that each question took 30–50 seconds to process, and during that time the bot couldn't send the regular "I'm still alive" signal that Discord requires. Discord assumed the bot had died and kicked it. We first added a "Thinking..." message to keep the connection alive, then properly fixed the bot so it can answer questions and stay connected at the same time.
-
-### Errors under load (fixed)
-
-The external AI service we used (Ollama Cloud) only allows a small number of simultaneous requests. When too many people asked questions at the same time, some got errors. We fixed this by adding automatic fallback — if one provider is busy or fails, the bot tries the next one.
-
-### Empty or cut-off answers (fixed)
-
-Some answers came back empty or stopped mid-sentence. The AI model we use thinks internally before answering, and that internal thinking was eating into the space available for the visible answer. We removed the artificial limit on answer length, which fixed the problem.
-
-### Answers too long for Discord and Telegram (not yet fixed)
-
-Discord has a 2,000-character limit and Telegram has a 4,096-character limit for messages. When the bot produced a longer answer, it crashed instead of splitting the message. This hasn't been fixed yet. Our initial solution didn't work (created the "Empty or cut-off answers" bug). We need to find a permanent fix.
-
-### Dependency update broke the bot (fixed)
-
-While deploying the crash fix, an automatic update to one of our software dependencies introduced a breaking change. The bot crashed repeatedly for a short window until we locked the dependency to the working version. This is why we need automated testing of the deployment process — something we're working on.
+- **Bot kept crashing and restarting (fixed).** During the first days, users saw errors or the bot stopped responding, followed by a restart greeting. The bot took too long to answer and Discord thought it had died. We fixed this so the bot can process questions and stay connected at the same time.
+- **Errors when many people asked at once (fixed).** The external AI service has a limit on simultaneous requests. When too many people asked at the same time, some got errors. We added automatic fallback — if one service is busy, the bot tries another.
+- **Empty or cut-off answers (fixed).** Some answers came back blank or stopped mid-sentence. We found and removed an internal limit that was cutting them short.
+- **Answers too long for Discord and Telegram (not yet fixed).** Discord and Telegram have character limits on messages. When the bot writes a longer answer, it crashes instead of splitting the message. Our initial solution didn't work (created the "Empty or cut-off answers" bug). Still working on a permanent fix.
+- **A software update broke the bot (fixed).** While deploying one of the fixes above, an automatic update broke things. The bot crashed for a short window until we rolled it back.
 
 ## Prompt issues
 
@@ -112,7 +96,7 @@ When the bot couldn't find relevant content from Gary's videos, it used to give 
 
 However, the bot's database only covers videos from 2024 onwards. This means that for topics Gary covered in older videos (like cryptocurrency), the bot doesn't find the content and stays silent instead of reflecting his views. Adding the older video subtitles will give the bot the full picture.
 
-### The bot exposed its internals (partially fixed — most common remaining issue)
+### The bot revealed how it works when it shouldn't (partially fixed — most common remaining issue)
 
 With the first prompt, the bot constantly said things like "the provided content does not include..." — revealing how it works internally. We fixed that, but overcorrected: when a tester asked "I was told you use Gary's transcripts — is this true?", the bot denied it completely ("No, that's not correct"). One tester's verdict: "You sound like someone who has access to Google and has spent far too much time on LinkedIn."
 
@@ -128,7 +112,7 @@ Testers found creative ways to trick the bot:
 
 ### The bot didn't know what year it was (not yet fixed)
 
-A tester asked for a video transcript from October 2025. The bot replied: "that date has not yet occurred" — in March 2026. We now inject the current date and time into every question, but the AI model ignores it and says "I don't have real-time information." This is a model behaviour issue we're still working on.
+A tester asked for a video transcript from October 2025. The bot replied: "that date has not yet occurred" — in March 2026. We've tried telling the bot the current date, but the AI model ignores it and says "I don't have real-time information." Still working on this.
 
 ### Incomplete answers from incomplete source material (addressed)
 
@@ -150,6 +134,6 @@ The bots will keep running — testers are welcome to keep using them. We'll kee
 - **Improve time awareness and video links.** The bot doesn't handle dates well and video links in answers need work.
 - **Add more external AI providers.** To improve scalability for Phase 2.
 - **Test prompt and model combinations.** We've compiled test questions from Phase 1 feedback. We'll test different prompt versions against different models to find what works best.
-- **Multi-turn conversations.** Currently the bot treats each message independently — it doesn't remember what you said earlier. This was one of the most requested features. We'll implement it, test it, and measure the extra cost (longer prompts mean more tokens). Then we'll check with Gary's team whether to enable it for Phase 2.
+- **Multi-turn conversations.** Currently the bot treats each message independently — it doesn't remember what you said earlier. This was one of the most requested features. We'll implement it, test it, and measure the extra cost it adds. Then we'll check with Gary's team whether to enable it for Phase 2.
 
 Thank you for your time, your creativity, and your determination to break things. It worked.
