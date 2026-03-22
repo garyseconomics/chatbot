@@ -165,6 +165,11 @@ All settings live in `config.py` as a `pydantic-settings` `BaseSettings` class w
 - Never put personal information (names, paths, credentials) in tracked files.
 - Anything private or local-only must go in files listed in `.gitignore`.
 - **Never read `.env`** — it contains secrets (API keys, tokens). Use `.env.sample` to understand the expected variables.
+- **NEVER share real user information publicly.** This includes user IDs, usernames,
+  or any identifying information from Discord, Telegram, or any other platform — even
+  partial IDs. When writing GitHub issues, comments, reports, or any tracked file,
+  refer to users only by platform (e.g., "a Discord user", "2 Telegram users"). User
+  data stays in the local analytics database only.
 
 ### Running tests
 ```bash
