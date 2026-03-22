@@ -124,7 +124,9 @@ Phase 1 testing is complete. The issues you found are documented and the prompt 
 
 ### Performance and resource estimation
 
-The bots will keep running — testers are welcome to keep using them. We'll keep collecting usage and performance data, analyse what we gathered during Phase 1, and use it to estimate the resources we need for Phase 2.
+During Phase 1 we switched from an AI server that MakeSpace Madrid association (https://makespacemadrid.org/) let us use for free, to a commercial provider (Ollama Cloud). This made the bot about **6x faster** — average response time went from **59 seconds** down to **11 seconds**. The full latency analysis is in [latency_report_chat_model.md](latency_report_chat_model.md).
+
+The bots will keep running and testers are welcome to keep using them. We'll continue collecting usage and performance data to plan the infrastructure for Phase 2.
 
 ### Improving the bot
 
