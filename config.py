@@ -76,7 +76,7 @@ class Settings(BaseSettings):
         "I'm back online! We're still in the testing phase, "
         "so I may restart from time to time. Feel free to keep asking questions."
     )
-    discord_channel_for_bot_greeting: str = "github"
+    discord_channel: str = "youtube-chatbot"
 
     # User-facing error messages — keyed by exception class name.
     error_messages: dict[str, str] = {

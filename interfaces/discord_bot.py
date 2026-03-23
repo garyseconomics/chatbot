@@ -21,13 +21,15 @@ logger = logging.getLogger(__name__)
 THINKING_INTERVAL = 30  # seconds between thinking indicators
 
 
-def should_respond(author_id, bot_id, is_dm, is_mentioned) -> bool:
+def should_respond(author_id, bot_id, is_dm, is_mentioned, channel_name) -> bool:
     """Decide whether the bot should respond to this message."""
     if author_id == bot_id:
         return False
-    if not is_dm and not is_mentioned:
-        return False
-    return True
+    if is_dm:
+        return True
+    if is_mentioned and channel_name == settings.discord_channel:
+        return True
+    return False
 
 
 def strip_bot_mention(content, bot_id) -> str:
@@ -55,9 +57,9 @@ async def wait_with_thinking(channel, task, interval):
 
 async def send_greeting(text_channels):
     """Find the configured channel and send the greeting message."""
-    channel = discord.utils.get(text_channels, name=settings.discord_channel_for_bot_greeting)
+    channel = discord.utils.get(text_channels, name=settings.discord_channel)
     if channel is None:
-        logger.error("Channel '%s' not found", settings.discord_channel_for_bot_greeting)
+        logger.error("Channel '%s' not found", settings.discord_channel)
         return
     await channel.send(settings.bot_greeting)
 
@@ -93,6 +95,7 @@ class DiscordClient:
                 bot_id=self.bot.user.id,
                 is_dm=message.guild is None,
                 is_mentioned=self.bot.user in message.mentions,
+                channel_name=getattr(message.channel, "name", None),
             ):
                 return
 

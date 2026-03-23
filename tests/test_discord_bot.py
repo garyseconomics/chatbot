@@ -16,34 +16,64 @@ from interfaces.discord_bot import (
 
 def test_ignores_own_messages():
     """The bot should not respond to its own messages to avoid infinite loops."""
-    respond = should_respond(author_id=123, bot_id=123, is_dm=False, is_mentioned=False)
+    respond = should_respond(
+        author_id=123, bot_id=123, is_dm=False, is_mentioned=False,
+        channel_name="youtube-chatbot",
+    )
     assert respond is False
 
 
 def test_ignores_own_messages_in_dm():
-    respond = should_respond(author_id=123, bot_id=123, is_dm=True, is_mentioned=False)
+    respond = should_respond(
+        author_id=123, bot_id=123, is_dm=True, is_mentioned=False,
+        channel_name=None,
+    )
     assert respond is False
 
 
 def test_ignores_guild_messages_without_mention():
     """In guild channels, the bot only responds when explicitly @mentioned."""
-    respond = should_respond(author_id=999, bot_id=123, is_dm=False, is_mentioned=False)
+    settings.discord_channel = "youtube-chatbot"
+    respond = should_respond(
+        author_id=999, bot_id=123, is_dm=False, is_mentioned=False,
+        channel_name="youtube-chatbot",
+    )
     assert respond is False
 
 
-def test_responds_when_mentioned_in_guild():
-    respond = should_respond(author_id=999, bot_id=123, is_dm=False, is_mentioned=True)
+def test_responds_when_mentioned_in_allowed_channel():
+    settings.discord_channel = "youtube-chatbot"
+    respond = should_respond(
+        author_id=999, bot_id=123, is_dm=False, is_mentioned=True,
+        channel_name="youtube-chatbot",
+    )
     assert respond is True
+
+
+def test_ignores_mention_in_other_channel():
+    """The bot should ignore mentions in channels other than the allowed one."""
+    settings.discord_channel = "youtube-chatbot"
+    respond = should_respond(
+        author_id=999, bot_id=123, is_dm=False, is_mentioned=True,
+        channel_name="general",
+    )
+    assert respond is False
 
 
 def test_responds_to_dm_without_mention():
     """In DMs, the bot responds to any message without requiring an @mention."""
-    respond = should_respond(author_id=999, bot_id=123, is_dm=True, is_mentioned=False)
+    respond = should_respond(
+        author_id=999, bot_id=123, is_dm=True, is_mentioned=False,
+        channel_name=None,
+    )
     assert respond is True
 
 
 def test_responds_to_dm_with_mention():
-    respond = should_respond(author_id=999, bot_id=123, is_dm=True, is_mentioned=True)
+    respond = should_respond(
+        author_id=999, bot_id=123, is_dm=True, is_mentioned=True,
+        channel_name=None,
+    )
     assert respond is True
 
 
@@ -135,7 +165,7 @@ async def test_typing_indicator_after_first_thinking_message():
 
 @pytest.mark.asyncio
 async def test_send_greeting_sends_to_matching_channel():
-    settings.discord_channel_for_bot_greeting = "test-channel"
+    settings.discord_channel = "test-channel"
     settings.bot_greeting = "Hello testers!"
 
     channel = AsyncMock()
@@ -148,7 +178,7 @@ async def test_send_greeting_sends_to_matching_channel():
 
 @pytest.mark.asyncio
 async def test_send_greeting_does_nothing_when_channel_not_found():
-    settings.discord_channel_for_bot_greeting = "test-channel"
+    settings.discord_channel = "test-channel"
 
     channel = AsyncMock()
     channel.name = "other-channel"
