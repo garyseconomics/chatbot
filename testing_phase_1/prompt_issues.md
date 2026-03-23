@@ -213,6 +213,14 @@ Prompt v3 + `qwen3-next:80b` tested on 2026-03-21 against 118 questions (96 stan
 - **Notes:** The key insight is that being grounded in the source material should not mean being *limited* by its gaps. When the material covers a topic partially and could give an incomplete or misleading impression, the bot should use general knowledge to complete the picture — as long as the addition doesn't contradict the channel's views.
   - **Prompt fix applied:** Step 3 updated from "You may use general knowledge to supplement your explanation, but your answer should be grounded in the reference material" to "You may use general knowledge to supplement your explanation, especially when the reference material covers a topic partially and could give an incomplete or misleading impression on its own."
 
+### Bot refuses legitimate economics questions
+- **Description:** When the source material has no relevant information about an economics topic, the bot refused to answer entirely, saying it doesn't have information from Gary's videos. An economics chatbot should still be able to explain well-known economic concepts, even if Gary hasn't discussed them specifically.
+- **Examples:**
+  - A Discord user asked "can you explain the laffer curve and comment upon evidence found in recent real-world examples which either validate or contest the theory" → Bot replied: "I don't have any details on the Laffer Curve from Gary's videos. He hasn't talked about it in his content, so I can't explain it or give real-world examples based on his work." — a complete refusal to discuss a mainstream economics concept.
+- **Prompt v3 status (before fix):** This was caused by Step 5 in the HOW TO ANSWER section, which instructed the bot to say it doesn't have information and refuse to answer from general knowledge whenever the source material didn't cover the topic. This made no distinction between economics and non-economics questions.
+- **Prompt v3 fix (2026-03-23):** Updated Steps 3 and 5. Step 3 now explicitly allows answering economics questions from general knowledge when the source material has no relevant information, with guidance to be cautious and frame answers consistently with the channel's perspective (critical of wealth inequality, supportive of progressive taxation, sceptical of trickle-down economics). Step 5 now only refuses non-economics questions, not economics ones.
+- **Notes:** The hierarchy is: (1) use source material when available, (2) for economics questions without source material, answer from general knowledge but be more cautious and align with the channel's views, (3) for non-economics questions without source material, refuse and redirect. This balances being a useful economics chatbot with not fabricating Gary's opinions.
+
 ## Source Material Gaps
 
 > Note: These are not prompt issues per se, but affect the quality of answers the prompt can produce.

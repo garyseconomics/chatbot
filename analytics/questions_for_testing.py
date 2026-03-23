@@ -112,6 +112,16 @@ questions = {
     # TODO: Cross-check with Gary's video content to verify which topics
     # Gary has actually covered, so we know what answers are valid.
     # E.g., game theory and book recommendations are topics Gary has discussed.
+    "refuses_economics_questions": [
+        # The bot was refusing to answer legitimate economics questions when
+        # the source material didn't cover the topic. An economics chatbot
+        # should still be able to explain economic concepts like the Laffer
+        # curve, even if Gary hasn't discussed them specifically.
+        # Fixed in prompt v3 (2026-03-23) by updating Steps 3 and 5.
+        "can you explain the laffer curve and comment upon evidence found in"
+        " recent real-world examples which either validate or contest the"
+        " theory",
+    ],
     "expresses_opinions_gary_hasnt": [
         "What are your predictions for the American economy over the coming year?",
         "What are your predictions for the German economy over the coming year?",
