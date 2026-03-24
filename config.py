@@ -71,7 +71,7 @@ class Settings(BaseSettings):
 
     # App
     app_name: str = "GarysEconomics_bot"
-    log_level: str = "DEBUG"
+    log_level: str = "INFO"
     bot_greeting: str = (
         "I'm back online! We're still in the testing phase, "
         "so I may restart from time to time. Feel free to keep asking questions."
