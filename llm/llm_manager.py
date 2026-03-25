@@ -39,13 +39,6 @@ class LLM_Client:
         except (urllib.error.URLError, OSError, ValueError):
             return False
 
-    def _mark_provider_failed(self, error):
-        """Log the failure, record the error, and reset so the next iteration picks a new provider."""
-        logger.warning("Provider %s failed on ainvoke: %s", self.chat_provider_name, error)
-        self.providers_errors[self.chat_provider_name] = str(error)
-        self.chat_provider_name = None
-        self.chat_model = None
-
     async def _invoke_with_retry(self, prompt) -> BaseMessage:
         """Try each provider in priority order until one succeeds.
         If ainvoke() fails on one provider, tries the next.
@@ -60,10 +53,10 @@ class LLM_Client:
             except ConnectionError:
                 raise
             except Exception as e:
-                self._mark_provider_failed(e)
-
-    def has_provider_failed(self, provider_name) -> bool:
-        return provider_name in self.providers_errors
+                logger.warning("Provider %s failed on ainvoke: %s", self.chat_provider_name, e)
+                self.providers_errors[self.chat_provider_name] = str(e)
+                self.chat_provider_name = None
+                self.chat_model = None
 
     def _select_provider(self, model_type) -> str:
         """Return the first reachable provider for the given model type.
@@ -79,9 +72,8 @@ class LLM_Client:
             for provider_name in priority_list:
                 self.connection_attempts += 1
                 provider = settings.providers[provider_name]
-                # Checks if this provider is available, store error if it fails
-                self._is_provider_available(provider_name, provider)
-                if not self.has_provider_failed(provider_name):
+                # checks that the provider has not given an invoke error then check is available
+                if provider_name not in self.providers_errors and self._is_provider_available(provider_name, provider):
                     return provider_name
             # Tried all providers, none worked — check if we can retry
             if self.connection_attempts >= self.max_attempts:
