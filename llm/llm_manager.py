@@ -29,23 +29,22 @@ class LLM_Client:
         self.max_attempts = len(settings.providers) * 3
         self.langfuse_client = create_langfuse_client()
 
-    def _send_trace(self, user_id, type="chat"):
-        if self.langfuse_client:
-            if type == "chat":
-                model = self.chat_model.model
-                provider = self.chat_provider_name
-            else:
-                model = self.embeddings_model.model
-                provider = self.embeddings_provider_name
-            update_and_flush_trace(self.langfuse_client, user_id, model, provider)
+    # Connection with providers
+    @staticmethod
+    def _is_host_reachable(host: str, timeout: float = 3.0) -> bool:
+        """Check if a server is reachable by hitting its root endpoint."""
+        try:
+            urllib.request.urlopen(host, timeout=timeout)
+            return True
+        except (urllib.error.URLError, OSError, ValueError):
+            return False
 
-    @observe(name="ollama_request", as_type="generation", capture_input=True, capture_output=True)
-    async def chat(self, prompt, user_id) -> BaseMessage:
-        """Send a prompt to the LLM and return the response.
-        """
-        response = await self._invoke_with_retry(prompt)
-        self._send_trace(user_id)
-        return response
+    def _mark_provider_failed(self, error):
+        """Log the failure, record the error, and reset so the next iteration picks a new provider."""
+        logger.warning("Provider %s failed on ainvoke: %s", self.chat_provider_name, error)
+        self.providers_errors[self.chat_provider_name] = str(error)
+        self.chat_provider_name = None
+        self.chat_model = None
 
     async def _invoke_with_retry(self, prompt) -> BaseMessage:
         """Try each provider in priority order until one succeeds.
@@ -62,29 +61,6 @@ class LLM_Client:
                 raise
             except Exception as e:
                 self._mark_provider_failed(e)
-
-    def _mark_provider_failed(self, error):
-        """Log the failure, record the error, and reset so the next iteration picks a new provider."""
-        logger.warning("Provider %s failed on ainvoke: %s", self.chat_provider_name, error)
-        self.providers_errors[self.chat_provider_name] = str(error)
-        self.chat_provider_name = None
-        self.chat_model = None
-
-    def get_embeddings_model(self):
-        """Return an embeddings model from the first available embeddings provider."""
-        if not self.embeddings_model:
-            self.embeddings_provider_name = self._select_provider("embeddings")
-            provider = settings.providers[self.embeddings_provider_name]
-            self.embeddings_model = OllamaEmbeddings(
-                model=settings.embeddings_model, base_url=provider["url"]
-            )
-            logger.info(
-                "Using embedding model %s on %s (%s)",
-                settings.embeddings_model,
-                self.embeddings_provider_name,
-                provider["url"],
-            )
-        return self.embeddings_model
 
     def has_provider_failed(self, provider_name) -> bool:
         return provider_name in self.providers_errors
@@ -130,6 +106,23 @@ class LLM_Client:
 
         return True
 
+    # Getting the models from the providers
+    def get_embeddings_model(self):
+        """Return an embeddings model from the first available embeddings provider."""
+        if not self.embeddings_model:
+            self.embeddings_provider_name = self._select_provider("embeddings")
+            provider = settings.providers[self.embeddings_provider_name]
+            self.embeddings_model = OllamaEmbeddings(
+                model=settings.embeddings_model, base_url=provider["url"]
+            )
+            logger.info(
+                "Using embedding model %s on %s (%s)",
+                settings.embeddings_model,
+                self.embeddings_provider_name,
+                provider["url"],
+            )
+        return self.embeddings_model
+
     def get_chat_model(self) -> BaseChatModel:
         self.chat_provider_name = self._select_provider("chat")
         provider = settings.providers[self.chat_provider_name]
@@ -151,11 +144,22 @@ class LLM_Client:
         self.chat_model = ChatOllama(**kwargs)
         return self.chat_model
 
-    @staticmethod
-    def _is_host_reachable(host: str, timeout: float = 3.0) -> bool:
-        """Check if a server is reachable by hitting its root endpoint."""
-        try:
-            urllib.request.urlopen(host, timeout=timeout)
-            return True
-        except (urllib.error.URLError, OSError, ValueError):
-            return False
+    # Langfuse
+    def _send_trace(self, user_id, type="chat"):
+        if self.langfuse_client:
+            if type == "chat":
+                model = self.chat_model.model
+                provider = self.chat_provider_name
+            else:
+                model = self.embeddings_model.model
+                provider = self.embeddings_provider_name
+            update_and_flush_trace(self.langfuse_client, user_id, model, provider)
+
+    # Calling the LLM
+    @observe(name="ollama_request", as_type="generation", capture_input=True, capture_output=True)
+    async def chat(self, prompt, user_id) -> BaseMessage:
+        """Send a prompt to the LLM and return the response.
+        """
+        response = await self._invoke_with_retry(prompt)
+        self._send_trace(user_id)
+        return response
