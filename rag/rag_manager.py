@@ -20,25 +20,25 @@ class State(TypedDict):
     user_id: str
     context: List[Document]
     answer: str
-    llm_client: LLM_Client
 
 
 # Define application steps
 @observe(name="vector_search")  # Track retrieval timing and results in Langfuse
-async def retrieve(state: State):
-    llm_client = state["llm_client"]
+async def retrieve(state: State, config):
+    # LangGraph passes config as the second argument to any node that accepts it
+    llm_client = config["configurable"]["llm_client"]
     embeddings_model = llm_client.get_embeddings_model()
     vector_store = get_or_create_vector_database(settings.database_path, embeddings_model)
     retrieved_docs = await vector_store.asimilarity_search(state["question"])
     return {"context": retrieved_docs}
 
 
-async def generate(state: State):
+async def generate(state: State, config):
     docs_content = "\n\n".join(doc.page_content for doc in state["context"])
     prompt = get_rag_prompt()
     messages = prompt.invoke({"question": state["question"], "context": docs_content})
     logger.debug("Prompt generated:\n%s", messages)
-    llm_client = state["llm_client"]
+    llm_client = config["configurable"]["llm_client"]
     response = await llm_client.chat(messages, user_id=state["user_id"])
     return {"answer": response.content}
 
@@ -64,8 +64,10 @@ async def RAG_query(question, user_id) -> State:
     langfuse_client = create_langfuse_client()
     try:
         # LangGraph's ainvoke: async version of invoke that doesn't block the event loop
+        # llm_client is passed via config (not state) to keep API keys out of Langfuse traces
         response = await graph.ainvoke(
-            {"question": question, "user_id": user_id, "llm_client": llm_client}
+            {"question": question, "user_id": user_id},
+            config={"configurable": {"llm_client": llm_client}},
         )
         # Update the parent trace with user_id and model metadata
         update_and_flush_trace(langfuse_client, user_id, llm_client)
