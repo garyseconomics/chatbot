@@ -8,30 +8,12 @@ from langchain_core.language_models import BaseChatModel
 # Base return type from .invoke() — covers AIMessage, HumanMessage, etc.
 from langchain_core.messages import BaseMessage
 from langchain_ollama import ChatOllama, OllamaEmbeddings
-from langfuse import Langfuse, observe
+from langfuse import observe
 
 from config import settings
+from llm.langfuse_helpers import create_langfuse_client, update_and_flush_trace
 
 logger = logging.getLogger(__name__)
-
-
-# Lazy singleton: created on first use, reused across all calls.
-_langfuse_client: Langfuse | None = None
-
-
-def get_langfuse_client() -> Langfuse:
-    """Return the shared Langfuse client, creating it on first use.
-    Raises ValueError if credentials are not configured.
-    """
-    global _langfuse_client
-    if _langfuse_client is None:
-        if not settings.langfuse_public_key or not settings.langfuse_secret_key:
-            raise ValueError(
-                "Langfuse credentials are not configured. "
-                "Set LANGFUSE_PUBLIC_KEY and LANGFUSE_SECRET_KEY in .env"
-            )
-        _langfuse_client = Langfuse()
-    return _langfuse_client
 
 
 class LLM_Client:
@@ -45,37 +27,48 @@ class LLM_Client:
         self.providers_errors = {}
         self.connection_attempts = 0
         self.max_attempts = len(settings.providers) * 3
+        self.langfuse_client = create_langfuse_client()
+
+    def _send_trace(self, user_id, type="chat"):
+        if self.langfuse_client:
+            if type == "chat":
+                model = self.chat_model.model
+                provider = self.chat_provider_name
+            else:
+                model = self.embeddings_model.model
+                provider = self.embeddings_provider_name
+            update_and_flush_trace(self.langfuse_client, user_id, model, provider)
 
     @observe(name="ollama_request", as_type="generation", capture_input=True, capture_output=True)
     async def chat(self, prompt, user_id) -> BaseMessage:
         """Send a prompt to the LLM and return the response.
-
-        Tries each reachable chat provider in priority order.
-        If ainvoke() fails on one provider, tries the next.
         """
-        # Loop until a provider succeeds or _select_provider raises ConnectionError
+        response = await self._invoke_with_retry(prompt)
+        self._send_trace(user_id)
+        return response
+
+    async def _invoke_with_retry(self, prompt) -> BaseMessage:
+        """Try each provider in priority order until one succeeds.
+        If ainvoke() fails on one provider, tries the next.
+        Raises ConnectionError if all providers are exhausted.
+        """
         while True:
             try:
                 if not self.chat_model:
                     self.get_chat_model()
-                langfuse_client = get_langfuse_client()
-                langfuse_client.update_current_trace(
-                    name=settings.app_name,
-                    user_id=user_id,
-                    metadata={"model": self.chat_model.model, "provider": self.chat_provider_name},
-                )
-                response = await self.chat_model.ainvoke(prompt)
-                langfuse_client.flush()
-                return response
-            # Let ConnectionError from _select_provider propagate — it means all providers are exhausted.
+                return await self.chat_model.ainvoke(prompt)
+            # ConnectionError from _select_provider means all providers are exhausted.
             except ConnectionError:
                 raise
-            # Any other error (e.g., ainvoke failure) — mark this provider as failed and try the next one.
             except Exception as e:
-                logger.warning("Provider %s failed on ainvoke: %s", self.chat_provider_name, e)
-                self.providers_errors[self.chat_provider_name] = str(e)
-                self.chat_provider_name = None
-                self.chat_model = None
+                self._mark_provider_failed(e)
+
+    def _mark_provider_failed(self, error):
+        """Log the failure, record the error, and reset so the next iteration picks a new provider."""
+        logger.warning("Provider %s failed on ainvoke: %s", self.chat_provider_name, error)
+        self.providers_errors[self.chat_provider_name] = str(error)
+        self.chat_provider_name = None
+        self.chat_model = None
 
     def get_embeddings_model(self):
         """Return an embeddings model from the first available embeddings provider."""
