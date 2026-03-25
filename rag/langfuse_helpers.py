@@ -15,11 +15,18 @@ def create_langfuse_client() -> Langfuse | None:
     return Langfuse()
 
 
-def update_and_flush_trace(langfuse_client, user_id, model, provider):
-    """Update the current Langfuse trace with provider metadata."""
+def update_and_flush_trace(langfuse_client, user_id, llm_client):
+    """Update the current Langfuse trace with user_id and model metadata."""
+    if not langfuse_client:
+        return
     langfuse_client.update_current_trace(
         name=settings.app_name,
         user_id=user_id,
-        metadata={"model": model, "provider": provider},
+        metadata={
+            "chat_model": llm_client.chat_model.model,
+            "chat_provider": llm_client.chat_provider_name,
+            "embedding_model": llm_client.embeddings_model.model,
+            "embedding_provider": llm_client.embeddings_provider_name,
+        },
     )
     langfuse_client.flush()

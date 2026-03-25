@@ -11,7 +11,6 @@ from langchain_ollama import ChatOllama, OllamaEmbeddings
 from langfuse import observe
 
 from config import settings
-from llm.langfuse_helpers import create_langfuse_client, update_and_flush_trace
 
 logger = logging.getLogger(__name__)
 
@@ -27,7 +26,6 @@ class LLM_Client:
         self.providers_errors = {}
         self.connection_attempts = 0
         self.max_attempts = len(settings.providers) * 3
-        self.langfuse_client = create_langfuse_client()
 
     # Connection with providers
     @staticmethod
@@ -136,22 +134,10 @@ class LLM_Client:
         self.chat_model = ChatOllama(**kwargs)
         return self.chat_model
 
-    # Langfuse
-    def send_trace(self, user_id, type="chat"):
-        if self.langfuse_client:
-            if type == "chat":
-                model = self.chat_model.model
-                provider = self.chat_provider_name
-            else:
-                model = self.embeddings_model.model
-                provider = self.embeddings_provider_name
-            update_and_flush_trace(self.langfuse_client, user_id, model, provider)
-
     # Calling the LLM
     @observe(name="ollama_request", as_type="generation", capture_input=True, capture_output=True)
     async def chat(self, prompt, user_id) -> BaseMessage:
         """Send a prompt to the LLM and return the response.
         """
         response = await self._invoke_with_retry(prompt)
-        self.send_trace(user_id, "chat")
         return response

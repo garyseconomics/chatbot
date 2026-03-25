@@ -6,6 +6,7 @@ from langgraph.graph import START, StateGraph
 from typing_extensions import List, TypedDict
 
 from config import settings
+from rag.langfuse_helpers import create_langfuse_client, update_and_flush_trace
 from llm.llm_manager import LLM_Client
 from llm.prompt_template import get_rag_prompt
 from vector_database.vector_database_manager import get_or_create_vector_database
@@ -29,7 +30,6 @@ async def retrieve(state: State):
     embeddings_model = llm_client.get_embeddings_model()
     vector_store = get_or_create_vector_database(settings.database_path, embeddings_model)
     retrieved_docs = await vector_store.asimilarity_search(state["question"])
-    llm_client.send_trace(state["user_id"], "embeddings")
     return {"context": retrieved_docs}
 
 
@@ -55,15 +55,20 @@ def build_error_state(e, question, user_id) -> State:
     }
 
 
+@observe(name=settings.app_name)
 async def RAG_query(question, user_id) -> State:
     graph_builder = StateGraph(State).add_sequence([retrieve, generate])
     graph_builder.add_edge(START, "retrieve")
     graph = graph_builder.compile()
+    llm_client = LLM_Client()
+    langfuse_client = create_langfuse_client()
     try:
         # LangGraph's ainvoke: async version of invoke that doesn't block the event loop
         response = await graph.ainvoke(
-            {"question": question, "user_id": user_id, "llm_client": LLM_Client()}
+            {"question": question, "user_id": user_id, "llm_client": llm_client}
         )
+        # Update the parent trace with user_id and model metadata
+        update_and_flush_trace(langfuse_client, user_id, llm_client)
         return response
     except Exception as e:
         return build_error_state(e, question, user_id)
