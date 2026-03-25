@@ -19,13 +19,14 @@ class State(TypedDict):
     user_id: str
     context: List[Document]
     answer: str
-    chat_model: str
+    llm_client: LLM_Client
 
 
 # Define application steps
 @observe(name="vector_search")  # Track retrieval timing and results in Langfuse
 async def retrieve(state: State):
-    vector_store = get_or_create_vector_database(settings.database_path)
+    embeddings_model = state["llm_client"].get_embeddings_model()
+    vector_store = get_or_create_vector_database(settings.database_path, embeddings_model)
     retrieved_docs = await vector_store.asimilarity_search(state["question"])
     return {"context": retrieved_docs}
 
@@ -35,9 +36,9 @@ async def generate(state: State):
     prompt = get_rag_prompt()
     messages = prompt.invoke({"question": state["question"], "context": docs_content})
     logger.debug("Prompt generated:\n%s", messages)
-    client = LLM_Client()
-    response = await client.chat(messages, user_id=state["user_id"])
-    return {"answer": response.content, "chat_model": client.chat_model}
+    llm_client = state["llm_client"]
+    response = await llm_client.chat(messages, user_id=state["user_id"])
+    return {"answer": response.content}
 
 
 def build_error_state(e, question, user_id) -> State:
@@ -49,7 +50,6 @@ def build_error_state(e, question, user_id) -> State:
         "user_id": user_id,
         "context": [],
         "answer": settings.error_messages.get(error_type, default_message),
-        "chat_model": "",
     }
 
 
@@ -59,7 +59,9 @@ async def RAG_query(question, user_id) -> State:
     graph = graph_builder.compile()
     try:
         # LangGraph's ainvoke: async version of invoke that doesn't block the event loop
-        response = await graph.ainvoke({"question": question, "user_id": user_id})
+        response = await graph.ainvoke(
+            {"question": question, "user_id": user_id, "llm_client": LLM_Client()}
+        )
         return response
     except Exception as e:
         return build_error_state(e, question, user_id)

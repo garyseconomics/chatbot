@@ -16,14 +16,11 @@ def get_chromadb_client(database_path):
     return client
 
 
-def get_or_create_vector_database(database_path):
-    client = LLM_Client()
-    embeddings = client.get_embedding_model()
-
+def get_or_create_vector_database(database_path, embeddings_model):
     # Create vector database with Chroma
     vector_store = Chroma(
         collection_name=settings.collection_name,
-        embedding_function=embeddings,
+        embedding_function=embeddings_model,
         persist_directory=database_path,
     )
     return vector_store
@@ -37,8 +34,11 @@ def process_in_batches(splits, batch_size):
 
 
 # Creates the database and populates it with the documents provided
-def add_documents_to_vector_database(database_path, files_list):
-    vector_store = get_or_create_vector_database(database_path)
+def add_documents_to_vector_database(database_path, files_list, embeddings_model=None):
+    if not embeddings_model:
+        client = LLM_Client()
+        embeddings_model = client.get_embeddings_model()
+    vector_store = get_or_create_vector_database(database_path, embeddings_model)
     for filename in files_list:
         logger.info("Extracting content from file: %s", filename)
         splits = get_splits_from_srt(filename)

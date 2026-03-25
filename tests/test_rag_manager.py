@@ -14,7 +14,6 @@ def test_build_error_state_known_error():
     assert result["context"] == []
     assert result["question"] == "q"
     assert result["user_id"] == "user1"
-    assert result["chat_model"] == ""
 
 
 def test_build_error_state_unknown_error():
@@ -34,8 +33,6 @@ async def test_rag_query_end_to_end(use_ollama_for_testing):
     response = await RAG_query(question, user_id="test")
 
     assert isinstance(response["answer"], str)
-    assert isinstance(response["chat_model"], str)
-    assert len(response["chat_model"]) > 0
     assert len(response["answer"]) > 0
 
 
@@ -45,6 +42,5 @@ async def test_rag_query_ollama_cloud():
     settings.chat_provider_priority = ["ollama_cloud"]
     question = "What is wealth?"
     response = await RAG_query(question, user_id="test")
-
+    assert isinstance(response["answer"], str)
     assert len(response["answer"]) > 0
-    assert response["chat_model"] == "qwen3-next:80b"

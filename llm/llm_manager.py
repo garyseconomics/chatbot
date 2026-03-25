@@ -38,7 +38,10 @@ class LLM_Client:
     def __init__(self):
         # Set after a successful chat() call to the provider that worked.
         # None means no successful call has been made yet.
-        self.provider_name: str | None = None
+        self.embeddings_provider_name = None
+        self.embeddings_model = None
+        self.chat_provider_name = None
+        self.chat_model = None
         self.providers_errors = {}
         self.connection_attempts = 0
         self.max_attempts = len(settings.providers) * 3
@@ -52,42 +55,43 @@ class LLM_Client:
         """
         # Loop until a provider succeeds or _select_provider raises ConnectionError
         while True:
-            self.provider_name = self._select_provider("chat")
-
             try:
-                llm = self._create_chat_client()
+                if not self.chat_model:
+                    self.get_chat_model()
                 langfuse_client = get_langfuse_client()
                 langfuse_client.update_current_trace(
                     name=settings.app_name,
                     user_id=user_id,
-                    metadata={"model": llm.model, "provider": self.provider_name},
+                    metadata={"model": self.chat_model.model, "provider": self.chat_provider_name},
                 )
-                response = await llm.ainvoke(prompt)
+                response = await self.chat_model.ainvoke(prompt)
                 langfuse_client.flush()
                 return response
+            # Let ConnectionError from _select_provider propagate — it means all providers are exhausted.
+            except ConnectionError:
+                raise
+            # Any other error (e.g., ainvoke failure) — mark this provider as failed and try the next one.
             except Exception as e:
-                logger.warning("Provider %s failed on ainvoke: %s", self.provider_name, e)
-                self.providers_errors[self.provider_name] = str(e)
-                self.provider_name = None
+                logger.warning("Provider %s failed on ainvoke: %s", self.chat_provider_name, e)
+                self.providers_errors[self.chat_provider_name] = str(e)
+                self.chat_provider_name = None
+                self.chat_model = None
 
-    def get_embedding_model(self):
-        """Return an embedding model from the first available embedding provider."""
-        provider_name = self._select_provider("embeddings")
-        provider = settings.providers[provider_name]
-        logger.info(
-            "Using embedding model %s on %s (%s)",
-            settings.embedding_model,
-            provider_name,
-            provider["url"],
-        )
-        return OllamaEmbeddings(model=settings.embedding_model, base_url=provider["url"])
-
-    @property
-    def chat_model(self) -> str | None:
-        """Return the chat model name of the provider that handled the last request."""
-        if self.provider_name is None:
-            return None
-        return settings.providers[self.provider_name]["chat_model"]
+    def get_embeddings_model(self):
+        """Return an embeddings model from the first available embeddings provider."""
+        if not self.embeddings_model:
+            self.embeddings_provider_name = self._select_provider("embeddings")
+            provider = settings.providers[self.embeddings_provider_name]
+            self.embeddings_model = OllamaEmbeddings(
+                model=settings.embeddings_model, base_url=provider["url"]
+            )
+            logger.info(
+                "Using embedding model %s on %s (%s)",
+                settings.embeddings_model,
+                self.embeddings_provider_name,
+                provider["url"],
+            )
+        return self.embeddings_model
 
     def has_provider_failed(self, provider_name) -> bool:
         return provider_name in self.providers_errors
@@ -100,7 +104,7 @@ class LLM_Client:
         if model_type == "chat":
             priority_list = settings.chat_provider_priority
         else:
-            priority_list = settings.embedding_provider_priority
+            priority_list = settings.embeddings_provider_priority
 
         while True:
             for provider_name in priority_list:
@@ -133,12 +137,13 @@ class LLM_Client:
 
         return True
 
-    def _create_chat_client(self) -> BaseChatModel:
-        provider = settings.providers[self.provider_name]
+    def get_chat_model(self) -> BaseChatModel:
+        self.chat_provider_name = self._select_provider("chat")
+        provider = settings.providers[self.chat_provider_name]
         logger.info(
             "Using LLM chat model %s on %s (%s)",
             provider["chat_model"],
-            self.provider_name,
+            self.chat_provider_name,
             provider["url"],
         )
         kwargs: dict = {
@@ -150,7 +155,8 @@ class LLM_Client:
             kwargs["client_kwargs"] = {
                 "headers": {"Authorization": f"Bearer {provider['api_key']}"}
             }
-        return ChatOllama(**kwargs)
+        self.chat_model = ChatOllama(**kwargs)
+        return self.chat_model
 
     @staticmethod
     def _is_host_reachable(host: str, timeout: float = 3.0) -> bool:

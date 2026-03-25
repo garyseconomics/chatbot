@@ -65,29 +65,20 @@ async def test_chat_falls_back_on_invoke_error(monkeypatch):
     response = await client.chat(prompt="Hello", user_id="Test")
 
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
-    assert client.provider_name == "ollama_self_hosted"
+    assert client.chat_provider_name == "ollama_self_hosted"
 
 
 @pytest.mark.asyncio
 async def test_provider_name_set_after_chat(use_ollama_for_testing):
     client = LLM_Client()
-    assert client.provider_name is None
+    assert client.chat_provider_name is None
     await client.chat(prompt="Hello", user_id="Test")
-    assert client.provider_name is not None
+    assert client.chat_provider_name is not None
 
 
-@pytest.mark.asyncio
-async def test_chat_model_returns_model_name(use_ollama_for_testing):
+def test_get_embeddings_model(use_ollama_for_testing):
     client = LLM_Client()
-    assert client.chat_model is None
-    await client.chat(prompt="Hello", user_id="Test")
-    expected_model = settings.providers[client.provider_name]["chat_model"]
-    assert client.chat_model == expected_model
-
-
-def test_get_embedding_model(use_ollama_for_testing):
-    client = LLM_Client()
-    embeddings = client.get_embedding_model()
+    embeddings = client.get_embeddings_model()
     # Should return an embeddings object (we don't check the specific type
     # so vector_database_manager doesn't need to know about OllamaEmbeddings)
     assert hasattr(embeddings, "embed_query")
@@ -133,9 +124,8 @@ async def test_chat_raises_when_invoke_always_fails(monkeypatch):
 
     error_message = str(exc_info.value)
     assert "bad_provider" in error_message
-    expected_model_error = "model 'nonexistent_model_12345' not found (status code: 404)"
-    assert client.providers_errors["bad_provider"] == expected_model_error
-    assert expected_model_error in error_message
+    assert "nonexistent_model_12345" in client.providers_errors["bad_provider"]
+    assert "nonexistent_model_12345" in error_message
 
 
 @pytest.mark.asyncio
@@ -170,5 +160,7 @@ async def test_chat_reports_errors_from_all_providers(monkeypatch):
     # Verify each provider got the right type of error
     assert client.providers_errors["unreachable_provider"] == "Host unreachable"
     expected_model_error = "model 'nonexistent_model_12345' not found (status code: 404)"
-    assert client.providers_errors["bad_model_provider"] == expected_model_error
-    assert expected_model_error in error_message
+    assert "nonexistent_model_12345" in client.providers_errors["bad_model_provider"]
+    assert "nonexistent_model_12345" in error_message
+
+# {"detail":{"error":{"message":"The model 'ollama/nonexistent_model_12345' does not exist.","type":"invalid_request_error","param":"model","code":"model_not_found"}}} (status code: 404)

@@ -1,6 +1,7 @@
 import chromadb
 import pytest
 from langchain_chroma import Chroma
+from langchain_ollama import OllamaEmbeddings
 
 from config import settings
 from vector_database.vector_database_manager import (
@@ -12,11 +13,20 @@ from vector_database.vector_database_manager import (
     process_in_batches,
 )
 
-test_database_path = "./tests/chroma_langchain_db"
+
+@pytest.fixture(scope="module")
+def test_database_path():
+    return "./tests/chroma_langchain_db"
+
+
+@pytest.fixture(scope="module")
+def embeddings_model():
+    embedding_url = settings.providers["ollama_self_hosted"]["url"]
+    return OllamaEmbeddings(model=settings.embeddings_model, base_url=embedding_url)
 
 
 @pytest.fixture(autouse=True)
-def clean_database():
+def clean_database(test_database_path):
     """Delete all collections before each test for isolation."""
     client = get_chromadb_client(test_database_path)
     for collection in client.list_collections():
@@ -28,24 +38,24 @@ def clean_database():
         client.delete_collection(collection.name)
 
 
-def test_get_chromadb_client():
+def test_get_chromadb_client(test_database_path):
     client = get_chromadb_client(test_database_path)
     assert isinstance(client, chromadb.api.client.Client)
 
 
-def test_get_or_create_database():
+def test_get_or_create_database(test_database_path, embeddings_model):
     client = get_chromadb_client(test_database_path)
     assert len(client.list_collections()) == 0
-    vector_store = get_or_create_vector_database(test_database_path)
+    vector_store = get_or_create_vector_database(test_database_path, embeddings_model)
     assert isinstance(vector_store, Chroma)
     collection = client.get_collection(settings.collection_name)
     assert isinstance(collection, chromadb.Collection)
     assert len(client.list_collections()) == 1
 
 
-def test_add_documents_to_vector_database():
+def test_add_documents_to_vector_database(test_database_path, embeddings_model):
     files_list = ["tests/sample.srt"]
-    add_documents_to_vector_database(test_database_path, files_list)
+    add_documents_to_vector_database(test_database_path, files_list, embeddings_model)
     client = get_chromadb_client(test_database_path)
     collection = client.get_collection(settings.collection_name)
     assert isinstance(collection, chromadb.Collection)
@@ -64,17 +74,23 @@ def test_add_documents_to_vector_database():
     assert documents[0] == expected_content
 
 
-def test_get_collections_from_database():
+def test_add_documents_without_embeddings_model(test_database_path, use_ollama_for_testing):
+    files_list = ["tests/sample.srt"]
+    vector_store = add_documents_to_vector_database(test_database_path, files_list)
+    assert isinstance(vector_store, Chroma)
+
+
+def test_get_collections_from_database(test_database_path, embeddings_model):
     # Create a collection first
-    get_or_create_vector_database(test_database_path)
+    get_or_create_vector_database(test_database_path, embeddings_model)
     collections_list = get_collections_from_database(test_database_path)
     assert len(collections_list) == 1
     assert collections_list[0].name == settings.collection_name
 
 
-def test_delete_existing_collections():
+def test_delete_existing_collections(test_database_path, embeddings_model):
     # Create a collection first
-    get_or_create_vector_database(test_database_path)
+    get_or_create_vector_database(test_database_path, embeddings_model)
     client = get_chromadb_client(test_database_path)
     assert len(client.list_collections()) > 0
     delete_existing_collections(test_database_path)
@@ -96,3 +112,4 @@ def test_process_in_batches_handles_remainder():
 def test_process_in_batches_empty_list():
     batches = list(process_in_batches([], batch_size=5))
     assert batches == []
+

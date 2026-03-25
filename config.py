@@ -23,7 +23,7 @@ class Settings(BaseSettings):
     ollama_cloud_api_key: str = ""
 
     # LLM settings
-    embedding_model: str = "qwen3-embedding:8b"
+    embeddings_model: str = "qwen3-embedding:8b"
 
     # Provider priority — try providers in this order, use the first available one.
     # Each name must match a key in the providers property below.
@@ -33,7 +33,7 @@ class Settings(BaseSettings):
         "ollama_local",
     ]
 
-    embedding_provider_priority: list[str] = [
+    embeddings_provider_priority: list[str] = [
         "ollama_self_hosted",
         "ollama_local",
     ]
