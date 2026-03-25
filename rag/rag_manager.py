@@ -25,9 +25,11 @@ class State(TypedDict):
 # Define application steps
 @observe(name="vector_search")  # Track retrieval timing and results in Langfuse
 async def retrieve(state: State):
-    embeddings_model = state["llm_client"].get_embeddings_model()
+    llm_client = state["llm_client"]
+    embeddings_model = llm_client.get_embeddings_model()
     vector_store = get_or_create_vector_database(settings.database_path, embeddings_model)
     retrieved_docs = await vector_store.asimilarity_search(state["question"])
+    llm_client.send_trace(state["user_id"], "embeddings")
     return {"context": retrieved_docs}
 
 

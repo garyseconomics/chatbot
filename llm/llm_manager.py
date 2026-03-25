@@ -137,7 +137,7 @@ class LLM_Client:
         return self.chat_model
 
     # Langfuse
-    def _send_trace(self, user_id, type="chat"):
+    def send_trace(self, user_id, type="chat"):
         if self.langfuse_client:
             if type == "chat":
                 model = self.chat_model.model
@@ -153,5 +153,5 @@ class LLM_Client:
         """Send a prompt to the LLM and return the response.
         """
         response = await self._invoke_with_retry(prompt)
-        self._send_trace(user_id)
+        self.send_trace(user_id, "chat")
         return response

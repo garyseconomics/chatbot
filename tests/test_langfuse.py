@@ -1,3 +1,5 @@
+import asyncio
+
 import pytest
 from langfuse import Langfuse
 
@@ -29,7 +31,7 @@ def test_langfuse_client_connects(use_ollama_for_testing):
 async def test_chat_sends_trace_to_langfuse_real(use_ollama_for_testing):
     """Verify that chat() sends user_id, model and provider to Langfuse (real API)."""
     llm_client = LLM_Client()
-    test_user_id = "test_trace_user_real"
+    test_user_id = "test_trace_user"
     await llm_client.chat(prompt="Hello", user_id=test_user_id)
 
     # Fetch traces filtered by user_id to find the one we just created
@@ -40,3 +42,41 @@ async def test_chat_sends_trace_to_langfuse_real(use_ollama_for_testing):
     assert latest_trace.user_id == test_user_id
     assert latest_trace.metadata["model"] == llm_client.chat_model.model
     assert latest_trace.metadata["provider"] == llm_client.chat_provider_name
+
+
+@pytest.mark.langfuse
+@pytest.mark.skipif(not langfuse_configured, reason=skip_reason)
+@pytest.mark.asyncio
+async def test_vector_search_trace_has_user_id_and_embedding_metadata(
+    use_ollama_for_testing,
+):
+    """Verify that retrieve() sends user_id, embedding model and provider to Langfuse.
+
+    Covers TODO items:
+    - user_id is null in vector_search traces
+    - Record embedding model name and provider in vector_search traces
+    """
+    from rag.rag_manager import retrieve
+
+    llm_client = LLM_Client()
+    test_user_id = "test_vector_search_trace"
+
+    state = {
+        "question": "What is inflation?",
+        "user_id": test_user_id,
+        "llm_client": llm_client,
+    }
+    await retrieve(state)
+
+    # Flush and wait for Langfuse to index the trace
+    llm_client.langfuse_client.flush()
+    await asyncio.sleep(2)
+
+    # Fetch traces filtered by user_id to find the one we just created
+    response = llm_client.langfuse_client.api.trace.list(user_id=test_user_id)
+    assert len(response.data) > 0, "No trace found for test user"
+    latest_trace = response.data[0]
+
+    assert latest_trace.user_id == test_user_id
+    assert latest_trace.metadata["model"] == llm_client.embeddings_model.model
+    assert latest_trace.metadata["provider"] == llm_client.embeddings_provider_name
