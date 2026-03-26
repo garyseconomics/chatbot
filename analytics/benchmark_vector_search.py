@@ -16,8 +16,8 @@ from llm.llm_manager import LLM_Client
 from rag.langfuse_helpers import create_langfuse_client
 from rag.rag_manager import retrieve
 
-# A few questions to exercise the vector search step
-BENCHMARK_QUESTIONS = questions["general"]
+# Flatten all question categories into a single list
+BENCHMARK_QUESTIONS = [q for category in questions.values() for q in category]
 
 
 async def run_vector_searches(questions, provider_name) -> LLM_Client:
@@ -43,8 +43,8 @@ async def run_vector_searches(questions, provider_name) -> LLM_Client:
 if __name__ == "__main__":
     # Step 1 — Run vector searches
     print("=== Step 1: Running vector searches ===")
-    #llm_client = asyncio.run(run_vector_searches(BENCHMARK_QUESTIONS, "ollama_self_hosted"))
-    llm_client = asyncio.run(run_vector_searches(BENCHMARK_QUESTIONS, "ollama_local"))
+    llm_client = asyncio.run(run_vector_searches(BENCHMARK_QUESTIONS, "ollama_self_hosted"))
+    #llm_client = asyncio.run(run_vector_searches(BENCHMARK_QUESTIONS, "ollama_local"))
 
     # Flush Langfuse traces and wait for them to be indexed
     langfuse_client = create_langfuse_client()
