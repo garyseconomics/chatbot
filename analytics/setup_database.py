@@ -27,6 +27,19 @@ def setup_database() -> None:
     )
 
     cursor.execute(
+        "CREATE TABLE IF NOT EXISTS vector_search_traces ("
+        "  trace_id TEXT PRIMARY KEY,"
+        "  user_id TEXT,"
+        "  question TEXT,"
+        "  timestamp TEXT,"
+        "  latency REAL,"
+        "  num_results INTEGER,"
+        "  model_name TEXT,"
+        "  provider TEXT"
+        ")"
+    )
+
+    cursor.execute(
         "CREATE TABLE IF NOT EXISTS qa_test_results ("
         "  id INTEGER PRIMARY KEY AUTOINCREMENT,"
         "  timestamp TEXT,"
