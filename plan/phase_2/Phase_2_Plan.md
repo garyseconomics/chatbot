@@ -128,8 +128,39 @@ server, using a small amount of resources for the Python processes.
 
 **What Phase 2 needs:** With cloud providers handling both chat (Ollama Cloud) and
 embeddings (OpenAI-compatible provider from 2.2), the server only needs to run Docker
-containers — no GPU required. The MakeSpace sysadmin confirms that when using online AI
-providers, the bots run with a free-tier amount of CPU/RAM resources.
+containers — no GPU required. However, at 3,000 potential users the server must run
+reliably:
+- Docker daemon + two bot processes (Telegram + Discord) always connected.
+- Chroma vector database loaded in memory — growing as we add more content (currently
+  ~100 videos, target 310+ plus potentially economist documents).
+- If even 10% of users are active, that's ~10x Phase 1 traffic volume.
+
+A free-tier VPS is too risky for this: limited RAM can cause Chroma to crash as the
+database grows, and free tiers can throttle or reclaim instances. A small paid VPS
+($3–5/month) gives predictable resources, reliability, and headroom. Free tiers are
+fine for development and testing, not for a production service 3,000 people depend on.
+
+**Paid hosting options** (recommended for production):
+
+| Provider | Plan | vCPU | RAM | Disk | Price | Notes |
+|---|---|---|---|---|---|---|
+| [Hetzner](https://www.hetzner.com/cloud/) | CX22 | 2 | 4 GB | 40 GB SSD | **~$3.60/mo** | Best value; EU + US datacenters; developer-friendly |
+| [OVHcloud](https://www.ovhcloud.com/en/vps/) | VPS Starter | 1 | 2 GB | 20 GB SSD | **~$3.50–4.50/mo** | Unmetered bandwidth; clunky interface |
+| [Contabo](https://contabo.com/en/vps/) | Cloud VPS S | 4 | 8 GB | 50 GB NVMe | **~$4.90/mo** | Huge specs on paper; can oversell; slow support |
+| [Hostinger](https://www.hostinger.com/vps-hosting) | KVM 1 | 1 | 4 GB | 50 GB NVMe | **~$5/mo** (promo) | Requires 48-mo commitment; renewal ~$9/mo; Docker templates |
+| [Vultr](https://www.vultr.com/pricing/) | Regular | 1 | 1 GB | 25 GB SSD | **$5/mo** | Simple; many locations |
+| [AWS Lightsail](https://aws.amazon.com/lightsail/pricing/) | Micro | 1 | 1 GB | 40 GB SSD | **$5/mo** | 3 months free; simple AWS interface |
+| [DigitalOcean](https://www.digitalocean.com/pricing) | Basic Droplet | 1 | 1 GB | 25 GB SSD | **$6/mo** | $200 credit for 60 days for new accounts |
+
+**Free options** (for development/testing only):
+
+| Provider | Plan | vCPU | RAM | Disk | Price | Limitation |
+|---|---|---|---|---|---|---|
+| [Oracle Cloud](https://www.oracle.com/cloud/free/) | Always Free ARM | up to 4 | up to 24 GB | 200 GB | **$0 forever** | Hard to provision; may reclaim idle instances |
+| [Google Cloud](https://cloud.google.com/free) | e2-micro | 0.25 (burst to 2) | 1 GB | 30 GB | **$0 forever** | Very constrained; US only; egress costs |
+| AWS | t3.micro | 1 | 1 GB | 30 GB | **$0 for 12 months** | Free tier expires, then ~$8–9/mo |
+
+Hostinger prices are from mid-2025 data — verify at their website.
 
 The code changes from 2.1 and 2.2 should be done first so we deploy the new provider
 support at the same time as the migration.
@@ -288,7 +319,7 @@ economics questions. See TODO.md for full details.
 |---------|------|-------|
 | Ollama Cloud Pro | $20/month | Chat LLM (`qwen3-next:80b`). 50x more usage than free tier |
 | Cloud embeddings | ~$0.01/M tokens | Negligible at current volume. During Phase 1 we processed ~400 queries — even at 10x that volume the embedding cost would be under $0.01/month |
-| Server hosting | ~$0–5/month | No GPU required — only runs Docker containers. A free-tier or minimal VPS is sufficient |
+| Server hosting | ~$3.50–5/month | No GPU required — only runs Docker containers. Hetzner CX22 (~$3.60/mo) is the best value. Free tiers are too risky for production at 3,000 users. See section 2.4 for the full comparison |
 
 ---
 
