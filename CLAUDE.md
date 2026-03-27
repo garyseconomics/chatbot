@@ -7,31 +7,34 @@ It uses a vector database of video subtitles to provide context-aware answers vi
 
 ```
 chatbot/
-├── interfaces/             # Channel integrations
-│   ├── chatbot.py          #   CLI chatbot interface
-│   ├── telegram_bot.py     #   Telegram bot
-│   └── discord_bot.py      #   Discord bot
-├── llm/                    # LLM client management
-│   ├── llm_manager.py      #   Ollama LLM wrapper (remote → local fallback)
-│   ├── ollama_helpers.py   #   Host availability detection
-│   └── prompt_template.py  #   RAG prompt template
-├── rag/                    # RAG pipeline
-│   ├── rag_manager.py      #   LangGraph retrieve → generate graph
-│   └── video_links.py      #   YouTube video link generation
-├── vector_database/        # Chroma vector DB operations
-│   ├── vector_database_manager.py  # DB init, search, add documents
-│   ├── import_documents.py         # Script to import SRT subtitles
-│   ├── srt_splitter.py             # SRT chunking with overlap
-│   └── collections_viewer.py       # DB inspection utility
-├── docs/                   # SRT subtitle files (imported into vector DB)
-│   └── import/             # Staging directory for new SRT files
+├── src/                    # Application source code
+│   ├── interfaces/             # Channel integrations
+│   │   ├── chatbot.py          #   CLI chatbot interface
+│   │   ├── telegram_bot.py     #   Telegram bot
+│   │   └── discord_bot.py      #   Discord bot
+│   ├── llm/                    # LLM client management
+│   │   ├── llm_manager.py      #   Ollama LLM wrapper (remote → local fallback)
+│   │   └── prompt_template.py  #   RAG prompt template
+│   ├── rag/                    # RAG pipeline
+│   │   ├── rag_manager.py      #   LangGraph retrieve → generate graph
+│   │   └── video_links.py      #   YouTube video link generation
+│   ├── vector_database/        # Chroma vector DB operations
+│   │   ├── vector_database_manager.py  # DB init, search, add documents
+│   │   ├── import_documents.py         # Script to import SRT subtitles
+│   │   ├── srt_splitter.py             # SRT chunking with overlap
+│   │   └── collections_viewer.py       # DB inspection utility
+│   └── config.py               # Central configuration (pydantic-settings)
 ├── tests/                  # pytest test suite
-├── config.py               # Central configuration (pydantic-settings)
+├── analytics/              # Analytics scripts and data
+├── data/                   # Chroma vector database files
+├── docs/                   # Bot knowledge base (SRT subtitles, future documents)
+│   └── import/             # Staging directory for new SRT files
+├── plan/                   # Project plans and reports
+│   └── phase_1/            # Testing Phase 1 reports
 ├── pyproject.toml          # Project metadata and dependencies
-├── prompt_experiments.py   # Prompt experimentation scratch file
 ├── learning.md             # Developer learning tracker (checked by Claude)
 ├── TODO.md                 # Pending tasks and investigations
-├── docker-compose.yml      # Docker Compose (Telegram bot service)
+├── docker-compose.yml      # Docker Compose (Telegram + Discord bot services)
 ├── Dockerfile              # Docker image (Python 3.11-slim)
 └── .github/workflows/      # CI/CD (Docker build + push to GHCR)
 ```
@@ -76,7 +79,7 @@ Vector DB   LLM Manager
 
 ## Configuration
 
-All settings live in `config.py` as a `pydantic-settings` `BaseSettings` class with typed fields, defaults, and automatic `.env` loading. Environment variables (API keys, tokens) in `.env` — see `.env.sample` for the template.
+All settings live in `src/config.py` as a `pydantic-settings` `BaseSettings` class with typed fields, defaults, and automatic `.env` loading. Environment variables (API keys, tokens) in `.env` — see `.env.sample` for the template.
 
 ## Project philosophy
 

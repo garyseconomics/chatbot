@@ -59,7 +59,7 @@ class Settings(BaseSettings):
         }
 
     # Vector database
-    database_path: str = "./vector_database/chroma_langchain_db"
+    database_path: str = "./data/chroma_langchain_db"
     collection_name: str = "youtube_videos"
     chunk_size: int = 1024
     chunk_overlap: int = 105

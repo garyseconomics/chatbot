@@ -7,7 +7,7 @@ services:
     restart: unless-stopped
     volumes:
       - ./docs/import:/app/docs/import
-      - ./vector_database:/app/vector_database
+      - ./data:/app/data
     command: ["python", "-m", "interfaces.telegram_bot"]
     tty: true
 
@@ -19,6 +19,6 @@ services:
     restart: unless-stopped
     volumes:
       - ./docs/import:/app/docs/import
-      - ./vector_database:/app/vector_database
+      - ./data:/app/data
     command: ["python", "-m", "interfaces.discord_bot"]
     tty: true
