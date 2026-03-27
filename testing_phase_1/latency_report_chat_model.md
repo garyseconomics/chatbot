@@ -87,6 +87,10 @@ The cloud's worst case (26s) is better than the self-hosted's best day average (
 ### Self-hosted details
 
 Data: 276 successful queries from real users, March 10–18 2026.
+Hardware: MakeSpace Madrid AI server — 2 GPUs (3060 + 3090, 36 GB VRAM total),
+40-thread Threadripper CPU, 96 GB RAM. The server also hosts a virtual machine
+running the bot application and other MakeSpace services, so GPU/CPU resources
+are shared.
 
 **Latency distribution:**
 

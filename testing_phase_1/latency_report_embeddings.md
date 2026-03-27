@@ -5,8 +5,10 @@ for vector search — the step where a user's question is embedded and compared 
 the vector database to retrieve relevant subtitle fragments.
 
 There are two Ollama instances that can serve embeddings:
-- **MakeSpace Ollama** (`ollama_self_hosted`) — hosted on a dedicated server at MakeSpace Madrid (better hardware).
-- **Local Ollama** (`ollama_local`) — hosted on the same virtual server as the bot application (fallback).
+- **MakeSpace Ollama** (`ollama_self_hosted`) — hosted on MakeSpace Madrid's AI server:
+  2 GPUs (3060 + 3090, 36 GB VRAM total), 40-thread Threadripper CPU, 96 GB RAM.
+- **Local Ollama** (`ollama_local`) — hosted on a virtual machine on the same physical
+  server, with a small allocation of CPU/RAM and no dedicated GPU. This is the fallback.
 
 Ollama Cloud does not support embedding models (as of March 2026). The code tries
 MakeSpace Ollama first and only falls back to Local Ollama if it's unreachable.
