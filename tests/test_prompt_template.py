@@ -15,5 +15,5 @@ def test_prompt_includes_current_datetime():
     prompt = get_rag_prompt()
     messages = prompt.invoke({"question": "What time is it?", "context": "No context."})
     rendered = messages.to_string()
-    assert "Current date and time:" in rendered
+    assert "Today is" in rendered
     assert "UTC" in rendered
