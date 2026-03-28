@@ -9,7 +9,7 @@ from config import settings
 from rag.langfuse_helpers import create_langfuse_client, update_and_flush_trace
 from llm.llm_manager import LLM_Client
 from llm.prompt_template import get_rag_prompt
-from vector_database.vector_database_manager import get_or_create_vector_database
+from rag.vector_database import get_vector_database
 
 logger = logging.getLogger(__name__)
 
@@ -28,7 +28,7 @@ async def retrieve(state: State, config):
     # LangGraph passes config as the second argument to any node that accepts it
     llm_client = config["configurable"]["llm_client"]
     embeddings_model = llm_client.get_embeddings_model()
-    vector_store = get_or_create_vector_database(settings.database_path, embeddings_model)
+    vector_store = get_vector_database(settings.database_path, embeddings_model)
     retrieved_docs = await vector_store.asimilarity_search(state["question"])
     return {"context": retrieved_docs}
 
