@@ -1,3 +1,4 @@
+import logging
 import os
 
 from content_database.config import settings
@@ -22,6 +23,8 @@ def check_and_delete_existing_collections(database_path):
 
 # Only run when executed directly, not when imported as a module
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+
     # Get the files list from the import folder
     files_list = [
         os.path.join(settings.documents_directory, file)
