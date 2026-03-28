@@ -54,7 +54,7 @@ def test_get_or_create_database(test_database_path, embeddings_model):
 
 
 def test_add_documents_to_vector_database(test_database_path, embeddings_model):
-    files_list = ["tests/sample.srt"]
+    files_list = ["content_database/scripts/tests/sample.srt"]
     add_documents_to_vector_database(test_database_path, files_list, embeddings_model)
     client = get_chromadb_client(test_database_path)
     collection = client.get_collection(settings.collection_name)
@@ -74,8 +74,8 @@ def test_add_documents_to_vector_database(test_database_path, embeddings_model):
     assert documents[0] == expected_content
 
 
-def test_add_documents_without_embeddings_model(test_database_path, use_ollama_for_testing):
-    files_list = ["tests/sample.srt"]
+def test_add_documents_without_embeddings_model(test_database_path):
+    files_list = ["content_database/scripts/tests/sample.srt"]
     vector_store = add_documents_to_vector_database(test_database_path, files_list)
     assert isinstance(vector_store, Chroma)
 

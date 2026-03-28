@@ -8,7 +8,7 @@ from content_database.scripts.srt_splitter import get_splits_from_srt
 @pytest.fixture
 def sample_srt_file():
     """Fixture to return the path of a sample SRT file for testing."""
-    return "tests/sample.srt"
+    return "content_database/scripts/tests/sample.srt"
 
 
 def test_get_splits_from_srt(sample_srt_file):
