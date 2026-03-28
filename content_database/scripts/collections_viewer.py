@@ -1,5 +1,5 @@
-from config import settings
-from vector_database.vector_database_manager import get_collections_from_database
+from content_database.config import settings
+from content_database.scripts.vector_database_manager import get_collections_from_database
 
 # Only run when executed directly, not when imported as a module
 if __name__ == "__main__":

@@ -4,9 +4,8 @@ import time
 import chromadb
 from langchain_chroma import Chroma
 
-from config import settings
-from llm.llm_manager import LLM_Client
-from vector_database.srt_splitter import get_splits_from_srt
+from content_database.config import settings
+from content_database.scripts.srt_splitter import get_splits_from_srt
 
 logger = logging.getLogger(__name__)
 

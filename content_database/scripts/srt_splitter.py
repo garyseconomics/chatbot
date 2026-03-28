@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import SRTLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-from config import settings
+from content_database.config import settings
 
 
 def get_splits_from_srt(filename):

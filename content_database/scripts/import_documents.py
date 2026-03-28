@@ -1,7 +1,7 @@
 import os
 
-from config import settings
-from vector_database.vector_database_manager import (
+from content_database.config import settings
+from content_database.scripts.vector_database_manager import (
     add_documents_to_vector_database,
     delete_existing_collections,
     get_collections_from_database,
