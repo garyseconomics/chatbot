@@ -12,19 +12,35 @@ to a server owned by Gary's Economics.
 
 ---
 
-## Step 1. Create an account with a VPS hosting provider
+## Step 1. Set up a testing environment (free hosting)
 
-Choose a provider that offers VPS with Docker support. No GPU needed — the server only
-runs Docker containers, with chat and embeddings handled by cloud providers.
+Before setting up the production server, create a free VPS to test the full deployment
+process. This lets us verify everything works without spending money.
 
-**Budget:** ~$3–5/month. A free-tier VPS is too risky for production: limited RAM can
-cause Chroma to crash as the database grows, and free tiers can throttle or reclaim
-instances.
+**Free options:** Oracle Cloud Always Free or AWS t3.micro (12 months).
+
+See [Phase 2 Plan, section 2.4](Phase_2_Plan.md#24-migrate-to-garys-server) for the
+full comparison table.
+
+Run through Steps 2–6 on the test server first. Once everything is verified, repeat on
+the production server (Step 1b).
+
+## Step 1b. Create the production account (paid hosting)
+
+Once the test deployment is validated, create a paid VPS for production. No GPU needed —
+the server only runs Docker containers, with chat and embeddings handled by cloud
+providers.
+
+**Budget:** ~$3–5/month.
 
 **Top paid options:** Hetzner CX22 (~$3.60/mo, best value) or DigitalOcean ($6/mo,
 $200 free credit for new accounts).
 
-**Free options (testing only):** Oracle Cloud Always Free or AWS t3.micro (12 months).
+**RAM consideration:** The Chroma vector database is currently ~28 MB (~100 videos), but
+will grow significantly as we add content (target 310+ videos plus potentially economist
+documents). Providers with only 1 GB RAM (Vultr, AWS Lightsail, DigitalOcean basic) may
+become tight as the database grows. Hetzner CX22 (4 GB) or Contabo (8 GB) give more
+headroom.
 
 See [Phase 2 Plan, section 2.4](Phase_2_Plan.md#24-migrate-to-garys-server) for the
 full comparison table.
@@ -32,6 +48,8 @@ full comparison table.
 ## Step 2. Create the VPS and set up Docker
 
 - Create a VPS with Ubuntu.
+- Basic security hardening: set up SSH key authentication, disable password login,
+  configure firewall (UFW — allow SSH and outbound only). Discuss details with the team.
 - Install Docker and Docker Compose.
 - Clone the repository or copy `docker-compose.yml` and `.env` to the server.
 
@@ -54,7 +72,8 @@ transferred separately.
    ```bash
    scp -r data/ newserver:/path/to/chatbot/data/
    ```
-   The database is a single ~28 MB directory.
+   The database is a single ~28 MB directory. A backup is also available at
+   [garyseconomics/chatbot-database](https://github.com/garyseconomics/chatbot-database).
 
 2. Add new subtitles on the new server using the import pipeline to verify the
    importer works in the new environment.
@@ -81,12 +100,27 @@ docker compose run --rm telegram-bot pytest
 
 ## Step 6. Start the service and verify
 
-1. Start the containers:
+**Important:** Stop the bots on the old server BEFORE starting them on the new one.
+Running two instances of the same bot simultaneously will cause both to receive and
+respond to messages unpredictably.
+
+1. Stop the containers on the old server:
+   ```bash
+   docker compose down
+   ```
+
+2. Start the containers on the new server:
    ```bash
    docker compose up -d
    ```
 
-2. Test with the CLI chatbot first to verify the RAG pipeline works.
+3. Test with the CLI chatbot first to verify the RAG pipeline works.
 
-3. Test with real messages on Telegram and Discord to confirm the bots are responding
+4. Test with real messages on Telegram and Discord to confirm the bots are responding
    correctly through both platforms.
+
+## Step 7. Transition period
+
+Keep the MakeSpace server available (containers stopped but ready to restart) for a few
+weeks after migration. If something goes wrong on the new server, we can quickly switch
+back by stopping the new containers and restarting the old ones.
