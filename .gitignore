@@ -213,6 +213,7 @@ __marimo__/
 
 # Chroma database
 chroma_langchain_db/
+content_database/data/
 
 # Sensitive test questions (troll/censorship examples)
 analytics/sensitive_questions_for_testing.py

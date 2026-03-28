@@ -7,14 +7,6 @@ def test_basic_configuration():
     assert isinstance(settings.bot_greeting, str)
 
 
-def test_vectorized_database_configuration():
-    assert isinstance(settings.database_path, str)
-    assert isinstance(settings.collection_name, str)
-    assert isinstance(settings.chunk_size, int)
-    assert isinstance(settings.chunk_overlap, int)
-    assert isinstance(settings.batch_size, int)
-
-
 def test_local_ollama_host_is_configured():
     """Local Ollama host must be configured."""
     assert settings.ollama_local_host_url, (

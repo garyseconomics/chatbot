@@ -23,7 +23,7 @@ class Settings(BaseSettings):
     ollama_cloud_api_key: str = ""
 
     # LLM settings
-    embeddings_model: str = "qwen3-embedding:8b"
+    embeddings_model: str = ""
 
     # Provider priority — try providers in this order, use the first available one.
     # Each name must match a key in the providers property below.
@@ -59,15 +59,9 @@ class Settings(BaseSettings):
         }
 
     # Vector database
-    database_path: str = "./data/chroma_langchain_db"
-    collection_name: str = "youtube_videos"
-    chunk_size: int = 1024
-    chunk_overlap: int = 105
-    batch_size: int = 10
-
-    # Documents
-    documents_directory: str = "docs/import"
-    video_ids_separator: str = "__"
+    database_path: str = ""
+    collection_name: str = ""
+    video_ids_separator: str = ""
 
     # App
     app_name: str = "GarysEconomics_bot"
