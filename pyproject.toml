@@ -28,9 +28,6 @@ dev = [
     "ruff",
 ]
 
-[tool.setuptools]
-py-modules = ["config"]
-
 [tool.setuptools.packages.find]
 where = ["src"]
 

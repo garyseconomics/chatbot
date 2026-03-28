@@ -6,13 +6,12 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-# Copy project metadata and install dependencies
-COPY pyproject.toml .
-RUN pip install --no-cache-dir --upgrade pip \
-    && pip install --no-cache-dir .
-
 # Copy source code
 COPY . .
+
+# Install dependencies
+RUN pip install --no-cache-dir --upgrade pip \
+    && pip install --no-cache-dir .
 
 # Default command starts the CLI chatbot.
 CMD ["python", "-m", "interfaces.telegram_bot"]
