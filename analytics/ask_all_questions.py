@@ -40,14 +40,13 @@ async def ask_all_questions() -> None:
                 logger.warning("Empty answer (attempt %d/%d), retrying...", attempt + 1, max_retries)
 
             timestamp = datetime.now(timezone.utc).isoformat()
-            chat_model = settings.chat_model
-            prompt_version = settings.prompt_version
+            prompt_version = str(settings.prompt_version)
 
             cursor.execute(
                 "INSERT INTO qa_test_results"
                 " (timestamp, issue_category, question, answer, chat_model, prompt_version)"
                 " VALUES (?, ?, ?, ?, ?, ?)",
-                (timestamp, category, question, answer, chat_model, prompt_version),
+                (timestamp, category, question, answer, settings.chat_model, prompt_version),
             )
             conn.commit()
 

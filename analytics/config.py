@@ -1,6 +1,8 @@
 from dotenv import load_dotenv
 from pydantic_settings import BaseSettings
 
+from config import settings as main_settings
+
 load_dotenv()
 
 
@@ -13,8 +15,9 @@ class Settings(BaseSettings):
     langfuse_secret_key: str = ""
     langfuse_host: str = "https://cloud.langfuse.com"
 
-    prompt_version: str = "4"
-    chat_model: str = "qwen3-next:80b"
+    prompt_version: int = main_settings.prompt_version
+    provider_name: str = main_settings.chat_provider_priority[0]
+    chat_model: str = main_settings.providers[provider_name]["chat_model"]
 
 
 settings = Settings()
