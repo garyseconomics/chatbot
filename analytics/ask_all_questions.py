@@ -9,13 +9,11 @@ import logging
 import sqlite3
 from datetime import datetime, timezone
 
-from config import settings
+from analytics.config import settings
 from rag.rag_manager import RAG_query
 from analytics.questions_for_testing import questions
 
 logger = logging.getLogger(__name__)
-
-PROMPT_VERSION = "3"
 
 
 async def ask_all_questions() -> None:
@@ -41,14 +39,15 @@ async def ask_all_questions() -> None:
                     break
                 logger.warning("Empty answer (attempt %d/%d), retrying...", attempt + 1, max_retries)
 
-            chat_model = response["chat_model"]
             timestamp = datetime.now(timezone.utc).isoformat()
+            chat_model = settings.chat_model
+            prompt_version = settings.prompt_version
 
             cursor.execute(
                 "INSERT INTO qa_test_results"
                 " (timestamp, issue_category, question, answer, chat_model, prompt_version)"
                 " VALUES (?, ?, ?, ?, ?, ?)",
-                (timestamp, category, question, answer, chat_model, PROMPT_VERSION),
+                (timestamp, category, question, answer, chat_model, prompt_version),
             )
             conn.commit()
 

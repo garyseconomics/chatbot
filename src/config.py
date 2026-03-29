@@ -89,9 +89,6 @@ class Settings(BaseSettings):
     langfuse_secret_key: str = ""
     langfuse_host: str = "https://cloud.langfuse.com"
 
-    # Analytics database — SQLite file path
-    analytics_db_path: str = "./analytics/analytics.db"
-
 
 settings = Settings()
 
