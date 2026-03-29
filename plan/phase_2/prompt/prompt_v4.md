@@ -264,6 +264,28 @@ The vector search sometimes returns thematically related but conceptually wrong 
   oversimplified models. The without-context answer defaults to the mainstream position
   Gary criticises.
 
+## Additional retests (2026-03-30)
+
+6 questions retested against prompt v4 + `qwen3-next:80b` to verify fixes from earlier
+versions. Full Q&A in [prompt_v4_retests_2026-03-30.md](prompt_v4_retests_2026-03-30.md).
+
+**Confirmed fixed in v4:**
+- "Did Trump get lucky in life or is he genuinely good at business?" — v3 had RAG leak,
+  unused context, and failure to connect available context. All three fixed — no leak,
+  engages directly, reframes as systemic issue about inherited wealth.
+- "How does tokenisation of real world assets affect wealth inequality?" — v3 refused
+  entirely. v4 gives a good answer with no refusal, no RAG leak.
+- "How much do monopolies contribute to the issue of inequality?" — v3 refused entirely.
+  v4 gives a good answer with no refusal, no RAG leak.
+- "what do you think about passive incomes?" — Confirmed still working well across v3.1
+  and v4.
+
+**RAG internals leak persists on:**
+- "has an Exit Tax been discussed?" — Good economics answer but opens with "based on the
+  provided transcript."
+- "What does gary think about rent control?" — No longer refuses (v3 fix held) but leaks
+  "the reference material doesn't actually cover..."
+
 ## To consult with Gary's team
 
 ### How should the bot handle critical questions about Gary?
