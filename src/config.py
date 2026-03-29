@@ -24,7 +24,7 @@ class Settings(BaseSettings):
 
     # LLM settings
     prompt_version: int = 4
-    embeddings_model: str = ""
+    embeddings_model: str = "qwen3-embedding:8b"
 
     # Provider priority — try providers in this order, use the first available one.
     # Each name must match a key in the providers property below.
@@ -61,8 +61,8 @@ class Settings(BaseSettings):
 
     # Vector database
     database_path: str = ""
-    collection_name: str = ""
-    video_ids_separator: str = ""
+    collection_name: str = "youtube_videos"
+    video_ids_separator: str = "__"
 
     # App
     app_name: str = "GarysEconomics_bot"
