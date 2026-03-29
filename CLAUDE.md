@@ -177,7 +177,8 @@ All settings live in `src/config.py` as a `pydantic-settings` `BaseSettings` cla
 ### Running tests
 ```bash
 source .venv/bin/activate
-pytest
+pytest                                    # main chatbot tests
+pytest content_database/scripts/tests/    # content database importer tests
 ```
 
 **Note on Ollama and tests:** Some tests (e.g., `test_vector_database.py`) call the Ollama embedding server. Host selection uses `ollama_helpers.get_available_ollama_host()` which pings remote first and falls back to local. Tests mock the connectivity check for reliable results. If both remote and local Ollama are unavailable, embedding-dependent tests will fail — this is expected.
