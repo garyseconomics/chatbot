@@ -13,19 +13,6 @@
   All answered correctly after the v3.1 fix. See developer testing section below.
 - **v4 deployed**: 2026-03-28 ~17:50 (commit `409addd`)
 
-## Real user activity
-
-| Date | Platform | Users | Questions |
-|------|----------|-------|-----------|
-| 2026-03-23 | Telegram | 3 users | 6 questions |
-| 2026-03-24 | Telegram + Discord | 2 Telegram (21 + 11), 1 Discord (developer, 2) | 34 questions |
-| 2026-03-25 | TBD | TBD | 35 traces (not yet analysed) |
-| 2026-03-28 | Telegram + Discord | TBD | Traces exist in Langfuse but not imported (see below) |
-
-**Note:** A dependency update during the Docker rebuild on 2026-03-28 changed the Langfuse
-trace input format. All traces after ~06:11 on 2026-03-28 are in the raw export but the
-importer silently skips them. See `analytics/importer_format_issue.md` and the TODO task
-"Fix importer for new trace format".
 
 ## Developer testing (March 23-24)
 
@@ -39,8 +26,7 @@ All answered correctly. Confirms the v3.1 fix resolved the refusal issue.
 
 ## Bot performance (March 23-25)
 
-~75 real user questions across March 23-25 covering a wide range of topics. User-specific
-details in `conversations/conversations.md` (gitignored).
+~35 real user questions across March 23-25 covering a wide range of topics. 
 
 ### What the bot handled well
 
