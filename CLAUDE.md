@@ -183,6 +183,9 @@ pytest content_database/scripts/tests/    # content database importer tests
 
 **Note on Ollama and tests:** Some tests (e.g., `test_vector_database.py`) call the Ollama embedding server. Host selection uses `ollama_helpers.get_available_ollama_host()` which pings remote first and falls back to local. Tests mock the connectivity check for reliable results. If both remote and local Ollama are unavailable, embedding-dependent tests will fail — this is expected.
 
+### Langfuse traces
+- When asked to download traces from Langfuse, use `analytics/export.py` (`fetch_and_save_traces()`).
+
 ### Git
 - Small, focused commits.
 - Commit messages: imperative mood, concise (e.g., "Add SRT chunking with overlap").
