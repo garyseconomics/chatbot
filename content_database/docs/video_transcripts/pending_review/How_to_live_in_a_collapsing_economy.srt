@@ -1,0 +1,7355 @@
+1
+00:00:00,160 --> 00:00:05,480
+Okay guys, welcome back to Gary's Economics. This week we've got something a little bit different for you.
+
+2
+00:00:05,620 --> 00:00:13,120
+We are going to show you a live recording of a speech I gave at Cambridge to kick off my book launch a couple of months ago.
+
+3
+00:00:14,800 --> 00:00:20,160
+I've got to be honest, if we've gotten around to this point, it means basically we have run out of videos.
+
+4
+00:00:20,900 --> 00:00:26,700
+And the reason for that is because I am currently on holiday cycling from Tokyo to Kagoshima in southwestern Japan.
+
+5
+00:00:26,700 --> 00:00:33,660
+All right. Listen, it's been a pretty mental year for me. I've been working really hard. The channel has grown a lot.
+
+6
+00:00:34,879 --> 00:00:40,960
+I've had a ton of publicity with the book. Trying to grow everything, trying to push things politically and it's been a lot of work.
+
+7
+00:00:41,300 --> 00:00:50,300
+And to be honest, I'm feeling a little bit creatively exhausted and, you know, we get a lot of support for this channel now.
+
+8
+00:00:50,300 --> 00:00:55,580
+I've got a manager and we've got Jack here, the videographer, but creatively it's still basically me who does the videos.
+
+9
+00:00:55,580 --> 00:01:03,580
+And with all the book and the interviews and the videos for the channel, I'm feeling a bit knackered and the election, all that nonsense.
+
+10
+00:01:04,379 --> 00:01:06,679
+So I've decided to get out of here, go back to Japan.
+
+11
+00:01:07,880 --> 00:01:12,440
+Those of you who have read the book when I lived in Japan for two years and I used to spend a lot of time in there before COVID.
+
+12
+00:01:12,440 --> 00:01:19,660
+So I've decided to take a little bit of a break, go and do this cycle that I've wanted to do for ages from Tokyo to to southwest Japan.
+
+13
+00:01:20,039 --> 00:01:26,039
+And I've tried my best to film videos to fill the gap, but I'm not sure we're going to be able to cover the whole time.
+
+14
+00:01:26,280 --> 00:01:34,640
+And we've scheduled this to be the last video before we go blank for a bit, maybe for part of August, before I come back for my holiday.
+
+15
+00:01:34,640 --> 00:01:39,960
+And this is a speech I gave at Robinson College in Cambridge.
+
+16
+00:01:41,400 --> 00:01:44,800
+It's a little bit more personal, a little bit more emotional than a lot of the stuff that I do.
+
+17
+00:01:45,040 --> 00:01:52,160
+Talking about sort of how I deal with sort of living in this economy where things get worse and worse and trying to stop it.
+
+18
+00:01:52,160 --> 00:02:00,539
+I think it's a really nice speech and I promised a room full of Scousers in Waterstones, Liverpool that I'd put it up on the YouTube at some point.
+
+19
+00:02:00,660 --> 00:02:01,800
+So hopefully they're still watching.
+
+20
+00:02:03,039 --> 00:02:09,620
+Unfortunately, there's a few problems with the sound quality, but since we've got a gap with no videos, I think it's worth watching.
+
+21
+00:02:09,699 --> 00:02:11,680
+I think it's really interesting. It's about 45 minutes long.
+
+22
+00:02:12,440 --> 00:02:15,560
+I hope you like it. I get a little bit emotional in it.
+
+23
+00:02:15,560 --> 00:02:22,840
+But after this, I think we'll probably have a gap of a few weeks before I come back in September and start shooting again.
+
+24
+00:02:23,880 --> 00:02:26,580
+So this will be it for me for a few weeks.
+
+25
+00:02:29,480 --> 00:02:32,420
+I'll be back and I hope you enjoy this last video. Thank you.
+
+26
+00:02:32,880 --> 00:02:35,440
+And also thanks for all of your help this year.
+
+27
+00:02:35,540 --> 00:02:41,060
+The growth has been really good and been really mental and hopefully we'll be able to have a little bit more political impact when I come back.
+
+28
+00:02:41,440 --> 00:02:41,860
+Thank you.
+
+29
+00:02:41,860 --> 00:02:54,880
+When I was contacted to do this lecture, they said, come to Robertson College, talk about economics, tell everyone why inequality is a problem.
+
+30
+00:02:56,260 --> 00:02:59,680
+And my agent said, that's perfect timing for your book launch, go do it.
+
+31
+00:03:02,740 --> 00:03:05,860
+So I said yes, and that's about a year ago now.
+
+32
+00:03:07,000 --> 00:03:08,460
+I didn't really think about it much.
+
+33
+00:03:08,460 --> 00:03:16,780
+Then they reached out to me a couple of months ago and they said, what do you want the title of your lecture to be?
+
+34
+00:03:18,120 --> 00:03:26,800
+And my first thought when they said that was, I don't really want to talk about economics anymore.
+
+35
+00:03:29,960 --> 00:03:31,060
+Let me explain to you why.
+
+36
+00:03:31,060 --> 00:03:33,880
+I've been talking about economics for a long time now.
+
+37
+00:03:35,020 --> 00:03:42,800
+13 years, 14 years, I've been having arguments about economics, trying to tell people inequality is a problem, inequality is a problem.
+
+38
+00:03:43,780 --> 00:03:46,100
+It's going to get worse, it's going to get worse, we need to do something.
+
+39
+00:03:46,100 --> 00:04:02,340
+And over the course of those 14 years, especially in the last year or two, what I've noticed is the arguments I've been having have been changing.
+
+40
+00:04:02,340 --> 00:04:10,680
+And more and more I start to think to myself that actually, we're not really arguing about economics at all.
+
+41
+00:04:10,680 --> 00:04:21,019
+See, when I first started saying inequality was a problem, I was working in a bank in Canary Wharf in London, and I was surrounded by millionaires of economics degrees.
+
+42
+00:04:21,019 --> 00:04:29,859
+And they would say to me, you can't tax wealth, you can't deal with inequality, because we need the rich to invest, to grow the economy.
+
+43
+00:04:30,520 --> 00:04:36,200
+The optimal rate of taxation in the first best of all possible worlds on capital is zero.
+
+44
+00:04:38,979 --> 00:04:40,760
+But nobody really says that to me anymore.
+
+45
+00:04:42,140 --> 00:04:50,760
+Okay, some people do say that sometimes in places like this, people say that, but nobody with that fancy economics degree says that to me anymore.
+
+46
+00:04:51,020 --> 00:05:00,280
+What people say to me now is, you can't tax the rich, you can't tax, they're too powerful.
+
+47
+00:05:01,320 --> 00:05:04,659
+You tax the rich, they'll leave and they'll go away and then we'll have nothing and then we'll be poor.
+
+48
+00:05:06,359 --> 00:05:11,299
+Or they say to me, it's impossible trying to deal with inequality.
+
+49
+00:05:12,599 --> 00:05:15,840
+Inequality is just the way things are, the rich are too powerful.
+
+50
+00:05:16,859 --> 00:05:18,640
+Why are you trying to stop them? You're wasting your time.
+
+51
+00:05:18,640 --> 00:05:24,539
+Or they say to me, why are you trying to stop inequality?
+
+52
+00:05:25,599 --> 00:05:29,060
+Why don't you just trade Bitcoin or foreign exchange on the internet?
+
+53
+00:05:29,760 --> 00:05:31,240
+That's the way to make everything better.
+
+54
+00:05:33,700 --> 00:05:35,120
+Or they say to me,
+
+55
+00:05:35,120 --> 00:05:44,220
+You know, the economy and society, it's like the cycles of nature.
+
+56
+00:05:45,160 --> 00:05:48,040
+Sometimes it's good and sometimes it's bad.
+
+57
+00:05:48,660 --> 00:05:51,180
+Sometimes it gets better and sometimes it gets worse.
+
+58
+00:05:52,200 --> 00:05:53,680
+So why are you trying to change things?
+
+59
+00:05:54,660 --> 00:05:56,540
+You can't fight the cycles of nature.
+
+60
+00:05:56,540 --> 00:06:02,580
+And the more I heard these arguments, the more I started to think,
+
+61
+00:06:03,320 --> 00:06:06,460
+we're not really arguing about the economy.
+
+62
+00:06:08,140 --> 00:06:11,260
+Increasingly, everybody knows it's getting worse and worse.
+
+63
+00:06:12,840 --> 00:06:16,720
+Really, hardly any real people think it's going to get better.
+
+64
+00:06:16,720 --> 00:06:20,900
+But I think people in their heart of hearts realise
+
+65
+00:06:20,900 --> 00:06:24,880
+that it just gets worse and worse from here.
+
+66
+00:06:25,760 --> 00:06:27,240
+And when they're saying to me,
+
+67
+00:06:27,880 --> 00:06:30,160
+why are you trying to fix things?
+
+68
+00:06:31,040 --> 00:06:32,740
+Often they're really saying to themselves,
+
+69
+00:06:33,340 --> 00:06:35,520
+I don't want to have to try to fix things.
+
+70
+00:06:35,520 --> 00:06:39,940
+And I started to feel like the real questions
+
+71
+00:06:39,940 --> 00:06:41,900
+that we're asking ourselves and each other
+
+72
+00:06:41,900 --> 00:06:43,740
+is not really,
+
+73
+00:06:44,159 --> 00:06:45,640
+is the economy broken?
+
+74
+00:06:48,299 --> 00:06:49,419
+It's what do you do?
+
+75
+00:06:51,400 --> 00:06:54,039
+What do you do when you live in a collapsing economy?
+
+76
+00:06:56,359 --> 00:06:57,419
+What do you do?
+
+77
+00:06:58,260 --> 00:06:59,479
+What should you do?
+
+78
+00:07:00,380 --> 00:07:02,400
+And what does it mean?
+
+79
+00:07:03,740 --> 00:07:04,280
+And more and more,
+
+80
+00:07:04,280 --> 00:07:05,900
+these are the questions that I hear
+
+81
+00:07:05,900 --> 00:07:08,000
+when I argue people about economics.
+
+82
+00:07:09,640 --> 00:07:10,660
+What do you do?
+
+83
+00:07:11,360 --> 00:07:12,460
+What should you do?
+
+84
+00:07:13,600 --> 00:07:14,820
+What does it mean?
+
+85
+00:07:17,340 --> 00:07:19,700
+And it got me thinking about my journey in economics.
+
+86
+00:07:21,040 --> 00:07:22,660
+I've been an economist for,
+
+87
+00:07:23,580 --> 00:07:24,900
+God, nearly 20 years now.
+
+88
+00:07:25,720 --> 00:07:27,660
+But I lived in an economy my whole life.
+
+89
+00:07:29,080 --> 00:07:30,280
+I grew up very poor,
+
+90
+00:07:30,400 --> 00:07:32,520
+so really poverty and a collapsing economy
+
+91
+00:07:32,520 --> 00:07:33,340
+is not new to me.
+
+92
+00:07:34,280 --> 00:07:36,320
+But it got me thinking,
+
+93
+00:07:36,780 --> 00:07:38,980
+what did I do?
+
+94
+00:07:40,500 --> 00:07:41,920
+What should I have done differently?
+
+95
+00:07:43,240 --> 00:07:44,320
+What does it all mean?
+
+96
+00:07:44,320 --> 00:07:49,420
+So I sent a memo back saying I wanted to talk about
+
+97
+00:07:49,420 --> 00:07:51,340
+what it means to be human in a collapsing economy.
+
+98
+00:07:52,000 --> 00:07:53,659
+And I'm going to talk a little bit about
+
+99
+00:07:53,659 --> 00:07:56,580
+what I think about my path.
+
+100
+00:07:57,860 --> 00:08:00,700
+And when I talk about that,
+
+101
+00:08:00,960 --> 00:08:04,659
+I want you to think about those three main questions.
+
+102
+00:08:04,660 --> 00:08:08,300
+What does it mean to live in a collapsing economy?
+
+103
+00:08:09,580 --> 00:08:11,760
+What do you do when the economy is collapsing?
+
+104
+00:08:13,480 --> 00:08:14,440
+And what should you do?
+
+105
+00:08:15,620 --> 00:08:17,840
+And I'm going to stop at points and I'm going to ask those questions.
+
+106
+00:08:17,920 --> 00:08:18,420
+And when I do that,
+
+107
+00:08:18,480 --> 00:08:19,320
+I would like you to think,
+
+108
+00:08:19,320 --> 00:08:20,880
+what would I do if that was me?
+
+109
+00:08:20,880 --> 00:08:24,500
+And with regards to the second of those questions,
+
+110
+00:08:24,600 --> 00:08:26,140
+what do you do when the economy is collapsing?
+
+111
+00:08:26,920 --> 00:08:28,480
+All of you will have a perspective on that
+
+112
+00:08:28,480 --> 00:08:30,040
+because you all live in a collapsing economy
+
+113
+00:08:30,040 --> 00:08:31,300
+and you're all doing something.
+
+114
+00:08:32,860 --> 00:08:34,659
+But this kind of economic collapse,
+
+115
+00:08:34,740 --> 00:08:35,500
+which is in my opinion,
+
+116
+00:08:35,580 --> 00:08:36,679
+a collapse caused by inequality,
+
+117
+00:08:37,380 --> 00:08:39,460
+it's a collapse which looks very, very different
+
+118
+00:08:39,460 --> 00:08:42,039
+depending on which angle you view it from.
+
+119
+00:08:42,039 --> 00:08:45,839
+So some of you will have been in the situations I've been in
+
+120
+00:08:45,839 --> 00:08:46,699
+and some of you won't have been.
+
+121
+00:08:48,280 --> 00:08:49,819
+But I want you to take it as an opportunity
+
+122
+00:08:49,819 --> 00:08:52,219
+to imagine you're in a different seat to where you are now
+
+123
+00:08:52,219 --> 00:08:55,439
+and ask yourself, honestly, what would I do if that was me?
+
+124
+00:08:57,020 --> 00:08:58,500
+Okay, so with that, I'm going to start,
+
+125
+00:08:59,160 --> 00:09:00,740
+I don't really like reading from speeches,
+
+126
+00:09:00,900 --> 00:09:01,920
+but I've written a little story.
+
+127
+00:09:03,540 --> 00:09:04,280
+When I was writing,
+
+128
+00:09:04,360 --> 00:09:07,500
+I wanted to start with my period of poverty,
+
+129
+00:09:07,959 --> 00:09:09,360
+which lasted about 20 years.
+
+130
+00:09:10,160 --> 00:09:13,040
+And I wrote a little bit about Ilford,
+
+131
+00:09:13,300 --> 00:09:13,940
+which is my hometown,
+
+132
+00:09:14,200 --> 00:09:16,380
+so I'm going to read it to you.
+
+133
+00:09:18,120 --> 00:09:19,540
+I'm going to have to change this first line
+
+134
+00:09:19,540 --> 00:09:20,620
+because there's a swear word in it.
+
+135
+00:09:23,540 --> 00:09:24,480
+I grew up in Ilford.
+
+136
+00:09:25,980 --> 00:09:26,980
+It's a bit of a slum,
+
+137
+00:09:28,200 --> 00:09:28,960
+but it's my slum.
+
+138
+00:09:30,820 --> 00:09:34,100
+Ilford is kind of a contested borderland war zone
+
+139
+00:09:34,100 --> 00:09:35,540
+between East London and Essex.
+
+140
+00:09:35,540 --> 00:09:40,579
+Everyone is from Pakistan or India or Sri Lanka or something,
+
+141
+00:09:41,579 --> 00:09:43,360
+but everyone talks in a half-Cockney accent.
+
+142
+00:09:44,939 --> 00:09:46,199
+When I was a teenager,
+
+143
+00:09:46,660 --> 00:09:48,540
+I used to sing songs in Punjabi
+
+144
+00:09:48,540 --> 00:09:51,079
+for illegal immigrants working in halal fried chicken shops
+
+145
+00:09:51,079 --> 00:09:52,180
+at 2am in the morning
+
+146
+00:09:52,180 --> 00:09:53,580
+for free chicken.
+
+147
+00:09:56,460 --> 00:09:57,580
+What do you want me to tell you?
+
+148
+00:09:58,620 --> 00:09:59,420
+I loved it.
+
+149
+00:10:00,720 --> 00:10:01,540
+I still do.
+
+150
+00:10:02,440 --> 00:10:03,140
+I miss it.
+
+151
+00:10:05,220 --> 00:10:07,720
+Ilford is one of the cheapest places to live in all of London.
+
+152
+00:10:07,720 --> 00:10:11,560
+I used to live in this tiny, narrow terraced house
+
+153
+00:10:11,560 --> 00:10:14,160
+on a street full of tiny, narrow terraced houses,
+
+154
+00:10:14,940 --> 00:10:16,120
+tucked in behind the high street.
+
+155
+00:10:17,120 --> 00:10:18,740
+It had three bedrooms.
+
+156
+00:10:19,820 --> 00:10:21,200
+It used to have two bedrooms,
+
+157
+00:10:21,620 --> 00:10:23,280
+but somebody had moved the bathroom
+
+158
+00:10:23,280 --> 00:10:24,840
+downstairs into the kitchen,
+
+159
+00:10:25,300 --> 00:10:27,020
+which meant that they could turn the old bathroom
+
+160
+00:10:27,020 --> 00:10:28,800
+upstairs into another bedroom.
+
+161
+00:10:28,800 --> 00:10:31,100
+And that's where I grew up,
+
+162
+00:10:31,640 --> 00:10:33,140
+in a bunk bed with my brother,
+
+163
+00:10:34,020 --> 00:10:36,700
+in a bunk bed in an old converted bathroom.
+
+164
+00:10:38,620 --> 00:10:41,720
+The train tracks that carried brokers and traders
+
+165
+00:10:41,720 --> 00:10:44,220
+in fast trains from out in Essex
+
+166
+00:10:44,220 --> 00:10:45,540
+down into the city
+
+167
+00:10:45,540 --> 00:10:47,680
+used to run right through my garden,
+
+168
+00:10:48,360 --> 00:10:49,740
+right past my bedroom window.
+
+169
+00:10:50,880 --> 00:10:52,440
+And when the fast trains came through,
+
+170
+00:10:53,020 --> 00:10:54,440
+the whole house used to shake.
+
+171
+00:10:54,440 --> 00:10:57,580
+But I never noticed.
+
+172
+00:10:58,880 --> 00:11:00,300
+When you grow up in a house
+
+173
+00:11:00,300 --> 00:11:02,180
+that gets shaken by a fast train
+
+174
+00:11:02,180 --> 00:11:03,740
+every four minutes,
+
+175
+00:11:04,240 --> 00:11:05,340
+you don't even notice
+
+176
+00:11:05,340 --> 00:11:06,980
+when a train shakes your house.
+
+177
+00:11:08,180 --> 00:11:10,780
+I was 12 or 13 the first time I noticed.
+
+178
+00:11:12,120 --> 00:11:13,900
+My friend from school came around
+
+179
+00:11:13,900 --> 00:11:14,540
+and he said,
+
+180
+00:11:15,660 --> 00:11:17,280
+damn, your whole house is shaking.
+
+181
+00:11:18,720 --> 00:11:20,320
+And that was the first time I realised.
+
+182
+00:11:22,380 --> 00:11:23,240
+What does that mean?
+
+183
+00:11:24,440 --> 00:11:26,720
+So I was in the bottom bunk
+
+184
+00:11:26,720 --> 00:11:27,900
+of that bunk bed when I was a kid.
+
+185
+00:11:28,780 --> 00:11:30,000
+And underneath my bed,
+
+186
+00:11:30,260 --> 00:11:31,400
+there was a single drawer
+
+187
+00:11:31,400 --> 00:11:32,940
+that had been removed
+
+188
+00:11:32,940 --> 00:11:33,960
+from a chest of drawers,
+
+189
+00:11:34,480 --> 00:11:36,100
+which had probably been destroyed long ago.
+
+190
+00:11:37,100 --> 00:11:38,500
+And in that single drawer,
+
+191
+00:11:38,760 --> 00:11:40,500
+I kept all of my worldly possessions.
+
+192
+00:11:42,680 --> 00:11:43,400
+I'll be honest,
+
+193
+00:11:43,480 --> 00:11:45,600
+it wasn't a particularly safe house
+
+194
+00:11:45,600 --> 00:11:46,240
+when I was a kid.
+
+195
+00:11:47,340 --> 00:11:48,360
+There was danger
+
+196
+00:11:48,360 --> 00:11:50,280
+and there was violence sometimes.
+
+197
+00:11:51,720 --> 00:11:52,760
+But, you know,
+
+198
+00:11:53,480 --> 00:11:54,020
+I was a kid.
+
+199
+00:11:54,900 --> 00:11:55,760
+What do you do?
+
+200
+00:11:57,540 --> 00:11:59,080
+And there are a lot of institutions
+
+201
+00:11:59,080 --> 00:11:59,940
+in our society
+
+202
+00:11:59,940 --> 00:12:01,680
+that are supposed to protect poor kids
+
+203
+00:12:01,680 --> 00:12:02,640
+and kids who are not safe.
+
+204
+00:12:03,620 --> 00:12:04,420
+There's the government,
+
+205
+00:12:04,940 --> 00:12:05,840
+the welfare state,
+
+206
+00:12:06,580 --> 00:12:07,800
+charity, philanthropy,
+
+207
+00:12:08,360 --> 00:12:09,500
+some religious institutions.
+
+208
+00:12:09,500 --> 00:12:12,460
+All I can tell you is,
+
+209
+00:12:12,960 --> 00:12:14,980
+I don't remember none of them coming for me.
+
+210
+00:12:16,940 --> 00:12:18,240
+So, you know,
+
+211
+00:12:18,880 --> 00:12:20,120
+what do you do?
+
+212
+00:12:21,960 --> 00:12:23,160
+There wasn't any help
+
+213
+00:12:23,160 --> 00:12:24,260
+as far as I can remember it
+
+214
+00:12:24,260 --> 00:12:24,860
+when I was a kid.
+
+215
+00:12:25,700 --> 00:12:26,900
+But there was a story.
+
+216
+00:12:28,540 --> 00:12:30,280
+A story is something to hold on to.
+
+217
+00:12:31,360 --> 00:12:32,480
+You work hard.
+
+218
+00:12:33,220 --> 00:12:35,080
+You kill all of your exams.
+
+219
+00:12:35,080 --> 00:12:37,360
+You destroy the competition.
+
+220
+00:12:38,540 --> 00:12:39,140
+Your friends,
+
+221
+00:12:39,700 --> 00:12:40,200
+of course.
+
+222
+00:12:41,640 --> 00:12:43,100
+You beat all your friends
+
+223
+00:12:43,100 --> 00:12:44,320
+into the top university.
+
+224
+00:12:45,460 --> 00:12:46,260
+This university.
+
+225
+00:12:47,260 --> 00:12:48,319
+And then you get
+
+226
+00:12:48,319 --> 00:12:49,460
+a whole load of new friends.
+
+227
+00:12:49,920 --> 00:12:51,780
+And you beat those new friends, too,
+
+228
+00:12:52,340 --> 00:12:53,280
+into the best job.
+
+229
+00:12:53,780 --> 00:12:55,000
+And then you get the best job
+
+230
+00:12:55,000 --> 00:12:56,400
+working for a bank in the city.
+
+231
+00:12:56,400 --> 00:12:59,560
+I didn't really know
+
+232
+00:12:59,560 --> 00:13:00,000
+what that meant,
+
+233
+00:13:00,060 --> 00:13:00,480
+to be honest.
+
+234
+00:13:01,500 --> 00:13:02,660
+But I had an image.
+
+235
+00:13:03,760 --> 00:13:04,660
+It was an image
+
+236
+00:13:04,660 --> 00:13:06,400
+of a large corner office
+
+237
+00:13:06,400 --> 00:13:08,520
+high up in a skyscraper somewhere
+
+238
+00:13:08,520 --> 00:13:10,400
+with carpeted floors
+
+239
+00:13:10,400 --> 00:13:11,600
+and windows for walls
+
+240
+00:13:11,600 --> 00:13:13,900
+and a high blue sky
+
+241
+00:13:13,900 --> 00:13:14,800
+and a warm sun
+
+242
+00:13:14,800 --> 00:13:16,199
+and views for miles
+
+243
+00:13:16,199 --> 00:13:16,980
+in every direction.
+
+244
+00:13:18,959 --> 00:13:20,240
+I don't actually know
+
+245
+00:13:20,240 --> 00:13:21,040
+if offices like that
+
+246
+00:13:21,040 --> 00:13:21,740
+really exist.
+
+247
+00:13:22,740 --> 00:13:23,939
+I never worked in one.
+
+248
+00:13:25,319 --> 00:13:25,800
+But, you know,
+
+249
+00:13:26,400 --> 00:13:27,340
+that was a story.
+
+250
+00:13:29,280 --> 00:13:30,120
+I've got to be honest,
+
+251
+00:13:30,220 --> 00:13:31,300
+I didn't really work hard.
+
+252
+00:13:32,580 --> 00:13:33,400
+There wasn't anywhere
+
+253
+00:13:33,400 --> 00:13:34,320
+to work in my house.
+
+254
+00:13:35,520 --> 00:13:36,500
+The only desk
+
+255
+00:13:36,500 --> 00:13:37,140
+in the whole house
+
+256
+00:13:37,140 --> 00:13:38,200
+was this little kind of
+
+257
+00:13:38,200 --> 00:13:38,960
+bureau thing
+
+258
+00:13:38,960 --> 00:13:40,160
+that you had to fold out
+
+259
+00:13:40,160 --> 00:13:41,520
+right next to my dad's bed
+
+260
+00:13:41,520 --> 00:13:42,140
+and when you did,
+
+261
+00:13:42,180 --> 00:13:42,920
+a whole load of moths
+
+262
+00:13:42,920 --> 00:13:43,420
+threw at you.
+
+263
+00:13:44,340 --> 00:13:45,240
+It was so dark
+
+264
+00:13:45,240 --> 00:13:45,980
+and musty there
+
+265
+00:13:45,980 --> 00:13:46,900
+that I don't think
+
+266
+00:13:46,900 --> 00:13:47,720
+anyone could work there.
+
+267
+00:13:49,360 --> 00:13:50,120
+But my parents
+
+268
+00:13:50,120 --> 00:13:50,760
+had a solution.
+
+269
+00:13:50,900 --> 00:13:51,540
+They got this, like,
+
+270
+00:13:51,620 --> 00:13:52,240
+plank of wood
+
+271
+00:13:52,240 --> 00:13:53,900
+and if you sat on the armchair
+
+272
+00:13:53,900 --> 00:13:54,680
+you could put the plank
+
+273
+00:13:54,680 --> 00:13:55,340
+of wood across.
+
+274
+00:13:55,800 --> 00:13:56,480
+And you could balance
+
+275
+00:13:56,480 --> 00:13:56,940
+your books
+
+276
+00:13:56,940 --> 00:13:57,880
+and you could write there.
+
+277
+00:13:59,180 --> 00:14:00,260
+But I didn't really like
+
+278
+00:14:00,260 --> 00:14:00,680
+doing that
+
+279
+00:14:00,680 --> 00:14:01,500
+because the plank
+
+280
+00:14:01,500 --> 00:14:02,120
+wasn't that long
+
+281
+00:14:02,120 --> 00:14:03,020
+and it would fall
+
+282
+00:14:03,020 --> 00:14:04,320
+and your books
+
+283
+00:14:04,320 --> 00:14:05,100
+would fall on the floor.
+
+284
+00:14:06,480 --> 00:14:07,420
+So I just went down
+
+285
+00:14:07,420 --> 00:14:08,240
+to the floor with them
+
+286
+00:14:08,240 --> 00:14:09,820
+and I put the plank
+
+287
+00:14:09,820 --> 00:14:10,480
+down on the floor
+
+288
+00:14:10,480 --> 00:14:11,440
+and I used to work there.
+
+289
+00:14:12,120 --> 00:14:13,160
+Lying down on my belly
+
+290
+00:14:13,160 --> 00:14:14,220
+in the middle of the front room
+
+291
+00:14:14,220 --> 00:14:16,000
+doing my maths homework
+
+292
+00:14:16,000 --> 00:14:17,000
+and my French homework
+
+293
+00:14:17,000 --> 00:14:18,700
+as my dad used to watch
+
+294
+00:14:18,700 --> 00:14:19,620
+Coronation Street
+
+295
+00:14:19,620 --> 00:14:21,120
+and my brother and sister
+
+296
+00:14:21,120 --> 00:14:21,920
+used to run around
+
+297
+00:14:21,920 --> 00:14:22,420
+screaming
+
+298
+00:14:22,420 --> 00:14:23,760
+and causing carnage.
+
+299
+00:14:26,540 --> 00:14:27,520
+What do you do, you know?
+
+300
+00:14:28,660 --> 00:14:29,740
+I didn't work hard.
+
+301
+00:14:31,140 --> 00:14:31,960
+Instead, I was out
+
+302
+00:14:31,960 --> 00:14:32,500
+on the streets.
+
+303
+00:14:34,620 --> 00:14:35,240
+You know, my street
+
+304
+00:14:35,240 --> 00:14:35,880
+was like a little
+
+305
+00:14:35,880 --> 00:14:36,680
+dead-end street
+
+306
+00:14:36,680 --> 00:14:38,080
+tucked in between
+
+307
+00:14:38,080 --> 00:14:38,740
+the high street
+
+308
+00:14:38,740 --> 00:14:39,340
+and the railway
+
+309
+00:14:39,340 --> 00:14:40,660
+and on one end
+
+310
+00:14:40,660 --> 00:14:41,680
+there was this old
+
+311
+00:14:41,680 --> 00:14:42,580
+abandoned factory
+
+312
+00:14:42,580 --> 00:14:43,400
+we used to play in
+
+313
+00:14:43,400 --> 00:14:44,840
+and on the other end
+
+314
+00:14:44,840 --> 00:14:45,340
+there was this
+
+315
+00:14:45,340 --> 00:14:46,180
+recycling centre
+
+316
+00:14:46,180 --> 00:14:47,420
+which had these huge
+
+317
+00:14:47,420 --> 00:14:48,980
+three metre high
+
+318
+00:14:48,980 --> 00:14:50,420
+piles of old newspapers.
+
+319
+00:14:50,940 --> 00:14:51,640
+We used to play
+
+320
+00:14:51,640 --> 00:14:52,240
+on them as well.
+
+321
+00:14:53,780 --> 00:14:54,480
+But there was never
+
+322
+00:14:54,480 --> 00:14:55,500
+any traffic on that street
+
+323
+00:14:55,500 --> 00:14:56,100
+and the kids used to
+
+324
+00:14:56,100 --> 00:14:57,100
+just play out every day.
+
+325
+00:14:58,780 --> 00:14:59,640
+And when the first
+
+326
+00:14:59,640 --> 00:15:00,860
+Canary Wharf skyscrapers
+
+327
+00:15:00,860 --> 00:15:01,260
+went up
+
+328
+00:15:01,260 --> 00:15:02,460
+which was happening
+
+329
+00:15:02,460 --> 00:15:03,200
+when I was about
+
+330
+00:15:03,200 --> 00:15:04,380
+nine or ten
+
+331
+00:15:04,380 --> 00:15:06,220
+we could see those
+
+332
+00:15:06,220 --> 00:15:07,060
+skyscrapers go up
+
+333
+00:15:07,060 --> 00:15:07,700
+in the distance.
+
+334
+00:15:07,700 --> 00:15:11,000
+And so I thought
+
+335
+00:15:11,000 --> 00:15:12,740
+that's it then.
+
+336
+00:15:13,920 --> 00:15:14,620
+That's where I'm
+
+337
+00:15:14,620 --> 00:15:15,080
+going to be.
+
+338
+00:15:16,340 --> 00:15:17,260
+Looks like a lot of
+
+339
+00:15:17,260 --> 00:15:17,800
+corner offices
+
+340
+00:15:17,800 --> 00:15:18,400
+in that building.
+
+341
+00:15:20,300 --> 00:15:21,160
+Maybe some other
+
+342
+00:15:21,160 --> 00:15:21,980
+kids thought the same.
+
+343
+00:15:24,280 --> 00:15:24,860
+But you know
+
+344
+00:15:24,860 --> 00:15:25,740
+I wasn't really studying.
+
+345
+00:15:27,200 --> 00:15:27,820
+But you might think
+
+346
+00:15:27,820 --> 00:15:28,300
+that's a problem
+
+347
+00:15:28,300 --> 00:15:29,180
+but to be honest
+
+348
+00:15:29,180 --> 00:15:30,100
+it weren't.
+
+349
+00:15:31,180 --> 00:15:31,940
+Because even though
+
+350
+00:15:31,940 --> 00:15:32,780
+I weren't never studying
+
+351
+00:15:32,780 --> 00:15:33,840
+I still came first
+
+352
+00:15:33,840 --> 00:15:34,600
+in every exam.
+
+353
+00:15:35,860 --> 00:15:36,980
+And I don't know why.
+
+354
+00:15:38,080 --> 00:15:38,760
+I don't know
+
+355
+00:15:38,760 --> 00:15:39,400
+what that means.
+
+356
+00:15:40,560 --> 00:15:41,680
+And the kids at school
+
+357
+00:15:41,680 --> 00:15:42,020
+would say
+
+358
+00:15:42,020 --> 00:15:43,020
+oh we know you're studying
+
+359
+00:15:43,020 --> 00:15:43,740
+and I would say
+
+360
+00:15:43,740 --> 00:15:44,140
+I'm not.
+
+361
+00:15:44,240 --> 00:15:44,940
+I'm not studying.
+
+362
+00:15:45,920 --> 00:15:46,680
+And they would say
+
+363
+00:15:46,680 --> 00:15:47,540
+we know that you are
+
+364
+00:15:47,540 --> 00:15:48,900
+and I don't know
+
+365
+00:15:48,900 --> 00:15:49,640
+what you say to that.
+
+366
+00:15:50,400 --> 00:15:51,420
+So I used to take
+
+367
+00:15:51,420 --> 00:15:52,020
+them sometimes
+
+368
+00:15:52,020 --> 00:15:53,200
+back to see my house.
+
+369
+00:15:53,980 --> 00:15:54,740
+The house used to
+
+370
+00:15:54,740 --> 00:15:55,640
+shake with the trains.
+
+371
+00:15:56,460 --> 00:15:57,080
+And then they knew
+
+372
+00:15:57,080 --> 00:15:57,900
+that I wasn't studying.
+
+373
+00:15:58,920 --> 00:15:59,800
+Because I wasn't.
+
+374
+00:16:02,700 --> 00:16:03,580
+Not long after that
+
+375
+00:16:03,580 --> 00:16:04,700
+I got expelled from school.
+
+376
+00:16:05,660 --> 00:16:06,620
+See I managed to get
+
+377
+00:16:06,620 --> 00:16:07,940
+into some fancy grammar school
+
+378
+00:16:07,940 --> 00:16:08,640
+and the kids there
+
+379
+00:16:08,640 --> 00:16:09,720
+knew that I could get drugs.
+
+380
+00:16:10,740 --> 00:16:11,680
+And they were right
+
+381
+00:16:11,680 --> 00:16:12,780
+I could get drugs.
+
+382
+00:16:13,300 --> 00:16:13,780
+There were drugs
+
+383
+00:16:13,780 --> 00:16:14,360
+on my street.
+
+384
+00:16:14,600 --> 00:16:15,100
+There was about
+
+385
+00:16:15,100 --> 00:16:15,720
+ten houses
+
+386
+00:16:15,720 --> 00:16:16,400
+I could have knocked on
+
+387
+00:16:16,400 --> 00:16:17,000
+at any time.
+
+388
+00:16:17,480 --> 00:16:18,300
+And those front doors
+
+389
+00:16:18,300 --> 00:16:18,860
+would open up
+
+390
+00:16:18,860 --> 00:16:19,840
+and they'd sell me drugs.
+
+391
+00:16:21,440 --> 00:16:22,280
+And those kids
+
+392
+00:16:22,280 --> 00:16:23,160
+at the grammar school
+
+393
+00:16:23,160 --> 00:16:24,220
+from fancy homes
+
+394
+00:16:24,220 --> 00:16:25,220
+and fancy houses
+
+395
+00:16:25,220 --> 00:16:26,720
+and staircases
+
+396
+00:16:26,720 --> 00:16:28,000
+that split in two
+
+397
+00:16:28,000 --> 00:16:28,500
+in the middle.
+
+398
+00:16:28,500 --> 00:16:30,800
+They didn't have doors
+
+399
+00:16:30,800 --> 00:16:31,340
+that opened up
+
+400
+00:16:31,340 --> 00:16:32,240
+like that on their streets.
+
+401
+00:16:33,240 --> 00:16:34,480
+But what they did have
+
+402
+00:16:34,480 --> 00:16:35,820
+was money.
+
+403
+00:16:37,200 --> 00:16:37,680
+Money.
+
+404
+00:16:38,980 --> 00:16:39,940
+So they brought
+
+405
+00:16:39,940 --> 00:16:40,500
+their money
+
+406
+00:16:40,500 --> 00:16:41,600
+that I didn't have
+
+407
+00:16:41,600 --> 00:16:42,920
+and I brought my drugs
+
+408
+00:16:42,920 --> 00:16:43,900
+which they didn't have.
+
+409
+00:16:44,460 --> 00:16:45,420
+And we met then
+
+410
+00:16:45,420 --> 00:16:46,880
+in bounteous free commerce.
+
+411
+00:16:47,820 --> 00:16:48,760
+And it wasn't them
+
+412
+00:16:48,760 --> 00:16:49,600
+it was me
+
+413
+00:16:49,600 --> 00:16:50,260
+that got expelled.
+
+414
+00:16:50,720 --> 00:16:51,260
+Wasn't it?
+
+415
+00:16:51,960 --> 00:16:52,760
+And I didn't know
+
+416
+00:16:52,760 --> 00:16:54,060
+quite what that meant.
+
+417
+00:16:54,060 --> 00:16:56,860
+What would you do?
+
+418
+00:17:01,800 --> 00:17:02,400
+You know
+
+419
+00:17:02,400 --> 00:17:03,340
+when I was very young
+
+420
+00:17:03,340 --> 00:17:04,880
+primary school
+
+421
+00:17:04,880 --> 00:17:06,720
+I had a school trip
+
+422
+00:17:06,720 --> 00:17:07,840
+to the seaside.
+
+423
+00:17:08,780 --> 00:17:10,040
+At that time
+
+424
+00:17:10,040 --> 00:17:10,880
+I owned
+
+425
+00:17:10,880 --> 00:17:11,880
+two pairs of shoes.
+
+426
+00:17:13,120 --> 00:17:14,060
+One was a pair
+
+427
+00:17:14,060 --> 00:17:15,340
+of black school shoes
+
+428
+00:17:15,340 --> 00:17:17,060
+that were a hand-me-down
+
+429
+00:17:17,060 --> 00:17:17,800
+for my older brother.
+
+430
+00:17:18,800 --> 00:17:19,740
+I wore those
+
+431
+00:17:19,740 --> 00:17:20,340
+to school
+
+432
+00:17:20,340 --> 00:17:21,400
+and to church.
+
+433
+00:17:21,400 --> 00:17:23,960
+I also had
+
+434
+00:17:23,960 --> 00:17:24,500
+one pair
+
+435
+00:17:24,500 --> 00:17:24,940
+of black
+
+436
+00:17:24,940 --> 00:17:25,840
+plimsoes.
+
+437
+00:17:26,880 --> 00:17:27,320
+Also
+
+438
+00:17:27,320 --> 00:17:28,040
+a hand-me-down
+
+439
+00:17:28,040 --> 00:17:28,620
+for my brother.
+
+440
+00:17:31,860 --> 00:17:32,680
+I wore those
+
+441
+00:17:32,680 --> 00:17:33,540
+for everything else.
+
+442
+00:17:35,900 --> 00:17:36,540
+That day
+
+443
+00:17:36,540 --> 00:17:37,380
+on the seaside
+
+444
+00:17:37,380 --> 00:17:39,080
+I took off
+
+445
+00:17:39,080 --> 00:17:39,800
+my plimsoes
+
+446
+00:17:39,800 --> 00:17:40,160
+and I ran
+
+447
+00:17:40,160 --> 00:17:40,840
+into the sea
+
+448
+00:17:40,840 --> 00:17:41,480
+and I played
+
+449
+00:17:41,480 --> 00:17:42,080
+in the waves.
+
+450
+00:17:43,020 --> 00:17:43,900
+And when I came
+
+451
+00:17:43,900 --> 00:17:44,640
+back to the shore
+
+452
+00:17:44,640 --> 00:17:45,940
+the plimsoes
+
+453
+00:17:45,940 --> 00:17:46,360
+were gone.
+
+454
+00:17:47,460 --> 00:17:48,240
+I guess the waves
+
+455
+00:17:48,240 --> 00:17:49,020
+must have taken them.
+
+456
+00:17:50,460 --> 00:17:51,180
+After that
+
+457
+00:17:51,180 --> 00:17:52,140
+I wore the black
+
+458
+00:17:52,140 --> 00:17:52,680
+school shoes
+
+459
+00:17:52,680 --> 00:17:53,340
+for everything.
+
+460
+00:17:54,540 --> 00:17:55,200
+PE class
+
+461
+00:17:55,200 --> 00:17:56,460
+everything.
+
+462
+00:17:57,420 --> 00:17:58,160
+I wore them
+
+463
+00:17:58,160 --> 00:17:59,040
+until they fell apart.
+
+464
+00:18:00,960 --> 00:18:01,660
+I don't know
+
+465
+00:18:01,660 --> 00:18:01,940
+you know.
+
+466
+00:18:02,600 --> 00:18:03,500
+What would you do?
+
+467
+00:18:05,520 --> 00:18:06,400
+And now this brings us
+
+468
+00:18:06,400 --> 00:18:07,060
+to our first
+
+469
+00:18:07,060 --> 00:18:07,780
+moral question.
+
+470
+00:18:09,780 --> 00:18:10,800
+At this point
+
+471
+00:18:10,800 --> 00:18:12,700
+we see
+
+472
+00:18:12,700 --> 00:18:14,100
+in sharp
+
+473
+00:18:14,100 --> 00:18:15,040
+moral focus
+
+474
+00:18:15,040 --> 00:18:16,980
+the meaning
+
+475
+00:18:16,980 --> 00:18:17,720
+of what it is
+
+476
+00:18:17,720 --> 00:18:18,640
+to be poor
+
+477
+00:18:18,640 --> 00:18:19,780
+and to try
+
+478
+00:18:19,780 --> 00:18:20,480
+to be rich.
+
+479
+00:18:22,000 --> 00:18:22,840
+So imagine this.
+
+480
+00:18:25,020 --> 00:18:25,780
+You are there
+
+481
+00:18:25,780 --> 00:18:26,460
+for the first day
+
+482
+00:18:26,460 --> 00:18:27,340
+of your new life.
+
+483
+00:18:28,620 --> 00:18:29,520
+You're 16.
+
+484
+00:18:30,240 --> 00:18:31,020
+You've just been
+
+485
+00:18:31,020 --> 00:18:31,860
+expelled from school.
+
+486
+00:18:33,320 --> 00:18:34,400
+In the night time
+
+487
+00:18:34,400 --> 00:18:35,100
+you were awoken
+
+488
+00:18:35,100 --> 00:18:35,820
+by your mother
+
+489
+00:18:35,820 --> 00:18:36,720
+crying at the foot
+
+490
+00:18:36,720 --> 00:18:37,180
+of your bed.
+
+491
+00:18:38,380 --> 00:18:39,440
+But she's gone now.
+
+492
+00:18:40,820 --> 00:18:41,660
+Everyone's gone now.
+
+493
+00:18:42,660 --> 00:18:43,320
+Your mum
+
+494
+00:18:43,320 --> 00:18:44,200
+and your dad
+
+495
+00:18:44,200 --> 00:18:44,920
+and your brother
+
+496
+00:18:44,920 --> 00:18:45,500
+are at work.
+
+497
+00:18:46,420 --> 00:18:47,560
+Your younger sister
+
+498
+00:18:47,560 --> 00:18:48,720
+she's still in school.
+
+499
+00:18:50,100 --> 00:18:50,840
+There's no one
+
+500
+00:18:50,840 --> 00:18:51,380
+in the house
+
+501
+00:18:51,380 --> 00:18:52,940
+and there's no school
+
+502
+00:18:52,940 --> 00:18:53,500
+to go to.
+
+503
+00:18:55,400 --> 00:18:56,440
+So you get out of bed
+
+504
+00:18:56,440 --> 00:18:57,320
+and you go downstairs
+
+505
+00:18:57,320 --> 00:18:57,980
+to the bathroom
+
+506
+00:18:57,980 --> 00:18:59,640
+which is in the kitchen
+
+507
+00:18:59,640 --> 00:19:01,160
+and you plug a little
+
+508
+00:19:01,160 --> 00:19:01,920
+plastic hose
+
+509
+00:19:01,920 --> 00:19:02,520
+into the taps
+
+510
+00:19:02,520 --> 00:19:03,080
+of the bathtub
+
+511
+00:19:03,080 --> 00:19:03,980
+and you sit down
+
+512
+00:19:03,980 --> 00:19:05,040
+on the cold plastic
+
+513
+00:19:05,040 --> 00:19:06,600
+and you shower yourself
+
+514
+00:19:06,600 --> 00:19:07,740
+and you watch the water
+
+515
+00:19:07,740 --> 00:19:08,720
+go down the drain
+
+516
+00:19:08,720 --> 00:19:10,220
+and you say to yourself
+
+517
+00:19:10,220 --> 00:19:11,940
+that's your life
+
+518
+00:19:11,940 --> 00:19:12,320
+that is.
+
+519
+00:19:13,220 --> 00:19:14,100
+That's your life.
+
+520
+00:19:15,180 --> 00:19:16,220
+And then you get out
+
+521
+00:19:16,220 --> 00:19:16,700
+of the bath
+
+522
+00:19:16,700 --> 00:19:17,600
+and you dry yourself
+
+523
+00:19:17,600 --> 00:19:18,620
+and you're drying your hair
+
+524
+00:19:18,620 --> 00:19:19,560
+and the doorbell rings
+
+525
+00:19:19,560 --> 00:19:20,900
+and it's your friend
+
+526
+00:19:20,900 --> 00:19:21,680
+from the street
+
+527
+00:19:21,680 --> 00:19:23,220
+who you've been smoking with
+
+528
+00:19:23,220 --> 00:19:24,620
+for about six months now
+
+529
+00:19:24,620 --> 00:19:25,840
+and he knows
+
+530
+00:19:25,840 --> 00:19:26,580
+that you've been expelled
+
+531
+00:19:26,580 --> 00:19:27,100
+from school
+
+532
+00:19:27,100 --> 00:19:28,020
+and he's really sorry
+
+533
+00:19:28,020 --> 00:19:29,180
+and he says
+
+534
+00:19:29,180 --> 00:19:30,240
+we should go and smoke up.
+
+535
+00:19:32,220 --> 00:19:32,920
+So now
+
+536
+00:19:32,920 --> 00:19:34,860
+what do you do?
+
+537
+00:19:34,860 --> 00:19:38,000
+This is the moment
+
+538
+00:19:38,000 --> 00:19:38,920
+when you realise
+
+539
+00:19:38,920 --> 00:19:40,500
+that to be poor
+
+540
+00:19:40,500 --> 00:19:42,140
+and to want to be rich
+
+541
+00:19:42,140 --> 00:19:43,620
+is a walking away.
+
+542
+00:19:44,680 --> 00:19:46,000
+It is a walking away
+
+543
+00:19:46,000 --> 00:19:46,560
+from the friends
+
+544
+00:19:46,560 --> 00:19:47,300
+you grew up with.
+
+545
+00:19:48,040 --> 00:19:49,060
+It is a walking away
+
+546
+00:19:49,060 --> 00:19:50,780
+from people like you.
+
+547
+00:19:52,120 --> 00:19:52,920
+And you know
+
+548
+00:19:52,920 --> 00:19:54,040
+deep within yourself
+
+549
+00:19:54,040 --> 00:19:55,200
+in your heart of hearts
+
+550
+00:19:55,200 --> 00:19:57,140
+these friends won't be okay
+
+551
+00:19:57,140 --> 00:19:57,900
+without you.
+
+552
+00:19:59,040 --> 00:20:00,020
+But what about you?
+
+553
+00:20:00,900 --> 00:20:01,980
+If you stick around
+
+554
+00:20:01,980 --> 00:20:02,680
+to save him
+
+555
+00:20:02,680 --> 00:20:04,380
+then who sticks around
+
+556
+00:20:04,380 --> 00:20:05,000
+to save you?
+
+557
+00:20:07,240 --> 00:20:08,460
+What does it mean
+
+558
+00:20:08,460 --> 00:20:10,320
+to be selfish?
+
+559
+00:20:12,460 --> 00:20:13,600
+What would you do
+
+560
+00:20:13,600 --> 00:20:14,700
+if it were you?
+
+561
+00:20:16,460 --> 00:20:17,480
+What would you do?
+
+562
+00:20:20,460 --> 00:20:21,360
+I didn't go.
+
+563
+00:20:22,460 --> 00:20:23,340
+I worked.
+
+564
+00:20:24,320 --> 00:20:25,460
+I worked there
+
+565
+00:20:25,460 --> 00:20:26,560
+by myself
+
+566
+00:20:26,560 --> 00:20:27,460
+in that cold
+
+567
+00:20:27,460 --> 00:20:28,240
+empty house
+
+568
+00:20:28,240 --> 00:20:29,480
+belly down
+
+569
+00:20:29,480 --> 00:20:29,920
+in the centre
+
+570
+00:20:29,920 --> 00:20:30,620
+of the front room.
+
+571
+00:20:31,680 --> 00:20:32,440
+Maths homework
+
+572
+00:20:32,440 --> 00:20:34,360
+chemistry homework
+
+573
+00:20:34,360 --> 00:20:36,360
+English homework
+
+574
+00:20:36,360 --> 00:20:36,380
+English homework
+
+575
+00:20:36,380 --> 00:20:38,180
+every day
+
+576
+00:20:38,180 --> 00:20:39,460
+on that small wooden board
+
+577
+00:20:39,460 --> 00:20:42,360
+and I did it
+
+578
+00:20:42,360 --> 00:20:44,380
+I killed my exams
+
+579
+00:20:44,380 --> 00:20:47,060
+I decimated the opposition
+
+580
+00:20:47,060 --> 00:20:49,840
+I outcompeted my friends
+
+581
+00:20:49,840 --> 00:20:51,800
+I won
+
+582
+00:20:51,800 --> 00:20:52,900
+then
+
+583
+00:20:52,900 --> 00:20:55,380
+my first taste of blood
+
+584
+00:20:55,380 --> 00:20:57,980
+so what next?
+
+585
+00:20:57,980 --> 00:21:00,200
+Three years later
+
+586
+00:21:00,200 --> 00:21:01,740
+the London School
+
+587
+00:21:01,740 --> 00:21:02,440
+of Economics
+
+588
+00:21:02,440 --> 00:21:04,160
+money
+
+589
+00:21:04,160 --> 00:21:06,480
+so I'll be honest
+
+590
+00:21:06,480 --> 00:21:07,000
+I thought LSE
+
+591
+00:21:07,000 --> 00:21:07,760
+was going to be difficult
+
+592
+00:21:07,760 --> 00:21:08,540
+but to be honest
+
+593
+00:21:08,540 --> 00:21:09,260
+it wasn't that hard
+
+594
+00:21:09,260 --> 00:21:11,600
+millionaires' kids
+
+595
+00:21:11,600 --> 00:21:13,220
+Gaddafi's kids
+
+596
+00:21:13,220 --> 00:21:15,460
+paying tens of thousands
+
+597
+00:21:15,460 --> 00:21:16,120
+of pounds
+
+598
+00:21:16,120 --> 00:21:17,260
+to send their kids
+
+599
+00:21:17,260 --> 00:21:17,960
+over to London
+
+600
+00:21:17,960 --> 00:21:19,700
+from all over the world
+
+601
+00:21:19,700 --> 00:21:21,200
+to get beat by me
+
+602
+00:21:21,200 --> 00:21:21,860
+in their exams
+
+603
+00:21:21,860 --> 00:21:25,360
+I don't know why
+
+604
+00:21:25,360 --> 00:21:25,820
+to be honest
+
+605
+00:21:25,820 --> 00:21:28,120
+I don't really know
+
+606
+00:21:28,120 --> 00:21:28,720
+what that means
+
+607
+00:21:28,720 --> 00:21:31,360
+but I had a desk then
+
+608
+00:21:31,360 --> 00:21:33,600
+not at home
+
+609
+00:21:33,600 --> 00:21:34,220
+there was a desk
+
+610
+00:21:34,220 --> 00:21:34,740
+in the library
+
+611
+00:21:34,740 --> 00:21:37,640
+so now you're at LSE
+
+612
+00:21:37,640 --> 00:21:39,760
+you're 19 years old
+
+613
+00:21:39,760 --> 00:21:41,080
+you're studying
+
+614
+00:21:41,080 --> 00:21:41,960
+maths and economics
+
+615
+00:21:41,960 --> 00:21:43,040
+which is basically
+
+616
+00:21:43,040 --> 00:21:44,040
+the same as economics
+
+617
+00:21:44,040 --> 00:21:44,660
+because economics
+
+618
+00:21:44,660 --> 00:21:45,880
+is mostly maths nowadays
+
+619
+00:21:45,880 --> 00:21:48,220
+your focus now
+
+620
+00:21:48,220 --> 00:21:49,040
+is on smashing
+
+621
+00:21:49,040 --> 00:21:50,060
+the other students
+
+622
+00:21:50,060 --> 00:21:51,540
+killing them
+
+623
+00:21:51,540 --> 00:21:52,260
+in their exams
+
+624
+00:21:52,260 --> 00:21:54,020
+making it clear
+
+625
+00:21:54,020 --> 00:21:54,700
+to everyone
+
+626
+00:21:54,700 --> 00:21:55,480
+that you are
+
+627
+00:21:55,480 --> 00:21:56,020
+the best student
+
+628
+00:21:56,020 --> 00:21:56,560
+in the union
+
+629
+00:21:56,560 --> 00:21:58,260
+and beating everyone
+
+630
+00:21:58,260 --> 00:21:59,260
+to the top job
+
+631
+00:21:59,260 --> 00:22:00,180
+that will make you
+
+632
+00:22:00,180 --> 00:22:00,600
+a millionaire
+
+633
+00:22:00,600 --> 00:22:03,520
+everyone else
+
+634
+00:22:03,520 --> 00:22:04,000
+is trying to do
+
+635
+00:22:04,000 --> 00:22:04,620
+the same thing
+
+636
+00:22:04,620 --> 00:22:07,100
+nobody's really
+
+637
+00:22:07,100 --> 00:22:07,520
+that bothered
+
+638
+00:22:07,520 --> 00:22:08,100
+in trying to work
+
+639
+00:22:08,100 --> 00:22:08,740
+out how the economy
+
+640
+00:22:08,740 --> 00:22:09,100
+works
+
+641
+00:22:09,100 --> 00:22:10,440
+why would we be
+
+642
+00:22:10,440 --> 00:22:12,040
+we didn't go there
+
+643
+00:22:12,040 --> 00:22:12,540
+to do that
+
+644
+00:22:12,540 --> 00:22:13,080
+we were there
+
+645
+00:22:13,080 --> 00:22:13,560
+to kill
+
+646
+00:22:13,560 --> 00:22:14,660
+to compete
+
+647
+00:22:14,660 --> 00:22:15,760
+to make money
+
+648
+00:22:15,760 --> 00:22:17,520
+it's not about knowledge
+
+649
+00:22:17,520 --> 00:22:20,180
+was that the right
+
+650
+00:22:20,180 --> 00:22:20,720
+thing to do
+
+651
+00:22:20,720 --> 00:22:23,100
+should you spend
+
+652
+00:22:23,100 --> 00:22:23,720
+your time
+
+653
+00:22:23,720 --> 00:22:24,900
+actually trying
+
+654
+00:22:24,900 --> 00:22:26,160
+to understand
+
+655
+00:22:26,160 --> 00:22:26,900
+the economy
+
+656
+00:22:26,900 --> 00:22:29,220
+and let everyone
+
+657
+00:22:29,220 --> 00:22:30,060
+else beat you
+
+658
+00:22:30,060 --> 00:22:31,460
+in your exams
+
+659
+00:22:31,460 --> 00:22:35,379
+then you'll never
+
+660
+00:22:35,379 --> 00:22:36,400
+be able to get
+
+661
+00:22:36,400 --> 00:22:37,040
+a job
+
+662
+00:22:37,040 --> 00:22:38,060
+to actually do
+
+663
+00:22:38,060 --> 00:22:38,440
+anything
+
+664
+00:22:38,440 --> 00:22:39,660
+with that knowledge
+
+665
+00:22:39,660 --> 00:22:44,000
+what would you do
+
+666
+00:22:44,000 --> 00:22:46,880
+now I made my decision
+
+667
+00:22:46,880 --> 00:22:47,440
+pretty quickly
+
+668
+00:22:47,440 --> 00:22:48,220
+and I killed
+
+669
+00:22:48,220 --> 00:22:49,000
+everyone in the
+
+670
+00:22:49,000 --> 00:22:49,780
+first year exams
+
+671
+00:22:49,780 --> 00:22:51,800
+I thought that was
+
+672
+00:22:51,800 --> 00:22:52,500
+the right path
+
+673
+00:22:52,500 --> 00:22:52,980
+to getting me
+
+674
+00:22:52,980 --> 00:22:53,860
+a millionaire job
+
+675
+00:22:53,860 --> 00:22:55,040
+but it turns out
+
+676
+00:22:55,040 --> 00:22:55,600
+it wasn't
+
+677
+00:22:55,600 --> 00:22:57,700
+because whilst grades
+
+678
+00:22:57,700 --> 00:22:58,260
+are important
+
+679
+00:22:58,260 --> 00:22:59,100
+to getting the top
+
+680
+00:22:59,100 --> 00:22:59,760
+jobs nowadays
+
+681
+00:22:59,760 --> 00:23:01,660
+other things
+
+682
+00:23:01,660 --> 00:23:02,420
+are more important
+
+683
+00:23:02,420 --> 00:23:04,500
+the actual way
+
+684
+00:23:04,500 --> 00:23:05,300
+you get a good job
+
+685
+00:23:05,300 --> 00:23:05,660
+nowadays
+
+686
+00:23:05,660 --> 00:23:07,140
+is sending a CV
+
+687
+00:23:07,140 --> 00:23:08,140
+and cover letter
+
+688
+00:23:08,140 --> 00:23:10,360
+so what do you put
+
+689
+00:23:10,360 --> 00:23:10,920
+on your CV
+
+690
+00:23:10,920 --> 00:23:11,520
+and cover letter
+
+691
+00:23:11,520 --> 00:23:12,220
+when you're 19
+
+692
+00:23:12,220 --> 00:23:12,740
+years old
+
+693
+00:23:12,740 --> 00:23:14,440
+you've been expelled
+
+694
+00:23:14,440 --> 00:23:14,900
+from school
+
+695
+00:23:14,900 --> 00:23:15,740
+for selling drugs
+
+696
+00:23:15,740 --> 00:23:16,880
+you did a paper
+
+697
+00:23:16,880 --> 00:23:17,880
+round for six years
+
+698
+00:23:17,880 --> 00:23:19,540
+you spent three years
+
+699
+00:23:19,540 --> 00:23:20,260
+fluffing pillows
+
+700
+00:23:20,260 --> 00:23:21,020
+in a sofa shop
+
+701
+00:23:21,020 --> 00:23:21,480
+in Bexford
+
+702
+00:23:21,480 --> 00:23:22,260
+next to a sewage
+
+703
+00:23:22,260 --> 00:23:22,560
+work
+
+704
+00:23:22,560 --> 00:23:24,100
+you spent a year
+
+705
+00:23:24,100 --> 00:23:24,420
+and a half
+
+706
+00:23:24,420 --> 00:23:25,020
+trying to become
+
+707
+00:23:25,020 --> 00:23:25,760
+a grime MC
+
+708
+00:23:25,760 --> 00:23:28,520
+my friend was head
+
+709
+00:23:28,520 --> 00:23:28,860
+of the duty
+
+710
+00:23:28,860 --> 00:23:29,660
+United Nations
+
+711
+00:23:29,660 --> 00:23:32,120
+my other friend
+
+712
+00:23:32,120 --> 00:23:32,860
+played oboe
+
+713
+00:23:32,860 --> 00:23:33,820
+at the Royal Albert Hall
+
+714
+00:23:33,820 --> 00:23:36,620
+he founded a charity
+
+715
+00:23:36,620 --> 00:23:37,800
+that runs
+
+716
+00:23:37,800 --> 00:23:38,840
+dirt bike tours
+
+717
+00:23:38,840 --> 00:23:40,220
+through the Sahara Desert
+
+718
+00:23:40,220 --> 00:23:41,660
+for some reason
+
+719
+00:23:41,660 --> 00:23:45,379
+why were their CV
+
+720
+00:23:45,379 --> 00:23:46,120
+so much better
+
+721
+00:23:46,120 --> 00:23:46,520
+than mine
+
+722
+00:23:46,520 --> 00:23:49,379
+they were better
+
+723
+00:23:49,379 --> 00:23:50,580
+because they knew
+
+724
+00:23:50,580 --> 00:23:52,160
+more likely
+
+725
+00:23:52,160 --> 00:23:52,740
+their parents
+
+726
+00:23:52,740 --> 00:23:53,120
+had known
+
+727
+00:23:53,120 --> 00:23:54,840
+they had known
+
+728
+00:23:54,840 --> 00:23:55,740
+that the day would come
+
+729
+00:23:55,740 --> 00:23:56,419
+when the children
+
+730
+00:23:56,419 --> 00:23:57,000
+of this world
+
+731
+00:23:57,000 --> 00:23:57,780
+would be divided
+
+732
+00:23:57,780 --> 00:23:58,800
+based on who
+
+733
+00:23:58,800 --> 00:23:59,939
+and who could not
+
+734
+00:23:59,939 --> 00:24:01,020
+play the oboe
+
+735
+00:24:01,020 --> 00:24:03,760
+so they made sure
+
+736
+00:24:03,760 --> 00:24:04,780
+that their kids
+
+737
+00:24:04,780 --> 00:24:06,220
+had oboes
+
+738
+00:24:06,220 --> 00:24:09,919
+and that's how jobs
+
+739
+00:24:09,919 --> 00:24:10,379
+are allocated
+
+740
+00:24:10,379 --> 00:24:10,879
+in this world
+
+741
+00:24:10,879 --> 00:24:11,980
+it's not by exams
+
+742
+00:24:11,980 --> 00:24:12,840
+I see that now
+
+743
+00:24:12,840 --> 00:24:15,379
+what does that mean
+
+744
+00:24:15,379 --> 00:24:17,659
+what do you do
+
+745
+00:24:17,659 --> 00:24:20,159
+okay so you need
+
+746
+00:24:20,159 --> 00:24:21,020
+to find a new route
+
+747
+00:24:21,020 --> 00:24:22,620
+you need to sneak in
+
+748
+00:24:22,620 --> 00:24:23,360
+through the back door
+
+749
+00:24:23,360 --> 00:24:24,060
+despite the fact
+
+750
+00:24:24,060 --> 00:24:24,600
+that your grades
+
+751
+00:24:24,600 --> 00:24:25,020
+are the best
+
+752
+00:24:25,020 --> 00:24:25,820
+in the whole university
+
+753
+00:24:25,820 --> 00:24:28,240
+you look for a back door
+
+754
+00:24:28,240 --> 00:24:29,020
+and you find one
+
+755
+00:24:29,020 --> 00:24:30,300
+competition
+
+756
+00:24:30,300 --> 00:24:31,800
+a card game
+
+757
+00:24:31,800 --> 00:24:33,560
+one bank runs
+
+758
+00:24:33,560 --> 00:24:34,240
+a card game
+
+759
+00:24:34,240 --> 00:24:35,780
+across five universities
+
+760
+00:24:35,780 --> 00:24:36,420
+in the country
+
+761
+00:24:36,420 --> 00:24:37,520
+the winner
+
+762
+00:24:37,520 --> 00:24:38,620
+of the whole competition
+
+763
+00:24:38,620 --> 00:24:40,040
+gets an internship
+
+764
+00:24:40,040 --> 00:24:42,120
+a game
+
+765
+00:24:42,120 --> 00:24:44,200
+sounds nice
+
+766
+00:24:44,200 --> 00:24:46,280
+sounds fair
+
+767
+00:24:46,280 --> 00:24:46,980
+doesn't it
+
+768
+00:24:46,980 --> 00:24:49,580
+sounds like you don't
+
+769
+00:24:49,580 --> 00:24:50,280
+need to play the oboe
+
+770
+00:24:50,280 --> 00:24:50,700
+at least
+
+771
+00:24:50,700 --> 00:24:53,280
+but it's risky
+
+772
+00:24:53,280 --> 00:24:53,700
+isn't it
+
+773
+00:24:53,700 --> 00:24:54,460
+it's a game
+
+774
+00:24:54,460 --> 00:24:55,879
+so what you do
+
+775
+00:24:55,879 --> 00:24:56,740
+you do some research
+
+776
+00:24:56,740 --> 00:24:58,300
+and you manage to find out
+
+777
+00:24:58,300 --> 00:24:59,379
+the rules of the game
+
+778
+00:24:59,379 --> 00:25:01,340
+before the competition itself
+
+779
+00:25:01,340 --> 00:25:03,040
+then when you walk
+
+780
+00:25:03,040 --> 00:25:03,840
+into the competition
+
+781
+00:25:03,840 --> 00:25:05,300
+against the other wealthy
+
+782
+00:25:05,300 --> 00:25:06,200
+economic students
+
+783
+00:25:06,200 --> 00:25:07,120
+you win
+
+784
+00:25:07,120 --> 00:25:08,940
+at least partially
+
+785
+00:25:08,940 --> 00:25:10,660
+because you had an advantage
+
+786
+00:25:10,660 --> 00:25:12,820
+an unfair advantage
+
+787
+00:25:12,820 --> 00:25:14,360
+you cheated
+
+788
+00:25:14,360 --> 00:25:15,399
+in a sense
+
+789
+00:25:15,400 --> 00:25:17,020
+you cheated
+
+790
+00:25:17,020 --> 00:25:17,560
+to win
+
+791
+00:25:17,560 --> 00:25:19,820
+what does that mean
+
+792
+00:25:19,820 --> 00:25:21,700
+you cheated
+
+793
+00:25:21,700 --> 00:25:22,700
+to win a game
+
+794
+00:25:22,700 --> 00:25:23,500
+that you needed
+
+795
+00:25:23,500 --> 00:25:24,120
+to win
+
+796
+00:25:24,120 --> 00:25:25,660
+in order to get a job
+
+797
+00:25:25,660 --> 00:25:27,040
+despite being
+
+798
+00:25:27,040 --> 00:25:28,140
+one of the top students
+
+799
+00:25:28,140 --> 00:25:29,420
+in the whole university
+
+800
+00:25:29,420 --> 00:25:31,960
+what does that mean
+
+801
+00:25:31,960 --> 00:25:33,740
+is that fair
+
+802
+00:25:33,740 --> 00:25:35,700
+is that human
+
+803
+00:25:35,700 --> 00:25:38,500
+what would you do
+
+804
+00:25:38,500 --> 00:25:42,360
+okay so now you get the job
+
+805
+00:25:42,360 --> 00:25:43,000
+now you're a trader
+
+806
+00:25:43,000 --> 00:25:44,480
+the best job
+
+807
+00:25:44,480 --> 00:25:45,320
+in the world
+
+808
+00:25:45,320 --> 00:25:47,160
+there's no corner office
+
+809
+00:25:47,160 --> 00:25:48,160
+it's a big room
+
+810
+00:25:48,160 --> 00:25:51,060
+it's the job everybody wanted
+
+811
+00:25:51,060 --> 00:25:53,920
+you get to the trading floor
+
+812
+00:25:53,920 --> 00:25:55,300
+of one of the world's biggest banks
+
+813
+00:25:55,300 --> 00:25:57,700
+and it's full of genius millionaires
+
+814
+00:25:57,700 --> 00:26:01,440
+except it's not really is it
+
+815
+00:26:01,440 --> 00:26:03,800
+it's full of men with nice shirts
+
+816
+00:26:03,800 --> 00:26:05,260
+expensive haircuts
+
+817
+00:26:05,260 --> 00:26:08,920
+it's kind of full of obvious psychopaths
+
+818
+00:26:08,920 --> 00:26:09,760
+with emotional problems
+
+819
+00:26:09,760 --> 00:26:11,300
+and people who shout a lot
+
+820
+00:26:11,300 --> 00:26:12,379
+and aren't really that smart
+
+821
+00:26:12,379 --> 00:26:14,280
+and you suppose that
+
+822
+00:26:14,280 --> 00:26:15,600
+that should have been obvious really
+
+823
+00:26:15,600 --> 00:26:16,960
+because it's full of the same people
+
+824
+00:26:16,960 --> 00:26:18,000
+you studied with at LSE
+
+825
+00:26:18,000 --> 00:26:19,580
+and they were never really chosen
+
+826
+00:26:19,580 --> 00:26:20,540
+because they were smart
+
+827
+00:26:20,540 --> 00:26:21,920
+they were chosen
+
+828
+00:26:21,920 --> 00:26:23,840
+because their dads were rich
+
+829
+00:26:23,840 --> 00:26:26,520
+what does that mean
+
+830
+00:26:26,520 --> 00:26:30,660
+so you're there now
+
+831
+00:26:30,660 --> 00:26:31,860
+you're young
+
+832
+00:26:31,860 --> 00:26:32,720
+and you're hungry
+
+833
+00:26:32,720 --> 00:26:34,000
+and you're there to make money
+
+834
+00:26:34,000 --> 00:26:35,620
+and you want to learn from someone
+
+835
+00:26:35,620 --> 00:26:37,560
+you want to learn how to trade
+
+836
+00:26:37,560 --> 00:26:38,440
+how to make money
+
+837
+00:26:38,440 --> 00:26:40,240
+but everyone there is kind of insane
+
+838
+00:26:40,240 --> 00:26:43,260
+and then suddenly
+
+839
+00:26:43,260 --> 00:26:45,060
+it's October 2008
+
+840
+00:26:45,060 --> 00:26:46,960
+and the world blows up
+
+841
+00:26:46,960 --> 00:26:48,700
+and Lehman goes bankrupt
+
+842
+00:26:48,700 --> 00:26:50,920
+and seven of your friends
+
+843
+00:26:50,920 --> 00:26:52,160
+who studied with you
+
+844
+00:26:52,160 --> 00:26:53,700
+at the London School of Economics
+
+845
+00:26:53,700 --> 00:26:56,160
+and had only just started working there
+
+846
+00:26:56,160 --> 00:26:57,040
+lose their jobs
+
+847
+00:26:57,040 --> 00:27:00,360
+and TV cameras go down to their office
+
+848
+00:27:00,360 --> 00:27:02,380
+which is just down the road from your office
+
+849
+00:27:02,380 --> 00:27:05,520
+and your friends pack all their personal possessions
+
+850
+00:27:05,520 --> 00:27:08,000
+into little green Lehman Brothers duffel bags
+
+851
+00:27:08,000 --> 00:27:10,100
+that they'd received just a couple weeks earlier
+
+852
+00:27:10,100 --> 00:27:11,440
+as a welcome gift
+
+853
+00:27:11,440 --> 00:27:13,160
+for managing to get one of the best jobs
+
+854
+00:27:13,160 --> 00:27:14,160
+in the entire world
+
+855
+00:27:14,160 --> 00:27:17,540
+and they carry those little green duffel bags
+
+856
+00:27:17,540 --> 00:27:18,580
+and cardboard boxes
+
+857
+00:27:18,580 --> 00:27:19,540
+full of their possessions
+
+858
+00:27:19,540 --> 00:27:21,600
+down into taxis
+
+859
+00:27:21,600 --> 00:27:22,780
+down to the station
+
+860
+00:27:22,780 --> 00:27:25,260
+and TV cameras film them
+
+861
+00:27:25,260 --> 00:27:26,560
+and you see them
+
+862
+00:27:26,560 --> 00:27:27,680
+on TV
+
+863
+00:27:27,680 --> 00:27:30,220
+and you feel bad for them
+
+864
+00:27:30,220 --> 00:27:31,180
+because you know them
+
+865
+00:27:31,180 --> 00:27:32,420
+because you study with them
+
+866
+00:27:32,420 --> 00:27:35,260
+but you don't feel bad for them really
+
+867
+00:27:35,260 --> 00:27:36,980
+because you know
+
+868
+00:27:36,980 --> 00:27:38,120
+they should have chosen better
+
+869
+00:27:38,120 --> 00:27:40,200
+when they got randomly assigned a bank
+
+870
+00:27:40,200 --> 00:27:41,580
+just like you
+
+871
+00:27:41,580 --> 00:27:44,100
+what does that mean?
+
+872
+00:27:45,420 --> 00:27:46,480
+what would you do?
+
+873
+00:27:48,340 --> 00:27:50,120
+and everyone around you starts to make money
+
+874
+00:27:50,120 --> 00:27:51,800
+two traders in my team of traders
+
+875
+00:27:51,800 --> 00:27:53,760
+made 100 million dollars in profit
+
+876
+00:27:53,760 --> 00:27:54,620
+the year Lehman went under
+
+877
+00:27:54,620 --> 00:27:57,520
+so what do you do?
+
+878
+00:27:58,960 --> 00:27:59,720
+y'all know what I did
+
+879
+00:27:59,720 --> 00:28:01,620
+I started to copy them
+
+880
+00:28:01,620 --> 00:28:04,240
+even though I had no idea
+
+881
+00:28:04,240 --> 00:28:05,420
+what any of them were doing
+
+882
+00:28:05,420 --> 00:28:07,420
+and the next year
+
+883
+00:28:07,420 --> 00:28:12,320
+I made 12 million dollars in profit
+
+884
+00:28:12,320 --> 00:28:16,340
+but that year there was a lot of public discontent
+
+885
+00:28:16,340 --> 00:28:17,900
+about the pay and the bankers bonuses
+
+886
+00:28:17,900 --> 00:28:20,120
+the bankers who in their eyes
+
+887
+00:28:20,120 --> 00:28:21,220
+had ruined the global economy
+
+888
+00:28:21,220 --> 00:28:24,400
+and I sat there on the trading floor
+
+889
+00:28:24,400 --> 00:28:27,100
+and I was still a poor boy
+
+890
+00:28:27,100 --> 00:28:29,180
+sleeping on broken mattresses
+
+891
+00:28:29,180 --> 00:28:31,540
+still showering with a hose in my parents' bathtub
+
+892
+00:28:31,540 --> 00:28:33,920
+only now surrounded by millionaires
+
+893
+00:28:33,920 --> 00:28:36,000
+as Gordon Brown
+
+894
+00:28:36,000 --> 00:28:37,940
+the then Prime Minister of my country
+
+895
+00:28:37,940 --> 00:28:39,900
+said he would tax the bankers
+
+896
+00:28:39,900 --> 00:28:41,480
+he would tax their bonuses
+
+897
+00:28:41,480 --> 00:28:43,660
+and I looked around
+
+898
+00:28:43,660 --> 00:28:45,480
+and the millionaires around me
+
+899
+00:28:45,480 --> 00:28:46,420
+were laughing
+
+900
+00:28:46,420 --> 00:28:48,480
+and one of them grabbed my shoulder
+
+901
+00:28:48,480 --> 00:28:48,980
+and he said
+
+902
+00:28:48,980 --> 00:28:50,660
+don't worry Gary
+
+903
+00:28:50,660 --> 00:28:52,380
+they'll never tax us
+
+904
+00:28:52,380 --> 00:28:55,060
+and I took a big breath in
+
+905
+00:28:55,060 --> 00:28:56,600
+and I breathed it all out
+
+906
+00:28:56,600 --> 00:28:58,760
+what does that mean?
+
+907
+00:28:59,840 --> 00:29:00,800
+what would you do?
+
+908
+00:29:04,600 --> 00:29:06,280
+I waited for my first big bonus
+
+909
+00:29:06,280 --> 00:29:10,420
+I was expecting it to be 100,000 pounds
+
+910
+00:29:10,420 --> 00:29:13,480
+at that time in my life
+
+911
+00:29:13,480 --> 00:29:16,040
+100,000 pounds was the biggest sum of money
+
+912
+00:29:16,040 --> 00:29:16,820
+that I could imagine
+
+913
+00:29:16,820 --> 00:29:19,900
+my dad had worked his whole life
+
+914
+00:29:19,900 --> 00:29:21,800
+for 20,000 pounds a year
+
+915
+00:29:21,800 --> 00:29:25,080
+what I got
+
+916
+00:29:25,080 --> 00:29:28,380
+was 395,000 pounds
+
+917
+00:29:28,380 --> 00:29:31,660
+what does that mean?
+
+918
+00:29:32,880 --> 00:29:33,860
+what would you do?
+
+919
+00:29:33,860 --> 00:29:37,820
+you know when I was in sixth form
+
+920
+00:29:37,820 --> 00:29:40,320
+I would skip lunch to save money
+
+921
+00:29:40,320 --> 00:29:43,180
+my friend Asad
+
+922
+00:29:43,180 --> 00:29:44,860
+would sometimes feel bad for me
+
+923
+00:29:44,860 --> 00:29:46,780
+and he'd buy me a burger meal
+
+924
+00:29:46,780 --> 00:29:48,180
+from a shop called Pizza King
+
+925
+00:29:48,180 --> 00:29:49,280
+around the corner from the school
+
+926
+00:29:49,280 --> 00:29:51,280
+and I'd have it with burger sauce
+
+927
+00:29:51,280 --> 00:29:53,640
+you know that orange sauce
+
+928
+00:29:53,640 --> 00:29:56,460
+when I was at uni for lunch
+
+929
+00:29:56,460 --> 00:29:58,780
+I would buy two scotch eggs from Tesco
+
+930
+00:29:58,780 --> 00:30:00,500
+for 75p
+
+931
+00:30:00,500 --> 00:30:02,380
+every day for two years
+
+932
+00:30:02,380 --> 00:30:04,540
+and then one day
+
+933
+00:30:04,540 --> 00:30:06,400
+when I had just turned 23
+
+934
+00:30:06,400 --> 00:30:10,000
+someone gave me 395,000 pounds
+
+935
+00:30:10,000 --> 00:30:12,720
+what does that mean?
+
+936
+00:30:13,920 --> 00:30:14,880
+what would you do?
+
+937
+00:30:16,880 --> 00:30:17,820
+I wanted more
+
+938
+00:30:17,820 --> 00:30:21,040
+the next year, 2010
+
+939
+00:30:21,040 --> 00:30:23,100
+I copied everyone again
+
+940
+00:30:23,100 --> 00:30:23,880
+and it didn't work
+
+941
+00:30:23,880 --> 00:30:25,860
+for the first time ever
+
+942
+00:30:25,860 --> 00:30:26,480
+I lost money
+
+943
+00:30:26,480 --> 00:30:28,760
+I lost 8 million dollars
+
+944
+00:30:28,760 --> 00:30:29,900
+in one single week
+
+945
+00:30:29,900 --> 00:30:31,300
+when the Swiss National Bank
+
+946
+00:30:31,300 --> 00:30:33,159
+unexpectedly cut its interest rates
+
+947
+00:30:33,159 --> 00:30:34,680
+to negative 4.5%
+
+948
+00:30:34,680 --> 00:30:37,960
+that was the first time ever
+
+949
+00:30:37,960 --> 00:30:39,100
+that it occurred to me
+
+950
+00:30:39,100 --> 00:30:41,720
+that maybe LSE had done me a disservice
+
+951
+00:30:41,720 --> 00:30:44,540
+maybe memorising answers
+
+952
+00:30:44,540 --> 00:30:46,460
+and not actually learning anything
+
+953
+00:30:46,460 --> 00:30:47,960
+wasn't really that useful
+
+954
+00:30:47,960 --> 00:30:50,220
+maybe you did need to know
+
+955
+00:30:50,220 --> 00:30:51,440
+about the economy after all
+
+956
+00:30:51,440 --> 00:30:53,300
+who knew?
+
+957
+00:30:53,300 --> 00:30:56,960
+but that moment began an obsession
+
+958
+00:30:56,960 --> 00:30:57,379
+for me
+
+959
+00:30:57,379 --> 00:31:00,100
+an obsession that continues today
+
+960
+00:31:00,100 --> 00:31:03,360
+an obsession to understand the economy
+
+961
+00:31:03,360 --> 00:31:06,740
+why did I want to understand the economy?
+
+962
+00:31:08,460 --> 00:31:09,820
+because I wanted to make money
+
+963
+00:31:09,820 --> 00:31:13,139
+what does that mean?
+
+964
+00:31:14,560 --> 00:31:15,600
+what would you do?
+
+965
+00:31:15,600 --> 00:31:18,640
+so around about that time
+
+966
+00:31:18,640 --> 00:31:19,520
+late 2010
+
+967
+00:31:19,520 --> 00:31:20,760
+early 2011
+
+968
+00:31:20,760 --> 00:31:22,820
+I was starting to understand
+
+969
+00:31:22,820 --> 00:31:24,420
+that nobody had any idea
+
+970
+00:31:24,420 --> 00:31:25,100
+what they were doing
+
+971
+00:31:25,100 --> 00:31:28,860
+see my job was to predict interest rates
+
+972
+00:31:28,860 --> 00:31:31,280
+to summarise quite aggressively
+
+973
+00:31:31,280 --> 00:31:33,000
+interest rates go down
+
+974
+00:31:33,000 --> 00:31:34,000
+when the economy is weak
+
+975
+00:31:34,000 --> 00:31:35,460
+and up when the economy is strong
+
+976
+00:31:35,460 --> 00:31:39,180
+by the beginning of 2011
+
+977
+00:31:39,180 --> 00:31:41,180
+I had witnessed markets
+
+978
+00:31:41,180 --> 00:31:42,440
+predict interest rates
+
+979
+00:31:42,440 --> 00:31:43,380
+completely incorrectly
+
+980
+00:31:43,380 --> 00:31:44,300
+for three years
+
+981
+00:31:44,300 --> 00:31:47,640
+see cutting interest rates to zero
+
+982
+00:31:47,640 --> 00:31:49,420
+is supposed to stimulate the economy
+
+983
+00:31:49,420 --> 00:31:51,600
+that's what we are taught at university
+
+984
+00:31:51,600 --> 00:31:55,760
+due to the massive interest rate cuts in 2008
+
+985
+00:31:55,760 --> 00:31:58,340
+economists all expected the economy
+
+986
+00:31:58,340 --> 00:32:00,560
+to bounce back sharply in 2009
+
+987
+00:32:00,560 --> 00:32:02,300
+it didn't
+
+988
+00:32:02,300 --> 00:32:04,140
+after that
+
+989
+00:32:04,140 --> 00:32:05,920
+economists expected the same thing
+
+990
+00:32:05,920 --> 00:32:07,080
+to happen in 2010
+
+991
+00:32:07,080 --> 00:32:09,080
+it didn't
+
+992
+00:32:09,180 --> 00:32:10,980
+I didn't know at the time
+
+993
+00:32:10,980 --> 00:32:12,480
+but this pattern would actually continue
+
+994
+00:32:12,480 --> 00:32:13,560
+for 13 years
+
+995
+00:32:13,560 --> 00:32:15,840
+economists in the UK
+
+996
+00:32:15,840 --> 00:32:18,660
+predicted economic and interest rate recovery
+
+997
+00:32:18,660 --> 00:32:19,920
+every single year
+
+998
+00:32:19,920 --> 00:32:22,520
+from 2009 to 2020
+
+999
+00:32:22,520 --> 00:32:24,540
+in 2020
+
+1000
+00:32:24,540 --> 00:32:26,300
+they finally agreed
+
+1001
+00:32:26,300 --> 00:32:28,280
+that interest rates would actually
+
+1002
+00:32:28,280 --> 00:32:29,460
+never go up again
+
+1003
+00:32:29,460 --> 00:32:32,020
+what does that mean?
+
+1004
+00:32:34,460 --> 00:32:35,180
+anyway look
+
+1005
+00:32:35,180 --> 00:32:36,300
+I didn't know this at that time
+
+1006
+00:32:36,300 --> 00:32:37,680
+all I knew then
+
+1007
+00:32:37,680 --> 00:32:38,720
+was that the traders
+
+1008
+00:32:38,720 --> 00:32:39,760
+and the economists
+
+1009
+00:32:39,760 --> 00:32:41,080
+have been wrong for three years
+
+1010
+00:32:41,080 --> 00:32:43,940
+they were predicting economic recoveries
+
+1011
+00:32:43,940 --> 00:32:44,600
+that won't happen
+
+1012
+00:32:44,600 --> 00:32:46,520
+why?
+
+1013
+00:32:46,520 --> 00:32:46,560
+why?
+
+1014
+00:32:51,940 --> 00:32:52,900
+in my opinion
+
+1015
+00:32:52,900 --> 00:32:55,180
+the reason those traders
+
+1016
+00:32:55,180 --> 00:32:55,900
+and economists
+
+1017
+00:32:55,900 --> 00:32:57,900
+thought the economy would get better
+
+1018
+00:32:57,900 --> 00:32:59,400
+every single year
+
+1019
+00:32:59,400 --> 00:33:01,260
+from 2008 up to now
+
+1020
+00:33:01,260 --> 00:33:02,900
+is because for them
+
+1021
+00:33:02,900 --> 00:33:04,380
+it did get better
+
+1022
+00:33:04,380 --> 00:33:06,680
+for the rich
+
+1023
+00:33:06,680 --> 00:33:07,960
+life got better
+
+1024
+00:33:07,960 --> 00:33:08,420
+and better
+
+1025
+00:33:08,420 --> 00:33:08,860
+and better
+
+1026
+00:33:08,860 --> 00:33:11,340
+pretty much every single year
+
+1027
+00:33:11,340 --> 00:33:13,220
+from 2008 up to now
+
+1028
+00:33:13,220 --> 00:33:16,640
+so why did interest rates stay at zero
+
+1029
+00:33:16,640 --> 00:33:19,080
+that whole decade
+
+1030
+00:33:19,080 --> 00:33:20,900
+after 2010
+
+1031
+00:33:20,900 --> 00:33:29,340
+I had an idea
+
+1032
+00:33:29,340 --> 00:33:29,360
+I had an idea
+
+1033
+00:33:29,360 --> 00:33:33,440
+the reason interest rates
+
+1034
+00:33:33,440 --> 00:33:34,820
+are supposed to stimulate the economy
+
+1035
+00:33:34,820 --> 00:33:37,360
+is because they're supposed to get you spending
+
+1036
+00:33:37,360 --> 00:33:40,680
+but people weren't spending
+
+1037
+00:33:40,680 --> 00:33:43,880
+and I asked a few of the traders
+
+1038
+00:33:43,880 --> 00:33:44,520
+why
+
+1039
+00:33:44,520 --> 00:33:45,220
+and they said
+
+1040
+00:33:45,220 --> 00:33:45,580
+you know
+
+1041
+00:33:45,580 --> 00:33:48,100
+there's problems with the banking sector
+
+1042
+00:33:48,100 --> 00:33:48,960
+which are fixed now
+
+1043
+00:33:48,960 --> 00:33:50,960
+there's problems with confidence
+
+1044
+00:33:50,960 --> 00:33:51,720
+that are fixed now
+
+1045
+00:33:51,720 --> 00:33:55,160
+one time I asked an Oxford economics professor
+
+1046
+00:33:55,160 --> 00:33:56,860
+why did you think
+
+1047
+00:33:56,860 --> 00:33:59,540
+spending was so weak
+
+1048
+00:33:59,540 --> 00:34:00,400
+after 2008?
+
+1049
+00:34:00,400 --> 00:34:02,460
+he said
+
+1050
+00:34:02,460 --> 00:34:04,440
+there was an exogenous shock
+
+1051
+00:34:04,440 --> 00:34:06,080
+to consumption savings preferences
+
+1052
+00:34:06,080 --> 00:34:10,680
+so I decided
+
+1053
+00:34:10,680 --> 00:34:12,520
+to do something radical
+
+1054
+00:34:12,520 --> 00:34:14,020
+in the world of economics
+
+1055
+00:34:14,020 --> 00:34:16,139
+I went out
+
+1056
+00:34:16,139 --> 00:34:17,320
+and I started asking people
+
+1057
+00:34:17,320 --> 00:34:20,160
+have you had an exogenous shock
+
+1058
+00:34:20,160 --> 00:34:21,560
+to your consumption savings preferences
+
+1059
+00:34:21,560 --> 00:34:25,920
+I'm going to read you a passage
+
+1060
+00:34:25,920 --> 00:34:26,500
+from my book
+
+1061
+00:34:26,500 --> 00:34:28,139
+because my publicist will be delighted
+
+1062
+00:34:28,139 --> 00:34:30,799
+this is what people said
+
+1063
+00:34:30,799 --> 00:34:32,960
+when I asked them
+
+1064
+00:34:32,960 --> 00:34:35,279
+why they weren't spending more money
+
+1065
+00:34:35,279 --> 00:34:39,239
+I asked Harry Sambi
+
+1066
+00:34:39,239 --> 00:34:42,219
+Harry was still just a kid
+
+1067
+00:34:42,219 --> 00:34:45,739
+Harry had holes in his shoes
+
+1068
+00:34:45,739 --> 00:34:48,100
+and he was jumping over the barriers
+
+1069
+00:34:48,100 --> 00:34:48,940
+on the tube
+
+1070
+00:34:48,940 --> 00:34:50,020
+to save costs
+
+1071
+00:34:50,020 --> 00:34:52,920
+that's why he didn't spend money
+
+1072
+00:34:52,920 --> 00:34:55,299
+I asked Asad
+
+1073
+00:34:55,299 --> 00:34:57,520
+Asad said his mum
+
+1074
+00:34:57,520 --> 00:34:58,880
+had sold the family home
+
+1075
+00:34:58,880 --> 00:35:00,200
+to support him and his sisters
+
+1076
+00:35:00,200 --> 00:35:02,680
+and now he was sleeping on the sofa
+
+1077
+00:35:02,680 --> 00:35:04,340
+to try and save up a deposit
+
+1078
+00:35:04,340 --> 00:35:07,420
+that's why they didn't spend money
+
+1079
+00:35:07,420 --> 00:35:10,440
+I asked Aidan
+
+1080
+00:35:10,440 --> 00:35:13,380
+Aidan's mum had lost her job
+
+1081
+00:35:13,380 --> 00:35:14,940
+and hadn't been able to get a new rate
+
+1082
+00:35:14,940 --> 00:35:15,460
+on the mortgage
+
+1083
+00:35:15,460 --> 00:35:18,420
+now the monthly payments were sky high
+
+1084
+00:35:18,420 --> 00:35:20,920
+and Aidan was having to pay them himself
+
+1085
+00:35:20,920 --> 00:35:23,920
+that's why they didn't spend money
+
+1086
+00:35:23,920 --> 00:35:26,860
+they were losing their homes
+
+1087
+00:35:26,860 --> 00:35:29,800
+I hadn't even noticed
+
+1088
+00:35:29,800 --> 00:35:37,680
+so you realise
+
+1089
+00:35:37,680 --> 00:35:40,080
+that the hundreds of billions of pounds
+
+1090
+00:35:40,080 --> 00:35:41,640
+the importance of the economy
+
+1091
+00:35:41,640 --> 00:35:43,020
+by governments and central banks
+
+1092
+00:35:43,020 --> 00:35:44,920
+aren't doing anything
+
+1093
+00:35:44,920 --> 00:35:46,680
+to protect ordinary people
+
+1094
+00:35:46,680 --> 00:35:50,140
+very shortly after that
+
+1095
+00:35:50,140 --> 00:35:51,980
+you recognise that basically
+
+1096
+00:35:51,980 --> 00:35:52,700
+every government
+
+1097
+00:35:52,700 --> 00:35:54,700
+in the world
+
+1098
+00:35:54,700 --> 00:35:55,939
+is bankrupt
+
+1099
+00:35:55,939 --> 00:35:57,640
+Spain
+
+1100
+00:35:57,640 --> 00:35:58,819
+Italy
+
+1101
+00:35:58,819 --> 00:36:00,060
+Portugal
+
+1102
+00:36:00,060 --> 00:36:01,180
+Greece
+
+1103
+00:36:01,180 --> 00:36:03,120
+but also the UK
+
+1104
+00:36:03,120 --> 00:36:04,100
+the US
+
+1105
+00:36:04,100 --> 00:36:04,580
+Japan
+
+1106
+00:36:04,580 --> 00:36:06,799
+at that time
+
+1107
+00:36:06,799 --> 00:36:07,859
+early 2011
+
+1108
+00:36:07,859 --> 00:36:09,700
+all of these governments
+
+1109
+00:36:09,700 --> 00:36:10,960
+had massive deficits
+
+1110
+00:36:10,960 --> 00:36:11,740
+that were growing
+
+1111
+00:36:11,740 --> 00:36:13,620
+they were selling off their assets
+
+1112
+00:36:13,620 --> 00:36:15,560
+they were going into debt
+
+1113
+00:36:15,560 --> 00:36:17,360
+they were losing their homes
+
+1114
+00:36:17,360 --> 00:36:20,020
+but if the government
+
+1115
+00:36:20,020 --> 00:36:20,759
+is losing
+
+1116
+00:36:20,759 --> 00:36:21,980
+its assets
+
+1117
+00:36:21,980 --> 00:36:23,160
+and going into debt
+
+1118
+00:36:23,160 --> 00:36:24,500
+and the people
+
+1119
+00:36:24,500 --> 00:36:25,360
+are losing their assets
+
+1120
+00:36:25,360 --> 00:36:26,700
+and going into debt
+
+1121
+00:36:26,700 --> 00:36:29,340
+then where are the assets going
+
+1122
+00:36:29,340 --> 00:36:31,000
+and who's on the other side
+
+1123
+00:36:31,000 --> 00:36:31,420
+of the debt
+
+1124
+00:36:31,420 --> 00:36:34,360
+then I looked to the right of me
+
+1125
+00:36:34,360 --> 00:36:36,060
+and I looked to the left of me
+
+1126
+00:36:36,060 --> 00:36:37,920
+and I realised I was surrounded
+
+1127
+00:36:37,920 --> 00:36:39,200
+by millionaires
+
+1128
+00:36:39,200 --> 00:36:41,100
+it was us
+
+1129
+00:36:41,100 --> 00:36:41,580
+wasn't it
+
+1130
+00:36:41,580 --> 00:36:43,380
+we were the balance
+
+1131
+00:36:43,380 --> 00:36:45,820
+we were the boys
+
+1132
+00:36:45,820 --> 00:36:46,520
+who would be richer
+
+1133
+00:36:46,520 --> 00:36:47,320
+than our fathers
+
+1134
+00:36:47,320 --> 00:36:49,240
+in a world full of kids
+
+1135
+00:36:49,240 --> 00:36:49,820
+who'd be poor
+
+1136
+00:36:49,820 --> 00:36:51,780
+it was us
+
+1137
+00:36:51,780 --> 00:36:53,340
+we were the ones
+
+1138
+00:36:53,340 --> 00:36:54,060
+on the other side
+
+1139
+00:36:54,060 --> 00:36:55,340
+of the Italian government debt
+
+1140
+00:36:55,340 --> 00:36:56,760
+we were the ones
+
+1141
+00:36:56,760 --> 00:36:57,380
+on the other side
+
+1142
+00:36:57,380 --> 00:36:58,360
+of Aidan's mum's mortgage
+
+1143
+00:36:58,360 --> 00:37:01,240
+we would buy Assad's mum's house
+
+1144
+00:37:01,240 --> 00:37:02,300
+and rent it back
+
+1145
+00:37:02,300 --> 00:37:03,960
+to Assad's kids
+
+1146
+00:37:03,960 --> 00:37:05,840
+and then we would have the house
+
+1147
+00:37:05,840 --> 00:37:06,980
+and the debt too
+
+1148
+00:37:06,980 --> 00:37:08,380
+we'd lend it back to them
+
+1149
+00:37:08,380 --> 00:37:09,440
+and it would grow
+
+1150
+00:37:09,440 --> 00:37:10,060
+and it would grow
+
+1151
+00:37:10,060 --> 00:37:10,880
+and it would compound
+
+1152
+00:37:10,880 --> 00:37:11,740
+and it would compound
+
+1153
+00:37:11,740 --> 00:37:15,160
+the situation wouldn't get better
+
+1154
+00:37:15,160 --> 00:37:16,640
+it would get worse
+
+1155
+00:37:16,640 --> 00:37:18,940
+it wasn't confidence
+
+1156
+00:37:18,940 --> 00:37:20,620
+it was cancer
+
+1157
+00:37:20,620 --> 00:37:23,260
+it was never going to get better
+
+1158
+00:37:23,260 --> 00:37:26,460
+what does that mean?
+
+1159
+00:37:28,360 --> 00:37:29,780
+I knew what it meant
+
+1160
+00:37:29,780 --> 00:37:31,920
+it meant I had to buy
+
+1161
+00:37:31,920 --> 00:37:33,080
+a green euro dollar futures
+
+1162
+00:37:33,080 --> 00:37:36,380
+now that's the bet on interest rates
+
+1163
+00:37:36,380 --> 00:37:37,880
+at that time
+
+1164
+00:37:37,880 --> 00:37:39,160
+everybody thought interest rates
+
+1165
+00:37:39,160 --> 00:37:39,660
+would go up
+
+1166
+00:37:39,660 --> 00:37:40,940
+but they wouldn't
+
+1167
+00:37:40,940 --> 00:37:43,700
+I put that bet on a massive size
+
+1168
+00:37:43,700 --> 00:37:45,360
+and by the end of the year
+
+1169
+00:37:45,360 --> 00:37:47,060
+I was Citibank's most profitable
+
+1170
+00:37:47,060 --> 00:37:47,860
+trader in the world
+
+1171
+00:37:47,860 --> 00:37:50,200
+and Citibank paid me
+
+1172
+00:37:50,200 --> 00:37:51,040
+two million dollars
+
+1173
+00:37:51,040 --> 00:37:52,860
+and said well done mate
+
+1174
+00:37:52,860 --> 00:37:54,180
+do it again
+
+1175
+00:37:54,180 --> 00:37:57,380
+and what does that mean?
+
+1176
+00:37:58,360 --> 00:37:59,620
+what would you do?
+
+1177
+00:38:03,580 --> 00:38:04,600
+I did it one more year
+
+1178
+00:38:04,600 --> 00:38:05,740
+I am not going to lie to you
+
+1179
+00:38:05,740 --> 00:38:09,440
+the next year
+
+1180
+00:38:09,440 --> 00:38:10,380
+I was sitting at my desk
+
+1181
+00:38:10,380 --> 00:38:12,880
+and I said to one of the young traders
+
+1182
+00:38:12,880 --> 00:38:13,520
+who I worked with
+
+1183
+00:38:13,520 --> 00:38:16,480
+do you think we should do something?
+
+1184
+00:38:21,140 --> 00:38:21,740
+he said to me
+
+1185
+00:38:21,740 --> 00:38:22,200
+what do you mean?
+
+1186
+00:38:23,800 --> 00:38:24,240
+I said
+
+1187
+00:38:24,240 --> 00:38:25,100
+do you think we should do something
+
+1188
+00:38:25,100 --> 00:38:26,220
+about the collapsing economy
+
+1189
+00:38:26,220 --> 00:38:28,259
+he said
+
+1190
+00:38:28,259 --> 00:38:28,779
+what do you mean?
+
+1191
+00:38:28,839 --> 00:38:29,040
+I said
+
+1192
+00:38:29,040 --> 00:38:30,060
+do you think we should do something?
+
+1193
+00:38:31,360 --> 00:38:31,640
+he said
+
+1194
+00:38:31,640 --> 00:38:32,000
+we bought
+
+1195
+00:38:32,000 --> 00:38:33,080
+we bought the green euro dollars
+
+1196
+00:38:33,080 --> 00:38:33,940
+what do you want?
+
+1197
+00:38:35,700 --> 00:38:36,380
+I said to him
+
+1198
+00:38:36,380 --> 00:38:37,220
+I don't think this is about
+
+1199
+00:38:37,220 --> 00:38:38,080
+the green euro dollars
+
+1200
+00:38:38,080 --> 00:38:40,839
+do you think we should do something
+
+1201
+00:38:40,839 --> 00:38:42,000
+about the collapsing economy?
+
+1202
+00:38:44,060 --> 00:38:44,920
+he said to me
+
+1203
+00:38:44,920 --> 00:38:46,940
+sorry I don't understand
+
+1204
+00:38:46,940 --> 00:38:48,520
+what do you mean?
+
+1205
+00:38:48,520 --> 00:38:52,120
+I tried to explain to him
+
+1206
+00:38:52,120 --> 00:38:53,180
+that maybe we
+
+1207
+00:38:53,180 --> 00:38:54,160
+as wealthy people
+
+1208
+00:38:54,160 --> 00:38:55,020
+have an understanding
+
+1209
+00:38:55,020 --> 00:38:56,380
+of the problematic economy
+
+1210
+00:38:56,380 --> 00:38:57,060
+should do something
+
+1211
+00:38:57,060 --> 00:38:57,780
+to make it better
+
+1212
+00:38:57,780 --> 00:38:59,900
+he said to me
+
+1213
+00:38:59,900 --> 00:39:00,160
+Gary
+
+1214
+00:39:00,160 --> 00:39:01,660
+that's impossible
+
+1215
+00:39:01,660 --> 00:39:04,960
+and I knew of course
+
+1216
+00:39:04,960 --> 00:39:05,920
+that he was right
+
+1217
+00:39:05,920 --> 00:39:08,620
+but for some reason
+
+1218
+00:39:08,620 --> 00:39:09,520
+I quit my job anyway
+
+1219
+00:39:09,520 --> 00:39:11,600
+and I would love to tell you
+
+1220
+00:39:11,600 --> 00:39:12,720
+it's because I'm a good person
+
+1221
+00:39:12,720 --> 00:39:13,759
+because I'm a nice guy
+
+1222
+00:39:13,759 --> 00:39:15,720
+but the truth is
+
+1223
+00:39:15,720 --> 00:39:16,660
+it's because I was sick
+
+1224
+00:39:16,660 --> 00:39:18,560
+I wanted to sit there
+
+1225
+00:39:18,560 --> 00:39:19,240
+and make more money
+
+1226
+00:39:19,240 --> 00:39:21,279
+but I was losing weight
+
+1227
+00:39:21,279 --> 00:39:22,040
+every single day
+
+1228
+00:39:22,040 --> 00:39:24,319
+I'd bought a new luxury apartment
+
+1229
+00:39:24,319 --> 00:39:25,940
+and I'd ripped all of the furnishings out
+
+1230
+00:39:25,940 --> 00:39:26,440
+for some reason
+
+1231
+00:39:26,440 --> 00:39:27,220
+I couldn't buy more
+
+1232
+00:39:27,220 --> 00:39:29,100
+and I used to sleep
+
+1233
+00:39:29,100 --> 00:39:29,940
+on a mattress
+
+1234
+00:39:29,940 --> 00:39:31,500
+on a bare concrete floor
+
+1235
+00:39:31,500 --> 00:39:32,540
+with white plaster walls
+
+1236
+00:39:32,540 --> 00:39:34,339
+and every day
+
+1237
+00:39:34,339 --> 00:39:35,560
+I'd trade a trillion dollars
+
+1238
+00:39:35,560 --> 00:39:37,279
+and be Citibank's
+
+1239
+00:39:37,279 --> 00:39:38,040
+most profitable trader
+
+1240
+00:39:38,040 --> 00:39:38,500
+in the world
+
+1241
+00:39:38,500 --> 00:39:41,480
+and what does that mean?
+
+1242
+00:39:44,100 --> 00:39:45,000
+I quit that job
+
+1243
+00:39:45,000 --> 00:39:45,580
+and if you want to hear
+
+1244
+00:39:45,580 --> 00:39:46,100
+the story of that
+
+1245
+00:39:46,100 --> 00:39:46,620
+it's in the book
+
+1246
+00:39:46,620 --> 00:39:47,339
+but I want to talk about
+
+1247
+00:39:47,339 --> 00:39:48,120
+what happened afterwards
+
+1248
+00:39:48,120 --> 00:39:52,020
+because first I tried to
+
+1249
+00:39:52,020 --> 00:39:54,500
+work for a think tank
+
+1250
+00:39:54,500 --> 00:39:57,000
+and I made a website
+
+1251
+00:39:57,000 --> 00:39:59,120
+called Wealth Economics
+
+1252
+00:39:59,120 --> 00:39:59,660
+it's still up
+
+1253
+00:39:59,660 --> 00:40:00,480
+you can look at it if you want
+
+1254
+00:40:00,480 --> 00:40:01,480
+explaining that
+
+1255
+00:40:01,480 --> 00:40:02,040
+if you don't fix
+
+1256
+00:40:02,040 --> 00:40:02,680
+wealth inequality
+
+1257
+00:40:02,680 --> 00:40:04,259
+the economy will collapse
+
+1258
+00:40:04,259 --> 00:40:06,299
+this theory made me
+
+1259
+00:40:06,299 --> 00:40:07,040
+millions of dollars
+
+1260
+00:40:07,040 --> 00:40:09,220
+nobody looked at the website
+
+1261
+00:40:09,220 --> 00:40:11,759
+you can still look at it
+
+1262
+00:40:11,759 --> 00:40:12,000
+if you want
+
+1263
+00:40:12,000 --> 00:40:15,940
+but of course nobody's
+
+1264
+00:40:15,940 --> 00:40:16,480
+going to look at the website
+
+1265
+00:40:16,480 --> 00:40:17,400
+nobody knows who you are
+
+1266
+00:40:17,400 --> 00:40:17,980
+so what do you do
+
+1267
+00:40:17,980 --> 00:40:18,940
+so you go back to university
+
+1268
+00:40:18,940 --> 00:40:20,820
+you go back to university
+
+1269
+00:40:20,820 --> 00:40:21,420
+you go to Oxford
+
+1270
+00:40:21,420 --> 00:40:22,660
+best university in the world
+
+1271
+00:40:22,660 --> 00:40:24,080
+contentious
+
+1272
+00:40:24,080 --> 00:40:29,020
+and you go to your first
+
+1273
+00:40:29,020 --> 00:40:29,940
+lecture on interest rates
+
+1274
+00:40:29,940 --> 00:40:30,580
+and at this point
+
+1275
+00:40:30,580 --> 00:40:31,680
+you've just stopped being
+
+1276
+00:40:31,680 --> 00:40:32,880
+the world's most profitable
+
+1277
+00:40:32,880 --> 00:40:33,760
+interest rates trader
+
+1278
+00:40:33,760 --> 00:40:35,560
+and you go to the lecture
+
+1279
+00:40:35,560 --> 00:40:35,940
+and you say
+
+1280
+00:40:35,940 --> 00:40:36,140
+hey
+
+1281
+00:40:36,140 --> 00:40:38,320
+can we talk about
+
+1282
+00:40:38,320 --> 00:40:39,700
+why we've been so wrong
+
+1283
+00:40:39,700 --> 00:40:40,460
+about interest rates
+
+1284
+00:40:40,460 --> 00:40:41,320
+for the past 10 years
+
+1285
+00:40:41,320 --> 00:40:43,220
+and he says to you
+
+1286
+00:40:43,220 --> 00:40:44,640
+oh we always knew
+
+1287
+00:40:44,640 --> 00:40:45,580
+interest rates would stay zero
+
+1288
+00:40:45,580 --> 00:40:48,120
+what does that mean
+
+1289
+00:40:48,120 --> 00:40:50,420
+and you say to him
+
+1290
+00:40:50,420 --> 00:40:51,060
+no you didn't
+
+1291
+00:40:51,060 --> 00:40:51,780
+you predicted it wrong
+
+1292
+00:40:51,780 --> 00:40:52,520
+for 10 years in a row
+
+1293
+00:40:52,520 --> 00:40:52,860
+and he says
+
+1294
+00:40:52,860 --> 00:40:53,360
+no we knew
+
+1295
+00:40:53,360 --> 00:40:53,720
+we knew
+
+1296
+00:40:53,720 --> 00:40:54,400
+and you say to him
+
+1297
+00:40:54,400 --> 00:40:55,160
+okay well I'll go home
+
+1298
+00:40:55,160 --> 00:40:55,940
+and I'll send you the data
+
+1299
+00:40:55,940 --> 00:40:58,020
+and he says
+
+1300
+00:40:58,020 --> 00:40:58,340
+oh yeah
+
+1301
+00:40:58,340 --> 00:40:59,000
+you're right
+
+1302
+00:40:59,000 --> 00:41:00,400
+you were wrong for 10 years
+
+1303
+00:41:00,400 --> 00:41:02,160
+and it don't go no further
+
+1304
+00:41:02,160 --> 00:41:04,200
+what does that mean
+
+1305
+00:41:04,200 --> 00:41:06,900
+and you go to your
+
+1306
+00:41:06,900 --> 00:41:08,020
+mid-year review
+
+1307
+00:41:08,020 --> 00:41:09,040
+and you sit there
+
+1308
+00:41:09,040 --> 00:41:10,080
+with your college professors
+
+1309
+00:41:10,080 --> 00:41:11,040
+and they ask you
+
+1310
+00:41:11,040 --> 00:41:11,420
+what do you think
+
+1311
+00:41:11,420 --> 00:41:11,980
+of the course
+
+1312
+00:41:11,980 --> 00:41:14,080
+you tell them
+
+1313
+00:41:14,080 --> 00:41:14,920
+it's not very good
+
+1314
+00:41:14,920 --> 00:41:15,799
+maybe you use
+
+1315
+00:41:15,799 --> 00:41:16,500
+some stronger words
+
+1316
+00:41:16,500 --> 00:41:17,080
+I've been asked
+
+1317
+00:41:17,080 --> 00:41:17,640
+not to swear
+
+1318
+00:41:17,640 --> 00:41:18,420
+in this lecture
+
+1319
+00:41:18,420 --> 00:41:21,759
+and they say
+
+1320
+00:41:21,759 --> 00:41:22,480
+why don't you like it
+
+1321
+00:41:22,480 --> 00:41:22,740
+and I say
+
+1322
+00:41:22,740 --> 00:41:23,259
+why don't you talk
+
+1323
+00:41:23,259 --> 00:41:24,340
+about people's economic problems
+
+1324
+00:41:24,340 --> 00:41:25,160
+and they turn around
+
+1325
+00:41:25,160 --> 00:41:25,799
+to you and they say
+
+1326
+00:41:25,799 --> 00:41:26,360
+what do you mean
+
+1327
+00:41:26,360 --> 00:41:28,240
+the economy is good
+
+1328
+00:41:28,240 --> 00:41:30,319
+and you sit there
+
+1329
+00:41:30,319 --> 00:41:31,259
+with these three men
+
+1330
+00:41:31,259 --> 00:41:31,759
+in capes
+
+1331
+00:41:31,759 --> 00:41:32,660
+in this wood paneled hall
+
+1332
+00:41:32,660 --> 00:41:33,279
+and you hear
+
+1333
+00:41:33,279 --> 00:41:34,779
+these two unspoken words
+
+1334
+00:41:34,779 --> 00:41:35,660
+reverberate back
+
+1335
+00:41:35,660 --> 00:41:36,259
+from the walls
+
+1336
+00:41:36,260 --> 00:41:38,480
+it's good
+
+1337
+00:41:38,480 --> 00:41:39,980
+for us
+
+1338
+00:41:39,980 --> 00:41:42,280
+what does that mean
+
+1339
+00:41:42,280 --> 00:41:44,900
+so you decide
+
+1340
+00:41:44,900 --> 00:41:45,940
+you have to leave university
+
+1341
+00:41:45,940 --> 00:41:46,900
+and you have to try
+
+1342
+00:41:46,900 --> 00:41:47,620
+and do something
+
+1343
+00:41:47,620 --> 00:41:48,180
+more active
+
+1344
+00:41:48,180 --> 00:41:50,600
+you have to go out
+
+1345
+00:41:50,600 --> 00:41:51,360
+and you have to speak
+
+1346
+00:41:51,360 --> 00:41:52,160
+to people directly
+
+1347
+00:41:52,160 --> 00:41:53,420
+you have to tell them
+
+1348
+00:41:53,420 --> 00:41:54,440
+if things don't get better
+
+1349
+00:41:54,440 --> 00:41:57,440
+if there's no action
+
+1350
+00:41:57,440 --> 00:41:57,980
+in equality
+
+1351
+00:41:57,980 --> 00:41:59,000
+that their lives
+
+1352
+00:41:59,000 --> 00:41:59,600
+are going to get worse
+
+1353
+00:41:59,600 --> 00:42:00,060
+and worse
+
+1354
+00:42:00,060 --> 00:42:02,460
+then immediately
+
+1355
+00:42:02,460 --> 00:42:03,799
+there's a pandemic
+
+1356
+00:42:03,799 --> 00:42:05,680
+and the government
+
+1357
+00:42:05,680 --> 00:42:07,220
+gives out 800 billion pounds
+
+1358
+00:42:07,220 --> 00:42:09,360
+and you can see
+
+1359
+00:42:09,360 --> 00:42:10,040
+from the analysis
+
+1360
+00:42:10,040 --> 00:42:10,819
+right at the beginning
+
+1361
+00:42:10,819 --> 00:42:11,339
+that that money
+
+1362
+00:42:11,339 --> 00:42:11,900
+will be accumulated
+
+1363
+00:42:11,900 --> 00:42:12,500
+by the rich
+
+1364
+00:42:12,500 --> 00:42:14,220
+and nobody
+
+1365
+00:42:14,220 --> 00:42:16,180
+at the universities
+
+1366
+00:42:16,180 --> 00:42:18,640
+in the opposition party
+
+1367
+00:42:18,640 --> 00:42:20,339
+in the government
+
+1368
+00:42:20,339 --> 00:42:22,380
+in the civil service
+
+1369
+00:42:22,380 --> 00:42:24,020
+in the central banks
+
+1370
+00:42:24,020 --> 00:42:26,220
+even ask the question
+
+1371
+00:42:26,220 --> 00:42:26,920
+of who's going to
+
+1372
+00:42:26,920 --> 00:42:28,500
+accumulate this 800 billion dollar
+
+1373
+00:42:28,500 --> 00:42:33,200
+so you put a massive bet
+
+1374
+00:42:33,200 --> 00:42:34,540
+on increasing asset prices
+
+1375
+00:42:34,540 --> 00:42:35,800
+and you make 300,000 pounds
+
+1376
+00:42:35,800 --> 00:42:39,180
+what does that mean
+
+1377
+00:42:39,180 --> 00:42:43,180
+but you also make
+
+1378
+00:42:43,180 --> 00:42:43,860
+a YouTube channel
+
+1379
+00:42:43,860 --> 00:42:44,260
+when you try
+
+1380
+00:42:44,260 --> 00:42:44,840
+and tell people
+
+1381
+00:42:44,840 --> 00:42:45,860
+this is going to happen
+
+1382
+00:42:45,860 --> 00:42:48,020
+you write in the Guardian
+
+1383
+00:42:48,020 --> 00:42:49,280
+that there's going to be
+
+1384
+00:42:49,280 --> 00:42:50,040
+a massive crisis
+
+1385
+00:42:50,040 --> 00:42:50,600
+of inequality
+
+1386
+00:42:50,600 --> 00:42:51,600
+falling in living standards
+
+1387
+00:42:51,600 --> 00:42:53,300
+at the same time
+
+1388
+00:42:53,300 --> 00:42:53,940
+Larry Elliott
+
+1389
+00:42:53,940 --> 00:42:55,500
+chief economics correspondent
+
+1390
+00:42:55,500 --> 00:42:56,100
+of the Guardian
+
+1391
+00:42:56,100 --> 00:42:57,680
+predicts that house prices
+
+1392
+00:42:57,680 --> 00:42:58,260
+will collapse
+
+1393
+00:42:58,260 --> 00:43:00,420
+three years later
+
+1394
+00:43:00,420 --> 00:43:00,940
+you were right
+
+1395
+00:43:00,940 --> 00:43:01,380
+and Larry Elliott
+
+1396
+00:43:01,380 --> 00:43:01,860
+was wrong
+
+1397
+00:43:01,860 --> 00:43:03,420
+but obviously
+
+1398
+00:43:03,420 --> 00:43:04,160
+nobody remembers
+
+1399
+00:43:04,160 --> 00:43:05,900
+what does that mean
+
+1400
+00:43:05,900 --> 00:43:08,160
+and you work
+
+1401
+00:43:08,160 --> 00:43:08,740
+and you work
+
+1402
+00:43:08,740 --> 00:43:09,220
+and eventually
+
+1403
+00:43:09,220 --> 00:43:09,760
+you manage to
+
+1404
+00:43:09,760 --> 00:43:10,500
+build up a following
+
+1405
+00:43:10,500 --> 00:43:12,520
+you put up videos
+
+1406
+00:43:12,520 --> 00:43:13,140
+every week
+
+1407
+00:43:13,140 --> 00:43:15,120
+and people turn around
+
+1408
+00:43:15,120 --> 00:43:15,760
+to you and say
+
+1409
+00:43:15,760 --> 00:43:17,680
+there's no point
+
+1410
+00:43:17,680 --> 00:43:19,060
+there's nothing
+
+1411
+00:43:19,060 --> 00:43:19,520
+you can do
+
+1412
+00:43:19,520 --> 00:43:20,880
+there's no way
+
+1413
+00:43:20,880 --> 00:43:21,400
+to stop it
+
+1414
+00:43:21,400 --> 00:43:22,000
+so what do you do
+
+1415
+00:43:22,000 --> 00:43:26,940
+I want to speak to you
+
+1416
+00:43:26,940 --> 00:43:27,380
+about an event
+
+1417
+00:43:27,380 --> 00:43:28,060
+that I spoke at
+
+1418
+00:43:28,060 --> 00:43:31,180
+it was at Saatchi
+
+1419
+00:43:31,180 --> 00:43:31,980
+I probably can't mention
+
+1420
+00:43:31,980 --> 00:43:33,080
+it was at a fancy
+
+1421
+00:43:33,080 --> 00:43:34,840
+advertising company
+
+1422
+00:43:34,840 --> 00:43:36,540
+you can edit that out
+
+1423
+00:43:36,540 --> 00:43:36,720
+right
+
+1424
+00:43:36,720 --> 00:43:41,220
+and I sat on the stage
+
+1425
+00:43:41,220 --> 00:43:41,720
+and I told them
+
+1426
+00:43:41,720 --> 00:43:42,580
+in a much shorter version
+
+1427
+00:43:42,580 --> 00:43:43,360
+what I just told you
+
+1428
+00:43:43,360 --> 00:43:44,460
+that the economy
+
+1429
+00:43:44,460 --> 00:43:44,920
+will collapse
+
+1430
+00:43:44,920 --> 00:43:45,500
+and it will get worse
+
+1431
+00:43:45,500 --> 00:43:45,900
+and worse
+
+1432
+00:43:45,900 --> 00:43:46,960
+I'm not just saying
+
+1433
+00:43:46,960 --> 00:43:47,680
+that I'm betting on it
+
+1434
+00:43:47,680 --> 00:43:48,919
+I make hundreds of thousands
+
+1435
+00:43:48,919 --> 00:43:49,500
+of pounds on it
+
+1436
+00:43:49,500 --> 00:43:49,960
+every year
+
+1437
+00:43:49,960 --> 00:43:51,080
+I've made millions
+
+1438
+00:43:51,080 --> 00:43:51,560
+of pounds on it
+
+1439
+00:43:51,560 --> 00:43:52,040
+in my life
+
+1440
+00:43:52,040 --> 00:43:54,480
+and the woman next to you
+
+1441
+00:43:54,480 --> 00:43:57,480
+who by all accounts
+
+1442
+00:43:57,480 --> 00:43:58,600
+seems like a very nice woman
+
+1443
+00:43:58,600 --> 00:44:01,480
+says what gives me hope
+
+1444
+00:44:01,480 --> 00:44:02,799
+is that the economy
+
+1445
+00:44:02,799 --> 00:44:03,520
+is like nature
+
+1446
+00:44:03,520 --> 00:44:06,560
+sometimes it gets better
+
+1447
+00:44:06,560 --> 00:44:08,440
+and sometimes it gets worse
+
+1448
+00:44:08,440 --> 00:44:11,040
+and what I heard
+
+1449
+00:44:11,040 --> 00:44:11,940
+when she said that was
+
+1450
+00:44:11,940 --> 00:44:14,759
+my life's comfortable
+
+1451
+00:44:14,759 --> 00:44:17,040
+I ain't gonna do nothing
+
+1452
+00:44:17,040 --> 00:44:20,180
+and you start thinking
+
+1453
+00:44:20,180 --> 00:44:21,440
+it's impossible isn't it
+
+1454
+00:44:21,440 --> 00:44:23,000
+because the poor
+
+1455
+00:44:23,000 --> 00:44:23,440
+are struggling
+
+1456
+00:44:23,440 --> 00:44:24,480
+to put food on the table
+
+1457
+00:44:24,480 --> 00:44:25,640
+you expect them
+
+1458
+00:44:25,640 --> 00:44:26,120
+to stand up
+
+1459
+00:44:26,120 --> 00:44:26,820
+and defend themselves
+
+1460
+00:44:26,820 --> 00:44:28,500
+and the rich
+
+1461
+00:44:28,500 --> 00:44:29,540
+have got kitchen
+
+1462
+00:44:29,540 --> 00:44:30,640
+renovations to worry about
+
+1463
+00:44:30,640 --> 00:44:31,800
+so they're too busy
+
+1464
+00:44:31,800 --> 00:44:32,180
+to help
+
+1465
+00:44:32,180 --> 00:44:35,560
+the problem is
+
+1466
+00:44:35,560 --> 00:44:37,480
+people are inherently
+
+1467
+00:44:37,480 --> 00:44:37,940
+selfish
+
+1468
+00:44:37,940 --> 00:44:41,320
+maybe there's no way out
+
+1469
+00:44:41,320 --> 00:44:43,020
+maybe this is just
+
+1470
+00:44:43,020 --> 00:44:43,480
+inevitable
+
+1471
+00:44:43,480 --> 00:44:44,380
+it's the way they work
+
+1472
+00:44:44,380 --> 00:44:44,980
+in society
+
+1473
+00:44:44,980 --> 00:44:47,940
+and then I got sent
+
+1474
+00:44:47,940 --> 00:44:50,260
+to do a story
+
+1475
+00:44:50,260 --> 00:44:51,620
+in Colburn
+
+1476
+00:44:51,620 --> 00:44:54,780
+which is
+
+1477
+00:44:54,780 --> 00:44:56,820
+in northern Yorkshire
+
+1478
+00:44:56,820 --> 00:44:58,340
+it was about
+
+1479
+00:44:58,340 --> 00:44:59,300
+how Rishi Sunak
+
+1480
+00:44:59,300 --> 00:45:00,380
+is the richest MP ever
+
+1481
+00:45:00,380 --> 00:45:01,560
+and I was gonna go
+
+1482
+00:45:01,560 --> 00:45:02,240
+to a food bank
+
+1483
+00:45:02,240 --> 00:45:04,320
+and I was gonna ask them
+
+1484
+00:45:04,320 --> 00:45:04,760
+how do you feel
+
+1485
+00:45:04,760 --> 00:45:05,520
+about having the richest
+
+1486
+00:45:05,520 --> 00:45:05,980
+ever MP
+
+1487
+00:45:05,980 --> 00:45:07,340
+in history
+
+1488
+00:45:07,340 --> 00:45:10,300
+and just coincidentally
+
+1489
+00:45:10,300 --> 00:45:10,880
+it happened
+
+1490
+00:45:10,880 --> 00:45:13,680
+that Russia invaded Ukraine
+
+1491
+00:45:13,680 --> 00:45:14,800
+the previous weekend
+
+1492
+00:45:14,800 --> 00:45:15,540
+before I ran up there
+
+1493
+00:45:15,540 --> 00:45:17,360
+and the food bank
+
+1494
+00:45:17,360 --> 00:45:17,980
+that I was visiting
+
+1495
+00:45:17,980 --> 00:45:18,740
+had been converted
+
+1496
+00:45:18,740 --> 00:45:19,720
+into a place
+
+1497
+00:45:19,720 --> 00:45:21,260
+to sort the donations
+
+1498
+00:45:21,260 --> 00:45:22,680
+that were gonna be sent
+
+1499
+00:45:22,680 --> 00:45:23,120
+to Ukraine
+
+1500
+00:45:23,120 --> 00:45:25,180
+and it was full of people
+
+1501
+00:45:25,180 --> 00:45:26,040
+sorting clothes
+
+1502
+00:45:26,040 --> 00:45:26,660
+and medicine
+
+1503
+00:45:26,660 --> 00:45:27,280
+and food
+
+1504
+00:45:27,280 --> 00:45:29,120
+into different bin bags
+
+1505
+00:45:29,120 --> 00:45:30,820
+and there were three guys
+
+1506
+00:45:30,820 --> 00:45:31,680
+there with vans
+
+1507
+00:45:31,680 --> 00:45:32,700
+that were gonna drive
+
+1508
+00:45:32,700 --> 00:45:33,080
+the stuff
+
+1509
+00:45:33,080 --> 00:45:33,680
+all the way there
+
+1510
+00:45:33,680 --> 00:45:34,500
+to Ukraine himself
+
+1511
+00:45:34,500 --> 00:45:37,160
+and I started asking
+
+1512
+00:45:37,160 --> 00:45:37,660
+the people
+
+1513
+00:45:37,660 --> 00:45:37,940
+you know
+
+1514
+00:45:37,940 --> 00:45:38,180
+like
+
+1515
+00:45:38,180 --> 00:45:40,399
+who are these people
+
+1516
+00:45:40,399 --> 00:45:40,919
+doing this
+
+1517
+00:45:40,919 --> 00:45:42,580
+and you find out
+
+1518
+00:45:42,580 --> 00:45:43,520
+it's the users
+
+1519
+00:45:43,520 --> 00:45:44,220
+of the food bank
+
+1520
+00:45:44,220 --> 00:45:48,259
+and maybe people
+
+1521
+00:45:48,259 --> 00:45:48,940
+are inherently selfish
+
+1522
+00:45:48,940 --> 00:45:49,480
+after all
+
+1523
+00:45:49,480 --> 00:45:52,839
+there's a story
+
+1524
+00:45:52,839 --> 00:45:53,339
+in the bible
+
+1525
+00:45:53,339 --> 00:45:54,580
+it's called
+
+1526
+00:45:54,580 --> 00:45:55,399
+the widow's mite
+
+1527
+00:45:55,399 --> 00:45:57,839
+and it talks about
+
+1528
+00:45:57,839 --> 00:45:58,419
+all the people
+
+1529
+00:45:58,419 --> 00:45:59,680
+who give money
+
+1530
+00:45:59,680 --> 00:46:00,759
+extravagantly
+
+1531
+00:46:00,760 --> 00:46:02,280
+to charity
+
+1532
+00:46:02,280 --> 00:46:03,240
+to religion
+
+1533
+00:46:03,240 --> 00:46:05,140
+and it talks about
+
+1534
+00:46:05,140 --> 00:46:05,580
+one widow
+
+1535
+00:46:05,580 --> 00:46:06,140
+who just put
+
+1536
+00:46:06,140 --> 00:46:07,220
+two small copper coins
+
+1537
+00:46:07,220 --> 00:46:07,760
+in the box
+
+1538
+00:46:07,760 --> 00:46:12,100
+and apparently
+
+1539
+00:46:12,100 --> 00:46:13,140
+I never met him
+
+1540
+00:46:13,140 --> 00:46:14,660
+Jesus said
+
+1541
+00:46:14,660 --> 00:46:18,480
+she's given more
+
+1542
+00:46:18,480 --> 00:46:19,420
+than everybody else
+
+1543
+00:46:19,420 --> 00:46:21,500
+for all these
+
+1544
+00:46:21,500 --> 00:46:22,580
+have of their abundance
+
+1545
+00:46:22,580 --> 00:46:23,260
+cast in
+
+1546
+00:46:23,260 --> 00:46:23,880
+unto the offerings
+
+1547
+00:46:23,880 --> 00:46:24,300
+of God
+
+1548
+00:46:24,300 --> 00:46:26,480
+but she of her penury
+
+1549
+00:46:26,480 --> 00:46:27,600
+have cast in
+
+1550
+00:46:27,600 --> 00:46:28,100
+all the living
+
+1551
+00:46:28,100 --> 00:46:28,640
+that she had
+
+1552
+00:46:28,640 --> 00:46:31,620
+maybe people
+
+1553
+00:46:31,620 --> 00:46:32,480
+are inherently selfish
+
+1554
+00:46:32,480 --> 00:46:34,859
+I don't know
+
+1555
+00:46:34,859 --> 00:46:36,900
+what do you do
+
+1556
+00:46:36,900 --> 00:46:40,900
+I wanted to read
+
+1557
+00:46:40,900 --> 00:46:41,259
+a little bit
+
+1558
+00:46:41,259 --> 00:46:41,660
+from a book
+
+1559
+00:46:41,660 --> 00:46:42,120
+that I like
+
+1560
+00:46:42,120 --> 00:46:42,819
+it's by an author
+
+1561
+00:46:42,819 --> 00:46:43,379
+called Camus
+
+1562
+00:46:43,379 --> 00:46:45,920
+this book
+
+1563
+00:46:45,920 --> 00:46:46,240
+is called
+
+1564
+00:46:46,240 --> 00:46:46,600
+the plague
+
+1565
+00:46:46,600 --> 00:46:47,080
+and he talks
+
+1566
+00:46:47,080 --> 00:46:47,700
+about what people
+
+1567
+00:46:47,700 --> 00:46:48,440
+do in a society
+
+1568
+00:46:48,440 --> 00:46:49,080
+that is collapsing
+
+1569
+00:46:49,080 --> 00:46:50,660
+apparently it's
+
+1570
+00:46:50,660 --> 00:46:51,220
+about the Nazis
+
+1571
+00:46:51,220 --> 00:46:51,920
+but I didn't know
+
+1572
+00:46:51,920 --> 00:46:52,240
+that because
+
+1573
+00:46:52,240 --> 00:46:52,720
+it's a metaphor
+
+1574
+00:46:52,720 --> 00:46:53,160
+or something
+
+1575
+00:46:53,160 --> 00:46:59,440
+and what he says
+
+1576
+00:46:59,440 --> 00:47:00,160
+is that basically
+
+1577
+00:47:00,160 --> 00:47:01,140
+when society collapses
+
+1578
+00:47:01,140 --> 00:47:02,180
+most people go crazy
+
+1579
+00:47:02,180 --> 00:47:04,540
+but some people don't
+
+1580
+00:47:04,540 --> 00:47:06,200
+and there's a group
+
+1581
+00:47:06,200 --> 00:47:06,899
+of people that
+
+1582
+00:47:06,899 --> 00:47:07,759
+started trying
+
+1583
+00:47:07,759 --> 00:47:08,180
+to fight
+
+1584
+00:47:08,180 --> 00:47:08,799
+the plague
+
+1585
+00:47:08,799 --> 00:47:11,000
+Camus says
+
+1586
+00:47:11,000 --> 00:47:13,319
+Taru started work
+
+1587
+00:47:13,319 --> 00:47:14,200
+the very next day
+
+1588
+00:47:14,200 --> 00:47:15,379
+and mustered
+
+1589
+00:47:15,379 --> 00:47:16,120
+a first team
+
+1590
+00:47:16,120 --> 00:47:16,700
+that was to be
+
+1591
+00:47:16,700 --> 00:47:17,740
+followed by many others
+
+1592
+00:47:17,740 --> 00:47:19,880
+however
+
+1593
+00:47:19,880 --> 00:47:21,500
+it is not the narrator's
+
+1594
+00:47:21,500 --> 00:47:21,860
+intention
+
+1595
+00:47:21,860 --> 00:47:22,640
+to attribute
+
+1596
+00:47:22,640 --> 00:47:23,440
+more significance
+
+1597
+00:47:23,440 --> 00:47:24,300
+to these health groups
+
+1598
+00:47:24,300 --> 00:47:25,020
+than they actually have
+
+1599
+00:47:25,020 --> 00:47:26,860
+it is true
+
+1600
+00:47:26,860 --> 00:47:27,560
+that nowadays
+
+1601
+00:47:27,560 --> 00:47:29,500
+many of our fellow citizens
+
+1602
+00:47:29,500 --> 00:47:29,880
+would
+
+1603
+00:47:29,880 --> 00:47:30,900
+in his place
+
+1604
+00:47:30,900 --> 00:47:32,520
+succumb to the temptation
+
+1605
+00:47:32,520 --> 00:47:33,720
+to exaggerate their role
+
+1606
+00:47:33,720 --> 00:47:35,700
+but the narrator
+
+1607
+00:47:35,700 --> 00:47:36,680
+is rather inclined
+
+1608
+00:47:36,680 --> 00:47:37,220
+to believe
+
+1609
+00:47:37,220 --> 00:47:38,140
+that by giving
+
+1610
+00:47:38,140 --> 00:47:39,060
+too much importance
+
+1611
+00:47:39,060 --> 00:47:39,920
+to fine actions
+
+1612
+00:47:39,920 --> 00:47:41,460
+one may end
+
+1613
+00:47:41,460 --> 00:47:42,700
+by paying an indirect
+
+1614
+00:47:42,700 --> 00:47:43,800
+but powerful tribute
+
+1615
+00:47:43,800 --> 00:47:44,320
+to evil
+
+1616
+00:47:44,320 --> 00:47:46,280
+because in so doing
+
+1617
+00:47:46,280 --> 00:47:47,300
+one implies
+
+1618
+00:47:47,300 --> 00:47:49,000
+that such fine actions
+
+1619
+00:47:49,000 --> 00:47:49,900
+are only valuable
+
+1620
+00:47:49,900 --> 00:47:50,900
+because they are rare
+
+1621
+00:47:50,900 --> 00:47:52,520
+and that malice
+
+1622
+00:47:52,520 --> 00:47:53,500
+or indifference
+
+1623
+00:47:53,500 --> 00:47:55,060
+are far more common
+
+1624
+00:47:55,060 --> 00:47:55,560
+motives
+
+1625
+00:47:55,560 --> 00:47:56,840
+in the actions of men
+
+1626
+00:47:56,840 --> 00:47:58,480
+the narrator
+
+1627
+00:47:58,480 --> 00:47:59,660
+does not share this view
+
+1628
+00:47:59,660 --> 00:48:02,360
+the evil in the world
+
+1629
+00:48:02,360 --> 00:48:03,560
+comes almost always
+
+1630
+00:48:03,560 --> 00:48:04,220
+from ignorance
+
+1631
+00:48:04,220 --> 00:48:05,780
+and goodwill
+
+1632
+00:48:05,780 --> 00:48:07,260
+can cause as much damage
+
+1633
+00:48:07,260 --> 00:48:08,060
+as ill will
+
+1634
+00:48:08,060 --> 00:48:09,480
+if it is not enlightened
+
+1635
+00:48:09,480 --> 00:48:13,340
+Camus thinks
+
+1636
+00:48:13,340 --> 00:48:15,120
+that when you are
+
+1637
+00:48:15,120 --> 00:48:15,640
+in a society
+
+1638
+00:48:15,640 --> 00:48:16,379
+that is collapsing
+
+1639
+00:48:16,379 --> 00:48:18,480
+your job
+
+1640
+00:48:18,480 --> 00:48:19,859
+is to stop it
+
+1641
+00:48:19,859 --> 00:48:20,440
+from collapsing
+
+1642
+00:48:20,440 --> 00:48:22,700
+Camus thinks
+
+1643
+00:48:22,700 --> 00:48:24,100
+that's how you be human
+
+1644
+00:48:24,100 --> 00:48:27,040
+but there are a lot
+
+1645
+00:48:27,040 --> 00:48:27,940
+of people in this town
+
+1646
+00:48:27,940 --> 00:48:28,520
+that don't agree
+
+1647
+00:48:28,520 --> 00:48:29,220
+and he speaks about
+
+1648
+00:48:29,220 --> 00:48:29,819
+this as well
+
+1649
+00:48:29,819 --> 00:48:33,420
+in Camus words
+
+1650
+00:48:33,420 --> 00:48:35,879
+a lot of new moralists
+
+1651
+00:48:35,879 --> 00:48:37,060
+appeared in the town
+
+1652
+00:48:37,060 --> 00:48:37,680
+at this moment
+
+1653
+00:48:37,680 --> 00:48:39,200
+saying that nothing
+
+1654
+00:48:39,200 --> 00:48:39,980
+was any use
+
+1655
+00:48:39,980 --> 00:48:40,879
+and that we should
+
+1656
+00:48:40,879 --> 00:48:41,980
+go down on our knees
+
+1657
+00:48:41,980 --> 00:48:44,580
+Taru, Ryu
+
+1658
+00:48:44,580 --> 00:48:45,580
+and their friends
+
+1659
+00:48:45,580 --> 00:48:47,140
+could answer this or that
+
+1660
+00:48:47,140 --> 00:48:48,380
+but the conclusion
+
+1661
+00:48:48,380 --> 00:48:49,240
+was always what they knew
+
+1662
+00:48:49,240 --> 00:48:49,700
+it would be
+
+1663
+00:48:49,700 --> 00:48:51,520
+one must fight
+
+1664
+00:48:51,520 --> 00:48:52,640
+in one way or another
+
+1665
+00:48:52,640 --> 00:48:54,100
+and not go down
+
+1666
+00:48:54,100 --> 00:48:54,760
+on one's knees
+
+1667
+00:48:54,760 --> 00:48:57,180
+I found that very moving
+
+1668
+00:48:57,180 --> 00:48:57,880
+when I read that
+
+1669
+00:48:57,880 --> 00:49:00,860
+in Camus' story
+
+1670
+00:49:00,860 --> 00:49:02,140
+most people
+
+1671
+00:49:02,140 --> 00:49:03,120
+when society collapses
+
+1672
+00:49:03,120 --> 00:49:04,100
+go crazy
+
+1673
+00:49:04,100 --> 00:49:06,160
+they become extremely
+
+1674
+00:49:06,160 --> 00:49:06,640
+religious
+
+1675
+00:49:06,640 --> 00:49:08,020
+or they become
+
+1676
+00:49:08,020 --> 00:49:09,160
+extremely
+
+1677
+00:49:09,160 --> 00:49:10,279
+hedonistic
+
+1678
+00:49:10,279 --> 00:49:11,400
+or they become
+
+1679
+00:49:11,400 --> 00:49:12,220
+extremely greedy
+
+1680
+00:49:12,220 --> 00:49:13,120
+and they try to make money
+
+1681
+00:49:13,120 --> 00:49:14,540
+they become really angry
+
+1682
+00:49:14,540 --> 00:49:15,560
+and try to find people
+
+1683
+00:49:15,560 --> 00:49:16,000
+to hate
+
+1684
+00:49:16,000 --> 00:49:18,600
+and I think this is natural
+
+1685
+00:49:18,600 --> 00:49:18,839
+you know
+
+1686
+00:49:18,839 --> 00:49:19,680
+I think this is what happens
+
+1687
+00:49:19,680 --> 00:49:20,660
+when society's collapse
+
+1688
+00:49:20,660 --> 00:49:23,819
+and I don't think we can
+
+1689
+00:49:23,819 --> 00:49:24,240
+blame people
+
+1690
+00:49:24,240 --> 00:49:24,879
+for doing this
+
+1691
+00:49:24,879 --> 00:49:26,940
+disaster is a hard thing
+
+1692
+00:49:26,940 --> 00:49:27,399
+to face
+
+1693
+00:49:27,399 --> 00:49:29,500
+and look I see
+
+1694
+00:49:29,500 --> 00:49:30,259
+I see the madness
+
+1695
+00:49:30,259 --> 00:49:32,220
+if you've got a social media
+
+1696
+00:49:32,220 --> 00:49:33,180
+platform getting a thousand
+
+1697
+00:49:33,180 --> 00:49:34,020
+comments every day
+
+1698
+00:49:34,020 --> 00:49:35,319
+you see the madness
+
+1699
+00:49:35,319 --> 00:49:35,960
+in society
+
+1700
+00:49:35,960 --> 00:49:38,520
+I don't blame people
+
+1701
+00:49:38,520 --> 00:49:39,480
+for falling into madness
+
+1702
+00:49:39,480 --> 00:49:41,420
+some of you will fall
+
+1703
+00:49:41,420 --> 00:49:42,259
+into madness too
+
+1704
+00:49:42,259 --> 00:49:44,759
+maybe you already have done
+
+1705
+00:49:44,759 --> 00:49:46,640
+into selfishness
+
+1706
+00:49:46,640 --> 00:49:47,660
+into greed
+
+1707
+00:49:47,660 --> 00:49:49,240
+into nihilism
+
+1708
+00:49:49,240 --> 00:49:51,940
+but I can't blame you
+
+1709
+00:49:51,940 --> 00:49:52,980
+it's very human
+
+1710
+00:49:52,980 --> 00:49:55,800
+and society will tell you
+
+1711
+00:49:55,800 --> 00:49:56,460
+you have a choice
+
+1712
+00:49:56,460 --> 00:49:57,760
+in the face of disaster
+
+1713
+00:49:57,760 --> 00:49:59,900
+to turn away
+
+1714
+00:49:59,900 --> 00:50:01,820
+to tell yourself a story
+
+1715
+00:50:01,820 --> 00:50:03,020
+that it's not real
+
+1716
+00:50:03,020 --> 00:50:04,640
+that it's not going to happen
+
+1717
+00:50:04,640 --> 00:50:06,580
+that it's only natural
+
+1718
+00:50:06,580 --> 00:50:07,780
+the changing of the seasons
+
+1719
+00:50:07,780 --> 00:50:10,620
+and if you do that
+
+1720
+00:50:10,620 --> 00:50:12,920
+you can probably do
+
+1721
+00:50:12,920 --> 00:50:13,760
+what you wanted to do
+
+1722
+00:50:13,760 --> 00:50:14,200
+all along
+
+1723
+00:50:14,200 --> 00:50:16,100
+you can be selfish
+
+1724
+00:50:16,100 --> 00:50:17,920
+you can ignore it
+
+1725
+00:50:17,920 --> 00:50:20,460
+you can get that kitchen renovation
+
+1726
+00:50:20,460 --> 00:50:22,740
+and you can tell yourself
+
+1727
+00:50:22,740 --> 00:50:24,000
+that the poverty
+
+1728
+00:50:24,000 --> 00:50:24,760
+that is growing
+
+1729
+00:50:24,760 --> 00:50:25,480
+in society
+
+1730
+00:50:25,480 --> 00:50:26,780
+that the plague
+
+1731
+00:50:26,780 --> 00:50:27,520
+that is infecting
+
+1732
+00:50:27,520 --> 00:50:28,320
+everybody else
+
+1733
+00:50:28,320 --> 00:50:30,280
+may never darken your door
+
+1734
+00:50:30,280 --> 00:50:34,900
+and you don't have to do
+
+1735
+00:50:34,900 --> 00:50:36,020
+what the biblical widow did
+
+1736
+00:50:36,020 --> 00:50:38,020
+you don't have to give everything
+
+1737
+00:50:38,020 --> 00:50:40,160
+in the face of chaos
+
+1738
+00:50:40,160 --> 00:50:41,720
+you have a choice to make
+
+1739
+00:50:41,720 --> 00:50:41,960
+right
+
+1740
+00:50:41,960 --> 00:50:43,840
+you have to choose
+
+1741
+00:50:43,840 --> 00:50:44,480
+either yourself
+
+1742
+00:50:44,480 --> 00:50:45,700
+or others
+
+1743
+00:50:45,700 --> 00:50:50,060
+you know
+
+1744
+00:50:50,060 --> 00:50:50,740
+I worked in Japan
+
+1745
+00:50:50,740 --> 00:50:51,520
+for a couple of years
+
+1746
+00:50:51,520 --> 00:50:53,460
+and at that time
+
+1747
+00:50:53,460 --> 00:50:54,140
+I lost my mind
+
+1748
+00:50:54,140 --> 00:50:56,800
+I fell into a deep depression
+
+1749
+00:50:56,800 --> 00:50:58,520
+and I spoke to my Japanese junior
+
+1750
+00:50:58,520 --> 00:51:00,320
+and I told him
+
+1751
+00:51:00,320 --> 00:51:01,760
+how watching these millionaires
+
+1752
+00:51:01,760 --> 00:51:02,800
+obsess about money
+
+1753
+00:51:02,800 --> 00:51:04,240
+as the world collapsed around them
+
+1754
+00:51:04,240 --> 00:51:05,300
+made me sick
+
+1755
+00:51:05,300 --> 00:51:07,000
+and how I couldn't eat
+
+1756
+00:51:07,000 --> 00:51:08,700
+and how I couldn't sleep
+
+1757
+00:51:08,700 --> 00:51:11,080
+that kid his name was Kosuke
+
+1758
+00:51:11,080 --> 00:51:12,040
+and his English wasn't good
+
+1759
+00:51:12,040 --> 00:51:13,560
+and he said to me
+
+1760
+00:51:13,560 --> 00:51:15,080
+yes, yes, I understand
+
+1761
+00:51:15,080 --> 00:51:16,900
+the problem is
+
+1762
+00:51:16,900 --> 00:51:17,620
+these men
+
+1763
+00:51:17,620 --> 00:51:19,380
+have very
+
+1764
+00:51:19,380 --> 00:51:20,640
+small
+
+1765
+00:51:20,640 --> 00:51:21,820
+hearts
+
+1766
+00:51:21,820 --> 00:51:26,100
+you know
+
+1767
+00:51:26,100 --> 00:51:26,940
+sometimes I wonder
+
+1768
+00:51:26,940 --> 00:51:29,100
+sometimes I wonder
+
+1769
+00:51:29,100 --> 00:51:29,980
+why it's me up here
+
+1770
+00:51:29,980 --> 00:51:32,060
+from a broken home
+
+1771
+00:51:32,060 --> 00:51:33,300
+broken family
+
+1772
+00:51:33,300 --> 00:51:34,940
+from poverty
+
+1773
+00:51:34,940 --> 00:51:36,960
+struggling often
+
+1774
+00:51:36,960 --> 00:51:37,880
+with my mental health
+
+1775
+00:51:37,880 --> 00:51:39,940
+sometimes struggling
+
+1776
+00:51:39,940 --> 00:51:40,660
+to get out of bed
+
+1777
+00:51:40,660 --> 00:51:41,080
+every day
+
+1778
+00:51:41,080 --> 00:51:43,819
+sometimes I wonder
+
+1779
+00:51:43,819 --> 00:51:44,980
+where all the good kids are
+
+1780
+00:51:44,980 --> 00:51:47,020
+all the nice kids
+
+1781
+00:51:47,020 --> 00:51:48,040
+with the nice families
+
+1782
+00:51:48,040 --> 00:51:49,940
+that go home
+
+1783
+00:51:49,940 --> 00:51:50,980
+to lovely big houses
+
+1784
+00:51:50,980 --> 00:51:52,040
+and have lovely meals
+
+1785
+00:51:52,040 --> 00:51:53,180
+and lovely dining tables
+
+1786
+00:51:53,180 --> 00:51:55,340
+where are they?
+
+1787
+00:51:56,560 --> 00:51:57,620
+why is it me here?
+
+1788
+00:52:04,720 --> 00:52:05,640
+what are we?
+
+1789
+00:52:07,100 --> 00:52:09,040
+what are we as humans?
+
+1790
+00:52:11,080 --> 00:52:13,200
+are we people who have to choose
+
+1791
+00:52:13,200 --> 00:52:15,240
+between ourselves and others?
+
+1792
+00:52:15,240 --> 00:52:18,080
+do our hearts have only room
+
+1793
+00:52:18,080 --> 00:52:19,140
+for one of these ideas?
+
+1794
+00:52:19,140 --> 00:52:22,440
+or can we be something more?
+
+1795
+00:52:22,440 --> 00:52:24,480
+can we be bigger?
+
+1796
+00:52:24,480 --> 00:52:27,500
+can we be people who care
+
+1797
+00:52:27,500 --> 00:52:28,819
+not only for ourselves
+
+1798
+00:52:28,819 --> 00:52:30,020
+our immediate families
+
+1799
+00:52:30,020 --> 00:52:31,100
+us as individuals
+
+1800
+00:52:31,100 --> 00:52:33,180
+but those around us
+
+1801
+00:52:33,180 --> 00:52:34,940
+society as well
+
+1802
+00:52:34,940 --> 00:52:39,140
+can we fit both of these things
+
+1803
+00:52:39,140 --> 00:52:40,040
+into our hearts?
+
+1804
+00:52:41,380 --> 00:52:43,000
+can we take what we need
+
+1805
+00:52:43,000 --> 00:52:44,400
+but also
+
+1806
+00:52:44,400 --> 00:52:45,580
+more than that
+
+1807
+00:52:45,580 --> 00:52:46,780
+after that
+
+1808
+00:52:46,780 --> 00:52:48,760
+find something left to
+
+1809
+00:52:48,760 --> 00:52:49,220
+to give
+
+1810
+00:52:49,220 --> 00:52:51,100
+even if it's only
+
+1811
+00:52:51,100 --> 00:52:52,020
+two copper coins
+
+1812
+00:52:52,020 --> 00:52:55,380
+I believe that we can
+
+1813
+00:52:55,380 --> 00:52:57,080
+no
+
+1814
+00:52:57,080 --> 00:52:58,880
+I don't believe that
+
+1815
+00:52:58,880 --> 00:53:01,160
+I believe that we have to
+
+1816
+00:53:01,160 --> 00:53:04,020
+if we don't
+
+1817
+00:53:04,720 --> 00:53:05,720
+the whole thing will collapse
+
+1818
+00:53:05,720 --> 00:53:08,440
+but to finish
+
+1819
+00:53:08,440 --> 00:53:09,640
+I would like to answer the question
+
+1820
+00:53:09,640 --> 00:53:10,800
+for me
+
+1821
+00:53:10,800 --> 00:53:12,460
+and you will have your own opinions
+
+1822
+00:53:12,460 --> 00:53:14,440
+what does it mean
+
+1823
+00:53:14,440 --> 00:53:15,020
+to be human
+
+1824
+00:53:15,020 --> 00:53:16,020
+in a time of disaster?
+
+1825
+00:53:16,980 --> 00:53:17,760
+what does it mean
+
+1826
+00:53:17,760 --> 00:53:18,280
+to be human
+
+1827
+00:53:18,280 --> 00:53:19,300
+in a collapsing economy?
+
+1828
+00:53:20,920 --> 00:53:21,600
+and me personally
+
+1829
+00:53:21,600 --> 00:53:23,520
+I agree with Kami
+
+1830
+00:53:23,520 --> 00:53:25,880
+the job of a human
+
+1831
+00:53:25,880 --> 00:53:27,800
+in face of a disaster
+
+1832
+00:53:27,800 --> 00:53:29,880
+is to try to prevent
+
+1833
+00:53:29,880 --> 00:53:30,500
+that disaster
+
+1834
+00:53:30,500 --> 00:53:33,200
+that's what I'll be trying to do
+
+1835
+00:53:33,200 --> 00:53:35,460
+and I hope you'll try too
+
+1836
+00:53:35,460 --> 00:53:36,740
+good luck
+
+1837
+00:53:36,740 --> 00:53:37,480
+thank you
+
+1838
+00:53:37,480 --> 00:53:42,980
+well Guy
+
+1839
+00:53:42,980 --> 00:53:44,120
+that was sensational
