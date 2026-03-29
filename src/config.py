@@ -23,6 +23,7 @@ class Settings(BaseSettings):
     ollama_cloud_api_key: str = ""
 
     # LLM settings
+    prompt_version: int = 4
     embeddings_model: str = ""
 
     # Provider priority — try providers in this order, use the first available one.

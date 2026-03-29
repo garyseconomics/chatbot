@@ -243,3 +243,12 @@ RAG_PROMPT_TEXT_V4 = (
     "Reference material: {context}\n\n"
     "Answer:"
 )
+
+# Index 0 is unused — prompt versions are 1-based to match config.prompt_version.
+RAG_PROMPT_VERSIONS = [
+    None,
+    RAG_PROMPT_TEXT_V1,
+    RAG_PROMPT_TEXT_V2,
+    RAG_PROMPT_TEXT_V3,
+    RAG_PROMPT_TEXT_V4,
+]
