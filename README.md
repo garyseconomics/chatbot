@@ -169,6 +169,8 @@ There are three config files:
 - `content_database/config.py` — Content database settings (chunk size, overlap, batch size, import directory).
 - `analytics/config.py` — Analytics settings (database path, Langfuse keys).
 
+Some variables in `.env` are shared across config files — the database path, Ollama URLs, API keys, and Langfuse keys are read by more than one config. Other settings like `embeddings_model`, `collection_name`, and `video_ids_separator` are defined in the main config and imported by `content_database/config.py` so they stay in sync.
+
 ## Setup with Docker
 
 ```bash
