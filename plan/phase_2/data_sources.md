@@ -46,7 +46,10 @@ repo. These go through a multi-stage review pipeline before they can be imported
 5. **Final merge** — volunteer corrections are incorporated into the final SRT.
 
 Reviewed transcripts to be imported are placed in
-`revisions/2_To_be_reviewed_by_volunteers/` on the review branch.
+[`revisions/2_To_be_reviewed_by_volunteers/`](https://github.com/Adavideo/transcripts/tree/AI_and_volunteer_review/revisions/2_To_be_reviewed_by_volunteers)
+on the review branch. See the
+[review instructions](https://github.com/Adavideo/transcripts/blob/AI_and_volunteer_review/revisions/2_To_be_reviewed_by_volunteers/INSTRUCTIONS.md)
+for the volunteer workflow.
 
 ### Current status
 
@@ -55,8 +58,8 @@ Reviewed transcripts to be imported are placed in
 - 11 AI-reviewed, awaiting volunteer review
 - ~294 not yet started
 
-See `docs/missing_subtitles.txt` for the full list of 310 missing transcripts (261 full
-videos + 49 shorts).
+See `content_database/docs/video_transcripts/missing_video_transcripts.md` for the full list
+of 310 missing transcripts (261 full videos + 49 shorts).
 
 ## Local transcripts
 
@@ -90,7 +93,7 @@ full context is available. They are **not** imported into the vector database.
 - **Interviews on other channels** — need permission before importing.
 - **Gary's master thesis** (https://www.wealtheconomics.org/unithesis/) — needs cleanup
   before import: only include the parts written in plain English, not the
-  mathematical/jargon sections.
+  mathematical/jargon sections. The goal is to add the accessible explanations, not the academic formulas.
 - **Works by economists Gary recommends** — Gary cites and recommends these economists
   in his videos. The actual books/papers are third-party content. See Phase 2 Plan
   section 4.4 for import considerations.
