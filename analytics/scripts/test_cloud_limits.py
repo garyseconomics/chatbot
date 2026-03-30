@@ -8,13 +8,15 @@ Uses httpx directly (not LangChain) because we need access to the raw HTTP
 response headers — LangChain's ChatOllama doesn't expose them.
 
 Usage:
-    python -m analytics.test_cloud_limits
+    python -m analytics.scripts.test_cloud_limits
 """
 
 import asyncio
 
 import httpx
 
+# Uses the main app config (src/config.py), not analytics.config,
+# because it needs settings.providers for the Ollama Cloud URL and API key.
 from config import settings
 
 CONCURRENT_REQUESTS = 10

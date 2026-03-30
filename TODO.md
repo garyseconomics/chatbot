@@ -21,10 +21,9 @@ Pending tasks and things to investigate. Organized by
 
 ### 3.1 Analytics and tracing
 
-- [ ] **Fix importer for new trace format** ([#44](https://github.com/garyseconomics/chatbot/issues/44)) -- The `user_trace_importer.py` silently skips all traces after 2026-03-28 because a dependency update (during the Docker rebuild after the project restructure, format change at ~06:11) changed how Langfuse records function inputs. In the old format, the question was nested in `args[0]["messages"][0]["content"]`. In the new format, it's a plain string in `args[0]`. The importer doesn't recognise the new format and classifies these traces as "non-user traces". All user traces after 2026-03-28 are missing from the analytics database. The `vector_search_importer.py` likely has the same issue. Until prompt_version is added to Langfuse trace metadata (see "Add prompt_version to Langfuse trace metadata" task below), prompt versions must be set manually based on deployment timestamps: v2 before 2026-03-21 04:13, v3 from 2026-03-21 04:13 to 2026-03-23 19:18, v3.1 from 2026-03-23 19:18 to 2026-03-28 17:50, v4 from 2026-03-28 17:50 onwards. See `plan/phase_2/prompt/prompt_v3.md` and `plan/phase_2/prompt/prompt_v3_1.md` for details.
-- [ ] Store prompt versions in the analytics database -- Move prompt text from `llm/prompt_versions.py` to a `prompt_versions` table in SQLite so different versions can be managed and referenced from traces.
-- [ ] Detect prompt version automatically in the importer -- The importer (`user_trace_importer.py`) now imports with `prompt_version = NULL`. Prompt versions need to be set in batches based on deployment timestamps. Ideally, the importer should detect the prompt version from trace metadata once it's available there.
-- [ ] Add prompt_version to Langfuse trace metadata -- Include the current prompt version in the metadata sent to Langfuse when creating traces, so future imports can read it directly instead of relying on deployment timestamps. **This is a prerequisite for running more prompt tests** — without it we can't reliably associate test results with prompt versions.
+- [x] **Fix importer for new trace format** ([#44](https://github.com/garyseconomics/chatbot/issues/44)) -- Rewrote the analytics pipeline: unified `traces` table replaces the old `user_traces` + `vector_search_traces` + `qa_test_results` tables. New `trace_importer.py` handles the new Langfuse format (plain string in `args[0]`). Old data preserved in `analytics_old.db`. See `analytics/private/database_status.md` for full details.
+- [x] Store prompt versions in the analytics database -- Prompt text lives in `llm/prompt_versions.py`, selected by `llm/prompt_template.py` based on `config.prompt_version`. This is enough for testing different prompt+model combinations — each version is a Python constant and the config selects which one to use. No need for a SQLite table.
+- [ ] **Add prompt_version to Langfuse trace metadata** -- Include the current prompt version in the metadata sent to Langfuse when creating traces, so the importer can read it directly instead of relying on deployment timestamps. **We can't deploy a new prompt version until this is done** — the importer currently hardcodes v4 for all traces.
 
 ### 3.2 Prompt evaluation
 
@@ -35,11 +34,9 @@ Pending tasks and things to investigate. Organized by
 
 ### 3.3 QA testing pipeline
 
-- [ ] **Rework the QA testing pipeline** -- The current `analytics/ask_all_questions.py` script asks questions and stores them directly in `qa_test_results`. This needs to be reworked into a proper pipeline:
-  1. **Refactor `ask_all_questions.py`** — The script should only ask the questions via `RAG_query` (which creates Langfuse traces), not store results directly. It should also allow choosing which questions to ask (not always all of them) — e.g., by category, by list, or by passing specific questions.
-  2. **Expand the `qa_test_results` table** — Review what fields are needed. Currently missing: the context provided by the vector search. Either add context fields to the table or create a separate table for vector search context (similar to how `vector_search_traces` works for real user traces).
-  3. **Build a QA trace importer** — Import traces marked with `user_id="qa_test"` from Langfuse into the `qa_test_results` table, including vector search context. This separates "asking questions" from "storing and analysing results".
-  4. **Prerequisite:** The prompt_version must be stored in Langfuse trace metadata (task above) before running more prompt tests, so results can be associated with the correct prompt version.
+- [x] **Rework the QA testing pipeline** -- Done. `analytics/scripts/ask_all_questions.py` now only asks questions (traces go to Langfuse). The unified `trace_importer.py` imports all traces including `qa_test` ones, with vector search context stored in `search_result_documents`. Remaining improvements:
+  - [ ] Allow choosing which questions to ask — e.g., by category, by list, or by passing specific questions.
+  - [ ] **Prerequisite for more prompt tests:** Add prompt_version to Langfuse trace metadata (task above) so results can be associated with the correct prompt version.
 
 ## 4. More content
 

@@ -37,14 +37,16 @@ chatbot/
 ├── tests/                  # pytest test suite (main chatbot)
 ├── analytics/              # Analytics scripts and data
 │   ├── config.py               # Analytics configuration
-│   ├── export.py               # Langfuse trace export
-│   ├── setup_database.py       # SQLite analytics DB setup
-│   ├── user_trace_importer.py  # Import user traces from Langfuse
-│   ├── vector_search_importer.py # Import vector search traces
-│   ├── ask_all_questions.py    # Batch question runner
-│   ├── benchmark_vector_search.py # Vector search benchmarking
-│   ├── questions_for_testing.py   # Test question sets
-│   ├── trace_viewer.py        # Trace inspection utility
+│   ├── db/                     # Database setup + import/export pipeline
+│   │   ├── export.py               # Langfuse trace export
+│   │   ├── setup_database.py       # SQLite analytics DB setup
+│   │   └── trace_importer.py       # Import traces from Langfuse export
+│   ├── scripts/                # Manual tools and one-off tasks
+│   │   ├── ask_all_questions.py    # Batch question runner
+│   │   ├── questions_for_testing.py   # Test question sets
+│   │   ├── test_cloud_limits.py    # Cloud provider limit testing
+│   │   ├── trace_viewer.py        # Trace inspection utility
+│   │   └── trace_viewer_old.py    # Viewer for pre-2026-03-28 data (analytics_old.db)
 │   └── raw_data/              # Exported trace data (JSON/CSV)
 ├── plan/                   # Project plans and reports
 │   ├── phase_1/               # Testing Phase 1 reports
@@ -79,7 +81,7 @@ Vector DB   LLM Manager
 2. **RAG pipeline** — LangGraph graph: retrieves relevant documents from the vector DB, builds a versioned prompt with context, calls the LLM.
 3. **Vector database** — Chroma with Ollama embeddings. Stores chunked SRT subtitles with video metadata. Content import scripts live in `content_database/scripts/`; runtime query access via `src/rag/vector_database.py`.
 4. **LLM manager** — Wraps Ollama clients with priority-based provider fallback. Chat: cloud (`qwen3-next:80b`) → self-hosted (`qwen3:32b`) → local (`qwen3:4b`). Embeddings: self-hosted → local (`qwen3-embedding:8b`). Provider priority is configured in `src/config.py`.
-5. **Analytics** — SQLite database for user traces and vector search metrics. Imports data from Langfuse. Scripts in `analytics/`.
+5. **Analytics** — SQLite database for traces (questions, answers, latency, models, vector search results). Imported from Langfuse. Scripts in `analytics/`.
 
 ## Tech stack
 

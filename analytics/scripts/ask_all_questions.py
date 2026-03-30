@@ -1,25 +1,22 @@
-"""Ask all test questions and store the answers in the analytics database.
+"""Ask all test questions via the RAG pipeline.
+
+Answers are not stored locally — they go to Langfuse as traces and get
+imported to the analytics database by trace_importer.py.
 
 Usage:
-    python -m analytics.ask_all_questions
+    python -m analytics.scripts.ask_all_questions
 """
 
 import asyncio
 import logging
-import sqlite3
-from datetime import datetime, timezone
 
-from analytics.config import settings
 from rag.rag_manager import RAG_query
-from analytics.questions_for_testing import questions
+from analytics.scripts.questions_for_testing import questions
 
 logger = logging.getLogger(__name__)
 
 
 async def ask_all_questions() -> None:
-    conn = sqlite3.connect(settings.analytics_db_path)
-    cursor = conn.cursor()
-
     # Count total questions for progress logging
     total = sum(len(q_list) for q_list in questions.values())
     current = 0
@@ -39,22 +36,9 @@ async def ask_all_questions() -> None:
                     break
                 logger.warning("Empty answer (attempt %d/%d), retrying...", attempt + 1, max_retries)
 
-            timestamp = datetime.now(timezone.utc).isoformat()
-            prompt_version = str(settings.prompt_version)
-
-            cursor.execute(
-                "INSERT INTO qa_test_results"
-                " (timestamp, issue_category, question, answer, chat_model, prompt_version)"
-                " VALUES (?, ?, ?, ?, ?, ?)",
-                (timestamp, category, question, answer, settings.chat_model, prompt_version),
-            )
-            conn.commit()
-
             logger.info("Answer: %s", answer[:100])
 
-    cursor.close()
-    conn.close()
-    logger.info("Done. %d questions answered and stored.", total)
+    logger.info("Done. %d questions asked.", total)
 
 
 if __name__ == "__main__":
