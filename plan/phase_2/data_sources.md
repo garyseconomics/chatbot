@@ -73,7 +73,7 @@ full context is available. They are **not** imported into the vector database.
 ## Related tasks in TODO.md
 
 - **Add more content to the vector database** — umbrella task for all missing content
-- **Compile a list of topics covered by the channel** — using the transcripts repo
+- ~~**Compile a list of topics covered by the channel**~~ — Done. See [`content_database/docs/channel_topics.md`](../../content_database/docs/channel_topics.md)
 - **Bot lacks temporal awareness** ([#26](https://github.com/garyseconomics/chatbot/issues/26)) — adding publish dates and video links to chunks so the LLM can reason about recency
 - **Include video links inline** ([#36](https://github.com/garyseconomics/chatbot/issues/36)) — each subtitle fragment in the prompt should carry its video link
 - **Add informational documents** — documents about the bot, Gary, the channel, and data collection/privacy for the vector database
@@ -113,6 +113,5 @@ cause issues:
   currently fabricates dates when asked about the book or tours.
 - **Older topics** — Gary covered many topics in pre-2024 videos that aren't available to
   the bot, leading to unnecessary refusals or generic answers on topics the channel has
-  actually addressed. A task to compile a list of topics covered by the channel is tracked
-  in TODO.md, using the [transcripts repo](https://github.com/garyseconomics/transcripts)
-  as source.
+  actually addressed. A full topic list has been compiled: see
+  [`content_database/docs/channel_topics.md`](../../content_database/docs/channel_topics.md).
