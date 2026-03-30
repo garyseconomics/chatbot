@@ -220,3 +220,5 @@ content_database/data/
 analytics/raw_data/
 analytics/*.db
 analytics/private
+
+CLAUDE.md
