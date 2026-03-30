@@ -142,6 +142,7 @@ celerybeat.pid
 learning.md
 prompt_experiments.py
 plan/phase_1/private
+plan/phase_2/private
 .venv
 env/
 venv/
@@ -215,9 +216,7 @@ __marimo__/
 chroma_langchain_db/
 content_database/data/
 
-# Sensitive test questions (troll/censorship examples)
-analytics/sensitive_questions_for_testing.py
-
 # Analytics — raw exports and SQLite database
 analytics/raw_data/
 analytics/*.db
+analytics/private

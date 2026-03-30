@@ -7,309 +7,316 @@ reports, and open issues.
 | Phase | Users | Focus |
 |-------|-------|-------|
 | Phase 0 (done) | ~5 volunteers | Build the prototype, fix core bugs |
-| Phase 1 (done) | ~100 volunteers | Answer quality, resource estimation |
+| Phase 1 (done) | ~34 volunteers (*) | Answer quality, resource estimation |
 | **Phase 2** | **~3,000 Patreons** | **Stability, content, and cost validation** |
 | Phase 3 | 1M+ YouTube subscribers | Full public release |
+
+(*) Note: ~34 volunteers were active testers out of the ~100 that initially signed up to participate.
 
 ## Implementation order
 
 1. [Bug fixes](#1-bug-fixes) — Fix user-facing issues before more users arrive
 2. [Infrastructure](#2-infrastructure) — Move to owned accounts and servers
-3. [New functionality](#3-new-functionality) — Temporal awareness, multi-turn conversations, source access
+3. [Answer quality](#3-answer-quality) — Fix remaining prompt issues
 4. [More content](#4-more-content) — Expand the knowledge base
-5. [Nice to have](#5-nice-to-have) — Operational improvements
+5. [New functionality](#5-new-functionality) — Date awareness, conversations
+6. [Nice to have](#6-nice-to-have) — Operational improvements
 
 ---
 
 ## 1. Bug fixes
 
-These are user-facing issues from Phase 1 that will be worse at 3,000 users. Fix first.
+Issues from Phase 1 that will be worse at 3,000 users. Fix first.
 
-### 1.1 Fix message length crash ([#33](https://github.com/garyseconomics/chatbot/issues/33))
+### 1.1 Bot crashes on long answers ([#33](https://github.com/garyseconomics/chatbot/issues/33))
 
-The bots crash when the LLM returns a long answer. Discord has a 2,000-character limit
-and Telegram has a 4,096-character limit. The initial quick fix (`max_tokens`/`num_predict`)
-was removed because thinking models consumed the token limit with reasoning tokens.
+Discord and Telegram both have limits on how long a single message can be. When the AI
+produces an answer that exceeds those limits, the bot crashes instead of handling it
+gracefully.
 
-**Fix:** Check final message length before sending and split or truncate if it exceeds
-the platform limit.
+**Fix:** Before sending, check the message length and split long answers into multiple
+messages if needed.
 
-### 1.2 Improve error handling in Discord and Telegram bots
+### 1.2 Better error messages on Discord and Telegram
 
-- Replace the hardcoded Discord error message with `settings.error_messages`.
-- Add try/except to Telegram's `question()` handler (currently has no error handling
-  outside of `RAG_query`).
-- `RAG_query` already catches all exceptions internally — bot-level error handling only
-  needs to catch failures outside `RAG_query` (e.g., `message.channel.send` or
-  `context.bot.send_message`).
+When something goes wrong (e.g., a network error while sending a reply), the bots don't
+always show a helpful error message to the user. Discord shows a hardcoded string, and
+Telegram shows nothing at all.
 
-### 1.3 Separate greeting messages for Telegram and Discord
+**Fix:** Make both bots show the same friendly error messages we've already defined for
+other error cases.
 
-Both bots use the same `settings.bot_greeting` ("I'm back online! Feel free to keep
-asking questions.") which makes sense for Discord (bot reconnecting) but confuses new
-Telegram users who haven't asked anything yet. Add a separate greeting for Telegram.
+### 1.3 Separate welcome messages for Telegram and Discord
+
+Both bots currently send the same greeting: "I'm back online! Feel free to keep asking
+questions." This makes sense on Discord (where the bot reconnects after a restart and
+users have been chatting before), but confuses new Telegram users who are opening the
+bot for the first time and haven't asked anything yet.
+
+**Fix:** Give each platform its own welcome message.
 
 ---
 
 ## 2. Infrastructure
 
-Move everything to commercial servers and accounts owned by Gary's Economics.
+Move everything to accounts and servers owned by Gary's Economics.
 
-### 2.1 Add support for OpenAI-compatible providers ([#41](https://github.com/garyseconomics/chatbot/issues/41))
+### 2.1 Support multiple AI providers ([#41](https://github.com/garyseconomics/chatbot/issues/41))
 
-**This is the prerequisite for cloud embeddings.** Currently `LLM_Client` only creates
-`ChatOllama` clients. We need it to also create clients for OpenAI-compatible providers
-(OpenRouter, SiliconFlow, etc.).
+Currently the bot can only use one AI service (Ollama). We need to add support for other
+providers (like OpenRouter, SiliconFlow, etc.) so we have more flexibility, redundancy,
+and access to a wider range of AI models.
 
-The provider priority system and fallback logic already work generically — only the
-client creation step in `_create_chat_client()` is Ollama-specific. Scope:
-- Add provider type to config (e.g., `"type": "ollama"` vs `"type": "openai"`).
-- Update `_create_chat_client()` to select the right LangChain class.
-- Add at least one OpenAI-compatible provider config.
-- Update tests.
+**Why this matters:** This is the prerequisite for the next step (cloud-based search), that will allow us to be independent from MakeSpace servers.
+It also lets us test different AI models to find the best one for our bot.
 
-### 2.2 Add a cloud embedding provider
+### 2.2 Move search to a cloud provider
 
-Once #41 is done, add a cloud embedding provider. This eliminates the dependency on
-MakeSpace for embeddings and gives us redundancy and scalability. With a cloud embedding
-provider, we no longer need a local Ollama instance on the server.
+The bot uses a search step to find relevant video content before answering each question.
+This currently runs on the MakeSpace server, which doesn't scale:
 
-**Current embedding model:** `qwen3-embedding:8b`, scoring 70.58 on the MTEB benchmark —
-the best available on Ollama as of March 2026. The only models scoring higher (NVIDIA's
-NV-Embed-v2 at 72.31 and Llama-Embed-Nemotron-8B) are not on Ollama yet.
+- **MakeSpace server** is fast normally, but slows down dramatically under load because
+  it shares resources with other tasks.
+- **Backup server** is too slow (3–14 seconds per query, with cold starts of up to 60
+  seconds).
 
-**Current provider situation:** Our two Ollama instances don't scale for Phase 2:
-- **MakeSpace Ollama** is fast (0.18s warm) but it's shared infrastructure — under load
-  embeddings slowed to 7s+ when sharing the GPU with the chat model.
-- **Local Ollama** is slow (3–5s per query) and even slower on long questions (up to 14s).
-  Cold starts take 40–60 seconds.
+Cloud providers offer the same search capability at negligible cost (under $0.01/month
+at 10x our Phase 1 volume). Once we add multi-provider support (2.1), switching to a
+cloud provider is straightforward and removes our dependency on the MakeSpace server
+entirely.
 
-Ollama Cloud does not support embedding models (as of March 2026).
-
-**Cloud providers** — Several offer `qwen3-embedding:8b` via OpenAI-compatible APIs at
-negligible cost:
-
-| Provider | Price | API |
-|----------|-------|-----|
-| [OpenRouter](https://openrouter.ai/qwen/qwen3-embedding-8b) | $0.01 / M tokens | OpenAI-compatible |
-| [SiliconFlow](https://www.siliconflow.com/models/qwen-qwen3-embedding-8b) | Pay-as-you-go ($1 free) | OpenAI-compatible |
-| [DeepInfra](https://deepinfra.com/Qwen/Qwen3-Embedding-8B/api) | Pay-as-you-go (free credits) | OpenAI-compatible |
-| [Alibaba DashScope](https://qwen.ai/apiplatform) | Pay-as-you-go (free quota) | OpenAI-compatible |
-
-At $0.01 per million tokens, the cost is negligible for our use case. All use the
-OpenAI-compatible API, which is why #41 must be done first.
-
-Re-check model availability in mid-2026 — watch for NVIDIA models landing on Ollama and
-Ollama Cloud adding embedding support. Tracked in
-[issue #40](https://github.com/garyseconomics/chatbot/issues/40).
+Several providers are available — see the [Embedding Latency Report](../phase_1/latency_report_embeddings.md) for the full comparison.
 
 ### 2.3 Create Gary's Economics Ollama Cloud account
 
-Create an account at [ollama.com](https://ollama.com/) under Gary's Economics and get
-a Pro subscription ($20/month). The free tier had a ~10% failure rate on the busiest
-Phase 1 day (10 out of 97 queries rejected). Pro gives 50x more usage and 3 concurrent
-models.
+Ollama Cloud is the service that runs the AI model which generates the bot's answers.
+We need to create an account under Gary's Economics and get a Pro subscription
+($20/month).
 
-After upgrading, re-run `python -m analytics.test_cloud_limits` to check whether the
-concurrency limits (currently 2 active + 5 queued on the free tier) also increase on Pro.
+**Why Pro:** The free tier rejected ~10% of queries on the busiest Phase 1 day (10 out of
+97 questions failed). Pro gives 50x more capacity.
 
-See [latency_report_chat_model.md](latency_report_chat_model.md) for Phase 1 data and
-the full analysis of Ollama Cloud limits.
+After upgrading, we'll test whether the paid tier also increases how many questions the
+bot can handle simultaneously.
 
-### 2.4 Migrate to Gary's server
+See [latency_report_chat_model.md](../phase_1/latency_report_chat_model.md) for Phase 1 data.
 
-Move the application (Python scripts, Docker setup, vector database) to a server owned
-by Gary's Economics.
+### 2.4 Migrate to Gary's own server
 
-**Current setup (MakeSpace Madrid):** The AI server has 2 GPUs (3060 + 3090, 36 GB VRAM
-total), a 40-thread Threadripper CPU, and 96 GB RAM. The LLM and embedding models run
-on the GPUs with some CPU/RAM usage. The bots run in a virtual machine on the same
-server, using a small amount of resources for the Python processes.
+Move the bot from the MakeSpace Madrid server to a server owned by Gary's Economics.
 
-**What Phase 2 needs:** With cloud providers handling both chat (Ollama Cloud) and
-embeddings (OpenAI-compatible provider from 2.2), the server only needs to run Docker
-containers — no GPU required. However, at 3,000 potential users the server must run
-reliably:
-- Docker daemon + two bot processes (Telegram + Discord) always connected.
-- Chroma vector database loaded in memory — growing as we add more content (currently
-  ~100 videos, target 310+ plus potentially economist documents).
-- If even 10% of users are active, that's ~10x Phase 1 traffic volume.
+**Current setup:** The bot runs on MakeSpace's AI server — a powerful machine with GPUs,
+a fast processor, and 96 GB of memory. But with cloud providers handling the AI work
+(2.2 and 2.3), we no longer need that power. The server only needs to run the bot
+software and store the video content database.
 
-A free-tier VPS is too risky for this: limited RAM can cause Chroma to crash as the
-database grows, and free tiers can throttle or reclaim instances. A small paid VPS
-($3–5/month) gives predictable resources, reliability, and headroom. Free tiers are
-fine for development and testing, not for a production service 3,000 people depend on.
+**What Phase 2 needs:** A reliable server that stays online 24/7. With 3,000 potential
+users, downtime and crashes are not acceptable. The content database will grow as we add
+more videos (currently ~45, target ~350). A free server is too risky — they can run out
+of memory or be shut down without notice. A small paid server ($3–5/month) gives us
+reliability and room to grow.
 
-**Paid hosting options** (recommended for production):
+**Recommended option:** [Hetzner](https://www.hetzner.com/cloud/) CX22 at ~$3.60/month —
+best value, with EU and US data centres.
 
-| Provider | Plan | vCPU | RAM | Disk | Price | Notes |
-|---|---|---|---|---|---|---|
-| [Hetzner](https://www.hetzner.com/cloud/) | CX22 | 2 | 4 GB | 40 GB SSD | **~$3.60/mo** | Best value; EU + US datacenters; developer-friendly |
-| [OVHcloud](https://www.ovhcloud.com/en/vps/) | VPS Starter | 1 | 2 GB | 20 GB SSD | **~$3.50–4.50/mo** | Unmetered bandwidth; clunky interface |
-| [Contabo](https://contabo.com/en/vps/) | Cloud VPS S | 4 | 8 GB | 50 GB NVMe | **~$4.90/mo** | Huge specs on paper; can oversell; slow support |
-| [Hostinger](https://www.hostinger.com/vps-hosting) | KVM 1 | 1 | 4 GB | 50 GB NVMe | **~$5/mo** (promo) | Requires 48-mo commitment; renewal ~$9/mo; Docker templates |
-| [Vultr](https://www.vultr.com/pricing/) | Regular | 1 | 1 GB | 25 GB SSD | **$5/mo** | Simple; many locations |
-| [AWS Lightsail](https://aws.amazon.com/lightsail/pricing/) | Micro | 1 | 1 GB | 40 GB SSD | **$5/mo** | 3 months free; simple AWS interface |
-| [DigitalOcean](https://www.digitalocean.com/pricing) | Basic Droplet | 1 | 1 GB | 25 GB SSD | **$6/mo** | $200 credit for 60 days for new accounts |
+Other options:
 
-**Free options** (for development/testing only):
+| Provider | Price | Notes |
+|---|---|---|
+| [OVHcloud](https://www.ovhcloud.com/en/vps/) | ~$3.50–4.50/mo | Unlimited bandwidth; clunky interface |
+| [Contabo](https://contabo.com/en/vps/) | ~$4.90/mo | Generous specs; can be slow under load |
+| [Hostinger](https://www.hostinger.com/vps-hosting) | ~$5/mo (promo) | Requires 4-year commitment; renewal ~$9/mo |
+| [Vultr](https://www.vultr.com/pricing/) | $5/mo | Simple; many locations |
+| [AWS Lightsail](https://aws.amazon.com/lightsail/pricing/) | $5/mo | 3 months free; Amazon's cloud |
+| [DigitalOcean](https://www.digitalocean.com/pricing) | $6/mo | $200 credit for new accounts |
 
-| Provider | Plan | vCPU | RAM | Disk | Price | Limitation |
-|---|---|---|---|---|---|---|
-| [Oracle Cloud](https://www.oracle.com/cloud/free/) | Always Free ARM | up to 4 | up to 24 GB | 200 GB | **$0 forever** | Hard to provision; may reclaim idle instances |
-| [Google Cloud](https://cloud.google.com/free) | e2-micro | 0.25 (burst to 2) | 1 GB | 30 GB | **$0 forever** | Very constrained; US only; egress costs |
-| AWS | t3.micro | 1 | 1 GB | 30 GB | **$0 for 12 months** | Free tier expires, then ~$8–9/mo |
+Free options exist ([Oracle Cloud](https://www.oracle.com/cloud/free/), [Google Cloud](https://cloud.google.com/free), AWS free tier) but are only suitable for development and testing — not for a service 3,000 people depend on.
 
-Hostinger prices are from mid-2025 data — verify at their website.
-
-The code changes from 2.1 and 2.2 should be done first so we deploy the new provider
+The code changes from 2.1 and 2.2 should be done first so we deploy multi-provider
 support at the same time as the migration.
 
 ---
 
-## 3. New functionality
+## 3. Answer quality ([#37](https://github.com/garyseconomics/chatbot/issues/37))
 
-### 3.1 Temporal awareness ([#26](https://github.com/garyseconomics/chatbot/issues/26))
+Prompt v4 (deployed 2026-03-28) fixed most Phase 1 issues, but introduced some new ones
+and several remain open. Tested with 97 questions on 2026-03-29.
 
-The bot treats all video content as equally recent because chunks have no date information.
-Phase 1 testers flagged this — e.g., referencing a general election when asked about a
-recent by-election.
+**Open issues:**
+*Questions about the bot itself:*
+- **Refuses to talk about itself** (new in v4) — when asked about its code or how it
+  works, deflects with "I'm here to talk about economics" instead of giving the GitHub
+  link as instructed.
+- **Wrong answers about data collection** (new in v4) — claims it doesn't collect data,
+  which is false. Needs a proper data/privacy document (see 4.3).
+- **Reveals its internals** — still occasionally says things like "the reference material
+  provided" instead of speaking naturally. Improved but not eliminated.
 
-Step 1 is done (SRT files renamed with dates in the filename). Two approaches to explore
-for the remaining work:
+*Content gaps and inconsistencies:*
+- **Too diplomatic on some topics** — Gary is strongly critical of crypto, but the bot gives
+  balanced answers because the crypto video (2022) isn't imported yet. Will improve as
+  older videos are added (see 4.2).
+- **Inconsistent on borderline topics** — some sensitive questions get answered or refused
+  depending on what the search happens to return, not a consistent policy. Needs guidance
+  from the team (see open questions 5 and 6).
+- **Refuses to share video content** — when asked for quotes or details from Gary's
+  videos, sometimes refuses even though that's exactly what it's built for.
+- **Makes up details** (new in v4) — When asked for a specific date for a Gary anecdote, the bot made up the date. This has only happened once, but is important to prevent this happening again.
 
-**Option A — Date metadata in the vector database:**
-- Update `srt_splitter.py` to extract the publish date from the filename and store it in
-  chunk metadata.
-- Regenerate the vector database so all chunks carry their video's publish date.
-- The LLM receives date information with each retrieved chunk automatically.
+*Gary's identity and credibility:*
+- **Over-corrects on identity** (new in v4) — says "I'm not Gary" even on plain greetings
+  like "hi" or "hello gary bot" where the user isn't confused.
+- **Credibility questions** — needs team guidance on how to handle challenges to Gary's
+  track record (see [prompt_issues.md](prompt/prompt_issues.md) for examples).
 
-**Option B — Add date info in the prompt template:**
-- Keep the vector database as-is.
-- When building the context for the prompt, look up the video date from the filename or a
-  mapping and inject it alongside each subtitle fragment.
-- More flexible (no database regeneration needed) but adds complexity to the prompt
-  building step.
+**Already fixed in v4:**
+- Bot used to impersonate Gary (now corrects — overcorrects, see above)
+- Bot used to give financial advice (now consistently refuses and redirects)
+- Bot used to fabricate Gary's opinions (now honestly says it doesn't know)
+- Bot used to answer off-topic questions (now correctly refuses)
+- Language was too academic (now plain and friendly throughout)
+- Bot used to speculate about Gary's personal life (now refuses)
+- Trolls could manipulate the bot with leading questions (now reframes them)
+- Users could override the bot's instructions (now ignores override attempts)
 
-Both options also include [#36](https://github.com/garyseconomics/chatbot/issues/36)
-(inline video links) — each subtitle fragment in the prompt should carry its video link
-and publish date so the LLM can reference the correct source naturally. The LLM already
-receives the current date via `{current_datetime}`, so it can reason about recency.
+**Repeatable answer testing:** We have a set of 130 test questions across 20 categories and a script that
+asks them all to the bot and saves the answers. After each run, we review the answers
+with the help of an AI assistant (Claude Code) — this is how we produced the v3, v3.1, and v4 test reports. The next steps
+are to fix some issues with the testing script, then use AI to evaluate the answers
+automatically. Once that works, we can test
+different prompt versions combined with different AI models to find the best
+combination.
 
-**Tasks:** Evaluate both options, write tests for the chosen approach, implement, and
-regenerate the vector database if needed.
-
-### 3.2 Multi-turn conversations ([#6](https://github.com/garyseconomics/chatbot/issues/6))
-
-Most requested feature from Phase 1 testers. Currently the bot treats each message
-independently — it doesn't remember what you said earlier. Implementation needs:
-
-- **Chat memory** — Store conversation history so the LLM receives the full conversation
-  on each call. Investigate [OpenBrain (OB1)](https://github.com/NateBJones-Projects/OB1/blob/main/docs/01-getting-started.md)
-  as the framework for this.
-- **Sessions** — Manage conversation sessions to control interaction flow.
-- **Usage limits** — Prevent intensive use by individual users during Phase 2.
-- **Patreon authentication** — Possibly restrict access to Patreon subscribers during
-  Phase 2 to prevent unauthorized use. Needs discussion with Gary's team.
-
-**Cost consideration:** Multi-turn conversations mean longer prompts (full conversation
-history on each call) = more tokens per query. Measure the extra cost before enabling
-for 3,000 users. Discuss with Gary's team whether to enable it for Phase 2.
-
-### 3.3 Source document access
-
-Users have been asking the bot to provide source documents. When we add the memory
-system (OpenBrain) for multi-turn conversations, we can also use its database to store
-the original documents we import — links to the source material and the documents
-themselves, so the bot can provide exact quotes and references.
-
-This ties into the content expansion (section 4): when importing reference material
-(economist papers, book chapters), we should store the source links and original text
-alongside the vector embeddings.
+Full plan in [evaluation_pipeline_plan.md](evaluation_pipeline_plan.md).
+Full issue details in [prompt_issues.md](prompt/prompt_issues.md).
 
 ---
 
 ## 4. More content
 
-### 4.1 Add subtitles after November 2025
+See [data_sources.md](data_sources.md) for the full inventory of current and planned
+content sources, the transcript review pipeline, and import status.
 
-The vector database only covers videos from early 2024 to November 2025. Subtitles for
-newer videos need to be added using the existing import pipeline.
+### 4.1 More subtitles/transcriptions
 
-Establish a process for adding new video subtitles when they come out — someone on
-Gary's team (or a volunteer) downloads subtitles from YouTube and runs the import script.
+The current database only includes video subtitles from early 2024 to November 2025.
+Several important sources are missing.
 
-### 4.2 Import older video transcripts ([#39](https://github.com/garyseconomics/chatbot/issues/39))
+**Add videos after November 2025** — Newer videos need to be added. Someone on the team
+(or a volunteer) gets the new subtitles and runs the import. This should become a regular
+task whenever new videos come out.
 
-The [transcripts repo](https://github.com/garyseconomics/transcripts/tree/main/transcripts)
-has 261 full videos + 49 shorts that are missing from the database (full list in
-`docs/missing_subtitles.txt`). These are in VTT format and need review before import:
-1. Review transcripts for correctness (compare with what's actually said in videos).
-2. Convert from VTT to SRT format.
-3. Add clean subtitles to the [subtitle-data](https://github.com/garyseconomics/subtitle-data) repo.
+**Import older video transcripts** ([#39](https://github.com/garyseconomics/chatbot/issues/39))
+— The channel has ~350 videos in total. Only ~45 are currently in the bot's knowledge
+base. The remaining ~300 have transcripts available but need to be reviewed before import. Reviewing ~300 transcripts requires significant effort from someone who can watch the videos and compare. We are already preparing AI-cleaned transcripts and uploading them for [volunteer review](https://github.com/Adavideo/transcripts/tree/AI_and_volunteer_review/revisions/2_To_be_reviewed_by_volunteers)
+(see [review instructions](https://github.com/Adavideo/transcripts/blob/AI_and_volunteer_review/revisions/2_To_be_reviewed_by_volunteers/INSTRUCTIONS.md)).
 
-This is the most time-consuming content task — reviewing 310 transcripts requires
-significant effort from someone who can compare them against the videos.
+### 4.2 Documents written by us
 
-### 4.3 Add economist documents — discuss scope, possibly Phase 3
+Documents we write to summarize and explain things, so the bot can answer questions about
+itself and the channel from RAG context instead of needing all of it in the prompt.
+Currently, all this information has to be crammed into the bot's instructions, which
+limits how much detail it can give. With background documents, the bot can give thorough
+answers when someone asks "How does this bot work?" or "Who is Gary Stevenson?"
 
-Add documents from economists to give the bot a ground knowledge base beyond Gary's
-videos. Example sources:
-- [Gabriel Zucman](https://gabriel-zucman.eu/) — research on wealth inequality, tax havens
-- [Thomas Piketty](http://piketty.pse.ens.fr/en/) — research on capital and inequality
+**Topics to cover:**
+- **The channel** — what it covers, its mission, its perspective on economics. A full
+  list of topics covered by the channel has been compiled
+  ([channel_topics.md](../../content_database/docs/channel_topics.md)).
+- **Gary Stevenson** — who he is, background (former trader, Patriotic Millionaires,
+  independently wealthy, not monetising the platform). A draft bio already exists
+  ([gary_bio.md](../../content_database/docs/gary_bio.md)), written from two channel
+  videos. Needs approval from Gary's team before it can be used.
+- **How the bot works** — what AI it uses, that it's built on video transcripts, that
+  it's open source on GitHub.
+- **Data collection and privacy** — **this is critical to get right.** The bot currently
+  claims it doesn't collect data, which is false. The document must explain:
+  1. All questions and answers are stored and used to improve the bot.
+  2. Users should not share personal information.
+  3. Questions are sent to external AI services to generate answers.
+  4. Some of those services may use the data to train their models — we don't control that.
+  5. The project is open source so anyone can verify all of this.
+  **This must be updated whenever we add or change AI providers.**
 
-The same library we use for SRT imports (LangChain document loaders) supports PDFs, HTML,
-and other formats, so this doesn't require a new import pipeline. However, it is a new
-type of content with different considerations:
-- What specific documents to include (papers, book chapters, articles).
-- How to chunk academic/economic texts effectively.
-- Metadata: author, publication date, source URL.
-- Source storage: keep original documents accessible so the bot can provide quotes and
-  links (see 3.2).
-- All material must be publicly available for divulgation.
+### 4.3 More documents
+
+Documents from other sources that could enrich the bot's knowledge.
+
+- Gary's book and master thesis.
+- Documents from other economists: [Gabriel Zucman](https://gabriel-zucman.eu/), [Thomas Piketty](http://piketty.pse.ens.fr/en/), [Ha-Joon Chang](https://www.youtube.com/watch?v=MGt7swnEb3g).
+
+The import tools already support PDFs and other formats, so adapting to include this doesn't require adding new tools. But it raises questions:
+- Which specific documents to include?
+- How to handle academic texts (they're structured differently from video subtitles).
 
 **Scope and timing need discussion.** This could be Phase 2 or Phase 3 depending on
 how much it adds to the bot's quality versus the effort required.
 
 ---
 
-## 5. Nice to have
+## 5. New functionality
 
-Operational improvements that are valuable but not blocking Phase 2 launch.
+### 5.1 Date awareness ([#26](https://github.com/garyseconomics/chatbot/issues/26))
 
-### 5.1 Service watcher ([#21](https://github.com/garyseconomics/chatbot/issues/21))
+The bot currently treats all video content as equally recent — it doesn't know when a
+video was published. Phase 1 testers noticed this: for example, the bot referenced a
+general election when asked about a recent by-election, because it didn't know the
+general election video was older.
 
-Monitor bot availability from a different host. Options: HTTP `/health` endpoint polled
-by Uptime Kuma, or a second bot that pings the main bot through the chat.
+**Fix:** Attach the publish date to each piece of video content so the bot knows what's
+recent and what's old. The bot already knows today's date, so once it has video dates it
+can reason about what's current.
 
-### 5.2 Auto-update containers ([#42](https://github.com/garyseconomics/chatbot/issues/42))
+This also includes adding video links to answers
+([#36](https://github.com/garyseconomics/chatbot/issues/36)) — when the bot references
+a video, it will be able to link to it directly.
 
-Automatically update running containers when a new Docker image is pushed to GHCR (GitHub Container Registry).
-Options: Watchtower (simplest for single-server), webhook-based deploy, or a cron job.
+### 5.2 Multi-turn conversations ([#6](https://github.com/garyseconomics/chatbot/issues/6))
 
-### 5.3 Run tests in Docker CI ([#34](https://github.com/garyseconomics/chatbot/issues/34))
+The most requested feature from Phase 1 testers. Currently the bot treats each message
+as a brand-new conversation — it doesn't remember what you said two messages ago. This
+means you can't ask follow-up questions or have a back-and-forth discussion.
 
-Run `pytest` inside the built Docker image before pushing to GHCR. During Phase 1, a
-Langfuse v3-to-v4 breaking change was only caught in production because tests only ran
-locally.
+**What's needed:**
+- **Conversation memory** — The bot remembers what was said earlier in the conversation.
+- **Session management** — Track who is talking and keep conversations separate.
+- **Usage limits** — Prevent any single user from overloading the system during Phase 2.
+- **Patreon authentication** — Possibly restrict access to Patreon subscribers to prevent
+  unauthorized use. Needs discussion with the team.
 
-### 5.4 Prompt v3 remaining issues ([#37](https://github.com/garyseconomics/chatbot/issues/37))
+**Cost consideration:** Conversations mean the bot sends more text to the AI on each
+message (the full conversation history), which costs more per question. We need to
+measure this before enabling it for 3,000 users.
 
-From Phase 1 testing, 7 out of 118 answers (6%) were flagged. Main remaining issues:
-- RAG internals still leak ("the reference material provided" in answers).
-- Identity correction inconsistent ("Hi Gary!" not always caught).
-- Financial advice boundary inconsistent on edge cases.
+### 5.3 Source document access
 
-These can be addressed iteratively through prompt refinement and testing different
-prompt + model combinations. Related to #41 (OpenAI-compatible providers gives access
-to more models to test against).
+Users have been asking the bot to provide its sources. We can store the original source material (video links, documents, quotes)
+so the bot can point users to exactly where its answer came from.
 
-### 5.5 Retrieve and review prompt v3 traces
+This ties into the content expansion (section 4): when we add new reference material,
+we should store the original sources alongside it.
 
-Export user traces from Langfuse for the period between the v3 prompt deployment
-(2026-03-21 04:13) and the v3 fix deployment (2026-03-23 19:18). Review the answers
-to identify cases where the bot refused to answer or gave bad answers to legitimate
-economics questions. See TODO.md for full details.
+---
+
+## 6. Nice to have
+
+Improvements that are valuable but not blocking Phase 2 launch.
+
+### 6.1 Uptime monitoring ([#21](https://github.com/garyseconomics/chatbot/issues/21))
+
+Set up automatic monitoring so we get alerted if the bot goes down, instead of waiting
+for users to report it.
+
+### 6.2 Automatic updates ([#42](https://github.com/garyseconomics/chatbot/issues/42))
+
+When we release a new version of the bot, the server should update automatically instead
+of requiring someone to log in and update it manually.
+
+### 6.3 Automated testing before release ([#34](https://github.com/garyseconomics/chatbot/issues/34))
+
+Run the full test suite automatically before each release. During Phase 1, a bug from a
+software update was only caught after it reached users because testing only happened
+manually.
 
 ---
 
@@ -317,9 +324,11 @@ economics questions. See TODO.md for full details.
 
 | Service | Cost | Notes |
 |---------|------|-------|
-| Ollama Cloud Pro | $20/month | Chat LLM (`qwen3-next:80b`). 50x more usage than free tier |
-| Cloud embeddings | ~$0.01/M tokens | Negligible at current volume. During Phase 1 we processed ~400 queries — even at 10x that volume the embedding cost would be under $0.01/month |
-| Server hosting | ~$3.50–5/month | No GPU required — only runs Docker containers. Hetzner CX22 (~$3.60/mo) is the best value. Free tiers are too risky for production at 3,000 users. See section 2.4 for the full comparison |
+| Server hosting | ~$3.50–5/month | Only runs the bot software, no special hardware needed. Hetzner at ~$3.60/mo is the best value option |
+| AI answer generation | $20/month | Ollama Cloud Pro — 50x more capacity than the free tier |
+| AI search | TBD | Cloud embedding provider cost — needs investigation once we choose a provider (see 2.2) |
+
+**Total: ~$24–25/month + AI search cost (TBD)**
 
 ---
 
@@ -328,18 +337,34 @@ economics questions. See TODO.md for full details.
 1. **Patreon authentication** — Should we restrict Phase 2 access to Patreon subscribers
    only? This would prevent unauthorized use but adds implementation complexity.
 2. **Multi-turn conversations** — Enable for Phase 2 or wait for Phase 3? Depends on
-   cost assessment.
+   the cost assessment.
 3. **Economist documents** — Which sources to include? Phase 2 or Phase 3?
 4. **Subtitle maintenance** — Who will add subtitles for new videos on an ongoing basis?
+5. **Speculative/hypothetical questions** — When a user asks a hypothetical question that
+   relates to topics Gary has covered (e.g., "How would bond markets react to a chancellor
+   announcing aggressive wealth taxation?"), should the bot speculate based on the
+   information it has, or deflect? The current instructions allow the bot to answer from
+   general knowledge on economics topics, and these answers can sound authoritative even
+   though they're speculative. Need guidance on where the line is.
+6. **Sensitive topics with an economics angle** — Some questions are politically/socially
+   sensitive but have a legitimate economics side (drug legalisation, defunding police,
+   party manifestos, military intervention). Should the bot engage with the economics
+   angle, or deflect entirely when Gary hasn't covered the topic? Currently the bot is
+   inconsistent — sometimes deflecting, sometimes giving detailed answers. Until we have
+   guidance, the bot should deflect on sensitive topics when there's no channel context.
+7. **Financial advice on personal investments** — When users ask about their own holdings
+   (e.g., gold ETFs), the bot gave investment guidance ("stick to your plan", "hold
+   steady"). The bot should not tell users what to do with their assets. Should it redirect
+   to systemic issues (why asset prices move the way they do), or refuse entirely?
 
 ---
 
 ## References
 
-- [Phase 1 Report](Phase_1_Report.md) — Full results from Phase 1 testing
-- [Chat Model Latency Report](latency_report_chat_model.md) — Ollama Cloud vs self-hosted
-  performance, API limits analysis
-- [Embedding Latency Report](latency_report_embeddings.md) — MakeSpace vs Local Ollama
-  benchmarks, cloud provider options
-- [Prompt Issues](prompt_issues.md) — Detailed Phase 1 prompt issues and fixes
-- [TODO.md](../TODO.md) — Full task list with implementation details
+- [Phase 1 Report](../phase_1/Phase_1_Report.md) — Full results from Phase 1 testing
+- [Chat Model Latency Report](../phase_1/latency_report_chat_model.md) — Performance and capacity analysis
+- [Embedding Latency Report](../phase_1/latency_report_embeddings.md) — Search performance and cloud provider options
+- [Data Sources](data_sources.md) — Current and planned content sources, transcript review pipeline, import status
+- [Prompt Issues](prompt/prompt_issues.md) — Answer quality issues and fixes (Phase 1 through v4)
+- [Prompt v4 Test Summary](prompt/prompt_v4.md) — Full v4 test results (97 questions, 2026-03-29)
+- [TODO.md](../../TODO.md) — Full task list with implementation details
