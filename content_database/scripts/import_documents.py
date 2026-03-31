@@ -1,5 +1,8 @@
 import logging
 import os
+import sys
+
+from ollama import ResponseError
 
 from content_database.config import settings
 from content_database.scripts.vector_database_manager import (
@@ -18,4 +21,12 @@ if __name__ == "__main__":
     ]
 
     # Generate or get the database and add the documents on the file list
-    add_documents_to_vector_database(settings.database_path, files_list)
+    try:
+        add_documents_to_vector_database(settings.database_path, files_list)
+    except ResponseError as e:
+        print(
+            f"\nError: Embedding server returned status {e.status_code}."
+            " Is the Ollama server running?",
+            file=sys.stderr,
+        )
+        sys.exit(1)
