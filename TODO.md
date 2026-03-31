@@ -89,6 +89,11 @@ Documents from other sources that could enrich the bot's knowledge.
 - [ ] **MLflow** -- Platform for tracking ML experiments, models, and metrics. Explore for
   tracking prompt experiments and RAG pipeline performance.
 - [ ] **OpenBrain (OB1)** -- Framework for adding memory to AI agents. Explore for multi-turn conversations and persistent user context. [Getting started docs](https://github.com/NateBJones-Projects/OB1/blob/main/docs/01-getting-started.md).
+- [ ] **Intent classification and query routing** -- The bot currently sends every question through the same pipeline (vector search → prompt → LLM). Many prompt issues (RAG internals leaking, off-topic answers, identity confusion) come from this one-size-fits-all approach. Investigated three options for routing queries to different strategies:
+  - **Option A: Keyword/regex pre-processing** — Detect known patterns (meta-questions about the bot, greetings, troll signals) before the LLM call. Pros: zero cost, fast, predictable. Cons: can't catch subtle cases like off-topic questions wrapped in economics framing ("Which Pink Floyd song is the best metaphor for economics?").
+  - **Option B: Local LLM classification** — Use the local Ollama fallback model to classify intent before the main pipeline. Pros: free (hardware already exists), can handle subtle cases. Cons: adds latency (local model is slow, 3-14s), cold starts up to 60s, adds complexity.
+  - **Option C: Cloud LLM classification** — Use the same cloud provider to classify before answering. Pros: fast, handles subtle cases. Cons: doubles the API cost per query — problematic at scale (3,000 Patreon users → 1M+ YouTube subscribers), and this project has no revenue.
+  - **Recommended approach:** Start with Option A (keyword checks) for the obvious patterns — this is free, fast, and covers most cases from the Phase 1 prompt issues. Add LLM classification later only if keyword checks prove insufficient. The LangGraph framework already in use supports conditional routing natively.
 
 ## Done
 
