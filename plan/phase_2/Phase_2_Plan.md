@@ -61,6 +61,8 @@ bot for the first time and haven't asked anything yet.
 
 Move everything to accounts and servers owned by Gary's Economics.
 
+The technical details and research results referenced here are in  [Phase 2 tech decisions](Phase_2_tech_decisions.md)
+
 ### 2.1 Support multiple AI providers ([#41](https://github.com/garyseconomics/chatbot/issues/41))
 
 Currently the bot can only use one AI service (Ollama). We need to add support for other
@@ -85,7 +87,7 @@ at 10x our Phase 1 volume). Once we add multi-provider support (2.1), switching 
 cloud provider is straightforward and removes our dependency on the MakeSpace server
 entirely.
 
-Several providers are available — see the [Embedding Latency Report](../phase_1/latency_report_embeddings.md) for the full comparison.
+Several providers are available — see the [Phase 2 tech decisions](Phase_2_tech_decisions.md) for the full comparison.
 
 ### 2.3 Create Gary's Economics Ollama Cloud account
 
@@ -119,18 +121,9 @@ reliability and room to grow.
 **Recommended option:** [Hetzner](https://www.hetzner.com/cloud/) CX22 at ~$3.60/month —
 best value, with EU and US data centres.
 
-Other options:
-
-| Provider | Price | Notes |
-|---|---|---|
-| [OVHcloud](https://www.ovhcloud.com/en/vps/) | ~$3.50–4.50/mo | Unlimited bandwidth; clunky interface |
-| [Contabo](https://contabo.com/en/vps/) | ~$4.90/mo | Generous specs; can be slow under load |
-| [Hostinger](https://www.hostinger.com/vps-hosting) | ~$5/mo (promo) | Requires 4-year commitment; renewal ~$9/mo |
-| [Vultr](https://www.vultr.com/pricing/) | $5/mo | Simple; many locations |
-| [AWS Lightsail](https://aws.amazon.com/lightsail/pricing/) | $5/mo | 3 months free; Amazon's cloud |
-| [DigitalOcean](https://www.digitalocean.com/pricing) | $6/mo | $200 credit for new accounts |
-
 Free options exist ([Oracle Cloud](https://www.oracle.com/cloud/free/), [Google Cloud](https://cloud.google.com/free), AWS free tier) but are only suitable for development and testing — not for a service 3,000 people depend on.
+
+Other options documented in [Phase 2 tech decisions](Phase_2_tech_decisions.md).
 
 The code changes from 2.1 and 2.2 should be done first so we deploy multi-provider
 support at the same time as the migration.
