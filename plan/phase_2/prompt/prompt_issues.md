@@ -262,7 +262,7 @@ across prompt versions and improved as source material is added.
 
 | Topic | What happened | What to do |
 |-------|--------------|------------|
-| Crypto / cryptocurrency | Bot too diplomatic — deflects or gives generic answers. Gary has strong views on crypto but they're in pre-2024 videos not yet imported. | Import pre-2024 videos. Key video added to `pending_review/` ("Crypto = Internet Points? Why it Won't Make You Rich", 2022-02-27). Already tracked as source material gap. |
+| Crypto / cryptocurrency | Bot too diplomatic — deflects or gives generic answers. Gary has strong views on crypto but they're in pre-2024 videos not yet imported. | Import pre-2024 videos. Key video added to `pending_review/` ("Crypto = Internet Points? Why it Won't Make You Rich", 2022-02-27). Already tracked as source material gap. **Update 2026-04-01:** Crypto transcript imported. Telegram user asked "What are Gary's opinions on crypto?" and got a good answer. This issue is fixed. |
 | Exit tax | v3: Bot explained Gary's position on residency-based taxation but couldn't address exit taxes specifically. v4 (Q38): Good answer. v4 retest (2026-03-30): Good economics explanation distinguishing exit tax from the "rich will leave" myth, but leaks RAG internals ("based on the provided transcript, Gary hasn't discussed an Exit Tax"). | Need to check if Gary has covered exit taxes in older videos not yet imported. Working well with general knowledge — RAG leak is the remaining issue. |
 | Rent control | v3: Bot refused entirely. v4 retest (2026-03-30): Answers with a reasonable general explanation of rent control pros/cons, but leaks RAG internals ("the reference material doesn't actually cover..."). No longer refuses. | v3.1 fix confirmed — no longer refuses. RAG leak is the remaining issue. |
 | Monopolies and inequality | v3: Bot refused entirely. v4 retest (2026-03-30): Good answer — connects monopolies to housing, wages, and Gary's systemic critique. No RAG leak, no refusal. | v3.1 fix confirmed. Working well. |
@@ -378,6 +378,14 @@ check they're preserved in future versions.
   (e.g., Q4 "Who is Gary?", Q6 "Labour party", Q44 "Covid money printing", Q69 "Laffer
   curve"). This validates the RAG pipeline — the issue is when it returns irrelevant
   context, not the pipeline itself.
+
+## Prompt too aggressive on personal life questions Gary has covered publicly
+
+- **Found:** 2026-04-01, Telegram user asked "Who is Gary's brother?"
+- **What happened:** The bot gave a defensive response. Gary talks about his family openly in the ["Ilford — Hometown Glory"](https://www.youtube.com/watch?v=1MBnsl6p5LY) video (2021) and a transcript about his family home was just imported. The content is there but the prompt's personal life restrictions are too broad — the bot treats all family questions as off-limits even when Gary has shared the information publicly.
+- **Root cause:** The prompt's instruction to refuse personal life questions doesn't distinguish between genuinely private information (address, finances) and information Gary has shared publicly in his videos and book (family, childhood, Ilford). The bot applies the restriction too aggressively.
+- **Related:** Test question categories section already notes that questions about Gary's family, childhood, or background should be answerable when the information is in the source material. The `gary_bio.md` document exists but isn't in the vector database yet.
+- **Suggested fix for v5:** Refine the personal life instruction to only refuse questions about genuinely private information. Something like: "If Gary has talked about it publicly in his videos or book, it's ok to answer. Only refuse questions about private information Gary hasn't shared (e.g., current address, financial details)."
 
 ## What's Next
 
