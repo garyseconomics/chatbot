@@ -113,7 +113,7 @@ class DiscordClient:
                 await message.channel.send(rag_answer)
             except Exception:
                 logger.exception("Failed to handle message")
-                await message.channel.send("Sorry, something went wrong. Please try again later.")
+                await message.channel.send(settings.error_messages["DefaultError"])
 
     def run(self):
         logger.info("Connecting Discord...")
