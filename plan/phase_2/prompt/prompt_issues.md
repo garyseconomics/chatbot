@@ -22,6 +22,7 @@ to verify fixes from earlier versions. Results in [prompt_v4.md](prompt_v4.md).
 | Bot overcorrects on identity | New in v4 | Says "I'm not Gary" on plain greetings like "hi" or "hello gary bot" |
 | Hallucination — fabricated details | New in v4 | Fabricated a specific date for a Gary anecdote |
 | Without-context inconsistencies | New in v4 | Same question answered/refused depending on the context provided |
+| Cross-chunk entity confusion | Found in v3.1 | Bot merges facts from different video chunks and misattributes them (Labour/Green mix-up) |
 | Missing source material | Ongoing | Pre-2024 videos and other sources not yet imported. Volunteers reviewing transcripts |
 | Bot refuses to discuss video content | Ongoing | Refuses to give quotes or details from Gary's videos when asked directly |
 | Bot talks about "the context" | Partial fix | Improved in v4 — rare, mostly in academic questions |
@@ -204,6 +205,7 @@ with their last known status. See that document for full examples and history.
   - Partially working: "What are the dates for Gary's next speaking tour?" → Bot correctly used the injected date ("it's 29th March 2026"). However, it fabricated "5th March" as the book release date — the paperback actually came out end of January 2025 (confirmed in the "Goodbye and Good Luck" video, in `pending_review/`). The date awareness itself works, but the bot hallucinated the date it was reasoning about. Additionally, the bot can't properly answer this question because the latest videos (which mention the UK tour, Italy, and the planned Australia/NZ tour for Feb/March) haven't been imported yet.
   - Not working: "What is the date and time right now?" → Bot deflected: "I'm not really set up to tell the time." Should have answered using the injected date.
   - Not working: "How many days until October 05, 2025" → Bot deflected: "I'm here to help with economics questions, not date calculations!" This is a harmless question from a user testing whether the bot is temporally aware — it should just answer it.
+- **Green Party answer outdated (v3.1):** A Telegram user asked "How does Gary feel about the Green Party?" (2026-03-24). The bot's answer was based on a June 2024 video and said Gary "votes Green strategically... while keeping in mind the bigger picture of stopping the Tories." The user pointed out this is outdated — the political landscape has shifted since June 2024, it's no longer just a two-party system, and the main objective is no longer to stop the Tories. She also noted that Zack Polanski (new Greens leader) massively supports and promotes a wealth tax, which is directly relevant to Gary's work but isn't reflected in the answer. This is a time awareness problem — the bot doesn't recognise that political content has a shelf life and should factor in when the source material was produced. Without date metadata on chunks (#26), the bot can't tell that it's drawing from a video that's nearly two years old.
 - **Notes:** The improvement from v3 (where it never worked) to v4 (works sometimes) suggests the reworded prompt instruction helps but isn't reliable. The bot uses the date when it's part of answering an economics-adjacent question but ignores it for direct date questions. May still be partly a model limitation — needs testing with other models.
 
 ### Missing source material
@@ -244,6 +246,37 @@ accepted the false premise and apologised for something it never said. This is a
 fundamental limitation until multi-turn conversations (#6) are implemented. Even without
 multi-turn, the prompt could instruct the bot to be cautious about accepting claims
 about what it said previously.
+
+### Cross-chunk entity confusion — Zack Polanski / Labour mix-up
+
+A Telegram user asked "What are Gary's thoughts on Zack Polanski?" (2026-03-28, v3.1).
+The bot's answer was mostly good but ended with: "While his team debates whether to
+invite the Greens on the channel, Gary believes it's important to let them explain their
+stance, given how much they've critiqued them before." The user pointed out that the
+"invite to channel" discussion was about **Labour**, not the Greens.
+
+**Root cause — RAG returned chunks from different videos about different topics:**
+The vector search returned 4 chunks:
+1. `Z7ulJrZa8n4__Can_Labour_be_Saved.srt` — Gary quotes Zack Polanski saying politicians
+   are "bought" by the rich.
+2. `AuQINQfDc3M__Should_Labour_Come_On.srt` — Gary's team debates whether to invite
+   **Labour** onto the channel to defend themselves.
+3. `mcu03c2dZQI__Predicting_The_Election.srt` — Zack Polanski filling the space vacated
+   by Labour, Greens' potential.
+4. `AuQINQfDc3M__Should_Labour_Come_On.srt` — More on inviting **Labour**: "since we are
+   criticising these guys a lot on the channel, we kind of have an obligation to let them
+   come on and defend themselves."
+
+Chunks 2 and 4 clearly discuss inviting Labour, but because the question was about
+Polanski/Greens, the bot merged all four chunks and attributed the "invite to channel"
+discussion to the Greens. The chunks don't name the party being invited explicitly enough
+for the LLM to keep the entities separate.
+
+**General issue:** When the vector search returns chunks from multiple videos about
+overlapping but distinct topics, the bot can merge details across chunks and misattribute
+information. This is different from hallucination (fabricating facts) — the facts are all
+real, but they get assigned to the wrong entity. This could get worse as more source
+material is imported and the vector search returns a wider mix of chunks.
 
 ### RAG internals — transparency is fine when asked
 
