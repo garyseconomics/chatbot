@@ -60,3 +60,18 @@ async def test_question_runs_without_errors(monkeypatch):
 
     sent_text = context.bot.send_message.call_args.kwargs["text"]
     assert "Wealth is..." in sent_text
+
+
+@pytest.mark.asyncio
+async def test_question_sends_error_message_on_failure(monkeypatch):
+    """When an unexpected error occurs, the bot sends the default error message."""
+    mock_rag = AsyncMock(side_effect=RuntimeError("something broke"))
+    monkeypatch.setattr("interfaces.telegram_bot.RAG_query", mock_rag)
+
+    update = _make_update(text="What is wealth?")
+    context = _make_context()
+
+    await question(update, context)
+
+    sent_text = context.bot.send_message.call_args.kwargs["text"]
+    assert sent_text == settings.error_messages["DefaultError"]

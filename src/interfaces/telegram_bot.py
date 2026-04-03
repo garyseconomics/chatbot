@@ -17,17 +17,24 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 # Question funtion. This funtion will answer when a user sends a text message to the bot.
 async def question(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    question = update.message.text
-    user_id = f"telegram:{update.effective_user.id}"
-    rag_answer = await RAG_query(question, user_id=user_id)
-    answer = rag_answer["answer"]
-    video_links = get_video_link(rag_answer["context"])
-    if video_links:
-        video_text = videos_text_for_chat(video_links)
-        answer = f"{answer}\n\n{video_text}"
-    logger.debug("RAG answer: %s", rag_answer)
-    logger.debug("Video links: %s", video_links)
-    await context.bot.send_message(chat_id=update.effective_chat.id, text=answer)
+    try:
+        question = update.message.text
+        user_id = f"telegram:{update.effective_user.id}"
+        rag_answer = await RAG_query(question, user_id=user_id)
+        answer = rag_answer["answer"]
+        video_links = get_video_link(rag_answer["context"])
+        if video_links:
+            video_text = videos_text_for_chat(video_links)
+            answer = f"{answer}\n\n{video_text}"
+        logger.debug("RAG answer: %s", rag_answer)
+        logger.debug("Video links: %s", video_links)
+        await context.bot.send_message(chat_id=update.effective_chat.id, text=answer)
+    except Exception:
+        logger.exception("Failed to handle message")
+        await context.bot.send_message(
+            chat_id=update.effective_chat.id,
+            text=settings.error_messages["DefaultError"],
+        )
 
 
 if __name__ == "__main__":
