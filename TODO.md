@@ -25,7 +25,7 @@ Pending tasks and things to investigate. Organized by
 
 - [x] **Fix importer for new trace format** ([#44](https://github.com/garyseconomics/chatbot/issues/44)) -- Rewrote the analytics pipeline: unified `traces` table replaces the old `user_traces` + `vector_search_traces` + `qa_test_results` tables. New `trace_importer.py` handles the new Langfuse format (plain string in `args[0]`). Old data preserved in `analytics_old.db`. See `analytics/private/database_status.md` for full details.
 - [x] Store prompt versions in the analytics database -- Prompt text lives in `llm/prompt_versions.py`, selected by `llm/prompt_template.py` based on `config.prompt_version`. This is enough for testing different prompt+model combinations — each version is a Python constant and the config selects which one to use. No need for a SQLite table.
-- [ ] **Add prompt_version to Langfuse trace metadata** -- Include the current prompt version in the metadata sent to Langfuse when creating traces, so the importer can read it directly instead of relying on deployment timestamps. **We can't deploy a new prompt version until this is done** — the importer currently hardcodes v4 for all traces.
+- [x] **Add prompt_version to Langfuse trace metadata** -- The chatbot now includes `prompt_version` in the metadata sent to Langfuse. The trace importer reads it from metadata and stores it in the DB. If a trace is missing `prompt_version` in metadata, the importer stores NULL so the problem is visible. Existing traces were backfilled: 4 pre-v4 traces set to v3.1, the rest to v4.
 
 ### 3.2 Prompt evaluation
 
@@ -38,7 +38,7 @@ Pending tasks and things to investigate. Organized by
 
 - [x] **Rework the QA testing pipeline** -- Done. `analytics/scripts/ask_all_questions.py` now only asks questions (traces go to Langfuse). The unified `trace_importer.py` imports all traces including `qa_test` ones, with vector search context stored in `search_result_documents`. Remaining improvements:
   - [ ] Allow choosing which questions to ask — e.g., by category, by list, or by passing specific questions.
-  - [ ] **Prerequisite for more prompt tests:** Add prompt_version to Langfuse trace metadata (task above) so results can be associated with the correct prompt version.
+  - [x] **Prerequisite for more prompt tests:** Add prompt_version to Langfuse trace metadata — done, the importer now reads it from metadata.
 
 ## 4. More content
 

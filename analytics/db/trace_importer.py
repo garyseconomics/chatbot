@@ -15,13 +15,6 @@ from analytics.config import settings
 logger = logging.getLogger(__name__)
 
 
-# Prompt version based on deployment timestamps.
-# v4 is the only version in the new format, but keeping the logic
-# in case we deploy v5+ later.
-def _prompt_version(timestamp: str) -> str:
-    if timestamp < "2026-03-28 17:50":
-        return "4"  # shouldn't happen with the new export, but just in case
-    return "4"
 
 
 def _parse_trace(trace: dict) -> dict | None:
@@ -73,7 +66,7 @@ def _parse_trace(trace: dict) -> dict | None:
         "user_id": trace.get("userId"),
         "question": question,
         "answer": answer,
-        "prompt_version": _prompt_version(timestamp),
+        "prompt_version": str(metadata["prompt_version"]) if "prompt_version" in metadata else None,
         "chat_model": metadata.get("chat_model"),
         "chat_provider": metadata.get("chat_provider"),
         "embedding_model": metadata.get("embedding_model"),

@@ -45,7 +45,7 @@ Contains all data from 2026-03-28 onwards (prompt v4). One unified schema.
 | user_id | `discord:*`, `telegram:*`, `qa_test`, `cli`, or `benchmark_*` |
 | question | The user's question |
 | answer | The bot's response |
-| prompt_version | Prompt version (currently "4") |
+| prompt_version | Prompt version the query used |
 | chat_model | LLM used (e.g., "qwen3-next:80b") |
 | chat_provider | LLM provider (e.g., "ollama_cloud") |
 | embedding_model | Embedding model used |
