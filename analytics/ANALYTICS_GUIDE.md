@@ -10,7 +10,7 @@ How to use the analytics scripts, databases, and test tools.
 | Import traces into SQLite | `python -m analytics.db.trace_importer` |
 | View traces in current DB | `python -m analytics.scripts.trace_viewer` |
 | View traces in old DB | `python -m analytics.scripts.trace_viewer_old` |
-| Run all test questions | `python -m analytics.scripts.ask_all_questions` |
+| Run test questions | `python -m analytics.scripts.ask_questions` |
 | Set up database from scratch | `python analytics/db/setup_database.py` |
 
 All commands should be run from the project root with the venv activated.
@@ -80,7 +80,7 @@ separate tables for different trace types:
 - **`vector_search_traces`** (1,719 rows) — vector search performance data.
 - **`test_questions`** (441 rows) — QA test traces imported from Langfuse.
 - **`qa_test_results`** (320 rows) — test results written directly by
-  `ask_all_questions.py`.
+  `ask_questions.py`.
 - **`search_result_documents`** (5,388 rows) — same as current DB, links traces to
   Chroma document IDs.
 
@@ -166,7 +166,7 @@ Or query Langfuse directly if you have the trace ID.
 
 155 questions across 20 categories (e.g., `economics_questions`, `bot_identity`,
 `gives_financial_advice`, `answers_off_topic`, `troll_detection`). Used by
-`ask_all_questions.py` for batch testing across prompt versions.
+`ask_questions.py` for batch testing across prompt versions.
 
 ### sensitive_questions_for_testing.py (private/)
 
@@ -175,12 +175,24 @@ Not tracked in git.
 
 ### Running a test
 
-`ask_all_questions.py` sends every question through the full RAG pipeline and logs
-results to Langfuse with `user_id="qa_test"`. After running, export and import to
-get the results into SQLite:
+`ask_questions.py` sends questions through the full RAG pipeline and logs results
+to Langfuse with `user_id="qa_test"`. You can run all questions or pick specific
+categories.
 
 ```bash
-python -m analytics.scripts.ask_all_questions
+# List available categories and how many questions each has
+python -m analytics.scripts.ask_questions --list
+
+# Run all questions (all categories)
+python -m analytics.scripts.ask_questions
+
+# Run only specific categories
+python -m analytics.scripts.ask_questions general bot_identity economics_questions
+```
+
+After running, export and import to get the results into SQLite:
+
+```bash
 python -m analytics.db.export
 python -m analytics.db.trace_importer
 ```

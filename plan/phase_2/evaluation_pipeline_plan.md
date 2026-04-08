@@ -5,23 +5,18 @@ systematically compare them and catch regressions.
 
 ## Where we are now
 
-We have 97 test questions in
-[questions_for_testing.py](../../analytics/questions_for_testing.py), organised by
-issue category (off-topic, financial advice, RAG internals, etc.). The
-[ask_all_questions.py](../../analytics/ask_all_questions.py) script runs them all
-through the RAG pipeline and stores the answers in the `qa_test_results` SQLite table.
-After each run, we analyse the results manually using Claude Code — this is how we
-produced the [v3](prompt/prompt_v3.md), [v3.1](prompt/prompt_v3_1.md), and
+We have 155 test questions in
+[questions_for_testing.py](../../analytics/scripts/questions_for_testing.py), organised
+by issue category (off-topic, financial advice, RAG internals, etc.). The
+[ask_questions.py](../../analytics/scripts/ask_questions.py) script runs them through
+the RAG pipeline. Results go to Langfuse as traces and are imported into the analytics
+SQLite database by `trace_importer.py`. The script supports filtering by category
+(`python -m analytics.scripts.ask_questions general bot_identity`). After each run, we
+analyse the results manually using Claude Code — this is how we produced the
+[v3](prompt/prompt_v3.md), [v3.1](prompt/prompt_v3_1.md), and
 [v4](prompt/prompt_v4.md) test reports.
 
-**Current problems** (from [TODO.md](../../TODO.md)):
-- The script stores results directly instead of going through Langfuse, so we lose
-  trace data (vector search context, timing, token usage).
-- No way to run a subset of questions (always runs all 97).
-- The `qa_test_results` table is missing fields (no vector search context).
-- Prompt version isn't recorded in Langfuse traces, so we can't reliably associate
-  results with the prompt that produced them.
-- The Langfuse trace importer is broken for traces after 2026-03-28 (format change).
+**Remaining problem:**
 - Answer evaluation is fully manual — someone reads every answer and judges quality.
 
 ## Goal
@@ -35,30 +30,18 @@ A pipeline where we can:
 
 ## Plan
 
-### Step 1: Fix the current pipeline
+### Step 1: Fix the current pipeline ✓
 
-Fix the issues that are blocking reliable test runs. These are already tracked in
-TODO.md — listing here for sequence clarity.
+All items completed:
 
-1. **Add prompt_version to Langfuse trace metadata** — So every trace records which
-   prompt produced it. Without this, we can't compare prompt versions reliably.
-
-2. **Fix the Langfuse trace importer** ([#44](https://github.com/garyseconomics/chatbot/issues/44))
-   — The importer silently skips all traces after 2026-03-28 due to a format change.
-   Fix so we can import test results.
-
-3. **Refactor `ask_all_questions.py`** — The script should only ask questions via
-   `RAG_query` (which creates Langfuse traces), not store results directly. Add the
-   ability to filter by category or pass specific questions, so we don't have to run
-   all 97 every time.
-
-4. **Build a QA trace importer** — Import traces marked with `user_id="qa_test"` from
-   Langfuse into the analytics database, including vector search context. This separates
-   "asking questions" from "storing and analysing results".
-
-After this step, we can run test questions, have them traced in Langfuse with the
-correct prompt version, and import the results for analysis. Manual analysis with
-Claude Code still works, but the data is more complete.
+1. ✓ **Add prompt_version to Langfuse trace metadata** — Every trace now records which
+   prompt produced it.
+2. ✓ **Fix the Langfuse trace importer** ([#44](https://github.com/garyseconomics/chatbot/issues/44))
+   — Unified `trace_importer.py` handles the new Langfuse format.
+3. ✓ **Refactor `ask_questions.py`** — The script only asks questions via `RAG_query`
+   (traces go to Langfuse). Supports filtering by category.
+4. ✓ **Unified trace importer** — `trace_importer.py` imports all traces including
+   `qa_test` ones, with vector search context stored in `search_result_documents`.
 
 ### Step 2: Define expected behaviour criteria
 
@@ -105,7 +88,7 @@ and asks an LLM to judge whether the answer meets each criterion.
 - The judge should be a different model from the one being evaluated, to avoid
   self-evaluation bias.
 - A strong commercial model (Claude, GPT-4) is a good choice for the judge since we
-  need reliable evaluation, and the volume is low (97 questions per run, not
+  need reliable evaluation, and the volume is low (155 questions per run, not
   thousands).
 - Start with one judge model and validate its judgements against our manual
   evaluations from v3/v4 reports before trusting it.
@@ -127,7 +110,7 @@ Once the evaluation pipeline works, use it to systematically compare combination
 **How to run a comparison:**
 1. Pick the combinations to test (e.g., prompt v4 + qwen3:32b, prompt v4 + qwen3:80b,
    prompt v5 + qwen3:32b).
-2. Run `ask_all_questions.py` once per combination (configure prompt and model before
+2. Run `ask_questions.py` once per combination (configure prompt and model before
    each run).
 3. Import results.
 4. Run the LLM judge on all results.
@@ -159,11 +142,11 @@ Once the pipeline is validated and working:
 
 | Step | Depends on | Notes |
 |------|------------|-------|
-| Step 1 | Nothing | Can start immediately |
-| Step 2 | Nothing | Can start in parallel with Step 1 |
-| Step 3 | Steps 1 and 2 | Needs working pipeline and defined criteria |
+| Step 1 | — | ✓ Done |
+| Step 2 | Nothing | Can start now |
+| Step 3 | Step 2 | Needs defined criteria |
 | Step 4 | Step 3 + multi-provider support (infrastructure 2.1) | Need multi-provider to test different models easily |
 | Step 5 | Step 4 validated | Need confidence in the judge before relying on it |
 
-Steps 1 and 2 can be done in parallel. Step 2 (defining criteria) is the hardest part
-and benefits from starting early, while the technical fixes in Step 1 are in progress.
+Step 2 (defining criteria) is the next action and the hardest part — it benefits from
+starting early.

@@ -21,24 +21,10 @@ Pending tasks and things to investigate. Organized by
 
 ## 3. Answer quality
 
-### 3.1 Analytics and tracing
-
-- [x] **Fix importer for new trace format** ([#44](https://github.com/garyseconomics/chatbot/issues/44)) -- Rewrote the analytics pipeline: unified `traces` table replaces the old `user_traces` + `vector_search_traces` + `qa_test_results` tables. New `trace_importer.py` handles the new Langfuse format (plain string in `args[0]`). Old data preserved in `analytics_old.db`. See `analytics/private/database_status.md` for full details.
-- [x] Store prompt versions in the analytics database -- Prompt text lives in `llm/prompt_versions.py`, selected by `llm/prompt_template.py` based on `config.prompt_version`. This is enough for testing different prompt+model combinations — each version is a Python constant and the config selects which one to use. No need for a SQLite table.
-- [x] **Add prompt_version to Langfuse trace metadata** -- The chatbot now includes `prompt_version` in the metadata sent to Langfuse. The trace importer reads it from metadata and stores it in the DB. If a trace is missing `prompt_version` in metadata, the importer stores NULL so the problem is visible. Existing traces were backfilled: 4 pre-v4 traces set to v3.1, the rest to v4.
-
-### 3.2 Prompt evaluation
-
 - [ ] **Evaluate prompt + LLM combinations** ([#37](https://github.com/garyseconomics/chatbot/issues/37)) -- Test different prompt versions against different LLMs to find the best combination that meets all our requirements. Use Langfuse to run each combination against a set of test questions and compare results. The test questions from `tests/test_ask_questions.py` can be used as a starting dataset (selected in commit d11929e). `RAG_query` now returns `chat_model` so results can be tracked per model (commit aa78166). Covers the behaviour issues from Phase 1 testing (previously tracked as #22, #24, #25 — now closed and centralized in #37): bot exposes RAG internals, bot is too diplomatic, bot impersonates Gary, bot answers out-of-scope questions, bot gives financial advice, bot fabricates Gary's opinions, bot can be manipulated. Full list in `testing_phase_1/feedback_report.md`. Related: #26 (temporal awareness, tracked separately). When in doubt about whether Gary has covered a topic, check the subtitle repos: [subtitle-data](https://github.com/garyseconomics/subtitle-data) (imported into vector DB) and [transcripts](https://github.com/garyseconomics/transcripts/tree/main/transcripts) (to be cleaned up for import).
   - [ ] **Include video links inline with subtitle fragments in the prompt** ([#36](https://github.com/garyseconomics/chatbot/issues/36)) -- Currently video links are appended as a separate block at the end of the response. Instead, each subtitle fragment provided as context should carry its own video link, so the LLM can reference the correct source naturally within the answer. This is tied to #33 (message length) since inline links change how much space the response uses, and to the video link handling rework noted there. **Being implemented as part of #26 (temporal awareness) — see New functionality section.**
   - [ ] **Rethink how video metadata is passed to the bot** -- Currently, the YouTube video ID is hardcoded in the SRT filename (using `VIDEO_IDS_SEPARATOR` to split it). This was a quick fix but is fragile. Rethink how video metadata (URL, publish date, title) is stored and provided to the bot. A good moment to address this is when we also rework how video links are included in the prompt (#36, #26).
   - [ ] **Source document access** -- Users have been asking the bot to provide its sources. The bot should be able to point users to exactly where its answer came from (video links, documents, quotes). Ties into the inline video links work (#36) and content expansion (section 4) — when we add new reference material, we should store the original sources alongside it.
-
-### 3.3 QA testing pipeline
-
-- [x] **Rework the QA testing pipeline** -- Done. `analytics/scripts/ask_all_questions.py` now only asks questions (traces go to Langfuse). The unified `trace_importer.py` imports all traces including `qa_test` ones, with vector search context stored in `search_result_documents`. Remaining improvements:
-  - [ ] Allow choosing which questions to ask — e.g., by category, by list, or by passing specific questions.
-  - [x] **Prerequisite for more prompt tests:** Add prompt_version to Langfuse trace metadata — done, the importer now reads it from metadata.
 
 ## 4. More content
 
