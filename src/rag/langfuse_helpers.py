@@ -27,6 +27,7 @@ def update_and_flush_trace(langfuse_client, user_id, llm_client):
             "chat_provider": llm_client.chat_provider_name,
             "embedding_model": llm_client.embeddings_model.model,
             "embedding_provider": llm_client.embeddings_provider_name,
+            "prompt_version": settings.prompt_version,
         },
     )
     langfuse_client.flush()
