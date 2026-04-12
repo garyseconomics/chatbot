@@ -39,6 +39,7 @@ target-version = "py311"
 select = ["E", "F", "W", "I"]
 
 [tool.pytest.ini_options]
+pythonpath = ["./src"]
 testpaths = ["tests"]
 markers = [
     "langfuse: tests that require a running Langfuse server and credentials",
