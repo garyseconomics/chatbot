@@ -85,7 +85,7 @@ Vector DB   LLM Manager
 
 ## Tech stack
 
-- **Python 3.11+**
+- **Python 3.11+, <3.14**
 - **pytest** for testing
 - **ruff** for linting and formatting
 - **LangChain** + **LangGraph** for RAG pipeline and LLM integration
