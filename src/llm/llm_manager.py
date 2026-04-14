@@ -8,6 +8,7 @@ from langchain_core.language_models import BaseChatModel
 # Base return type from .invoke() — covers AIMessage, HumanMessage, etc.
 from langchain_core.messages import BaseMessage
 from langchain_ollama import ChatOllama, OllamaEmbeddings
+from langchain_community.chat_models import ChatOpenAI
 from langfuse import observe
 
 from config import settings
@@ -126,16 +127,20 @@ class LLM_Client:
             "model": provider["chat_model"],
             "base_url": provider["url"],
         }
-        # Pass auth headers for cloud providers (e.g., Ollama Cloud)
-        if provider["api_key"]:
-            kwargs["client_kwargs"] = {
-                "headers": {"Authorization": f"Bearer {provider['api_key']}"}
-            }
-        self.chat_model = ChatOllama(**kwargs)
+        if provider["type"] == "ollama":
+            # Pass auth headers for Ollama Cloud
+            if provider["api_key"]:
+                kwargs["client_kwargs"] = {
+                    "headers": {"Authorization": f"Bearer {provider['api_key']}"}
+                }
+            self.chat_model = ChatOllama(**kwargs)
+        elif provider["type"] == "openai":
+            kwargs["api_key"] = provider["api_key"]
+            self.chat_model = ChatOpenAI(**kwargs)
         return self.chat_model
 
     # Calling the LLM
-    @observe(name="ollama_request", as_type="generation", capture_input=True, capture_output=True)
+    @observe(name="llm_request", as_type="generation", capture_input=True, capture_output=True)
     async def chat(self, prompt, user_id) -> BaseMessage:
         """Send a prompt to the LLM and return the response.
         """

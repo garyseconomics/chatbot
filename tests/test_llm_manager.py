@@ -163,4 +163,6 @@ async def test_chat_reports_errors_from_all_providers(monkeypatch):
     assert "nonexistent_model_12345" in client.providers_errors["bad_model_provider"]
     assert "nonexistent_model_12345" in error_message
 
+    # TODO: might need more robust error checking now we have OpenAI client in workflow
+
 # {"detail":{"error":{"message":"The model 'ollama/nonexistent_model_12345' does not exist.","type":"invalid_request_error","param":"model","code":"model_not_found"}}} (status code: 404)
