@@ -1,3 +1,4 @@
+from pathlib import Path
 from unittest.mock import AsyncMock, MagicMock
 
 import pytest
@@ -61,6 +62,31 @@ async def test_question_runs_without_errors(monkeypatch):
     sent_text = context.bot.send_message.call_args.kwargs["text"]
     assert "Wealth is..." in sent_text
 
+@pytest.mark.asyncio
+async def test_question_runs_without_errors_answer_longer_than_max_limit(monkeypatch):
+    """The question handler runs end-to-end without crashing."""
+
+    query = Path("./tests/test-data/long-question.md").read_text()
+    answer = Path("./tests/test-data/long-answer.md").read_text()
+    mock_rag = AsyncMock(
+        return_value={
+            "answer": answer,
+            "context": [],
+            "question": query,
+        }
+    )
+    monkeypatch.setattr("interfaces.telegram_bot.RAG_query", mock_rag)
+
+    update = _make_update(text="What is wealth?")
+    context = _make_context()
+
+    await question(update, context)
+
+    sent_text = ""
+    for call in context.bot.send_message.await_args_list:
+        sent_text = sent_text + call[1]["text"]
+
+    assert answer in sent_text
 
 @pytest.mark.asyncio
 async def test_question_sends_error_message_on_failure(monkeypatch):

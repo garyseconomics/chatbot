@@ -4,6 +4,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 
 from config import settings
+from interfaces.chunker import telegram_bot_chunker
 from rag.rag_manager import RAG_query
 from rag.video_links import get_video_link, videos_text_for_chat
 
@@ -28,7 +29,9 @@ async def question(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             answer = f"{answer}\n\n{video_text}"
         logger.debug("RAG answer: %s", rag_answer)
         logger.debug("Video links: %s", video_links)
-        await context.bot.send_message(chat_id=update.effective_chat.id, text=answer)
+        for chunk in telegram_bot_chunker.chunk(answer):
+            await context.bot.send_message(chat_id=update.effective_chat.id, text=chunk.text)
+
     except Exception:
         logger.exception("Failed to handle message")
         await context.bot.send_message(

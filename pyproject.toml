@@ -19,6 +19,7 @@ dependencies = [
 
     "pydantic-settings",
     "python-telegram-bot",
+    "chonkie",
 ]
 
 [project.optional-dependencies]
