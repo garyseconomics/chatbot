@@ -86,6 +86,7 @@ async def test_question_runs_without_errors_answer_longer_than_max_limit(monkeyp
     for call in context.bot.send_message.await_args_list:
         sent_text = sent_text + call[1]["text"]
 
+    assert len(context.bot.send_message.await_args_list) == 2
     assert answer in sent_text
 
 @pytest.mark.asyncio
