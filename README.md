@@ -140,6 +140,9 @@ Then fill in the values. The available variables are:
 - `OLLAMA_CLOUD_URL` — URL of the cloud Ollama provider.
 - `OLLAMA_CLOUD_API_KEY` — API key for the cloud Ollama provider.
 
+**Backup LLM Providers**
+- `OPENROUTER_API_KEY` - API key for [OpenRouter](https://openrouter.ai) they have a decent free tier to be used as a backup.
+
 **Bot tokens**
 - `TELEGRAM_TOKEN` — Token for the Telegram bot. You get this when you [create a bot with BotFather](#create-a-telegram-bot).
 - `DISCORD_TOKEN` — Token for the Discord bot. You need a bot installed on a server with permission to read and send messages.
