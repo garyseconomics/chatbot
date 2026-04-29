@@ -1,0 +1,4623 @@
+﻿1
+00:00:01,840 --> 00:00:03,400
+Fresh biscuits.
+
+2
+00:00:05,160 --> 00:00:07,280
+Okay, welcome back to Garys Economics.
+
+3
+00:00:07,280 --> 00:00:09,480
+This week, we are going to explain
+
+4
+00:00:09,480 --> 00:00:13,520
+whether AI will drive wages up or down.
+
+5
+00:00:16,800 --> 00:00:20,840
+Okay, so this is a question which I keep getting asked.
+
+6
+00:00:20,840 --> 00:00:23,240
+So fans of the channel will know I was on tour
+
+7
+00:00:23,240 --> 00:00:27,320
+in Australia and New Zealand about a month ago,
+
+8
+00:00:27,320 --> 00:00:29,840
+and every single tour that I went, I got asked,
+
+9
+00:00:29,840 --> 00:00:32,760
+"What's AI going to do to the economy, to inequality,
+
+10
+00:00:32,760 --> 00:00:37,440
+to wages?" And I was hesitant to do a video on it
+
+11
+00:00:37,440 --> 00:00:41,480
+because initially it seemed so obvious to me
+
+12
+00:00:41,480 --> 00:00:47,600
+that AI was going to displace jobs and drive wages down.
+
+13
+00:00:47,600 --> 00:00:50,000
+But the more I sat and read about it,
+
+14
+00:00:50,000 --> 00:00:51,840
+and thought about it, and talked about it,
+
+15
+00:00:51,840 --> 00:00:54,760
+the more I realised that this answer
+
+16
+00:00:54,760 --> 00:00:58,640
+is not so unbelievably obvious as I initially thought.
+
+17
+00:00:58,640 --> 00:01:01,160
+So there are a lot of people putting out the idea
+
+18
+00:01:01,160 --> 00:01:03,360
+that AI might actually drive wages up.
+
+19
+00:01:03,360 --> 00:01:05,400
+I've got a couple of quotes here.
+
+20
+00:01:05,400 --> 00:01:08,080
+There's a, there's an article in Fox Business,
+
+21
+00:01:08,080 --> 00:01:11,840
+saying AI is going to drive... substantially reduce
+
+22
+00:01:11,840 --> 00:01:15,280
+wage inequality and drive up wages for low-wage workers.
+
+23
+00:01:15,280 --> 00:01:19,240
+Fortune magazine has a piece here from the IMF,
+
+24
+00:01:19,240 --> 00:01:20,400
+the International Monetary Fund,
+
+25
+00:01:20,400 --> 00:01:23,440
+saying that it's going to raise lower-paid wages.
+
+26
+00:01:23,440 --> 00:01:25,360
+I was reading The Economist this week,
+
+27
+00:01:25,360 --> 00:01:26,480
+and they strongly implied
+
+28
+00:01:26,480 --> 00:01:29,680
+that there's no evidence that AI is displacing jobs.
+
+29
+00:01:29,680 --> 00:01:33,040
+So I saw that a lot of people seem to think, or at
+
+30
+00:01:33,040 --> 00:01:36,240
+least saying they think, AI will not drive wages down.
+
+31
+00:01:36,240 --> 00:01:37,520
+And it's got me thinking
+
+32
+00:01:37,520 --> 00:01:43,560
+about how economists think about technology and wages.
+
+33
+00:01:43,560 --> 00:01:45,280
+So when we start thinking
+
+34
+00:01:45,280 --> 00:01:48,520
+about what is the level of wages, as we are taught
+
+35
+00:01:48,520 --> 00:01:50,880
+in our economics degrees, first thing to say
+
+36
+00:01:50,880 --> 00:01:55,360
+is most economists really don't study this much at all.
+
+37
+00:01:55,360 --> 00:01:59,160
+There is a field of economics called labour economics,
+
+38
+00:01:59,160 --> 00:02:00,120
+which talks about, like,
+
+39
+00:02:00,120 --> 00:02:02,600
+how the economy, like, affects workers.
+
+40
+00:02:02,600 --> 00:02:04,280
+It does include sections
+
+41
+00:02:04,280 --> 00:02:07,720
+on what determines the wage level
+
+42
+00:02:07,720 --> 00:02:10,960
+but this is basically an optional field of study.
+
+43
+00:02:10,960 --> 00:02:14,400
+I didn't do it until my master's degree,
+
+44
+00:02:14,400 --> 00:02:16,000
+so I didn't do any labour economics up,
+
+45
+00:02:16,000 --> 00:02:20,400
+up until my fifth year of economics, and even then,
+
+46
+00:02:20,400 --> 00:02:23,040
+we actually didn't do much about the relationship
+
+47
+00:02:23,040 --> 00:02:26,760
+really between wages and technology
+
+48
+00:02:26,760 --> 00:02:31,200
+or wages and the distribution.
+
+49
+00:02:31,200 --> 00:02:31,840
+Until
+
+50
+00:02:31,840 --> 00:02:34,600
+you get into that sort of advanced level economics,
+
+51
+00:02:34,600 --> 00:02:39,360
+you will be basically given one idea about wages,
+
+52
+00:02:39,360 --> 00:02:41,760
+which is that wages are driven
+
+53
+00:02:41,760 --> 00:02:44,520
+by what economists call marginal productivity.
+
+54
+00:02:44,520 --> 00:02:45,520
+So this idea
+
+55
+00:02:45,520 --> 00:02:48,120
+that wages are driven by marginal productivity
+
+56
+00:02:48,120 --> 00:02:53,120
+is just a very simple idea, which is that if I hire...
+
+57
+00:02:53,120 --> 00:02:56,920
+if hiring one new worker will get me
+
+58
+00:02:56,920 --> 00:03:01,480
+£100 of new product, say I'm making biscuits,
+
+59
+00:03:01,480 --> 00:03:04,560
+one new worker can make £100 of biscuits a day,
+
+60
+00:03:04,560 --> 00:03:07,600
+then I had better pay that worker something
+
+61
+00:03:07,600 --> 00:03:11,480
+close to £100, otherwise some other business owner,
+
+62
+00:03:11,480 --> 00:03:14,080
+some other capitalist, is going to snatch up that worker,
+
+63
+00:03:14,080 --> 00:03:15,280
+and he's going to pay them £100,
+
+64
+00:03:15,280 --> 00:03:17,560
+and he's going to make the profit from it.
+
+65
+00:03:17,560 --> 00:03:21,960
+And this idea, which is taught to basically everybody
+
+66
+00:03:21,960 --> 00:03:24,240
+who studies economics from, like, a young age,
+
+67
+00:03:24,240 --> 00:03:28,280
+from your first year, basically implies that wages
+
+68
+00:03:28,280 --> 00:03:31,840
+are quite closely connected to worker productivity.
+
+69
+00:03:31,840 --> 00:03:35,240
+And if we view AI from this perspective,
+
+70
+00:03:35,240 --> 00:03:41,480
+this would strongly imply that AI should drive wages up
+
+71
+00:03:41,480 --> 00:03:44,760
+for the very simple and obvious reason that AI,
+
+72
+00:03:44,760 --> 00:03:46,720
+it is an improvement, whether you like it or not,
+
+73
+00:03:46,720 --> 00:03:48,120
+I don't love it...
+
+74
+00:03:48,120 --> 00:03:50,560
+It is an improvement on previously existing tools.
+
+75
+00:03:50,560 --> 00:03:53,280
+Most of us are using it quite frequently now.
+
+76
+00:03:53,280 --> 00:03:55,200
+I use it pretty much every day
+
+77
+00:03:55,200 --> 00:03:57,480
+when I'm doing my research.
+
+78
+00:03:57,480 --> 00:03:59,680
+AI has improved worker productivity.
+
+79
+00:03:59,680 --> 00:04:00,920
+Economists tend
+
+80
+00:04:00,920 --> 00:04:03,960
+to believe that at least in the long run,
+
+81
+00:04:03,960 --> 00:04:06,680
+worker productivity is the key driver of wages.
+
+82
+00:04:06,680 --> 00:04:09,360
+So I think it's fair to say that amongst economists
+
+83
+00:04:09,360 --> 00:04:12,240
+generally, they would say that any improved technology,
+
+84
+00:04:12,240 --> 00:04:17,440
+including AI, should drive workers' wages up.
+
+85
+00:04:17,440 --> 00:04:19,080
+So what we have here is, like,
+
+86
+00:04:19,080 --> 00:04:23,880
+an interesting disagreement in a sense between the,
+
+87
+00:04:23,880 --> 00:04:25,600
+the instinctive response, which is,
+
+88
+00:04:25,600 --> 00:04:29,560
+well, AI is going to mean companies hire fewer workers.
+
+89
+00:04:29,560 --> 00:04:31,640
+It's going to mean workers get laid off,
+
+90
+00:04:31,640 --> 00:04:33,600
+and that's going to drive wages down
+
+91
+00:04:33,600 --> 00:04:36,480
+and the more common answer from economists,
+
+92
+00:04:36,480 --> 00:04:39,280
+which is AI is going to improve worker productivity,
+
+93
+00:04:39,280 --> 00:04:41,360
+and that should drive wages up.
+
+94
+00:04:41,360 --> 00:04:43,400
+So we're going to discuss in this video
+
+95
+00:04:43,400 --> 00:04:45,280
+which of those answers is correct.
+
+96
+00:04:45,280 --> 00:04:48,040
+All right, so first we need to basically make
+
+97
+00:04:48,040 --> 00:04:52,120
+the 2 cases in a little bit more clarity.
+
+98
+00:04:52,120 --> 00:04:54,400
+So I'm going to start with the case
+
+99
+00:04:54,400 --> 00:04:58,320
+that AI will reduce workers' wages.
+
+100
+00:04:58,320 --> 00:05:00,680
+And I'm not going to spend too much time on it because
+
+101
+00:05:00,680 --> 00:05:04,640
+I think this is a very instinctive and intuitive case.
+
+102
+00:05:04,640 --> 00:05:06,200
+I think most of you,
+
+103
+00:05:06,200 --> 00:05:08,640
+especially people who are younger in the job market,
+
+104
+00:05:08,640 --> 00:05:10,400
+will have kind of seen it with your eyes,
+
+105
+00:05:10,400 --> 00:05:15,880
+which is AI means that we don't need as much staff
+
+106
+00:05:15,880 --> 00:05:17,560
+to do the same things.
+
+107
+00:05:17,560 --> 00:05:19,360
+So, you know, I, for example,
+
+108
+00:05:19,360 --> 00:05:23,120
+am using AI to do my research in many cases.
+
+109
+00:05:23,120 --> 00:05:26,080
+I'm aware that often it's a bit ****
+
+110
+00:05:26,080 --> 00:05:28,320
+and the answers it provides are a bit rubbish.
+
+111
+00:05:28,320 --> 00:05:30,280
+But it is much quicker
+
+112
+00:05:30,280 --> 00:05:32,400
+than previous research tools I might have used.
+
+113
+00:05:32,400 --> 00:05:34,840
+So whereas in the past I might have been thinking
+
+114
+00:05:34,840 --> 00:05:37,400
+more actively about maybe we should hire a researcher,
+
+115
+00:05:37,400 --> 00:05:38,960
+I don't need that researcher now,
+
+116
+00:05:38,960 --> 00:05:41,160
+and I'm not hiring as many workers.
+
+117
+00:05:41,160 --> 00:05:42,920
+And people, it seems,
+
+118
+00:05:42,920 --> 00:05:45,320
+are making these decisions all across the economy.
+
+119
+00:05:45,320 --> 00:05:46,960
+A lot of businesses are...
+
+120
+00:05:46,960 --> 00:05:49,440
+have less need for especially junior staff.
+
+121
+00:05:49,440 --> 00:05:52,640
+At the moment, AI seems to be quite good at
+
+122
+00:05:52,640 --> 00:05:55,840
+doing things, like, pretty badly, but incredibly easily,
+
+123
+00:05:55,840 --> 00:05:57,600
+which means... which is basically replacing,
+
+124
+00:05:57,600 --> 00:06:00,240
+like... replacing lower level junior staff.
+
+125
+00:06:00,240 --> 00:06:01,560
+We're not hiring the staff.
+
+126
+00:06:01,560 --> 00:06:03,960
+That means there's loads of unemployed people, and
+
+127
+00:06:03,960 --> 00:06:06,280
+especially young people, there's higher unemployment,
+
+128
+00:06:06,280 --> 00:06:07,600
+and it's driving wages down.
+
+129
+00:06:07,600 --> 00:06:09,160
+Like, it's a really obvious,
+
+130
+00:06:09,160 --> 00:06:10,640
+intuitive, instinctive argument.
+
+131
+00:06:10,640 --> 00:06:11,600
+So that's the case
+
+132
+00:06:11,600 --> 00:06:15,880
+for AI is going to drive wages down. What is the case,
+
+133
+00:06:15,880 --> 00:06:19,880
+which is more of a economic theoretical case
+
+134
+00:06:19,880 --> 00:06:23,160
+for why AI might drive wages up?
+
+135
+00:06:23,160 --> 00:06:27,320
+So this goes down to basically 2 things.
+
+136
+00:06:27,320 --> 00:06:29,760
+First, we're going to cover the theoretical case
+
+137
+00:06:29,760 --> 00:06:30,920
+and then afterwards we're going to move on
+
+138
+00:06:30,920 --> 00:06:33,560
+to the kind of like historical basis for why,
+
+139
+00:06:33,560 --> 00:06:35,440
+why people and economists believe this.
+
+140
+00:06:35,440 --> 00:06:39,880
+So the theoretical case is based on this idea that,
+
+141
+00:06:39,880 --> 00:06:45,320
+that workers should be paid their marginal product.
+
+142
+00:06:45,320 --> 00:06:47,200
+This is an economics term.
+
+143
+00:06:47,200 --> 00:06:48,240
+Maybe we'll flash it up.
+
+144
+00:06:48,240 --> 00:06:50,000
+I'm writing here, marginal product.
+
+145
+00:06:50,000 --> 00:06:51,360
+And that means...
+
+146
+00:06:51,360 --> 00:06:53,320
+marginal means like at the margin.
+
+147
+00:06:53,320 --> 00:06:56,920
+So it means if me, a company owner, factory
+
+148
+00:06:56,920 --> 00:07:00,760
+owner, biscuit factory owner hires one more worker,
+
+149
+00:07:00,760 --> 00:07:04,560
+if that worker is going to make me one hundred biscuits,
+
+150
+00:07:04,560 --> 00:07:06,840
+I'd better pay him the value of a hundred biscuits.
+
+151
+00:07:06,840 --> 00:07:08,960
+Otherwise, you know, I'm giving up profit
+
+152
+00:07:08,960 --> 00:07:10,640
+because it's a competitive market.
+
+153
+00:07:10,640 --> 00:07:11,880
+There's always these, you know,
+
+154
+00:07:11,880 --> 00:07:14,240
+God knows the number of biscuit factories around here.
+
+155
+00:07:14,240 --> 00:07:17,520
+If I don't hire that guy and pay him his 100 biscuits
+
+156
+00:07:17,520 --> 00:07:20,560
+worth, someone else is going to come in under my nose, and
+
+157
+00:07:20,560 --> 00:07:23,200
+I'm going to lose like a big, hot biscuit factory owner.
+
+158
+00:07:23,200 --> 00:07:25,680
+And if I don't pay him that much, some...
+
+159
+00:07:25,680 --> 00:07:27,040
+you know, we live in a competitive market,
+
+160
+00:07:27,040 --> 00:07:27,840
+someone's going to come in.
+
+161
+00:07:27,840 --> 00:07:29,200
+So if suddenly I, you know,
+
+162
+00:07:29,200 --> 00:07:32,560
+I'm paying all my biscuit makers 100 biscuits, you know,
+
+163
+00:07:32,560 --> 00:07:35,760
+the equivalent a day, and then suddenly I've got
+
+164
+00:07:35,760 --> 00:07:38,520
+new technology and these guys are making 150 biscuits,
+
+165
+00:07:38,520 --> 00:07:41,600
+well, if I don't raise their wages, somebody else
+
+166
+00:07:41,600 --> 00:07:43,920
+is going to poach them from me, and then they're going to...
+
+167
+00:07:43,920 --> 00:07:46,000
+he's going to pay them 120 biscuits.
+
+168
+00:07:46,000 --> 00:07:48,920
+He's going to get 30 free biscuits for every worker,
+
+169
+00:07:48,920 --> 00:07:49,320
+you know.
+
+170
+00:07:49,320 --> 00:07:51,160
+And it's kind of based on this kind of,
+
+171
+00:07:51,160 --> 00:07:54,000
+you know, Adam Smith like freehand idea that basically,
+
+172
+00:07:54,000 --> 00:07:55,400
+you know, if I don't pay those workers what
+
+173
+00:07:55,400 --> 00:07:57,800
+they're going to make me, they're going to leave, you know?
+
+174
+00:07:57,800 --> 00:07:59,520
+And if,
+
+175
+00:07:59,520 --> 00:08:01,680
+if not, somebody's going to go out and make new factories.
+
+176
+00:08:01,680 --> 00:08:02,760
+It's kind of based on this idea,
+
+177
+00:08:02,760 --> 00:08:04,280
+you have this thriving economy,
+
+178
+00:08:04,280 --> 00:08:05,600
+you have this free market.
+
+179
+00:08:05,600 --> 00:08:08,560
+If the workers are able to provide you that money,
+
+180
+00:08:08,560 --> 00:08:09,120
+you should hire them.
+
+181
+00:08:09,120 --> 00:08:10,400
+And, you know, it makes sense.
+
+182
+00:08:10,400 --> 00:08:12,880
+If I could hire a worker
+
+183
+00:08:12,880 --> 00:08:15,560
+at £20,000 a year, or let's say £30,000 a year,
+
+184
+00:08:15,560 --> 00:08:18,840
+and he's going to increase my revenue by £50,000 a year,
+
+185
+00:08:18,840 --> 00:08:20,040
+I should hire him, right?
+
+186
+00:08:20,040 --> 00:08:20,400
+And, you know,
+
+187
+00:08:20,400 --> 00:08:23,360
+this is... this, it's basic free market ideas.
+
+188
+00:08:23,360 --> 00:08:26,640
+And there is no doubt, I don't think anybody could,
+
+189
+00:08:26,640 --> 00:08:29,760
+could realistically suggest that AI has not,
+
+190
+00:08:29,760 --> 00:08:31,840
+at least to some degree,
+
+191
+00:08:31,840 --> 00:08:36,080
+increased the average productivity of a lot of workers.
+
+192
+00:08:36,080 --> 00:08:39,040
+You know, I think anybody who's working a sort of,
+
+193
+00:08:39,040 --> 00:08:41,120
+any sort of office job will be using it
+
+194
+00:08:41,120 --> 00:08:43,240
+to at least some degree and will consider it to have,
+
+195
+00:08:43,240 --> 00:08:45,560
+have improved to some degree their productivity.
+
+196
+00:08:45,560 --> 00:08:47,400
+So those are our 2 arguments, right?
+
+197
+00:08:47,400 --> 00:08:50,560
+On the one hand, we don't need to hire so many workers.
+
+198
+00:08:50,560 --> 00:08:51,960
+We're going to hire fewer workers.
+
+199
+00:08:51,960 --> 00:08:53,360
+There's going to be more unemployed workers.
+
+200
+00:08:53,360 --> 00:08:54,920
+That's going to drive wages down.
+
+201
+00:08:54,920 --> 00:08:56,160
+On the other hand,
+
+202
+00:08:56,160 --> 00:08:58,720
+this technology has increased worker productivity.
+
+203
+00:08:58,720 --> 00:09:00,160
+So there's all these workers out there
+
+204
+00:09:00,160 --> 00:09:02,480
+that are potentially more productive, so
+
+205
+00:09:02,480 --> 00:09:05,040
+I should hire them and it will make me profitable.
+
+206
+00:09:05,040 --> 00:09:06,280
+So these are the 2...
+
+207
+00:09:06,280 --> 00:09:08,600
+these are the 2 horses in the race, you know.
+
+208
+00:09:08,600 --> 00:09:11,040
+It displaces workers, drives wages down.
+
+209
+00:09:11,040 --> 00:09:16,640
+It increases worker productivity, it drives wages up.
+
+210
+00:09:16,640 --> 00:09:21,560
+So I think amongst economists, the more popular view
+
+211
+00:09:21,560 --> 00:09:24,840
+in general, and obviously not all economists agree, is
+
+212
+00:09:24,840 --> 00:09:28,680
+probably this idea that in the vast majority of cases,
+
+213
+00:09:28,680 --> 00:09:32,800
+improved technology drives wages up.
+
+214
+00:09:32,800 --> 00:09:36,760
+And I think perhaps a popular stance is this idea
+
+215
+00:09:36,760 --> 00:09:39,840
+that in the short run, it can do this thing,
+
+216
+00:09:39,840 --> 00:09:42,960
+which I think we are kind of obviously seeing now,
+
+217
+00:09:42,960 --> 00:09:45,920
+of displacing workers and maybe causing a bit of, like,
+
+218
+00:09:45,920 --> 00:09:48,080
+friction in the short term.
+
+219
+00:09:48,080 --> 00:09:51,240
+But in the long run, it's good for society
+
+220
+00:09:51,240 --> 00:09:53,080
+to allow new technologies to come in.
+
+221
+00:09:53,080 --> 00:09:55,400
+And if we do that, if we just allow it to come in,
+
+222
+00:09:55,400 --> 00:09:57,680
+in the long run, everything will sort itself out
+
+223
+00:09:57,680 --> 00:09:59,240
+and wages will go up.
+
+224
+00:09:59,240 --> 00:10:01,760
+And I think this is like a broadly popular idea
+
+225
+00:10:01,760 --> 00:10:03,080
+amongst economists.
+
+226
+00:10:03,080 --> 00:10:04,360
+Not everybody will agree.
+
+227
+00:10:04,360 --> 00:10:07,760
+Now let's talk about the historical reasons
+
+228
+00:10:07,760 --> 00:10:11,640
+why this point of view has become so popular.
+
+229
+00:10:11,640 --> 00:10:18,360
+So I think the popularity of this view is largely down
+
+230
+00:10:18,360 --> 00:10:22,280
+to people looking back at the Industrial Revolution.
+
+231
+00:10:22,280 --> 00:10:23,880
+Another chance for me to talk about history
+
+232
+00:10:23,880 --> 00:10:24,400
+on this channel.
+
+233
+00:10:24,400 --> 00:10:25,720
+So for those who don't know,
+
+234
+00:10:25,720 --> 00:10:28,360
+the Industrial Revolution is a period
+
+235
+00:10:28,360 --> 00:10:31,960
+in particularly British history, but also world history,
+
+236
+00:10:31,960 --> 00:10:36,560
+where basically we, I say we, people at the time,
+
+237
+00:10:36,560 --> 00:10:38,640
+but it was largely focused in Britain,
+
+238
+00:10:38,640 --> 00:10:42,280
+invented a lot of new ways
+
+239
+00:10:42,280 --> 00:10:44,400
+to make things that were more efficient.
+
+240
+00:10:44,400 --> 00:10:49,000
+In particular, we mechanised manufacturing,
+
+241
+00:10:49,000 --> 00:10:52,120
+and we created basically the idea of the factory.
+
+242
+00:10:52,120 --> 00:10:54,160
+So whereas before the Industrial Revolution,
+
+243
+00:10:54,160 --> 00:10:56,600
+most, like, manufactured goods would have been made by,
+
+244
+00:10:56,600 --> 00:10:59,560
+like, expert artisans who, you know,
+
+245
+00:10:59,560 --> 00:11:02,280
+they make everything, like, themselves from scratch
+
+246
+00:11:02,280 --> 00:11:05,440
+using, like, skills that they got from their dad
+
+247
+00:11:05,440 --> 00:11:08,320
+and their dad's dad and their dad's dad or whatever.
+
+248
+00:11:08,320 --> 00:11:09,480
+In the Industrial Revolution,
+
+249
+00:11:09,480 --> 00:11:11,760
+we basically invented, like, the factory,
+
+250
+00:11:11,760 --> 00:11:14,240
+which means we create specialised...
+
+251
+00:11:14,240 --> 00:11:17,920
+we split the role of making a thing into, like, a lot of
+
+252
+00:11:17,920 --> 00:11:23,040
+very simple, specialised roles, and we create machinery
+
+253
+00:11:23,040 --> 00:11:27,000
+that enables one person to do that specific role,
+
+254
+00:11:27,000 --> 00:11:28,280
+like, a million times in a day,
+
+255
+00:11:28,280 --> 00:11:30,400
+and we create this sort of factory system.
+
+256
+00:11:30,400 --> 00:11:33,920
+We split the roles up,
+
+257
+00:11:33,920 --> 00:11:36,200
+specialised roles, and you have this factory,
+
+258
+00:11:36,200 --> 00:11:38,400
+and you have this, like, assembly line process.
+
+259
+00:11:38,400 --> 00:11:42,000
+And all of this new machinery was created,
+
+260
+00:11:42,000 --> 00:11:44,200
+and it enormously, enormously, like...
+
+261
+00:11:44,200 --> 00:11:45,680
+I mean, it changed the world.
+
+262
+00:11:45,680 --> 00:11:48,160
+You know, it enormously increased
+
+263
+00:11:48,160 --> 00:11:51,920
+the productivity of society, of everyone.
+
+264
+00:11:51,920 --> 00:11:55,520
+It means that the amount of biscuits,
+
+265
+00:11:55,520 --> 00:11:57,520
+or for some reason, often
+
+266
+00:11:57,520 --> 00:11:59,880
+matchsticks are used in the example, the amount of...
+
+267
+00:11:59,880 --> 00:12:03,760
+or pins or needles or anything that could be made
+
+268
+00:12:03,760 --> 00:12:07,320
+by what, like, 100 people in,
+
+269
+00:12:07,320 --> 00:12:11,000
+in a day or a month increased, you know, maybe 50 times.
+
+270
+00:12:11,000 --> 00:12:15,120
+Massive, massive, massive increase in the ability
+
+271
+00:12:15,120 --> 00:12:20,080
+of humans to create manufactured products quickly. So,
+
+272
+00:12:20,080 --> 00:12:24,120
+whenever we discuss how does
+
+273
+00:12:24,120 --> 00:12:27,760
+technology affect living standards and affect
+
+274
+00:12:27,760 --> 00:12:32,960
+wages, most economists' minds will immediately go back
+
+275
+00:12:32,960 --> 00:12:35,160
+to, well, what happened in the Industrial Revolution?
+
+276
+00:12:35,160 --> 00:12:38,720
+Because this is, you know, probably the biggest example
+
+277
+00:12:38,720 --> 00:12:44,040
+in, you know, human history of rapid improvement
+
+278
+00:12:44,040 --> 00:12:46,840
+in technology and human productivity.
+
+279
+00:12:46,840 --> 00:12:48,560
+So how did that affect wages?
+
+280
+00:12:48,560 --> 00:12:51,640
+How did that affect living standards?
+
+281
+00:12:51,640 --> 00:12:54,800
+And I think the way that modern people
+
+282
+00:12:54,800 --> 00:12:55,840
+and modern economists
+
+283
+00:12:55,840 --> 00:12:58,880
+tend to think about this is probably best explained
+
+284
+00:12:58,880 --> 00:13:01,200
+by talking about the Luddites.
+
+285
+00:13:01,200 --> 00:13:03,880
+So there's a group of people in...
+
+286
+00:13:03,880 --> 00:13:04,960
+during the Industrial Revolution,
+
+287
+00:13:04,960 --> 00:13:06,920
+who are known as the Luddites.
+
+288
+00:13:06,920 --> 00:13:08,960
+And the way that these guys
+
+289
+00:13:08,960 --> 00:13:13,880
+have entered popular consciousness is this term,
+
+290
+00:13:13,880 --> 00:13:18,080
+to be a Luddite, has basically become shorthand to,
+
+291
+00:13:18,080 --> 00:13:21,840
+as to be somebody who kind of impotently
+
+292
+00:13:21,840 --> 00:13:25,080
+and maybe kind of stupidly perhaps tries to, like,
+
+293
+00:13:25,080 --> 00:13:27,760
+resist the inevitable path
+
+294
+00:13:27,760 --> 00:13:31,120
+of human progress towards improved technology.
+
+295
+00:13:31,120 --> 00:13:32,040
+And you know,
+
+296
+00:13:32,040 --> 00:13:33,920
+you can go and read about the Luddites if you want.
+
+297
+00:13:33,920 --> 00:13:35,760
+I think this is probably perhaps a little bit
+
+298
+00:13:35,760 --> 00:13:37,280
+of a simplification of what they did.
+
+299
+00:13:37,280 --> 00:13:39,280
+But the basic idea is
+
+300
+00:13:39,280 --> 00:13:42,040
+technology was improving incredibly rapidly
+
+301
+00:13:42,040 --> 00:13:46,080
+in this period of time in Britain, 1700s, 1800s.
+
+302
+00:13:46,080 --> 00:13:49,560
+And in the particular case of the Luddites,
+
+303
+00:13:49,560 --> 00:13:51,560
+these were a group of people who I believe were,
+
+304
+00:13:51,560 --> 00:13:52,800
+like, making cloth.
+
+305
+00:13:52,800 --> 00:13:55,640
+So like in most of these other cases, it used
+
+306
+00:13:55,640 --> 00:13:58,280
+to be made by, like, artisans, and now suddenly it's
+
+307
+00:13:58,280 --> 00:14:02,600
+being made in factories by people who don't necessarily
+
+308
+00:14:02,600 --> 00:14:06,320
+need that much skill in particular because they're just,
+
+309
+00:14:06,320 --> 00:14:09,800
+each individual step of the process has been separated.
+
+310
+00:14:09,800 --> 00:14:12,120
+It has its specific machinery.
+
+311
+00:14:12,120 --> 00:14:14,800
+And what this meant was all of these people
+
+312
+00:14:14,800 --> 00:14:17,720
+who had these, you know, generations of expertise
+
+313
+00:14:17,720 --> 00:14:20,480
+in making cloth are losing their jobs.
+
+314
+00:14:20,480 --> 00:14:23,520
+They're suddenly being, like, paid much worse.
+
+315
+00:14:23,520 --> 00:14:26,840
+And there was a resistance movement in England
+
+316
+00:14:26,840 --> 00:14:29,000
+based on these Luddites, where they would get together,
+
+317
+00:14:29,000 --> 00:14:31,080
+and they would secretly break into the factories,
+
+318
+00:14:31,080 --> 00:14:34,600
+and they would destroy this machinery, basically.
+
+319
+00:14:34,600 --> 00:14:36,920
+And it's often looked back at as like,
+
+320
+00:14:36,920 --> 00:14:38,960
+well, yeah, you know, these guys, they're unhappy
+
+321
+00:14:38,960 --> 00:14:40,520
+because their wages were going down.
+
+322
+00:14:40,520 --> 00:14:42,520
+But at the end of the day,
+
+323
+00:14:42,520 --> 00:14:44,640
+improved technology is always good.
+
+324
+00:14:44,640 --> 00:14:46,840
+And we can obviously see now, talking
+
+325
+00:14:46,840 --> 00:14:50,400
+in the 21st century, living standards here in the UK and
+
+326
+00:14:50,400 --> 00:14:53,600
+much of the world are enormously more, enormously better
+
+327
+00:14:53,600 --> 00:14:58,960
+than they were, you know, 200, 150 years ago.
+
+328
+00:14:58,960 --> 00:15:00,600
+And we look back at these people and say,
+
+329
+00:15:00,600 --> 00:15:05,680
+like, you know, we understand that they were opposed
+
+330
+00:15:05,680 --> 00:15:07,920
+to the way things were going at the time,
+
+331
+00:15:07,920 --> 00:15:10,160
+and things were tough for them.
+
+332
+00:15:10,160 --> 00:15:13,160
+But basically, improved technology is always good
+
+333
+00:15:13,160 --> 00:15:15,400
+in the long run for everyone, so just sort of grin
+
+334
+00:15:15,400 --> 00:15:17,080
+and bear it and stick it out.
+
+335
+00:15:17,080 --> 00:15:20,640
+And I think this is often the way that economists...
+
+336
+00:15:20,640 --> 00:15:23,120
+And to be honest, not even just economists, like society
+
+337
+00:15:23,120 --> 00:15:26,760
+in general looks at people who look at new technologies
+
+338
+00:15:26,760 --> 00:15:29,840
+and see that they're displacing workers,
+
+339
+00:15:29,840 --> 00:15:32,960
+and they see that it's maybe driving wages down
+
+340
+00:15:32,960 --> 00:15:35,040
+for some big groups of people,
+
+341
+00:15:35,040 --> 00:15:37,000
+very similar to what's happening in AI now.
+
+342
+00:15:37,000 --> 00:15:39,080
+And they say, "Look, don't oppose it,
+
+343
+00:15:39,080 --> 00:15:41,000
+because if you look back at the Industrial Revolution,
+
+344
+00:15:41,000 --> 00:15:43,560
+people opposed it then, and isn't it obvious now
+
+345
+00:15:43,560 --> 00:15:46,360
+in hindsight that those improvements in technology
+
+346
+00:15:46,360 --> 00:15:50,960
+benefited everyone?" But I think this reading
+
+347
+00:15:50,960 --> 00:15:55,000
+of the Industrial Revolution, which was, yeah,
+
+348
+00:15:55,000 --> 00:15:57,520
+you know, it might have caused a bit of friction,
+
+349
+00:15:57,520 --> 00:15:59,440
+economists love this term friction,
+
+350
+00:15:59,440 --> 00:16:01,200
+in the short term, but in the long run,
+
+351
+00:16:01,200 --> 00:16:04,840
+it was better for everyone, is perhaps, like,
+
+352
+00:16:04,840 --> 00:16:07,960
+a little bit misleading and a little bit oversimplified.
+
+353
+00:16:07,960 --> 00:16:10,680
+So let's talk a little bit about,
+
+354
+00:16:10,680 --> 00:16:11,520
+the Industrial Revolution
+
+355
+00:16:11,520 --> 00:16:13,800
+and what happened and how it happened.
+
+356
+00:16:13,800 --> 00:16:15,200
+So the Industrial Revolution was like a,
+
+357
+00:16:15,200 --> 00:16:16,920
+a massive, massive, massive change
+
+358
+00:16:16,920 --> 00:16:19,840
+in the way that the world works and the way,
+
+359
+00:16:19,840 --> 00:16:21,600
+it started in Britain and the way that Britain works.
+
+360
+00:16:21,600 --> 00:16:24,880
+And it happens in the context
+
+361
+00:16:24,880 --> 00:16:30,360
+of this enormous shift in the work that,
+
+362
+00:16:30,360 --> 00:16:33,080
+that people were doing in this country.
+
+363
+00:16:33,080 --> 00:16:37,360
+So up until the Industrial Revolution, the majority,
+
+364
+00:16:37,360 --> 00:16:41,080
+I want to say vast majority of workers in this country
+
+365
+00:16:41,080 --> 00:16:43,640
+and in the world were basically farmers.
+
+366
+00:16:43,640 --> 00:16:45,360
+They're working in food production,
+
+367
+00:16:45,360 --> 00:16:46,920
+and they're spread across the country because
+
+368
+00:16:46,920 --> 00:16:49,240
+you need to have farmers, like, wherever there is land.
+
+369
+00:16:49,240 --> 00:16:50,640
+And, in a country like Britain,
+
+370
+00:16:50,640 --> 00:16:52,760
+which has fertile land almost everywhere,
+
+371
+00:16:52,760 --> 00:16:53,920
+you need people everywhere.
+
+372
+00:16:53,920 --> 00:16:55,320
+Everybody's farming,
+
+373
+00:16:55,320 --> 00:16:57,440
+different kinds of farming, and they're making food.
+
+374
+00:16:57,440 --> 00:17:01,680
+And just before the Industrial Revolution starts,
+
+375
+00:17:01,680 --> 00:17:04,360
+you have these laws of enclosure,
+
+376
+00:17:04,360 --> 00:17:07,160
+the enclosure laws, which is a change
+
+377
+00:17:07,160 --> 00:17:09,400
+in the way that farming is managed in this country.
+
+378
+00:17:09,400 --> 00:17:10,280
+So up until then,
+
+379
+00:17:10,280 --> 00:17:12,720
+there was a system of, there was common land
+
+380
+00:17:12,720 --> 00:17:15,600
+which everybody could use to graze their animals,
+
+381
+00:17:15,600 --> 00:17:18,280
+and some laws have changed which benefits landowners,
+
+382
+00:17:18,280 --> 00:17:21,600
+hurts ordinary people, which basically say, you know,
+
+383
+00:17:21,600 --> 00:17:23,240
+"You can't use this common land anymore.
+
+384
+00:17:23,240 --> 00:17:26,800
+That's owned by the landowner." And it means that
+
+385
+00:17:26,800 --> 00:17:29,320
+suddenly a lot of farmers don't have access to land,
+
+386
+00:17:29,320 --> 00:17:31,280
+and they have to leave their farms,
+
+387
+00:17:31,280 --> 00:17:33,120
+and they have to go, and they have to go to the cities.
+
+388
+00:17:33,120 --> 00:17:37,640
+And it creates this massive pool of
+
+389
+00:17:37,640 --> 00:17:40,920
+basically impoverished, unemployed ex-farmers who don't
+
+390
+00:17:40,920 --> 00:17:42,760
+have any work, and they have to go to the cities.
+
+391
+00:17:42,760 --> 00:17:43,680
+In many ways,
+
+392
+00:17:43,680 --> 00:17:47,320
+it's a bit similar to what we've seen in some parts
+
+393
+00:17:47,320 --> 00:17:50,120
+of deindustrializing Europe, where, you know, people,
+
+394
+00:17:50,120 --> 00:17:52,080
+they used to live in these industrial towns.
+
+395
+00:17:52,080 --> 00:17:54,360
+Those industrial industries have collapsed,
+
+396
+00:17:54,360 --> 00:17:56,000
+and those people, especially young people,
+
+397
+00:17:56,000 --> 00:17:58,520
+are forced to move to, like, bigger cities to get work.
+
+398
+00:17:58,520 --> 00:18:02,760
+So we had this thing happening in the late 1700s
+
+399
+00:18:02,760 --> 00:18:04,400
+in England, which saw
+
+400
+00:18:04,400 --> 00:18:08,000
+all of these workers fled to the towns, and
+
+401
+00:18:08,000 --> 00:18:10,360
+a lot of people suggest that this is one of the reasons
+
+402
+00:18:10,360 --> 00:18:14,000
+why the Industrial Revolution happened, because suddenly
+
+403
+00:18:14,000 --> 00:18:16,960
+you have all of these unemployed workers,
+
+404
+00:18:16,960 --> 00:18:20,960
+which means that you can create a massive factory,
+
+405
+00:18:20,960 --> 00:18:21,680
+you know, the factories
+
+406
+00:18:21,680 --> 00:18:23,240
+that were being built during the Industrial Revolution,
+
+407
+00:18:23,240 --> 00:18:24,280
+some of them were massive.
+
+408
+00:18:24,280 --> 00:18:25,840
+And you can easily hire,
+
+409
+00:18:25,840 --> 00:18:27,120
+however many people you need,
+
+410
+00:18:27,120 --> 00:18:31,080
+50, 100 people because wages are incredibly low.
+
+411
+00:18:31,080 --> 00:18:32,600
+There's a large amount of unemployed people
+
+412
+00:18:32,600 --> 00:18:35,280
+looking for jobs, and it creates the potential basically
+
+413
+00:18:35,280 --> 00:18:38,440
+to build these factories.
+
+414
+00:18:38,440 --> 00:18:41,720
+In the early stages of the Industrial Revolution,
+
+415
+00:18:41,720 --> 00:18:45,680
+I think it is pretty much unanimously accepted
+
+416
+00:18:45,680 --> 00:18:50,920
+that people were living lives in these factories,
+
+417
+00:18:50,920 --> 00:18:54,280
+in these cities, which were pretty hellish.
+
+418
+00:18:54,280 --> 00:18:57,600
+So not to like romanticise the lives
+
+419
+00:18:57,600 --> 00:18:59,440
+these guys were previously living as farmers.
+
+420
+00:18:59,440 --> 00:19:01,040
+I'm sure they had their difficulties.
+
+421
+00:19:01,040 --> 00:19:03,440
+we're talking about 300 years ago now.
+
+422
+00:19:03,440 --> 00:19:04,720
+It's before I was born.
+
+423
+00:19:04,720 --> 00:19:07,200
+But these guys are flooding into cities.
+
+424
+00:19:07,200 --> 00:19:10,800
+They're working incredibly long days, 14-hour,
+
+425
+00:19:10,800 --> 00:19:15,400
+16-hour days, 6 days a week in cities which...
+
+426
+00:19:15,400 --> 00:19:19,440
+Well, in factories which have no safety restrictions.
+
+427
+00:19:19,440 --> 00:19:21,800
+Deaths are not uncommon.
+
+428
+00:19:21,800 --> 00:19:25,280
+So I used to live not far from here in Bow, East London,
+
+429
+00:19:25,280 --> 00:19:27,520
+in what used to be the biggest matchstick factory
+
+430
+00:19:27,520 --> 00:19:30,040
+in the world, and the people who used to work there,
+
+431
+00:19:30,040 --> 00:19:30,560
+they...
+
+432
+00:19:30,560 --> 00:19:32,920
+if they worked there for too long, their jaws would
+
+433
+00:19:32,920 --> 00:19:35,680
+like slowly start to disappear because they were working
+
+434
+00:19:35,680 --> 00:19:38,120
+with this dangerous chemical, white phosphorus,
+
+435
+00:19:38,120 --> 00:19:39,360
+and you couldn't stay there for too long
+
+436
+00:19:39,360 --> 00:19:40,920
+because your jaw would disappear.
+
+437
+00:19:40,920 --> 00:19:41,360
+And
+
+438
+00:19:41,360 --> 00:19:43,160
+that's specific to the matchstick factories, but
+
+439
+00:19:43,160 --> 00:19:46,160
+these kinds of incredibly unsafe working environments
+
+440
+00:19:46,160 --> 00:19:48,360
+in the factories were very common.
+
+441
+00:19:48,360 --> 00:19:50,920
+Because of this enormous movement of people
+
+442
+00:19:50,920 --> 00:19:52,960
+to the cities and the enormous growth in industries
+
+443
+00:19:52,960 --> 00:19:56,120
+and factories, the cities became incredibly crowded,
+
+444
+00:19:56,120 --> 00:19:59,200
+incredibly dirty, incredibly polluted.
+
+445
+00:19:59,200 --> 00:20:02,320
+Yeah, disease and death were common.
+
+446
+00:20:02,320 --> 00:20:04,160
+I wasn't around then, but
+
+447
+00:20:04,160 --> 00:20:08,480
+I think it's pretty much generally accepted that
+
+448
+00:20:08,480 --> 00:20:11,720
+at the very least, for the first sort of,
+
+449
+00:20:11,720 --> 00:20:15,320
+you know, maybe 100 years of the Industrial Revolution,
+
+450
+00:20:15,320 --> 00:20:21,520
+people were living in like pretty hellish environments.
+
+451
+00:20:22,880 --> 00:20:25,120
+They'd been moved from the kind of rural life
+
+452
+00:20:25,120 --> 00:20:27,880
+that they would have lived for maybe thousands of years
+
+453
+00:20:27,880 --> 00:20:31,120
+into living in incredibly crowded,
+
+454
+00:20:31,120 --> 00:20:34,720
+dirty, polluted cities, working incredibly long days
+
+455
+00:20:34,720 --> 00:20:39,760
+in incredibly dangerous environments and that happens.
+
+456
+00:20:39,760 --> 00:20:40,840
+You know, this is not...
+
+457
+00:20:40,840 --> 00:20:42,480
+We can look at it from the perspective
+
+458
+00:20:42,480 --> 00:20:44,520
+and say, "Oh well, you know, in the end it,
+
+459
+00:20:44,520 --> 00:20:46,920
+it worked out all right." You know, that's, you know,
+
+460
+00:20:46,920 --> 00:20:50,520
+that's like 100 years of people living like that and,
+
+461
+00:20:50,520 --> 00:20:53,840
+and you don't really start to see improvements
+
+462
+00:20:53,840 --> 00:20:57,000
+in like broad living standards for ordinary people
+
+463
+00:20:57,000 --> 00:20:59,760
+until sort of towards the end of the 1800s.
+
+464
+00:20:59,760 --> 00:21:03,480
+But I've often told the story of my grandma,
+
+465
+00:21:03,480 --> 00:21:08,080
+who was born in, I think, possibly 1927.
+
+466
+00:21:08,080 --> 00:21:10,720
+So 100 years ago next year.
+
+467
+00:21:10,720 --> 00:21:13,800
+She's living in the early 1900s.
+
+468
+00:21:13,800 --> 00:21:16,360
+So even then, sort of just off the back end
+
+469
+00:21:16,360 --> 00:21:18,840
+of the Industrial Revolution, my grandma was born
+
+470
+00:21:18,840 --> 00:21:22,640
+and raised in London, and I think 3 or 4 of her siblings
+
+471
+00:21:22,640 --> 00:21:25,800
+died of tuberculosis, which is a disease of poverty.
+
+472
+00:21:25,800 --> 00:21:27,760
+I think it's fair to say,
+
+473
+00:21:27,760 --> 00:21:33,000
+even in the 1920s, you are seeing pretty extreme poverty
+
+474
+00:21:33,000 --> 00:21:38,800
+being really pretty common for, you know,
+
+475
+00:21:38,800 --> 00:21:41,760
+half if not more, a majority of people,
+
+476
+00:21:41,760 --> 00:21:43,640
+even right at the end of the Industrial Revolution.
+
+477
+00:21:43,640 --> 00:21:48,680
+So, even 150 years later, you are still seeing
+
+478
+00:21:48,680 --> 00:21:53,280
+really broad poverty being the norm in Britain,
+
+479
+00:21:53,280 --> 00:21:56,120
+in London, so in the heart, the very heart,
+
+480
+00:21:56,120 --> 00:21:58,960
+the capital city of the Industrial Revolution.
+
+481
+00:21:58,960 --> 00:22:02,080
+So I think this idea that you look back and you say,
+
+482
+00:22:02,080 --> 00:22:04,720
+"Oh well, you know, things work out in the end,"
+
+483
+00:22:04,720 --> 00:22:06,600
+is pretty naive, right?
+
+484
+00:22:06,600 --> 00:22:08,640
+Because we had,
+
+485
+00:22:08,640 --> 00:22:13,320
+50, 100 years of hell for workers that, to be honest,
+
+486
+00:22:13,320 --> 00:22:16,440
+doesn't really get seriously resolved.
+
+487
+00:22:16,440 --> 00:22:18,800
+There's some questions about how the living...
+
+488
+00:22:18,800 --> 00:22:20,440
+were living standards seriously improving
+
+489
+00:22:20,440 --> 00:22:21,960
+towards the end of the 1800s.
+
+490
+00:22:21,960 --> 00:22:25,240
+But I think it's fair to say you don't really start
+
+491
+00:22:25,240 --> 00:22:29,440
+to see these serious living standard improvements
+
+492
+00:22:29,440 --> 00:22:32,000
+filter through to ordinary working people
+
+493
+00:22:32,000 --> 00:22:35,520
+until after the Second World War, which is, you know,
+
+494
+00:22:35,520 --> 00:22:39,280
+nearly 200 years after the Industrial Revolution starts.
+
+495
+00:22:39,280 --> 00:22:42,480
+So I think the idea that this is just
+
+496
+00:22:42,480 --> 00:22:47,480
+going to resolve itself, it took 200 years.
+
+497
+00:22:47,480 --> 00:22:52,320
+Do you want, 200 years of hell?
+
+498
+00:22:52,320 --> 00:22:54,040
+Is it worth it?
+
+499
+00:22:54,040 --> 00:22:57,240
+So I think this rather naive assumption,
+
+500
+00:22:57,240 --> 00:23:00,680
+which is often made by people who are benefiting
+
+501
+00:23:00,680 --> 00:23:02,440
+from the status quo, that things are just going to resolve
+
+502
+00:23:02,440 --> 00:23:06,560
+themselves, is not really at all borne out by history.
+
+503
+00:23:06,560 --> 00:23:11,520
+And if we look at the periods in time
+
+504
+00:23:11,520 --> 00:23:13,040
+when living standards increased
+
+505
+00:23:13,040 --> 00:23:15,120
+and when they didn't increase,
+
+506
+00:23:15,120 --> 00:23:18,800
+the big improvement happens after World War II.
+
+507
+00:23:18,800 --> 00:23:20,480
+And when does that happen?
+
+508
+00:23:20,480 --> 00:23:21,760
+When we see really,
+
+509
+00:23:21,760 --> 00:23:25,040
+really significant decrease in inequality,
+
+510
+00:23:25,040 --> 00:23:27,200
+and that comes at the culmination
+
+511
+00:23:27,200 --> 00:23:31,960
+of really like 200 years of workers' movements.
+
+512
+00:23:31,960 --> 00:23:34,960
+And I think this is the other part of the story,
+
+513
+00:23:34,960 --> 00:23:37,720
+which is often neglected to be discussed, right?
+
+514
+00:23:37,720 --> 00:23:40,680
+And when we talk about does technology improve
+
+515
+00:23:40,680 --> 00:23:43,800
+living standards, will AI improve living standards
+
+516
+00:23:43,800 --> 00:23:47,400
+did the Industrial Revolution improve living standards?
+
+517
+00:23:47,400 --> 00:23:51,920
+So the Industrial Revolution creates this really unusual
+
+518
+00:23:51,920 --> 00:23:53,400
+and particular world where
+
+519
+00:23:53,400 --> 00:23:57,920
+because the method of manufacturing, which was like
+
+520
+00:23:57,920 --> 00:24:01,720
+pioneered here in Britain in the 1700s, in the 1800s,
+
+521
+00:24:01,720 --> 00:24:07,720
+was so much technically superior to previous methods,
+
+522
+00:24:07,720 --> 00:24:10,280
+in a relatively short period of time,
+
+523
+00:24:10,280 --> 00:24:14,520
+these new factories basically displace
+
+524
+00:24:14,520 --> 00:24:19,080
+and replace not just the artisanal workers of Britain
+
+525
+00:24:19,080 --> 00:24:24,240
+but the artisanal workers of the entire world.
+
+526
+00:24:24,240 --> 00:24:25,000
+So I think I've...
+
+527
+00:24:25,000 --> 00:24:25,080
+What?
+
+528
+00:24:25,080 --> 00:24:25,640
+I've got the number.
+
+529
+00:24:25,640 --> 00:24:26,880
+I've got the number here.
+
+530
+00:24:26,880 --> 00:24:29,560
+Yeah, so the matchstick factory, which I was...
+
+531
+00:24:29,560 --> 00:24:32,840
+I briefly lived in up in Bow in East London,
+
+532
+00:24:32,840 --> 00:24:36,040
+which is one of these enormous Victorian,
+
+533
+00:24:36,040 --> 00:24:39,040
+Industrial Revolution factories,
+
+534
+00:24:39,040 --> 00:24:42,520
+was producing 300 million matches a day.
+
+535
+00:24:42,520 --> 00:24:44,800
+One single factory in East London.
+
+536
+00:24:44,800 --> 00:24:46,800
+And this is just one single factory.
+
+537
+00:24:46,800 --> 00:24:49,720
+Like, the story of Britain at the time is, factories go
+
+538
+00:24:49,720 --> 00:24:51,880
+up all over the country, and it was happening
+
+539
+00:24:51,880 --> 00:24:54,520
+also in places like the Netherlands and Belgium.
+
+540
+00:24:54,520 --> 00:24:57,120
+But really initially, Britain is the heart of this.
+
+541
+00:24:57,120 --> 00:24:59,760
+These factories go up all over the country.
+
+542
+00:24:59,760 --> 00:25:02,920
+They can produce manufactured goods
+
+543
+00:25:02,920 --> 00:25:05,160
+cheaper than anyone else across the world,
+
+544
+00:25:05,160 --> 00:25:08,280
+and, combined with British colonialism,
+
+545
+00:25:08,280 --> 00:25:11,520
+British imperialism, these guys spread across the world.
+
+546
+00:25:11,520 --> 00:25:13,520
+They force basically everyone in the world
+
+547
+00:25:13,520 --> 00:25:14,440
+to trade with them.
+
+548
+00:25:14,440 --> 00:25:16,240
+Nobody can compete with them.
+
+549
+00:25:16,240 --> 00:25:20,240
+And what happens is artisans all over the world,
+
+550
+00:25:20,240 --> 00:25:22,680
+all over the entire world, lose their jobs,
+
+551
+00:25:22,680 --> 00:25:26,960
+and it creates a very particular situation, right?
+
+552
+00:25:26,960 --> 00:25:29,560
+Because if we have this situation where,
+
+553
+00:25:29,560 --> 00:25:33,920
+as we've discussed, human productivity has enormously
+
+554
+00:25:33,920 --> 00:25:37,320
+increased, and yet wages and living standards
+
+555
+00:25:37,320 --> 00:25:38,880
+for the people who are working in the factories
+
+556
+00:25:38,880 --> 00:25:42,080
+are still very low, there is this question of like,
+
+557
+00:25:42,080 --> 00:25:47,400
+where has all of that extra production gone?
+
+558
+00:25:47,400 --> 00:25:50,000
+Because we're obviously producing like enormously,
+
+559
+00:25:50,000 --> 00:25:51,840
+enormously, enormously more now
+
+560
+00:25:51,840 --> 00:25:53,760
+with the same number of workers, but
+
+561
+00:25:53,760 --> 00:25:57,000
+the workers are still like having their jaws disappear
+
+562
+00:25:57,000 --> 00:25:58,640
+and living in desperate poverty.
+
+563
+00:25:58,640 --> 00:26:00,360
+Where has the production gone?
+
+564
+00:26:00,360 --> 00:26:01,960
+Where has that excess gone?
+
+565
+00:26:01,960 --> 00:26:04,040
+And the answer is, it starts
+
+566
+00:26:04,040 --> 00:26:08,240
+to create like an unbelievably wealthy British,
+
+567
+00:26:08,240 --> 00:26:10,080
+like elite industrialist class.
+
+568
+00:26:15,640 --> 00:26:17,120
+And that creates
+
+569
+00:26:17,120 --> 00:26:20,800
+like a pretty interesting power dynamic, right?
+
+570
+00:26:20,800 --> 00:26:21,520
+So,
+
+571
+00:26:21,520 --> 00:26:23,240
+this is in the context of the British Empire,
+
+572
+00:26:23,240 --> 00:26:25,000
+which took over like half the world.
+
+573
+00:26:25,000 --> 00:26:26,240
+It's forcing other countries
+
+574
+00:26:26,240 --> 00:26:28,520
+to trade with them even though other countries know that
+
+575
+00:26:28,520 --> 00:26:30,680
+they can't compete because they don't have the factories.
+
+576
+00:26:31,600 --> 00:26:35,120
+The British workers are not getting a very good deal.
+
+577
+00:26:35,120 --> 00:26:38,280
+But the British elite are starting to make like just
+
+578
+00:26:38,280 --> 00:26:41,520
+unbelievably, unbelievably enormous amounts of money.
+
+579
+00:26:41,520 --> 00:26:48,360
+And this creates an environment where the British
+
+580
+00:26:48,360 --> 00:26:51,360
+workers, in particular British factory workers,
+
+581
+00:26:51,360 --> 00:26:55,240
+start to become quite powerful
+
+582
+00:26:55,240 --> 00:26:57,680
+even though they're being... or perhaps specifically
+
+583
+00:26:57,680 --> 00:27:00,400
+because they're being kind of horrifically underpaid.
+
+584
+00:27:00,400 --> 00:27:01,800
+Because you have a situation
+
+585
+00:27:01,800 --> 00:27:05,200
+where the elites are making enormous amounts of money
+
+586
+00:27:05,200 --> 00:27:08,200
+on the basis of these factories
+
+587
+00:27:08,200 --> 00:27:11,440
+that are producing manufactured goods
+
+588
+00:27:11,440 --> 00:27:12,800
+for the entire world.
+
+589
+00:27:12,800 --> 00:27:15,040
+But the only people who are able to work
+
+590
+00:27:15,040 --> 00:27:17,320
+in those factories are British people.
+
+591
+00:27:17,320 --> 00:27:19,640
+This is before mass immigration
+
+592
+00:27:19,640 --> 00:27:21,160
+towards Europe, towards Britain.
+
+593
+00:27:21,160 --> 00:27:26,200
+So you have a situation where basically the workers
+
+594
+00:27:26,200 --> 00:27:29,760
+in these factories, they're much more concentrated
+
+595
+00:27:29,760 --> 00:27:30,880
+than they've ever been historically.
+
+596
+00:27:30,880 --> 00:27:31,680
+They're no longer like
+
+597
+00:27:31,680 --> 00:27:34,440
+spread across the British countryside.
+
+598
+00:27:34,440 --> 00:27:37,440
+They're being squashed together in these cities,
+
+599
+00:27:37,440 --> 00:27:39,640
+squashed together in these factories.
+
+600
+00:27:39,640 --> 00:27:41,600
+They're being horrifically underpaid.
+
+601
+00:27:41,600 --> 00:27:44,920
+Their bosses are making like absolutely billions
+
+602
+00:27:44,920 --> 00:27:48,160
+and billions and billions, and they have this
+
+603
+00:27:48,160 --> 00:27:52,080
+like power leverage, which is if they like go on strike,
+
+604
+00:27:52,080 --> 00:27:54,240
+they can shut the ******* factories down,
+
+605
+00:27:54,240 --> 00:27:57,560
+and those factories are making an absolute fortune
+
+606
+00:27:57,560 --> 00:27:58,800
+for the owners.
+
+607
+00:27:58,800 --> 00:28:01,280
+And it creates this situation where basically
+
+608
+00:28:01,280 --> 00:28:04,840
+you see the birth, or I would say like the birth
+
+609
+00:28:04,840 --> 00:28:08,720
+of the first really serious labour movement.
+
+610
+00:28:08,720 --> 00:28:09,840
+And it isn't really
+
+611
+00:28:09,840 --> 00:28:13,240
+until these labour movements that decide,
+
+612
+00:28:13,240 --> 00:28:15,520
+we're going to fight together, we're going to use strikes,
+
+613
+00:28:15,520 --> 00:28:18,560
+we're going to force higher pay for our workers.
+
+614
+00:28:18,560 --> 00:28:20,960
+It isn't until those labour movements start
+
+615
+00:28:20,960 --> 00:28:23,640
+to become established, like toward later on
+
+616
+00:28:23,640 --> 00:28:25,760
+towards the end of the Industrial Revolution,
+
+617
+00:28:25,760 --> 00:28:27,680
+that you start to see any improvements
+
+618
+00:28:27,680 --> 00:28:28,960
+in living standards at all.
+
+619
+00:28:28,960 --> 00:28:30,080
+And it isn't until
+
+620
+00:28:30,080 --> 00:28:33,920
+you see the really significant redistribution of wealth
+
+621
+00:28:33,920 --> 00:28:36,760
+in and in the immediate aftermath of World War II
+
+622
+00:28:36,760 --> 00:28:39,560
+that you see like the really significant improvements.
+
+623
+00:28:39,560 --> 00:28:42,840
+So I think that this reading,
+
+624
+00:28:42,840 --> 00:28:45,280
+which is like, "Just don't worry, everything works
+
+625
+00:28:45,280 --> 00:28:48,960
+out well in the end," is incredibly naive, to be honest,
+
+626
+00:28:48,960 --> 00:28:53,240
+and fails to recognise the fact
+
+627
+00:28:53,240 --> 00:28:56,640
+that were it not for these worker movements,
+
+628
+00:28:56,640 --> 00:28:58,120
+I think it's very, very possible
+
+629
+00:28:58,120 --> 00:29:01,160
+that living standards would never have increased.
+
+630
+00:29:01,160 --> 00:29:05,800
+And I think when we take this idea that,
+
+631
+00:29:05,800 --> 00:29:08,200
+"Oh, don't worry, technology always works out fine
+
+632
+00:29:08,200 --> 00:29:11,560
+in the end," I think there is a worry that,
+
+633
+00:29:11,560 --> 00:29:14,080
+that this idea is based a,
+
+634
+00:29:14,080 --> 00:29:18,000
+a little bit on a particularly Eurocentric reading
+
+635
+00:29:18,000 --> 00:29:20,920
+of the Industrial Revolution because Europe
+
+636
+00:29:20,920 --> 00:29:23,520
+plays a very specific role in the Industrial Revolution,
+
+637
+00:29:23,520 --> 00:29:26,120
+which is that is where the factories are, right?
+
+638
+00:29:26,120 --> 00:29:27,440
+But the European factories
+
+639
+00:29:27,440 --> 00:29:29,880
+don't just displace British and European workers,
+
+640
+00:29:29,880 --> 00:29:33,000
+they replace workers all over the world.
+
+641
+00:29:33,000 --> 00:29:35,280
+And you know, if you look at what happened in India
+
+642
+00:29:35,280 --> 00:29:39,720
+at this time, there's this explosion, absolute explosion
+
+643
+00:29:39,720 --> 00:29:42,280
+in unemployment in India because the Indian workers
+
+644
+00:29:42,280 --> 00:29:45,920
+are being displaced by the British factories.
+
+645
+00:29:45,920 --> 00:29:48,080
+And if we look at that,
+
+646
+00:29:48,080 --> 00:29:49,400
+you can do your own research on it,
+
+647
+00:29:49,400 --> 00:29:52,160
+but there's fa-- terrible famines where
+
+648
+00:29:52,160 --> 00:29:54,280
+millions of people die, not just one of them.
+
+649
+00:29:54,280 --> 00:29:56,240
+This happens in India,
+
+650
+00:29:56,240 --> 00:30:00,120
+and it obviously happens in Ireland.
+
+651
+00:30:00,120 --> 00:30:02,560
+From the perspective of the British worker,
+
+652
+00:30:02,560 --> 00:30:06,000
+okay, it took 150 years,
+
+653
+00:30:06,000 --> 00:30:08,960
+but eventually living standards got better.
+
+654
+00:30:08,960 --> 00:30:13,120
+But, India is still an incredibly poor country
+
+655
+00:30:13,120 --> 00:30:13,800
+from the average...
+
+656
+00:30:13,800 --> 00:30:16,720
+from the perspective of an average person even today.
+
+657
+00:30:16,720 --> 00:30:18,760
+Obviously living standards
+
+658
+00:30:18,760 --> 00:30:21,200
+have improved to some degree in the last 20, 30 years
+
+659
+00:30:21,200 --> 00:30:23,560
+but, you know, the average Indian worker
+
+660
+00:30:23,560 --> 00:30:25,800
+even to this day is living in like,
+
+661
+00:30:25,800 --> 00:30:27,760
+by Western standards, pretty extreme poverty.
+
+662
+00:30:27,760 --> 00:30:32,520
+So I think that this view that you don't need to worry,
+
+663
+00:30:32,520 --> 00:30:37,280
+things will just get better, is phenomenally naive.
+
+664
+00:30:37,280 --> 00:30:39,360
+I think it fails to recognise how living
+
+665
+00:30:39,360 --> 00:30:42,560
+standards have remained bad pretty much permanently
+
+666
+00:30:42,560 --> 00:30:46,040
+in most of the world, and also that really
+
+667
+00:30:46,040 --> 00:30:49,080
+there were no improvements in broad living standards
+
+668
+00:30:49,080 --> 00:30:51,920
+until and unless we saw serious redistribution
+
+669
+00:30:51,920 --> 00:30:53,560
+or serious workers' movements.
+
+670
+00:30:53,560 --> 00:30:58,560
+So when we look at AI today, I think if
+
+671
+00:30:58,560 --> 00:31:02,400
+you want to see whether it'll improve wages or not,
+
+672
+00:31:02,400 --> 00:31:04,280
+the question is basically how are
+
+673
+00:31:04,280 --> 00:31:06,480
+we going to deal with distribution, and are there going to
+
+674
+00:31:06,480 --> 00:31:08,560
+be workers' movements to protect your share of the pie?
+
+675
+00:31:08,560 --> 00:31:11,040
+But if this is the case I'm making,
+
+676
+00:31:11,040 --> 00:31:15,000
+that improved technologies like AI
+
+677
+00:31:15,000 --> 00:31:18,680
+don't necessarily improve living standards
+
+678
+00:31:18,680 --> 00:31:21,800
+and can reduce wages and living standards in a really
+
+679
+00:31:21,800 --> 00:31:26,320
+long-term sustained basis, we do need to challenge that
+
+680
+00:31:26,320 --> 00:31:30,480
+by going back to what we discussed at the beginning
+
+681
+00:31:30,480 --> 00:31:34,560
+and trying to understand how can that be true
+
+682
+00:31:34,560 --> 00:31:36,960
+when it's paired up against the theory,
+
+683
+00:31:36,960 --> 00:31:41,120
+the economic theory, that improved productivity
+
+684
+00:31:41,120 --> 00:31:43,920
+should, in general, always improve living standards.
+
+685
+00:31:43,920 --> 00:31:47,880
+So this idea that if productivity increases
+
+686
+00:31:47,880 --> 00:31:52,240
+and I don't pay my workers more, that some other factory
+
+687
+00:31:52,240 --> 00:31:55,200
+owner is going to come in, build a factory,
+
+688
+00:31:55,200 --> 00:31:58,520
+hire my workers, outbid me for...
+
+689
+00:31:58,520 --> 00:32:02,920
+And outbid me for worker pay, and take a load of,
+
+690
+00:32:02,920 --> 00:32:05,960
+take a load of profit off of, out of my company, is
+
+691
+00:32:05,960 --> 00:32:10,000
+basically based on this idea that you can just come in
+
+692
+00:32:10,000 --> 00:32:12,320
+and massively increase your production.
+
+693
+00:32:12,320 --> 00:32:16,480
+And the reason this doesn't necessarily work
+
+694
+00:32:16,480 --> 00:32:19,680
+is because you cannot rush in
+
+695
+00:32:19,680 --> 00:32:21,720
+and massively increase production
+
+696
+00:32:21,720 --> 00:32:27,400
+unless you have a strong consumer that you can sell to.
+
+697
+00:32:27,400 --> 00:32:31,080
+So if we look back at the Industrial Revolution,
+
+698
+00:32:31,080 --> 00:32:33,640
+the only reason that this really worked,
+
+699
+00:32:33,640 --> 00:32:37,560
+the only reason that one small country was able
+
+700
+00:32:37,560 --> 00:32:42,600
+to build factories so much that it created essentially
+
+701
+00:32:42,600 --> 00:32:45,880
+all of the manufactured goods for the entire world, is
+
+702
+00:32:45,880 --> 00:32:49,800
+because it had this entire world to expand into.
+
+703
+00:32:49,800 --> 00:32:51,520
+And obviously it's tied into,
+
+704
+00:32:51,520 --> 00:32:53,680
+British expansionism and British colonialism
+
+705
+00:32:53,680 --> 00:32:55,360
+and the British Army, and in many cases,
+
+706
+00:32:55,360 --> 00:32:57,440
+the British Navy was forcing other countries
+
+707
+00:32:57,440 --> 00:32:58,440
+to trade with it.
+
+708
+00:32:58,440 --> 00:33:02,120
+This worked because Britain was basically able
+
+709
+00:33:02,120 --> 00:33:04,800
+to take over the world.
+
+710
+00:33:04,800 --> 00:33:08,120
+Like, the owners of the factories,
+
+711
+00:33:08,120 --> 00:33:11,640
+they can only rapidly build more and more factories
+
+712
+00:33:11,640 --> 00:33:14,040
+if they have somebody to sell to.
+
+713
+00:33:14,040 --> 00:33:18,520
+And in the case of the initial Industrial Revolution,
+
+714
+00:33:18,520 --> 00:33:21,360
+this effectively creates colonialism,
+
+715
+00:33:21,360 --> 00:33:23,120
+and it creates that rush of Britain
+
+716
+00:33:23,120 --> 00:33:24,760
+to take over the entire world.
+
+717
+00:33:24,760 --> 00:33:27,240
+And if we look at the more recent Industrial Revolution,
+
+718
+00:33:27,240 --> 00:33:30,800
+which we have seen in the last, say, 30 years in China,
+
+719
+00:33:30,800 --> 00:33:33,600
+the only reason that Industrial Revolution has worked
+
+720
+00:33:33,600 --> 00:33:38,200
+is because it has happened in the context of a large,
+
+721
+00:33:38,200 --> 00:33:40,960
+wealthy, wealth-owning Western middle class
+
+722
+00:33:40,960 --> 00:33:43,160
+that has been willing and able
+
+723
+00:33:43,160 --> 00:33:47,440
+to buy all of these cheaply produced Chinese goods.
+
+724
+00:33:47,440 --> 00:33:51,600
+So you can only really rapidly expand and rapidly hire
+
+725
+00:33:51,600 --> 00:33:55,400
+all of these workers if you have a customer
+
+726
+00:33:55,400 --> 00:33:58,120
+that is willing to basically give you its wealth.
+
+727
+00:33:58,120 --> 00:34:00,760
+So in the case of the first Industrial Revolution,
+
+728
+00:34:00,760 --> 00:34:03,000
+the British or the European Industrial Revolution,
+
+729
+00:34:03,000 --> 00:34:05,720
+what you see there is the British and European elite
+
+730
+00:34:05,720 --> 00:34:09,160
+rapidly take possession of basically all of the wealth
+
+731
+00:34:09,160 --> 00:34:10,440
+in the entire world.
+
+732
+00:34:10,440 --> 00:34:13,080
+And what you see in the second Industrial Revolution,
+
+733
+00:34:13,080 --> 00:34:16,120
+or the Chinese Industrial Revolution, is industrialists
+
+734
+00:34:16,120 --> 00:34:19,080
+rapidly taking the wealth of the Western middle class.
+
+735
+00:34:19,080 --> 00:34:22,240
+So you can only do this rapid expansion
+
+736
+00:34:22,240 --> 00:34:25,360
+that drives wages up in the context
+
+737
+00:34:25,360 --> 00:34:30,680
+of there being a big customer that is able and willing
+
+738
+00:34:30,680 --> 00:34:33,520
+to give up its wealth and spend its money.
+
+739
+00:34:33,520 --> 00:34:36,760
+But do you have that now?
+
+740
+00:34:36,760 --> 00:34:41,360
+Do we have a group of people somewhere
+
+741
+00:34:41,360 --> 00:34:44,800
+that is willing and able to respond
+
+742
+00:34:44,800 --> 00:34:47,960
+to this massive increase or this potential...
+
+743
+00:34:47,960 --> 00:34:49,600
+Obviously, at this point, we don't know
+
+744
+00:34:49,600 --> 00:34:52,640
+how big AI is going to be, but, let's assume it,
+
+745
+00:34:52,640 --> 00:34:55,840
+it does create a huge increase in productivity.
+
+746
+00:34:55,840 --> 00:34:58,120
+Is there a group of people in our society
+
+747
+00:34:58,120 --> 00:35:00,640
+that is able and willing, willing and able
+
+748
+00:35:00,640 --> 00:35:03,600
+to respond to that by massively increasing its spending?
+
+749
+00:35:03,600 --> 00:35:06,640
+And the answer is basically no.
+
+750
+00:35:06,640 --> 00:35:08,600
+We are existing in,
+
+751
+00:35:08,600 --> 00:35:11,640
+in very slowly growing economies where
+
+752
+00:35:11,640 --> 00:35:14,600
+governments are increasingly incredibly cash-strapped.
+
+753
+00:35:14,600 --> 00:35:17,440
+The working class
+
+754
+00:35:17,440 --> 00:35:20,200
+has effectively no excess money to spend.
+
+755
+00:35:20,200 --> 00:35:21,880
+The middle class is struggling
+
+756
+00:35:21,880 --> 00:35:25,760
+even to buy things like...
+
+757
+00:35:25,760 --> 00:35:26,880
+Well, the middle class is struggling
+
+758
+00:35:26,880 --> 00:35:28,840
+to buy things like property, which means
+
+759
+00:35:28,840 --> 00:35:31,760
+you have increasingly cash-strapped society
+
+760
+00:35:31,760 --> 00:35:35,840
+where all of the excess spending is this very,
+
+761
+00:35:35,840 --> 00:35:39,800
+very, very wealthy class, and they are unlikely
+
+762
+00:35:39,800 --> 00:35:41,720
+to massively increase their spending.
+
+763
+00:35:41,720 --> 00:35:45,760
+Which means this technological boom, if it becomes
+
+764
+00:35:45,760 --> 00:35:52,000
+a technological boom, can't see how that leads to, like,
+
+765
+00:35:52,000 --> 00:35:54,960
+an enormous splurge in economic growth
+
+766
+00:35:54,960 --> 00:36:01,600
+because I don't see where the customer is.
+
+767
+00:36:01,600 --> 00:36:06,320
+Yeah, and this reminds me of the very famous
+
+768
+00:36:06,320 --> 00:36:08,680
+but possibly apocryphal, made-up,
+
+769
+00:36:08,680 --> 00:36:12,120
+conversation that Henry Ford,
+
+770
+00:36:12,120 --> 00:36:15,520
+the big American carmaking industrialist, had when he,
+
+771
+00:36:15,520 --> 00:36:19,200
+when he introduced machines into his factories.
+
+772
+00:36:19,200 --> 00:36:22,320
+So this is probably not a true story, but he's...
+
+773
+00:36:22,320 --> 00:36:24,200
+Henry Ford, this incredibly wealthy...
+
+774
+00:36:24,200 --> 00:36:26,760
+The guy who founded Ford cars, obviously.
+
+775
+00:36:26,760 --> 00:36:28,760
+He's got his car factory,
+
+776
+00:36:28,760 --> 00:36:31,000
+and he's filled it with all these amazing machines,
+
+777
+00:36:31,000 --> 00:36:33,360
+and he's showing the union representative,
+
+778
+00:36:33,360 --> 00:36:36,120
+like, around the factory, and he's basically saying,
+
+779
+00:36:36,120 --> 00:36:40,040
+"Well, you know, good luck getting these machines to
+
+780
+00:36:40,040 --> 00:36:42,360
+pay your union dues." And he's basically saying, "Well,
+
+781
+00:36:42,360 --> 00:36:45,600
+you know, like, **** you, I don't need your workers."
+
+782
+00:36:45,600 --> 00:36:47,120
+And the union rep turns around and says, "Well,
+
+783
+00:36:47,120 --> 00:36:50,080
+good luck getting these machines to buy your cars."
+
+784
+00:36:50,080 --> 00:36:52,960
+Which is basically making the point that
+
+785
+00:36:52,960 --> 00:36:59,680
+if you do not have a wealthy cash-owning middle class
+
+786
+00:36:59,680 --> 00:37:01,920
+and working class who are able to spend money,
+
+787
+00:37:01,920 --> 00:37:05,040
+you cannot grow economically because you,
+
+788
+00:37:05,040 --> 00:37:06,840
+you do not have a customer
+
+789
+00:37:06,840 --> 00:37:08,360
+for the things that you create.
+
+790
+00:37:08,360 --> 00:37:09,720
+And in the context
+
+791
+00:37:09,720 --> 00:37:12,480
+of the inability to rapidly grow economically,
+
+792
+00:37:12,480 --> 00:37:16,000
+what happens when you significantly improve technology?
+
+793
+00:37:16,000 --> 00:37:20,200
+Well, I think the obvious healthy response is,
+
+794
+00:37:20,200 --> 00:37:23,240
+okay, we've improved our technology,
+
+795
+00:37:23,240 --> 00:37:26,280
+but we cannot rapidly increase our production
+
+796
+00:37:26,280 --> 00:37:29,400
+because we don't have, like, a customer there who is,
+
+797
+00:37:29,400 --> 00:37:32,200
+who is there willing and able to buy it.
+
+798
+00:37:32,200 --> 00:37:35,200
+So what we could do, instead of using that technology
+
+799
+00:37:35,200 --> 00:37:38,280
+to massively increase our production,
+
+800
+00:37:38,280 --> 00:37:41,080
+massively increase our output, is we could use that
+
+801
+00:37:41,080 --> 00:37:44,920
+improved technology to simply reduce our working hours,
+
+802
+00:37:44,920 --> 00:37:48,760
+and then, okay, we don't have enormously more output,
+
+803
+00:37:48,760 --> 00:37:50,200
+but we have more leisure time,
+
+804
+00:37:50,200 --> 00:37:52,960
+and we can spend more time with our friends and,
+
+805
+00:37:52,960 --> 00:37:55,400
+and our families, and, on our hobbies
+
+806
+00:37:55,400 --> 00:37:58,200
+and doing the things that we want to do.
+
+807
+00:37:58,200 --> 00:38:04,520
+And this is the kind of thinking which was popular
+
+808
+00:38:04,520 --> 00:38:07,840
+with one of my favorite historical economists and,
+
+809
+00:38:07,840 --> 00:38:11,000
+and perhaps the most famous, or maybe the
+
+810
+00:38:11,000 --> 00:38:14,320
+second-most famous economist of all time
+
+811
+00:38:14,320 --> 00:38:19,440
+the British economist John Maynard Keynes
+
+812
+00:38:19,440 --> 00:38:20,320
+who...
+
+813
+00:38:20,320 --> 00:38:23,600
+He lived in the 1900s, and when he was seeing,
+
+814
+00:38:23,600 --> 00:38:25,480
+the rapid improvements in technology,
+
+815
+00:38:25,480 --> 00:38:26,840
+the rapid improvements in production,
+
+816
+00:38:26,840 --> 00:38:30,720
+which definitely continued, into the 1900s,
+
+817
+00:38:30,720 --> 00:38:33,760
+he could see how great this was for the economy,
+
+818
+00:38:33,760 --> 00:38:36,960
+and he said that our grandchildren would work
+
+819
+00:38:36,960 --> 00:38:39,880
+15-hour weeks, which is basically saying,
+
+820
+00:38:39,880 --> 00:38:42,200
+our grandchildren would only have to work 2 days a week.
+
+821
+00:38:42,200 --> 00:38:44,240
+And what he's seeing there,
+
+822
+00:38:44,240 --> 00:38:46,920
+and what he's saying there is exactly true,
+
+823
+00:38:46,920 --> 00:38:51,000
+which is in the context of rapidly improving technology,
+
+824
+00:38:51,000 --> 00:38:54,000
+that means humans are more productive.
+
+825
+00:38:54,000 --> 00:38:58,080
+One way that we can respond to that is
+
+826
+00:38:58,080 --> 00:39:02,320
+by basically, like, giving all humans more leisure time.
+
+827
+00:39:02,320 --> 00:39:04,960
+And like, Keynes was exactly right.
+
+828
+00:39:04,960 --> 00:39:06,400
+That was possible.
+
+829
+00:39:06,400 --> 00:39:07,640
+That is possible.
+
+830
+00:39:07,640 --> 00:39:08,960
+But he said that quote,
+
+831
+00:39:08,960 --> 00:39:12,320
+you know, probably something like 100 years ago,
+
+832
+00:39:12,320 --> 00:39:16,600
+and here in 2026, we can clearly see that
+
+833
+00:39:16,600 --> 00:39:19,480
+actually the amount of time that humans spend working
+
+834
+00:39:19,480 --> 00:39:22,600
+has probably significantly increased,
+
+835
+00:39:22,600 --> 00:39:24,360
+especially in the last 50, 60, 70 years.
+
+836
+00:39:24,360 --> 00:39:26,520
+When you factor in the fact that there's
+
+837
+00:39:26,520 --> 00:39:31,080
+been a big increase in female labour force participation,
+
+838
+00:39:31,080 --> 00:39:34,360
+so now you have, pretty much all adults
+
+839
+00:39:34,360 --> 00:39:35,840
+working rather than just half of adults
+
+840
+00:39:35,840 --> 00:39:38,320
+working in paid work, but obviously the childcare
+
+841
+00:39:38,320 --> 00:39:40,720
+and the housework still needs to be done by somebody.
+
+842
+00:39:40,720 --> 00:39:42,640
+I think despite the fact that
+
+843
+00:39:42,640 --> 00:39:45,560
+we've had massive increase in technology, Keynes's
+
+844
+00:39:45,560 --> 00:39:48,400
+prediction that his grandkids would work 15-hour weeks
+
+845
+00:39:48,400 --> 00:39:51,200
+has been massively wrong.
+
+846
+00:39:51,200 --> 00:39:54,520
+So why is it that despite increase in technology,
+
+847
+00:39:54,520 --> 00:39:59,120
+we see, in many cases, neither improved living standards
+
+848
+00:39:59,120 --> 00:40:00,960
+nor reduced working hours?
+
+849
+00:40:00,960 --> 00:40:05,640
+The answer is because of inequality.
+
+850
+00:40:05,640 --> 00:40:06,880
+So let's talk about
+
+851
+00:40:06,880 --> 00:40:14,320
+how improved technology works in an equal society.
+
+852
+00:40:14,320 --> 00:40:16,280
+And I think it's important to recognise that
+
+853
+00:40:16,280 --> 00:40:19,560
+when economists talk about technology and how
+
+854
+00:40:19,560 --> 00:40:21,760
+it affects an economy, it's important to recognise that
+
+855
+00:40:21,760 --> 00:40:25,320
+the vast majority of economic models used by economists,
+
+856
+00:40:25,320 --> 00:40:29,040
+implicitly assume a perfectly equal society.
+
+857
+00:40:29,040 --> 00:40:31,200
+So in a perfectly equal society,
+
+858
+00:40:31,200 --> 00:40:34,840
+we all own our share of the productive resources.
+
+859
+00:40:34,840 --> 00:40:37,160
+So you own a big chunk of the AI,
+
+860
+00:40:37,160 --> 00:40:39,160
+and you own a big chunk of the factories, and
+
+861
+00:40:39,160 --> 00:40:41,960
+you own your own home, and you own some of the farmland,
+
+862
+00:40:41,960 --> 00:40:44,680
+and you own some of the energy production facilities.
+
+863
+00:40:44,680 --> 00:40:46,080
+And you're relatively self-sufficient
+
+864
+00:40:46,080 --> 00:40:47,920
+in, like, your ownership of resources.
+
+865
+00:40:47,920 --> 00:40:50,640
+A new technology comes out, fantastic.
+
+866
+00:40:50,640 --> 00:40:53,640
+You're more productive, and you have a choice of like,
+
+867
+00:40:53,640 --> 00:40:56,080
+"Well, how do I respond to my increased productivity?
+
+868
+00:40:56,080 --> 00:40:59,480
+Do I work more because now I can make more money
+
+869
+00:40:59,480 --> 00:41:01,000
+with my increased work,
+
+870
+00:41:01,000 --> 00:41:05,080
+or do I work less because I don't need to work so much?"
+
+871
+00:41:05,080 --> 00:41:05,840
+You have a choice.
+
+872
+00:41:05,840 --> 00:41:08,960
+Like, how do I use this, like, windfall?
+
+873
+00:41:08,960 --> 00:41:10,640
+Like, do I use it to get more money,
+
+874
+00:41:10,640 --> 00:41:13,160
+or do I use it to get more leisure time?
+
+875
+00:41:13,160 --> 00:41:15,360
+But when we have a very unequal society,
+
+876
+00:41:15,360 --> 00:41:20,840
+which, we are moving into, what that means
+
+877
+00:41:20,840 --> 00:41:25,200
+is the resources, the natural resources, like the food
+
+878
+00:41:25,200 --> 00:41:27,960
+and the energy and the productive facilities that,
+
+879
+00:41:27,960 --> 00:41:30,680
+that turn these things into energy that you need,
+
+880
+00:41:30,680 --> 00:41:34,000
+but also of most obviously the buildings and
+
+881
+00:41:34,000 --> 00:41:38,240
+the houses are all owned by a small super wealthy elite.
+
+882
+00:41:38,240 --> 00:41:41,160
+You know, that's the case in very unequal societies.
+
+883
+00:41:41,160 --> 00:41:42,480
+We're not quite there yet,
+
+884
+00:41:42,480 --> 00:41:45,320
+but we're going in that direction.
+
+885
+00:41:45,320 --> 00:41:48,720
+In this situation, work plays, like,
+
+886
+00:41:48,720 --> 00:41:50,680
+a very important role,
+
+887
+00:41:50,680 --> 00:41:53,280
+which is when you have a small group of people
+
+888
+00:41:53,280 --> 00:41:56,720
+that own all the assets and also they own the debt,
+
+889
+00:41:56,720 --> 00:41:59,200
+so your government is in debt to them, you maybe are
+
+890
+00:41:59,200 --> 00:42:02,120
+in debt to them with your mortgage or your student debt.
+
+891
+00:42:02,120 --> 00:42:04,600
+Every week, every month, every year,
+
+892
+00:42:04,600 --> 00:42:07,080
+you need to pay them a significant amount of money
+
+893
+00:42:07,080 --> 00:42:08,920
+because you need to access those resources.
+
+894
+00:42:08,920 --> 00:42:10,080
+You need to eat food.
+
+895
+00:42:10,080 --> 00:42:11,160
+You need to live in a house,
+
+896
+00:42:11,160 --> 00:42:12,800
+so you've gotta pay rent or mortgage.
+
+897
+00:42:12,800 --> 00:42:14,120
+Your government is in debt to them.
+
+898
+00:42:14,120 --> 00:42:15,040
+Maybe you're in debt to them,
+
+899
+00:42:15,040 --> 00:42:16,080
+so you've gotta pay interest.
+
+900
+00:42:16,080 --> 00:42:18,240
+You've gotta pay them for access to energy.
+
+901
+00:42:18,240 --> 00:42:19,680
+You've gotta pay them for access to transport
+
+902
+00:42:19,680 --> 00:42:22,520
+because they own all of these things.
+
+903
+00:42:22,520 --> 00:42:24,200
+When you have a very unequal society,
+
+904
+00:42:24,200 --> 00:42:26,680
+the majority of people have to pay every week,
+
+905
+00:42:26,680 --> 00:42:29,360
+every month money to the rich.
+
+906
+00:42:29,360 --> 00:42:32,400
+And how are you able to pay them that money
+
+907
+00:42:32,400 --> 00:42:35,400
+when you do not have any resources yourself?
+
+908
+00:42:35,400 --> 00:42:39,960
+The answer is, the way this system is balanced is work.
+
+909
+00:42:39,960 --> 00:42:41,840
+Work plays a very crucial function
+
+910
+00:42:41,840 --> 00:42:43,560
+in an unequal society.
+
+911
+00:42:43,560 --> 00:42:47,080
+Work is how you balance your basically, like,
+
+912
+00:42:47,080 --> 00:42:49,040
+from birth debt to the rich.
+
+913
+00:42:49,040 --> 00:42:50,480
+You're born where you own nothing.
+
+914
+00:42:50,480 --> 00:42:52,120
+They're born owing everything.
+
+915
+00:42:52,120 --> 00:42:55,720
+The only way for you to get access to the resources
+
+916
+00:42:55,720 --> 00:43:00,320
+that you need and they own is you have to work for them.
+
+917
+00:43:00,320 --> 00:43:02,280
+And what this means is
+
+918
+00:43:02,280 --> 00:43:04,200
+if you have a sudden increase in technology,
+
+919
+00:43:04,200 --> 00:43:07,080
+especially if that technology is owned by them,
+
+920
+00:43:07,080 --> 00:43:10,760
+you cannot respond by working less.
+
+921
+00:43:10,760 --> 00:43:12,600
+Because if you choose to work less,
+
+922
+00:43:12,600 --> 00:43:15,040
+how do you pay your mortgage?
+
+923
+00:43:15,040 --> 00:43:16,720
+How do you pay your rent?
+
+924
+00:43:16,720 --> 00:43:18,480
+How do you buy food?
+
+925
+00:43:18,480 --> 00:43:20,120
+These guys own these things,
+
+926
+00:43:20,120 --> 00:43:23,080
+and they need you to work for them.
+
+927
+00:43:23,080 --> 00:43:25,160
+Well, you need to work for them, otherwise
+
+928
+00:43:25,160 --> 00:43:29,160
+they're not going to give you access to these things.
+
+929
+00:43:29,160 --> 00:43:32,880
+And I think really when we want to discuss the question
+
+930
+00:43:32,880 --> 00:43:38,200
+of will improved technology, will AI liberate us
+
+931
+00:43:38,200 --> 00:43:40,800
+like John Maynard Keynes wanted it to?
+
+932
+00:43:40,800 --> 00:43:42,640
+Like, to some degree I think it did,
+
+933
+00:43:42,640 --> 00:43:45,080
+and it has since World War II.
+
+934
+00:43:45,080 --> 00:43:51,560
+Or will it enslave us like it did for those workers
+
+935
+00:43:51,560 --> 00:43:53,320
+in the early Industrial Revolution,
+
+936
+00:43:53,320 --> 00:43:55,160
+here in Britain who were forced to work
+
+937
+00:43:55,160 --> 00:43:59,560
+in terrible conditions, you know, in factories, in,
+
+938
+00:43:59,560 --> 00:44:01,600
+in terrible unsafe cities.
+
+939
+00:44:01,600 --> 00:44:04,200
+Like it did to the people in India
+
+940
+00:44:04,200 --> 00:44:05,840
+who lost their jobs and starved to death,
+
+941
+00:44:05,840 --> 00:44:06,800
+and the people in Ireland
+
+942
+00:44:06,800 --> 00:44:09,760
+and in many countries around the world.
+
+943
+00:44:09,760 --> 00:44:12,880
+Really, it is quite simply a question
+
+944
+00:44:12,880 --> 00:44:15,360
+of who owns the technology.
+
+945
+00:44:15,360 --> 00:44:17,320
+It's a simple question of that.
+
+946
+00:44:17,320 --> 00:44:19,720
+And I think history,
+
+947
+00:44:19,720 --> 00:44:22,280
+any real close look at history will show us
+
+948
+00:44:22,280 --> 00:44:25,560
+that this naive reading of, "Don't worry about it,
+
+949
+00:44:25,560 --> 00:44:29,000
+it's going to be fine," like time heals all wounds,
+
+950
+00:44:29,000 --> 00:44:32,840
+is incredibly, incredibly, incredibly naive.
+
+951
+00:44:32,840 --> 00:44:36,200
+Because that first Industrial Revolution
+
+952
+00:44:36,200 --> 00:44:38,920
+caused 100 years of,
+
+953
+00:44:38,920 --> 00:44:42,000
+100, 150 years of desperate poverty in this country
+
+954
+00:44:42,000 --> 00:44:43,520
+and, arguably 200,
+
+955
+00:44:43,520 --> 00:44:45,880
+250 years of desperate poverty all around the world.
+
+956
+00:44:45,880 --> 00:44:49,320
+And it wasn't really resolved in a way
+
+957
+00:44:49,320 --> 00:44:53,440
+that provided living standards for ordinary workers
+
+958
+00:44:53,440 --> 00:44:55,680
+until these labour movements
+
+959
+00:44:55,680 --> 00:44:59,000
+were built over generations, and it wasn't really until
+
+960
+00:44:59,000 --> 00:45:01,600
+wealth was redistributed after World War II that it ever
+
+961
+00:45:01,600 --> 00:45:05,080
+provided decent living standards to ordinary people.
+
+962
+00:45:05,080 --> 00:45:09,160
+So once again, that is...
+
+963
+00:45:09,160 --> 00:45:12,920
+That might seem like another depressing message
+
+964
+00:45:12,920 --> 00:45:16,080
+from Garys Economics, but I don't think it is
+
+965
+00:45:16,080 --> 00:45:17,120
+and I'll tell you why, all right?
+
+966
+00:45:17,120 --> 00:45:19,440
+The first thing is, it is very important that
+
+967
+00:45:19,440 --> 00:45:24,200
+you recognise improved technology has the capacity
+
+968
+00:45:24,200 --> 00:45:26,520
+to hurt you as much as,
+
+969
+00:45:26,520 --> 00:45:29,080
+as much as it has the capacity to help you, and
+
+970
+00:45:29,080 --> 00:45:32,800
+it's very important that you recognise that in the past,
+
+971
+00:45:32,800 --> 00:45:36,520
+improved technologies have caused enormous damage
+
+972
+00:45:36,520 --> 00:45:38,000
+to many people around the world
+
+973
+00:45:38,000 --> 00:45:41,320
+whilst making a small number of elites incredibly rich.
+
+974
+00:45:41,320 --> 00:45:43,320
+It's very important that you recognise that,
+
+975
+00:45:43,320 --> 00:45:45,240
+because if you don't recognise that,
+
+976
+00:45:45,240 --> 00:45:52,440
+you will allow it to happen again.
+
+977
+00:45:52,440 --> 00:45:54,560
+But I also think
+
+978
+00:45:54,560 --> 00:45:59,680
+when we go back and we look at what happened last time,
+
+979
+00:45:59,680 --> 00:46:01,320
+what happened in the Industrial Revolution,
+
+980
+00:46:01,320 --> 00:46:03,480
+and the terrible poverty
+
+981
+00:46:03,480 --> 00:46:05,920
+that was endured by my grandparents,
+
+982
+00:46:05,920 --> 00:46:08,080
+and my great-grandparents, and your great-grandparents,
+
+983
+00:46:08,080 --> 00:46:12,320
+and all of our great-grandparents
+
+984
+00:46:12,320 --> 00:46:18,360
+it doesn't need to be a depressing story.
+
+985
+00:46:18,360 --> 00:46:21,760
+And the reason I say that is when
+
+986
+00:46:21,760 --> 00:46:25,640
+I look back at the terrible poverty that was en- endured
+
+987
+00:46:25,640 --> 00:46:28,160
+by the people who lived in the 1800s
+
+988
+00:46:28,160 --> 00:46:32,240
+and the early 1900s across the world
+
+989
+00:46:32,240 --> 00:46:40,200
+what really amazes me most is that they were able to go
+
+990
+00:46:40,200 --> 00:46:43,680
+from those situations of incredible poverty...
+
+991
+00:46:43,680 --> 00:46:45,160
+And you have to remember, right,
+
+992
+00:46:45,160 --> 00:46:46,360
+these people lived at a time...
+
+993
+00:46:46,360 --> 00:46:49,680
+The poverty which these people endured during
+
+994
+00:46:49,680 --> 00:46:51,720
+and immediately after the Industrial Revolution,
+
+995
+00:46:51,720 --> 00:46:52,920
+and the ******* World Wars,
+
+996
+00:46:52,920 --> 00:46:54,880
+and all of the terrible things that happened,
+
+997
+00:46:54,880 --> 00:46:57,120
+all around the world as part of colonialism
+
+998
+00:46:57,120 --> 00:47:04,320
+and all of this stuff that happened in a context
+
+999
+00:47:04,320 --> 00:47:07,720
+of people having lived for thousands of years
+
+1000
+00:47:07,720 --> 00:47:09,800
+in incredibly unequal economies.
+
+1001
+00:47:09,800 --> 00:47:11,520
+And
+
+1002
+00:47:11,520 --> 00:47:15,400
+we had in this country like a class system
+
+1003
+00:47:15,400 --> 00:47:18,320
+which really told people, "Okay, yeah,
+
+1004
+00:47:18,320 --> 00:47:19,720
+you're poor and you live like *****
+
+1005
+00:47:19,720 --> 00:47:22,000
+and they're rich and they have more than you.
+
+1006
+00:47:22,000 --> 00:47:23,560
+But that's the way that it's supposed to be,
+
+1007
+00:47:23,560 --> 00:47:25,120
+because they're up there and you're down here,
+
+1008
+00:47:25,120 --> 00:47:25,920
+and they're better than you,
+
+1009
+00:47:25,920 --> 00:47:27,080
+and you should know your place."
+
+1010
+00:47:27,080 --> 00:47:29,920
+And these people had never seen,
+
+1011
+00:47:29,920 --> 00:47:32,720
+not just in their lifetimes but for generations
+
+1012
+00:47:32,720 --> 00:47:35,560
+and generations and centuries before them,
+
+1013
+00:47:35,560 --> 00:47:39,640
+these people had never really seen societies
+
+1014
+00:47:39,640 --> 00:47:41,800
+in which people were broadly equal,
+
+1015
+00:47:41,800 --> 00:47:44,360
+and which the average worker got a decent share,
+
+1016
+00:47:44,360 --> 00:47:48,280
+and where the average worker got security and stability.
+
+1017
+00:47:48,280 --> 00:47:51,280
+And the idea of an economy and a world
+
+1018
+00:47:51,280 --> 00:47:53,000
+where your average man or woman
+
+1019
+00:47:53,000 --> 00:47:55,800
+and their kids could have good quality healthcare,
+
+1020
+00:47:55,800 --> 00:47:59,280
+education, housing, food, they'd never seen it.
+
+1021
+00:47:59,280 --> 00:48:00,760
+They'd never, never...
+
+1022
+00:48:00,760 --> 00:48:01,640
+They'd never seen it.
+
+1023
+00:48:01,640 --> 00:48:04,040
+They'd never seen it happen.
+
+1024
+00:48:04,040 --> 00:48:11,280
+And yet from that situation, they built the world which,
+
+1025
+00:48:11,280 --> 00:48:15,520
+which my parents and maybe your parents lived in,
+
+1026
+00:48:15,520 --> 00:48:17,720
+where an average person, an average man or woman
+
+1027
+00:48:17,720 --> 00:48:20,760
+can get an average job, and get a decent quality house,
+
+1028
+00:48:20,760 --> 00:48:23,720
+and decent quality education,
+
+1029
+00:48:23,720 --> 00:48:26,720
+and decent quality healthcare.
+
+1030
+00:48:26,720 --> 00:48:32,880
+And I find it so amazing
+
+1031
+00:48:32,880 --> 00:48:39,840
+that they found from that poverty somehow the ability
+
+1032
+00:48:39,840 --> 00:48:42,560
+to fight for a world which they'd never seen.
+
+1033
+00:48:42,560 --> 00:48:44,640
+And, sometimes...
+
+1034
+00:48:55,080 --> 00:48:58,640
+Sometimes in the course of the work that I do,
+
+1035
+00:48:58,640 --> 00:49:01,040
+well, very often to be honest,
+
+1036
+00:49:01,040 --> 00:49:03,120
+I have to encounter a lot of naysayers,
+
+1037
+00:49:03,120 --> 00:49:07,280
+that when I say, "Listen, life is getting worse,
+
+1038
+00:49:07,280 --> 00:49:09,920
+but we can fix it if we tax the rich more fairly.
+
+1039
+00:49:09,920 --> 00:49:12,880
+People turn around to me and they say,
+
+1040
+00:49:12,880 --> 00:49:15,440
+"Oh, what are you talk, what are you talking about?
+
+1041
+00:49:15,440 --> 00:49:17,160
+You know, you're being idiotic.
+
+1042
+00:49:17,160 --> 00:49:18,960
+You're being unrealistic.
+
+1043
+00:49:18,960 --> 00:49:21,680
+There's no way we could tax the rich at higher rates.
+
+1044
+00:49:21,680 --> 00:49:23,640
+If we tax them, they'll just leave.
+
+1045
+00:49:23,640 --> 00:49:24,800
+Like forget it.
+
+1046
+00:49:24,800 --> 00:49:25,800
+There's no way.
+
+1047
+00:49:25,800 --> 00:49:33,120
+It's just the way things are." And they say that
+
+1048
+00:49:33,120 --> 00:49:36,480
+from a position where you and I can sit now,
+
+1049
+00:49:36,480 --> 00:49:38,120
+and we can read our history books,
+
+1050
+00:49:38,120 --> 00:49:39,280
+and we can read Wikipedia,
+
+1051
+00:49:39,280 --> 00:49:40,800
+and we can go and read Charles Dickens,
+
+1052
+00:49:40,800 --> 00:49:42,720
+and know, we can talk to our parents and grandparents,
+
+1053
+00:49:42,720 --> 00:49:44,120
+and we can see what life was like
+
+1054
+00:49:44,120 --> 00:49:46,400
+in this country and your country, wherever you're
+
+1055
+00:49:46,400 --> 00:49:50,280
+from, one hundred years ago, two hundred years ago.
+
+1056
+00:49:50,280 --> 00:49:53,440
+We can see the desperate poverty that people lived in,
+
+1057
+00:49:53,440 --> 00:49:58,960
+and we can see the enormous improvements that were made
+
+1058
+00:49:58,960 --> 00:50:01,680
+in living standards over the course of the 20th century.
+
+1059
+00:50:01,680 --> 00:50:03,520
+And we can see...
+
+1060
+00:50:03,520 --> 00:50:05,960
+I know w- I know most of us were not alive
+
+1061
+00:50:05,960 --> 00:50:07,320
+back then when these changes were made.
+
+1062
+00:50:07,320 --> 00:50:08,880
+But we can see in,
+
+1063
+00:50:08,880 --> 00:50:12,040
+within the last one hundred years,
+
+1064
+00:50:12,040 --> 00:50:13,720
+the enormous improvements
+
+1065
+00:50:13,720 --> 00:50:20,280
+that were achieved in living standards.
+
+1066
+00:50:20,280 --> 00:50:23,040
+And yet even in that context,
+
+1067
+00:50:23,040 --> 00:50:26,600
+many people will believe and will try
+
+1068
+00:50:26,600 --> 00:50:30,120
+to convince you to believe that better is not possible,
+
+1069
+00:50:30,120 --> 00:50:33,240
+even though we can see just by looking in many cases
+
+1070
+00:50:33,240 --> 00:50:35,680
+at our own parents and grandparents that better
+
+1071
+00:50:35,680 --> 00:50:39,560
+is possible, that an economy where ordinary people
+
+1072
+00:50:39,560 --> 00:50:43,480
+get security, and safety, and dignity, and respect,
+
+1073
+00:50:43,480 --> 00:50:45,960
+and education, and healthcare, and food, and housing,
+
+1074
+00:50:45,960 --> 00:50:53,080
+we can see that it was possible just 50 years ago.
+
+1075
+00:50:53,080 --> 00:50:59,160
+And when I see how hard it is often
+
+1076
+00:50:59,160 --> 00:51:03,520
+to convince people that better is possible now, even
+
+1077
+00:51:03,520 --> 00:51:06,120
+in the context of it being there in living memory.
+
+1078
+00:51:13,960 --> 00:51:20,600
+When I look back at the struggles that my grandparents,
+
+1079
+00:51:20,600 --> 00:51:24,280
+our great-grandparents, wherever you're watching from,
+
+1080
+00:51:24,280 --> 00:51:27,000
+that they went through in the context of this
+
+1081
+00:51:27,000 --> 00:51:31,480
+like terrible poverty, terrible living conditions.
+
+1082
+00:51:31,480 --> 00:51:36,240
+The fact that despite that, they were willing
+
+1083
+00:51:36,240 --> 00:51:38,000
+to get together and put their heads together
+
+1084
+00:51:38,000 --> 00:51:41,160
+for no payment and work hard to create
+
+1085
+00:51:41,160 --> 00:51:44,640
+this labour movement, to fight for a fairer share,
+
+1086
+00:51:44,640 --> 00:51:47,880
+to demand things like better pay and healthcare,
+
+1087
+00:51:47,880 --> 00:51:52,160
+and education, and housing, and living conditions.
+
+1088
+00:51:52,160 --> 00:51:56,080
+The fact that they were able to do that
+
+1089
+00:51:56,080 --> 00:52:00,360
+despite at the time it never having been done before.
+
+1090
+00:52:00,360 --> 00:52:02,400
+They had nothing to look back on.
+
+1091
+00:52:02,400 --> 00:52:05,120
+When people told them, "This is impossible.
+
+1092
+00:52:05,120 --> 00:52:06,480
+You can't get more.
+
+1093
+00:52:06,480 --> 00:52:07,920
+You're at the bottom of the barrel here.
+
+1094
+00:52:07,920 --> 00:52:10,520
+You don't deserve better," they couldn't look back
+
+1095
+00:52:10,520 --> 00:52:12,680
+like we can and say, "Look, it was done.
+
+1096
+00:52:12,680 --> 00:52:14,600
+It was done less than a hundred years ago."
+
+1097
+00:52:14,600 --> 00:52:16,160
+Living standards were changed,
+
+1098
+00:52:16,160 --> 00:52:18,520
+inequality was decreased, things were made better.
+
+1099
+00:52:18,520 --> 00:52:20,800
+They were going out there
+
+1100
+00:52:20,800 --> 00:52:25,320
+with nothing in desperate poverty and fighting for that
+
+1101
+00:52:25,320 --> 00:52:28,480
+despite the fact that they could never see it having
+
+1102
+00:52:28,480 --> 00:52:32,520
+been done before anywhere, and they fought anyway.
+
+1103
+00:52:32,520 --> 00:52:37,720
+And when I see that not only did they do that,
+
+1104
+00:52:37,720 --> 00:52:41,040
+but eventually they won, what
+
+1105
+00:52:41,040 --> 00:52:48,400
+that shows me is that we are capable of amazing things,
+
+1106
+00:52:48,400 --> 00:52:50,680
+and you are capable of amazing things.
+
+1107
+00:52:50,680 --> 00:52:55,880
+If we are willing and able to put for a moment
+
+1108
+00:52:55,880 --> 00:52:57,880
+our grievances down and work together
+
+1109
+00:52:57,880 --> 00:53:03,960
+for a share of the pie, what the struggle of history
+
+1110
+00:53:03,960 --> 00:53:06,520
+and the Industrial Revolution and of our ancestors
+
+1111
+00:53:06,520 --> 00:53:09,280
+and our grandparents and great-grandparents shows
+
+1112
+00:53:09,280 --> 00:53:14,880
+us is that it is possible, is that we can win, is
+
+1113
+00:53:14,880 --> 00:53:17,440
+that you can come from a situation much, much worse than
+
+1114
+00:53:17,440 --> 00:53:19,880
+where we are now, and you can make something better
+
+1115
+00:53:19,880 --> 00:53:21,160
+for your kids and grandkids.
+
+1116
+00:53:21,160 --> 00:53:23,160
+And if I'm honest,
+
+1117
+00:53:23,160 --> 00:53:25,360
+I don't think it's a depressing story at all.
+
+1118
+00:53:25,360 --> 00:53:27,760
+I think it's unbelievably inspirational.
+
+1119
+00:53:27,760 --> 00:53:29,760
+But I think
+
+1120
+00:53:29,760 --> 00:53:33,480
+what history also shows us is that it can go both ways.
+
+1121
+00:53:33,480 --> 00:53:36,240
+You know, it can go both ways.
+
+1122
+00:53:36,240 --> 00:53:39,240
+It can make living standards much worse.
+
+1123
+00:53:39,240 --> 00:53:41,320
+But if you build those labour movements,
+
+1124
+00:53:41,320 --> 00:53:44,040
+if you build those political movements, if
+
+1125
+00:53:44,040 --> 00:53:47,600
+you make sure that you get your fair share of the pie,
+
+1126
+00:53:47,600 --> 00:53:50,960
+that improved productivity, that improved technology,
+
+1127
+00:53:50,960 --> 00:53:57,400
+it is there for you, for us to make life better.
+
+1128
+00:53:57,400 --> 00:54:02,080
+So to go back to the beginning, to answer the question,
+
+1129
+00:54:02,080 --> 00:54:04,720
+is AI going to make wages higher,
+
+1130
+00:54:04,720 --> 00:54:07,680
+or is AI going to make wages lower?
+
+1131
+00:54:07,680 --> 00:54:08,800
+Is AI going to make life better,
+
+1132
+00:54:08,800 --> 00:54:11,840
+or is AI going to make life worse?
+
+1133
+00:54:11,840 --> 00:54:14,360
+The answer is quite simply
+
+1134
+00:54:14,360 --> 00:54:16,680
+that it depends on what you do.
+
+1135
+00:54:16,680 --> 00:54:18,400
+It depends on what we do,
+
+1136
+00:54:18,400 --> 00:54:19,880
+and it depends on what we build.
+
+1137
+00:54:19,880 --> 00:54:24,320
+But history shows us if the ordinary working people
+
+1138
+00:54:24,320 --> 00:54:26,720
+don't fight for their share of the pie,
+
+1139
+00:54:26,720 --> 00:54:27,920
+then they will get nothing.
+
+1140
+00:54:27,920 --> 00:54:30,760
+And I know it's not easy.
+
+1141
+00:54:30,760 --> 00:54:32,320
+I know it's not easy to fight.
+
+1142
+00:54:32,320 --> 00:54:35,280
+God knows I find it difficult sometimes.
+
+1143
+00:54:35,280 --> 00:54:38,720
+But the fact is, your grandad fought and
+
+1144
+00:54:38,720 --> 00:54:40,880
+your great-grandad fought, and your great-great-grandad
+
+1145
+00:54:40,880 --> 00:54:43,920
+fought before him, and that is why your dad was able
+
+1146
+00:54:43,920 --> 00:54:47,000
+to live the life of comfort that he did.
+
+1147
+00:54:47,000 --> 00:54:48,080
+So now it's our turn.
+
+1148
+00:54:48,080 --> 00:54:49,440
+What are we going to do?
+
+1149
+00:54:49,440 --> 00:54:52,240
+Are we going to fight?
+
+1150
+00:54:52,240 --> 00:54:54,080
+I definitely am.
+
+1151
+00:54:54,080 --> 00:54:55,080
+Thank you very much.
+
+1152
+00:54:55,080 --> 00:54:56,520
+Tax Wealth Not Work.
+
+1153
+00:54:56,520 --> 00:54:57,400
+Send it to your mum.
+
+1154
+00:54:57,400 --> 00:54:58,080
+Send it to your friends.
+
+1155
+00:54:58,080 --> 00:54:58,640
+Take care.
+
+1156
+00:54:58,640 --> 00:55:00,200
+Have a good week.

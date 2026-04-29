@@ -1,0 +1,5707 @@
+﻿1
+00:00:00,000 --> 00:00:02,000
+No intro, just straight into it.
+
+2
+00:00:03,360 --> 00:00:05,080
+Okay.
+
+3
+00:00:05,080 --> 00:00:08,160
+This week we are going to do the video that
+
+4
+00:00:08,160 --> 00:00:10,680
+I really wanted to do, which is we are going to talk
+
+5
+00:00:10,680 --> 00:00:14,760
+about the enormous changes that we've seen in politics
+
+6
+00:00:14,760 --> 00:00:18,840
+in the last 6 months since I stopped doing videos.
+
+7
+00:00:18,840 --> 00:00:20,360
+And we are going to zoom in
+
+8
+00:00:20,360 --> 00:00:23,880
+on this one specific election in
+
+9
+00:00:23,880 --> 00:00:25,960
+a suburb of Manchester, northwest England,
+
+10
+00:00:25,960 --> 00:00:28,400
+which happened about a month, six weeks ago.
+
+11
+00:00:28,400 --> 00:00:32,400
+Because I think it's a fascinating story,
+
+12
+00:00:32,400 --> 00:00:33,800
+which is really interesting,
+
+13
+00:00:33,800 --> 00:00:37,920
+a bit infuriating and, a bit funny.
+
+14
+00:00:37,920 --> 00:00:39,280
+But we're going to look at that
+
+15
+00:00:39,280 --> 00:00:44,720
+and we're going to discuss what this situation shows us
+
+16
+00:00:44,720 --> 00:00:48,320
+just by looking at the massive changes in UK politics,
+
+17
+00:00:48,320 --> 00:00:52,000
+what it shows us about the enormous changes that...
+
+18
+00:00:52,000 --> 00:00:52,520
+And I mean,
+
+19
+00:00:52,520 --> 00:00:55,840
+really enormous changes that have been happening,
+
+20
+00:00:55,840 --> 00:00:58,480
+are still happening, and will continue to happen
+
+21
+00:00:58,480 --> 00:01:02,480
+in global politics in every country in the world.
+
+22
+00:01:02,480 --> 00:01:04,960
+So we're going to try to understand these enormous changes
+
+23
+00:01:04,960 --> 00:01:07,600
+in British politics, global politics,
+
+24
+00:01:07,600 --> 00:01:10,400
+and then at the end, we're going to talk about what
+
+25
+00:01:10,400 --> 00:01:13,280
+that means specifically for you,
+
+26
+00:01:13,280 --> 00:01:15,160
+what that means specifically for me,
+
+27
+00:01:15,160 --> 00:01:18,320
+what that means specifically on us at this channel,
+
+28
+00:01:18,320 --> 00:01:21,240
+and basically how we are going to react,
+
+29
+00:01:21,240 --> 00:01:23,880
+and how you are going to react and take advantage
+
+30
+00:01:23,880 --> 00:01:27,840
+of these enormous changes that are happening in politics
+
+31
+00:01:27,840 --> 00:01:29,080
+here in the UK and around the world.
+
+32
+00:01:29,080 --> 00:01:32,440
+Okay, so we will get to the Gorton and Denton
+
+33
+00:01:32,440 --> 00:01:34,320
+by-election, which is the the small election
+
+34
+00:01:34,320 --> 00:01:37,120
+that happened in Manchester a month, 6 weeks ago.
+
+35
+00:01:37,120 --> 00:01:40,360
+But first I want to take you back 6 months
+
+36
+00:01:40,360 --> 00:01:44,560
+to the 21st of September last year when I put
+
+37
+00:01:44,560 --> 00:01:48,920
+out a video called Will Reform Win the Next UK Election.
+
+38
+00:01:48,920 --> 00:01:50,680
+And when I made that video,
+
+39
+00:01:50,680 --> 00:01:54,240
+like the good financial markets trader that I am,
+
+40
+00:01:54,240 --> 00:01:56,200
+the first thing I did was
+
+41
+00:01:56,200 --> 00:01:58,680
+I looked at the betting market odds
+
+42
+00:01:58,680 --> 00:02:01,840
+for who will win the next UK general election.
+
+43
+00:02:01,840 --> 00:02:02,600
+I looked at the odds
+
+44
+00:02:02,600 --> 00:02:05,320
+for who will come first, who will get the most seats.
+
+45
+00:02:05,320 --> 00:02:09,360
+And I'm going to flash up now on the screen the odds as
+
+46
+00:02:09,360 --> 00:02:14,400
+they were when I shot that video in September last year.
+
+47
+00:02:14,400 --> 00:02:15,640
+We'll flash them up.
+
+48
+00:02:15,640 --> 00:02:18,120
+Those numbers probably mean nothing to you,
+
+49
+00:02:18,120 --> 00:02:22,440
+so I will convert those betting odds into a,
+
+50
+00:02:22,440 --> 00:02:28,320
+a table of probabilities which shows you who bettors,
+
+51
+00:02:28,320 --> 00:02:32,120
+gamblers thought was most likely to come first
+
+52
+00:02:32,120 --> 00:02:35,160
+in the next general election in September last year.
+
+53
+00:02:35,160 --> 00:02:38,080
+What you could see when you look at those odds is that
+
+54
+00:02:38,080 --> 00:02:40,880
+in September of last year, so just over 6 months ago,
+
+55
+00:02:40,880 --> 00:02:45,360
+the next general election was widely considered to be a
+
+56
+00:02:45,360 --> 00:02:49,760
+2-horse race between Reform and Labour,
+
+57
+00:02:49,760 --> 00:02:52,560
+with Reform significantly ahead.
+
+58
+00:02:52,560 --> 00:02:53,360
+Reform were considered
+
+59
+00:02:53,360 --> 00:02:56,760
+to have almost exactly 50% chance of winning.
+
+60
+00:02:56,760 --> 00:03:00,080
+Labour had basically a one in three chance
+
+61
+00:03:00,080 --> 00:03:03,680
+of winning, and the rest of the chances was, you know,
+
+62
+00:03:03,680 --> 00:03:04,640
+a bit for the Conservatives,
+
+63
+00:03:04,640 --> 00:03:06,120
+a tiny bit for the Liberal Democrats.
+
+64
+00:03:06,120 --> 00:03:08,120
+And this is normal.
+
+65
+00:03:08,120 --> 00:03:10,720
+So in the UK, we have what is called
+
+66
+00:03:10,720 --> 00:03:13,400
+a first past the post voting system.
+
+67
+00:03:13,400 --> 00:03:16,320
+I'll probably do a video about it in, in detail
+
+68
+00:03:16,320 --> 00:03:19,000
+at some point, but all you need to know is basically
+
+69
+00:03:19,000 --> 00:03:23,560
+this voting system is pretty much designed to guarantee
+
+70
+00:03:23,560 --> 00:03:27,360
+that you will end up with a 2-party political system.
+
+71
+00:03:27,360 --> 00:03:29,640
+It is very, very difficult to have a political system
+
+72
+00:03:29,640 --> 00:03:32,880
+with more than 2 parties under first past the post.
+
+73
+00:03:32,880 --> 00:03:35,080
+So first past the post
+
+74
+00:03:35,080 --> 00:03:37,720
+is like the British voting system, and
+
+75
+00:03:37,720 --> 00:03:39,360
+it still exists in most countries
+
+76
+00:03:39,360 --> 00:03:40,720
+which are former British Empire,
+
+77
+00:03:40,720 --> 00:03:43,600
+so we have it in the US, we have it in Australia,
+
+78
+00:03:43,600 --> 00:03:45,600
+we don't have it in New Zealand anymore,
+
+79
+00:03:45,600 --> 00:03:50,280
+and this political system is designed to deliver
+
+80
+00:03:50,280 --> 00:03:51,840
+2-party politics, which is
+
+81
+00:03:51,840 --> 00:03:56,280
+why the UK has basically always been a 2-party system.
+
+82
+00:03:56,280 --> 00:03:59,560
+It is why the US is very aggressively a 2-party system.
+
+83
+00:03:59,560 --> 00:04:04,400
+So back then in September last year,
+
+84
+00:04:04,400 --> 00:04:06,760
+we had exactly what you would expect, which was a
+
+85
+00:04:06,760 --> 00:04:10,000
+2-party system delivering basically 2 parties.
+
+86
+00:04:10,000 --> 00:04:13,080
+The next election was split between Reform
+
+87
+00:04:13,080 --> 00:04:14,760
+and Labour.
+
+88
+00:04:14,760 --> 00:04:17,840
+And then once I had these odds in that video,
+
+89
+00:04:17,840 --> 00:04:19,280
+I went on to do, again,
+
+90
+00:04:19,280 --> 00:04:22,320
+what any other good trader would do, which was say,
+
+91
+00:04:22,320 --> 00:04:25,520
+"Okay, what do I know that the market doesn't know?
+
+92
+00:04:25,520 --> 00:04:27,520
+What predictions can I make
+
+93
+00:04:27,520 --> 00:04:32,640
+using my specialist knowledge, my private knowledge?
+
+94
+00:04:32,640 --> 00:04:36,240
+That means I can predict better than the gamblers,
+
+95
+00:04:36,240 --> 00:04:38,400
+and can I then correctly predict
+
+96
+00:04:38,400 --> 00:04:40,720
+how these odds will change?" And if you go back
+
+97
+00:04:40,720 --> 00:04:42,960
+and watch that video, you'll see I then went on
+
+98
+00:04:42,960 --> 00:04:45,680
+to make a series of predictions about how the betting
+
+99
+00:04:45,680 --> 00:04:47,720
+market would change, about how the odds would change.
+
+100
+00:04:47,720 --> 00:04:50,440
+So the main prediction I made in that video
+
+101
+00:04:50,440 --> 00:04:52,000
+was very simple.
+
+102
+00:04:52,000 --> 00:04:54,000
+So anyone who's watched this channel for a long time
+
+103
+00:04:54,000 --> 00:04:57,720
+will know that this channel is built around a pretty
+
+104
+00:04:57,720 --> 00:05:01,680
+simple basic thesis, which is growing wealth inequality
+
+105
+00:05:01,680 --> 00:05:03,960
+hurts the economy and hurts living standards,
+
+106
+00:05:03,960 --> 00:05:05,800
+and this is not generally understood
+
+107
+00:05:05,800 --> 00:05:08,560
+by economists or traders.
+
+108
+00:05:08,560 --> 00:05:11,360
+Inequality of wealth is increasing,
+
+109
+00:05:11,360 --> 00:05:13,920
+which means that living standards will keep falling,
+
+110
+00:05:13,920 --> 00:05:15,760
+and because this is not generally understood
+
+111
+00:05:15,760 --> 00:05:17,400
+by economists or traders,
+
+112
+00:05:17,400 --> 00:05:21,320
+this will tend not to be predicted correctly in advance.
+
+113
+00:05:21,320 --> 00:05:23,760
+This helps us to predict financial markets
+
+114
+00:05:23,760 --> 00:05:26,160
+and the economy, and I've made a lot of money
+
+115
+00:05:26,160 --> 00:05:29,120
+using this to bet on financial markets, but
+
+116
+00:05:29,120 --> 00:05:31,760
+it also helps us to predict politics, and the way that
+
+117
+00:05:31,760 --> 00:05:35,440
+it affects politics is really quite simple.
+
+118
+00:05:35,440 --> 00:05:38,840
+Living standards will continue to fall, and that means
+
+119
+00:05:38,840 --> 00:05:42,360
+that in basically every country in the world, incumbents
+
+120
+00:05:42,360 --> 00:05:45,040
+will tend to become more and more unpopular over time.
+
+121
+00:05:45,040 --> 00:05:47,920
+So incumbent is the guy in charge at the moment,
+
+122
+00:05:47,920 --> 00:05:50,200
+and what we have seen over the last really 15,
+
+123
+00:05:50,200 --> 00:05:52,360
+20 years, especially the last 5, 10 years,
+
+124
+00:05:52,360 --> 00:05:56,560
+is politicians who are in power tend to lose popularity
+
+125
+00:05:56,560 --> 00:05:59,760
+very quickly because inequality gets worse,
+
+126
+00:05:59,760 --> 00:06:02,400
+the economy gets worse, nobody does anything about it,
+
+127
+00:06:02,400 --> 00:06:05,200
+and obviously the public starts to get angry.
+
+128
+00:06:05,200 --> 00:06:06,240
+"Why are you not doing anything?
+
+129
+00:06:06,240 --> 00:06:07,840
+Why living standards getting worse?"
+
+130
+00:06:07,840 --> 00:06:10,400
+And politicians who are in power
+
+131
+00:06:10,400 --> 00:06:12,960
+tend to become very unpopular very quickly.
+
+132
+00:06:12,960 --> 00:06:16,360
+So I applied this basic understanding
+
+133
+00:06:16,360 --> 00:06:18,160
+to the financial market,
+
+134
+00:06:18,160 --> 00:06:20,480
+the betting market around the next election,
+
+135
+00:06:20,480 --> 00:06:22,960
+and I made the very simple prediction which is
+
+136
+00:06:22,960 --> 00:06:27,320
+Labour will start to become more unpopular over time
+
+137
+00:06:27,320 --> 00:06:30,640
+and the likelihood of Labour winning the next election
+
+138
+00:06:30,640 --> 00:06:32,080
+will fall over time.
+
+139
+00:06:32,080 --> 00:06:35,040
+So let's have a look at how my main prediction,
+
+140
+00:06:35,040 --> 00:06:37,920
+my first prediction has fared in the last 6, 7 months.
+
+141
+00:06:37,920 --> 00:06:39,880
+Okay, so if we flash it up, you will see
+
+142
+00:06:39,880 --> 00:06:43,920
+that in the last 6 months, Labour's probability
+
+143
+00:06:43,920 --> 00:06:46,480
+of winning the next election according to the betting
+
+144
+00:06:46,480 --> 00:06:52,040
+market, has fallen from 32 and a half percent to 26%.
+
+145
+00:06:52,040 --> 00:06:54,320
+So my prediction was right.
+
+146
+00:06:54,320 --> 00:06:57,000
+That is quite a big fall.
+
+147
+00:06:57,000 --> 00:07:00,840
+If Labour continue to fall by 6.5%
+
+148
+00:07:00,840 --> 00:07:04,440
+every 6 months until the next election, by the time
+
+149
+00:07:04,440 --> 00:07:06,120
+we get to the next election, their chance of winning
+
+150
+00:07:06,120 --> 00:07:10,520
+will be minus 13%, so it is a pretty big fall.
+
+151
+00:07:10,520 --> 00:07:14,840
+So I think that's thumbs up for the prediction.
+
+152
+00:07:14,840 --> 00:07:17,400
+Although obviously it's coming from...
+
+153
+00:07:17,400 --> 00:07:19,480
+I think that's caused by basically what I said.
+
+154
+00:07:19,480 --> 00:07:21,160
+Living standards have continued to fall.
+
+155
+00:07:21,160 --> 00:07:23,920
+Labour are continuing to fail on the economy.
+
+156
+00:07:23,920 --> 00:07:25,520
+They continue to be perceived to be failing
+
+157
+00:07:25,520 --> 00:07:26,000
+on the economy.
+
+158
+00:07:26,000 --> 00:07:27,720
+I think they are failing on the economy
+
+159
+00:07:27,720 --> 00:07:30,240
+and that's hurting their popularity.
+
+160
+00:07:30,240 --> 00:07:34,080
+The second prediction that I made was again,
+
+161
+00:07:34,080 --> 00:07:36,840
+a very simple one, and it was basically
+
+162
+00:07:36,840 --> 00:07:41,040
+like a consequential prediction, which is I'm confident,
+
+163
+00:07:41,040 --> 00:07:44,080
+I was confident that Labour's popularity would fall,
+
+164
+00:07:44,080 --> 00:07:46,720
+Labour's chance of winning would fall.
+
+165
+00:07:46,720 --> 00:07:48,600
+As I've explained,
+
+166
+00:07:48,600 --> 00:07:51,160
+the UK, just like the US political system,
+
+167
+00:07:51,160 --> 00:07:54,360
+is designed to be a 2-horse race,
+
+168
+00:07:54,360 --> 00:07:57,040
+it is designed to be a 2-party political system.
+
+169
+00:07:57,040 --> 00:08:00,360
+So the obvious logical consequence in a 2-horse race,
+
+170
+00:08:00,360 --> 00:08:03,000
+and in September last year it definitely was a
+
+171
+00:08:03,000 --> 00:08:07,680
+2-horse race, if Labour's popularity is going to fall,
+
+172
+00:08:07,680 --> 00:08:09,960
+Labour's chance of winning is going to fall,
+
+173
+00:08:09,960 --> 00:08:13,160
+the other horse in the race, which was Reform,
+
+174
+00:08:13,160 --> 00:08:15,560
+their chance of winning should increase.
+
+175
+00:08:15,560 --> 00:08:17,000
+And the title of that video was,
+
+176
+00:08:17,000 --> 00:08:18,960
+"Will Reform Win the Next Election?" And I
+
+177
+00:08:18,960 --> 00:08:21,960
+basically used this logic to say, "Well, because we know
+
+178
+00:08:21,960 --> 00:08:25,600
+Labour will fail, Reform will probably win," to predict
+
+179
+00:08:25,600 --> 00:08:27,480
+that Reform probably would win the next election.
+
+180
+00:08:27,480 --> 00:08:28,880
+So what has happened
+
+181
+00:08:28,880 --> 00:08:33,040
+to Reform's probability of winning the next election?
+
+182
+00:08:33,040 --> 00:08:35,360
+Based on the latest odds,
+
+183
+00:08:35,360 --> 00:08:37,640
+Reform's chance of winning the next election
+
+184
+00:08:37,640 --> 00:08:43,080
+has changed from 50% to, at the moment I'm speaking,
+
+185
+00:08:43,080 --> 00:08:51,080
+38.5%, which is a really pretty enormous drop.
+
+186
+00:08:51,080 --> 00:08:53,080
+If they continue to fall 11.5%
+
+187
+00:08:53,080 --> 00:08:57,280
+every 6 months, then they would end up at minus 12%.
+
+188
+00:08:57,280 --> 00:08:58,560
+Oh, it would be worse, isn't it?
+
+189
+00:08:58,560 --> 00:09:00,640
+It would be more than that.
+
+190
+00:09:00,640 --> 00:09:03,520
+It would- they would end up at...
+
+191
+00:09:03,520 --> 00:09:05,920
+11.5% every 6 months, 25% a year.
+
+192
+00:09:05,920 --> 00:09:08,880
+End up minus 37% by the end of the next election.
+
+193
+00:09:08,880 --> 00:09:12,800
+Yeah, so if Reforms continue to lose 11.5%
+
+194
+00:09:12,800 --> 00:09:13,960
+chance of winning every 6 months,
+
+195
+00:09:13,960 --> 00:09:16,080
+they would be down way into negative territory
+
+196
+00:09:16,080 --> 00:09:17,000
+by the time of the next election.
+
+197
+00:09:17,000 --> 00:09:19,080
+And this is...
+
+198
+00:09:19,080 --> 00:09:25,560
+I'm going to stop at this point and say this is amazing
+
+199
+00:09:25,560 --> 00:09:31,320
+and it is also borderline impossible because
+
+200
+00:09:31,320 --> 00:09:33,720
+as I've said a number of times already on this video,
+
+201
+00:09:33,720 --> 00:09:36,560
+the UK electoral system, like the US electoral system,
+
+202
+00:09:36,560 --> 00:09:40,880
+is designed to deliver 2-party politics.
+
+203
+00:09:40,880 --> 00:09:45,600
+And if one party massively hurts their popularity,
+
+204
+00:09:45,600 --> 00:09:48,320
+the other party should increase their chance
+
+205
+00:09:48,320 --> 00:09:51,320
+of winning basically by default.
+
+206
+00:09:51,320 --> 00:09:55,280
+And yet what we have seen in the last 6, 7 months is,
+
+207
+00:09:55,280 --> 00:10:00,400
+in a system designed to deliver 2-party politics,
+
+208
+00:10:00,400 --> 00:10:04,160
+massive falls in the likelihood of winning
+
+209
+00:10:04,160 --> 00:10:08,240
+of both of the horses in the 2-horse race.
+
+210
+00:10:08,240 --> 00:10:11,080
+A massive decrease in the chance of Reform winning
+
+211
+00:10:11,080 --> 00:10:14,360
+and a massive decrease in the chance of Labour winning.
+
+212
+00:10:14,360 --> 00:10:17,680
+And this is amazing.
+
+213
+00:10:17,680 --> 00:10:23,080
+This is like impossible and let, let's talk a little bit
+
+214
+00:10:23,080 --> 00:10:27,880
+about how this impossible thing has managed to happen.
+
+215
+00:10:27,880 --> 00:10:31,760
+Okay, so I think first we need to explain how and why
+
+216
+00:10:31,760 --> 00:10:35,040
+it is that Reform's chance of winning the next election
+
+217
+00:10:35,040 --> 00:10:38,640
+has significantly decreased, even in the context
+
+218
+00:10:38,640 --> 00:10:43,120
+of pretty aggressively decreasing popularity
+
+219
+00:10:43,120 --> 00:10:47,200
+of their main rivals, the Labour Party.
+
+220
+00:10:47,200 --> 00:10:48,640
+and I think a lot of people will say
+
+221
+00:10:48,640 --> 00:10:51,080
+that this is because of Donald Trump
+
+222
+00:10:51,080 --> 00:10:53,680
+and I think this is definitely part of it.
+
+223
+00:10:53,680 --> 00:10:57,600
+I think it probably is not going too far
+
+224
+00:10:57,600 --> 00:10:59,800
+to say that Donald Trump in the last six months
+
+225
+00:10:59,800 --> 00:11:04,920
+has done a string of things which, especially viewed
+
+226
+00:11:04,920 --> 00:11:07,200
+from the perspective of somebody who is not American,
+
+227
+00:11:07,200 --> 00:11:09,320
+but even increasingly from the perspective of somebody
+
+228
+00:11:09,320 --> 00:11:14,880
+who is American, have seemed increasingly wild
+
+229
+00:11:14,880 --> 00:11:20,160
+and reckless, and perhaps non-strategic, have,
+
+230
+00:11:20,160 --> 00:11:22,280
+are obviously having the consequences of,
+
+231
+00:11:22,280 --> 00:11:23,760
+of decreasing living standards.
+
+232
+00:11:23,760 --> 00:11:26,400
+I did a video last year,
+
+233
+00:11:26,400 --> 00:11:28,680
+it might even be 2 years ago now,
+
+234
+00:11:28,680 --> 00:11:32,040
+called "Why Labour and Trump Will Both Fail".
+
+235
+00:11:32,040 --> 00:11:34,040
+And it was basically saying,
+
+236
+00:11:34,040 --> 00:11:36,720
+you know, we have a new Labour government
+
+237
+00:11:36,720 --> 00:11:39,480
+and a new Trump government, one of whom is supposed to
+
+238
+00:11:39,480 --> 00:11:42,080
+be on like the left of politics, one of whom is supposed
+
+239
+00:11:42,080 --> 00:11:45,080
+to be on the right of politics, but in both cases,
+
+240
+00:11:45,080 --> 00:11:47,120
+they're not taking action on inequality and in,
+
+241
+00:11:47,120 --> 00:11:50,040
+in both cases we will see living standards fall.
+
+242
+00:11:50,040 --> 00:11:52,120
+And I think it is becoming increasingly obvious
+
+243
+00:11:52,120 --> 00:11:53,320
+that I was right on that.
+
+244
+00:11:53,320 --> 00:11:55,840
+That we have both politics... politicians on the left
+
+245
+00:11:55,840 --> 00:11:58,760
+and the right presiding over falling living standards.
+
+246
+00:11:58,760 --> 00:12:02,360
+I think people who are able to look at Donald Trump
+
+247
+00:12:02,360 --> 00:12:05,840
+and to see that these new far right politicians,
+
+248
+00:12:05,840 --> 00:12:08,200
+at least in the case of Trump and I think more broadly,
+
+249
+00:12:08,200 --> 00:12:11,040
+are not delivering improved living standards,
+
+250
+00:12:11,040 --> 00:12:12,280
+in fact are delivering like
+
+251
+00:12:12,280 --> 00:12:14,880
+quite aggressively worsening living standards,
+
+252
+00:12:14,880 --> 00:12:20,560
+obviously... Obviously hurts parties like Reform
+
+253
+00:12:20,560 --> 00:12:22,080
+and people like Nigel Farage who are,
+
+254
+00:12:22,080 --> 00:12:23,840
+and far-right politicians all over the world.
+
+255
+00:12:23,840 --> 00:12:27,120
+But the truth is that that is part of it.
+
+256
+00:12:27,120 --> 00:12:30,120
+The biggest reason that Reform's chance of winning
+
+257
+00:12:30,120 --> 00:12:33,480
+have significantly fallen is quite simply
+
+258
+00:12:33,480 --> 00:12:38,680
+because there has been a split in the Reform party.
+
+259
+00:12:38,680 --> 00:12:40,320
+So now when I made these predictions
+
+260
+00:12:40,320 --> 00:12:42,240
+saying that Reform's odds would go up,
+
+261
+00:12:42,240 --> 00:12:44,040
+I'll protect myself a little bit.
+
+262
+00:12:44,040 --> 00:12:45,680
+You can go and watch the video.
+
+263
+00:12:45,680 --> 00:12:47,800
+I caveated it quite clearly, which is I said
+
+264
+00:12:47,800 --> 00:12:51,680
+that I think that there are a lot of people in Reform
+
+265
+00:12:51,680 --> 00:12:57,200
+who are a little bit crazy perhaps, and
+
+266
+00:12:57,200 --> 00:13:01,520
+I said there was always a risk with Reform growing
+
+267
+00:13:01,520 --> 00:13:03,400
+that they would do something crazy.
+
+268
+00:13:03,400 --> 00:13:05,480
+And I think the... my exact words were,
+
+269
+00:13:05,480 --> 00:13:10,280
+"As long as Reform don't do anything crazy, then their
+
+270
+00:13:10,280 --> 00:13:13,000
+odds of winning will go up." But what Reform have done
+
+271
+00:13:13,000 --> 00:13:15,840
+is they have basically, to some degree, split the party.
+
+272
+00:13:15,840 --> 00:13:18,480
+There is a guy called Rupert Lowe,
+
+273
+00:13:18,480 --> 00:13:21,280
+who was a Reform MP, who has basically split off
+
+274
+00:13:21,280 --> 00:13:23,840
+and started his own political party
+
+275
+00:13:23,840 --> 00:13:27,400
+called Restore Britain, which is also
+
+276
+00:13:27,400 --> 00:13:29,280
+on the right or the far-right of politics.
+
+277
+00:13:29,280 --> 00:13:31,800
+Under the British political system,
+
+278
+00:13:31,800 --> 00:13:35,560
+the first-past-the-post system, splitting of the vote
+
+279
+00:13:35,560 --> 00:13:37,680
+is aggressively punished in that system.
+
+280
+00:13:37,680 --> 00:13:39,880
+So, the splitting of the right or the
+
+281
+00:13:39,880 --> 00:13:42,560
+far-right vote into two separate political parties
+
+282
+00:13:42,560 --> 00:13:45,160
+massively, massively damages Reform's chance of winning,
+
+283
+00:13:45,160 --> 00:13:46,320
+according to the betting market.
+
+284
+00:13:46,320 --> 00:13:48,280
+I was quite surprised because
+
+285
+00:13:48,280 --> 00:13:50,880
+I haven't really heard much about this new, this new
+
+286
+00:13:50,880 --> 00:13:52,760
+far-right party, Restore Britain, but the betting
+
+287
+00:13:52,760 --> 00:13:55,680
+market thinks it's going to get a big chunk of votes,
+
+288
+00:13:55,680 --> 00:13:57,200
+and that's going to hurt Reform.
+
+289
+00:13:57,200 --> 00:13:58,320
+So yeah,
+
+290
+00:13:58,320 --> 00:14:01,560
+Reform have been hurt by splitting of their vote
+
+291
+00:14:01,560 --> 00:14:05,600
+and basically the extreme unpopularity of Trump,
+
+292
+00:14:05,600 --> 00:14:08,080
+especially outside of the country.
+
+293
+00:14:08,080 --> 00:14:11,120
+I think the biggest question this raises is,
+
+294
+00:14:11,120 --> 00:14:13,840
+when I brought up the fall
+
+295
+00:14:13,840 --> 00:14:16,520
+in Labour's chance of winning from 32.5% to,
+
+296
+00:14:16,520 --> 00:14:20,720
+to 26%, when I brought that up earlier on in this video,
+
+297
+00:14:20,720 --> 00:14:24,440
+that was without the context of this massive fall
+
+298
+00:14:24,440 --> 00:14:26,320
+in Reform's chance of winning.
+
+299
+00:14:26,320 --> 00:14:27,920
+When we add in the context
+
+300
+00:14:27,920 --> 00:14:30,320
+that their main political rivals have, like,
+
+301
+00:14:30,320 --> 00:14:32,560
+massively shot themselves in the foot,
+
+302
+00:14:32,560 --> 00:14:34,560
+the fact that Labour's chance of winning
+
+303
+00:14:34,560 --> 00:14:41,560
+has still fallen, and quite a lot, really what
+
+304
+00:14:41,560 --> 00:14:46,280
+this says is Labour's performance in the last 6 months
+
+305
+00:14:46,280 --> 00:14:50,320
+is really, quite frankly, like catastrophically bad.
+
+306
+00:14:50,320 --> 00:14:54,920
+Like I, to, it, to have, to exist in a political system
+
+307
+00:14:54,920 --> 00:14:58,560
+which is aggressively designed to give only 2 parties,
+
+308
+00:14:58,560 --> 00:15:02,800
+to see your chance of winning significantly fall
+
+309
+00:15:02,800 --> 00:15:05,840
+despite the fact that your main strategic rivals
+
+310
+00:15:05,840 --> 00:15:12,520
+have massively damaged themselves is a really woefully,
+
+311
+00:15:12,520 --> 00:15:16,000
+catastrophically bad performance.
+
+312
+00:15:16,000 --> 00:15:18,080
+And of course, the next question we have to ask here,
+
+313
+00:15:18,080 --> 00:15:22,200
+which is to address the impossibility,
+
+314
+00:15:22,200 --> 00:15:27,200
+how is it even possible if the 2 horses running the
+
+315
+00:15:27,200 --> 00:15:30,480
+2-horse race are looking significantly less likely
+
+316
+00:15:30,480 --> 00:15:33,560
+to win the 2-horse race, and you know,
+
+317
+00:15:33,560 --> 00:15:35,720
+if you add these up, you'll see that the chance of
+
+318
+00:15:35,720 --> 00:15:40,320
+winning is only about 60% between these two parties,
+
+319
+00:15:40,320 --> 00:15:42,680
+who is, is going to win the next election?
+
+320
+00:15:42,680 --> 00:15:45,560
+Where have the...
+
+321
+00:15:45,560 --> 00:15:47,520
+where has that, those probability points,
+
+322
+00:15:47,520 --> 00:15:49,480
+those percentage points of chance of winning,
+
+323
+00:15:49,480 --> 00:15:52,320
+where have they gone?
+
+324
+00:15:52,320 --> 00:15:55,760
+And if we bring this chart up, I'll show you
+
+325
+00:15:55,760 --> 00:15:57,680
+that it's not gone to the Conservatives,
+
+326
+00:15:57,680 --> 00:15:59,080
+who have only very slightly
+
+327
+00:15:59,080 --> 00:16:03,200
+increased their chance of winning from 11% to 12.5%.
+
+328
+00:16:03,200 --> 00:16:05,680
+It's not gone to the Liberal Democrats,
+
+329
+00:16:05,680 --> 00:16:08,640
+who are still sitting at pretty much exactly 2%,
+
+330
+00:16:08,640 --> 00:16:10,560
+very unlikely chance of winning.
+
+331
+00:16:10,560 --> 00:16:14,440
+We... if we want to see who are the guys who have entered
+
+332
+00:16:14,440 --> 00:16:19,040
+this race and, and made it more, much more open, we need
+
+333
+00:16:19,040 --> 00:16:23,120
+to add basically 2 more rows to this table,
+
+334
+00:16:23,120 --> 00:16:27,040
+and we need to add Restore, who's this new party who,
+
+335
+00:16:27,040 --> 00:16:31,040
+are basically a sort of part of Reform, like new,
+
+336
+00:16:31,040 --> 00:16:33,000
+a new separate wing of Reform who have
+
+337
+00:16:33,000 --> 00:16:36,400
+apparently 7.5% chance of winning the next election,
+
+338
+00:16:36,400 --> 00:16:38,680
+which is insane because most people in the country
+
+339
+00:16:38,680 --> 00:16:40,360
+have never even heard of them.
+
+340
+00:16:40,360 --> 00:16:43,440
+And we have to add the Greens,
+
+341
+00:16:43,440 --> 00:16:46,200
+who are, according to the betting market as of today,
+
+342
+00:16:46,200 --> 00:16:50,640
+as of this morning, have an 11.5% chance
+
+343
+00:16:50,640 --> 00:16:56,000
+of winning the next election, which is insane.
+
+344
+00:16:56,000 --> 00:16:59,080
+The Greens have never had...
+
+345
+00:16:59,080 --> 00:17:01,120
+won more than 4 seats in a general election.
+
+346
+00:17:01,120 --> 00:17:04,640
+Restore didn't even exist until about 2 months ago.
+
+347
+00:17:04,640 --> 00:17:06,640
+Until two years ago, the Greens
+
+348
+00:17:06,640 --> 00:17:08,760
+had never won more than one seat in a general election.
+
+349
+00:17:08,760 --> 00:17:12,080
+And I just want you to take a little moment to,
+
+350
+00:17:12,080 --> 00:17:16,240
+like, look at this graph, this table here,
+
+351
+00:17:16,240 --> 00:17:19,800
+which shows you the 6 parties,
+
+352
+00:17:19,800 --> 00:17:23,040
+the Liberal Democrats are in there with 2%, who all have
+
+353
+00:17:23,040 --> 00:17:25,680
+apparently a chance of winning this next election.
+
+354
+00:17:25,680 --> 00:17:31,480
+And the fact that we sit here looking at that,
+
+355
+00:17:31,480 --> 00:17:35,080
+we have no idea who is going to win the next election.
+
+356
+00:17:35,080 --> 00:17:37,080
+And I just want to make it clear
+
+357
+00:17:37,080 --> 00:17:41,520
+this has never, ever, ever happened before
+
+358
+00:17:41,520 --> 00:17:44,640
+in the whole history of British democracy.
+
+359
+00:17:44,640 --> 00:17:46,880
+The UK political system is designed
+
+360
+00:17:46,880 --> 00:17:50,640
+to be two-horse race, and currently what you have
+
+361
+00:17:50,640 --> 00:17:54,200
+is basically a completely shattered vote,
+
+362
+00:17:54,200 --> 00:17:56,320
+completely shattered polling,
+
+363
+00:17:56,320 --> 00:18:00,800
+and a betting market that thinks any of five parties,
+
+364
+00:18:00,800 --> 00:18:03,640
+you know, one of which didn't even exist two months ago,
+
+365
+00:18:03,640 --> 00:18:05,240
+could win the next election
+
+366
+00:18:05,240 --> 00:18:08,400
+and has no idea who is going to win.
+
+367
+00:18:08,400 --> 00:18:12,080
+And I just want to sit with this for a moment
+
+368
+00:18:12,080 --> 00:18:20,520
+to really, really emphasise just how historic this is...
+
+369
+00:18:20,520 --> 00:18:20,760
+All right?
+
+370
+00:18:20,760 --> 00:18:23,680
+So the conservatives, you know, who are sitting there
+
+371
+00:18:23,680 --> 00:18:27,280
+sort of third, joint third, fourth, in likelyhood to win,
+
+372
+00:18:27,280 --> 00:18:31,120
+have come first or second in every single election
+
+373
+00:18:31,120 --> 00:18:33,800
+in the entire history of British democracy,
+
+374
+00:18:33,800 --> 00:18:35,640
+which is over 200 years, right?
+
+375
+00:18:35,640 --> 00:18:37,360
+The British political system
+
+376
+00:18:37,360 --> 00:18:40,560
+has been a 2-horse race forever.
+
+377
+00:18:40,560 --> 00:18:42,400
+It was a 2-horse race between the conservatives
+
+378
+00:18:42,400 --> 00:18:44,960
+and the liberals for like 120 years.
+
+379
+00:18:44,960 --> 00:18:46,800
+You know, and Labour have come first or second
+
+380
+00:18:46,800 --> 00:18:49,640
+in every single election since, I think 1918.
+
+381
+00:18:49,640 --> 00:18:51,720
+You know, this, this is...
+
+382
+00:18:51,720 --> 00:18:54,960
+The whole design of this political system
+
+383
+00:18:54,960 --> 00:19:00,480
+is to be a 2-horse race, and it is now a 5-horse race,
+
+384
+00:19:00,480 --> 00:19:03,480
+and that is not even considering the,
+
+385
+00:19:03,480 --> 00:19:05,360
+the nationalists in Scotland and Wales,
+
+386
+00:19:05,360 --> 00:19:08,040
+who will almost certainly win Scotland
+
+387
+00:19:08,040 --> 00:19:10,280
+and win Wales in the next election.
+
+388
+00:19:10,280 --> 00:19:11,520
+Like, this...
+
+389
+00:19:11,520 --> 00:19:17,040
+What you are seeing is the shattering of a,
+
+390
+00:19:17,040 --> 00:19:25,600
+of 230, 40, 50 years of British democratic history,
+
+391
+00:19:25,600 --> 00:19:28,600
+and really of global democratic history.
+
+392
+00:19:28,600 --> 00:19:30,120
+What you are seeing
+
+393
+00:19:30,120 --> 00:19:32,760
+is the end of the end of history, right?
+
+394
+00:19:32,760 --> 00:19:36,920
+So there was an American political philosopher
+
+395
+00:19:36,920 --> 00:19:40,840
+called Francis Fukuyama, who wrote this book in 1992
+
+396
+00:19:40,840 --> 00:19:42,240
+called The End of History.
+
+397
+00:19:42,240 --> 00:19:46,920
+And the idea was USSR has fallen, Berlin Wall's fallen,
+
+398
+00:19:46,920 --> 00:19:49,400
+communism failed, communism's over,
+
+399
+00:19:49,400 --> 00:19:50,880
+and now history's finished.
+
+400
+00:19:50,880 --> 00:19:54,680
+We've discovered the optimal way of managing
+
+401
+00:19:54,680 --> 00:19:57,560
+politics, the optimal way of managing economics, and
+
+402
+00:19:57,560 --> 00:19:59,960
+we're not going to have any more big crises anymore
+
+403
+00:19:59,960 --> 00:20:03,760
+because basically the big questions are solved.
+
+404
+00:20:03,760 --> 00:20:11,720
+And here we are now, 30 years later, with what looks
+
+405
+00:20:11,720 --> 00:20:16,840
+like the death of 250 years of electoral history.
+
+406
+00:20:16,840 --> 00:20:17,600
+And, what...
+
+407
+00:20:17,600 --> 00:20:19,600
+The big point I want to make here
+
+408
+00:20:19,600 --> 00:20:24,880
+is this is not at all unique to the UK.
+
+409
+00:20:24,880 --> 00:20:26,920
+Wherever you're watching from,
+
+410
+00:20:26,920 --> 00:20:28,440
+unless you're watching from America,
+
+411
+00:20:28,440 --> 00:20:30,960
+I know we do have a lot of American viewers,
+
+412
+00:20:30,960 --> 00:20:32,600
+this is happening in your country as well.
+
+413
+00:20:32,600 --> 00:20:35,600
+So I've... I did some research, did some...
+
+414
+00:20:35,600 --> 00:20:37,920
+Even got some statistics, would you believe?
+
+415
+00:20:37,920 --> 00:20:41,520
+So this situation that we had in the UK
+
+416
+00:20:41,520 --> 00:20:44,680
+until recently of one big center-left party
+
+417
+00:20:44,680 --> 00:20:46,080
+and one big center-right party,
+
+418
+00:20:46,080 --> 00:20:48,960
+and it's basically two-party politics between them,
+
+419
+00:20:48,960 --> 00:20:52,000
+was like roughly normal in the Western world.
+
+420
+00:20:52,000 --> 00:20:53,800
+It was roughly normal in Europe,
+
+421
+00:20:53,800 --> 00:20:55,800
+obviously in the US, Australia, New Zealand,
+
+422
+00:20:55,800 --> 00:20:56,480
+all these places.
+
+423
+00:20:56,480 --> 00:20:59,960
+This was basically the way that politics has been done
+
+424
+00:20:59,960 --> 00:21:03,880
+since World War II in most countries.
+
+425
+00:21:03,880 --> 00:21:05,720
+And I looked into this phenomenon
+
+426
+00:21:05,720 --> 00:21:09,000
+of splintering of the vote,
+
+427
+00:21:09,000 --> 00:21:12,600
+collapse in popularity of these like historical parties
+
+428
+00:21:12,600 --> 00:21:15,560
+that have dominated politics across the world,
+
+429
+00:21:15,560 --> 00:21:19,280
+and like collapse in this 2-party system.
+
+430
+00:21:19,280 --> 00:21:21,720
+And I looked at the percentage of seats
+
+431
+00:21:21,720 --> 00:21:24,200
+which went to the main 2 parties
+
+432
+00:21:24,200 --> 00:21:26,280
+across a variety of different countries.
+
+433
+00:21:26,280 --> 00:21:28,240
+And here's just a few statistics, right?
+
+434
+00:21:28,240 --> 00:21:33,080
+In Spain in 2008, the top 2 parties took 84% of seats,
+
+435
+00:21:33,080 --> 00:21:36,160
+and in 2019 it was 45%.
+
+436
+00:21:36,160 --> 00:21:43,400
+In France, it fell in 12 years recently from 82% to 59%.
+
+437
+00:21:43,400 --> 00:21:48,120
+In Italy in 2006, the top 2 coalitions took 99.5%
+
+438
+00:21:48,120 --> 00:21:51,160
+of seats, and now that's down to minus 70%.
+
+439
+00:21:51,160 --> 00:21:54,160
+Germany's fallen from 77% to 49%.
+
+440
+00:21:54,160 --> 00:21:56,800
+Netherlands, 56% to 34%.
+
+441
+00:21:56,800 --> 00:22:01,280
+What you are seeing here in the UK
+
+442
+00:22:01,280 --> 00:22:11,520
+in the last 6 months is a representation of the end,
+
+443
+00:22:11,520 --> 00:22:17,120
+the absolute collapse of the political center
+
+444
+00:22:17,120 --> 00:22:20,840
+that has dominated ideas about economics,
+
+445
+00:22:20,840 --> 00:22:21,800
+about politics,
+
+446
+00:22:21,800 --> 00:22:25,240
+about the way to run countries in the West,
+
+447
+00:22:25,240 --> 00:22:31,360
+in Europe, for, you know, 80, 90 years.
+
+448
+00:22:31,360 --> 00:22:32,280
+You know,
+
+449
+00:22:32,280 --> 00:22:33,120
+And it's just...
+
+450
+00:22:33,120 --> 00:22:34,120
+So...
+
+451
+00:22:34,120 --> 00:22:36,000
+And the reason we're only seeing this in the UK now
+
+452
+00:22:36,000 --> 00:22:39,480
+is because these things have happened already in Europe.
+
+453
+00:22:39,480 --> 00:22:40,920
+It took longer to reach the UK
+
+454
+00:22:40,920 --> 00:22:43,840
+because we have these political structures
+
+455
+00:22:43,840 --> 00:22:45,880
+which make it very easy
+
+456
+00:22:45,880 --> 00:22:49,040
+for the established political parties to stay in power,
+
+457
+00:22:49,040 --> 00:22:52,360
+and we're only starting to see it crack now because
+
+458
+00:22:52,360 --> 00:22:55,360
+it's so difficult to displace those central parties.
+
+459
+00:22:55,360 --> 00:22:57,480
+But if you look at Europe, what
+
+460
+00:22:57,480 --> 00:23:04,600
+we can see very, very clearly is an absolute collapse
+
+461
+00:23:04,600 --> 00:23:09,760
+in political popularity in voting for these centrist
+
+462
+00:23:09,760 --> 00:23:13,880
+political parties, be they center left or center right.
+
+463
+00:23:13,880 --> 00:23:15,680
+Quite simply, I think quite obviously
+
+464
+00:23:15,680 --> 00:23:19,640
+because people have lost and are losing faith
+
+465
+00:23:19,640 --> 00:23:21,800
+in these traditional political parties
+
+466
+00:23:21,800 --> 00:23:22,840
+to deliver anything
+
+467
+00:23:22,840 --> 00:23:25,880
+other than consistently falling living standards.
+
+468
+00:23:25,880 --> 00:23:26,080
+Okay.
+
+469
+00:23:26,080 --> 00:23:28,640
+So that's the first big point I want to make, right?
+
+470
+00:23:28,640 --> 00:23:31,120
+That the political game,
+
+471
+00:23:31,120 --> 00:23:34,800
+the political world here in the UK,
+
+472
+00:23:34,800 --> 00:23:38,200
+has changed in this way that
+
+473
+00:23:38,200 --> 00:23:39,880
+has never happened before
+
+474
+00:23:39,880 --> 00:23:42,600
+in more than 200 years of British democracy.
+
+475
+00:23:42,600 --> 00:23:45,040
+The complete collapse of the center,
+
+476
+00:23:45,040 --> 00:23:47,760
+the absolute splintering of the vote,
+
+477
+00:23:47,760 --> 00:23:52,080
+and that is not at all uniquely British.
+
+478
+00:23:52,080 --> 00:23:53,640
+That is happening all over the world.
+
+479
+00:23:53,640 --> 00:23:55,600
+The only reason it's not happening in America
+
+480
+00:23:55,600 --> 00:23:57,880
+is because America, the design of
+
+481
+00:23:57,880 --> 00:24:00,400
+the political system there makes it incredibly hard,
+
+482
+00:24:00,400 --> 00:24:01,280
+almost impossible
+
+483
+00:24:01,280 --> 00:24:04,520
+to displace the mainstream existing political parties.
+
+484
+00:24:04,520 --> 00:24:08,120
+But yeah, the popularity
+
+485
+00:24:08,120 --> 00:24:10,640
+of the traditional centrist political parties
+
+486
+00:24:10,640 --> 00:24:15,000
+collapsing, collapsing, collapsing all over the world.
+
+487
+00:24:15,000 --> 00:24:16,840
+It's only surviving in the US
+
+488
+00:24:16,840 --> 00:24:20,080
+where it's basically possible to displace them.
+
+489
+00:24:20,080 --> 00:24:22,440
+And what should be the message of this?
+
+490
+00:24:22,440 --> 00:24:27,160
+So, here in the context of the UK I think
+
+491
+00:24:27,160 --> 00:24:32,800
+it should be incredibly obvious what this means is...
+
+492
+00:24:32,800 --> 00:24:34,560
+And this is not just in the UK,
+
+493
+00:24:34,560 --> 00:24:37,000
+anywhere across the world, anywhere across Europe.
+
+494
+00:24:37,000 --> 00:24:41,720
+If you are a political centrist, if you are a supporter
+
+495
+00:24:41,720 --> 00:24:43,800
+of the Labour Party or you're, you're a member or,
+
+496
+00:24:43,800 --> 00:24:46,160
+or you're a politician in the Labour Party,
+
+497
+00:24:46,160 --> 00:24:48,320
+but not just the Labour Party, the center-left party
+
+498
+00:24:48,320 --> 00:24:51,840
+or the center right party in Germany, or France,
+
+499
+00:24:51,840 --> 00:24:53,880
+or Spain, or the Netherlands, or if you're
+
+500
+00:24:53,880 --> 00:24:56,520
+the Democrats in America, or in Australia or in Japan.
+
+501
+00:24:56,520 --> 00:24:59,520
+If you are a supporter
+
+502
+00:24:59,520 --> 00:25:02,640
+of these mainstream political parties,
+
+503
+00:25:02,640 --> 00:25:06,680
+the world is obviously, obviously showing you that
+
+504
+00:25:06,680 --> 00:25:13,720
+unless you shift to a position where you say, "We accept
+
+505
+00:25:13,720 --> 00:25:17,800
+that the status quo, the existing way of doing things,
+
+506
+00:25:17,800 --> 00:25:20,520
+is not succeeding in preventing living
+
+507
+00:25:20,520 --> 00:25:23,880
+standards from falling," you will disappear.
+
+508
+00:25:23,880 --> 00:25:25,160
+And that, that is...
+
+509
+00:25:25,160 --> 00:25:29,120
+If you are the Labour Party now, and you can see
+
+510
+00:25:29,120 --> 00:25:32,200
+the absolute disappearance of the historical,
+
+511
+00:25:32,200 --> 00:25:34,840
+traditional center-left political parties
+
+512
+00:25:34,840 --> 00:25:37,800
+in every single one of your surrounding countries,
+
+513
+00:25:37,800 --> 00:25:41,640
+and you do not realise that unless you change,
+
+514
+00:25:41,640 --> 00:25:43,200
+you too will disappear,
+
+515
+00:25:43,200 --> 00:25:46,800
+then you are basically completely insane.
+
+516
+00:25:46,800 --> 00:25:49,440
+This has been happening for 15 years now
+
+517
+00:25:49,440 --> 00:25:51,520
+in every single country in the world.
+
+518
+00:25:51,520 --> 00:25:55,360
+Until and unless you are willing to shift to a position
+
+519
+00:25:55,360 --> 00:25:56,480
+that accepts
+
+520
+00:25:56,480 --> 00:26:00,440
+we need to do something significantly differently,
+
+521
+00:26:00,440 --> 00:26:03,880
+it is obvious that you will disappear.
+
+522
+00:26:03,880 --> 00:26:11,920
+And what that means is you need to be serious
+
+523
+00:26:11,920 --> 00:26:16,800
+about why the public is unhappy on the economy, and
+
+524
+00:26:16,800 --> 00:26:21,520
+you need to start seriously considering the proposals
+
+525
+00:26:21,520 --> 00:26:25,120
+that are on the table for doing something
+
+526
+00:26:25,120 --> 00:26:28,560
+significantly differently on the economy.
+
+527
+00:26:28,560 --> 00:26:32,440
+And maybe, just ******* maybe,
+
+528
+00:26:32,440 --> 00:26:35,880
+you need to pick up the phone and give me a call.
+
+529
+00:26:35,880 --> 00:26:38,080
+And I am going
+
+530
+00:26:38,080 --> 00:26:40,840
+to flash an email address up on the screen here,
+
+531
+00:26:40,840 --> 00:26:42,640
+and we'll put it down in the description.
+
+532
+00:26:42,640 --> 00:26:47,640
+If you are a Labour politician, send us an email, right?
+
+533
+00:26:47,920 --> 00:26:50,320
+The public want change.
+
+534
+00:26:50,320 --> 00:26:50,960
+We're out here
+
+535
+00:26:50,960 --> 00:26:53,360
+getting a million ******* views a video, right?
+
+536
+00:26:53,360 --> 00:26:56,840
+We get more views than ******* Question Time.
+
+537
+00:26:56,840 --> 00:27:01,240
+Who is taking the votes that used to go to you?
+
+538
+00:27:01,240 --> 00:27:05,200
+It is somebody who takes their entire economic playbook
+
+539
+00:27:05,200 --> 00:27:07,800
+from this ******* channel.
+
+540
+00:27:07,800 --> 00:27:16,120
+Give us a call and don't ******* die.
+
+541
+00:27:16,120 --> 00:27:18,800
+And on this subject,
+
+542
+00:27:18,800 --> 00:27:21,200
+the subject of who does speak to me
+
+543
+00:27:21,200 --> 00:27:25,560
+and who doesn't, we get to the issue...
+
+544
+00:27:25,560 --> 00:27:26,960
+And I'm really glad to get to this
+
+545
+00:27:26,960 --> 00:27:29,840
+because this is such an incredible story.
+
+546
+00:27:29,840 --> 00:27:31,960
+We get to the issue of the Gorton
+
+547
+00:27:31,960 --> 00:27:34,000
+and Denton by-election.
+
+548
+00:27:34,000 --> 00:27:34,200
+So,
+
+549
+00:27:34,200 --> 00:27:36,840
+I know nowadays we get a lot of views from people
+
+550
+00:27:36,840 --> 00:27:39,120
+who are not from the UK, so I'll just briefly explain.
+
+551
+00:27:39,120 --> 00:27:42,160
+Gorton and Denton is a suburb of Manchester,
+
+552
+00:27:42,160 --> 00:27:44,760
+which is the UK's second or third biggest city.
+
+553
+00:27:44,760 --> 00:27:46,320
+It's in the northwest of England.
+
+554
+00:27:46,320 --> 00:27:50,360
+In our system, if an MP stands down
+
+555
+00:27:50,360 --> 00:27:52,840
+for whatever reason, they have an election
+
+556
+00:27:52,840 --> 00:27:54,520
+in that area to decide who the new MP is.
+
+557
+00:27:54,520 --> 00:27:56,560
+So a bit of context, all right.
+
+558
+00:27:56,560 --> 00:27:58,920
+We have a Labour government in this country.
+
+559
+00:27:58,920 --> 00:28:00,760
+We've had a Labour government for,
+
+560
+00:28:00,760 --> 00:28:02,520
+coming up to 2 years now,
+
+561
+00:28:02,520 --> 00:28:04,800
+and that government is incredibly unpopular.
+
+562
+00:28:04,800 --> 00:28:07,000
+The leader, Keir Starmer,
+
+563
+00:28:07,000 --> 00:28:08,120
+who is the current prime minister,
+
+564
+00:28:08,120 --> 00:28:09,720
+is incredibly unpopular.
+
+565
+00:28:09,720 --> 00:28:13,240
+He is apparently the least popular prime minister
+
+566
+00:28:13,240 --> 00:28:15,920
+in the history of British polling,
+
+567
+00:28:15,920 --> 00:28:18,760
+which is obviously quite extreme.
+
+568
+00:28:18,760 --> 00:28:22,440
+Reform, the new right or far-right party,
+
+569
+00:28:22,440 --> 00:28:24,560
+have been consistently polling in first place.
+
+570
+00:28:24,560 --> 00:28:27,440
+But Labour are in government.
+
+571
+00:28:27,440 --> 00:28:28,720
+They have a big majority.
+
+572
+00:28:28,720 --> 00:28:31,960
+There will not be an election,
+
+573
+00:28:31,960 --> 00:28:35,640
+Very, very likely there won't be one for three years.
+
+574
+00:28:35,640 --> 00:28:39,440
+So we have this strange situation where the party
+
+575
+00:28:39,440 --> 00:28:42,200
+that is in power is incredibly unpopular.
+
+576
+00:28:42,200 --> 00:28:43,920
+They have 3 years of government.
+
+577
+00:28:43,920 --> 00:28:45,440
+The way things are going,
+
+578
+00:28:45,440 --> 00:28:47,000
+they look like they're going to lose.
+
+579
+00:28:47,000 --> 00:28:49,280
+I think unless they change course,
+
+580
+00:28:49,280 --> 00:28:52,880
+I think they will lose quite badly, unless Reform,
+
+581
+00:28:52,880 --> 00:28:55,320
+like, really, really massively **** it up.
+
+582
+00:28:55,320 --> 00:29:00,040
+And obviously, Labour are looking at the polling,
+
+583
+00:29:00,040 --> 00:29:01,200
+which is really, really bad.
+
+584
+00:29:01,200 --> 00:29:03,000
+They should be looking at the betting odds,
+
+585
+00:29:03,000 --> 00:29:06,120
+which is also really bad, and they need to think about,
+
+586
+00:29:06,120 --> 00:29:10,120
+"How can we not lose the next election?" Now,
+
+587
+00:29:10,120 --> 00:29:11,800
+I've been saying it for a long time, but
+
+588
+00:29:11,800 --> 00:29:15,480
+it's becoming increasingly almost certain that Labour
+
+589
+00:29:15,480 --> 00:29:18,720
+will change their leader before the next election.
+
+590
+00:29:18,720 --> 00:29:21,640
+I I don't want to... want to say it really,
+
+591
+00:29:21,640 --> 00:29:25,000
+but Keir Starmer is kind of like a dead man walking.
+
+592
+00:29:25,000 --> 00:29:26,000
+Everybody you speak to
+
+593
+00:29:26,000 --> 00:29:28,280
+sort of knows he's going to be changed.
+
+594
+00:29:28,280 --> 00:29:30,240
+So there's a...
+
+595
+00:29:30,240 --> 00:29:32,600
+There's the discussion now in the Labour Party
+
+596
+00:29:32,600 --> 00:29:35,720
+of, like, "Who do we replace Keir Starmer with?
+
+597
+00:29:35,720 --> 00:29:38,480
+How do we not win the next election in the context
+
+598
+00:29:38,480 --> 00:29:44,760
+of Labour being incredibly unpopular?" And there...
+
+599
+00:29:44,760 --> 00:29:47,520
+The question obviously is, like, "Who do we have
+
+600
+00:29:47,520 --> 00:29:50,400
+who's popular?" And the obvious answer to that question
+
+601
+00:29:50,400 --> 00:29:52,720
+in this country is a guy called Andy Burnham.
+
+602
+00:29:52,720 --> 00:29:53,840
+So Andy Burnham,
+
+603
+00:29:53,840 --> 00:29:57,760
+you may or may not know, is the mayor of Manchester,
+
+604
+00:29:57,760 --> 00:30:00,400
+and he's quite popular in Manchester.
+
+605
+00:30:00,400 --> 00:30:03,240
+I would say, and I'm pretty sure polling would agree,
+
+606
+00:30:03,240 --> 00:30:06,400
+that Andy Burnham is probably quite easily
+
+607
+00:30:06,400 --> 00:30:09,480
+the most popular Labour politician
+
+608
+00:30:09,480 --> 00:30:12,680
+in this country at this moment, which means
+
+609
+00:30:12,680 --> 00:30:18,840
+that he is kind of obviously the most likely guy
+
+610
+00:30:18,840 --> 00:30:22,320
+to be able to save this very unpopular Labour Party
+
+611
+00:30:22,320 --> 00:30:24,520
+from losing the next election very badly.
+
+612
+00:30:24,520 --> 00:30:26,040
+But the problem is, he's not an MP.
+
+613
+00:30:26,040 --> 00:30:27,920
+He's the mayor of Manchester, which means
+
+614
+00:30:27,920 --> 00:30:30,320
+that he is not eligible to be prime minister, and
+
+615
+00:30:30,320 --> 00:30:34,040
+he's not eligible to be the leader of the Labour Party.
+
+616
+00:30:34,040 --> 00:30:38,040
+So one of the MPs in Manchester,
+
+617
+00:30:38,040 --> 00:30:40,480
+which is where Andy Burnham is mayor, which is
+
+618
+00:30:40,480 --> 00:30:44,000
+where Andy Burnham is from, stood down basically
+
+619
+00:30:44,000 --> 00:30:47,280
+with the idea that we can get Andy Burnham
+
+620
+00:30:47,280 --> 00:30:50,880
+to become an MP, and if Andy Burnham becomes an MP,
+
+621
+00:30:50,880 --> 00:30:54,440
+then he can become prime minister and maybe we,
+
+622
+00:30:54,440 --> 00:30:57,400
+the Labour Party, can not lose the next election,
+
+623
+00:30:57,400 --> 00:30:58,560
+maybe we can win the next election,
+
+624
+00:30:58,560 --> 00:31:00,520
+maybe we can prevent a Reform government,
+
+625
+00:31:00,520 --> 00:31:02,000
+maybe we can prevent a far-right government.
+
+626
+00:31:02,000 --> 00:31:04,320
+It was a pretty sensible move.
+
+627
+00:31:04,320 --> 00:31:05,640
+I think everybody agreed.
+
+628
+00:31:05,640 --> 00:31:09,640
+But, Keir Starmer, the Prime Minister,
+
+629
+00:31:09,640 --> 00:31:12,560
+to be fair, as you can probably imagine,
+
+630
+00:31:12,560 --> 00:31:15,040
+wasn't very happy about, you know,
+
+631
+00:31:15,040 --> 00:31:16,160
+preparations being made
+
+632
+00:31:16,160 --> 00:31:18,960
+to basically oust him, kick him out as prime minister.
+
+633
+00:31:18,960 --> 00:31:21,600
+And, I don't know the details,
+
+634
+00:31:21,600 --> 00:31:24,400
+but it looks very much like him and,
+
+635
+00:31:24,400 --> 00:31:26,000
+and the team around him used their power,
+
+636
+00:31:26,000 --> 00:31:28,640
+used their influence to block Andy Burnham
+
+637
+00:31:28,640 --> 00:31:34,000
+from being able to become a candidate in this election,
+
+638
+00:31:34,000 --> 00:31:36,320
+which meant that he wasn't eligible to stand.
+
+639
+00:31:36,320 --> 00:31:39,240
+This is the first thing which I was...
+
+640
+00:31:39,240 --> 00:31:44,160
+I was kind of amazed at this point because,
+
+641
+00:31:44,160 --> 00:31:45,040
+I'm...
+
+642
+00:31:45,040 --> 00:31:47,000
+You know, we're not politically factional here.
+
+643
+00:31:47,000 --> 00:31:49,440
+This is a channel which is about wealth inequality,
+
+644
+00:31:49,440 --> 00:31:51,800
+and is about wealth taxes, and is about the economy.
+
+645
+00:31:51,800 --> 00:31:53,840
+And everyone who watches this channel
+
+646
+00:31:53,840 --> 00:31:56,040
+will know I'm a big campaigner for wealth taxes.
+
+647
+00:31:56,040 --> 00:31:58,600
+I think we have almost zero chance
+
+648
+00:31:58,600 --> 00:31:59,960
+of getting anything on inequality.
+
+649
+00:31:59,960 --> 00:32:01,880
+I think Reform, if they win,
+
+650
+00:32:01,880 --> 00:32:04,320
+will significantly cut taxes on the rich, which
+
+651
+00:32:04,320 --> 00:32:06,400
+I think will be incredibly bad for living standards.
+
+652
+00:32:06,400 --> 00:32:10,760
+So I don't want Reform to win the next election.
+
+653
+00:32:10,760 --> 00:32:12,920
+And in the moment
+
+654
+00:32:12,920 --> 00:32:19,600
+that the Labour Party blocked Andy Burnham,
+
+655
+00:32:19,600 --> 00:32:22,120
+I've gotta be honest, I had my head in my hands here,
+
+656
+00:32:22,120 --> 00:32:29,240
+because I still think to this day, Labour's
+
+657
+00:32:29,240 --> 00:32:33,400
+best chance of not getting smashed in the next election
+
+658
+00:32:33,400 --> 00:32:35,240
+is to make Andy Burnham Prime Minister.
+
+659
+00:32:35,240 --> 00:32:35,760
+And, you know,
+
+660
+00:32:35,760 --> 00:32:37,560
+I'm not like Team Burnham or anything.
+
+661
+00:32:37,560 --> 00:32:39,320
+I'm just looking at it as a trader.
+
+662
+00:32:39,320 --> 00:32:41,480
+This guy was their best chance
+
+663
+00:32:41,480 --> 00:32:43,480
+of not losing the next election,
+
+664
+00:32:43,480 --> 00:32:47,200
+and he was blocked by, like, the most unpopular man,
+
+665
+00:32:47,200 --> 00:32:48,800
+like, in the history of British politics.
+
+666
+00:32:48,800 --> 00:32:49,080
+And it...
+
+667
+00:32:49,080 --> 00:32:49,680
+And, and it...
+
+668
+00:32:49,680 --> 00:32:52,000
+It just makes me wonder,
+
+669
+00:32:52,000 --> 00:32:54,360
+where are the Labour MPs on this?
+
+670
+00:32:54,360 --> 00:32:56,800
+You know, you're going to lose your job, right?
+
+671
+00:32:56,800 --> 00:32:58,320
+You're going to lose your job,
+
+672
+00:32:58,320 --> 00:33:00,000
+and you're going to lose the country
+
+673
+00:33:00,000 --> 00:33:03,840
+to a far-right political party, you know, who...
+
+674
+00:33:03,840 --> 00:33:06,360
+You know, do you not care about that?
+
+675
+00:33:06,720 --> 00:33:07,600
+And I just...
+
+676
+00:33:07,600 --> 00:33:09,320
+I don't know how power works, clearly.
+
+677
+00:33:09,320 --> 00:33:10,920
+I don't understand how power works
+
+678
+00:33:10,920 --> 00:33:11,920
+within the Labour Party.
+
+679
+00:33:11,920 --> 00:33:14,320
+But it just made me wonder, like,
+
+680
+00:33:14,320 --> 00:33:18,720
+is this like a dictatorship of Keir Starmer? Do
+
+681
+00:33:18,720 --> 00:33:20,440
+you want to win the next election?
+
+682
+00:33:20,440 --> 00:33:21,280
+I don't understand
+
+683
+00:33:21,280 --> 00:33:25,880
+how the Labour Party was not able to prevent Keir Starmer
+
+684
+00:33:25,880 --> 00:33:29,400
+and his team from blocking Andy Burnham.
+
+685
+00:33:29,720 --> 00:33:31,200
+That, that was obviously your best chance
+
+686
+00:33:31,200 --> 00:33:32,040
+to not lose the next election.
+
+687
+00:33:32,040 --> 00:33:33,080
+Okay, but we move on from that.
+
+688
+00:33:33,080 --> 00:33:36,920
+Okay, so Keir Starmer blocks Andy Burnham and,
+
+689
+00:33:36,920 --> 00:33:40,160
+I was in Australia when all this was happening and,
+
+690
+00:33:40,160 --> 00:33:43,240
+as soon as Keir Starmer blocked Andy Burnham,
+
+691
+00:33:43,240 --> 00:33:45,360
+I'll be totally honest, I messaged Zach Polanski
+
+692
+00:33:45,360 --> 00:33:47,480
+and I said... And also,
+
+693
+00:33:47,480 --> 00:33:48,760
+I'm watching the betting odds.
+
+694
+00:33:48,760 --> 00:33:50,880
+So the moment the betting odds...
+
+695
+00:33:50,880 --> 00:33:53,080
+The moment they blocked Andy Burnham, the
+
+696
+00:33:53,080 --> 00:33:54,960
+Greens were favourite to win that election.
+
+697
+00:33:54,960 --> 00:34:00,240
+And for the obvious reason that, you know,
+
+698
+00:34:00,240 --> 00:34:01,680
+Keir Starmer's incredibly unpopular.
+
+699
+00:34:01,680 --> 00:34:02,880
+Andy Burnham is from Manchester.
+
+700
+00:34:03,000 --> 00:34:05,320
+He's incredibly popular.
+
+701
+00:34:05,320 --> 00:34:08,200
+People like to use these by-elections as a protest vote.
+
+702
+00:34:08,200 --> 00:34:10,760
+As soon as they blocked Andy Burnham,
+
+703
+00:34:10,760 --> 00:34:11,520
+the betting market...
+
+704
+00:34:11,520 --> 00:34:12,720
+So it's not just me,
+
+705
+00:34:12,720 --> 00:34:14,600
+the betting market thought
+
+706
+00:34:14,600 --> 00:34:16,120
+that the Greens were going to win that election.
+
+707
+00:34:16,120 --> 00:34:17,640
+So...
+
+708
+00:34:17,640 --> 00:34:20,120
+But, you know, it's not the end of the world for Labour.
+
+709
+00:34:20,120 --> 00:34:20,440
+You know,
+
+710
+00:34:20,440 --> 00:34:23,000
+these by-elections, in the big scheme of things,
+
+711
+00:34:23,000 --> 00:34:24,800
+are not politically important.
+
+712
+00:34:24,800 --> 00:34:26,760
+It's only one MP.
+
+713
+00:34:26,760 --> 00:34:27,760
+So, you know, you lose one MP.
+
+714
+00:34:27,760 --> 00:34:29,400
+Labour have a big majority.
+
+715
+00:34:29,400 --> 00:34:30,520
+It's not a big deal.
+
+716
+00:34:30,520 --> 00:34:32,160
+You accept losing one MP.
+
+717
+00:34:32,160 --> 00:34:35,800
+But the other context we have,
+
+718
+00:34:35,800 --> 00:34:37,280
+and I didn't mention this in the video
+
+719
+00:34:37,280 --> 00:34:39,400
+from 6 months ago, is...
+
+720
+00:34:39,400 --> 00:34:41,640
+So the Greens have this new leader, Zach Polanski,
+
+721
+00:34:41,640 --> 00:34:45,440
+and he came in from the start,
+
+722
+00:34:45,440 --> 00:34:48,520
+and he was wealth taxes, wealth taxes, wealth taxes.
+
+723
+00:34:48,520 --> 00:34:51,120
+He was very aggressive on social media
+
+724
+00:34:51,120 --> 00:34:52,680
+in the terms of doing...
+
+725
+00:34:52,680 --> 00:34:55,440
+Focusing on social media, doing a ton of interviews.
+
+726
+00:34:55,440 --> 00:34:59,080
+And I think it was,
+
+727
+00:34:59,080 --> 00:35:00,920
+like, obviously the right strategy.
+
+728
+00:35:01,320 --> 00:35:01,840
+And of course
+
+729
+00:35:01,840 --> 00:35:05,520
+I would say that because Zach Polanski's strategy
+
+730
+00:35:05,520 --> 00:35:07,920
+since he's become leader of the Greens, obviously his...
+
+731
+00:35:07,920 --> 00:35:10,800
+he has, you know, a bigger job than mine, but it's
+
+732
+00:35:10,800 --> 00:35:13,520
+basically exactly the strategy of this channel, right?
+
+733
+00:35:13,520 --> 00:35:15,240
+Which is to focus on the economy,
+
+734
+00:35:15,240 --> 00:35:18,040
+to focus on living standards, to focus on wealth taxes,
+
+735
+00:35:18,040 --> 00:35:19,920
+which are hugely popular with the public,
+
+736
+00:35:19,920 --> 00:35:22,880
+and to focus on social media, which is obviously
+
+737
+00:35:22,880 --> 00:35:25,000
+where political power is moving, right?
+
+738
+00:35:25,000 --> 00:35:27,960
+So and,
+
+739
+00:35:27,960 --> 00:35:30,040
+you know, Zach Polanski contacted me before he became,
+
+740
+00:35:30,040 --> 00:35:31,200
+and he said, "I'm going to do this, you know?
+
+741
+00:35:31,200 --> 00:35:33,000
+I'm going to..." You know, I didn't know who he was.
+
+742
+00:35:33,000 --> 00:35:33,880
+Nobody knew he was.
+
+743
+00:35:33,880 --> 00:35:36,040
+"I'm going to take this wealth tax stuff and I'm going to run
+
+744
+00:35:36,040 --> 00:35:37,880
+with it." And I said good luck to him, you know?
+
+745
+00:35:37,880 --> 00:35:42,240
+And you get this immediate huge surge, right?
+
+746
+00:35:42,240 --> 00:35:43,680
+This huge surge in popularity,
+
+747
+00:35:43,680 --> 00:35:45,400
+huge surge in polling for the Greens,
+
+748
+00:35:45,400 --> 00:35:47,920
+which happened in the back end of last year.
+
+749
+00:35:47,920 --> 00:35:51,360
+You know, people debate about why.
+
+750
+00:35:51,360 --> 00:35:54,440
+I think it's basically because of really,
+
+751
+00:35:54,440 --> 00:35:56,440
+quite simply, the move towards wealth taxes
+
+752
+00:35:56,440 --> 00:35:59,200
+and a focus on economy and a move towards,
+
+753
+00:35:59,200 --> 00:36:00,600
+aggressive focus on social media.
+
+754
+00:36:00,600 --> 00:36:02,000
+And it has to be said,
+
+755
+00:36:02,000 --> 00:36:04,360
+Zach Polanski has worked incredibly hard, has done
+
+756
+00:36:04,360 --> 00:36:06,720
+just an unbelievable number of interviews.
+
+757
+00:36:06,720 --> 00:36:09,640
+It's insane how many interviews he's done.
+
+758
+00:36:09,640 --> 00:36:13,280
+So then as soon as Labour block
+
+759
+00:36:13,280 --> 00:36:16,200
+Andy Burnham, Labour are incredibly unpopular.
+
+760
+00:36:16,200 --> 00:36:18,120
+In that moment,
+
+761
+00:36:18,120 --> 00:36:21,240
+you have your first political test for the Green Party.
+
+762
+00:36:21,240 --> 00:36:23,000
+Can you actually win an election?
+
+763
+00:36:23,000 --> 00:36:24,840
+But the betting market always,
+
+764
+00:36:24,840 --> 00:36:27,600
+always thought that the Greens were going to win, you know?
+
+765
+00:36:27,600 --> 00:36:28,160
+I'm a
+
+766
+00:36:28,160 --> 00:36:29,920
+follower of the betting market very, very closely
+
+767
+00:36:29,920 --> 00:36:31,680
+as I've probably made obvious.
+
+768
+00:36:31,680 --> 00:36:35,520
+You know, and I'll be clear.
+
+769
+00:36:35,520 --> 00:36:36,480
+I've been saying...
+
+770
+00:36:36,480 --> 00:36:38,120
+I went on Zach Polanski's podcast.
+
+771
+00:36:38,120 --> 00:36:39,920
+I told him very, very clearly
+
+772
+00:36:39,920 --> 00:36:44,200
+my plan has been for some time, we...
+
+773
+00:36:44,200 --> 00:36:46,560
+All we do is we make wealth taxes popular.
+
+774
+00:36:46,560 --> 00:36:48,360
+We make wealth taxes incredibly popular.
+
+775
+00:36:48,360 --> 00:36:51,280
+I've called it the Rupert Murdoch strategy, which is
+
+776
+00:36:51,280 --> 00:36:54,520
+I'm not a politician, I'm not trying to be a politician,
+
+777
+00:36:54,520 --> 00:36:55,920
+I'm doing what Rupert Murdoch does.
+
+778
+00:36:55,920 --> 00:36:57,880
+So for those of you who don't know, Rupert Murdoch
+
+779
+00:36:57,880 --> 00:37:01,840
+is probably the world's biggest, like, media giant.
+
+780
+00:37:01,840 --> 00:37:04,240
+He owns a ton of newspapers.
+
+781
+00:37:04,240 --> 00:37:06,480
+He owns Sky News.
+
+782
+00:37:06,480 --> 00:37:07,640
+He owns a lot of news channels,
+
+783
+00:37:07,640 --> 00:37:08,680
+not just in this country,
+
+784
+00:37:08,680 --> 00:37:11,360
+but across the world, UK, US, Australia.
+
+785
+00:37:11,360 --> 00:37:15,440
+And he is incredibly, incredibly,
+
+786
+00:37:15,440 --> 00:37:16,920
+incredibly politically powerful,
+
+787
+00:37:16,920 --> 00:37:19,960
+and any smart politician tries to get on his good side
+
+788
+00:37:19,960 --> 00:37:24,120
+because by controlling newspapers and,
+
+789
+00:37:24,120 --> 00:37:26,680
+and news stations,
+
+790
+00:37:26,680 --> 00:37:30,640
+he controls to some degree what the public believe
+
+791
+00:37:30,640 --> 00:37:33,280
+on issues about politics and economics.
+
+792
+00:37:33,280 --> 00:37:37,320
+And he doesn't need to be a political party
+
+793
+00:37:37,320 --> 00:37:40,760
+because if he tells the public that Labour are ****
+
+794
+00:37:40,760 --> 00:37:43,240
+or the Conservatives are *****
+
+795
+00:37:43,240 --> 00:37:44,720
+that is going to swing a lot of votes.
+
+796
+00:37:44,720 --> 00:37:47,920
+So my plan has been very,
+
+797
+00:37:47,920 --> 00:37:50,320
+very simply educate the public.
+
+798
+00:37:50,320 --> 00:37:53,960
+The primary thing, the main thing that matters
+
+799
+00:37:53,960 --> 00:37:55,960
+on improving your living standards for your family
+
+800
+00:37:55,960 --> 00:37:58,320
+over time is wealth inequality and wealth taxes,
+
+801
+00:37:58,320 --> 00:38:00,040
+and we educate the public again and again,
+
+802
+00:38:00,040 --> 00:38:04,240
+and again, and again, and again, and again.
+
+803
+00:38:04,240 --> 00:38:07,200
+And the strategy is we educate the public,
+
+804
+00:38:07,200 --> 00:38:10,680
+we shift the public opinion, and then the politicians
+
+805
+00:38:10,680 --> 00:38:14,760
+are supposed to recognise the shift in public opinion
+
+806
+00:38:14,760 --> 00:38:16,160
+and recognise that if they don't
+
+807
+00:38:16,160 --> 00:38:19,360
+shift towards public opinion, they will get smashed.
+
+808
+00:38:19,360 --> 00:38:22,720
+And the plan was always from the very start,
+
+809
+00:38:22,720 --> 00:38:25,520
+not for the Greens, not for Zach Polanski, although
+
+810
+00:38:25,520 --> 00:38:27,240
+I'm very glad that they've picked it up.
+
+811
+00:38:27,240 --> 00:38:28,840
+It was for Labour
+
+812
+00:38:28,840 --> 00:38:30,920
+because we live in a 2-party system,
+
+813
+00:38:30,920 --> 00:38:33,120
+and that 2-party system was supposed to be Labour.
+
+814
+00:38:33,120 --> 00:38:35,040
+And what I want is to change the ******* laws,
+
+815
+00:38:35,040 --> 00:38:37,640
+so I need to influence the parties.
+
+816
+00:38:37,640 --> 00:38:39,280
+you move the public.
+
+817
+00:38:39,280 --> 00:38:41,840
+You create this space for Labour to walk into,
+
+818
+00:38:41,840 --> 00:38:44,000
+and they don't ******* walk into it.
+
+819
+00:38:44,000 --> 00:38:45,240
+The Greens walk into it.
+
+820
+00:38:45,240 --> 00:38:46,480
+And my plan then was like, well,
+
+821
+00:38:46,480 --> 00:38:50,480
+that's fine because the Greens will become very quickly
+
+822
+00:38:50,480 --> 00:38:54,440
+very popular, and then Labour will be forced to move,
+
+823
+00:38:54,440 --> 00:38:58,280
+and, Labour didn't move.
+
+824
+00:38:58,280 --> 00:38:59,040
+Labour didn't move.
+
+825
+00:38:59,040 --> 00:39:02,680
+And, so then when this election came up, I was quite
+
+826
+00:39:02,680 --> 00:39:04,760
+pleased because I was like "Well, the Greens will win.
+
+827
+00:39:04,760 --> 00:39:05,800
+The Greens will win,
+
+828
+00:39:05,800 --> 00:39:08,440
+and then it will force Labour to move."
+
+829
+00:39:08,440 --> 00:39:10,040
+So I messaged Zach Polanski, and I said, "Listen."
+
+830
+00:39:10,040 --> 00:39:11,960
+As soon as they dropped Andy Burnham out, I said,
+
+831
+00:39:11,960 --> 00:39:14,120
+"Listen, you better win that ******* election
+
+832
+00:39:14,120 --> 00:39:15,360
+because it's yours to win." Right?
+
+833
+00:39:15,360 --> 00:39:17,160
+And the betting market always thought
+
+834
+00:39:17,160 --> 00:39:20,840
+that they were going to win it.
+
+835
+00:39:20,840 --> 00:39:21,400
+It gets...
+
+836
+00:39:21,400 --> 00:39:23,080
+would you believe it gets worse after this?
+
+837
+00:39:23,080 --> 00:39:27,480
+And the Greens were...
+
+838
+00:39:27,480 --> 00:39:30,280
+As soon as Burnham got blocked, the Greens were always,
+
+839
+00:39:30,280 --> 00:39:32,520
+always, always betting market favourites
+
+840
+00:39:32,520 --> 00:39:35,400
+for that election, which is not surprising
+
+841
+00:39:35,400 --> 00:39:37,240
+because Labour are very unpopular.
+
+842
+00:39:37,240 --> 00:39:38,560
+And that's how it was and then, you know,
+
+843
+00:39:38,560 --> 00:39:41,600
+I was out there in Australia just thinking, you know,
+
+844
+00:39:41,600 --> 00:39:42,400
+the Greens going to win.
+
+845
+00:39:42,400 --> 00:39:44,000
+You know, and because the Greens were favourites
+
+846
+00:39:44,000 --> 00:39:46,120
+and then a big chunk behind them was Reform,
+
+847
+00:39:46,120 --> 00:39:47,440
+and then Labour a little bit behind.
+
+848
+00:39:47,440 --> 00:39:51,360
+That was always the betting market odds.
+
+849
+00:39:51,360 --> 00:39:54,280
+And then the Labour...
+
+850
+00:39:54,280 --> 00:39:56,040
+I don't, I don't understand this.
+
+851
+00:39:56,040 --> 00:39:57,760
+This is the most confusing thing that happened,
+
+852
+00:39:57,760 --> 00:40:01,000
+and, it's horrible, and it's ridiculous,
+
+853
+00:40:01,000 --> 00:40:03,960
+and it's funny, and I don't understand what happened.
+
+854
+00:40:03,960 --> 00:40:11,280
+Labour ran this massive article in The Guardian saying,
+
+855
+00:40:11,280 --> 00:40:16,200
+"We have the data." They ran this article
+
+856
+00:40:16,200 --> 00:40:20,000
+in The Guardian saying, "We have the data.
+
+857
+00:40:20,000 --> 00:40:23,120
+We're on the ground collecting the data.
+
+858
+00:40:23,120 --> 00:40:29,320
+We know what's happening." And, what we know...
+
+859
+00:40:29,320 --> 00:40:31,520
+I've got a quote here.
+
+860
+00:40:31,520 --> 00:40:34,760
+"That data tells us something important.
+
+861
+00:40:34,760 --> 00:40:37,240
+However crowded the ballot paper may look,
+
+862
+00:40:37,240 --> 00:40:38,960
+the decision facing voters in Gor..."
+
+863
+00:40:38,960 --> 00:40:39,880
+This from The Guardian.
+
+864
+00:40:39,880 --> 00:40:41,520
+"The decision facing voters in Gor..."
+
+865
+00:40:41,520 --> 00:40:43,320
+Labour speaking in The Guardian.
+
+866
+00:40:43,320 --> 00:40:45,440
+"The decision facing voters in Gorton and Denton
+
+867
+00:40:45,440 --> 00:40:48,240
+is not fragmented across multiple parties.
+
+868
+00:40:48,240 --> 00:40:50,040
+It is a 2-horse race
+
+869
+00:40:50,040 --> 00:40:53,320
+between a Labour Party rooted in Manchester's values
+
+870
+00:40:53,320 --> 00:40:56,160
+and a Reform campaign built on grievance and division."
+
+871
+00:41:01,800 --> 00:41:05,560
+So Labour got smashed in this election, okay?
+
+872
+00:41:05,560 --> 00:41:06,240
+They came third.
+
+873
+00:41:06,240 --> 00:41:07,520
+The Greens won by a mile, right?
+
+874
+00:41:07,520 --> 00:41:10,320
+And this is a few days before...
+
+875
+00:41:10,320 --> 00:41:11,640
+Just a few days before the vote,
+
+876
+00:41:11,640 --> 00:41:16,800
+Labour have come out and said, "We've got all the data.
+
+877
+00:41:16,800 --> 00:41:17,840
+We've got all the data,
+
+878
+00:41:17,840 --> 00:41:20,200
+and we know, with certainty
+
+879
+00:41:20,200 --> 00:41:23,240
+it's a 2-horse race between us and Reform."
+
+880
+00:41:23,240 --> 00:41:25,040
+And then these two parties come a distant second
+
+881
+00:41:25,040 --> 00:41:27,840
+and third with Labour in third to the Greens.
+
+882
+00:41:27,840 --> 00:41:34,720
+So when Labour said that they have the data,
+
+883
+00:41:34,720 --> 00:41:37,200
+and they know, you know,
+
+884
+00:41:37,200 --> 00:41:42,760
+that it is a 2-horse race between Labour and Reform,
+
+885
+00:41:42,760 --> 00:41:45,280
+either they are lying or they are completely wrong.
+
+886
+00:41:45,280 --> 00:41:48,320
+One of these two things has to be true.
+
+887
+00:41:48,320 --> 00:41:52,680
+And the... if they were lying,
+
+888
+00:41:52,680 --> 00:41:55,400
+that is the less embarrassing outcome here.
+
+889
+00:41:55,400 --> 00:42:00,840
+And I'll tell you why.
+
+890
+00:42:00,840 --> 00:42:01,120
+Okay.
+
+891
+00:42:01,120 --> 00:42:04,440
+So
+
+892
+00:42:04,440 --> 00:42:05,560
+I've already showed you the odds
+
+893
+00:42:05,560 --> 00:42:06,840
+for the next election, right?
+
+894
+00:42:06,840 --> 00:42:07,640
+And the next...
+
+895
+00:42:07,640 --> 00:42:12,160
+The... Labour and Reform are still the 2 favourites
+
+896
+00:42:12,160 --> 00:42:14,920
+for the next election, as I've shown you earlier on.
+
+897
+00:42:14,920 --> 00:42:18,640
+And Labour, unless they move on the economy
+
+898
+00:42:18,640 --> 00:42:20,320
+and wealth taxes, which unfortunately
+
+899
+00:42:20,320 --> 00:42:23,560
+looks like they still won't, the economy will get worse,
+
+900
+00:42:23,560 --> 00:42:25,120
+and their popularity will fall.
+
+901
+00:42:25,120 --> 00:42:29,600
+Now, let's talk a little bit about political
+
+902
+00:42:29,600 --> 00:42:33,240
+two-horse races in which one of the parties
+
+903
+00:42:33,240 --> 00:42:35,520
+is the right or the far-right party.
+
+904
+00:42:35,520 --> 00:42:39,520
+So Reform are the new far-right party in the UK.
+
+905
+00:42:39,520 --> 00:42:41,400
+I know some people don't like when I use that term, but
+
+906
+00:42:41,400 --> 00:42:44,520
+we have to understand in an international context,
+
+907
+00:42:44,520 --> 00:42:48,160
+every single country has seen a loss of support
+
+908
+00:42:48,160 --> 00:42:49,800
+in the center-right party, which in this country
+
+909
+00:42:49,800 --> 00:42:52,360
+is the Conservatives, in the US is the Republicans.
+
+910
+00:42:52,360 --> 00:42:54,080
+The center-right has become unpopular
+
+911
+00:42:54,080 --> 00:42:56,600
+and has been replaced by a further right party
+
+912
+00:42:56,600 --> 00:42:59,360
+that is you know insurgent.
+
+913
+00:42:59,360 --> 00:43:01,760
+And in the vast majority of countries, including
+
+914
+00:43:01,760 --> 00:43:06,240
+the UK, that far right party is growing in popularity
+
+915
+00:43:06,240 --> 00:43:10,280
+but is still unpopular with the majority of the public.
+
+916
+00:43:10,280 --> 00:43:12,800
+So the best example of this is
+
+917
+00:43:12,800 --> 00:43:15,080
+to look at the French political system.
+
+918
+00:43:15,080 --> 00:43:17,760
+So in the French presidential election
+
+919
+00:43:17,760 --> 00:43:19,400
+there are 2 rounds of voting.
+
+920
+00:43:19,400 --> 00:43:20,840
+And in the first round
+
+921
+00:43:20,840 --> 00:43:23,240
+we figure out who's first and second, and then
+
+922
+00:43:23,240 --> 00:43:25,880
+we have a head-to-head between first and second.
+
+923
+00:43:25,880 --> 00:43:28,200
+And the way that has been going for a number of years
+
+924
+00:43:28,200 --> 00:43:31,720
+now in France is pretty much always first and second
+
+925
+00:43:31,720 --> 00:43:34,360
+in the first round is the far right leader
+
+926
+00:43:34,360 --> 00:43:37,080
+and some boring political centrist.
+
+927
+00:43:37,080 --> 00:43:40,080
+Now, as I've explained at the beginning of this video,
+
+928
+00:43:40,080 --> 00:43:43,080
+political centrism is becoming less and less popular
+
+929
+00:43:43,080 --> 00:43:44,560
+around the world.
+
+930
+00:43:44,560 --> 00:43:48,160
+But whilst the far right is growing in popularity,
+
+931
+00:43:48,160 --> 00:43:51,560
+it remains unpopular with the majority of the public.
+
+932
+00:43:51,560 --> 00:43:54,800
+And at the moment it is still true in most countries
+
+933
+00:43:54,800 --> 00:43:57,400
+that if you can boil the political race down
+
+934
+00:43:57,400 --> 00:44:02,560
+to a far right or a boring centrist, in most cases,
+
+935
+00:44:02,560 --> 00:44:04,960
+at least France has shown for some time,
+
+936
+00:44:04,960 --> 00:44:07,440
+the boring centrists will usually win.
+
+937
+00:44:07,440 --> 00:44:11,120
+Obviously, that is challenged by the last US election.
+
+938
+00:44:11,120 --> 00:44:12,920
+So I think as the far right grows,
+
+939
+00:44:12,920 --> 00:44:15,080
+this is no longer increasingly true.
+
+940
+00:44:15,080 --> 00:44:20,760
+But it is true that if you can simplify an election down
+
+941
+00:44:20,760 --> 00:44:22,000
+as a boring centrist to,
+
+942
+00:44:22,000 --> 00:44:23,920
+"Yes, we know we're a boring centrist and
+
+943
+00:44:23,920 --> 00:44:26,760
+we're unpopular, but at least we're not the far right,"
+
+944
+00:44:26,760 --> 00:44:29,880
+that is a relatively popular
+
+945
+00:44:29,880 --> 00:44:32,640
+and relatively successful electoral strategy.
+
+946
+00:44:32,640 --> 00:44:34,600
+It worked for Biden, it's worked in France
+
+947
+00:44:34,600 --> 00:44:38,720
+for a number of years, and this is the reason why
+
+948
+00:44:38,720 --> 00:44:43,400
+Labour chose to frame this by-election in this way.
+
+949
+00:44:43,400 --> 00:44:47,480
+They know that if they can say, "Yes, we know
+
+950
+00:44:47,480 --> 00:44:50,920
+we're unpopular, but we're not the far right," they know
+
+951
+00:44:50,920 --> 00:44:54,840
+that that is a relatively successful political strategy
+
+952
+00:44:54,840 --> 00:44:55,680
+and that's why they chose
+
+953
+00:44:55,680 --> 00:44:58,320
+to frame the Gorton and Denton by-election in this way.
+
+954
+00:44:58,320 --> 00:45:01,800
+The reason that I am like head in hands
+
+955
+00:45:01,800 --> 00:45:04,600
+about why they chose to do this
+
+956
+00:45:04,600 --> 00:45:08,160
+at the by-election is that by-election is one seat.
+
+957
+00:45:08,160 --> 00:45:08,760
+One seat.
+
+958
+00:45:08,760 --> 00:45:10,040
+It doesn't really change the world.
+
+959
+00:45:10,040 --> 00:45:11,280
+Okay?
+
+960
+00:45:11,280 --> 00:45:13,280
+In the next general election,
+
+961
+00:45:13,280 --> 00:45:16,800
+the only good political strategy that Labour are going
+
+962
+00:45:16,800 --> 00:45:21,560
+to have is to say that this election is a 2-horse race
+
+963
+00:45:21,560 --> 00:45:23,720
+between us and the far right.
+
+964
+00:45:23,720 --> 00:45:26,520
+If they use that in the next election,
+
+965
+00:45:26,520 --> 00:45:28,520
+they could possibly win.
+
+966
+00:45:28,520 --> 00:45:29,920
+That is their best strategy.
+
+967
+00:45:29,920 --> 00:45:31,040
+It is their best strategy.
+
+968
+00:45:31,040 --> 00:45:33,760
+Now, going into the Gorton and Denton
+
+969
+00:45:33,760 --> 00:45:37,960
+by-election, the Greens were always clear favourites
+
+970
+00:45:37,960 --> 00:45:41,000
+in the betting market for that by-election,
+
+971
+00:45:41,000 --> 00:45:46,080
+but the general election was still looking like a
+
+972
+00:45:46,080 --> 00:45:48,560
+2-horse race between Labour and Reform.
+
+973
+00:45:48,560 --> 00:45:51,240
+So you go into the election, the by-election,
+
+974
+00:45:51,240 --> 00:45:53,360
+and the situation is, yes, we know we're
+
+975
+00:45:53,360 --> 00:45:56,480
+probably going to lose this by-election, which is one seat,
+
+976
+00:45:56,480 --> 00:45:58,880
+but in the next general election which matters,
+
+977
+00:45:58,880 --> 00:46:02,440
+it is still true that it is most likely
+
+978
+00:46:02,440 --> 00:46:05,360
+a two-horse race between us and Reform.
+
+979
+00:46:05,360 --> 00:46:15,640
+And then you go out in the by-election and you say...
+
+980
+00:46:15,640 --> 00:46:17,880
+when it is always incredibly likely
+
+981
+00:46:17,880 --> 00:46:21,840
+to be immediately proven to be a lie that
+
+982
+00:46:21,840 --> 00:46:26,160
+this is a 2-horse race between us and Reform, and then
+
+983
+00:46:26,160 --> 00:46:31,160
+that is immediately proved to be a lie 2 days later.
+
+984
+00:46:31,160 --> 00:46:34,680
+And then in the next election, your best plan that
+
+985
+00:46:34,680 --> 00:46:36,840
+you have, when you know it's your best plan,
+
+986
+00:46:36,840 --> 00:46:39,840
+is going to say that this general election is a
+
+987
+00:46:39,840 --> 00:46:43,400
+2-horse race between us and Reform, and now even
+
+988
+00:46:43,400 --> 00:46:46,960
+though it was true and perhaps still will be true,
+
+989
+00:46:46,960 --> 00:46:49,560
+nobody is going to believe you.
+
+990
+00:46:49,560 --> 00:46:50,440
+You, you, you...
+
+991
+00:46:50,440 --> 00:46:52,200
+I just don't understand.
+
+992
+00:46:52,200 --> 00:46:52,560
+It's just...
+
+993
+00:46:52,560 --> 00:46:54,080
+It's like you, you, you're about
+
+994
+00:46:54,080 --> 00:46:56,600
+to play the World Cup final and you intentionally injure
+
+995
+00:46:56,600 --> 00:46:58,440
+your star forward like the day...
+
+996
+00:46:58,440 --> 00:47:00,040
+What are you doing?
+
+997
+00:47:00,040 --> 00:47:00,360
+What...
+
+998
+00:47:00,360 --> 00:47:02,160
+I don't understand this.
+
+999
+00:47:02,160 --> 00:47:04,480
+There is no political situation in,
+
+1000
+00:47:04,480 --> 00:47:07,920
+in which it makes sense to absolutely *****
+
+1001
+00:47:07,920 --> 00:47:10,840
+your only good strategy for the general election
+
+1002
+00:47:10,840 --> 00:47:13,480
+in a one-seat by-election.
+
+1003
+00:47:13,480 --> 00:47:18,760
+It's a bit...
+
+1004
+00:47:18,760 --> 00:47:20,320
+I had this friend in high school.
+
+1005
+00:47:20,320 --> 00:47:20,840
+He's this smart...
+
+1006
+00:47:20,840 --> 00:47:21,920
+He'll be watching this probably.
+
+1007
+00:47:21,920 --> 00:47:26,120
+Smart kid, but whenever there was an exam,
+
+1008
+00:47:26,120 --> 00:47:30,400
+his instinct was always, "How can I cheat in this exam?"
+
+1009
+00:47:30,400 --> 00:47:31,760
+And he invented all of these
+
+1010
+00:47:31,760 --> 00:47:35,960
+unbelievably innovative ways to cheat in his exams,
+
+1011
+00:47:35,960 --> 00:47:39,240
+which if he would've used that energy to ******* study,
+
+1012
+00:47:39,240 --> 00:47:41,360
+he might have passed the exams anyway.
+
+1013
+00:47:41,360 --> 00:47:45,280
+But it's this kind of mentality, like you...
+
+1014
+00:47:45,280 --> 00:47:46,480
+As soon as you block Burnham,
+
+1015
+00:47:46,480 --> 00:47:48,000
+you're likely to lose that election.
+
+1016
+00:47:48,000 --> 00:47:48,880
+Just own it.
+
+1017
+00:47:48,880 --> 00:47:51,640
+Just say, "Listen, we know we're unpopular right now.
+
+1018
+00:47:51,640 --> 00:47:52,040
+You know,
+
+1019
+00:47:52,040 --> 00:47:54,440
+we know that people are not happy with what we're doing.
+
+1020
+00:47:54,440 --> 00:47:55,520
+We're going to work on that.
+
+1021
+00:47:55,520 --> 00:47:56,360
+We're going to fix it.
+
+1022
+00:47:56,360 --> 00:47:57,520
+You know, if people want to vote against us,
+
+1023
+00:47:57,520 --> 00:47:59,960
+they can vote, vote against us, but we are going to prove
+
+1024
+00:47:59,960 --> 00:48:02,240
+our electoral strategy is going to work.
+
+1025
+00:48:02,240 --> 00:48:03,680
+And we're going to prove our economic strategy
+
+1026
+00:48:03,680 --> 00:48:05,280
+is going to work," and you accept the loss.
+
+1027
+00:48:05,280 --> 00:48:07,720
+Accept that you can lose one election.
+
+1028
+00:48:07,720 --> 00:48:12,160
+But instead you instinctively lie in a way
+
+1029
+00:48:12,160 --> 00:48:14,160
+that massively damages your chances
+
+1030
+00:48:14,160 --> 00:48:15,080
+of winning the next election.
+
+1031
+00:48:15,080 --> 00:48:17,640
+And then after this elect- the...
+
+1032
+00:48:17,640 --> 00:48:18,800
+I was watching these odds, right?
+
+1033
+00:48:18,800 --> 00:48:20,760
+So we spoke at the beginning of the video
+
+1034
+00:48:20,760 --> 00:48:23,560
+of how is it possible for Labour's odds to collapse
+
+1035
+00:48:23,560 --> 00:48:26,240
+despite Reform's odds also collapsing.
+
+1036
+00:48:26,240 --> 00:48:28,600
+It happened exactly on the by-election.
+
+1037
+00:48:28,600 --> 00:48:31,240
+Exactly on the by-election.
+
+1038
+00:48:31,240 --> 00:48:35,360
+And I just... I just cannot understand.
+
+1039
+00:48:35,360 --> 00:48:35,840
+I cannot...
+
+1040
+00:48:35,840 --> 00:48:37,040
+And it's,
+
+1041
+00:48:37,040 --> 00:48:40,520
+it's very frustrating, right, because you know,
+
+1042
+00:48:40,520 --> 00:48:42,840
+I'm very strategic here on this channel, right?
+
+1043
+00:48:42,840 --> 00:48:47,560
+And my plan was always I'm not going to try to lobby Labour.
+
+1044
+00:48:47,560 --> 00:48:49,920
+What I'm going to do is I'm going to move the public,
+
+1045
+00:48:49,920 --> 00:48:53,840
+and I'm going to, I'm going to put Labour in such a position
+
+1046
+00:48:53,840 --> 00:48:55,960
+that the obvious best move,
+
+1047
+00:48:55,960 --> 00:48:58,080
+the way for them to win the next election,
+
+1048
+00:48:58,080 --> 00:49:00,280
+the way for them to not lose the next election,
+
+1049
+00:49:00,280 --> 00:49:02,360
+is to call me up and to move on wealth taxes
+
+1050
+00:49:02,360 --> 00:49:04,440
+and to give us something on wealth taxes, right?
+
+1051
+00:49:04,440 --> 00:49:06,160
+And that was, in my opinion,
+
+1052
+00:49:06,160 --> 00:49:09,160
+their obvious correct move one year ago, right?
+
+1053
+00:49:09,160 --> 00:49:10,360
+And they didn't take it.
+
+1054
+00:49:10,360 --> 00:49:12,320
+Somebody else comes in and takes it
+
+1055
+00:49:12,320 --> 00:49:13,120
+and is getting **********
+
+1056
+00:49:13,120 --> 00:49:14,480
+And is beating them in the polls, right?
+
+1057
+00:49:14,480 --> 00:49:17,520
+On, on the idea which I invented for Labour, right?
+
+1058
+00:49:17,520 --> 00:49:18,440
+And they don't take it.
+
+1059
+00:49:18,440 --> 00:49:19,800
+And it's...
+
+1060
+00:49:19,800 --> 00:49:22,080
+People talk to me and say that the problem is
+
+1061
+00:49:22,080 --> 00:49:26,400
+that Labour are corrupt or that
+
+1062
+00:49:26,400 --> 00:49:27,760
+they're not nice guys.
+
+1063
+00:49:27,760 --> 00:49:29,440
+Like, but it...
+
+1064
+00:49:29,440 --> 00:49:30,800
+I don't play the game
+
+1065
+00:49:30,800 --> 00:49:33,200
+assuming I'm playing with nice guys, right?
+
+1066
+00:49:33,200 --> 00:49:35,520
+But I do assume that I'm playing with, like,
+
+1067
+00:49:35,520 --> 00:49:38,800
+mildly intelligent, strategic people.
+
+1068
+00:49:38,800 --> 00:49:40,240
+You, you... Listen,
+
+1069
+00:49:40,240 --> 00:49:42,720
+if, if these guys call me up a year ago,
+
+1070
+00:49:42,720 --> 00:49:45,360
+I think there's a very good ch- which Zack did,
+
+1071
+00:49:45,360 --> 00:49:46,600
+then I think there's a very good chance
+
+1072
+00:49:46,600 --> 00:49:47,880
+there's no Green surge, there's no...
+
+1073
+00:49:47,880 --> 00:49:49,360
+You just give us something.
+
+1074
+00:49:49,360 --> 00:49:51,960
+I'm not asking you to give us wealth taxes now.
+
+1075
+00:49:51,960 --> 00:49:54,880
+Listen, just call me up.
+
+1076
+00:49:54,880 --> 00:49:56,000
+Here's the email.
+
+1077
+00:49:56,000 --> 00:49:57,240
+Email us.
+
+1078
+00:49:57,240 --> 00:50:01,040
+Email us, right?
+
+1079
+00:50:01,040 --> 00:50:01,240
+All
+
+1080
+00:50:01,240 --> 00:50:05,440
+I'm asking is you give us some kind of credible signal
+
+1081
+00:50:05,440 --> 00:50:10,080
+that you are going to start working towards being able
+
+1082
+00:50:10,080 --> 00:50:13,520
+to implement something on the taxation of the very rich.
+
+1083
+00:50:13,520 --> 00:50:16,120
+I'm not saying I want a wealth tax now.
+
+1084
+00:50:16,120 --> 00:50:18,040
+I'm not saying I want a wealth tax tomorrow.
+
+1085
+00:50:18,040 --> 00:50:19,080
+I know this is not something
+
+1086
+00:50:19,080 --> 00:50:20,800
+that we can immediately implement.
+
+1087
+00:50:20,800 --> 00:50:25,480
+So start working with us now on getting us ready
+
+1088
+00:50:25,480 --> 00:50:28,400
+to design and implement a tax in the right way.
+
+1089
+00:50:28,400 --> 00:50:31,520
+All right, so here is the strategy part.
+
+1090
+00:50:31,520 --> 00:50:32,280
+What are we going to do?
+
+1091
+00:50:32,280 --> 00:50:36,600
+Because I think things are getting pretty serious,
+
+1092
+00:50:36,600 --> 00:50:39,040
+and it's time that we started to be
+
+1093
+00:50:39,040 --> 00:50:41,560
+a little bit more serious ourselves.
+
+1094
+00:50:41,560 --> 00:50:43,800
+We stop playing such nicey nicey,
+
+1095
+00:50:43,800 --> 00:50:45,360
+and we start to try to get ourselves
+
+1096
+00:50:45,360 --> 00:50:49,000
+a little bit more leverage because I always thought
+
+1097
+00:50:49,000 --> 00:50:52,760
+if we aggressively made it the best strategy for
+
+1098
+00:50:52,760 --> 00:50:55,560
+Labour to speak to us, eventually they would realise
+
+1099
+00:50:55,560 --> 00:50:58,000
+it was their best strategy, and they would speak to us.
+
+1100
+00:50:58,000 --> 00:51:00,840
+But unfortunately,
+
+1101
+00:51:00,840 --> 00:51:03,240
+it seems like that is maybe not going to work.
+
+1102
+00:51:03,240 --> 00:51:06,120
+So we need to be a bit more aggressive.
+
+1103
+00:51:06,120 --> 00:51:07,000
+We need to take action.
+
+1104
+00:51:07,000 --> 00:51:08,880
+So here is what we are going to do.
+
+1105
+00:51:08,880 --> 00:51:10,640
+Here is what you are going to do.
+
+1106
+00:51:10,640 --> 00:51:13,600
+Here is a link at the top of the video in the corner,
+
+1107
+00:51:13,600 --> 00:51:14,680
+down in the description.
+
+1108
+00:51:14,680 --> 00:51:16,120
+This is the link
+
+1109
+00:51:16,120 --> 00:51:19,920
+to sign up to vote in the local elections.
+
+1110
+00:51:19,920 --> 00:51:23,320
+There is going to be local elections across
+
+1111
+00:51:23,320 --> 00:51:29,040
+most of the UK, on the 7th of May next month.
+
+1112
+00:51:29,040 --> 00:51:29,560
+Okay?
+
+1113
+00:51:29,560 --> 00:51:30,600
+Sign up to vote.
+
+1114
+00:51:30,600 --> 00:51:31,240
+Sign up to vote.
+
+1115
+00:51:31,240 --> 00:51:33,080
+We need you to sign up to vote
+
+1116
+00:51:33,080 --> 00:51:35,160
+because I am going to turn around to Labour and say,
+
+1117
+00:51:35,160 --> 00:51:38,600
+"Listen, I am activating my viewership.
+
+1118
+00:51:38,600 --> 00:51:41,040
+I am getting my viewership ready to vote.
+
+1119
+00:51:41,040 --> 00:51:42,880
+Give us an offer." Right?
+
+1120
+00:51:42,880 --> 00:51:47,760
+This video is going to come out on the 12th of April.
+
+1121
+00:51:47,760 --> 00:51:48,040
+Right?
+
+1122
+00:51:48,040 --> 00:51:49,600
+So we have 3 and a half weeks
+
+1123
+00:51:49,600 --> 00:51:53,720
+between this video coming out and the elections.
+
+1124
+00:51:53,720 --> 00:51:55,040
+Sign up to vote.
+
+1125
+00:51:55,040 --> 00:51:55,440
+Sign up to vote.
+
+1126
+00:51:55,440 --> 00:51:57,120
+And I know we get a lot of viewers now
+
+1127
+00:51:57,120 --> 00:51:58,280
+who are not in the UK, right?
+
+1128
+00:51:58,280 --> 00:52:00,200
+If you're not in the UK,
+
+1129
+00:52:00,200 --> 00:52:02,480
+search how to sign up in your country.
+
+1130
+00:52:02,480 --> 00:52:03,120
+Sign up.
+
+1131
+00:52:03,120 --> 00:52:03,960
+Sign up to vote.
+
+1132
+00:52:03,960 --> 00:52:04,800
+Sign up to vote.
+
+1133
+00:52:04,800 --> 00:52:05,520
+Get ready.
+
+1134
+00:52:05,520 --> 00:52:06,680
+Get ready, all right?
+
+1135
+00:52:06,680 --> 00:52:08,280
+And we are going to turn...
+
+1136
+00:52:08,280 --> 00:52:09,800
+And if you're not going to be here,
+
+1137
+00:52:09,800 --> 00:52:12,280
+if you're not able to vote physically on the 7th,
+
+1138
+00:52:12,280 --> 00:52:13,480
+sign up for a postal vote.
+
+1139
+00:52:13,480 --> 00:52:14,440
+Get ready for a postal vote.
+
+1140
+00:52:14,440 --> 00:52:15,560
+Sign up for a proxy vote.
+
+1141
+00:52:15,560 --> 00:52:16,320
+Get ready, right?
+
+1142
+00:52:16,320 --> 00:52:16,840
+We...
+
+1143
+00:52:16,840 --> 00:52:21,360
+Labour, I don't know if they maybe don't recognise
+
+1144
+00:52:21,360 --> 00:52:23,840
+the power of social media in politics.
+
+1145
+00:52:23,840 --> 00:52:26,920
+But I mean, Zack Polanski obviously recognises it,
+
+1146
+00:52:26,920 --> 00:52:29,520
+but maybe the Labour Party just don't recognise it.
+
+1147
+00:52:29,520 --> 00:52:32,640
+We need to force these guys
+
+1148
+00:52:32,640 --> 00:52:35,080
+to recognise that we have power.
+
+1149
+00:52:35,080 --> 00:52:36,760
+Get it in your calendar, 7th of May.
+
+1150
+00:52:36,760 --> 00:52:37,280
+You're going to vote.
+
+1151
+00:52:37,280 --> 00:52:39,920
+And I'm not going to tell you who to vote for, right?
+
+1152
+00:52:39,920 --> 00:52:42,320
+We've got 3 weeks before the ne- we've got 3 weeks
+
+1153
+00:52:42,320 --> 00:52:44,720
+and 3 videos before the next election.
+
+1154
+00:52:44,720 --> 00:52:46,200
+And on the 3rd of May,
+
+1155
+00:52:46,200 --> 00:52:49,840
+I am going to do a video telling you which vote is best
+
+1156
+00:52:49,840 --> 00:52:51,160
+for getting us wealth taxes.
+
+1157
+00:52:51,160 --> 00:52:51,720
+Right?
+
+1158
+00:52:51,720 --> 00:52:53,800
+And Labour, and they'll probably keep
+
+1159
+00:52:53,800 --> 00:52:56,360
+******* ignoring me, like they always ******* ignore me.
+
+1160
+00:52:56,360 --> 00:52:58,520
+You've got 3 and a half weeks to persuade me that
+
+1161
+00:52:58,520 --> 00:53:01,400
+you will, at some point, do something on inequality.
+
+1162
+00:53:01,400 --> 00:53:02,160
+And I'm here, right?
+
+1163
+00:53:02,160 --> 00:53:03,520
+Here's the email again.
+
+1164
+00:53:03,520 --> 00:53:05,080
+People in Labour, email us.
+
+1165
+00:53:05,080 --> 00:53:05,520
+Email us.
+
+1166
+00:53:05,520 --> 00:53:06,720
+Give us a pitch.
+
+1167
+00:53:06,720 --> 00:53:07,880
+Give us a pitch
+
+1168
+00:53:07,880 --> 00:53:10,640
+why I should not tell every single person
+
+1169
+00:53:10,640 --> 00:53:12,320
+watching this video to vote Green in that election.
+
+1170
+00:53:12,320 --> 00:53:14,360
+Please give us ******* something, right?
+
+1171
+00:53:14,360 --> 00:53:16,840
+Because I never wanted to be a supporter
+
+1172
+00:53:16,840 --> 00:53:18,160
+of the Green Party, right?
+
+1173
+00:53:18,160 --> 00:53:20,040
+I'm not a political person, right?
+
+1174
+00:53:20,040 --> 00:53:24,120
+My plan was, and remains, to work with you guys for you
+
+1175
+00:53:24,120 --> 00:53:25,040
+to not win the next election.
+
+1176
+00:53:25,040 --> 00:53:28,680
+But it appears that you are absolutely refusing
+
+1177
+00:53:28,680 --> 00:53:29,640
+to give us anything, right?
+
+1178
+00:53:29,640 --> 00:53:31,000
+So come,
+
+1179
+00:53:31,000 --> 00:53:35,240
+give us something, work with us, talk to us, convince us
+
+1180
+00:53:35,240 --> 00:53:39,640
+that at some point you will do something on inequality
+
+1181
+00:53:39,640 --> 00:53:42,800
+and taxation of the very rich.
+
+1182
+00:53:42,800 --> 00:53:43,760
+All right, so that's it.
+
+1183
+00:53:43,760 --> 00:53:48,800
+We, we sit back, and we wait 3 and a half weeks
+
+1184
+00:53:48,800 --> 00:53:50,720
+to see if Labour give us an offer.
+
+1185
+00:53:50,720 --> 00:53:53,040
+And listen, this is, this is how it's going to be.
+
+1186
+00:53:53,040 --> 00:53:53,920
+This is how it's going to be.
+
+1187
+00:53:53,920 --> 00:53:57,160
+We are not going to support any political party.
+
+1188
+00:53:57,160 --> 00:53:59,960
+We are not going to tie our flags to any political party.
+
+1189
+00:53:59,960 --> 00:54:02,200
+But we are going to demand offers,
+
+1190
+00:54:02,200 --> 00:54:05,000
+and we are going to vote, and you are going to vote
+
+1191
+00:54:05,000 --> 00:54:08,080
+in every ******* election, every local election.
+
+1192
+00:54:08,080 --> 00:54:09,200
+I don't care where you are.
+
+1193
+00:54:09,200 --> 00:54:11,480
+You could be watching from Italy, from Spain,
+
+1194
+00:54:11,480 --> 00:54:13,520
+from America, from Australia, you're going to vote.
+
+1195
+00:54:13,520 --> 00:54:16,120
+And every single election, you are going to
+
+1196
+00:54:16,120 --> 00:54:19,080
+vote for who gives you the best offer on wealth taxes.
+
+1197
+00:54:19,080 --> 00:54:21,440
+Listen, this is not football, okay?
+
+1198
+00:54:21,440 --> 00:54:24,920
+This is the future livelihood of your ******* kids here.
+
+1199
+00:54:24,920 --> 00:54:25,520
+Okay?
+
+1200
+00:54:25,520 --> 00:54:27,640
+You are going to vote to protect your interests.
+
+1201
+00:54:27,640 --> 00:54:29,120
+You're going to vote in every election.
+
+1202
+00:54:29,120 --> 00:54:29,200
+Right?
+
+1203
+00:54:29,200 --> 00:54:30,000
+It's as simple as that.
+
+1204
+00:54:38,600 --> 00:54:39,040
+Well, look,
+
+1205
+00:54:39,040 --> 00:54:43,720
+we are really on the verge of doing something here.
+
+1206
+00:54:43,720 --> 00:54:47,240
+And I know that maybe Labour can't see it.
+
+1207
+00:54:48,280 --> 00:54:52,240
+But I guarantee you one of two things is going to happen.
+
+1208
+00:54:52,240 --> 00:54:54,760
+Either Labour will recognise it,
+
+1209
+00:54:54,760 --> 00:54:57,040
+either these political centrists in your country,
+
+1210
+00:54:57,040 --> 00:54:59,200
+if you're watching from abroad, will recognise it,
+
+1211
+00:54:59,200 --> 00:55:02,400
+or they will disappear. It's as simple as that.
+
+1212
+00:55:02,400 --> 00:55:04,440
+They will recognise it or they will disappear.
+
+1213
+00:55:04,440 --> 00:55:07,800
+And I can see, and it's obviously true,
+
+1214
+00:55:07,800 --> 00:55:09,920
+that we have a resurgent far right around the world,
+
+1215
+00:55:09,920 --> 00:55:11,760
+and I don't think that's going to stop.
+
+1216
+00:55:11,760 --> 00:55:14,240
+They will start winning elections.
+
+1217
+00:55:14,240 --> 00:55:16,160
+They already have started to win elections.
+
+1218
+00:55:16,160 --> 00:55:18,320
+But as we can see by looking at the US and by
+
+1219
+00:55:18,320 --> 00:55:21,320
+looking at Trump, when the far right comes into power,
+
+1220
+00:55:21,320 --> 00:55:23,200
+they will cut taxes on the rich,
+
+1221
+00:55:23,200 --> 00:55:25,080
+they will not act in the interests of the public,
+
+1222
+00:55:25,080 --> 00:55:27,640
+and they will preside over falling living standards.
+
+1223
+00:55:27,640 --> 00:55:30,000
+Which means that they too will struggle to hold
+
+1224
+00:55:30,000 --> 00:55:32,480
+onto popularity and will struggle to hold onto power.
+
+1225
+00:55:32,480 --> 00:55:37,240
+There is an enormous political vacuum here,
+
+1226
+00:55:37,240 --> 00:55:41,080
+and we are well-positioned to fill that, right?
+
+1227
+00:55:41,080 --> 00:55:43,800
+There is a real opportunity to build something here,
+
+1228
+00:55:43,800 --> 00:55:46,200
+a real, real opportunity to build something here,
+
+1229
+00:55:46,200 --> 00:55:48,800
+and I would encourage you to get involved
+
+1230
+00:55:48,800 --> 00:55:52,720
+in that based on a very, very, very simple method,
+
+1231
+00:55:52,720 --> 00:55:53,800
+right?
+
+1232
+00:55:53,800 --> 00:55:55,000
+This is how we win this, right?
+
+1233
+00:55:55,000 --> 00:55:57,000
+One very, very simple thing.
+
+1234
+00:55:57,000 --> 00:55:59,720
+I want to reach a situation where if I go out there
+
+1235
+00:55:59,720 --> 00:56:01,680
+on the street, and I pull any man or woman
+
+1236
+00:56:01,680 --> 00:56:05,280
+off the street, that there is a 60, 70, 80% chance
+
+1237
+00:56:05,280 --> 00:56:06,680
+that when I say to them,
+
+1238
+00:56:06,680 --> 00:56:09,880
+"Why do you think your living standards are falling?
+
+1239
+00:56:09,880 --> 00:56:11,400
+Why do you think your kids
+
+1240
+00:56:11,400 --> 00:56:14,520
+are going to be poorer than you?" They say, "We think
+
+1241
+00:56:14,520 --> 00:56:18,720
+that's because of growing inequality." That's it.
+
+1242
+00:56:18,720 --> 00:56:20,280
+That's all we have to achieve.
+
+1243
+00:56:20,280 --> 00:56:23,200
+If we achieve that, then we will keep seeing,
+
+1244
+00:56:23,200 --> 00:56:25,360
+like we have seen in this country,
+
+1245
+00:56:25,360 --> 00:56:28,680
+that if anyone comes in and starts a political party
+
+1246
+00:56:28,680 --> 00:56:30,600
+that is serious about inequality, which, you know,
+
+1247
+00:56:30,600 --> 00:56:32,160
+according to the messaging
+
+1248
+00:56:32,160 --> 00:56:34,800
+of Zac Polanski is what the Green parties are, they will
+
+1249
+00:56:34,800 --> 00:56:36,960
+be immediately getting 20% of the vote.
+
+1250
+00:56:36,960 --> 00:56:38,360
+You know, that is the opportu...
+
+1251
+00:56:38,360 --> 00:56:41,480
+Listen, when I saw that vote, when
+
+1252
+00:56:41,480 --> 00:56:44,960
+I saw the Greens win that vote in Gorton and Denton,
+
+1253
+00:56:44,960 --> 00:56:49,320
+I'm going to be honest, I was ******* proud because that,
+
+1254
+00:56:49,320 --> 00:56:51,560
+a big part of that is ******* us.
+
+1255
+00:56:51,560 --> 00:56:53,800
+That's, that's us here, that's you on this channel,
+
+1256
+00:56:53,800 --> 00:56:56,720
+that's us educating the public
+
+1257
+00:56:56,720 --> 00:56:59,880
+that the reason you're getting poor is inequality.
+
+1258
+00:56:59,880 --> 00:57:03,320
+And if we do that, then we will reach a situation
+
+1259
+00:57:03,320 --> 00:57:05,680
+where politicians cannot win elections without
+
+1260
+00:57:05,680 --> 00:57:08,360
+at least promising to do something on inequality.
+
+1261
+00:57:08,360 --> 00:57:11,920
+And that will put us in a much, much stronger situation
+
+1262
+00:57:11,920 --> 00:57:12,760
+than we are in now.
+
+1263
+00:57:12,760 --> 00:57:15,160
+But we need to be getting involved, right?
+
+1264
+00:57:15,160 --> 00:57:16,040
+So here's what you're going to do.
+
+1265
+00:57:16,040 --> 00:57:17,040
+I know I've pushed the idea
+
+1266
+00:57:17,040 --> 00:57:18,200
+you're going to sign up to vote.
+
+1267
+00:57:18,200 --> 00:57:19,360
+We're going to vote in every election,
+
+1268
+00:57:19,360 --> 00:57:21,720
+but also we're going to educate.
+
+1269
+00:57:21,720 --> 00:57:22,520
+We're going to educate.
+
+1270
+00:57:22,520 --> 00:57:24,080
+You're going to educate yourselves,
+
+1271
+00:57:24,080 --> 00:57:25,400
+you're going to use these videos,
+
+1272
+00:57:25,400 --> 00:57:27,240
+you're going to send them to your friends and your family.
+
+1273
+00:57:27,240 --> 00:57:29,160
+You're going to educate the people around you
+
+1274
+00:57:29,160 --> 00:57:33,000
+on this very, very simple message.
+
+1275
+00:57:33,000 --> 00:57:35,120
+The reason you are getting poorer,
+
+1276
+00:57:35,120 --> 00:57:36,640
+the reason your kids are getting poorer
+
+1277
+00:57:36,640 --> 00:57:39,320
+is because of growing inequality.
+
+1278
+00:57:39,320 --> 00:57:42,360
+If we do not take action on growing wealth inequality,
+
+1279
+00:57:42,360 --> 00:57:44,360
+then this will get worse and worse and worse.
+
+1280
+00:57:44,360 --> 00:57:46,760
+But there is a political movement,
+
+1281
+00:57:46,760 --> 00:57:48,240
+an educational movement
+
+1282
+00:57:48,240 --> 00:57:49,480
+which is doing something about it.
+
+1283
+00:57:49,480 --> 00:57:51,000
+So get involved.
+
+1284
+00:57:51,000 --> 00:57:51,640
+Get involved.
+
+1285
+00:57:51,640 --> 00:57:52,000
+Create...
+
+1286
+00:57:52,000 --> 00:57:53,960
+And this is what we need.
+
+1287
+00:57:53,960 --> 00:57:55,440
+We need more people making videos.
+
+1288
+00:57:55,440 --> 00:57:57,040
+Look at what we've achieved here already, right?
+
+1289
+00:57:57,040 --> 00:57:58,360
+There is a massive gap, right?
+
+1290
+00:57:58,360 --> 00:58:01,840
+It was obvious 5 years ago that political power
+
+1291
+00:58:01,840 --> 00:58:05,240
+was moving from Murdoch, from the traditional media,
+
+1292
+00:58:05,240 --> 00:58:09,720
+from TV and radio and newspapers towards social media,
+
+1293
+00:58:09,720 --> 00:58:11,080
+and nobody ******* moved, all right?
+
+1294
+00:58:11,080 --> 00:58:12,040
+The Labour Party didn't move,
+
+1295
+00:58:12,040 --> 00:58:14,080
+the Conservative Party didn't move, the Republicans,
+
+1296
+00:58:14,080 --> 00:58:17,000
+the Democrats, the online Sky News didn't move.
+
+1297
+00:58:17,000 --> 00:58:18,400
+We moved into that space, right?
+
+1298
+00:58:18,400 --> 00:58:22,280
+There's so much space to be won here on social media.
+
+1299
+00:58:22,280 --> 00:58:25,840
+I did a call-out in, I think it was May last year,
+
+1300
+00:58:25,840 --> 00:58:27,000
+saying, "I want to see more creators.
+
+1301
+00:58:27,000 --> 00:58:28,360
+I want to see more creators."
+
+1302
+00:58:28,360 --> 00:58:30,600
+Since that, we've got Louisa Munch,
+
+1303
+00:58:30,600 --> 00:58:32,720
+she's got more than a quarter of a million on Instagram.
+
+1304
+00:58:32,720 --> 00:58:33,680
+We've got Barry's Economics.
+
+1305
+00:58:33,680 --> 00:58:35,800
+Barry's Economics hit a hundred thousand subs
+
+1306
+00:58:35,800 --> 00:58:37,680
+on YouTube last week.
+
+1307
+00:58:37,680 --> 00:58:39,160
+Round of applause for Barry's Economics.
+
+1308
+00:58:39,160 --> 00:58:42,720
+Listen, if you go out there, and you make good videos
+
+1309
+00:58:42,720 --> 00:58:45,320
+saying, educating this message to your community,
+
+1310
+00:58:45,320 --> 00:58:47,080
+to people like you, I'm going to back it.
+
+1311
+00:58:47,080 --> 00:58:48,240
+I'm going to boost it.
+
+1312
+00:58:48,240 --> 00:58:49,640
+It took me 4 ******* years
+
+1313
+00:58:49,640 --> 00:58:51,800
+to get a hundred thousand subs on YouTube,
+
+1314
+00:58:51,800 --> 00:58:53,760
+but Barry's got it in, like, 6, 9 months.
+
+1315
+00:58:53,760 --> 00:58:55,440
+When I go around the world,
+
+1316
+00:58:55,440 --> 00:58:58,000
+I want to see influencers in every country.
+
+1317
+00:58:58,000 --> 00:58:58,240
+You know,
+
+1318
+00:58:58,240 --> 00:59:00,080
+where's the Italian guy doing videos like this?
+
+1319
+00:59:00,080 --> 00:59:02,600
+You know, shout out to Punters Politics in Australia.
+
+1320
+00:59:02,600 --> 00:59:03,440
+I went there last year.
+
+1321
+00:59:03,440 --> 00:59:04,120
+He's doing it.
+
+1322
+00:59:04,120 --> 00:59:06,040
+Listen, there's demand for this.
+
+1323
+00:59:06,040 --> 00:59:07,480
+There is demand for this.
+
+1324
+00:59:07,480 --> 00:59:08,680
+You start making videos on YouTube,
+
+1325
+00:59:08,680 --> 00:59:10,120
+you can make ******* money doing this.
+
+1326
+00:59:10,120 --> 00:59:12,240
+Listen, make videos,
+
+1327
+00:59:12,240 --> 00:59:14,640
+educate your families, educate your communities.
+
+1328
+00:59:14,640 --> 00:59:16,120
+Whatever it is, listen,
+
+1329
+00:59:16,120 --> 00:59:18,720
+use our clips, put them out there, make music,
+
+1330
+00:59:18,720 --> 00:59:21,240
+make T-shirts, make posters, make stickers.
+
+1331
+00:59:21,240 --> 00:59:22,480
+Join your political parties.
+
+1332
+00:59:22,480 --> 00:59:22,920
+Yeah, I don't care.
+
+1333
+00:59:22,920 --> 00:59:25,120
+Listen, join the Green Party, join the Labour Party,
+
+1334
+00:59:25,120 --> 00:59:26,520
+join ******* Reform, I don't care.
+
+1335
+00:59:26,520 --> 00:59:28,080
+Whatever party you join,
+
+1336
+00:59:28,080 --> 00:59:32,640
+tell them, "Why are you not doing more on wealth taxes?"
+
+1337
+00:59:32,640 --> 00:59:35,960
+Force your political parties to do more on wealth taxes.
+
+1338
+00:59:35,960 --> 00:59:37,120
+Get jobs that matter.
+
+1339
+00:59:37,120 --> 00:59:39,000
+Get jobs in media, academics.
+
+1340
+00:59:39,000 --> 00:59:40,280
+We need more economists.
+
+1341
+00:59:40,280 --> 00:59:41,240
+Get jobs in politics.
+
+1342
+00:59:41,240 --> 00:59:44,360
+Listen, this is going to be a big movement.
+
+1343
+00:59:44,360 --> 00:59:45,840
+There is such a gap here.
+
+1344
+00:59:45,840 --> 00:59:49,840
+There is such a gap here, and we can step in to fill it.
+
+1345
+00:59:49,840 --> 00:59:51,080
+Right, so that's it.
+
+1346
+00:59:51,080 --> 00:59:54,400
+Everything you do, simple, clear messaging.
+
+1347
+00:59:54,400 --> 00:59:56,440
+Simple, clear messaging.
+
+1348
+00:59:56,440 --> 00:59:57,320
+Repetition.
+
+1349
+00:59:57,320 --> 00:59:58,480
+Say it again and again.
+
+1350
+00:59:58,480 --> 01:00:01,280
+The reason you're getting poorer is growing inequality.
+
+1351
+01:00:01,280 --> 01:00:03,480
+If we don't do anything about growing inequality,
+
+1352
+01:00:03,480 --> 01:00:04,920
+your kids will get poorer.
+
+1353
+01:00:04,920 --> 01:00:06,840
+And you educate yourself on that,
+
+1354
+01:00:06,840 --> 01:00:09,360
+you educate your communities on that, and you create
+
+1355
+01:00:09,360 --> 01:00:11,400
+whatever you can create to share that message, right?
+
+1356
+01:00:11,400 --> 01:00:12,840
+Art, whatever you can do.
+
+1357
+01:00:12,840 --> 01:00:15,080
+Posters, stickers, videos, music.
+
+1358
+01:00:15,080 --> 01:00:16,280
+You make it.
+
+1359
+01:00:16,280 --> 01:00:19,360
+But whatever you do, you have to speak with compassion.
+
+1360
+01:00:19,360 --> 01:00:21,120
+You cannot exclude people.
+
+1361
+01:00:21,120 --> 01:00:24,480
+You have to bring people in, win people over.
+
+1362
+01:00:24,480 --> 01:00:25,680
+In the end of the day,
+
+1363
+01:00:25,680 --> 01:00:29,520
+you guys have a shared financial interest in this.
+
+1364
+01:00:29,520 --> 01:00:31,840
+If you do not do anything, you're going to get poorer and
+
+1365
+01:00:31,840 --> 01:00:33,760
+poorer and poorer, and that's going to affect your family,
+
+1366
+01:00:33,760 --> 01:00:37,320
+that's going to affect your kids.
+
+1367
+01:00:37,320 --> 01:00:38,240
+So that's it.
+
+1368
+01:00:38,240 --> 01:00:40,520
+We're going to run at this now.
+
+1369
+01:00:40,520 --> 01:00:41,960
+We're all going to do this together, all right?
+
+1370
+01:00:41,960 --> 01:00:43,640
+You're not going to burn yourself out, all right?
+
+1371
+01:00:43,640 --> 01:00:45,560
+When you need to take rests, you take rests.
+
+1372
+01:00:45,560 --> 01:00:46,920
+There needs to be lots of us.
+
+1373
+01:00:46,920 --> 01:00:48,880
+I want to see lots of us on social media,
+
+1374
+01:00:48,880 --> 01:00:50,600
+lots of us in the political parties,
+
+1375
+01:00:50,600 --> 01:00:53,000
+lots of us in economics, lots of us in media.
+
+1376
+01:00:53,000 --> 01:00:55,440
+When some of us are resting, others of us are pushing.
+
+1377
+01:00:55,440 --> 01:00:56,640
+That's how it's going to work.
+
+1378
+01:00:56,640 --> 01:00:59,440
+We carry what we can, we contribute what we can,
+
+1379
+01:00:59,440 --> 01:01:01,720
+we take what we need, and we give what we can.
+
+1380
+01:01:01,720 --> 01:01:02,360
+We keep going.
+
+1381
+01:01:02,360 --> 01:01:05,000
+But listen, the opportunity is there, man.
+
+1382
+01:01:05,000 --> 01:01:05,920
+The opportunity is there.
+
+1383
+01:01:05,920 --> 01:01:07,000
+Like, I showed you those numbers
+
+1384
+01:01:07,000 --> 01:01:08,680
+at the beginning of the video.
+
+1385
+01:01:08,680 --> 01:01:13,040
+The shattering of 250 years of British politics.
+
+1386
+01:01:13,040 --> 01:01:16,280
+And what that means is there's a gap.
+
+1387
+01:01:16,280 --> 01:01:19,240
+There's a gap to fill and there's nobody there.
+
+1388
+01:01:19,240 --> 01:01:21,200
+There's nobody there filling on social media.
+
+1389
+01:01:21,200 --> 01:01:23,480
+The political parties might ignore us,
+
+1390
+01:01:23,480 --> 01:01:25,480
+but if they keep ignoring us, they're going to die.
+
+1391
+01:01:25,480 --> 01:01:28,600
+So, listen, I'm going to keep doing it.
+
+1392
+01:01:28,600 --> 01:01:29,520
+I'm going to keep showing up
+
+1393
+01:01:29,520 --> 01:01:31,280
+for as long as I can with the videos every week.
+
+1394
+01:01:31,280 --> 01:01:33,640
+You guys are going to get involved.
+
+1395
+01:01:33,640 --> 01:01:35,240
+You're going to sign up to vote.
+
+1396
+01:01:35,240 --> 01:01:36,560
+You Labour politicians are going to call out,
+
+1397
+01:01:36,560 --> 01:01:38,120
+and you're going to give me an offer.
+
+1398
+01:01:38,120 --> 01:01:41,560
+Yeah, look, I, I know people are going to think
+
+1399
+01:01:41,560 --> 01:01:43,200
+that I'm being, like, too aggressive on Labour here,
+
+1400
+01:01:43,200 --> 01:01:44,080
+and people are going to say that.
+
+1401
+01:01:44,080 --> 01:01:45,440
+And, you know, sometimes
+
+1402
+01:01:45,440 --> 01:01:47,200
+when I talk to people in Labour, that's what they say.
+
+1403
+01:01:47,200 --> 01:01:48,720
+They say, "Oh, but you're not being nice to us.
+
+1404
+01:01:48,720 --> 01:01:51,840
+You're not being nice to us." Listen,
+
+1405
+01:01:51,840 --> 01:01:54,640
+I'll be the nicest guy in the world to you.
+
+1406
+01:01:54,640 --> 01:01:55,880
+Give me an offer.
+
+1407
+01:01:55,880 --> 01:01:57,440
+Give me an offer.
+
+1408
+01:01:57,440 --> 01:02:01,080
+Put me in a situation where when I look at Labour,
+
+1409
+01:02:01,080 --> 01:02:05,040
+I believe that at some point, somewhere in the future,
+
+1410
+01:02:05,040 --> 01:02:08,440
+they are going to start working seriously
+
+1411
+01:02:08,440 --> 01:02:09,720
+on reducing inequality.
+
+1412
+01:02:09,720 --> 01:02:12,880
+Please, give me some kind of offer.
+
+1413
+01:02:12,880 --> 01:02:15,320
+Help me to help you.
+
+1414
+01:02:15,320 --> 01:02:19,480
+Help me to help you.
+
+1415
+01:02:19,480 --> 01:02:21,360
+And for the rest of us,
+
+1416
+01:02:21,360 --> 01:02:24,240
+we are going to make it painfully, painfully obvious
+
+1417
+01:02:24,240 --> 01:02:27,200
+to every single person in this country, in your country,
+
+1418
+01:02:27,200 --> 01:02:29,920
+the only way to protect your children
+
+1419
+01:02:29,920 --> 01:02:33,120
+is to do something on the future of inequality.
+
+1420
+01:02:33,120 --> 01:02:34,240
+Make it obvious.
+
+1421
+01:02:34,240 --> 01:02:36,920
+Obvious, obvious, obvious.
+
+1422
+01:02:36,920 --> 01:02:38,040
+Right, that's it.
+
+1423
+01:02:38,040 --> 01:02:38,800
+That's your job.
+
+1424
+01:02:38,800 --> 01:02:40,000
+That's my job.
+
+1425
+01:02:40,000 --> 01:02:41,160
+I'll keep doing it.
+
+1426
+01:02:41,160 --> 01:02:41,760
+Thank you very much.
+
+1427
+01:02:41,760 --> 01:02:44,000
+Tax Wealth Not Work.
