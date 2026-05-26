@@ -47,10 +47,10 @@ async def test_rag_query_sends_trace_with_all_metadata(use_ollama_for_testing):
     assert latest_trace.user_id == test_user_id
     assert latest_trace.name == settings.app_name
     # Check that both chat and embedding metadata are present
-    tests_provider = "ollama_self_hosted"
+    tests_provider = "ollama_cloud"
     chat_model = settings.providers[tests_provider]["chat_model"]
     assert latest_trace.metadata["chat_model"] == chat_model
     assert latest_trace.metadata["chat_provider"] == tests_provider
     assert latest_trace.metadata["embedding_model"] == settings.embeddings_model
-    assert latest_trace.metadata["embedding_provider"] == tests_provider
+    assert latest_trace.metadata["embedding_provider"] == "ollama_self_hosted"
     assert latest_trace.metadata["prompt_version"] == settings.prompt_version
