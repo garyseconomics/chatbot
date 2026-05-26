@@ -85,6 +85,9 @@ class Settings(BaseSettings):
     telegram_token: str = ""
     discord_token: str = ""
 
+    # Bot message limit - read from TELEGRAM_MESSAGE_LIMIT in .env
+    telegram_message_limit: int = 4096
+
     # Langfuse — read from LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY, LANGFUSE_HOST in .env
     langfuse_public_key: str = ""
     langfuse_secret_key: str = ""

@@ -1,0 +1,1 @@
+Based on Gary’s book and betting on the collapse of the wealth for normal working people and governments are there any other types of asymmetrical bets that average people could take from an activist perspective  that could be the catalyst to large and broad change? Drawing on the GameStop situation from a few years ago?
