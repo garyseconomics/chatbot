@@ -22,6 +22,15 @@ class Settings(BaseSettings):
     # Ollama Cloud API key — read from .env
     ollama_cloud_api_key: str = ""
 
+    # OpenRouter Client - read from .env 
+    # see https://openrouter.ai/docs/api/reference/authentication
+    openrouter_url: str = ""
+    openrouter_api_key: str = ""
+    
+    # OpenAI Client - read from .env (UPPERCASE to lowercase mapping happens?)
+    openai_url: str = ""
+    openai_api_key: str = ""
+
     # LLM settings
     prompt_version: int = 4
     embeddings_model: str = "qwen3-embedding:8b"
@@ -32,6 +41,8 @@ class Settings(BaseSettings):
         "ollama_cloud",
         "ollama_self_hosted",
         "ollama_local",
+        "openrouter",
+        "openai_direct"
     ]
 
     embeddings_provider_priority: list[str] = [
@@ -43,20 +54,37 @@ class Settings(BaseSettings):
     def providers(self) -> dict:
         return {
             "ollama_local": {
+                "type": "ollama",
                 "url": self.ollama_local_host_url,
                 "api_key": None,
                 "chat_model": "qwen3:4b",
             },
             "ollama_self_hosted": {
+                "type": "ollama",
                 "url": self.ollama_self_hosted_url,
                 "api_key": None,
                 "chat_model": "qwen3:32b",
             },
             "ollama_cloud": {
+                "type": "ollama",
                 "url": self.ollama_cloud_url,
                 "api_key": self.ollama_cloud_api_key,
                 "chat_model": "qwen3-next:80b",
             },
+            "openrouter": {
+                # This is the client type
+                "type": "openai",
+                "url": self.openrouter_url,
+                "api_key": self.openrouter_api_key,
+                # see https://openrouter.ai/models?fmt=cards&input_modalities=text
+                "chat_model": "google/gemma-4-31b-it:free",
+            },
+            "openai_direct": {
+                "type": "openai",
+                "url": self.openai_url,
+                "api_key": self.openai_api_key,
+                "chat_model": "gpt-5-nano",
+            }
         }
 
     # Vector database

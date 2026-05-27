@@ -26,6 +26,18 @@ def test_remote_llm_providers_config():
     assert isinstance(ollama_cloud["url"], str)
     assert isinstance(ollama_cloud["chat_model"], str)
 
+def test_openrouter_provider_config():
+    openrouter = settings.providers["openrouter"]
+    assert isinstance(openrouter["url"], str)
+    assert isinstance(openrouter["api_key"], str)
+    assert isinstance(openrouter["chat_model"], str)
+
+def test_openai_provider_config():
+    openai = settings.providers["openai_direct"]
+    assert isinstance(openai["url"], str)
+    assert isinstance(openai["api_key"], str)
+    assert isinstance(openai["chat_model"], str)
+
 
 def test_chat_providers_priority_config():
     assert len(settings.chat_provider_priority) > 1

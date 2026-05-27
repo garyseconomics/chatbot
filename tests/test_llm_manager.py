@@ -1,6 +1,7 @@
 import langchain_core
 import pytest
 from langchain_core.prompts import ChatPromptTemplate
+from langchain_ollama import ChatOllama
 
 from config import settings
 from llm.llm_manager import LLM_Client
@@ -53,6 +54,7 @@ async def test_chat_falls_back_on_invoke_error(monkeypatch):
     # Add a bad provider: reachable server but nonexistent model → ainvoke will fail
     providers_with_bad = settings.providers
     providers_with_bad["bad_provider"] = {
+        "type": "ollama",
         "url": settings.providers["ollama_self_hosted"]["url"],
         "api_key": None,
         "chat_model": "nonexistent_model_12345",
@@ -109,6 +111,7 @@ async def test_chat_raises_when_invoke_always_fails(monkeypatch):
     # Use a reachable server but with a nonexistent model — ainvoke will return a 500 error
     providers_all_bad = {
         "bad_provider": {
+            "type": "ollama",
             "url": settings.providers["ollama_self_hosted"]["url"],
             "api_key": None,
             "chat_model": "nonexistent_model_12345",
@@ -134,12 +137,14 @@ async def test_chat_reports_errors_from_all_providers(monkeypatch):
     providers_mixed = {
         # Port 1 — connection refused, fast failure
         "unreachable_provider": {
+            "type": "ollama",
             "url": "http://localhost:1",
             "api_key": None,
             "chat_model": "any_model",
         },
         # Reachable server but nonexistent model — ainvoke will fail
         "bad_model_provider": {
+            "type": "ollama",
             "url": settings.providers["ollama_self_hosted"]["url"],
             "api_key": None,
             "chat_model": "nonexistent_model_12345",
@@ -162,5 +167,17 @@ async def test_chat_reports_errors_from_all_providers(monkeypatch):
     expected_model_error = "model 'nonexistent_model_12345' not found (status code: 404)"
     assert "nonexistent_model_12345" in client.providers_errors["bad_model_provider"]
     assert "nonexistent_model_12345" in error_message
+
+    # TODO: might need more robust error checking now we have OpenAI client in workflow
+
+
+def test_get_chat_model_returns_ollama_for_ollama_type(monkeypatch):
+    """If the provider type is 'ollama', get_chat_model() returns a ChatOllama instance."""
+    always_reachable = staticmethod(lambda host, timeout=3.0: True)
+    monkeypatch.setattr(LLM_Client, "_is_host_reachable", always_reachable)
+    settings.chat_provider_priority = ["ollama_local"]
+    client = LLM_Client()
+    model = client.get_chat_model()
+    assert isinstance(model, ChatOllama)
 
 # {"detail":{"error":{"message":"The model 'ollama/nonexistent_model_12345' does not exist.","type":"invalid_request_error","param":"model","code":"model_not_found"}}} (status code: 404)
