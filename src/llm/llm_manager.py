@@ -35,6 +35,9 @@ class LLM_Client:
         try:
             urllib.request.urlopen(host, timeout=timeout)
             return True
+        except urllib.error.HTTPError:
+            # HTTPError (e.g. 401, 404, 500) means the server is up and responding.
+            return True
         except (urllib.error.URLError, OSError, ValueError):
             return False
 

@@ -49,6 +49,14 @@ async def test_chat_ollama_cloud():
 
 
 @pytest.mark.asyncio
+async def test_chat_openrouter():
+    settings.chat_provider_priority = ["openrouter"]
+    client = LLM_Client()
+    response = await client.chat(prompt="Hello. I'm trying OpenRouter.", user_id="Test")
+    assert isinstance(response, langchain_core.messages.ai.AIMessage)
+
+
+@pytest.mark.asyncio
 async def test_chat_falls_back_on_invoke_error(monkeypatch):
     """When the first provider fails on ainvoke, chat() tries the next one."""
     # Add a bad provider: reachable server but nonexistent model → ainvoke will fail
