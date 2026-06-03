@@ -1,12 +1,10 @@
 import asyncio
-from pathlib import Path
-from unittest.mock import AsyncMock, MagicMock
+from unittest.mock import AsyncMock
 
 import pytest
 
 from config import settings
 from interfaces.discord_bot import (
-    handle_message,
     send_greeting,
     should_respond,
     strip_bot_mention,
@@ -188,66 +186,3 @@ async def test_send_greeting_does_nothing_when_channel_not_found():
     await send_greeting([channel])
 
     channel.send.assert_not_called()
-
-
-# --- handle_message ---
-
-
-def _make_message(text="What is wealth?"):
-    message = AsyncMock()
-    message.content = text
-    message.author.id = 456
-    message.guild = MagicMock()
-    message.channel = AsyncMock()
-    return message
-
-
-def _make_bot_user():
-    bot_user = MagicMock()
-    bot_user.id = 123
-    return bot_user
-
-
-@pytest.mark.asyncio
-async def test_handle_message_sends_answer(monkeypatch):
-    mock_rag = AsyncMock(
-        return_value={"answer": "Wealth is...", "context": [], "question": "What is wealth?"}
-    )
-    monkeypatch.setattr("interfaces.discord_bot.RAG_query", mock_rag)
-
-    message = _make_message()
-    await handle_message(message, _make_bot_user())
-
-    sent_text = message.channel.send.call_args.args[0]
-    assert "Wealth is..." in sent_text
-
-
-@pytest.mark.asyncio
-async def test_handle_message_long_answer_is_chunked(monkeypatch):
-    answer = Path("./tests/test-data/long-answer.md").read_text()
-    mock_rag = AsyncMock(
-        return_value={"answer": answer, "context": [], "question": "test"}
-    )
-    monkeypatch.setattr("interfaces.discord_bot.RAG_query", mock_rag)
-
-    message = _make_message()
-    await handle_message(message, _make_bot_user())
-
-    sent_text = ""
-    for call in message.channel.send.call_args_list:
-        sent_text += call.args[0]
-
-    assert message.channel.send.call_count > 1
-    assert answer in sent_text
-
-
-@pytest.mark.asyncio
-async def test_handle_message_sends_error_on_failure(monkeypatch):
-    monkeypatch.setattr(
-        "interfaces.discord_bot.RAG_query", AsyncMock(side_effect=RuntimeError("boom"))
-    )
-
-    message = _make_message()
-    await handle_message(message, _make_bot_user())
-
-    message.channel.send.assert_called_once_with(settings.error_messages["DefaultError"])

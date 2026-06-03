@@ -14,7 +14,6 @@ import discord  # noqa: E402
 from discord.ext import commands  # noqa: E402
 
 from config import settings  # noqa: E402
-from interfaces.chunker import discord_bot_chunker  # noqa: E402
 from rag.rag_manager import RAG_query  # noqa: E402
 
 logger = logging.getLogger(__name__)
@@ -54,25 +53,6 @@ async def wait_with_thinking(channel, task, interval):
             thinking = True
         else:
             await channel.trigger_typing()
-
-
-async def handle_message(message, bot_user) -> None:
-    """Process a user message: run RAG and send the answer, chunked if needed."""
-    try:
-        clean_message = strip_bot_mention(message.content, bot_user.id)
-        logger.debug("Message received: %s", clean_message)
-        user_id = f"discord:{message.author.id}"
-
-        rag_task = asyncio.create_task(RAG_query(clean_message, user_id=user_id))
-
-        await wait_with_thinking(message.channel, rag_task, THINKING_INTERVAL)
-        rag_answer = rag_task.result()["answer"]
-        logger.debug("RAG answer: %s", rag_answer)
-        for chunk in discord_bot_chunker.chunk(rag_answer):
-            await message.channel.send(chunk.text)
-    except Exception:
-        logger.exception("Failed to handle message")
-        await message.channel.send(settings.error_messages["DefaultError"])
 
 
 async def send_greeting(text_channels):
@@ -119,7 +99,21 @@ class DiscordClient:
             ):
                 return
 
-            await handle_message(message, self.bot.user)
+            try:
+                clean_message = strip_bot_mention(message.content, self.bot.user.id)
+                logger.debug("Message received: %s", clean_message)
+                user_id = f"discord:{message.author.id}"
+
+                # RAG_query is async, so we can use create_task directly
+                rag_task = asyncio.create_task(RAG_query(clean_message, user_id=user_id))
+
+                await wait_with_thinking(message.channel, rag_task, THINKING_INTERVAL)
+                rag_answer = rag_task.result()["answer"]
+                logger.debug("RAG answer: %s", rag_answer)
+                await message.channel.send(rag_answer)
+            except Exception:
+                logger.exception("Failed to handle message")
+                await message.channel.send(settings.error_messages["DefaultError"])
 
     def run(self):
         logger.info("Connecting Discord...")
