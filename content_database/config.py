@@ -14,7 +14,6 @@ class Settings(BaseSettings):
     ollama_self_hosted_url: str = ""
 
     # Vector database
-    embeddings_model: str = main_settings.embeddings_model
     database_path: str = ""
     collection_name: str = main_settings.collection_name
     chunk_size: int = 1024

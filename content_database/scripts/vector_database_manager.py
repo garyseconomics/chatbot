@@ -32,17 +32,8 @@ def process_in_batches(splits, batch_size):
         logger.info("Batch %d of %d", i // batch_size + 1, num_batches)
         yield splits[i : i + batch_size]
 
-def get_embeddings_model():
-    """Return an embeddings model from the llm provider."""
-    url = settings.ollama_self_hosted_url
-    embeddings_model = OllamaEmbeddings(
-        model=settings.embeddings_model, base_url=url)
-    return embeddings_model
-
 # Creates the database and populates it with the documents provided
-def add_documents_to_vector_database(database_path, files_list, embeddings_model=None):
-    if not embeddings_model:
-        embeddings_model = get_embeddings_model()
+def add_documents_to_vector_database(database_path, files_list, embeddings_model):
     vector_store = get_or_create_vector_database(database_path, embeddings_model)
     for filename in files_list:
         logger.info("Extracting content from file: %s", filename)

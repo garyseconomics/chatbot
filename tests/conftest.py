@@ -19,8 +19,8 @@ def use_openrouter_for_testing():
     original = settings.chat_provider_priority
     settings.chat_provider_priority = ["openrouter"]
     # Uncommenting this will also make the test use OpenRouter for embeddings.
-    #settings.embeddings_provider_priority = ["openrouter"]
+    settings.embeddings_provider_priority = ["openrouter"]
     # This will change the model used for embeddings.
-    #settings.embeddings_model = "nvidia/llama-nemotron-embed-vl-1b-v2:free"
+    settings.embeddings_model = "nvidia/llama-nemotron-embed-vl-1b-v2:free"
     yield
     settings.chat_provider_priority = original

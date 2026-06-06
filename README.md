@@ -102,7 +102,7 @@ Vector DB   LLM Manager
 
 ### Install Ollama and download the models
 
-We use Large Language Models (LLMs) for two things: embedding documents into the vector database, and answering user questions. All models run through [Ollama](https://ollama.com/).
+We use Large Language Models (LLMs) for two things: embedding documents into the vector database, and answering user questions. Models can either run locally through [Ollama](https://ollama.com/), or be routed through [OpenRouter](https://openrouter.ai).
 
 Install Ollama:
 ```bash
@@ -110,15 +110,15 @@ sudo apt install curl
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-**Embedding model** — used to process subtitles before importing them to the vector database. The process is called [embedding](https://en.wikipedia.org/wiki/Embedding_(machine_learning)): it converts text into numerical vectors that represent concepts, which are later used to find related content when searching.
+**Embedding model** — used to process subtitles before importing them to the vector database. The process is called [embedding](https://en.wikipedia.org/wiki/Embedding_(machine_learning)): it converts text into numerical vectors that represent concepts, which are later used to find related content when searching. Again, we either use embedding models from Ollama or OpenRouter.
 
 ```bash
 ollama pull qwen3-embedding:8b
 ```
 
-You can use a different embedding model — check the [Ollama library](https://ollama.com/library?sort=newest&q=embedding) for options and change `embeddings_model` in `src/config.py`.
+You can use a different embedding model — check the [Ollama library](https://ollama.com/library?sort=newest&q=embedding) or [OpenRouter Library](https://openrouter.ai/collections/embedding-models) for options and change `embeddings_model` in `src/config.py`.
 
-**Chat model** — used to answer user questions. The chatbot tries providers in priority order (configured in `src/config.py`): cloud (`qwen3-next:80b`) → self-hosted (`qwen3:32b`) → local (`qwen3:4b`). To use the local fallback:
+**Chat model** — used to answer user questions. The chatbot tries providers in priority order (configured in `src/config.py`): cloud (various options) → self-hosted (`qwen3:32b`) → local (`qwen3:4b`). To use the local fallback:
 
 ```bash
 ollama pull qwen3:4b
