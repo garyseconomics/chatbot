@@ -94,6 +94,13 @@ def test_get_embeddings_model(use_ollama_for_testing):
     assert hasattr(embeddings, "embed_query")
 
 
+def test_get_embeddings_model_openrouter(use_openrouter_for_testing):
+    client = LLM_Client()
+    embeddings = client.get_embeddings_model()
+    assert hasattr(embeddings, "embed_query")
+    assert client.embeddings_provider_name == "openrouter"
+
+
 @pytest.mark.asyncio
 async def test_chat_raises_when_all_providers_unreachable(monkeypatch):
     """ConnectionError is raised after max_attempts when no provider is reachable."""
