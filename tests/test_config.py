@@ -31,6 +31,7 @@ def test_openrouter_provider_config():
     assert isinstance(openrouter["url"], str)
     assert isinstance(openrouter["api_key"], str)
     assert isinstance(openrouter["chat_model"], str)
+    assert isinstance(openrouter["embeddings_model"], str)
 
 def test_openai_provider_config():
     openai = settings.providers["openai_direct"]

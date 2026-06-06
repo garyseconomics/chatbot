@@ -16,11 +16,13 @@ def use_ollama_for_testing():
 @pytest.fixture
 def use_openrouter_for_testing():
     """Set the OpenRouter provider for tests that call the LLM."""
-    original = settings.chat_provider_priority
+    original_chat = settings.chat_provider_priority
+    original_embeddings = settings.embeddings_provider_priority
+    original_embeddings_model = settings.embeddings_model
     settings.chat_provider_priority = ["openrouter"]
-    # Uncommenting this will also make the test use OpenRouter for embeddings.
     settings.embeddings_provider_priority = ["openrouter"]
-    # This will change the model used for embeddings.
     settings.embeddings_model = "nvidia/llama-nemotron-embed-vl-1b-v2:free"
     yield
-    settings.chat_provider_priority = original
+    settings.chat_provider_priority = original_chat
+    settings.embeddings_provider_priority = original_embeddings
+    settings.embeddings_model = original_embeddings_model

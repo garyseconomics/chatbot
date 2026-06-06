@@ -2,6 +2,7 @@ import langchain_core
 import pytest
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama
+from langchain_openai import OpenAIEmbeddings
 
 from config import settings
 from llm.llm_manager import LLM_Client
@@ -99,6 +100,27 @@ def test_get_embeddings_model_openrouter(use_openrouter_for_testing):
     embeddings = client.get_embeddings_model()
     assert hasattr(embeddings, "embed_query")
     assert client.embeddings_provider_name == "openrouter"
+
+
+def test_get_embeddings_model_returns_openai_embeddings_for_openai_type(monkeypatch):
+    """get_embeddings_model() returns OpenAIEmbeddings when the provider type is 'openai'."""
+    always_reachable = staticmethod(lambda host, timeout=3.0: True)
+    monkeypatch.setattr(LLM_Client, "_is_host_reachable", always_reachable)
+    monkeypatch.setattr(settings, "embeddings_provider_priority", ["openrouter"])
+    client = LLM_Client()
+    embeddings = client.get_embeddings_model()
+    assert isinstance(embeddings, OpenAIEmbeddings)
+
+
+def test_get_embeddings_model_is_cached(monkeypatch):
+    """Second call to get_embeddings_model() returns the same object without re-selecting a provider."""
+    always_reachable = staticmethod(lambda host, timeout=3.0: True)
+    monkeypatch.setattr(LLM_Client, "_is_host_reachable", always_reachable)
+    monkeypatch.setattr(settings, "embeddings_provider_priority", ["openrouter"])
+    client = LLM_Client()
+    first = client.get_embeddings_model()
+    second = client.get_embeddings_model()
+    assert first is second
 
 
 @pytest.mark.asyncio
