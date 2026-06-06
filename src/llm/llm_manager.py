@@ -8,6 +8,7 @@ from langchain_core.language_models import BaseChatModel
 # Base return type from .invoke() — covers AIMessage, HumanMessage, etc.
 from langchain_core.messages import BaseMessage
 from langchain_ollama import ChatOllama, OllamaEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain_community.chat_models import ChatOpenAI
 from langfuse import observe
 
@@ -106,15 +107,25 @@ class LLM_Client:
         if not self.embeddings_model:
             self.embeddings_provider_name = self._select_provider("embeddings")
             provider = settings.providers[self.embeddings_provider_name]
-            self.embeddings_model = OllamaEmbeddings(
-                model=settings.embeddings_model, base_url=provider["url"]
-            )
             logger.info(
                 "Using embedding model %s on %s (%s)",
-                settings.embeddings_model,
+                provider["embeddings_model"],
                 self.embeddings_provider_name,
                 provider["url"],
             )
+            kwargs: dict = {
+                "model": provider["embeddings_model"],
+                "base_url": provider["url"],
+            }
+            if provider["type"] == "ollama":
+                self.embeddings_model = OllamaEmbeddings(**kwargs)
+            elif provider["type"] == "openai":
+                if provider["api_key"]:
+                    kwargs["api_key"] = provider["api_key"]
+                self.embeddings_model = OpenAIEmbeddings(**kwargs)
+            else:
+                raise ValueError(f"Unsupported provider type: {provider['type']}")
+            
         return self.embeddings_model
 
     def get_chat_model(self) -> BaseChatModel:
@@ -140,6 +151,8 @@ class LLM_Client:
         elif provider["type"] == "openai":
             kwargs["api_key"] = provider["api_key"]
             self.chat_model = ChatOpenAI(**kwargs)
+        else:
+            raise ValueError(f"Unsupported provider type: {provider['type']}")
         return self.chat_model
 
     # Calling the LLM

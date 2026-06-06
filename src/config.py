@@ -48,6 +48,7 @@ class Settings(BaseSettings):
     embeddings_provider_priority: list[str] = [
         "ollama_self_hosted",
         "ollama_local",
+        "openrouter",
     ]
 
     @property
@@ -58,18 +59,21 @@ class Settings(BaseSettings):
                 "url": self.ollama_local_host_url,
                 "api_key": None,
                 "chat_model": "qwen3:4b",
+                "embeddings_model": "qwen3-embedding:8b",
             },
             "ollama_self_hosted": {
                 "type": "ollama",
                 "url": self.ollama_self_hosted_url,
                 "api_key": None,
                 "chat_model": "qwen3:32b",
+                "embeddings_model": "qwen3-embedding:8b",
             },
             "ollama_cloud": {
                 "type": "ollama",
                 "url": self.ollama_cloud_url,
                 "api_key": self.ollama_cloud_api_key,
                 "chat_model": "qwen3-next:80b",
+                "embeddings_model": "qwen3-embedding:8b",
             },
             "openrouter": {
                 # This is the client type
@@ -78,6 +82,8 @@ class Settings(BaseSettings):
                 "api_key": self.openrouter_api_key,
                 # see https://openrouter.ai/models?fmt=cards&input_modalities=text
                 "chat_model": "google/gemma-4-31b-it:free",
+                # NOTE: Only for testing https://openrouter.ai/models?output_modalities=embeddings&max_price=0
+                "embeddings_model": "nvidia/llama-nemotron-embed-vl-1b-v2:free",
             },
             "openai_direct": {
                 "type": "openai",
