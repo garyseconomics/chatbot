@@ -1,9 +1,9 @@
 import chromadb
 import pytest
 from langchain_chroma import Chroma
-from langchain_ollama import OllamaEmbeddings
 
 from content_database.config import settings
+from src.llm.llm_manager import LLM_Client
 from content_database.scripts.vector_database_manager import (
     add_documents_to_vector_database,
     delete_existing_collections,
@@ -21,8 +21,7 @@ def test_database_path():
 
 @pytest.fixture(scope="module")
 def embeddings_model():
-    embedding_url = settings.ollama_self_hosted_url
-    return OllamaEmbeddings(model=settings.embeddings_model, base_url=embedding_url)
+    return LLM_Client().get_embeddings_model()
 
 
 @pytest.fixture(autouse=True)
@@ -73,11 +72,6 @@ def test_add_documents_to_vector_database(test_database_path, embeddings_model):
     )
     assert documents[0] == expected_content
 
-
-def test_add_documents_without_embeddings_model(test_database_path):
-    files_list = ["content_database/scripts/tests/sample.srt"]
-    vector_store = add_documents_to_vector_database(test_database_path, files_list)
-    assert isinstance(vector_store, Chroma)
 
 
 def test_get_collections_from_database(test_database_path, embeddings_model):

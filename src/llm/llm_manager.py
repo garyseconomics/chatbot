@@ -12,7 +12,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_community.chat_models import ChatOpenAI
 from langfuse import observe
 
-from config import settings
+from src.config import settings
 
 logger = logging.getLogger(__name__)
 

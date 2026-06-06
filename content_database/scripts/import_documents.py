@@ -8,7 +8,7 @@ from content_database.config import settings
 from content_database.scripts.vector_database_manager import (
     add_documents_to_vector_database,
 )
-from llm.llm_manager import LLM_Client
+from src.llm.llm_manager import LLM_Client
 
 
 # Only run when executed directly, not when imported as a module
