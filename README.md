@@ -116,7 +116,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama pull qwen3-embedding:8b
 ```
 
-You can use a different embedding model — check the [Ollama library](https://ollama.com/library?sort=newest&q=embedding) or [OpenRouter Library](https://openrouter.ai/collections/embedding-models) for options and change `embeddings_model` in `src/config.py`.
+You can use a different embedding model — check the [Ollama library](https://ollama.com/library?sort=newest&q=embedding) or [OpenRouter](https://openrouter.ai/collections/embedding-models) libaries for options and change the values in `src/config.py`.
 
 **Chat model** — used to answer user questions. The chatbot tries providers in priority order (configured in `src/config.py`): cloud (various options) → self-hosted (`qwen3:32b`) → local (`qwen3:4b`). To use the local fallback:
 

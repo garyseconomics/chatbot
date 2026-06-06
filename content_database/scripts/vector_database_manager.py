@@ -3,7 +3,6 @@ import time
 
 import chromadb
 from langchain_chroma import Chroma
-from langchain_ollama import OllamaEmbeddings
 
 from content_database.config import settings
 from content_database.scripts.srt_splitter import get_splits_from_srt

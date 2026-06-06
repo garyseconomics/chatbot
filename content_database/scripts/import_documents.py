@@ -27,6 +27,8 @@ if __name__ == "__main__":
 
     # Generate or get the database and add the documents on the file list
     try:
+        # NOTE: the vector db can use various embedding models. 
+        # When adding new docs to the db, the same model must be used. 
         add_documents_to_vector_database(
             settings.database_path, files_list, embeddings_model
         )

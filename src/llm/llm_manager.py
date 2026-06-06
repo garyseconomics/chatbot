@@ -103,7 +103,11 @@ class LLM_Client:
 
     # Getting the models from the providers
     def get_embeddings_model(self):
-        """Return an embeddings model from the first available embeddings provider."""
+        """
+        Return an embeddings model from the first available embeddings provider.
+        
+        The embedding model is used to create the vector database and then perform retrieval
+        """
         if not self.embeddings_model:
             self.embeddings_provider_name = self._select_provider("embeddings")
             provider = settings.providers[self.embeddings_provider_name]

@@ -7,6 +7,8 @@ def get_vector_database(database_path, embeddings_model):
     # Create vector database with Chroma
     vector_store = Chroma(
         collection_name=settings.collection_name,
+        # NOTE: this must be consistent between db creation
+        # and retrieval, otherwise the embeddings won't match.
         embedding_function=embeddings_model,
         persist_directory=database_path,
     )
