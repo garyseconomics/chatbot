@@ -10,7 +10,7 @@ dependencies = [
     "langchain",
     "langfuse>=3,<4",
     "langchain-chroma",
-    "langchain-community",
+    "langchain-openai",
     "langchain-ollama",
     "langchain-text-splitters",
     "langgraph",
@@ -42,6 +42,7 @@ select = ["E", "F", "W", "I"]
 [tool.pytest.ini_options]
 pythonpath = ["./src"]
 testpaths = ["tests"]
+asyncio_mode = "auto"
 markers = [
     "langfuse: tests that require a running Langfuse server and credentials",
 ]
@@ -51,4 +52,10 @@ markers = [
 filterwarnings = [
     "ignore:'audioop' is deprecated:DeprecationWarning",
     "ignore:urllib3.*doesn't match a supported version:requests.exceptions.RequestsDependencyWarning",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+    "pytest-asyncio>=1.4.0",
 ]
