@@ -10,7 +10,7 @@ dependencies = [
     "langchain",
     "langfuse>=3,<4",
     "langchain-chroma",
-    "langchain-community",
+    "langchain-community<=0.4.1",
     "langchain-ollama",
     "langchain-text-splitters",
     "langgraph",
