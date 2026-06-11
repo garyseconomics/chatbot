@@ -6,7 +6,21 @@ from langchain_ollama import ChatOllama
 from config import settings
 from llm.llm_manager import LLM_Client
 
+ollama_cloud_configured = bool(settings.ollama_cloud_api_key and settings.ollama_cloud_url)
+skip_ollama_cloud = "Ollama Cloud not configured (OLLAMA_CLOUD_API_KEY, OLLAMA_CLOUD_URL)"
 
+ollama_self_hosted_configured = bool(settings.ollama_self_hosted_url)
+skip_ollama_self_hosted = "Ollama self-hosted not configured (OLLAMA_SELF_HOSTED_URL)"
+
+ollama_local_available = settings.ollama_local_enabled
+skip_ollama_local = "Local Ollama not enabled (set OLLAMA_LOCAL_ENABLED=true in .env)"
+
+openrouter_configured = bool(settings.openrouter_api_key and settings.openrouter_url)
+skip_openrouter = "OpenRouter not configured (OPENROUTER_API_KEY, OPENROUTER_URL)"
+
+
+@pytest.mark.ollama_cloud
+@pytest.mark.skipif(not ollama_cloud_configured, reason=skip_ollama_cloud)
 @pytest.mark.asyncio
 async def test_chat_simple_prompt(use_ollama_for_testing):
     client = LLM_Client()
@@ -14,7 +28,8 @@ async def test_chat_simple_prompt(use_ollama_for_testing):
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
 
 
-
+@pytest.mark.ollama_cloud
+@pytest.mark.skipif(not ollama_cloud_configured, reason=skip_ollama_cloud)
 @pytest.mark.asyncio
 async def test_chat_with_prompt_template(use_ollama_for_testing):
     client = LLM_Client()
@@ -24,6 +39,8 @@ async def test_chat_with_prompt_template(use_ollama_for_testing):
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
 
 
+@pytest.mark.ollama_local
+@pytest.mark.skipif(not ollama_local_available, reason=skip_ollama_local)
 @pytest.mark.asyncio
 async def test_chat_local_ollama():
     settings.chat_provider_priority = ["ollama_local"]
@@ -32,6 +49,8 @@ async def test_chat_local_ollama():
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
 
 
+@pytest.mark.ollama_self_hosted
+@pytest.mark.skipif(not ollama_self_hosted_configured, reason=skip_ollama_self_hosted)
 @pytest.mark.asyncio
 async def test_chat_self_hosted_ollama():
     settings.chat_provider_priority = ["ollama_self_hosted"]
@@ -40,6 +59,8 @@ async def test_chat_self_hosted_ollama():
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
 
 
+@pytest.mark.ollama_cloud
+@pytest.mark.skipif(not ollama_cloud_configured, reason=skip_ollama_cloud)
 @pytest.mark.asyncio
 async def test_chat_ollama_cloud():
     settings.chat_provider_priority = ["ollama_cloud"]
@@ -48,6 +69,8 @@ async def test_chat_ollama_cloud():
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
 
 
+@pytest.mark.openrouter
+@pytest.mark.skipif(not openrouter_configured, reason=skip_openrouter)
 @pytest.mark.asyncio
 async def test_chat_openrouter():
     settings.chat_provider_priority = ["openrouter"]
@@ -56,6 +79,8 @@ async def test_chat_openrouter():
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
 
 
+@pytest.mark.ollama_self_hosted
+@pytest.mark.skipif(not ollama_self_hosted_configured, reason=skip_ollama_self_hosted)
 @pytest.mark.asyncio
 async def test_chat_falls_back_on_invoke_error(monkeypatch):
     """When the first provider fails on ainvoke, chat() tries the next one."""
@@ -78,6 +103,8 @@ async def test_chat_falls_back_on_invoke_error(monkeypatch):
     assert client.chat_provider_name == "ollama_self_hosted"
 
 
+@pytest.mark.ollama_cloud
+@pytest.mark.skipif(not ollama_cloud_configured, reason=skip_ollama_cloud)
 @pytest.mark.asyncio
 async def test_provider_name_set_after_chat(use_ollama_for_testing):
     client = LLM_Client()
@@ -86,6 +113,8 @@ async def test_provider_name_set_after_chat(use_ollama_for_testing):
     assert client.chat_provider_name is not None
 
 
+@pytest.mark.ollama_self_hosted
+@pytest.mark.skipif(not ollama_self_hosted_configured, reason=skip_ollama_self_hosted)
 def test_get_embeddings_model(use_ollama_for_testing):
     client = LLM_Client()
     embeddings = client.get_embeddings_model()
@@ -113,6 +142,8 @@ async def test_chat_raises_when_all_providers_unreachable(monkeypatch):
     assert "Host unreachable" in error_message
 
 
+@pytest.mark.ollama_self_hosted
+@pytest.mark.skipif(not ollama_self_hosted_configured, reason=skip_ollama_self_hosted)
 @pytest.mark.asyncio
 async def test_chat_raises_when_invoke_always_fails(monkeypatch):
     """ConnectionError is raised when providers are reachable but ainvoke always fails."""
@@ -139,6 +170,8 @@ async def test_chat_raises_when_invoke_always_fails(monkeypatch):
     assert "nonexistent_model_12345" in error_message
 
 
+@pytest.mark.ollama_self_hosted
+@pytest.mark.skipif(not ollama_self_hosted_configured, reason=skip_ollama_self_hosted)
 @pytest.mark.asyncio
 async def test_chat_reports_errors_from_all_providers(monkeypatch):
     """ConnectionError includes the right error for each provider that failed."""
