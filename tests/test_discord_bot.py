@@ -126,7 +126,7 @@ async def test_no_thinking_for_fast_task():
     await wait_with_thinking(channel, task, interval=0.05)
 
     channel.send.assert_not_called()
-    channel.trigger_typing.assert_not_called()
+    channel.typing.assert_not_called()
 
 
 @pytest.mark.asyncio
@@ -159,7 +159,7 @@ async def test_typing_indicator_after_first_thinking_message():
 
     # Only one "Thinking..." message was sent (not repeated)
     channel.send.assert_called_once_with("🤔 Thinking...")
-    channel.trigger_typing.assert_called()
+    channel.typing.assert_called()
 
 
 # --- send_greeting ---

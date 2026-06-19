@@ -53,7 +53,7 @@ async def wait_with_thinking(channel, task, interval):
             await channel.send("\U0001f914 Thinking...")
             thinking = True
         else:
-            await channel.trigger_typing()
+            await channel.typing()
 
 
 async def handle_message(message, bot_user) -> None:
