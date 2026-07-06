@@ -42,7 +42,7 @@ async def wait_with_thinking(channel, task, interval):
     """Wait for a task to complete, sending thinking indicators periodically.
 
     First timeout sends a visible "Thinking..." message. Subsequent timeouts
-    use trigger_typing to stay connected without cluttering the channel.
+    use typing to stay connected without cluttering the channel.
     """
     thinking = False
     while not task.done():
