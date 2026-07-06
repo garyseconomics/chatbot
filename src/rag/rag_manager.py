@@ -70,7 +70,7 @@ async def RAG_query(question, user_id) -> State:
             config={"configurable": {"llm_client": llm_client}},
         )
         # Update the parent trace with user_id and model metadata
-update_and_flush_trace(langfuse_client, user_id, llm_client)
+        update_and_flush_trace(langfuse_client, user_id, llm_client)
         return response
     except Exception as e:
         return build_error_state(e, question, user_id)
