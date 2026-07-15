@@ -128,6 +128,11 @@ Other options documented in [Phase 2 tech decisions](Phase_2_tech_decisions.md).
 The code changes from 2.1 and 2.2 should be done first so we deploy multi-provider
 support at the same time as the migration.
 
+### 2.5 Set up GDPR/Privacy Policy/etc
+
+Per discussions with Ian and Victoria, there's some things to do here to ensure the data created by running the service is handled correctly.
+This will be done outside this repo.
+
 ---
 
 ## 3. Answer quality ([#37](https://github.com/garyseconomics/chatbot/issues/37))
