@@ -9,6 +9,7 @@ Pending tasks and things to investigate. Organized by
 
 ## 2. Infrastructure
 
+- [ ] **Repo Splitting** Carmen will split this repo's code to separate the client from the server; the database handling code is already in a separate repo, which Dave will operate
 - [ ] **Add support for OpenAI-compatible providers** ([issues #41](https://github.com/garyseconomics/chatbot/issues/41) and #49) -- Generalize the provider abstraction to support providers like [OpenRouter](https://openrouter.ai/models/?q=free). Currently `_create_chat_client()` always returns `ChatOllama` — needs to select the right LangChain class based on provider type. Combine with the prompt+LLM evaluation task (see Answer quality section) to test different model/prompt combinations.
 - [ ] **Server security hardening** -- Basic security setup for the production VPS: SSH key authentication, disable password login, configure firewall (UFW — allow SSH and outbound only). Discuss specifics with the team before implementation. See migration plan Step 2.
 - [ ] **Remove RequestsDependencyWarning filters** -- `requests 2.32.5` doesn't recognize `chardet 7.0.1` as compatible, causing a harmless `RequestsDependencyWarning`. We added filters in `discord_bot.py` and `pyproject.toml` to suppress it. Once `requests` releases a new version with updated version bounds, remove the filters from both files.
