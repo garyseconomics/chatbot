@@ -21,19 +21,7 @@ chatbot/
 │   │   ├── video_links.py      #   YouTube video link generation
 │   │   └── langfuse_helpers.py #   Langfuse tracing utilities
 │   └── config.py               # Central configuration (pydantic-settings)
-├── content_database/       # Content database (vector DB management, separate from runtime)
-│   ├── scripts/                # Import and inspection scripts
-│   │   ├── import_documents.py     # Import SRT subtitles into Chroma
-│   │   ├── srt_splitter.py         # SRT chunking with overlap
-│   │   ├── vector_database_manager.py  # DB init, search, add documents
-│   │   ├── collections_viewer.py       # DB inspection utility
-│   │   └── tests/                      # Tests for content database scripts
-│   ├── docs/                   # Source documents for the knowledge base
-│   │   ├── channel_topics.md       # Topics covered per video
-│   │   ├── gary_bio.md             # Gary's biography
-│   │   └── video_transcripts/      # Video transcript files (SRT)
-│   ├── data/                   # Chroma vector database files (content DB)
-│   └── config.py               # Content database configuration
+├── data/                   # Vector database copy (Chroma) — see "Include a copy of the database"
 ├── tests/                  # pytest test suite (main chatbot)
 ├── analytics/              # Analytics scripts and data
 │   ├── config.py               # Analytics configuration
@@ -52,12 +40,14 @@ chatbot/
 │   ├── phase_1/               # Testing Phase 1 reports
 │   └── phase_2/               # Testing Phase 2 plans and evaluation
 ├── pyproject.toml          # Project metadata and dependencies
-├── learning.md             # Developer learning tracker (checked by Claude)
-├── TODO.md                 # Pending tasks and investigations
 ├── docker-compose.yml      # Docker Compose (Telegram + Discord bot services)
 ├── Dockerfile              # Docker image (Python 3.11-slim)
 └── .github/workflows/      # CI/CD (Docker build + push to GHCR)
 ```
+
+> **Note:** Content import, transcripts, and database generation now live in the separate
+> [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo. This repo only
+> **consumes** a pre-built vector database at runtime.
 
 ## Architecture overview
 
@@ -79,8 +69,8 @@ Vector DB   LLM Manager
 
 1. **Channels** — CLI, Telegram bot, Discord bot. Each receives a question and calls the RAG pipeline.
 2. **RAG pipeline** — LangGraph graph: retrieves relevant documents from the vector DB, builds a versioned prompt with context, calls the LLM.
-3. **Vector database** — Chroma with Ollama embeddings. Stores chunked SRT subtitles with video metadata. Content import scripts live in `content_database/scripts/`; runtime query access via `src/rag/vector_database.py`.
-4. **LLM manager** — Wraps Ollama clients with priority-based provider fallback. Chat: cloud (`qwen3-next:80b`) → self-hosted (`qwen3:32b`) → local (`qwen3:4b`). Embeddings: self-hosted → local (`qwen3-embedding:8b`). Provider priority is configured in `src/config.py`.
+3. **Vector database** — Chroma with Ollama embeddings. Stores chunked SRT subtitles with video metadata. Content import and database generation live in the separate [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo; this repo only **consumes** the database at runtime via `src/rag/vector_database.py`.
+4. **LLM manager** — Wraps multiple chat and embeddings providers (Ollama and OpenAI-compatible, e.g. OpenRouter) and uses the first available one by priority. Chat falls back from cloud to self-hosted (`qwen3:32b`) to local (`qwen3:4b`), then to OpenAI-compatible providers. The provider order and the model used for each are configured in `src/config.py` (the specific cloud models change over time as providers update their offerings).
 5. **Analytics** — SQLite database for traces (questions, answers, latency, models, vector search results). Imported from Langfuse. Scripts in `analytics/`. See [analytics/ANALYTICS_GUIDE.md](analytics/ANALYTICS_GUIDE.md) for details.
 
 ## Tech stack
@@ -118,7 +108,7 @@ ollama pull qwen3-embedding:8b
 
 You can use a different embedding model — check the [Ollama library](https://ollama.com/library?sort=newest&q=embedding) or [OpenRouter](https://openrouter.ai/collections/embedding-models) libaries for options and change the values in `src/config.py`.
 
-**Chat model** — used to answer user questions. The chatbot tries providers in priority order (configured in `src/config.py`): cloud (various options) → self-hosted (`qwen3:32b`) → local (`qwen3:4b`). To use the local fallback:
+**Chat model** — used to answer user questions. The chatbot tries providers in priority order configured in `src/config.py` (cloud and self-hosted Ollama, then a local fallback, then OpenAI-compatible providers such as OpenRouter). To use the local fallback:
 
 ```bash
 ollama pull qwen3:4b
@@ -153,28 +143,27 @@ Then fill in the values. The available variables are:
 - `LANGFUSE_HOST` — Langfuse server URL. Defaults to `https://cloud.langfuse.com`.
 
 **Vector database**
-- `DATABASE_PATH` — Path to the Chroma database directory. Defaults to `./content_database/data/chroma_langchain_db`.
+- `DATABASE_PATH` — Path to the Chroma database directory where you place the downloaded database. E.g. `./data`.
 
 ### Include a copy of the database
 
 To run the application you need the vector database with the processed subtitles. You can use a pre-built copy (recommended) or generate your own.
 
 Using a pre-built copy:
-- Download `chroma.sqlite3` from [this repository](https://github.com/garyseconomics/chatbot-database).
-- Place it at `content_database/data/chroma_langchain_db/chroma.sqlite3`.
+- Download [`chroma.sqlite3`](https://github.com/garyseconomics/chatbot-database/blob/main/data/chroma.sqlite3) from the [chatbot-database](https://github.com/garyseconomics/chatbot-database) repository.
+- Place it at `./data/chroma.sqlite3` (matching `DATABASE_PATH`).
 
-Alternatively, you can generate your own database — see [Import documents to the database](#import-documents-to-the-database).
+Alternatively, you can generate your own database (import transcripts, build the embeddings) using the [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo.
 
 ### Configuration
 
 All configuration is managed through [pydantic-settings](https://docs.pydantic.dev/latest/concepts/pydantic_settings/) classes. Environment variables from `.env` are loaded automatically — each field maps to an env var of the same name. Fields not set in `.env` use the defaults defined in the class.
 
-There are three config files:
-- `src/config.py` — Main application settings (LLM providers, provider priority, bot tokens, Langfuse).
-- `content_database/config.py` — Content database settings (chunk size, overlap, batch size, import directory).
+There are two config files:
+- `src/config.py` — Main application settings (LLM providers, provider priority, bot tokens, Langfuse, vector database). Includes the query-time settings `embeddings_model`, `collection_name`, and `video_ids_separator`.
 - `analytics/config.py` — Analytics settings (database path, Langfuse keys).
 
-Some variables in `.env` are shared across config files — the database path, Ollama URLs, API keys, and Langfuse keys are read by more than one config. Other settings like `embeddings_model`, `collection_name`, and `video_ids_separator` are defined in the main config and imported by `content_database/config.py` so they stay in sync.
+Some variables in `.env` are shared across config files — the database path, Ollama URLs, API keys, and Langfuse keys are read by more than one config. (The import-side settings used to build the database now live in the separate [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo.)
 
 ## Setup with Docker
 
@@ -209,18 +198,9 @@ Activate the virtual environment first (not needed with Docker):
 source .venv/bin/activate
 ```
 
-### Import documents to the database
+### Build or update the database
 
-The chatbot uses video subtitles (SRT format) as its knowledge base. Before the chatbot can use them, they must be imported into the vector database.
-
-Place the SRT files you want to import in the `content_database/docs/video_transcripts/` folder, then run:
-```bash
-python -m content_database.scripts.import_documents
-```
-
-If documents have already been imported, the script will ask if you want to delete the existing collection first. Answer "yes" only if you want to start from scratch.
-
-> Note: All documents in the folder will be imported one after the other. This can take a while, so try with just one subtitle first to get an idea of how long it takes.
+The chatbot uses video subtitles (SRT format) as its knowledge base. Building or updating the vector database (importing transcripts, generating embeddings) is handled in the [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo. This repo consumes a pre-built database — see [Include a copy of the database](#include-a-copy-of-the-database).
 
 ### CLI chatbot
 
@@ -274,7 +254,6 @@ The bot supports two modes of interaction:
 
 ```bash
 pytest                                    # main chatbot tests
-pytest content_database/scripts/tests/    # content database tests
 ```
 
 ## Testing plan

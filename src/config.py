@@ -72,8 +72,12 @@ class Settings(BaseSettings):
                 "type": "ollama",
                 "url": self.ollama_cloud_url,
                 "api_key": self.ollama_cloud_api_key,
+<<<<<<< HEAD
                 "chat_model": "qwen3-next:80b",
                 "embeddings_model": "qwen3-embedding:8b",
+=======
+                "chat_model": "gemma4:latest",
+>>>>>>> main
             },
             "openrouter": {
                 # This is the client type

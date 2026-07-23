@@ -38,7 +38,7 @@ async def test_rag_query_end_to_end(use_ollama_for_testing):
 
 @pytest.mark.asyncio
 async def test_rag_query_ollama_cloud():
-    """Verify qwen3-next:80b returns a non-empty answer."""
+    """Verify ollama_cloud chat model returns a non-empty answer."""
     settings.chat_provider_priority = ["ollama_cloud"]
     question = "What is wealth?"
     response = await RAG_query(question, user_id="test")
