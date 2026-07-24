@@ -3,7 +3,7 @@ name = "garys-economics-chatbot"
 version = "0.1.0"
 description = "A RAG chatbot that answers economics questions by referencing Gary's Economics YouTube videos."
 license = "GPL-3.0-or-later"
-requires-python = ">=3.11,<3.14.1"
+requires-python = ">=3.11"
 dependencies = [
     "chromadb",
     "discord.py",
@@ -52,10 +52,4 @@ markers = [
 filterwarnings = [
     "ignore:'audioop' is deprecated:DeprecationWarning",
     "ignore:urllib3.*doesn't match a supported version:requests.exceptions.RequestsDependencyWarning",
-]
-
-[dependency-groups]
-dev = [
-    "pytest>=9.0.3",
-    "pytest-asyncio>=1.4.0",
 ]
