@@ -14,6 +14,7 @@ import discord  # noqa: E402
 from discord.ext import commands  # noqa: E402
 
 from config import settings  # noqa: E402
+from interfaces.chunker import discord_bot_chunker  # noqa: E402
 from rag.rag_manager import RAG_query  # noqa: E402
 
 logger = logging.getLogger(__name__)
@@ -41,7 +42,7 @@ async def wait_with_thinking(channel, task, interval):
     """Wait for a task to complete, sending thinking indicators periodically.
 
     First timeout sends a visible "Thinking..." message. Subsequent timeouts
-    use trigger_typing to stay connected without cluttering the channel.
+    use typing to stay connected without cluttering the channel.
     """
     thinking = False
     while not task.done():
@@ -52,7 +53,26 @@ async def wait_with_thinking(channel, task, interval):
             await channel.send("\U0001f914 Thinking...")
             thinking = True
         else:
-            await channel.trigger_typing()
+            await channel.typing()
+
+
+async def handle_message(message, bot_user) -> None:
+    """Process a user message: run RAG and send the answer, chunked if needed."""
+    try:
+        clean_message = strip_bot_mention(message.content, bot_user.id)
+        logger.debug("Message received: %s", clean_message)
+        user_id = f"discord:{message.author.id}"
+
+        rag_task = asyncio.create_task(RAG_query(clean_message, user_id=user_id))
+
+        await wait_with_thinking(message.channel, rag_task, THINKING_INTERVAL)
+        rag_answer = rag_task.result()["answer"]
+        logger.debug("RAG answer: %s", rag_answer)
+        for chunk in discord_bot_chunker.chunk(rag_answer):
+            await message.channel.send(chunk.text)
+    except Exception:
+        logger.exception("Failed to handle message")
+        await message.channel.send(settings.error_messages["DefaultError"])
 
 
 async def send_greeting(text_channels):
@@ -99,21 +119,7 @@ class DiscordClient:
             ):
                 return
 
-            try:
-                clean_message = strip_bot_mention(message.content, self.bot.user.id)
-                logger.debug("Message received: %s", clean_message)
-                user_id = f"discord:{message.author.id}"
-
-                # RAG_query is async, so we can use create_task directly
-                rag_task = asyncio.create_task(RAG_query(clean_message, user_id=user_id))
-
-                await wait_with_thinking(message.channel, rag_task, THINKING_INTERVAL)
-                rag_answer = rag_task.result()["answer"]
-                logger.debug("RAG answer: %s", rag_answer)
-                await message.channel.send(rag_answer)
-            except Exception:
-                logger.exception("Failed to handle message")
-                await message.channel.send(settings.error_messages["DefaultError"])
+            await handle_message(message, self.bot.user)
 
     def run(self):
         logger.info("Connecting Discord...")
