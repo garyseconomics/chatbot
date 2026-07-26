@@ -1,11 +1,8 @@
 import asyncio
 import logging
-import warnings
 
 # Filter third-party warnings we can't fix:
-# - RequestsDependencyWarning: chardet/urllib3 versions newer than requests expects
 # - PyNaCl/davey not installed: discord.py voice dependencies we don't need
-warnings.filterwarnings("ignore", message="urllib3.*doesn't match a supported version")
 logging.getLogger("discord.client").addFilter(
     lambda record: "is not installed, voice will NOT be supported" not in record.getMessage()
 )
