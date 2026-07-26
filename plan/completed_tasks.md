@@ -70,6 +70,11 @@ Tasks moved from [TODO.md](../TODO.md) after completion.
 
 ## Deployment & Operations
 
+- [x] **Write a deployment guide** -- `docs/deployment.md` covers step-by-step Docker deployment
+  on a VPS, getting a copy of the database from `chatbot-database`, and simpler alternatives to
+  `scp` for file transfer. Server security hardening (SSH keys, disable password login, UFW
+  firewall) was left out of the guide -- tracked separately as sysadmin team work (see "Server
+  security hardening" in TODO.md).
 - [x] **Fix Docker build after project restructure** ([#43](https://github.com/garyseconomics/chatbot/issues/43)) -- After the project restructure (`8f5038f`), the bots returned database errors because the volume mount in `docker-compose.yml` changed but the containers were never recreated. Additionally, the Docker build failed due to a stale `py-modules` in `pyproject.toml` and the Dockerfile `COPY` order not working with the `src` layout. Fixed all three issues. Incident report: `analytics/incident_2026-03-28_database_unreachable.md`.
 - [x] **Redirect LLM requests from Ollama to another provider** ([#29](https://github.com/garyseconomics/chatbot/issues/29)) -- Added Ollama Cloud as a provider with config settings `ollama_cloud_url`, `ollama_cloud_api_key`, and chat model `qwen3-next:80b`. Replaced the remote/local fallback with a configurable `chat_provider_priority` list that tries providers in order. Embeddings use a separate `embedding_provider_priority`.
 - [x] **Dockerize the application** ([#5](https://github.com/garyseconomics/chatbot/issues/5)) -- Create a Docker container with the application and all its dependencies to facilitate deployment on any server. Dockerfile and docker-compose.yml for Telegram bot. CI/CD workflow to build and push image to GHCR on every push. Restart policy (`unless-stopped`) so container recovers after server reset. Discord bot enabled in docker-compose. ~~Add MySQL service~~ — switched to SQLite, no service required. Auto-update containers tracked in [#42](https://github.com/garyseconomics/chatbot/issues/42).
@@ -124,3 +129,36 @@ Tasks moved from [TODO.md](../TODO.md) after completion.
   - [x] **test_video_links.py** — Reviewed manually. Fine as-is.
   - [x] **test_vector_database.py** — 1 autouse fixture for test isolation. Reviewed, clear.
   - [x] **test_langfuse.py** — No mocks, integration tests. Reviewed, clear.
+
+## Team split & issue migration (June–July 2026)
+
+- [x] **Move content issues from `chatbot` to `chatbot-database`** -- #39 (import pre-2024
+  transcripts) transferred, now cb#5. #40 (embedding-model docs) deferred to the MCP-server repo
+  (to be created); stays in `chatbot` for now. PR #55 (Dave's agency transcripts) closed without
+  merging; its files carried over to `chatbot-database` as PR cb#6 (assigned to Dave to merge).
+- [x] **Create `chatbot-database` issues for content tasks not already there** -- cb#4
+  ("documents we write ourselves": channel topics, Gary bio, how-the-bot-works), cb#7 (transcripts
+  for videos after Nov 2025), cb#8 (external knowledge sources: Piketty/Zucman, books).
+- [x] **Delete `content_database/` folder in `chatbot`** and update `README.md`/`.env.sample`
+  (`DATABASE_PATH` → `./data`) -- shipped as PR #56, merged. Diff against `chatbot-database`
+  confirmed nothing was lost.
+- [x] **Move explanatory docs to `chatbot-database`** -- `channel_topics.md` and `gary_bio.md`
+  moved under a new `reference_docs/` folder via PR cb#9 (assigned to Dave); commented on cb#4.
+- [x] **Coordinate the langchain-community fix across repos** -- #54 merged in `chatbot`; cb#1
+  done in `chatbot-database`.
+- [x] **New Ollama Cloud chat model** to replace the retired `qwen3-next:80b` -- PR #57
+  (`gemma4:latest`), merged.
+- [x] **Re-organize/label existing `chatbot` issues by team** -- created a `chatbot client` label;
+  tagged every open issue: chatbot client = #33, #37, #6; MCP = #49, #40, #36, #26; sysadmin =
+  #42, #34, #21.
+- [x] **Check the uncommitted `TODO.md` on the VPS** -- reviewed on the other computer; nothing
+  important there, nothing to fold into the issue migration.
+- [x] **Send the content-team email to Dave** (2026-06-26) -- explains the content team owns the
+  transcripts/docs files, points to the `chatbot-database` issues, and assigns: Carmen handles
+  cb#1 + cb#3, cb#2 offered to a volunteer, Dave on cb#7 (in progress) + cb#5, cb#4/cb#8 as future
+  document types.
+- [x] **Rewrite `chatbot-database` issue titles into plain language** so Dave can scan the board
+  (cb#1, cb#2, cb#3), and add an "In plain terms" summary to the two genuinely technical ones
+  (cb#1, cb#3).
+- [x] **Clear completed tasks from `TODO.md`** -- folded useful bits into issues first (#33 info,
+  #26 Step 1 comment, channel docs → cb#4) before dropping the rest as pure history.
