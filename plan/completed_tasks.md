@@ -1,6 +1,6 @@
 # Completed tasks
 
-Tasks moved from [TODO.md](../TODO.md) after completion.
+Tasks moved from what used to be the repo's `TODO.md` (now [plan/To_investigate.md](To_investigate.md)) after completion.
 
 ## Answer quality
 
