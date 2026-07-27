@@ -222,3 +222,4 @@ analytics/*.db
 analytics/private
 
 CLAUDE.md
+plan/private

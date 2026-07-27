@@ -73,13 +73,14 @@ Transcripts that have **not** been reviewed yet but are kept for reference while
 working on prompt issues. These help us understand what the bot *should* answer once the
 full context is available. They are **not** imported into the vector database.
 
-## Related tasks in TODO.md
+## Related tasks
 
-- **Add more content to the vector database** — umbrella task for all missing content
+- **Add more content to the vector database** — see chatbot-database#5 (pre-2024 transcripts),
+  chatbot-database#7 (recent videos), chatbot-database#8 (external sources like Piketty/Zucman)
 - ~~**Compile a list of topics covered by the channel**~~ — Done. See [`content_database/docs/channel_topics.md`](../../content_database/docs/channel_topics.md)
 - **Bot lacks temporal awareness** ([#26](https://github.com/garyseconomics/chatbot/issues/26)) — adding publish dates and video links to chunks so the LLM can reason about recency
-- **Include video links inline** ([#36](https://github.com/garyseconomics/chatbot/issues/36)) — each subtitle fragment in the prompt should carry its video link
-- **Add informational documents** — documents about the bot, Gary, the channel, and data collection/privacy for the vector database
+- **Improve how the bot suggests video links** ([#69](https://github.com/garyseconomics/chatbot/issues/69)) — reframed from the original inline-links approach, now planned as an MCP tool
+- **Add informational documents** — chatbot-database#4 (channel topics, Gary bio, "how the bot works")
 
 ## Other potential sources (not yet started)
 

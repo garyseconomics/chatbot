@@ -365,4 +365,4 @@ manually.
 - [Data Sources](data_sources.md) — Current and planned content sources, transcript review pipeline, import status
 - [Prompt Issues](prompt/prompt_issues.md) — Answer quality issues and fixes (Phase 1 through v4)
 - [Prompt v4 Test Summary](prompt/prompt_v4.md) — Full v4 test results (97 questions, 2026-03-29)
-- [TODO.md](../../TODO.md) — Full task list with implementation details
+- [To_investigate.md](../To_investigate.md) — Remaining open-ended items to explore; most tracked tasks have moved to GitHub issues
