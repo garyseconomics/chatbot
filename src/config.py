@@ -16,6 +16,7 @@ class Settings(BaseSettings):
 
     # Ollama hosts — read the urls from env vars in .env
     ollama_local_host_url: str = "http://localhost:11434"
+    ollama_local_enabled: bool = False
     ollama_self_hosted_url: str = ""
     ollama_cloud_url: str = ""
 
