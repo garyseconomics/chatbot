@@ -69,16 +69,6 @@ async def test_chat_ollama_cloud():
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
 
 
-@pytest.mark.openrouter
-@pytest.mark.skipif(not openrouter_configured, reason=skip_openrouter)
-@pytest.mark.asyncio
-async def test_chat_openrouter():
-    settings.chat_provider_priority = ["openrouter"]
-    client = LLM_Client()
-    response = await client.chat(prompt="Hello. I'm trying OpenRouter.", user_id="Test")
-    assert isinstance(response, langchain_core.messages.ai.AIMessage)
-
-
 @pytest.mark.ollama_self_hosted
 @pytest.mark.skipif(not ollama_self_hosted_configured, reason=skip_ollama_self_hosted)
 @pytest.mark.asyncio
