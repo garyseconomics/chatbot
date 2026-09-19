@@ -41,8 +41,6 @@ class Settings(BaseSettings):
         "ollama_cloud",
         "ollama_self_hosted",
         "ollama_local",
-        "openrouter",
-        "openai_direct"
     ]
 
     embeddings_provider_priority: list[str] = [
