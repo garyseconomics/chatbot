@@ -53,5 +53,5 @@ async def test_rag_query_sends_trace_with_all_metadata(use_ollama_for_testing):
     # assert latest_trace.metadata["chat_model"] == chat_model
     # assert latest_trace.metadata["chat_provider"] == tests_provider
     assert latest_trace.metadata["embedding_model"] == settings.embeddings_model
-    assert latest_trace.metadata["embedding_provider"] in ["ollama_self_hosted","local_ollama"]
+    assert latest_trace.metadata["embedding_provider"] in ["ollama_self_hosted", "ollama_local"]
     assert latest_trace.metadata["prompt_version"] == settings.prompt_version
