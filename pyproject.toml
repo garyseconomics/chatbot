@@ -18,6 +18,7 @@ dependencies = [
     "pysrt",
 
     "pydantic-settings",
+    "python-dotenv",
     "python-telegram-bot",
     "chonkie",
 ]
