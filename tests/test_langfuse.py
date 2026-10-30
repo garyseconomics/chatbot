@@ -15,6 +15,9 @@ langfuse_configured = all(
 
 skip_reason = "Langfuse env vars not configured (LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY)"
 
+ollama_cloud_configured = bool(settings.ollama_cloud_api_key and settings.ollama_cloud_url)
+skip_ollama_cloud = "Ollama Cloud not configured (OLLAMA_CLOUD_API_KEY, OLLAMA_CLOUD_URL)"
+
 
 @pytest.mark.langfuse
 @pytest.mark.skipif(not langfuse_configured, reason=skip_reason)
@@ -25,7 +28,9 @@ def test_langfuse_client_connects(use_ollama_for_testing):
 
 
 @pytest.mark.langfuse
+@pytest.mark.ollama_cloud
 @pytest.mark.skipif(not langfuse_configured, reason=skip_reason)
+@pytest.mark.skipif(not ollama_cloud_configured, reason=skip_ollama_cloud)
 @pytest.mark.asyncio
 async def test_rag_query_sends_trace_with_all_metadata(use_ollama_for_testing):
     """Verify that RAG_query sends a single trace with user_id, chat and embedding metadata."""
