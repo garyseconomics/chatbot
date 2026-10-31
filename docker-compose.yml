@@ -5,8 +5,6 @@ services:
     env_file:
       - .env
     restart: unless-stopped
-    volumes:
-      - ./content_database/data:/app/content_database/data
     command: ["python", "-m", "interfaces.telegram_bot"]
     tty: true
 
@@ -16,7 +14,5 @@ services:
     env_file:
       - .env
     restart: unless-stopped
-    volumes:
-      - ./content_database/data:/app/content_database/data
     command: ["python", "-m", "interfaces.discord_bot"]
     tty: true

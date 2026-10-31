@@ -1,7 +1,7 @@
 [project]
 name = "garys-economics-chatbot"
 version = "0.1.0"
-description = "A RAG chatbot that answers economics questions by referencing Gary's Economics YouTube videos."
+description = "A chatbot that answers economics questions by referencing Gary's Economics YouTube videos, through the Gary's Economics MCP server."
 license = "GPL-3.0-or-later"
 requires-python = ">=3.11"
 dependencies = [

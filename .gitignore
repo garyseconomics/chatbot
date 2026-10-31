@@ -212,10 +212,6 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Chroma database
-chroma_langchain_db/
-content_database/data/
-
 # Instructions for local AI assistants
 AGENTS.md
 CLAUDE.md

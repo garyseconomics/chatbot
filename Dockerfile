@@ -13,5 +13,5 @@ COPY . .
 RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir .
 
-# Default command starts the CLI chatbot.
+# Default command starts the Telegram bot.
 CMD ["python", "-m", "interfaces.telegram_bot"]
