@@ -216,11 +216,6 @@ __marimo__/
 chroma_langchain_db/
 content_database/data/
 
-# Analytics — raw exports and SQLite database
-analytics/raw_data/
-analytics/*.db
-analytics/private
-
 # Instructions for local AI assistants
 AGENTS.md
 CLAUDE.md
