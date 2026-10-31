@@ -220,3 +220,7 @@ CLAUDE.md
 
 # Private plan files
 plan/private
+private/
+
+# LLM providers config (can list private servers)
+providers.json

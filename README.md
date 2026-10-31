@@ -53,7 +53,7 @@ Gary's Economics MCP server
 1. **Channels** — CLI, Telegram bot, Discord bot. Each receives a question, sends it to the MCP client and replies with the answer. Long answers are split into several messages to fit the Telegram and Discord message limits.
 2. **MCP client** — Connects to the MCP server at `MCP_SERVER_URL` and calls its `retrieval_augmented_generation` tool, which returns the answer. Links to the videos used in the answer are not available yet: they will come from a new MCP tool ([MCP_server#3](https://github.com/garyseconomics/MCP_server/issues/3)).
 3. **MCP server** — Lives in its own [repo](https://github.com/garyseconomics/MCP_server). It holds the RAG pipeline: it searches the vector database for the transcripts related to the question and uses an LLM to write the answer.
-4. **LLM manager** — Not used by the bots yet. It's kept for a future step, in which the chatbot will use an LLM to decide which MCP tools to call for each question. It wraps several chat providers (Ollama and OpenAI-compatible, e.g. OpenRouter) and uses the first available one by priority, configured in `src/config.py`.
+4. **LLM manager** — Not used by the bots yet. It's kept for a future step, in which the chatbot will use an LLM to decide which MCP tools to call for each question. It wraps several chat providers (Ollama and OpenAI-compatible, e.g. OpenRouter) and uses the first available one by priority. By default, chat falls back from Ollama Cloud to local Ollama (`qwen3:4b`). Each provider's type, URL, chat model and API key variable are configured in `providers.json`, and the provider order and API keys in `.env`; other providers, such as a private server, can be added without changing the code.
 5. **Tracing** — Each question sent to the MCP server creates a trace in [Langfuse](https://langfuse.com/), labelled with the client type (`cli`, `telegram` or `discord`).
 
 ## Tech stack
@@ -89,7 +89,7 @@ sudo apt install curl
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-**Chat model** — The chatbot tries providers in priority order configured in `src/config.py` (cloud and self-hosted Ollama, then a local fallback, then OpenAI-compatible providers such as OpenRouter). To use the local fallback:
+**Chat model** — The chatbot tries providers in the priority order set in `.env` (by default Ollama Cloud, then a local fallback). To use the local fallback:
 
 ```bash
 ollama pull qwen3:4b
@@ -105,14 +105,10 @@ cp .env.sample .env
 
 Then fill in the values. The available variables are:
 
-**Ollama servers**
-- `OLLAMA_LOCAL_HOST_URL` — URL of the local Ollama server. Defaults to `http://localhost:11434`.
-- `OLLAMA_SELF_HOSTED_URL` — URL of the self-hosted Ollama server.
-- `OLLAMA_CLOUD_URL` — URL of the cloud Ollama provider.
-- `OLLAMA_CLOUD_API_KEY` — API key for the cloud Ollama provider.
-
-**Backup LLM Providers**
-- `OPENROUTER_API_KEY` - API key for [OpenRouter](https://openrouter.ai) they have a decent free tier to be used as a backup.
+**LLM providers**
+- `CHAT_PROVIDER_PRIORITY` — providers tried for chat, in order, as a JSON list of names from `providers.json`. Defaults to `["ollama_cloud", "ollama_local"]`.
+- `TEST_CHAT_PROVIDER` — the only provider used by the tests that call an LLM. Defaults to `ollama_cloud`. If it fails, the tests fail: fix it or choose another provider, then run the tests again.
+- API keys — one variable per provider that needs a key, named in the provider's `api_key_env` in `providers.json`. For example, `OLLAMA_CLOUD_API_KEY` for `ollama_cloud`.
 
 **Bot tokens**
 - `TELEGRAM_TOKEN` — Token for the Telegram bot. You get this when you [create a bot with BotFather](#create-a-telegram-bot).
@@ -128,11 +124,26 @@ Then fill in the values. The available variables are:
 
   > **Note:** this example works when you run the chatbot without Docker, or when you point `MCP_SERVER_URL` to a remote server. To run the chatbot with Docker, see [Setup with Docker](#setup-with-docker).
 
+### Configure the LLM providers
+
+The providers are configured in `providers.json`, which is not in the repository. Create your own by copying `providers.sample.json` (if there is no `providers.json`, the chatbot uses the sample):
+
+```bash
+cp providers.sample.json providers.json
+```
+
+It holds the settings for each provider, by name (the order to try them in is set in `.env`):
+
+- `type` — `ollama` (default) or `openai` for OpenAI-compatible APIs such as [OpenRouter](https://openrouter.ai) (see its [authentication](https://openrouter.ai/docs/api/reference/authentication) and [models](https://openrouter.ai/models?fmt=cards&input_modalities=text)).
+- `url` — URL of the provider.
+- `chat_model` — chat model to use.
+- `api_key_env` — name of the variable in `.env` that holds the provider's API key, or `null` if it doesn't need one (e.g. a local Ollama). The provider is skipped when the key is missing.
+
 ### Configuration
 
 All configuration is managed through [pydantic-settings](https://docs.pydantic.dev/latest/concepts/pydantic_settings/) classes. Environment variables from `.env` are loaded automatically — each field maps to an env var of the same name. Fields not set in `.env` use the defaults defined in the class.
 
-The settings live in `src/config.py` (LLM providers, provider priority, MCP server, bot tokens and message limits, Langfuse).
+The settings live in `src/config.py` (provider priority, MCP server, bot tokens and message limits, Langfuse). The LLM providers themselves are in `providers.json` (see [Configure the LLM providers](#configure-the-llm-providers)).
 
 ## Setup with Docker
 

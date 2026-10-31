@@ -1,4 +1,7 @@
+import json
 import logging
+import os
+from pathlib import Path
 
 from dotenv import load_dotenv
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -8,78 +11,68 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 load_dotenv()
 
 
+# LLM providers are configured in providers.json (not in the repo, because it can list
+# private servers). Their API keys and the order to try them in are set in .env.
+PROVIDERS_FILE = "providers.json"
+# Used when providers.json doesn't exist, e.g. in a fresh clone of the repo.
+PROVIDERS_SAMPLE_FILE = "providers.sample.json"
+
+
+def load_providers_config(path=PROVIDERS_FILE, fallback=PROVIDERS_SAMPLE_FILE) -> dict:
+    if not Path(path).exists():
+        path = fallback
+    return json.loads(Path(path).read_text(encoding="utf-8"))
+
+
+def build_providers(providers_config, env) -> dict:
+    """Combine each provider's settings from providers.json with its API key from the env.
+
+    The key is read from the env variable named in the provider's api_key_env:
+    for example, "api_key_env": "OLLAMA_CLOUD_API_KEY".
+    """
+    providers = {}
+    for name, provider in providers_config.items():
+        # api_key_env is null for providers that don't need a key (e.g. a local Ollama).
+        api_key_env = provider.get("api_key_env")
+        providers[name] = {
+            # "ollama", or "openai" for any OpenAI-compatible API (e.g. OpenRouter)
+            "type": provider.get("type", "ollama"),
+            "url": provider.get("url", ""),
+            # api_key=None means the provider doesn't need a key;
+            # api_key="" means it needs one but it's missing.
+            "api_key": None if api_key_env is None else env.get(api_key_env, ""),
+            "chat_model": provider.get("chat_model", ""),
+        }
+    return providers
+
+
+providers_config = load_providers_config()
+
+# Used when CHAT_PROVIDER_PRIORITY is not set in .env.
+# Each name must match a provider in providers.sample.json.
+DEFAULT_CHAT_PROVIDER_PRIORITY = ["ollama_cloud", "ollama_local"]
+
+
 class Settings(BaseSettings):
     # Pydantic-settings automatically reads env vars matching each field name.
-    # For example, ollama_self_hosted reads from OLLAMA_SELF_HOSTED in .env.
+    # For example, telegram_token reads from TELEGRAM_TOKEN in .env.
     # The values after "=" are defaults used when the env var is not set.
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
-
-    # Ollama hosts — read the urls from env vars in .env
-    ollama_local_host_url: str = "http://localhost:11434"
-    ollama_local_enabled: bool = False
-    ollama_self_hosted_url: str = ""
-    ollama_self_hosted_api_key: str = ""
-    ollama_cloud_url: str = ""
-
-    # Ollama Cloud API key — read from .env
-    ollama_cloud_api_key: str = ""
-
-    # OpenRouter Client - read from .env 
-    # see https://openrouter.ai/docs/api/reference/authentication
-    openrouter_url: str = ""
-    openrouter_api_key: str = ""
-    
-    # OpenAI Client - read from .env (UPPERCASE to lowercase mapping happens?)
-    openai_url: str = ""
-    openai_api_key: str = ""
 
     # LLM settings
     prompt_version: int = 4
 
     # Provider priority — try providers in this order, use the first available one.
-    # Each name must match a key in the providers property below.
-    chat_provider_priority: list[str] = [
-        "ollama_cloud",
-        "ollama_self_hosted",
-        "ollama_local",
-    ]
+    # Read from CHAT_PROVIDER_PRIORITY in .env, written as a JSON list.
+    # Each name must match a provider in providers.json.
+    chat_provider_priority: list[str] = DEFAULT_CHAT_PROVIDER_PRIORITY
+
+    # The only provider used by the tests that call an LLM — read from TEST_CHAT_PROVIDER.
+    test_chat_provider: str = "ollama_cloud"
 
     @property
     def providers(self) -> dict:
-        return {
-            "ollama_local": {
-                "type": "ollama",
-                "url": self.ollama_local_host_url,
-                "api_key": None,
-                "chat_model": "qwen3:4b",
-            },
-            "ollama_self_hosted": {
-                "type": "ollama",
-                "url": self.ollama_self_hosted_url,
-                "api_key": self.ollama_self_hosted_api_key,
-                "chat_model": "recomendado-ha-chatbots",
-            },
-            "ollama_cloud": {
-                "type": "ollama",
-                "url": self.ollama_cloud_url,
-                "api_key": self.ollama_cloud_api_key,
-                "chat_model": "gemma4:latest",
-            },
-            "openrouter": {
-                # This is the client type
-                "type": "openai",
-                "url": self.openrouter_url,
-                "api_key": self.openrouter_api_key,
-                # see https://openrouter.ai/models?fmt=cards&input_modalities=text
-                "chat_model": "google/gemma-4-31b-it:free",
-            },
-            "openai_direct": {
-                "type": "openai",
-                "url": self.openai_url,
-                "api_key": self.openai_api_key,
-                "chat_model": "gpt-5-nano",
-            }
-        }
+        return build_providers(providers_config, os.environ)
 
     # MCP server — read from MCP_SERVER_URL in .env
     mcp_server_url: str = ""

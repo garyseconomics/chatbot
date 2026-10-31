@@ -21,7 +21,7 @@ skip_reason = "Langfuse env vars not configured (LANGFUSE_PUBLIC_KEY, LANGFUSE_S
 
 @pytest.mark.langfuse
 @pytest.mark.skipif(not langfuse_configured, reason=skip_reason)
-def test_langfuse_client_connects(use_ollama_for_testing):
+def test_langfuse_client_connects():
     langfuse_client = create_langfuse_client()
     assert isinstance(langfuse_client, Langfuse)
     assert langfuse_client.auth_check()
