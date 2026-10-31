@@ -94,6 +94,9 @@ class Settings(BaseSettings):
     collection_name: str = "youtube_videos"
     video_ids_separator: str = "__"
 
+    # MCP server — read from MCP_SERVER_URL in .env
+    mcp_server_url: str = ""
+
     # App
     app_name: str = "GarysEconomics_bot"
     log_level: str = "INFO"

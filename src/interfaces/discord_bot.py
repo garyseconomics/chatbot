@@ -12,7 +12,7 @@ from discord.ext import commands  # noqa: E402
 
 from config import settings  # noqa: E402
 from interfaces.chunker import discord_bot_chunker  # noqa: E402
-from rag.rag_manager import RAG_query  # noqa: E402
+from mcp_client.mcp_manager import MCP_query  # noqa: E402
 
 logger = logging.getLogger(__name__)
 
@@ -58,9 +58,8 @@ async def handle_message(message, bot_user) -> None:
     try:
         clean_message = strip_bot_mention(message.content, bot_user.id)
         logger.debug("Message received: %s", clean_message)
-        user_id = f"discord:{message.author.id}"
 
-        rag_task = asyncio.create_task(RAG_query(clean_message, user_id=user_id))
+        rag_task = asyncio.create_task(MCP_query(clean_message, client_type="discord"))
 
         await wait_with_thinking(message.channel, rag_task, THINKING_INTERVAL)
         rag_answer = rag_task.result()["answer"]

@@ -221,5 +221,11 @@ analytics/raw_data/
 analytics/*.db
 analytics/private
 
+# Instructions for local AI assistants
+AGENTS.md
 CLAUDE.md
+# Configuration to test the MCP server with the local coding assistant (claude code or similar).
+.mcp.json
+
+# Private plan files
 plan/private

@@ -14,6 +14,7 @@ dependencies = [
     "langchain-ollama",
     "langchain-text-splitters",
     "langgraph",
+    "mcp>=2,<3",
     "ollama",
     "pysrt",
 
@@ -48,6 +49,7 @@ testpaths = ["tests"]
 asyncio_mode = "auto"
 markers = [
     "langfuse: tests that require a running Langfuse server and credentials",
+    "mcp_server: tests that require a running MCP server (MCP_SERVER_URL)",
     "ollama_cloud: tests that require Ollama Cloud credentials (OLLAMA_CLOUD_API_KEY, OLLAMA_CLOUD_URL)",
     "ollama_self_hosted: tests that require an Ollama self-hosted server (OLLAMA_SELF_HOSTED_URL)",
     "ollama_local: tests that require a local Ollama server running at localhost",

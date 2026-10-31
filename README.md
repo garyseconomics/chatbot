@@ -145,6 +145,11 @@ Then fill in the values. The available variables are:
 **Vector database**
 - `DATABASE_PATH` — Path to the Chroma database directory where you place the downloaded database. E.g. `./data`.
 
+**MCP server**
+- `MCP_SERVER_URL` — Address of the [Gary's Economics MCP server](https://github.com/garyseconomics/MCP_server) the chatbot uses to answer questions, e.g. `http://127.0.0.1:8080/mcp` for a server running on your machine.
+
+  > **Note:** this example works when you run the chatbot without Docker, or when you point `MCP_SERVER_URL` to a remote server. To run the chatbot with Docker, see [Setup with Docker](#setup-with-docker).
+
 ### Include a copy of the database
 
 To run the application you need the vector database with the processed subtitles. You can use a pre-built copy (recommended) or generate your own.
@@ -166,6 +171,10 @@ There are two config files:
 Some variables in `.env` are shared across config files — the database path, Ollama URLs, API keys, and Langfuse keys are read by more than one config. (The import-side settings used to build the database now live in the separate [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo.)
 
 ## Setup with Docker
+
+> **Before starting the containers, update `MCP_SERVER_URL` in your `.env`.** Inside a Docker container, `127.0.0.1` (or `localhost`) points to the container itself, not to your machine, so the chatbot can't reach an MCP server at that address. Use one of these instead:
+> - **A remote MCP server:** its public URL or network address.
+> - **An MCP server running on the same machine:** your machine's network address (e.g. `http://192.168.1.10:8080/mcp`). The MCP server must accept connections from outside itself — set `MCP_HOST=0.0.0.0` in the MCP server's `.env`.
 
 ```bash
 docker compose build
@@ -189,6 +198,11 @@ pip install .
 This reads `pyproject.toml` and installs all dependencies. To also install development tools (ruff, pytest):
 ```bash
 pip install ".[dev]"
+```
+
+`pip install .` copies the code into `.venv`, so later changes to `src/` (including ones you pull from GitHub) are not used until you run it again. If you are developing, install in editable mode instead, which links `.venv` to `src/` so changes apply straight away:
+```bash
+pip install -e ".[dev]"
 ```
 
 ## Usage

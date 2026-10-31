@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 
 from config import settings
 from interfaces.chunker import telegram_bot_chunker
-from rag.rag_manager import RAG_query
+from mcp_client.mcp_manager import MCP_query
 from rag.video_links import get_video_link, videos_text_for_chat
 
 logger = logging.getLogger(__name__)
@@ -20,8 +20,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 async def question(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     try:
         question = update.message.text
-        user_id = f"telegram:{update.effective_user.id}"
-        rag_answer = await RAG_query(question, user_id=user_id)
+        rag_answer = await MCP_query(question, client_type="telegram")
         answer = rag_answer["answer"]
         video_links = get_video_link(rag_answer["context"])
         if video_links:
