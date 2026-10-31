@@ -1,6 +1,8 @@
 # Gary's Economics Chatbot 
 
-A prototype chatbot designed to answer questions by referencing videos from Gary's Economics YouTube channel.
+A prototype chatbot that answers questions by referencing videos from Gary's Economics YouTube channel. You can talk to it through a CLI, a Telegram bot or a Discord bot.
+
+The chatbot doesn't search the videos itself. It sends each question to the [Gary's Economics MCP server](https://github.com/garyseconomics/MCP_server), which finds the relevant transcripts and writes the answer. The transcripts are imported and turned into a vector database in the [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo.
 
 ## Repository layout
 
@@ -10,74 +12,76 @@ chatbot/
 │   ├── interfaces/             # Channel integrations
 │   │   ├── chatbot.py          #   CLI chatbot interface
 │   │   ├── telegram_bot.py     #   Telegram bot
-│   │   └── discord_bot.py      #   Discord bot
-│   ├── llm/                    # LLM client management
+│   │   ├── discord_bot.py      #   Discord bot
+│   │   └── chunker.py          #   Splits long answers to fit Telegram and Discord message limits
+│   ├── mcp_client/             # Connection to the MCP server
+│   │   └── mcp_manager.py      #   Sends questions to the MCP server's RAG tool
+│   ├── llm/                    # LLM client management (not used yet, kept for choosing MCP tools)
 │   │   ├── llm_manager.py      #   Multi-provider Ollama wrapper (priority-based fallback)
 │   │   ├── prompt_template.py  #   RAG prompt builder (reads from prompt_versions)
 │   │   └── prompt_versions.py  #   Versioned prompt texts (v1–v4+)
-│   ├── rag/                    # RAG pipeline
-│   │   ├── rag_manager.py      #   LangGraph retrieve → generate graph
-│   │   ├── vector_database.py  #   Chroma vector store factory for query-time access
-│   │   ├── video_links.py      #   YouTube video link generation
+│   ├── tracing/                # Observability
 │   │   └── langfuse_helpers.py #   Langfuse tracing utilities
 │   └── config.py               # Central configuration (pydantic-settings)
-├── data/                   # Vector database copy (Chroma) — see "Include a copy of the database"
-├── tests/                  # pytest test suite (main chatbot)
+├── tests/                  # pytest test suite
 ├── plan/                   # Project plans and reports
 │   ├── phase_1/               # Testing Phase 1 reports
 │   └── phase_2/               # Testing Phase 2 plans and evaluation
 ├── pyproject.toml          # Project metadata and dependencies
 ├── docker-compose.yml      # Docker Compose (Telegram + Discord bot services)
 ├── Dockerfile              # Docker image (Python 3.11-slim)
-└── .github/workflows/      # CI/CD (Docker build + push to GHCR)
+├── .devcontainer/          # Dev container used to run the tests in CI
+└── .github/workflows/      # CI/CD (tests, Docker build + push to GHCR)
 ```
-
-> **Note:** Content import, transcripts, and database generation now live in the separate
-> [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo. This repo only
-> **consumes** a pre-built vector database at runtime.
 
 ## Architecture overview
 
 ```
 Channels (CLI / Telegram / Discord)
-        │
+        │  question
         ▼
-┌─────────────────┐
-│   RAG Pipeline  │  ← LangGraph (retrieve → generate)
-│  (RAG_manager)  │
-└────────┬────────┘
-         │
-    ┌────┴────┐
-    │         │
-    ▼         ▼
-Vector DB   LLM Manager
- (Chroma)   (Ollama: priority-based provider fallback)
+┌──────────────────┐
+│    MCP client    │  ← src/mcp_client/mcp_manager.py
+│   (MCP_query)    │
+└────────┬─────────┘
+         │  retrieval_augmented_generation tool
+         ▼
+Gary's Economics MCP server
+(searches the transcripts, writes the answer)
 ```
 
-1. **Channels** — CLI, Telegram bot, Discord bot. Each receives a question and calls the RAG pipeline.
-2. **RAG pipeline** — LangGraph graph: retrieves relevant documents from the vector DB, builds a versioned prompt with context, calls the LLM.
-3. **Vector database** — Chroma with Ollama embeddings. Stores chunked SRT subtitles with video metadata. Content import and database generation live in the separate [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo; this repo only **consumes** the database at runtime via `src/rag/vector_database.py`.
-4. **LLM manager** — Wraps multiple chat and embeddings providers (Ollama and OpenAI-compatible, e.g. OpenRouter) and uses the first available one by priority. Chat falls back from cloud to self-hosted (`qwen3:32b`) to local (`qwen3:4b`), then to OpenAI-compatible providers. The provider order and the model used for each are configured in `src/config.py` (the specific cloud models change over time as providers update their offerings).
+1. **Channels** — CLI, Telegram bot, Discord bot. Each receives a question, sends it to the MCP client and replies with the answer. Long answers are split into several messages to fit the Telegram and Discord message limits.
+2. **MCP client** — Connects to the MCP server at `MCP_SERVER_URL` and calls its `retrieval_augmented_generation` tool, which returns the answer. Links to the videos used in the answer are not available yet: they will come from a new MCP tool ([MCP_server#3](https://github.com/garyseconomics/MCP_server/issues/3)).
+3. **MCP server** — Lives in its own [repo](https://github.com/garyseconomics/MCP_server). It holds the RAG pipeline: it searches the vector database for the transcripts related to the question and uses an LLM to write the answer.
+4. **LLM manager** — Not used by the bots yet. It's kept for a future step, in which the chatbot will use an LLM to decide which MCP tools to call for each question. It wraps several chat providers (Ollama and OpenAI-compatible, e.g. OpenRouter) and uses the first available one by priority, configured in `src/config.py`.
+5. **Tracing** — Each question sent to the MCP server creates a trace in [Langfuse](https://langfuse.com/), labelled with the client type (`cli`, `telegram` or `discord`).
+
 ## Tech stack
 
 - **Python 3.11+**
 - **pytest** for testing
 - **ruff** for linting and formatting
-- **LangChain** + **LangGraph** for RAG pipeline and LLM integration
-- **Chroma** (`chromadb`, `langchain-chroma`) as vector database
-- **Ollama** (`langchain-ollama`) for LLM and embeddings
+- **MCP Python SDK** (`mcp`) to connect to the MCP server
+- **LangChain** for LLM integration
+- **Ollama** (`langchain-ollama`) and OpenAI-compatible providers (`langchain-openai`) for the LLM
 - **pydantic-settings** for typed configuration with automatic `.env` loading
 - **Langfuse** for LLM observability and tracing
-- **pysrt** for SRT subtitle parsing
+- **chonkie** to split long answers into several messages
 - **python-dotenv** for environment variable loading
 - **python-telegram-bot** and **discord.py** for bot integrations
 - **Docker** + **GitHub Actions** for CI/CD
 
 ## Prerequisites
 
+### MCP server
+
+The chatbot needs a running [Gary's Economics MCP server](https://github.com/garyseconomics/MCP_server) to answer questions. You can use a remote one, or run your own by following the instructions in that repo. Set its address in `MCP_SERVER_URL` (see below).
+
 ### Install Ollama and download the models
 
-We use Large Language Models (LLMs) for two things: embedding documents into the vector database, and answering user questions. All models run through [Ollama](https://ollama.com/).
+> **Note:** the bots don't use these models yet. They're used by the LLM manager (see [Architecture overview](#architecture-overview)) and its tests.
+
+All models run through [Ollama](https://ollama.com/).
 
 Install Ollama:
 ```bash
@@ -85,15 +89,7 @@ sudo apt install curl
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-**Embedding model** — used to process subtitles before importing them to the vector database. The process is called [embedding](https://en.wikipedia.org/wiki/Embedding_(machine_learning)): it converts text into numerical vectors that represent concepts, which are later used to find related content when searching.
-
-```bash
-ollama pull qwen3-embedding:8b
-```
-
-You can use a different embedding model — check the [Ollama library](https://ollama.com/library?sort=newest&q=embedding) for options and change `embeddings_model` in `src/config.py`.
-
-**Chat model** — used to answer user questions. The chatbot tries providers in priority order configured in `src/config.py` (cloud and self-hosted Ollama, then a local fallback, then OpenAI-compatible providers such as OpenRouter). To use the local fallback:
+**Chat model** — The chatbot tries providers in priority order configured in `src/config.py` (cloud and self-hosted Ollama, then a local fallback, then OpenAI-compatible providers such as OpenRouter). To use the local fallback:
 
 ```bash
 ollama pull qwen3:4b
@@ -127,29 +123,16 @@ Then fill in the values. The available variables are:
 - `LANGFUSE_SECRET_KEY` — Secret key for Langfuse.
 - `LANGFUSE_HOST` — Langfuse server URL. Defaults to `https://cloud.langfuse.com`.
 
-**Vector database**
-- `DATABASE_PATH` — Path to the Chroma database directory where you place the downloaded database. E.g. `./data`.
-
 **MCP server**
 - `MCP_SERVER_URL` — Address of the [Gary's Economics MCP server](https://github.com/garyseconomics/MCP_server) the chatbot uses to answer questions, e.g. `http://127.0.0.1:8080/mcp` for a server running on your machine.
 
   > **Note:** this example works when you run the chatbot without Docker, or when you point `MCP_SERVER_URL` to a remote server. To run the chatbot with Docker, see [Setup with Docker](#setup-with-docker).
 
-### Include a copy of the database
-
-To run the application you need the vector database with the processed subtitles. You can use a pre-built copy (recommended) or generate your own.
-
-Using a pre-built copy:
-- Download [`chroma.sqlite3`](https://github.com/garyseconomics/chatbot-database/blob/main/data/chroma.sqlite3) from the [chatbot-database](https://github.com/garyseconomics/chatbot-database) repository.
-- Place it at `./data/chroma.sqlite3` (matching `DATABASE_PATH`).
-
-Alternatively, you can generate your own database (import transcripts, build the embeddings) using the [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo.
-
 ### Configuration
 
 All configuration is managed through [pydantic-settings](https://docs.pydantic.dev/latest/concepts/pydantic_settings/) classes. Environment variables from `.env` are loaded automatically — each field maps to an env var of the same name. Fields not set in `.env` use the defaults defined in the class.
 
-The settings live in `src/config.py` (LLM providers, provider priority, bot tokens, Langfuse, vector database). It includes the query-time settings `embeddings_model`, `collection_name`, and `video_ids_separator`. The import-side settings used to build the database live in the separate [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo.
+The settings live in `src/config.py` (LLM providers, provider priority, MCP server, bot tokens and message limits, Langfuse).
 
 ## Setup with Docker
 
@@ -193,19 +176,13 @@ Activate the virtual environment first (not needed with Docker):
 source .venv/bin/activate
 ```
 
-### Build or update the database
-
-The chatbot uses video subtitles (SRT format) as its knowledge base. Building or updating the vector database (importing transcripts, generating embeddings) is handled in the [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo. This repo consumes a pre-built database — see [Include a copy of the database](#include-a-copy-of-the-database).
-
 ### CLI chatbot
 
 ```bash
 python -m interfaces.chatbot
 ```
 
-The chatbot will greet you and ask for a question. It searches the vector database for relevant context and uses it to generate an answer. Answers are better when the uploaded subtitles cover the topic asked about.
-
-<img width="1863" height="615" alt="Image" src="https://github.com/user-attachments/assets/7acdd1cb-0aa7-4137-8ad8-3d719fb13b3c" />
+The chatbot will greet you and ask for a question. It sends the question to the MCP server and shows the answer. Answers are better when Gary's videos cover the topic asked about.
 
 ### Telegram chatbot
 
@@ -248,8 +225,10 @@ The bot supports two modes of interaction:
 ## Testing
 
 ```bash
-pytest                                    # main chatbot tests
+pytest
 ```
+
+Some tests call live services: the MCP server, Langfuse and the LLM providers. Most of them are skipped when the service is not configured, and fail when it is configured but not reachable.
 
 ## Testing plan
 
