@@ -23,19 +23,6 @@ chatbot/
 │   └── config.py               # Central configuration (pydantic-settings)
 ├── data/                   # Vector database copy (Chroma) — see "Include a copy of the database"
 ├── tests/                  # pytest test suite (main chatbot)
-├── analytics/              # Analytics scripts and data
-│   ├── config.py               # Analytics configuration
-│   ├── db/                     # Database setup + import/export pipeline
-│   │   ├── export.py               # Langfuse trace export
-│   │   ├── setup_database.py       # SQLite analytics DB setup
-│   │   └── trace_importer.py       # Import traces from Langfuse export
-│   ├── scripts/                # Manual tools and one-off tasks
-│   │   ├── ask_questions.py    # Batch question runner
-│   │   ├── questions_for_testing.py   # Test question sets
-│   │   ├── test_cloud_limits.py    # Cloud provider limit testing
-│   │   ├── trace_viewer.py        # Trace inspection utility
-│   │   └── trace_viewer_old.py    # Viewer for pre-2026-03-28 data (analytics_old.db)
-│   └── raw_data/              # Exported trace data (JSON/CSV)
 ├── plan/                   # Project plans and reports
 │   ├── phase_1/               # Testing Phase 1 reports
 │   └── phase_2/               # Testing Phase 2 plans and evaluation
@@ -71,8 +58,6 @@ Vector DB   LLM Manager
 2. **RAG pipeline** — LangGraph graph: retrieves relevant documents from the vector DB, builds a versioned prompt with context, calls the LLM.
 3. **Vector database** — Chroma with Ollama embeddings. Stores chunked SRT subtitles with video metadata. Content import and database generation live in the separate [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo; this repo only **consumes** the database at runtime via `src/rag/vector_database.py`.
 4. **LLM manager** — Wraps multiple chat and embeddings providers (Ollama and OpenAI-compatible, e.g. OpenRouter) and uses the first available one by priority. Chat falls back from cloud to self-hosted (`qwen3:32b`) to local (`qwen3:4b`), then to OpenAI-compatible providers. The provider order and the model used for each are configured in `src/config.py` (the specific cloud models change over time as providers update their offerings).
-5. **Analytics** — SQLite database for traces (questions, answers, latency, models, vector search results). Imported from Langfuse. Scripts in `analytics/`. See [analytics/ANALYTICS_GUIDE.md](analytics/ANALYTICS_GUIDE.md) for details.
-
 ## Tech stack
 
 - **Python 3.11+**
@@ -159,11 +144,7 @@ Alternatively, you can generate your own database (import transcripts, build the
 
 All configuration is managed through [pydantic-settings](https://docs.pydantic.dev/latest/concepts/pydantic_settings/) classes. Environment variables from `.env` are loaded automatically — each field maps to an env var of the same name. Fields not set in `.env` use the defaults defined in the class.
 
-There are two config files:
-- `src/config.py` — Main application settings (LLM providers, provider priority, bot tokens, Langfuse, vector database). Includes the query-time settings `embeddings_model`, `collection_name`, and `video_ids_separator`.
-- `analytics/config.py` — Analytics settings (database path, Langfuse keys).
-
-Some variables in `.env` are shared across config files — the database path, Ollama URLs, API keys, and Langfuse keys are read by more than one config. (The import-side settings used to build the database now live in the separate [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo.)
+The settings live in `src/config.py` (LLM providers, provider priority, bot tokens, Langfuse, vector database). It includes the query-time settings `embeddings_model`, `collection_name`, and `video_ids_separator`. The import-side settings used to build the database live in the separate [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo.
 
 ## Setup with Docker
 
