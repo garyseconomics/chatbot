@@ -18,6 +18,7 @@ class Settings(BaseSettings):
     ollama_local_host_url: str = "http://localhost:11434"
     ollama_local_enabled: bool = False
     ollama_self_hosted_url: str = ""
+    ollama_self_hosted_api_key: str = ""
     ollama_cloud_url: str = ""
 
     # Ollama Cloud API key — read from .env
@@ -63,8 +64,8 @@ class Settings(BaseSettings):
             "ollama_self_hosted": {
                 "type": "ollama",
                 "url": self.ollama_self_hosted_url,
-                "api_key": None,
-                "chat_model": "qwen3:32b",
+                "api_key": self.ollama_self_hosted_api_key,
+                "chat_model": "recomendado-ha-chatbots",
             },
             "ollama_cloud": {
                 "type": "ollama",

@@ -89,7 +89,7 @@ async def test_chat_falls_back_on_invoke_error(monkeypatch):
     providers_with_bad["bad_provider"] = {
         "type": "ollama",
         "url": settings.providers["ollama_self_hosted"]["url"],
-        "api_key": None,
+        "api_key": settings.providers["ollama_self_hosted"]["api_key"],
         "chat_model": "nonexistent_model_12345",
     }
     # Temporarily replace the providers @property so it returns our dict with bad_provider
@@ -152,7 +152,7 @@ async def test_chat_raises_when_invoke_always_fails(monkeypatch):
         "bad_provider": {
             "type": "ollama",
             "url": settings.providers["ollama_self_hosted"]["url"],
-            "api_key": None,
+            "api_key": settings.providers["ollama_self_hosted"]["api_key"],
             "chat_model": "nonexistent_model_12345",
         },
     }
@@ -187,7 +187,7 @@ async def test_chat_reports_errors_from_all_providers(monkeypatch):
         "bad_model_provider": {
             "type": "ollama",
             "url": settings.providers["ollama_self_hosted"]["url"],
-            "api_key": None,
+            "api_key": settings.providers["ollama_self_hosted"]["api_key"],
             "chat_model": "nonexistent_model_12345",
         },
     }
