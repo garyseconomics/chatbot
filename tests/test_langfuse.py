@@ -1,10 +1,13 @@
 import asyncio
+import uuid
+import warnings
 
 import pytest
 from langfuse import Langfuse
 
 from config import settings
-from rag.langfuse_helpers import create_langfuse_client
+from mcp_client.mcp_manager import MCP_query
+from tracing.langfuse_helpers import create_langfuse_client
 
 langfuse_configured = all(
     [
@@ -14,9 +17,6 @@ langfuse_configured = all(
 )
 
 skip_reason = "Langfuse env vars not configured (LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY)"
-
-ollama_cloud_configured = bool(settings.ollama_cloud_api_key and settings.ollama_cloud_url)
-skip_ollama_cloud = "Ollama Cloud not configured (OLLAMA_CLOUD_API_KEY, OLLAMA_CLOUD_URL)"
 
 
 @pytest.mark.langfuse
@@ -28,34 +28,26 @@ def test_langfuse_client_connects(use_ollama_for_testing):
 
 
 @pytest.mark.langfuse
-@pytest.mark.ollama_cloud
+@pytest.mark.mcp_server
 @pytest.mark.skipif(not langfuse_configured, reason=skip_reason)
-@pytest.mark.skipif(not ollama_cloud_configured, reason=skip_ollama_cloud)
 @pytest.mark.asyncio
-async def test_rag_query_sends_trace_with_all_metadata(use_ollama_for_testing):
-    """Verify that RAG_query sends a single trace with user_id, chat and embedding metadata."""
-    from rag.rag_manager import RAG_query
+async def test_mcp_query_sends_trace_with_client_type():
+    """MCP_query sends one trace with the app name and the client type."""
+    if not settings.mcp_server_url:
+        warnings.warn("MCP_SERVER_URL is not set — skipping the MCP query trace test")
+        pytest.skip("MCP server not configured (MCP_SERVER_URL)")
 
-    test_user_id = "test_rag_trace"
-    await RAG_query(question="What is inflation?", user_id=test_user_id)
+    # A new id on every run, so we never find a trace left by an earlier run (see #58)
+    client_type = f"test-{uuid.uuid4()}"
+    await MCP_query("What is inflation?", client_type=client_type)
 
     # Wait for Langfuse to index the trace
     langfuse_client = create_langfuse_client()
     langfuse_client.flush()
     await asyncio.sleep(2)
 
-    # Fetch traces filtered by user_id to find the one we just created
-    response = langfuse_client.api.trace.list(user_id=test_user_id)
-    assert len(response.data) > 0, "No trace found for test user"
-    latest_trace = response.data[0]
+    # client_type is stored in Langfuse's user_id field for now
+    response = langfuse_client.api.trace.list(user_id=client_type)
 
-    assert latest_trace.user_id == test_user_id
-    assert latest_trace.name == settings.app_name
-    # Check that both chat and embedding metadata are present
-    tests_provider = "ollama_cloud"
-    chat_model = settings.providers[tests_provider]["chat_model"]
-    assert latest_trace.metadata["chat_model"] == chat_model
-    assert latest_trace.metadata["chat_provider"] == tests_provider
-    assert latest_trace.metadata["embedding_model"] == settings.embeddings_model
-    assert latest_trace.metadata["embedding_provider"] == "ollama_self_hosted"
-    assert latest_trace.metadata["prompt_version"] == settings.prompt_version
+    assert len(response.data) == 1
+    assert response.data[0].name == settings.app_name

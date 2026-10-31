@@ -35,7 +35,6 @@ class Settings(BaseSettings):
 
     # LLM settings
     prompt_version: int = 4
-    embeddings_model: str = "qwen3-embedding:8b"
 
     # Provider priority — try providers in this order, use the first available one.
     # Each name must match a key in the providers property below.
@@ -45,11 +44,6 @@ class Settings(BaseSettings):
         "ollama_local",
         "openrouter",
         "openai_direct"
-    ]
-
-    embeddings_provider_priority: list[str] = [
-        "ollama_self_hosted",
-        "ollama_local",
     ]
 
     @property
@@ -88,11 +82,6 @@ class Settings(BaseSettings):
                 "chat_model": "gpt-5-nano",
             }
         }
-
-    # Vector database
-    database_path: str = ""
-    collection_name: str = "youtube_videos"
-    video_ids_separator: str = "__"
 
     # MCP server — read from MCP_SERVER_URL in .env
     mcp_server_url: str = ""

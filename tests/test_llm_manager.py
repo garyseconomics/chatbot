@@ -113,16 +113,6 @@ async def test_provider_name_set_after_chat(use_ollama_for_testing):
     assert client.chat_provider_name is not None
 
 
-@pytest.mark.ollama_self_hosted
-@pytest.mark.skipif(not ollama_self_hosted_configured, reason=skip_ollama_self_hosted)
-def test_get_embeddings_model(use_ollama_for_testing):
-    client = LLM_Client()
-    embeddings = client.get_embeddings_model()
-    # Should return an embeddings object (we don't check the specific type
-    # so vector_database_manager doesn't need to know about OllamaEmbeddings)
-    assert hasattr(embeddings, "embed_query")
-
-
 @pytest.mark.asyncio
 async def test_chat_raises_when_all_providers_unreachable(monkeypatch):
     """ConnectionError is raised after max_attempts when no provider is reachable."""

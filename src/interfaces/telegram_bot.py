@@ -6,7 +6,6 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 from config import settings
 from interfaces.chunker import telegram_bot_chunker
 from mcp_client.mcp_manager import MCP_query
-from rag.video_links import get_video_link, videos_text_for_chat
 
 logger = logging.getLogger(__name__)
 
@@ -22,12 +21,7 @@ async def question(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         question = update.message.text
         rag_answer = await MCP_query(question, client_type="telegram")
         answer = rag_answer["answer"]
-        video_links = get_video_link(rag_answer["context"])
-        if video_links:
-            video_text = videos_text_for_chat(video_links)
-            answer = f"{answer}\n\n{video_text}"
         logger.debug("RAG answer: %s", rag_answer)
-        logger.debug("Video links: %s", video_links)
         for chunk in telegram_bot_chunker.chunk(answer):
             await context.bot.send_message(chat_id=update.effective_chat.id, text=chunk.text)
 

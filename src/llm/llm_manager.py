@@ -7,7 +7,7 @@ from langchain_core.language_models import BaseChatModel
 
 # Base return type from .invoke() — covers AIMessage, HumanMessage, etc.
 from langchain_core.messages import BaseMessage
-from langchain_ollama import ChatOllama, OllamaEmbeddings
+from langchain_ollama import ChatOllama
 from langchain_openai import ChatOpenAI
 from langfuse import observe
 
@@ -20,8 +20,6 @@ class LLM_Client:
     def __init__(self):
         # Set after a successful chat() call to the provider that worked.
         # None means no successful call has been made yet.
-        self.embeddings_provider_name = None
-        self.embeddings_model = None
         self.chat_provider_name = None
         self.chat_model = None
         self.providers_errors = {}
@@ -60,18 +58,10 @@ class LLM_Client:
                 self.chat_provider_name = None
                 self.chat_model = None
 
-    def _select_provider(self, model_type) -> str:
-        """Return the first reachable provider for the given model type.
-
-        model_type: "chat" or "embeddings"
-        """
-        if model_type == "chat":
-            priority_list = settings.chat_provider_priority
-        else:
-            priority_list = settings.embeddings_provider_priority
-
+    def _select_provider(self) -> str:
+        """Return the first reachable chat provider."""
         while True:
-            for provider_name in priority_list:
+            for provider_name in settings.chat_provider_priority:
                 self.connection_attempts += 1
                 provider = settings.providers[provider_name]
                 # checks that the provider has not given an invoke error then check is available
@@ -101,24 +91,8 @@ class LLM_Client:
         return True
 
     # Getting the models from the providers
-    def get_embeddings_model(self):
-        """Return an embeddings model from the first available embeddings provider."""
-        if not self.embeddings_model:
-            self.embeddings_provider_name = self._select_provider("embeddings")
-            provider = settings.providers[self.embeddings_provider_name]
-            self.embeddings_model = OllamaEmbeddings(
-                model=settings.embeddings_model, base_url=provider["url"]
-            )
-            logger.info(
-                "Using embedding model %s on %s (%s)",
-                settings.embeddings_model,
-                self.embeddings_provider_name,
-                provider["url"],
-            )
-        return self.embeddings_model
-
     def get_chat_model(self) -> BaseChatModel:
-        self.chat_provider_name = self._select_provider("chat")
+        self.chat_provider_name = self._select_provider()
         provider = settings.providers[self.chat_provider_name]
         logger.info(
             "Using LLM chat model %s on %s (%s)",

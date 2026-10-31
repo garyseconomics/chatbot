@@ -5,18 +5,13 @@ description = "A RAG chatbot that answers economics questions by referencing Gar
 license = "GPL-3.0-or-later"
 requires-python = ">=3.11"
 dependencies = [
-    "chromadb",
     "discord.py",
     "langchain",
     "langfuse>=3,<4",
-    "langchain-chroma",
     "langchain-openai",
     "langchain-ollama",
-    "langchain-text-splitters",
-    "langgraph",
     "mcp>=2,<3",
     "ollama",
-    "pysrt",
 
     "pydantic-settings",
     "python-telegram-bot",
