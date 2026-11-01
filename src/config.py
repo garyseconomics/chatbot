@@ -11,6 +11,18 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 load_dotenv()
 
 
+def turn_tracing_off_by_default() -> None:
+    """Keep Langfuse tracing off unless LANGFUSE_TRACING_ENABLED=true is set in .env.
+
+    The Langfuse library treats a missing flag as "on", and the @observe decorators read
+    it directly from the environment, so the default has to be set here.
+    """
+    os.environ.setdefault("LANGFUSE_TRACING_ENABLED", "false")
+
+
+turn_tracing_off_by_default()
+
+
 # LLM providers are configured in providers.json (not in the repo, because it can list
 # private servers). Their API keys and the order to try them in are set in .env.
 PROVIDERS_FILE = "providers.json"
@@ -102,10 +114,15 @@ class Settings(BaseSettings):
     telegram_message_limit: int = 4096
     discord_message_limit: int = 2000
 
-    # Langfuse — read from LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY in .env
-    # (LANGFUSE_BASE_URL is read by the Langfuse library directly)
+    # Langfuse — read from LANGFUSE_TRACING_ENABLED, LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY
+    # and LANGFUSE_TEST_TRACING_ENVIRONMENT in .env
+    # (LANGFUSE_BASE_URL, LANGFUSE_TRACING_ENVIRONMENT and OTEL_SERVICE_NAME are read by the
+    # Langfuse library directly)
+    langfuse_tracing_enabled: bool = False
     langfuse_public_key: str = ""
     langfuse_secret_key: str = ""
+    # Replaces LANGFUSE_TRACING_ENVIRONMENT while running pytest (see tests/conftest.py)
+    langfuse_test_tracing_environment: str = "automated_tests"
 
 
 settings = Settings()

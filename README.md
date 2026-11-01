@@ -115,9 +115,13 @@ Then fill in the values. The available variables are:
 - `DISCORD_TOKEN` — Token for the Discord bot. You need a bot installed on a server with permission to read and send messages.
 
 **Observability**
-- `LANGFUSE_PUBLIC_KEY` — Public key for the [Langfuse](https://langfuse.com/) observability platform.
+- `LANGFUSE_TRACING_ENABLED` — set to `true` to send traces to the [Langfuse](https://langfuse.com/) observability platform. Off unless set to `true`, because it needs the keys below.
+- `LANGFUSE_PUBLIC_KEY` — Public key for Langfuse.
 - `LANGFUSE_SECRET_KEY` — Secret key for Langfuse.
 - `LANGFUSE_BASE_URL` — Langfuse server URL. Defaults to `https://cloud.langfuse.com`.
+- `LANGFUSE_TRACING_ENVIRONMENT` — labels the traces so you can filter them in Langfuse, for example `production` or `testing`. Defaults to `development` in `.env.sample`.
+- `LANGFUSE_TEST_TRACING_ENVIRONMENT` — replaces `LANGFUSE_TRACING_ENVIRONMENT` while running the tests, so their traces are not mixed with real use of the bots. Defaults to `automated_tests`.
+- `OTEL_SERVICE_NAME` — names this app in the traces. Defaults to `garys-economics-chatbot` in `.env.sample`.
 
 **MCP server**
 - `MCP_SERVER_URL` — Address of the [Gary's Economics MCP server](https://github.com/garyseconomics/MCP_server) the chatbot uses to answer questions, e.g. `http://127.0.0.1:8080/mcp` for a server running on your machine.

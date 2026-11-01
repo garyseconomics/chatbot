@@ -7,10 +7,23 @@ from config import settings
 logger = logging.getLogger(__name__)
 
 
+def is_langfuse_configured() -> bool:
+    """True if tracing is switched on and the Langfuse keys are set."""
+    return all(
+        [
+            settings.langfuse_tracing_enabled,
+            settings.langfuse_public_key,
+            settings.langfuse_secret_key,
+        ]
+    )
+
+
 def create_langfuse_client() -> Langfuse | None:
-    """Create a Langfuse client if credentials are configured, otherwise return None."""
-    if not settings.langfuse_public_key or not settings.langfuse_secret_key:
-        logger.warning("Langfuse credentials not configured — tracing disabled")
+    """Create a Langfuse client if tracing is on and configured, otherwise return None."""
+    if not is_langfuse_configured():
+        # Only warn when tracing was switched on but the keys are missing
+        if settings.langfuse_tracing_enabled:
+            logger.warning("Langfuse credentials not configured — tracing disabled")
         return None
     return Langfuse()
 

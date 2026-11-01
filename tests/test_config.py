@@ -1,9 +1,12 @@
+import os
+
 from config import (
     DEFAULT_CHAT_PROVIDER_PRIORITY,
     Settings,
     build_providers,
     load_providers_config,
     settings,
+    turn_tracing_off_by_default,
 )
 
 
@@ -94,3 +97,14 @@ def test_api_key_is_empty_when_the_provider_needs_one_but_it_is_missing():
     }
     providers = build_providers(providers_config, env={})
     assert providers["my_server"]["api_key"] == ""
+
+
+def test_tracing_is_off_when_flag_not_set(monkeypatch):
+    """Without LANGFUSE_TRACING_ENABLED in .env, Langfuse must not send traces."""
+    # Remove the flag, as if it wasn't in .env. monkeypatch puts the original value back
+    # after the test. raising=False: don't fail if the flag wasn't set to begin with.
+    monkeypatch.delenv("LANGFUSE_TRACING_ENABLED", raising=False)
+    # The missing flag should be set to "false"
+    turn_tracing_off_by_default()
+    result = os.environ["LANGFUSE_TRACING_ENABLED"]
+    assert result == "false"
