@@ -102,10 +102,10 @@ class Settings(BaseSettings):
     telegram_message_limit: int = 4096
     discord_message_limit: int = 2000
 
-    # Langfuse — read from LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY, LANGFUSE_HOST in .env
+    # Langfuse — read from LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY in .env
+    # (LANGFUSE_BASE_URL is read by the Langfuse library directly)
     langfuse_public_key: str = ""
     langfuse_secret_key: str = ""
-    langfuse_host: str = "https://cloud.langfuse.com"
 
 
 settings = Settings()

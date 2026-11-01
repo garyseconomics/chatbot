@@ -117,7 +117,7 @@ Then fill in the values. The available variables are:
 **Observability**
 - `LANGFUSE_PUBLIC_KEY` — Public key for the [Langfuse](https://langfuse.com/) observability platform.
 - `LANGFUSE_SECRET_KEY` — Secret key for Langfuse.
-- `LANGFUSE_HOST` — Langfuse server URL. Defaults to `https://cloud.langfuse.com`.
+- `LANGFUSE_BASE_URL` — Langfuse server URL. Defaults to `https://cloud.langfuse.com`.
 
 **MCP server**
 - `MCP_SERVER_URL` — Address of the [Gary's Economics MCP server](https://github.com/garyseconomics/MCP_server) the chatbot uses to answer questions, e.g. `http://127.0.0.1:8080/mcp` for a server running on your machine.
