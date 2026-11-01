@@ -40,7 +40,7 @@ async def test_mcp_query_end_to_end():
         warnings.warn("MCP_SERVER_URL is not set — skipping the MCP server end-to-end test")
         pytest.skip("MCP server not configured (MCP_SERVER_URL)")
 
-    response = await MCP_query("What is wealth?", client_type="test")
+    response = await MCP_query("What is wealth?", client_type="pytest")
 
     assert isinstance(response["answer"], str)
     assert len(response["answer"]) > 0
