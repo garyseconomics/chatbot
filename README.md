@@ -115,7 +115,8 @@ Then fill in the values. The available variables are:
 - `DISCORD_TOKEN` — Token for the Discord bot. You need a bot installed on a server with permission to read and send messages.
 
 **Observability**
-- `LANGFUSE_TRACING_ENABLED` — set to `true` to send traces to the [Langfuse](https://langfuse.com/) observability platform. Off unless set to `true`, because it needs the keys below.
+- `LANGFUSE_TRACING_ENABLED` — set to `true` to send traces to the [Langfuse](https://langfuse.com/) observability platform. Recommended: the traces record latency, token usage and which providers and models are used. Off unless set to `true`, because it needs the keys below.
+- `LANGFUSE_MESSAGE_TRACING_ENABLED` — set to `true` to also send the questions and answers to Langfuse. Off unless set to `true`.
 - `LANGFUSE_PUBLIC_KEY` — Public key for Langfuse.
 - `LANGFUSE_SECRET_KEY` — Secret key for Langfuse.
 - `LANGFUSE_BASE_URL` — Langfuse server URL. Defaults to `https://cloud.langfuse.com`.

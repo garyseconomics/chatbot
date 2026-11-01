@@ -21,7 +21,11 @@ def parse_rag_result(result) -> str:
     return json.loads(text)["answer"]
 
 
-@observe(name=settings.app_name)
+@observe(
+    name=settings.app_name,
+    capture_input=settings.langfuse_message_tracing_enabled,
+    capture_output=settings.langfuse_message_tracing_enabled,
+)
 async def MCP_query(question, client_type) -> dict:
     langfuse_client = create_langfuse_client()
     try:

@@ -9,6 +9,11 @@ from config import settings
 # imported, so it wins over the value in .env.
 os.environ["LANGFUSE_TRACING_ENVIRONMENT"] = settings.langfuse_test_tracing_environment
 
+# Don't send questions and answers while running the tests, whatever .env says. This has
+# to run before the test modules import the code with the @observe decorators, because
+# the decorators read the setting only once, when they are created.
+settings.langfuse_message_tracing_enabled = False
+
 
 @pytest.fixture(autouse=True)
 def use_test_provider(monkeypatch):

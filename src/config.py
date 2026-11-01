@@ -119,6 +119,9 @@ class Settings(BaseSettings):
     # (LANGFUSE_BASE_URL, LANGFUSE_TRACING_ENVIRONMENT and OTEL_SERVICE_NAME are read by the
     # Langfuse library directly)
     langfuse_tracing_enabled: bool = False
+    # Read from LANGFUSE_MESSAGE_TRACING_ENABLED. Sends the questions and answers to Langfuse.
+    # Read once at startup, when the @observe decorators are created.
+    langfuse_message_tracing_enabled: bool = False
     langfuse_public_key: str = ""
     langfuse_secret_key: str = ""
     # Replaces LANGFUSE_TRACING_ENVIRONMENT while running pytest (see tests/conftest.py)

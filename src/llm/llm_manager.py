@@ -117,7 +117,12 @@ class LLM_Client:
         return self.chat_model
 
     # Calling the LLM
-    @observe(name="llm_request", as_type="generation", capture_input=True, capture_output=True)
+    @observe(
+        name="llm_request",
+        as_type="generation",
+        capture_input=settings.langfuse_message_tracing_enabled,
+        capture_output=settings.langfuse_message_tracing_enabled,
+    )
     async def chat(self, prompt, user_id) -> BaseMessage:
         """Send a prompt to the LLM and return the response.
         """
