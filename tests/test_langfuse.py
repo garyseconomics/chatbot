@@ -1,13 +1,40 @@
 import asyncio
-import uuid
+import os
 import warnings
 
 import pytest
-from langfuse import Langfuse
+from langfuse import Langfuse, get_client
+from langfuse.api import NotFoundError
 
 from config import settings
 from mcp_client.mcp_manager import MCP_query
-from tracing.langfuse_helpers import create_langfuse_client, is_langfuse_configured
+
+
+def is_langfuse_configured() -> bool:
+    """True if tracing is switched on and the Langfuse keys are set."""
+    # Read from the environment, as the Langfuse library does
+    return all(
+        [
+            os.environ.get("LANGFUSE_TRACING_ENABLED", "false").lower() != "false",
+            os.environ.get("LANGFUSE_PUBLIC_KEY"),
+            os.environ.get("LANGFUSE_SECRET_KEY"),
+        ]
+    )
+
+
+async def wait_for_trace(langfuse_client, trace_id):
+    """Return the trace once Langfuse has stored it: try every 0.5 s, for up to 10 s."""
+    for _ in range(20):
+        await asyncio.sleep(0.5)
+        try:
+            trace = langfuse_client.api.trace.get(trace_id)
+        except NotFoundError:
+            continue  # Not stored yet, try again
+        # Langfuse can return the trace before all its fields are filled in
+        if trace.name:
+            return trace
+    pytest.fail("Langfuse didn't store the trace within 10 s")
+
 
 langfuse_configured = is_langfuse_configured()
 
@@ -20,57 +47,34 @@ skip_reason = (
 @pytest.mark.langfuse
 @pytest.mark.skipif(not langfuse_configured, reason=skip_reason)
 def test_langfuse_client_connects():
-    langfuse_client = create_langfuse_client()
-    assert isinstance(langfuse_client, Langfuse)
+    langfuse_client = get_client()
     assert langfuse_client.auth_check()
 
 
-async def query_and_get_traces() -> list:
-    """Send a question through MCP_query and return the traces Langfuse stored for it."""
+@pytest.mark.langfuse
+@pytest.mark.mcp_server
+@pytest.mark.skipif(not langfuse_configured, reason=skip_reason)
+@pytest.mark.asyncio
+async def test_mcp_query_sends_trace():
+    """MCP_query sends a trace with the app name, labelled with the test environment,
+    and without the question or the answer."""
     if not settings.mcp_server_url:
         warnings.warn("MCP_SERVER_URL is not set — skipping the MCP query trace test")
         pytest.skip("MCP server not configured (MCP_SERVER_URL)")
 
-    # A new id on every run, so we never find a trace left by an earlier run (see #58)
-    client_type = f"test-{uuid.uuid4()}"
-    await MCP_query("What is inflation?", client_type=client_type)
+    # langfuse_trace_id is a special argument: @observe takes it out and uses it as the
+    # trace id, so MCP_query never receives it.
+    trace_id = Langfuse.create_trace_id()
+    await MCP_query("What is inflation?", client_type="pytest", langfuse_trace_id=trace_id)
 
-    # Wait for Langfuse to index the trace
-    langfuse_client = create_langfuse_client()
+    # Send the trace now, instead of waiting for the library's next batch
+    langfuse_client = get_client()
     langfuse_client.flush()
-    await asyncio.sleep(2)
+    trace = await wait_for_trace(langfuse_client, trace_id)
 
-    # client_type is stored in Langfuse's user_id field for now
-    response = langfuse_client.api.trace.list(user_id=client_type)
-    return response.data
-
-
-@pytest.mark.langfuse
-@pytest.mark.mcp_server
-@pytest.mark.skipif(not langfuse_configured, reason=skip_reason)
-@pytest.mark.asyncio
-async def test_mcp_query_sends_trace_with_client_type():
-    """MCP_query sends one trace with the app name and the client type."""
-    traces = await query_and_get_traces()
-
-    assert len(traces) == 1
-    assert traces[0].name == settings.app_name
+    assert trace.name == settings.app_name
     # conftest.py labels every trace sent by the tests
-    assert traces[0].environment == settings.langfuse_test_tracing_environment
-
-
-@pytest.mark.langfuse
-@pytest.mark.mcp_server
-@pytest.mark.skipif(not langfuse_configured, reason=skip_reason)
-@pytest.mark.asyncio
-async def test_mcp_query_trace_has_no_question_or_answer():
-    """With message tracing off, the question and the answer are not sent to Langfuse."""
-    # conftest.py switches message tracing off for every test.
-    # Not tested: that they are sent when LANGFUSE_MESSAGE_TRACING_ENABLED=true. The @observe
-    # decorators read the flag only once, when Python imports their module, so changing it
-    # inside a test has no effect. Testing it would need a separate Python process started
-    # with the flag on.
-    traces = await query_and_get_traces()
-
-    assert traces[0].input is None
-    assert traces[0].output is None
+    assert trace.environment == settings.langfuse_test_tracing_environment
+    # conftest.py switches message tracing off for every test
+    assert trace.input is None
+    assert trace.output is None

@@ -114,16 +114,12 @@ class Settings(BaseSettings):
     telegram_message_limit: int = 4096
     discord_message_limit: int = 2000
 
-    # Langfuse — read from LANGFUSE_TRACING_ENABLED, LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY
-    # and LANGFUSE_TEST_TRACING_ENVIRONMENT in .env
-    # (LANGFUSE_BASE_URL, LANGFUSE_TRACING_ENVIRONMENT and OTEL_SERVICE_NAME are read by the
-    # Langfuse library directly)
-    langfuse_tracing_enabled: bool = False
+    # Langfuse — only the settings our own code uses. LANGFUSE_TRACING_ENABLED, the keys,
+    # LANGFUSE_BASE_URL, LANGFUSE_TRACING_ENVIRONMENT and OTEL_SERVICE_NAME are read by the
+    # Langfuse library straight from the environment, so they must be set in .env, not here.
     # Read from LANGFUSE_MESSAGE_TRACING_ENABLED. Sends the questions and answers to Langfuse.
     # Read once at startup, when the @observe decorators are created.
     langfuse_message_tracing_enabled: bool = False
-    langfuse_public_key: str = ""
-    langfuse_secret_key: str = ""
     # Replaces LANGFUSE_TRACING_ENVIRONMENT while running pytest (see tests/conftest.py)
     langfuse_test_tracing_environment: str = "automated_tests"
 

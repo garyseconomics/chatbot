@@ -20,8 +20,6 @@ chatbot/
 │   │   ├── llm_manager.py      #   Multi-provider Ollama wrapper (priority-based fallback)
 │   │   ├── prompt_template.py  #   RAG prompt builder (reads from prompt_versions)
 │   │   └── prompt_versions.py  #   Versioned prompt texts (v1–v4+)
-│   ├── tracing/                # Observability
-│   │   └── langfuse_helpers.py #   Langfuse tracing utilities
 │   └── config.py               # Central configuration (pydantic-settings)
 ├── tests/                  # pytest test suite
 ├── plan/                   # Project plans and reports
@@ -148,7 +146,7 @@ It holds the settings for each provider, by name (the order to try them in is se
 
 All configuration is managed through [pydantic-settings](https://docs.pydantic.dev/latest/concepts/pydantic_settings/) classes. Environment variables from `.env` are loaded automatically — each field maps to an env var of the same name. Fields not set in `.env` use the defaults defined in the class.
 
-The settings live in `src/config.py` (provider priority, MCP server, bot tokens and message limits, Langfuse). The LLM providers themselves are in `providers.json` (see [Configure the LLM providers](#configure-the-llm-providers)).
+The settings live in `src/config.py` (provider priority, MCP server, bot tokens and message limits, Langfuse message tracing). The other Langfuse variables are read by the Langfuse library straight from `.env`. The LLM providers themselves are in `providers.json` (see [Configure the LLM providers](#configure-the-llm-providers)).
 
 ## Setup with Docker
 

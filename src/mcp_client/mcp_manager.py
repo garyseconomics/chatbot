@@ -5,7 +5,6 @@ from langfuse import observe
 from mcp import Client
 
 from config import settings
-from tracing.langfuse_helpers import create_langfuse_client, update_and_flush_trace
 
 logger = logging.getLogger(__name__)
 
@@ -27,12 +26,11 @@ def parse_rag_result(result) -> str:
     capture_output=settings.langfuse_message_tracing_enabled,
 )
 async def MCP_query(question, client_type) -> dict:
-    langfuse_client = create_langfuse_client()
+    # Pending: client_type (telegram, discord, cli) is not sent to Langfuse yet.
     try:
         async with Client(settings.mcp_server_url) as client:
             result = await client.call_tool(RAG_TOOL_NAME, {"query": question})
         answer = parse_rag_result(result)
-        update_and_flush_trace(langfuse_client, client_type)
         # context stays empty until the MCP server has a tool for video links
         return {"question": question, "context": [], "answer": answer}
     except Exception as e:
