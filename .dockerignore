@@ -2,5 +2,6 @@
 
 !LICENSE
 !pyproject.toml
+!providers.sample.json
 !src/
 !src/**

@@ -154,6 +154,8 @@ The settings live in `src/config.py` (provider priority, MCP server, bot tokens 
 > - **A remote MCP server:** its public URL or network address.
 > - **An MCP server running on the same machine:** your machine's network address (e.g. `http://192.168.1.10:8080/mcp`). The MCP server must accept connections from outside itself — set `MCP_HOST=0.0.0.0` in the MCP server's `.env`.
 
+**Create `providers.json` before starting the containers** (see [Configure the LLM providers](#configure-the-llm-providers)). Docker Compose mounts it into the containers when they start. It isn't copied into the image, because it can list private servers and the image could be published. To change providers, edit the file and restart the containers; there's no need to rebuild. If the file is missing, Docker creates an empty folder with that name and the bots fail at startup.
+
 ```bash
 docker compose build
 docker compose up
