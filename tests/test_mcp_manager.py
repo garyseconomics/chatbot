@@ -1,5 +1,3 @@
-import warnings
-
 import pytest
 from mcp.types import CallToolResult, TextContent
 
@@ -37,8 +35,7 @@ def test_parse_rag_result_raises_on_tool_error():
 @pytest.mark.asyncio
 async def test_mcp_query_end_to_end():
     if not settings.mcp_server_url:
-        warnings.warn("MCP_SERVER_URL is not set — skipping the MCP server end-to-end test")
-        pytest.skip("MCP server not configured (MCP_SERVER_URL)")
+        pytest.fail("MCP_SERVER_URL is not set: this test needs a running MCP server")
 
     response = await MCP_query("What is wealth?", client_type="pytest")
 
