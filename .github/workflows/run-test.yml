@@ -15,6 +15,9 @@ jobs:
   test:
     name: Tests
     runs-on: ubuntu-latest
+    # The keys live in the "test" environment, which needs a reviewer's approval
+    # before a run can use them.
+    environment: test
 
     steps:
       - name: Checkout
@@ -24,8 +27,35 @@ jobs:
 
       - name: Build and run dev container task
         uses: devcontainers/ci@513af61f4de4f75d37e4438f184ba4358f0fc1ca  # v0.3
+        # Values from the "test" environment, for this step only
+        env:
+          OLLAMA_CLOUD_API_KEY: ${{ secrets.OLLAMA_CLOUD_API_KEY }}
+          MCP_SERVER_URL: ${{ secrets.MCP_SERVER_URL }}
+          LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
+          LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
+          LANGFUSE_BASE_URL: ${{ secrets.LANGFUSE_BASE_URL }}
+          LANGFUSE_TRACING_ENABLED: ${{ vars.LANGFUSE_TRACING_ENABLED }}
+          LANGFUSE_MESSAGE_TRACING_ENABLED: ${{ vars.LANGFUSE_MESSAGE_TRACING_ENABLED }}
+          LANGFUSE_TRACING_ENVIRONMENT: ${{ vars.LANGFUSE_TRACING_ENVIRONMENT }}
+          LANGFUSE_TEST_TRACING_ENVIRONMENT: ${{ vars.LANGFUSE_TEST_TRACING_ENVIRONMENT }}
+          OTEL_SERVICE_NAME: ${{ vars.OTEL_SERVICE_NAME }}
+          TEST_CHAT_PROVIDER: ${{ vars.TEST_CHAT_PROVIDER }}
         with:
           push: never
+          # The tests run inside the dev container, which doesn't see the step's
+          # variables unless they're listed here by name.
+          env: |
+            OLLAMA_CLOUD_API_KEY
+            MCP_SERVER_URL
+            LANGFUSE_PUBLIC_KEY
+            LANGFUSE_SECRET_KEY
+            LANGFUSE_BASE_URL
+            LANGFUSE_TRACING_ENABLED
+            LANGFUSE_MESSAGE_TRACING_ENABLED
+            LANGFUSE_TRACING_ENVIRONMENT
+            LANGFUSE_TEST_TRACING_ENVIRONMENT
+            OTEL_SERVICE_NAME
+            TEST_CHAT_PROVIDER
           runCmd: pytest
 
   docker-build:
