@@ -246,7 +246,11 @@ The bot supports two modes of interaction:
 pytest
 ```
 
-Some tests call live services: the MCP server, Langfuse and the LLM providers. Most of them are skipped when the service is not configured, and fail when it is configured but not reachable.
+Some tests call live services (the MCP server, Langfuse and the LLM providers), so they need the matching settings in `.env` (see [Configure the environment variables](#configure-the-environment-variables)). The full run takes about 30 seconds.
+
+- **MCP server:** the test fails if `MCP_SERVER_URL` is not set or the server doesn't answer.
+- **Langfuse:** the tests are skipped if Langfuse is not configured, and fail if it is configured but not reachable.
+- **LLM providers:** a provider that isn't configured or reachable only gives a warning. A provider that answers with an error fails the test.
 
 ## Testing plan
 
