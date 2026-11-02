@@ -52,7 +52,7 @@ Gary's Economics MCP server
 2. **MCP client** — Connects to the MCP server at `MCP_SERVER_URL` and calls its `retrieval_augmented_generation` tool, which returns the answer. Links to the videos used in the answer are not available yet: they will come from a new MCP tool ([MCP_server#3](https://github.com/garyseconomics/MCP_server/issues/3)).
 3. **MCP server** — Lives in its own [repo](https://github.com/garyseconomics/MCP_server). It holds the RAG pipeline: it searches the vector database for the transcripts related to the question and uses an LLM to write the answer.
 4. **LLM manager** — Not used by the bots yet. It's kept for a future step, in which the chatbot will use an LLM to decide which MCP tools to call for each question. It wraps several chat providers (Ollama and OpenAI-compatible, e.g. OpenRouter) and uses the first available one by priority. By default, chat falls back from Ollama Cloud to local Ollama (`qwen3:4b`). Each provider's type, URL, chat model and API key variable are configured in `providers.json`, and the provider order and API keys in `.env`; other providers, such as a private server, can be added without changing the code.
-5. **Tracing** — Each question sent to the MCP server creates a trace in [Langfuse](https://langfuse.com/), labelled with the client type (`cli`, `telegram` or `discord`).
+5. **Tracing** — Each question sent to the MCP server creates a trace in [Langfuse](https://langfuse.com/). The chatbot sends the MCP server its name, which says which bot the question came from (`cli_chatbot`, `telegram_chatbot` or `discord_chatbot`), and its version. The MCP server records them in its part of the trace.
 
 ## Tech stack
 
@@ -191,6 +191,8 @@ Activate the virtual environment first (not needed with Docker):
 ```bash
 source .venv/bin/activate
 ```
+
+Run the commands below, and `pytest`, from the repository root. The chatbot reads `.env`, `providers.json` and `providers.sample.json` from the current folder, so it fails to start from any other folder.
 
 ### CLI chatbot
 
