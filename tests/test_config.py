@@ -45,10 +45,11 @@ def test_sample_file_defines_the_default_chat_providers():
         assert name in sample
 
 
-def test_sample_file_is_used_when_providers_file_is_missing():
+def test_sample_file_is_used_when_providers_file_is_missing(caplog):
     config = load_providers_config("does_not_exist.json")
     sample = load_providers_config("providers.sample.json")
     assert config == sample
+    assert "WARNING" in caplog.text
 
 
 # build_providers() takes the content of providers.json and the environment

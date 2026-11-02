@@ -6,6 +6,8 @@ from pathlib import Path
 from dotenv import load_dotenv
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+logger = logging.getLogger(__name__)
+
 # Load .env into OS environment so external libraries (Langfuse, etc.)
 # that read env vars directly can find them.
 load_dotenv()
@@ -26,12 +28,14 @@ turn_tracing_off_by_default()
 # LLM providers are configured in providers.json (not in the repo, because it can list
 # private servers). Their API keys and the order to try them in are set in .env.
 PROVIDERS_FILE = "providers.json"
-# Used when providers.json doesn't exist, e.g. in a fresh clone of the repo.
+# Used when providers.json isn't a file: it doesn't exist (e.g. in a fresh clone of the repo),
+# or it's the empty folder Docker creates when the file to mount is missing.
 PROVIDERS_SAMPLE_FILE = "providers.sample.json"
 
 
 def load_providers_config(path=PROVIDERS_FILE, fallback=PROVIDERS_SAMPLE_FILE) -> dict:
-    if not Path(path).exists():
+    if not Path(path).is_file():
+        logger.warning(f"{path} not found, using {fallback}")
         path = fallback
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
