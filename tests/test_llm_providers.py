@@ -22,6 +22,15 @@ def configuration_problem(provider) -> str:
     return ""
 
 
+def failure_message(name, error) -> str:
+    message = f"Chat provider {name} failed: {error}"
+    # Both ollama.ResponseError and openai.APIStatusError carry the HTTP status code.
+    status = getattr(error, "status_code", None)
+    if status and status >= 500:
+        message += f" (HTTP {status}: the LLM provider's server failed)"
+    return message
+
+
 @pytest.mark.asyncio
 async def test_all_chat_providers_answer(monkeypatch):
     """Send "hi" to every provider in the chat priority list.
@@ -44,7 +53,10 @@ async def test_all_chat_providers_answer(monkeypatch):
         # monkeypatch puts the original priority list back after the test.
         monkeypatch.setattr(settings, "chat_provider_priority", [name])
         chat_model = LLM_Client().get_chat_model()
-        response = await chat_model.ainvoke("hi")
+        try:
+            response = await chat_model.ainvoke("hi")
+        except Exception as error:
+            pytest.fail(failure_message(name, error))
 
         assert isinstance(response, langchain_core.messages.ai.AIMessage), name
         assert response.content, f"Chat provider {name} returned an empty answer"
