@@ -23,14 +23,6 @@ def configuration_problem(provider) -> str:
 
 
 @pytest.mark.asyncio
-async def test_chat_ollama_cloud():
-    settings.chat_provider_priority = ["ollama_cloud"]
-    client = LLM_Client()
-    response = await client.chat(prompt="Hello", user_id="Test")
-    assert isinstance(response, langchain_core.messages.ai.AIMessage)
-
-
-@pytest.mark.asyncio
 async def test_all_chat_providers_answer(monkeypatch):
     """Send "hi" to every provider in the chat priority list.
 
