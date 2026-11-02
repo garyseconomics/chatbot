@@ -1,21 +1,17 @@
 [project]
 name = "garys-economics-chatbot"
-version = "0.1.0"
-description = "A RAG chatbot that answers economics questions by referencing Gary's Economics YouTube videos."
+version = "0.2.0"
+description = "A chatbot that answers economics questions by referencing Gary's Economics YouTube videos, through the Gary's Economics MCP server."
 license = "GPL-3.0-or-later"
 requires-python = ">=3.11"
 dependencies = [
-    "chromadb",
     "discord.py",
     "langchain",
     "langfuse>=3,<4",
-    "langchain-chroma",
     "langchain-openai",
     "langchain-ollama",
-    "langchain-text-splitters",
-    "langgraph",
+    "mcp>=2,<3",
     "ollama",
-    "pysrt",
 
     "pydantic-settings",
     "python-dotenv",
@@ -49,10 +45,7 @@ testpaths = ["tests"]
 asyncio_mode = "auto"
 markers = [
     "langfuse: tests that require a running Langfuse server and credentials",
-    "ollama_cloud: tests that require Ollama Cloud credentials (OLLAMA_CLOUD_API_KEY, OLLAMA_CLOUD_URL)",
-    "ollama_self_hosted: tests that require an Ollama self-hosted server (OLLAMA_SELF_HOSTED_URL)",
-    "ollama_local: tests that require a local Ollama server running at localhost",
-    "openrouter: tests that require OpenRouter credentials (OPENROUTER_API_KEY, OPENROUTER_URL)",
+    "mcp_server: tests that require a running MCP server (MCP_SERVER_URL)",
 ]
 # Filter third-party warnings we can't fix:
 # - audioop: discord.py imports it for voice support, deprecated in Python 3.13
