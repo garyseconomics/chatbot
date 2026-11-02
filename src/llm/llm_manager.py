@@ -65,7 +65,9 @@ class LLM_Client:
                 self.connection_attempts += 1
                 provider = settings.providers[provider_name]
                 # checks that the provider has not given an invoke error then check is available
-                if provider_name not in self.providers_errors and self._is_provider_available(provider_name, provider):
+                if provider_name not in self.providers_errors and self._is_provider_available(
+                    provider_name, provider
+                ):
                     return provider_name
             # Tried all providers, none worked — check if we can retry
             if self.connection_attempts >= self.max_attempts:
