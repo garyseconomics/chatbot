@@ -1,61 +1,80 @@
 import asyncio
+import os
+import warnings
 
 import pytest
-from langfuse import Langfuse
+from langfuse import Langfuse, get_client
+from langfuse.api import NotFoundError
 
 from config import settings
-from rag.langfuse_helpers import create_langfuse_client
+from mcp_client.mcp_manager import MCP_query
 
-langfuse_configured = all(
-    [
-        settings.langfuse_public_key,
-        settings.langfuse_secret_key,
-    ]
+
+def is_langfuse_configured() -> bool:
+    """True if tracing is switched on and the Langfuse keys are set."""
+    # Read from the environment, as the Langfuse library does
+    return all(
+        [
+            os.environ.get("LANGFUSE_TRACING_ENABLED", "false").lower() != "false",
+            os.environ.get("LANGFUSE_PUBLIC_KEY"),
+            os.environ.get("LANGFUSE_SECRET_KEY"),
+        ]
+    )
+
+
+async def wait_for_trace(langfuse_client, trace_id):
+    """Return the trace once Langfuse has stored it: try every 0.5 s, for up to 10 s."""
+    for _ in range(20):
+        await asyncio.sleep(0.5)
+        try:
+            trace = langfuse_client.api.trace.get(trace_id)
+        except NotFoundError:
+            continue  # Not stored yet, try again
+        # Langfuse can return the trace before all its fields are filled in
+        if trace.name:
+            return trace
+    pytest.fail("Langfuse didn't store the trace within 10 s")
+
+
+langfuse_configured = is_langfuse_configured()
+
+skip_reason = (
+    "Langfuse tracing not enabled or not configured "
+    "(LANGFUSE_TRACING_ENABLED, LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY)"
 )
-
-skip_reason = "Langfuse env vars not configured (LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY)"
-
-ollama_cloud_configured = bool(settings.ollama_cloud_api_key and settings.ollama_cloud_url)
-skip_ollama_cloud = "Ollama Cloud not configured (OLLAMA_CLOUD_API_KEY, OLLAMA_CLOUD_URL)"
 
 
 @pytest.mark.langfuse
 @pytest.mark.skipif(not langfuse_configured, reason=skip_reason)
-def test_langfuse_client_connects(use_ollama_for_testing):
-    langfuse_client = create_langfuse_client()
-    assert isinstance(langfuse_client, Langfuse)
+def test_langfuse_client_connects():
+    langfuse_client = get_client()
     assert langfuse_client.auth_check()
 
 
 @pytest.mark.langfuse
-@pytest.mark.ollama_cloud
+@pytest.mark.mcp_server
 @pytest.mark.skipif(not langfuse_configured, reason=skip_reason)
-@pytest.mark.skipif(not ollama_cloud_configured, reason=skip_ollama_cloud)
 @pytest.mark.asyncio
-async def test_rag_query_sends_trace_with_all_metadata(use_ollama_for_testing):
-    """Verify that RAG_query sends a single trace with user_id, chat and embedding metadata."""
-    from rag.rag_manager import RAG_query
+async def test_mcp_query_sends_trace():
+    """MCP_query sends a trace with the app name, labelled with the test environment,
+    and without the question or the answer."""
+    if not settings.mcp_server_url:
+        warnings.warn("MCP_SERVER_URL is not set — skipping the MCP query trace test")
+        pytest.skip("MCP server not configured (MCP_SERVER_URL)")
 
-    test_user_id = "test_rag_trace"
-    await RAG_query(question="What is inflation?", user_id=test_user_id)
+    # langfuse_trace_id is a special argument: @observe takes it out and uses it as the
+    # trace id, so MCP_query never receives it.
+    trace_id = Langfuse.create_trace_id()
+    await MCP_query("What is inflation?", client_type="pytest", langfuse_trace_id=trace_id)
 
-    # Wait for Langfuse to index the trace
-    langfuse_client = create_langfuse_client()
+    # Send the trace now, instead of waiting for the library's next batch
+    langfuse_client = get_client()
     langfuse_client.flush()
-    await asyncio.sleep(2)
+    trace = await wait_for_trace(langfuse_client, trace_id)
 
-    # Fetch traces filtered by user_id to find the one we just created
-    response = langfuse_client.api.trace.list(user_id=test_user_id)
-    assert len(response.data) > 0, "No trace found for test user"
-    latest_trace = response.data[0]
-
-    assert latest_trace.user_id == test_user_id
-    assert latest_trace.name == settings.app_name
-    # Check that both chat and embedding metadata are present
-    tests_provider = "ollama_cloud"
-    chat_model = settings.providers[tests_provider]["chat_model"]
-    assert latest_trace.metadata["chat_model"] == chat_model
-    assert latest_trace.metadata["chat_provider"] == tests_provider
-    assert latest_trace.metadata["embedding_model"] == settings.embeddings_model
-    assert latest_trace.metadata["embedding_provider"] == "ollama_self_hosted"
-    assert latest_trace.metadata["prompt_version"] == settings.prompt_version
+    assert trace.name == settings.app_name
+    # conftest.py labels every trace sent by the tests
+    assert trace.environment == settings.langfuse_test_tracing_environment
+    # conftest.py switches message tracing off for every test
+    assert trace.input is None
+    assert trace.output is None

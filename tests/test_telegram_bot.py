@@ -52,7 +52,7 @@ async def test_question_runs_without_errors(monkeypatch):
             "question": "What is wealth?",
         }
     )
-    monkeypatch.setattr("interfaces.telegram_bot.RAG_query", mock_rag)
+    monkeypatch.setattr("interfaces.telegram_bot.MCP_query", mock_rag)
 
     update = _make_update(text="What is wealth?")
     context = _make_context()
@@ -75,7 +75,7 @@ async def test_question_runs_without_errors_answer_longer_than_max_limit(monkeyp
             "question": query,
         }
     )
-    monkeypatch.setattr("interfaces.telegram_bot.RAG_query", mock_rag)
+    monkeypatch.setattr("interfaces.telegram_bot.MCP_query", mock_rag)
 
     update = _make_update(text="What is wealth?")
     context = _make_context()
@@ -93,7 +93,7 @@ async def test_question_runs_without_errors_answer_longer_than_max_limit(monkeyp
 async def test_question_sends_error_message_on_failure(monkeypatch):
     """When an unexpected error occurs, the bot sends the default error message."""
     mock_rag = AsyncMock(side_effect=RuntimeError("something broke"))
-    monkeypatch.setattr("interfaces.telegram_bot.RAG_query", mock_rag)
+    monkeypatch.setattr("interfaces.telegram_bot.MCP_query", mock_rag)
 
     update = _make_update(text="What is wealth?")
     context = _make_context()

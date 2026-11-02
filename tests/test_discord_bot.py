@@ -213,7 +213,7 @@ async def test_handle_message_sends_answer(monkeypatch):
     mock_rag = AsyncMock(
         return_value={"answer": "Wealth is...", "context": [], "question": "What is wealth?"}
     )
-    monkeypatch.setattr("interfaces.discord_bot.RAG_query", mock_rag)
+    monkeypatch.setattr("interfaces.discord_bot.MCP_query", mock_rag)
 
     message = _make_message()
     await handle_message(message, _make_bot_user())
@@ -228,7 +228,7 @@ async def test_handle_message_long_answer_is_chunked(monkeypatch):
     mock_rag = AsyncMock(
         return_value={"answer": answer, "context": [], "question": "test"}
     )
-    monkeypatch.setattr("interfaces.discord_bot.RAG_query", mock_rag)
+    monkeypatch.setattr("interfaces.discord_bot.MCP_query", mock_rag)
 
     message = _make_message()
     await handle_message(message, _make_bot_user())
@@ -244,7 +244,7 @@ async def test_handle_message_long_answer_is_chunked(monkeypatch):
 @pytest.mark.asyncio
 async def test_handle_message_sends_error_on_failure(monkeypatch):
     monkeypatch.setattr(
-        "interfaces.discord_bot.RAG_query", AsyncMock(side_effect=RuntimeError("boom"))
+        "interfaces.discord_bot.MCP_query", AsyncMock(side_effect=RuntimeError("boom"))
     )
 
     message = _make_message()

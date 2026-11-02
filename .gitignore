@@ -212,14 +212,15 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Chroma database
-chroma_langchain_db/
-content_database/data/
-
-# Analytics — raw exports and SQLite database
-analytics/raw_data/
-analytics/*.db
-analytics/private
-
+# Instructions for local AI assistants
+AGENTS.md
 CLAUDE.md
+# Configuration to test the MCP server with the local coding assistant (claude code or similar).
+.mcp.json
+
+# Private plan files
 plan/private
+private/
+
+# LLM providers config (can list private servers)
+providers.json
