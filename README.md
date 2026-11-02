@@ -27,7 +27,7 @@ chatbot/
 │   └── phase_2/               # Testing Phase 2 plans and evaluation
 ├── pyproject.toml          # Project metadata and dependencies
 ├── docker-compose.yml      # Docker Compose (Telegram + Discord bot services)
-├── Dockerfile              # Docker image (Python 3.11-slim)
+├── Dockerfile              # Docker image (Python 3.13-slim)
 ├── .devcontainer/          # Dev container used to run the tests in CI
 └── .github/workflows/      # CI/CD (tests, Docker build + push to GHCR)
 ```
@@ -56,7 +56,7 @@ Gary's Economics MCP server
 
 ## Tech stack
 
-- **Python 3.11+**
+- **Python 3.13+**
 - **pytest** for testing
 - **ruff** for linting and formatting
 - **MCP Python SDK** (`mcp`) to connect to the MCP server
