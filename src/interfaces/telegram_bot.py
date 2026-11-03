@@ -1,11 +1,12 @@
 import logging
 
+from langchain_core.messages import HumanMessage
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 
 from config import settings
 from interfaces.chunker import telegram_bot_chunker
-from mcp_client.mcp_manager import MCP_query
+from mcp_client.mcp_manager import answer_question
 
 logger = logging.getLogger(__name__)
 
@@ -19,9 +20,12 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 async def question(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     try:
         question = update.message.text
-        rag_answer = await MCP_query(question, client_type="telegram")
-        answer = rag_answer["answer"]
-        logger.debug("RAG answer: %s", rag_answer)
+        # chat_data is a dict that python-telegram-bot keeps for each chat (in memory only).
+        conversation = context.chat_data.setdefault("conversation", [])
+        knowledge = context.chat_data.setdefault("knowledge", {})
+        conversation.append(HumanMessage(content=question))
+        answer = await answer_question(conversation, knowledge, client_type="telegram")
+        logger.debug("Answer: %s", answer)
         for chunk in telegram_bot_chunker.chunk(answer):
             await context.bot.send_message(chat_id=update.effective_chat.id, text=chunk.text)
 

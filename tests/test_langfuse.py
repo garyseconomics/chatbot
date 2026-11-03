@@ -3,11 +3,12 @@ import os
 import warnings
 
 import pytest
+from langchain_core.messages import HumanMessage
 from langfuse import Langfuse, get_client
 from langfuse.api import NotFoundError
 
 from config import settings
-from mcp_client.mcp_manager import MCP_query
+from mcp_client.mcp_manager import answer_question
 
 
 def is_langfuse_configured() -> bool:
@@ -55,17 +56,18 @@ def test_langfuse_client_connects():
 @pytest.mark.mcp_server
 @pytest.mark.skipif(not langfuse_configured, reason=skip_reason)
 @pytest.mark.asyncio
-async def test_mcp_query_sends_trace():
-    """MCP_query sends a trace with the app name, labelled with the test environment,
+async def test_answer_question_sends_trace():
+    """answer_question sends a trace with the app name, labelled with the test environment,
     and without the question or the answer."""
     if not settings.mcp_server_url:
         warnings.warn("MCP_SERVER_URL is not set — skipping the MCP query trace test")
         pytest.skip("MCP server not configured (MCP_SERVER_URL)")
 
     # langfuse_trace_id is a special argument: @observe takes it out and uses it as the
-    # trace id, so MCP_query never receives it.
+    # trace id, so answer_question never receives it.
     trace_id = Langfuse.create_trace_id()
-    await MCP_query("What is inflation?", client_type="pytest", langfuse_trace_id=trace_id)
+    conversation = [HumanMessage(content="What is inflation?")]
+    await answer_question(conversation, {}, client_type="pytest", langfuse_trace_id=trace_id)
 
     # Send the trace now, instead of waiting for the library's next batch
     langfuse_client = get_client()

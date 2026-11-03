@@ -1,20 +1,28 @@
 import asyncio
 import logging
 
+from langchain_core.messages import HumanMessage
+
 from config import settings
-from mcp_client.mcp_manager import MCP_query
+from mcp_client.mcp_manager import answer_question
 
 logger = logging.getLogger(__name__)
 
 
-def main() -> None:
+async def main() -> None:
     print(settings.bot_greeting)
-    question = input("Your question: ")
-    # asyncio.run() needed because main() is sync but MCP_query is async
-    response = asyncio.run(MCP_query(question, client_type="cli"))
-    logger.debug("Full RAG response: %s", response)
-    print(response["answer"])
+    # The conversation so far and the knowledge retrieved, kept while the CLI runs
+    conversation = []
+    knowledge = {}
+    while True:
+        question = input("Your question (or 'quit' to exit): ")
+        if question.strip().lower() == "quit":
+            break
+        conversation.append(HumanMessage(content=question))
+        answer = await answer_question(conversation, knowledge, client_type="cli")
+        print(answer)
 
 
 if __name__ == "__main__":
-    main()
+    # asyncio.run() needed because main() is async (answer_question is async)
+    asyncio.run(main())
