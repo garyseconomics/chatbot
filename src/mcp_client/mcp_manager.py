@@ -32,6 +32,22 @@ def add_new_transcripts(knowledge, sources) -> None:
             knowledge["transcripts"].append(source)
 
 
+# A span of its own in the trace, so its input (the query) and output (what the tool
+# returned) can be checked for each tool call.
+@observe(
+    name="call_tool",
+    capture_input=settings.langfuse_message_tracing_enabled,
+    capture_output=settings.langfuse_message_tracing_enabled,
+)
+async def call_tool(tool_name, arguments, client_type) -> dict:
+    """Call a tool on the MCP server and return its parsed result."""
+    # The MCP server records the client name (e.g. telegram_chatbot) in its traces.
+    client_info = Implementation(name=f"{client_type}_chatbot", version=CHATBOT_VERSION)
+    async with Client(settings.mcp_server_url, client_info=client_info) as client:
+        result = await client.call_tool(tool_name, arguments)
+    return parse_tool_result(result)
+
+
 @observe(
     name=settings.app_name,
     capture_input=settings.langfuse_message_tracing_enabled,
@@ -40,13 +56,9 @@ def add_new_transcripts(knowledge, sources) -> None:
 async def answer_question(conversation, knowledge, client_type) -> str:
     """Answer the last question in the conversation, and add the answer to the conversation
     and the new transcripts to the knowledge."""
-    # The MCP server records the client name (e.g. telegram_chatbot) in its traces.
-    client_info = Implementation(name=f"{client_type}_chatbot", version=CHATBOT_VERSION)
     try:
-        async with Client(settings.mcp_server_url, client_info=client_info) as client:
-            # Temporary: the whole conversation is the query. Later the orchestrator writes it.
-            result = await client.call_tool(RAG_TOOL_NAME, {"query": str(conversation)})
-        tool_result = parse_tool_result(result)
+        # Temporary: the whole conversation is the query. Later the orchestrator writes it.
+        tool_result = await call_tool(RAG_TOOL_NAME, {"query": str(conversation)}, client_type)
         answer = tool_result["answer"]
         add_new_transcripts(knowledge, tool_result["sources"])
     except Exception as e:
