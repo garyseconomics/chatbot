@@ -2,7 +2,7 @@
 
 A prototype chatbot that answers questions by referencing videos from Gary's Economics YouTube channel. You can talk to it through a CLI, a Telegram bot or a Discord bot.
 
-The chatbot doesn't search the videos itself. It sends each question to the [Gary's Economics MCP server](https://github.com/garyseconomics/MCP_server), which finds the relevant transcripts and writes the answer. The transcripts are imported and turned into a vector database in the [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo.
+The chatbot remembers each conversation, so you can ask follow-up questions. It doesn't search the videos itself: it sends each question, together with the conversation so far, to the [Gary's Economics MCP server](https://github.com/garyseconomics/MCP_server), which finds the relevant transcripts and writes the answer. The transcripts are imported and turned into a vector database in the [chatbot-database](https://github.com/garyseconomics/chatbot-database) repo.
 
 ## Repository layout
 
@@ -15,7 +15,7 @@ chatbot/
 │   │   ├── discord_bot.py      #   Discord bot
 │   │   └── chunker.py          #   Splits long answers to fit Telegram and Discord message limits
 │   ├── mcp_client/             # Connection to the MCP server
-│   │   └── mcp_manager.py      #   Sends questions to the MCP server's RAG tool
+│   │   └── mcp_manager.py      #   Sends the conversation to the MCP server's RAG tool
 │   ├── llm/                    # LLM client management (not used yet, kept for choosing MCP tools)
 │   │   ├── llm_manager.py      #   Multi-provider Ollama wrapper (priority-based fallback)
 │   │   ├── prompt_template.py  #   RAG prompt builder (reads from prompt_versions)
@@ -36,23 +36,23 @@ chatbot/
 
 ```
 Channels (CLI / Telegram / Discord)
-        │  question
+        │  conversation (with the new question)
         ▼
-┌──────────────────┐
-│    MCP client    │  ← src/mcp_client/mcp_manager.py
-│   (MCP_query)    │
-└────────┬─────────┘
+┌───────────────────┐
+│    MCP client     │  ← src/mcp_client/mcp_manager.py
+│ (answer_question) │
+└────────┬──────────┘
          │  retrieval_augmented_generation tool
          ▼
 Gary's Economics MCP server
 (searches the transcripts, writes the answer)
 ```
 
-1. **Channels** — CLI, Telegram bot, Discord bot. Each receives a question, sends it to the MCP client and replies with the answer. Long answers are split into several messages to fit the Telegram and Discord message limits.
-2. **MCP client** — Connects to the MCP server at `MCP_SERVER_URL` and calls its `retrieval_augmented_generation` tool, which returns the answer. Links to the videos used in the answer are not available yet: they will come from a new MCP tool ([MCP_server#3](https://github.com/garyseconomics/MCP_server/issues/3)).
+1. **Channels** — CLI, Telegram bot, Discord bot. Each one keeps its conversations in memory: one per CLI session, one per Telegram chat, and in Discord one per DM and one per channel (shared by everyone in the channel). The conversations are lost when the bot restarts. For each new question, the bot adds it to the conversation, sends the conversation to the MCP client and replies with the answer. Long answers are split into several messages to fit the Telegram and Discord message limits.
+2. **MCP client** — Connects to the MCP server at `MCP_SERVER_URL` and calls its `retrieval_augmented_generation` tool with the whole conversation. The tool returns the answer and the transcripts it used. The answer is added to the conversation, and the transcripts are kept with the conversation (without duplicates) for future features. If the call fails, the error message the user sees is also added to the conversation. Links to the videos used in the answer are not available yet: they will come from a new MCP tool ([MCP_server#3](https://github.com/garyseconomics/MCP_server/issues/3)).
 3. **MCP server** — Lives in its own [repo](https://github.com/garyseconomics/MCP_server). It holds the RAG pipeline: it searches the vector database for the transcripts related to the question and uses an LLM to write the answer.
 4. **LLM manager** — Not used by the bots yet. It's kept for a future step, in which the chatbot will use an LLM to decide which MCP tools to call for each question. It wraps several chat providers (Ollama and OpenAI-compatible, e.g. OpenRouter) and uses the first available one by priority. By default, chat falls back from Ollama Cloud to local Ollama (`qwen3:4b`). Each provider's type, URL, chat model and API key variable are configured in `providers.json`, and the provider order and API keys in `.env`; other providers, such as a private server, can be added without changing the code.
-5. **Tracing** — Each question sent to the MCP server creates a trace in [Langfuse](https://langfuse.com/). The chatbot sends the MCP server its name, which says which bot the question came from (`cli_chatbot`, `telegram_chatbot` or `discord_chatbot`), and its version. The MCP server records them in its part of the trace.
+5. **Tracing** — Each question sent to the MCP server creates a trace in [Langfuse](https://langfuse.com/). Each call to an MCP tool is a step of its own in the trace (`call_tool`). The chatbot sends the MCP server its name, which says which bot the question came from (`cli_chatbot`, `telegram_chatbot` or `discord_chatbot`), and its version. The MCP server records them in its part of the trace.
 
 ## Tech stack
 
@@ -114,7 +114,7 @@ Then fill in the values. The available variables are:
 
 **Observability**
 - `LANGFUSE_TRACING_ENABLED` — set to `true` to send traces to the [Langfuse](https://langfuse.com/) observability platform. Recommended: the traces record latency, token usage and which providers and models are used. Off unless set to `true`, because it needs the keys below.
-- `LANGFUSE_MESSAGE_TRACING_ENABLED` — set to `true` to also send the questions and answers to Langfuse. Off unless set to `true`.
+- `LANGFUSE_MESSAGE_TRACING_ENABLED` — set to `true` to also send the conversations, the answers and the transcripts each MCP tool returns to Langfuse. Off unless set to `true`.
 - `LANGFUSE_PUBLIC_KEY` — Public key for Langfuse.
 - `LANGFUSE_SECRET_KEY` — Secret key for Langfuse.
 - `LANGFUSE_BASE_URL` — Langfuse server URL. Defaults to `https://cloud.langfuse.com`.
@@ -200,7 +200,7 @@ Run the commands below, and `pytest`, from the repository root. The chatbot read
 python -m interfaces.chatbot
 ```
 
-The chatbot will greet you and ask for a question. It sends the question to the MCP server and shows the answer. Answers are better when Gary's videos cover the topic asked about.
+The chatbot will greet you and ask for a question. It sends the question, with the conversation so far, to the MCP server and shows the answer. It remembers the conversation until you type `quit`. Answers are better when Gary's videos cover the topic asked about.
 
 ### Telegram chatbot
 
@@ -237,8 +237,8 @@ python -m interfaces.discord_bot
 ```
 
 The bot supports two modes of interaction:
-- **In channels**: mention the bot with @botname followed by your question.
-- **In DMs**: send a message directly to the bot — no mention needed.
+- **In channels**: mention the bot with @botname followed by your question. The bot keeps one conversation per channel, shared by everyone in it, but it only sees the messages that mention it.
+- **In DMs**: send a message directly to the bot — no mention needed. The bot keeps one conversation per user.
 
 ## Testing
 

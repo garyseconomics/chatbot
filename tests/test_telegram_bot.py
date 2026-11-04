@@ -21,6 +21,8 @@ def _make_context() -> MagicMock:
     context = MagicMock()
     # send_message is a coroutine in the real bot, so we use AsyncMock
     context.bot.send_message = AsyncMock()
+    # A real dict, like the one python-telegram-bot keeps for each chat
+    context.chat_data = {}
     return context
 
 
@@ -45,14 +47,8 @@ async def test_start_sends_greeting():
 @pytest.mark.asyncio
 async def test_question_runs_without_errors(monkeypatch):
     """The question handler runs end-to-end without crashing."""
-    mock_rag = AsyncMock(
-        return_value={
-            "answer": "Wealth is...",
-            "context": [],
-            "question": "What is wealth?",
-        }
-    )
-    monkeypatch.setattr("interfaces.telegram_bot.MCP_query", mock_rag)
+    mock_answer = AsyncMock(return_value="Wealth is...")
+    monkeypatch.setattr("interfaces.telegram_bot.answer_question", mock_answer)
 
     update = _make_update(text="What is wealth?")
     context = _make_context()
@@ -66,16 +62,9 @@ async def test_question_runs_without_errors(monkeypatch):
 async def test_question_runs_without_errors_answer_longer_than_max_limit(monkeypatch):
     """The question handler runs end-to-end without crashing."""
 
-    query = Path("./tests/test-data/long-question.md").read_text()
     answer = Path("./tests/test-data/long-answer.md").read_text()
-    mock_rag = AsyncMock(
-        return_value={
-            "answer": answer,
-            "context": [],
-            "question": query,
-        }
-    )
-    monkeypatch.setattr("interfaces.telegram_bot.MCP_query", mock_rag)
+    mock_answer = AsyncMock(return_value=answer)
+    monkeypatch.setattr("interfaces.telegram_bot.answer_question", mock_answer)
 
     update = _make_update(text="What is wealth?")
     context = _make_context()
@@ -92,8 +81,8 @@ async def test_question_runs_without_errors_answer_longer_than_max_limit(monkeyp
 @pytest.mark.asyncio
 async def test_question_sends_error_message_on_failure(monkeypatch):
     """When an unexpected error occurs, the bot sends the default error message."""
-    mock_rag = AsyncMock(side_effect=RuntimeError("something broke"))
-    monkeypatch.setattr("interfaces.telegram_bot.MCP_query", mock_rag)
+    mock_answer = AsyncMock(side_effect=RuntimeError("something broke"))
+    monkeypatch.setattr("interfaces.telegram_bot.answer_question", mock_answer)
 
     update = _make_update(text="What is wealth?")
     context = _make_context()

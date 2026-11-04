@@ -1,16 +1,15 @@
 from unittest.mock import AsyncMock, patch
 
+import pytest
 
-@patch("interfaces.chatbot.input", return_value="What is wealth?")
-@patch("interfaces.chatbot.MCP_query", new_callable=AsyncMock)
-def test_chatbot_runs_without_errors(mock_rag, mock_input):
+
+@pytest.mark.asyncio
+@patch("interfaces.chatbot.input", side_effect=["What is wealth?", "Tell me more", "quit"])
+@patch("interfaces.chatbot.answer_question", new_callable=AsyncMock)
+async def test_chatbot_runs_without_errors(mock_answer, mock_input):
     """The CLI chatbot runs end-to-end without crashing."""
-    mock_rag.return_value = {
-        "answer": "Wealth is...",
-        "context": [],
-        "question": "What is wealth?",
-    }
+    mock_answer.return_value = "Wealth is..."
 
     from interfaces.chatbot import main
 
-    main()
+    await main()
