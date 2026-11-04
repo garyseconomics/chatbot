@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+from importlib.metadata import version
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -23,6 +24,21 @@ def turn_tracing_off_by_default() -> None:
 
 
 turn_tracing_off_by_default()
+
+# The package name in pyproject.toml. Also the app's name when .env doesn't set one.
+DEFAULT_APP_NAME = "garys-economics-chatbot"
+
+
+def set_default_app_name() -> None:
+    """Name the app with OTEL_SERVICE_NAME from .env, or DEFAULT_APP_NAME if it isn't set.
+
+    The Langfuse library reads OTEL_SERVICE_NAME directly from the environment, so the
+    default has to be set there. settings.app_name reads it back, so both always agree.
+    """
+    os.environ.setdefault("OTEL_SERVICE_NAME", DEFAULT_APP_NAME)
+
+
+set_default_app_name()
 
 
 # LLM providers are configured in providers.json (not in the repo, because it can list
@@ -94,8 +110,15 @@ class Settings(BaseSettings):
     mcp_server_url: str = ""
 
     # App
-    app_name: str = "GarysEconomics_bot"
+    # Read from OTEL_SERVICE_NAME, so it must be set in .env, not here (see set_default_app_name)
+    @property
+    def app_name(self) -> str:
+        return os.environ["OTEL_SERVICE_NAME"]
+
+    # Uses the package name, not app_name: the name in .env can differ from the package's.
+    app_version: str = version(DEFAULT_APP_NAME)
     log_level: str = "INFO"
+
     bot_greeting: str = (
         "I'm back online! We're still in the testing phase, "
         "so I may restart from time to time. Feel free to keep asking questions."
