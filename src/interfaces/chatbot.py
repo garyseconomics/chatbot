@@ -4,7 +4,7 @@ import logging
 from langchain_core.messages import HumanMessage
 
 from config import settings
-from mcp_client.mcp_manager import answer_question
+from orchestrator.orchestrator import answer_question
 
 logger = logging.getLogger(__name__)
 

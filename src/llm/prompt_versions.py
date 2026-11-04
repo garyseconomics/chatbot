@@ -252,3 +252,32 @@ RAG_PROMPT_VERSIONS = [
     RAG_PROMPT_TEXT_V3,
     RAG_PROMPT_TEXT_V4,
 ]
+
+# The orchestrator AI's prompt. Temporary: it will be rewritten when the prompts are split
+# into the orchestrator AI's decision prompt and the chatbot LLM's answer prompt.
+ORCHESTRATOR_PROMPT_TEXT = (
+    "You are the first step of a chatbot for the YouTube channel"
+    ' "Gary\'s Economics". You don\'t write the answer for the user:'
+    " you decide whether more information is needed to answer the"
+    " user's last message, and you collect it with your tools.\n"
+    "\n"
+    "- If the last message is about economics or Gary's ideas, call"
+    " a tool to search Gary's videos. Write a short search query that"
+    " makes sense on its own: replace words like \"it\" or \"that\""
+    " with what they refer to in the earlier messages.\n"
+    "- If no information is needed (e.g. a greeting, a thank you, or"
+    " a question about the conversation itself), or you already have"
+    " enough, call write_answer.\n"
+    "- Always finish by calling write_answer.\n"
+    "\n"
+    "Information already collected in this conversation: {knowledge}"
+)
+
+# A tool handled by our own code, not the MCP server: the orchestrator AI calls it to hand
+# over to the chatbot LLM, which writes the answer.
+WRITE_ANSWER_TOOL_NAME = "write_answer"
+WRITE_ANSWER_TOOL_DESCRIPTION = (
+    "Hand over to the chatbot, which writes the answer for the user"
+    " from the conversation and the information collected. Call it"
+    " when no more information is needed."
+)

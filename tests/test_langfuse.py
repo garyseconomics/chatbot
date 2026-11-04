@@ -8,7 +8,7 @@ from langfuse import Langfuse, get_client
 from langfuse.api import NotFoundError
 
 from config import settings
-from mcp_client.mcp_manager import answer_question
+from orchestrator.orchestrator import answer_question
 
 
 def is_langfuse_configured() -> bool:

@@ -14,12 +14,15 @@ chatbot/
 │   │   ├── telegram_bot.py     #   Telegram bot
 │   │   ├── discord_bot.py      #   Discord bot
 │   │   └── chunker.py          #   Splits long answers to fit Telegram and Discord message limits
-│   ├── mcp_client/             # Connection to the MCP server
-│   │   └── mcp_manager.py      #   Sends the conversation to the MCP server's RAG tool
-│   ├── llm/                    # LLM client management (not used yet, kept for choosing MCP tools)
-│   │   ├── llm_manager.py      #   Multi-provider Ollama wrapper (priority-based fallback)
-│   │   ├── prompt_template.py  #   RAG prompt builder (reads from prompt_versions)
-│   │   └── prompt_versions.py  #   Versioned prompt texts (v1–v4+)
+│   ├── orchestrator/              # Decides how to answer each question
+│   │   └── orchestrator.py        #   Orchestrator AI collects info, chatbot LLM writes the answer
+│   ├── knowledge/                 # What the chatbot retrieves to answer
+│   │   ├── mcp_manager.py         #   Connection to the MCP server (lists and calls its tools)
+│   │   └── knowledge_manager.py   #   Keeps the retrieved transcripts, without duplicates
+│   ├── llm/                       # LLM client management
+│   │   ├── llm_manager.py         #   Multi-provider Ollama wrapper (priority-based fallback)
+│   │   ├── prompt_template.py     #   Builds the orchestrator AI's and the chatbot LLM's prompts
+│   │   └── prompt_versions.py     #   Prompt texts (chatbot prompt v1–v4+, orchestrator prompt)
 │   └── config.py               # Central configuration (pydantic-settings)
 ├── tests/                  # pytest test suite
 ├── plan/                   # Project plans and reports
@@ -38,21 +41,22 @@ chatbot/
 Channels (CLI / Telegram / Discord)
         │  conversation (with the new question)
         ▼
-┌───────────────────┐
-│    MCP client     │  ← src/mcp_client/mcp_manager.py
-│ (answer_question) │
-└────────┬──────────┘
-         │  retrieval_augmented_generation tool
-         ▼
-Gary's Economics MCP server
-(searches the transcripts, writes the answer)
+┌─────────────────────────────┐
+│ Orchestrator                │  ← src/orchestrator/orchestrator.py
+│                             │
+│ 1. Orchestrator AI ─────────┼──►  Gary's Economics MCP server
+│    (collects information) ◄─┼───  (retrieval_augmented_generation tool:
+│                             │      searches the transcripts, writes a draft)
+│ 2. Chatbot LLM              │
+│    (writes the answer)      │
+└─────────────────────────────┘
 ```
 
-1. **Channels** — CLI, Telegram bot, Discord bot. Each one keeps its conversations in memory: one per CLI session, one per Telegram chat, and in Discord one per DM and one per channel (shared by everyone in the channel). The conversations are lost when the bot restarts. For each new question, the bot adds it to the conversation, sends the conversation to the MCP client and replies with the answer. Long answers are split into several messages to fit the Telegram and Discord message limits.
-2. **MCP client** — Connects to the MCP server at `MCP_SERVER_URL` and calls its `retrieval_augmented_generation` tool with the whole conversation. The tool returns the answer and the transcripts it used. The answer is added to the conversation, and the transcripts are kept with the conversation (without duplicates) for future features. If the call fails, the error message the user sees is also added to the conversation. Links to the videos used in the answer are not available yet: they will come from a new MCP tool ([MCP_server#3](https://github.com/garyseconomics/MCP_server/issues/3)).
+1. **Channels** — CLI, Telegram bot, Discord bot. Each one keeps its conversations in memory: one per CLI session, one per Telegram chat, and in Discord one per DM and one per channel (shared by everyone in the channel). The conversations are lost when the bot restarts. For each new question, the bot adds it to the conversation, sends the conversation to the orchestrator and replies with the answer. Long answers are split into several messages to fit the Telegram and Discord message limits.
+2. **Orchestrator** — Answers each question in two steps, each with its own LLM. First, the **orchestrator AI** decides whether the question needs information from Gary's videos. If it does, it writes a search query and calls the MCP server's `retrieval_augmented_generation` tool, which returns a draft answer and the transcripts it used. It can call the tool again until it has enough. For messages that don't need it, such as a greeting, it calls no tool. Then the **chatbot LLM** writes the answer for the user from the conversation, the transcripts and the latest draft. The transcripts are kept with the conversation (without duplicates), so later questions can use them. If anything fails, the error message the user sees is also added to the conversation. For now, the orchestrator AI can only use this one tool; more will be added ([#90](https://github.com/garyseconomics/chatbot/issues/90)). Links to the videos used in the answer are not available yet: they will come from a new MCP tool ([MCP_server#3](https://github.com/garyseconomics/MCP_server/issues/3)).
 3. **MCP server** — Lives in its own [repo](https://github.com/garyseconomics/MCP_server). It holds the RAG pipeline: it searches the vector database for the transcripts related to the question and uses an LLM to write the answer.
-4. **LLM manager** — Not used by the bots yet. It's kept for a future step, in which the chatbot will use an LLM to decide which MCP tools to call for each question. It wraps several chat providers (Ollama and OpenAI-compatible, e.g. OpenRouter) and uses the first available one by priority. By default, chat falls back from Ollama Cloud to local Ollama (`qwen3:4b`). Each provider's type, URL, chat model and API key variable are configured in `providers.json`, and the provider order and API keys in `.env`; other providers, such as a private server, can be added without changing the code.
-5. **Tracing** — Each question sent to the MCP server creates a trace in [Langfuse](https://langfuse.com/). Each call to an MCP tool is a step of its own in the trace (`call_tool`). The chatbot sends the MCP server its name, which says which bot the question came from (`cli_chatbot`, `telegram_chatbot` or `discord_chatbot`), and its version. The MCP server records them in its part of the trace.
+4. **LLM manager** — Used by the orchestrator AI and the chatbot LLM, which use the same chat model for now. For the orchestrator AI, it also gives the model the tools it can call. It wraps several chat providers (Ollama and OpenAI-compatible, e.g. OpenRouter) and uses the first available one by priority. By default, chat falls back from Ollama Cloud to local Ollama (`qwen3:4b`). Each provider's type, URL, chat model and API key variable are configured in `providers.json`, and the provider order and API keys in `.env`; other providers, such as a private server, can be added without changing the code.
+5. **Tracing** — Each question creates a trace in [Langfuse](https://langfuse.com/), named after the app (`OTEL_SERVICE_NAME`). Each call to an MCP tool is a step of its own in the trace, named after the tool (e.g. `call_tool: retrieval_augmented_generation`). The chatbot sends the MCP server its name, which says which bot the question came from (`cli_chatbot`, `telegram_chatbot` or `discord_chatbot`), and its version. The MCP server records them in its part of the trace.
 
 ## Tech stack
 
@@ -77,7 +81,7 @@ The chatbot needs a running [Gary's Economics MCP server](https://github.com/gar
 
 ### Install Ollama and download the models
 
-> **Note:** the bots don't use these models yet. They're used by the LLM manager (see [Architecture overview](#architecture-overview)) and its tests.
+> **Note:** the bots use these models for the orchestrator AI and the chatbot LLM (see [Architecture overview](#architecture-overview)).
 
 All models run through [Ollama](https://ollama.com/).
 
@@ -120,7 +124,7 @@ Then fill in the values. The available variables are:
 - `LANGFUSE_BASE_URL` — Langfuse server URL. Defaults to `https://cloud.langfuse.com`.
 - `LANGFUSE_TRACING_ENVIRONMENT` — labels the traces so you can filter them in Langfuse, for example `production` or `testing`. Defaults to `development` in `.env.sample`.
 - `LANGFUSE_TEST_TRACING_ENVIRONMENT` — replaces `LANGFUSE_TRACING_ENVIRONMENT` while running the tests, so their traces are not mixed with real use of the bots. Defaults to `automated_tests`.
-- `OTEL_SERVICE_NAME` — names this app in the traces. Defaults to `garys-economics-chatbot` in `.env.sample`.
+- `OTEL_SERVICE_NAME` — names this app in the traces, and is also the name of each trace. Defaults to `garys-economics-chatbot`. To tell servers apart, use `LANGFUSE_TRACING_ENVIRONMENT`.
 
 **MCP server**
 - `MCP_SERVER_URL` — Address of the [Gary's Economics MCP server](https://github.com/garyseconomics/MCP_server) the chatbot uses to answer questions, e.g. `http://127.0.0.1:8080/mcp` for a server running on your machine.
