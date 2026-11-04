@@ -124,7 +124,9 @@ async def test_chat_reports_errors_from_all_providers(monkeypatch):
     assert "bad_model_provider" in error_message
     # Verify each provider got the right type of error
     assert client.providers_errors["unreachable_provider"] == "Host unreachable"
-    expected_model_error = "model 'nonexistent_model_12345' not found (status code: 404)"
+    # The error differs by provider type, so only the model name is checked:
+    # - Ollama: model 'nonexistent_model_12345' not found (status code: 404)
+    # - OpenAI-compatible: The model 'ollama/nonexistent_model_12345' does not exist. (404)
     assert "nonexistent_model_12345" in client.providers_errors["bad_model_provider"]
     assert "nonexistent_model_12345" in error_message
 
@@ -149,5 +151,3 @@ def test_get_chat_model_returns_ollama_for_ollama_type(monkeypatch):
     client = LLM_Client()
     model = client.get_chat_model()
     assert isinstance(model, ChatOllama)
-
-# {"detail":{"error":{"message":"The model 'ollama/nonexistent_model_12345' does not exist.","type":"invalid_request_error","param":"model","code":"model_not_found"}}} (status code: 404)
