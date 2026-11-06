@@ -9,8 +9,13 @@ from llm.prompt_versions import ORCHESTRATOR_PROMPT_TEXT, RAG_PROMPT_VERSIONS
 RAG_PROMPT_TEXT = RAG_PROMPT_VERSIONS[settings.prompt_version]
 
 
+def get_chunk_texts(knowledge) -> list[str]:
+    # Only the text goes to the LLMs for now, not the video_id
+    return [chunk["text"] for chunk in knowledge.get("transcript_chunks", [])]
+
+
 def add_draft_to_context(knowledge, draft) -> str:
-    prompt_context = list(knowledge.get("transcripts", []))
+    prompt_context = get_chunk_texts(knowledge)
     # No draft when the RAG wasn't called in this turn
     if draft is not None:
         prompt_context.append(f"A draft answer written from the transcripts:\n{draft}")
@@ -20,7 +25,7 @@ def add_draft_to_context(knowledge, draft) -> str:
 def prepare_orchestrator_prompt(conversation, knowledge) -> list:
     """Prepare the orchestrator AI's prompt: its instructions with the knowledge collected so
     far, then the conversation."""
-    collected = "\n\n".join(knowledge.get("transcripts", []))
+    collected = "\n\n".join(get_chunk_texts(knowledge))
     instructions = SystemMessage(content=ORCHESTRATOR_PROMPT_TEXT.format(knowledge=collected))
     # A new list, so the tool calls added during the loop don't end up in the conversation
     return [instructions] + conversation
