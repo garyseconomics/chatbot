@@ -1,4 +1,4 @@
-RAG_PROMPT_TEXT_V1 = (
+CHAT_PROMPT_TEXT_V1 = (
     "You are a helpful assistant answering questions based on the"
     " educational content from the YouTube channel"
     ' "Gary\'s Economics", hosted by economist Gary Stevenson.'
@@ -35,7 +35,7 @@ RAG_PROMPT_TEXT_V1 = (
     "Answer:"
 )
 
-RAG_PROMPT_TEXT_V2 = (
+CHAT_PROMPT_TEXT_V2 = (
     "You are a helpful economics assistant inspired by the YouTube"
     ' channel "Gary\'s Economics", hosted by economist Gary Stevenson.'
     " You explain complex economic concepts in an accessible,"
@@ -66,7 +66,7 @@ RAG_PROMPT_TEXT_V2 = (
     "Answer:"
 )
 
-RAG_PROMPT_TEXT_V3 = (
+CHAT_PROMPT_TEXT_V3 = (
     "You are a chatbot for the YouTube channel"
     ' "Gary\'s Economics", hosted by economist Gary Stevenson.'
     " You help people understand economics in a clear, friendly,"
@@ -138,7 +138,7 @@ RAG_PROMPT_TEXT_V3 = (
     "Answer:"
 )
 
-RAG_PROMPT_TEXT_V4 = (
+CHAT_PROMPT_TEXT_V4 = (
     "You are a chatbot for the YouTube channel"
     ' "Gary\'s Economics", hosted by economist Gary Stevenson.'
     " You help people understand economics in a clear, friendly,"
@@ -245,16 +245,16 @@ RAG_PROMPT_TEXT_V4 = (
 )
 
 # Index 0 is unused — prompt versions are 1-based to match config.prompt_version.
-RAG_PROMPT_VERSIONS = [
+CHAT_PROMPT_VERSIONS = [
     None,
-    RAG_PROMPT_TEXT_V1,
-    RAG_PROMPT_TEXT_V2,
-    RAG_PROMPT_TEXT_V3,
-    RAG_PROMPT_TEXT_V4,
+    CHAT_PROMPT_TEXT_V1,
+    CHAT_PROMPT_TEXT_V2,
+    CHAT_PROMPT_TEXT_V3,
+    CHAT_PROMPT_TEXT_V4,
 ]
 
 # The orchestrator AI's prompt. Temporary: it will be rewritten when the prompts are split
-# into the orchestrator AI's decision prompt and the chatbot LLM's answer prompt.
+# into the orchestrator AI's decision prompt and the chat AI's answer prompt.
 ORCHESTRATOR_PROMPT_TEXT = (
     "You are the first step of a chatbot for the YouTube channel"
     ' "Gary\'s Economics". You don\'t write the answer for the user:'
@@ -271,13 +271,4 @@ ORCHESTRATOR_PROMPT_TEXT = (
     "- Always finish by calling write_answer.\n"
     "\n"
     "Information already collected in this conversation: {knowledge}"
-)
-
-# A tool handled by our own code, not the MCP server: the orchestrator AI calls it to hand
-# over to the chatbot LLM, which writes the answer.
-WRITE_ANSWER_TOOL_NAME = "write_answer"
-WRITE_ANSWER_TOOL_DESCRIPTION = (
-    "Hand over to the chatbot, which writes the answer for the user"
-    " from the conversation and the information collected. Call it"
-    " when no more information is needed."
 )

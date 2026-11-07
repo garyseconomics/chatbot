@@ -12,3 +12,10 @@ def add_new_transcript_chunks(knowledge, transcript_chunks) -> dict:
 def store_new_knowledge(knowledge, tool_result) -> dict:
     add_new_transcript_chunks(knowledge, tool_result["transcript_chunks"])
     return knowledge
+
+
+def knowledge_to_text(knowledge) -> str:
+    """The knowledge as text, for the LLMs' prompts."""
+    # Only the text goes to the LLMs for now, not the video_id
+    chunk_texts = [chunk["text"] for chunk in knowledge.get("transcript_chunks", [])]
+    return "\n\n".join(chunk_texts)

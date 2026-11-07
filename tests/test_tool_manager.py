@@ -1,7 +1,7 @@
 import pytest
 from mcp.types import CallToolResult, TextContent
 
-from knowledge.mcp_manager import parse_tool_result
+from orchestrator.tool_manager import parse_tool_result
 
 # --- parse_tool_result() tests ---
 

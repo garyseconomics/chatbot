@@ -2,6 +2,7 @@ from langfuse import get_client, observe
 from mcp import Client, Implementation
 
 from config import settings
+from orchestrator.tools_info import EXCLUDED_TOOL_NAMES, WRITE_ANSWER_TOOL
 
 
 def parse_tool_result(result) -> dict:
@@ -11,12 +12,19 @@ def parse_tool_result(result) -> dict:
     return result.structured_content
 
 
+def format_tool_result(tool_result) -> str:
+    """The tool's result as text, for the orchestrator AI's tool message."""
+    # Only the text goes to the orchestrator AI for now, not the video_id
+    chunk_texts = [chunk["text"] for chunk in tool_result.get("transcript_chunks", [])]
+    return "\n\n".join(chunk_texts)
+
+
 def get_client_info(client_type) -> Implementation:
     # The MCP server records the client name (e.g. telegram_chatbot) in its traces.
     return Implementation(name=f"{client_type}_chatbot", version=settings.app_version)
 
 
-async def list_tools(client_type) -> list[dict]:
+async def list_mcp_tools(client_type) -> list[dict]:
     """Get the MCP server's tools, in the format the LLM expects (name, description, parameters)."""
     async with Client(settings.mcp_server_url, client_info=get_client_info(client_type)) as client:
         result = await client.list_tools()
@@ -26,7 +34,15 @@ async def list_tools(client_type) -> list[dict]:
     ]
 
 
-# A span of its own in the trace, so its input (the query) and output (what the tool
+async def get_tools_list(client_type) -> list[dict]:
+    """The tools the orchestrator AI can call: the MCP server's tools (except the excluded
+    ones) and write_answer."""
+    mcp_tools = await list_mcp_tools(client_type)
+    allowed_tools = [tool for tool in mcp_tools if tool["name"] not in EXCLUDED_TOOL_NAMES]
+    return allowed_tools + [WRITE_ANSWER_TOOL]
+
+
+# A span of its own in the trace, so its input (the arguments) and output (what the tool
 # returned) can be checked for each tool call.
 @observe(
     name="call_tool",
