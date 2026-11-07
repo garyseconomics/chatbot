@@ -8,7 +8,6 @@ def parse_tool_result(result) -> dict:
     """Return the tool's result object, or raise if it reported an error."""
     if result.is_error:
         raise RuntimeError(f"MCP tool error: {result.content[0].text}")
-    # Every tool returns one object, e.g. the RAG: {"answer": ..., "transcript_chunks": [...]}
     return result.structured_content
 
 

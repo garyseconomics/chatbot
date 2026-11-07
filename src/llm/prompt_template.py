@@ -14,14 +14,6 @@ def get_chunk_texts(knowledge) -> list[str]:
     return [chunk["text"] for chunk in knowledge.get("transcript_chunks", [])]
 
 
-def add_draft_to_context(knowledge, draft) -> str:
-    prompt_context = get_chunk_texts(knowledge)
-    # No draft when the RAG wasn't called in this turn
-    if draft is not None:
-        prompt_context.append(f"A draft answer written from the transcripts:\n{draft}")
-    return "\n\n".join(prompt_context)
-
-
 def prepare_orchestrator_prompt(conversation, knowledge) -> list:
     """Prepare the orchestrator AI's prompt: its instructions with the knowledge collected so
     far, then the conversation."""
@@ -40,10 +32,10 @@ def get_rag_prompt():
     return prompt
 
 
-def prepare_prompt_with_conversation(conversation, knowledge, draft) -> list:
+def prepare_prompt_with_conversation(conversation, knowledge) -> list:
     """Prepare the prompt with the conversation with the user."""
     last_message = conversation[-1].content
-    prompt_context = add_draft_to_context(knowledge, draft)
+    prompt_context = "\n\n".join(get_chunk_texts(knowledge))
     prompt = get_rag_prompt().format_messages(question=last_message, context=prompt_context)
     # The earlier turns go before the prompt as chat messages, so the model sees who said what.
     earlier_turns = conversation[:-1]
