@@ -4,9 +4,9 @@ services:
     build: .
     env_file:
       - .env
-    restart: unless-stopped
     volumes:
-      - ./content_database/data:/app/content_database/data
+      - ./providers.json:/app/providers.json:ro
+    restart: unless-stopped
     command: ["python", "-m", "interfaces.telegram_bot"]
     tty: true
 
@@ -15,8 +15,8 @@ services:
     build: .
     env_file:
       - .env
-    restart: unless-stopped
     volumes:
-      - ./content_database/data:/app/content_database/data
+      - ./providers.json:/app/providers.json:ro
+    restart: unless-stopped
     command: ["python", "-m", "interfaces.discord_bot"]
     tty: true

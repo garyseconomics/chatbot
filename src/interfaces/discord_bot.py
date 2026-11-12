@@ -9,14 +9,18 @@ logging.getLogger("discord.client").addFilter(
 
 import discord  # noqa: E402
 from discord.ext import commands  # noqa: E402
+from langchain_core.messages import HumanMessage  # noqa: E402
 
 from config import settings  # noqa: E402
 from interfaces.chunker import discord_bot_chunker  # noqa: E402
-from rag.rag_manager import RAG_query  # noqa: E402
+from orchestrator.orchestrator import answer_question  # noqa: E402
 
 logger = logging.getLogger(__name__)
 
 THINKING_INTERVAL = 30  # seconds between thinking indicators
+
+# Conversation and knowledge of each channel and DM, by id (in memory only)
+chat_memories = {}
 
 
 def should_respond(author_id, bot_id, is_dm, is_mentioned, channel_name) -> bool:
@@ -33,6 +37,20 @@ def should_respond(author_id, bot_id, is_dm, is_mentioned, channel_name) -> bool
 def strip_bot_mention(content, bot_id) -> str:
     """Remove the bot's @mention from message text."""
     return content.replace(f"<@{bot_id}>", "").strip()
+
+
+def get_conversation_id(message) -> int:
+    """Return the id that identifies the conversation this message belongs to."""
+    if message.guild:
+        # Channels keep one conversation each, shared by everyone in the channel
+        return message.channel.id
+    # DMs keep one conversation per user
+    return message.author.id
+
+
+def get_chat_memory(conversation_id) -> dict:
+    """Return the memory of this conversation, creating an empty one the first time."""
+    return chat_memories.setdefault(conversation_id, {"conversation": [], "knowledge": {}})
 
 
 async def wait_with_thinking(channel, task, interval):
@@ -54,18 +72,24 @@ async def wait_with_thinking(channel, task, interval):
 
 
 async def handle_message(message, bot_user) -> None:
-    """Process a user message: run RAG and send the answer, chunked if needed."""
+    """Process a user message: get the answer and send it, chunked if needed."""
     try:
         clean_message = strip_bot_mention(message.content, bot_user.id)
         logger.debug("Message received: %s", clean_message)
-        user_id = f"discord:{message.author.id}"
 
-        rag_task = asyncio.create_task(RAG_query(clean_message, user_id=user_id))
+        chat_memory = get_chat_memory(get_conversation_id(message))
+        chat_memory["conversation"].append(HumanMessage(content=clean_message))
 
-        await wait_with_thinking(message.channel, rag_task, THINKING_INTERVAL)
-        rag_answer = rag_task.result()["answer"]
-        logger.debug("RAG answer: %s", rag_answer)
-        for chunk in discord_bot_chunker.chunk(rag_answer):
+        task = asyncio.create_task(
+            answer_question(
+                chat_memory["conversation"], chat_memory["knowledge"], client_type="discord"
+            )
+        )
+
+        await wait_with_thinking(message.channel, task, THINKING_INTERVAL)
+        answer = task.result()
+        logger.debug("Answer: %s", answer)
+        for chunk in discord_bot_chunker.chunk(answer):
             await message.channel.send(chunk.text)
     except Exception:
         logger.exception("Failed to handle message")

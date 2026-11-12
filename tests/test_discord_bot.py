@@ -6,12 +6,38 @@ import pytest
 
 from config import settings
 from interfaces.discord_bot import (
+    get_chat_memory,
     handle_message,
     send_greeting,
     should_respond,
     strip_bot_mention,
     wait_with_thinking,
 )
+
+# --- get_chat_memory ---
+
+
+def test_get_chat_memory_returns_the_same_memory_for_the_same_conversation(monkeypatch):
+    """What is stored in a conversation's memory is still there on its next message."""
+    # Start with no memories, so other tests don't affect this one
+    monkeypatch.setattr("interfaces.discord_bot.chat_memories", {})
+    first_memory = get_chat_memory(111)
+    first_memory["conversation"].append("What is wealth?")
+
+    second_memory = get_chat_memory(111)
+
+    assert second_memory["conversation"] == ["What is wealth?"]
+
+
+def test_get_chat_memory_keeps_conversations_separate(monkeypatch):
+    """Each conversation id has its own memory."""
+    monkeypatch.setattr("interfaces.discord_bot.chat_memories", {})
+    get_chat_memory(111)["conversation"].append("What is wealth?")
+
+    other_memory = get_chat_memory(222)
+
+    assert other_memory == {"conversation": [], "knowledge": {}}
+
 
 # --- should_respond ---
 
@@ -116,7 +142,7 @@ def test_strips_only_bot_mention_not_other_users():
 
 @pytest.mark.asyncio
 async def test_no_thinking_for_fast_task():
-    """When RAG responds quickly, no thinking indicator should be sent."""
+    """When the answer comes quickly, no thinking indicator should be sent."""
     channel = AsyncMock()
 
     async def fast():
@@ -131,7 +157,7 @@ async def test_no_thinking_for_fast_task():
 
 @pytest.mark.asyncio
 async def test_thinking_message_sent_for_slow_task():
-    """When RAG takes longer than the interval, a visible 'Thinking...' message is sent."""
+    """When the answer takes longer than the interval, a visible 'Thinking...' message is sent."""
     channel = AsyncMock()
 
     async def slow():
@@ -210,10 +236,8 @@ def _make_bot_user():
 
 @pytest.mark.asyncio
 async def test_handle_message_sends_answer(monkeypatch):
-    mock_rag = AsyncMock(
-        return_value={"answer": "Wealth is...", "context": [], "question": "What is wealth?"}
-    )
-    monkeypatch.setattr("interfaces.discord_bot.RAG_query", mock_rag)
+    mock_answer = AsyncMock(return_value="Wealth is...")
+    monkeypatch.setattr("interfaces.discord_bot.answer_question", mock_answer)
 
     message = _make_message()
     await handle_message(message, _make_bot_user())
@@ -225,10 +249,8 @@ async def test_handle_message_sends_answer(monkeypatch):
 @pytest.mark.asyncio
 async def test_handle_message_long_answer_is_chunked(monkeypatch):
     answer = Path("./tests/test-data/long-answer.md").read_text()
-    mock_rag = AsyncMock(
-        return_value={"answer": answer, "context": [], "question": "test"}
-    )
-    monkeypatch.setattr("interfaces.discord_bot.RAG_query", mock_rag)
+    mock_answer = AsyncMock(return_value=answer)
+    monkeypatch.setattr("interfaces.discord_bot.answer_question", mock_answer)
 
     message = _make_message()
     await handle_message(message, _make_bot_user())
@@ -244,7 +266,7 @@ async def test_handle_message_long_answer_is_chunked(monkeypatch):
 @pytest.mark.asyncio
 async def test_handle_message_sends_error_on_failure(monkeypatch):
     monkeypatch.setattr(
-        "interfaces.discord_bot.RAG_query", AsyncMock(side_effect=RuntimeError("boom"))
+        "interfaces.discord_bot.answer_question", AsyncMock(side_effect=RuntimeError("boom"))
     )
 
     message = _make_message()

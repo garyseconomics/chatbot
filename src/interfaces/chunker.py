@@ -1,4 +1,5 @@
 from chonkie import SentenceChunker
+
 from config import settings
 
 telegram_bot_chunker = SentenceChunker(

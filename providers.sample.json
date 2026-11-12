@@ -1,0 +1,14 @@
+{
+    "ollama_local": {
+        "type": "ollama",
+        "url": "http://localhost:11434",
+        "api_key_env": null,
+        "chat_model": "qwen3:4b"
+    },
+    "ollama_cloud": {
+        "type": "ollama",
+        "url": "https://ollama.com",
+        "api_key_env": "OLLAMA_CLOUD_API_KEY",
+        "chat_model": "gemma4:latest"
+    }
+}

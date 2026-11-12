@@ -6,17 +6,27 @@ from langchain_ollama import ChatOllama
 from config import settings
 from llm.llm_manager import LLM_Client
 
+# The use_test_provider fixture in conftest.py makes every test use only this provider,
+# unless the test sets its own priority.
+TEST_PROVIDER = settings.test_chat_provider
+
+
+def provider_with_bad_model() -> dict:
+    """The test provider's settings with a nonexistent model: reachable, but ainvoke will fail."""
+    provider = settings.providers[TEST_PROVIDER].copy()
+    provider["chat_model"] = "nonexistent_model_12345"
+    return provider
+
 
 @pytest.mark.asyncio
-async def test_chat_simple_prompt(use_ollama_for_testing):
+async def test_chat_simple_prompt():
     client = LLM_Client()
     response = await client.chat(prompt="Hello", user_id="Test")
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
 
 
-
 @pytest.mark.asyncio
-async def test_chat_with_prompt_template(use_ollama_for_testing):
+async def test_chat_with_prompt_template():
     client = LLM_Client()
     prompt = ChatPromptTemplate.from_messages([("human", "Hello")])
     messages = prompt.invoke({"question": "Who are you?", "context": "You are an AI assistant."})
@@ -25,73 +35,28 @@ async def test_chat_with_prompt_template(use_ollama_for_testing):
 
 
 @pytest.mark.asyncio
-async def test_chat_local_ollama():
-    settings.chat_provider_priority = ["ollama_local"]
-    client = LLM_Client()
-    response = await client.chat(prompt="Hello", user_id="Test")
-    assert isinstance(response, langchain_core.messages.ai.AIMessage)
-
-
-@pytest.mark.asyncio
-async def test_chat_self_hosted_ollama():
-    settings.chat_provider_priority = ["ollama_self_hosted"]
-    client = LLM_Client()
-    response = await client.chat(prompt="Hello", user_id="Test")
-    assert isinstance(response, langchain_core.messages.ai.AIMessage)
-
-
-@pytest.mark.asyncio
-async def test_chat_ollama_cloud():
-    settings.chat_provider_priority = ["ollama_cloud"]
-    client = LLM_Client()
-    response = await client.chat(prompt="Hello", user_id="Test")
-    assert isinstance(response, langchain_core.messages.ai.AIMessage)
-
-
-@pytest.mark.asyncio
-async def test_chat_openrouter():
-    settings.chat_provider_priority = ["openrouter"]
-    client = LLM_Client()
-    response = await client.chat(prompt="Hello. I'm trying OpenRouter.", user_id="Test")
-    assert isinstance(response, langchain_core.messages.ai.AIMessage)
-
-
-@pytest.mark.asyncio
 async def test_chat_falls_back_on_invoke_error(monkeypatch):
     """When the first provider fails on ainvoke, chat() tries the next one."""
     # Add a bad provider: reachable server but nonexistent model → ainvoke will fail
     providers_with_bad = settings.providers
-    providers_with_bad["bad_provider"] = {
-        "type": "ollama",
-        "url": settings.providers["ollama_self_hosted"]["url"],
-        "api_key": None,
-        "chat_model": "nonexistent_model_12345",
-    }
+    providers_with_bad["bad_provider"] = provider_with_bad_model()
     # Temporarily replace the providers @property so it returns our dict with bad_provider
     monkeypatch.setattr(type(settings), "providers", property(lambda self: providers_with_bad))
-    settings.chat_provider_priority = ["bad_provider", "ollama_self_hosted"]
+    settings.chat_provider_priority = ["bad_provider", TEST_PROVIDER]
 
     client = LLM_Client()
     response = await client.chat(prompt="Hello", user_id="Test")
 
     assert isinstance(response, langchain_core.messages.ai.AIMessage)
-    assert client.chat_provider_name == "ollama_self_hosted"
+    assert client.chat_provider_name == TEST_PROVIDER
 
 
 @pytest.mark.asyncio
-async def test_provider_name_set_after_chat(use_ollama_for_testing):
+async def test_provider_name_set_after_chat():
     client = LLM_Client()
     assert client.chat_provider_name is None
     await client.chat(prompt="Hello", user_id="Test")
     assert client.chat_provider_name is not None
-
-
-def test_get_embeddings_model(use_ollama_for_testing):
-    client = LLM_Client()
-    embeddings = client.get_embeddings_model()
-    # Should return an embeddings object (we don't check the specific type
-    # so vector_database_manager doesn't need to know about OllamaEmbeddings)
-    assert hasattr(embeddings, "embed_query")
 
 
 @pytest.mark.asyncio
@@ -100,7 +65,6 @@ async def test_chat_raises_when_all_providers_unreachable(monkeypatch):
     # Make all hosts unreachable so every provider fails on availability
     always_unreachable = staticmethod(lambda host, timeout=3.0: False)
     monkeypatch.setattr(LLM_Client, "_is_host_reachable", always_unreachable)
-    settings.chat_provider_priority = ["ollama_local"]
 
     client = LLM_Client()
 
@@ -108,23 +72,16 @@ async def test_chat_raises_when_all_providers_unreachable(monkeypatch):
         await client.chat(prompt="Hello", user_id="Test")
 
     error_message = str(exc_info.value)
-    assert "ollama_local" in error_message
-    assert client.providers_errors["ollama_local"] == "Host unreachable"
+    assert TEST_PROVIDER in error_message
+    assert client.providers_errors[TEST_PROVIDER] == "Host unreachable"
     assert "Host unreachable" in error_message
 
 
 @pytest.mark.asyncio
 async def test_chat_raises_when_invoke_always_fails(monkeypatch):
     """ConnectionError is raised when providers are reachable but ainvoke always fails."""
-    # Use a reachable server but with a nonexistent model — ainvoke will return a 500 error
-    providers_all_bad = {
-        "bad_provider": {
-            "type": "ollama",
-            "url": settings.providers["ollama_self_hosted"]["url"],
-            "api_key": None,
-            "chat_model": "nonexistent_model_12345",
-        },
-    }
+    # Use a reachable server but with a nonexistent model — ainvoke will return an error
+    providers_all_bad = {"bad_provider": provider_with_bad_model()}
     monkeypatch.setattr(type(settings), "providers", property(lambda self: providers_all_bad))
     settings.chat_provider_priority = ["bad_provider"]
 
@@ -151,12 +108,7 @@ async def test_chat_reports_errors_from_all_providers(monkeypatch):
             "chat_model": "any_model",
         },
         # Reachable server but nonexistent model — ainvoke will fail
-        "bad_model_provider": {
-            "type": "ollama",
-            "url": settings.providers["ollama_self_hosted"]["url"],
-            "api_key": None,
-            "chat_model": "nonexistent_model_12345",
-        },
+        "bad_model_provider": provider_with_bad_model(),
     }
     monkeypatch.setattr(type(settings), "providers", property(lambda self: providers_mixed))
     settings.chat_provider_priority = ["unreachable_provider", "bad_model_provider"]
@@ -172,7 +124,9 @@ async def test_chat_reports_errors_from_all_providers(monkeypatch):
     assert "bad_model_provider" in error_message
     # Verify each provider got the right type of error
     assert client.providers_errors["unreachable_provider"] == "Host unreachable"
-    expected_model_error = "model 'nonexistent_model_12345' not found (status code: 404)"
+    # The error differs by provider type, so only the model name is checked:
+    # - Ollama: model 'nonexistent_model_12345' not found (status code: 404)
+    # - OpenAI-compatible: The model 'ollama/nonexistent_model_12345' does not exist. (404)
     assert "nonexistent_model_12345" in client.providers_errors["bad_model_provider"]
     assert "nonexistent_model_12345" in error_message
 
@@ -183,9 +137,17 @@ def test_get_chat_model_returns_ollama_for_ollama_type(monkeypatch):
     """If the provider type is 'ollama', get_chat_model() returns a ChatOllama instance."""
     always_reachable = staticmethod(lambda host, timeout=3.0: True)
     monkeypatch.setattr(LLM_Client, "_is_host_reachable", always_reachable)
-    settings.chat_provider_priority = ["ollama_local"]
+    # A provider defined here, so the test doesn't depend on which providers are configured
+    ollama_provider = {
+        "ollama_provider": {
+            "type": "ollama",
+            "url": "http://localhost:1",
+            "api_key": None,
+            "chat_model": "any_model",
+        },
+    }
+    monkeypatch.setattr(type(settings), "providers", property(lambda self: ollama_provider))
+    settings.chat_provider_priority = ["ollama_provider"]
     client = LLM_Client()
     model = client.get_chat_model()
     assert isinstance(model, ChatOllama)
-
-# {"detail":{"error":{"message":"The model 'ollama/nonexistent_model_12345' does not exist.","type":"invalid_request_error","param":"model","code":"model_not_found"}}} (status code: 404)

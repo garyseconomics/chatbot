@@ -1,12 +1,12 @@
 import logging
 
+from langchain_core.messages import HumanMessage
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 
 from config import settings
 from interfaces.chunker import telegram_bot_chunker
-from rag.rag_manager import RAG_query
-from rag.video_links import get_video_link, videos_text_for_chat
+from orchestrator.orchestrator import answer_question
 
 logger = logging.getLogger(__name__)
 
@@ -20,15 +20,12 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 async def question(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     try:
         question = update.message.text
-        user_id = f"telegram:{update.effective_user.id}"
-        rag_answer = await RAG_query(question, user_id=user_id)
-        answer = rag_answer["answer"]
-        video_links = get_video_link(rag_answer["context"])
-        if video_links:
-            video_text = videos_text_for_chat(video_links)
-            answer = f"{answer}\n\n{video_text}"
-        logger.debug("RAG answer: %s", rag_answer)
-        logger.debug("Video links: %s", video_links)
+        # chat_data is a dict that python-telegram-bot keeps for each chat (in memory only).
+        conversation = context.chat_data.setdefault("conversation", [])
+        knowledge = context.chat_data.setdefault("knowledge", {})
+        conversation.append(HumanMessage(content=question))
+        answer = await answer_question(conversation, knowledge, client_type="telegram")
+        logger.debug("Answer: %s", answer)
         for chunk in telegram_bot_chunker.chunk(answer):
             await context.bot.send_message(chat_id=update.effective_chat.id, text=chunk.text)
 
