@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 
 from config import settings
 from interfaces.chunker import telegram_bot_chunker
-from mcp_client.mcp_manager import answer_question
+from orchestrator.orchestrator import answer_question
 
 logger = logging.getLogger(__name__)
 

@@ -13,7 +13,7 @@ from langchain_core.messages import HumanMessage  # noqa: E402
 
 from config import settings  # noqa: E402
 from interfaces.chunker import discord_bot_chunker  # noqa: E402
-from mcp_client.mcp_manager import answer_question  # noqa: E402
+from orchestrator.orchestrator import answer_question  # noqa: E402
 
 logger = logging.getLogger(__name__)
 

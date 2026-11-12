@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 
 class LLM_Client:
-    def __init__(self):
+    def __init__(self, tools=None):
         # Set after a successful chat() call to the provider that worked.
         # None means no successful call has been made yet.
         self.chat_provider_name = None
@@ -25,6 +25,8 @@ class LLM_Client:
         self.providers_errors = {}
         self.connection_attempts = 0
         self.max_attempts = len(settings.providers) * 3
+        # Tools the model can ask to call.
+        self.tools = tools
 
     # Connection with providers
     @staticmethod
@@ -116,6 +118,9 @@ class LLM_Client:
         elif provider["type"] == "openai":
             kwargs["api_key"] = provider["api_key"]
             self.chat_model = ChatOpenAI(**kwargs)
+        # bind_tools() returns a model that sends the tools' descriptions with every call.
+        if self.tools:
+            self.chat_model = self.chat_model.bind_tools(self.tools)
         return self.chat_model
 
     # Calling the LLM
