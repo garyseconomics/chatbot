@@ -23,7 +23,7 @@ chatbot/
 │   ├── llm/                       # LLM client management
 │   │   ├── llm_manager.py         #   Multi-provider Ollama wrapper (priority-based fallback)
 │   │   ├── prompt_template.py     #   Builds the orchestrator AI's and the chat AI's prompts
-│   │   └── prompt_versions.py     #   Prompt texts (chatbot prompt v1–v4+, orchestrator prompt)
+│   │   └── prompt_versions.py     #   Prompt texts (chat AI prompt v5+, orchestrator AI prompt)
 │   └── config.py               # Central configuration (pydantic-settings)
 ├── tests/                  # pytest test suite
 ├── plan/                   # Project plans and reports

@@ -18,7 +18,7 @@ def get_orchestrator_prompt(conversation, knowledge_text) -> list:
 
 
 def get_chat_prompt_template() -> ChatPromptTemplate:
-    prompt = ChatPromptTemplate.from_messages([("human", CHAT_PROMPT_TEXT)])
+    prompt = ChatPromptTemplate.from_messages([("system", CHAT_PROMPT_TEXT)])
     # Checks if the prompt uses {current_datetime}
     if "{current_datetime}" in CHAT_PROMPT_TEXT:
         now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -27,13 +27,7 @@ def get_chat_prompt_template() -> ChatPromptTemplate:
 
 
 def get_chat_prompt(conversation, knowledge_text) -> list:
-    """The chat AI's prompt: the previous messages of the conversation, then the instructions
-    with the knowledge and the last message from the user."""
-    last_message = conversation[-1].content
-    prompt = get_chat_prompt_template().format_messages(
-        question=last_message, context=knowledge_text
-    )
-    # The earlier turns go before the prompt as chat messages, so the model sees who said what.
-    earlier_turns = conversation[:-1]
-    prompt_with_conversation = earlier_turns + prompt
-    return prompt_with_conversation
+    """The chat AI's prompt: its instructions with the knowledge, then the conversation."""
+    instructions = get_chat_prompt_template().format_messages(context=knowledge_text)
+    # The conversation goes as it is, so the model sees who said what
+    return instructions + conversation
