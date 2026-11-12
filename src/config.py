@@ -132,6 +132,8 @@ class Settings(BaseSettings):
     # When true, only the allowed users below can use the bot.
     testing_mode: bool = False
     telegram_allowed_user_ids: list[int] = []
+    # Only for DMs: in the channel, the bot answers everyone.
+    discord_allowed_user_ids: list[int] = []
     # Sent to users who aren't on the list.
     bot_not_open_message: str = "Sorry, this bot isn't open yet."
 

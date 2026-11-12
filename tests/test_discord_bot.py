@@ -128,6 +128,7 @@ def test_ignores_mention_in_other_channel(monkeypatch):
 def test_responds_to_dm_without_mention(monkeypatch):
     """In DMs, the bot responds to any message without requiring an @mention."""
     monkeypatch.setattr(settings, "discord_dms_enabled", True)
+    monkeypatch.setattr(settings, "testing_mode", False)
     message = _make_dm_message()
 
     respond = should_respond(message, _make_bot_user(), is_dm=True)
@@ -137,6 +138,7 @@ def test_responds_to_dm_without_mention(monkeypatch):
 
 def test_responds_to_dm_with_mention(monkeypatch):
     monkeypatch.setattr(settings, "discord_dms_enabled", True)
+    monkeypatch.setattr(settings, "testing_mode", False)
     bot_user = _make_bot_user()
     message = _make_dm_message()
     message.mentions = [bot_user]
@@ -328,6 +330,7 @@ async def test_handle_message_sends_error_on_failure(monkeypatch):
 async def test_bot_refuses_dms_when_dms_are_disabled(monkeypatch):
     # DISCORD_DMS_ENABLED not set in .env: DMs are off
     monkeypatch.setattr(settings, "discord_dms_enabled", None)
+    monkeypatch.setattr(settings, "testing_mode", False)
     mock_answer = _fake_answer(monkeypatch)
 
     message = _make_dm_message()
@@ -341,6 +344,7 @@ async def test_bot_refuses_dms_when_dms_are_disabled(monkeypatch):
 @pytest.mark.asyncio
 async def test_dm_gets_an_answer_when_dms_are_on(monkeypatch):
     monkeypatch.setattr(settings, "discord_dms_enabled", True)
+    monkeypatch.setattr(settings, "testing_mode", False)
     _fake_answer(monkeypatch, answer="Wealth is...")
 
     message = _make_dm_message()
@@ -348,3 +352,43 @@ async def test_dm_gets_an_answer_when_dms_are_on(monkeypatch):
 
     sent_text = message.channel.send.call_args.args[0]
     assert "Wealth is..." in sent_text
+
+
+@pytest.mark.asyncio
+async def test_dm_from_user_not_on_the_list_is_turned_away_in_testing_mode(monkeypatch):
+    monkeypatch.setattr(settings, "discord_dms_enabled", True)
+    monkeypatch.setattr(settings, "testing_mode", True)
+    monkeypatch.setattr(settings, "discord_allowed_user_ids", [999])
+    mock_answer = _fake_answer(monkeypatch)
+
+    message = _make_dm_message(author_id=456)
+    await process_message(message, _make_bot_user())
+
+    message.channel.send.assert_called_once_with(settings.discord_dms_off_message)
+    mock_answer.assert_not_called()
+
+
+@pytest.mark.asyncio
+async def test_dm_from_user_on_the_list_gets_an_answer_in_testing_mode(monkeypatch):
+    monkeypatch.setattr(settings, "discord_dms_enabled", True)
+    monkeypatch.setattr(settings, "testing_mode", True)
+    monkeypatch.setattr(settings, "discord_allowed_user_ids", [456])
+    _fake_answer(monkeypatch, answer="Wealth is...")
+
+    message = _make_dm_message(author_id=456)
+    await process_message(message, _make_bot_user())
+
+    sent_text = message.channel.send.call_args.args[0]
+    assert "Wealth is..." in sent_text
+
+
+@pytest.mark.asyncio
+async def test_bot_does_not_reply_to_its_own_dm_when_dms_are_off(monkeypatch):
+    """Replying to its own "no DMs" message would make the bot reply to itself forever."""
+    monkeypatch.setattr(settings, "discord_dms_enabled", False)
+    monkeypatch.setattr(settings, "testing_mode", False)
+
+    message = _make_dm_message(author_id=BOT_ID)
+    await process_message(message, _make_bot_user())
+
+    message.channel.send.assert_not_called()

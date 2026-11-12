@@ -23,6 +23,12 @@ THINKING_INTERVAL = 30  # seconds between thinking indicators
 chat_memories = {}
 
 
+def is_allowed_user(user_id) -> bool:
+    if not settings.testing_mode:
+        return True
+    return user_id in settings.discord_allowed_user_ids
+
+
 def should_respond(message, bot_user, is_dm) -> bool:
     """Decide whether the bot should respond to this message."""
     # The bot doesn't answer its own messages
@@ -34,7 +40,7 @@ def should_respond(message, bot_user, is_dm) -> bool:
     if is_mentioned and channel_name == settings.discord_channel:
         return True
     # A direct message, and DMs are on
-    if is_dm and settings.discord_dms_enabled:
+    if is_dm and settings.discord_dms_enabled and is_allowed_user(message.author.id):
         return True
     return False
 
@@ -101,16 +107,39 @@ async def handle_message(message, bot_user) -> None:
         await message.channel.send(settings.error_messages["DefaultError"])
 
 
+def should_turn_away(user_id, bot_id) -> bool:
+    # The bot doesn't answer its own messages
+    if user_id == bot_id:
+        return False
+    # In testing mode, only the allowed users can use DMs
+    if not is_allowed_user(user_id):
+        return True
+    if not settings.discord_dms_enabled:
+        return True
+    return False
+
+
+async def turn_away(message) -> None:
+    """Tell the user the bot doesn't answer their DMs, and log who they are."""
+    if settings.testing_mode:
+        # Logged so we can add team members to the list by hand.
+        logger.warning(
+            "User not allowed: id=%s name=%s username=%s",
+            message.author.id,
+            message.author.display_name,
+            message.author.name,
+        )
+    await message.channel.send(settings.discord_dms_off_message)
+
+
 async def process_message(message, bot_user) -> None:
-    """Answer the message, turn it away (DMs off) or ignore it."""
+    """Answer the message, turn it away or ignore it."""
     is_dm = message.guild is None
     # Answer the message if the bot should
     if should_respond(message, bot_user, is_dm):
         await handle_message(message, bot_user)
-        return
-    # A direct message while DMs are off
-    if is_dm and message.author.id != bot_user.id and not settings.discord_dms_enabled:
-        await message.channel.send(settings.discord_dms_off_message)
+    elif is_dm and should_turn_away(message.author.id, bot_user.id):
+        await turn_away(message)
 
 
 async def send_greeting(text_channels):
