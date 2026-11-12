@@ -16,12 +16,14 @@ logger = logging.getLogger(__name__)
 async def retrieve_info(conversation, knowledge, client_type) -> None:
     """The orchestrator AI: collect the information to answer the last question, and add it
     to the knowledge."""
+    if not settings.max_tool_rounds:
+        return
     tools = await get_tools_list(client_type)
     orchestrator_ai = LLM_Client(tools=tools)
     # Initialize the orchestrator AI messages with the prompt
     messages = get_orchestrator_prompt(conversation, knowledge_to_text(knowledge))
-    # Loop: the orchestrator AI calls tools until it calls write_answer (no cap for now)
-    while True:
+    # Loop: the orchestrator AI calls tools until it calls write_answer, or the cap is reached
+    for _ in range(settings.max_tool_rounds):
         response = await orchestrator_ai.chat(messages, user_id=None)
         # Fallback: a plain-text reply (no tool call) counts as write_answer
         if not response.tool_calls:
@@ -36,6 +38,8 @@ async def retrieve_info(conversation, knowledge, client_type) -> None:
             # The orchestrator AI sees what the tool found, to decide whether it has enough
             tool_message = format_tool_result(tool_result)
             messages.append(ToolMessage(content=tool_message, tool_call_id=tool_call["id"]))
+    # Reached the tool cap without the orchestrator calling "write answer"
+    logger.warning("Reached the cap of %d tool rounds", settings.max_tool_rounds)    
 
 
 async def generate_answer(conversation, knowledge) -> str:

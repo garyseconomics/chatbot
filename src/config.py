@@ -108,6 +108,8 @@ class Settings(BaseSettings):
 
     # MCP server — read from MCP_SERVER_URL in .env
     mcp_server_url: str = ""
+    # How many times the orchestrator AI may call tools for one question.
+    max_tool_rounds: int = 5
 
     # App
     # Read from OTEL_SERVICE_NAME, so it must be set in .env, not here (see set_default_app_name)

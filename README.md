@@ -131,6 +131,7 @@ Then fill in the values. The available variables are:
 - `MCP_SERVER_URL` — Address of the [Gary's Economics MCP server](https://github.com/garyseconomics/MCP_server) the chatbot uses to answer questions, e.g. `http://127.0.0.1:8080/mcp` for a server running on your machine.
 
   > **Note:** this example works when you run the chatbot without Docker, or when you point `MCP_SERVER_URL` to a remote server. To run the chatbot with Docker, see [Setup with Docker](#setup-with-docker).
+- `MAX_TOOL_ROUNDS` — how many times the AI may call the MCP server's tools for one question before it has to answer, so it can't loop forever. Defaults to `5`. `0` turns the tools off: the bot answers from the conversation alone.
 
 ### Configure the LLM providers
 
