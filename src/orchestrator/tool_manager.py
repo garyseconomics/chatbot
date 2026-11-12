@@ -5,7 +5,7 @@ from langfuse import get_client, observe
 from mcp import Client, Implementation
 
 from config import settings
-from orchestrator.tools_info import EXCLUDED_TOOL_NAMES, KNOWN_RESULT_KEYS, WRITE_ANSWER_TOOL
+from orchestrator.tools_info import EXCLUDED_TOOL_NAMES, KNOWN_RESULT_KEYS, SELECT_INFO_TOOL
 
 logger = logging.getLogger(__name__)
 
@@ -50,11 +50,11 @@ async def list_mcp_tools(client_type) -> list[dict]:
 
 
 async def get_tools_list(client_type) -> list[dict]:
-    """The tools the orchestrator AI can call: the MCP server's tools (except the excluded
-    ones) and write_answer."""
+    """The tools the orchestrator AI can call: the allowed MCP server's tools
+    and the chatbot internal tools."""
     mcp_tools = await list_mcp_tools(client_type)
     allowed_tools = [tool for tool in mcp_tools if tool["name"] not in EXCLUDED_TOOL_NAMES]
-    return allowed_tools + [WRITE_ANSWER_TOOL]
+    return allowed_tools + [SELECT_INFO_TOOL]
 
 
 # A span of its own in the trace, so its input (the arguments) and output (what the tool

@@ -21,3 +21,8 @@ def knowledge_to_text(knowledge) -> str:
     # Only the text goes to the LLMs for now, not the video_id
     chunk_texts = [chunk["text"] for chunk in knowledge.get("transcript_chunks", [])]
     return "\n\n".join(chunk_texts)
+
+
+def select_info_for_answer(knowledge, arguments) -> dict:
+    """The information the chat AI gets to write the answer. For now, all the knowledge."""
+    return dict(knowledge)

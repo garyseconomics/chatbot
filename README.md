@@ -17,7 +17,7 @@ chatbot/
 │   ├── orchestrator/              # Decides how to answer each question
 │   │   ├── orchestrator.py        #   Orchestrator AI collects info, chat AI writes the answer
 │   │   ├── tool_manager.py        #   Lists and calls the MCP server's tools
-│   │   └── tools_info.py          #   The write_answer tool and the MCP tools left out
+│   │   └── tools_info.py          #   The select_info_for_answer tool and the MCP tools left out
 │   ├── knowledge/                 # What the chatbot retrieves to answer
 │   │   └── knowledge_manager.py   #   Keeps the retrieved transcripts, without duplicates
 │   ├── llm/                       # LLM client management

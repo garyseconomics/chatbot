@@ -267,8 +267,8 @@ ORCHESTRATOR_PROMPT_TEXT = (
     " with what they refer to in the earlier messages.\n"
     "- If no information is needed (e.g. a greeting, a thank you, or"
     " a question about the conversation itself), or you already have"
-    " enough, call write_answer.\n"
-    "- Always finish by calling write_answer.\n"
+    " enough, call select_info_for_answer.\n"
+    "- Always finish by calling select_info_for_answer.\n"
     "\n"
     "Information already collected in this conversation: {knowledge}"
 )

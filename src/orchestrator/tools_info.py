@@ -1,15 +1,15 @@
-# A tool handled by our own code, not the MCP server: the orchestrator AI calls it to hand
-# over to the chat AI, which writes the answer.
-WRITE_ANSWER_TOOL_NAME = "write_answer"
-WRITE_ANSWER_TOOL_DESCRIPTION = (
-    "Hand over to the chatbot, which writes the answer for the user"
-    " from the conversation and the information collected. Call it"
+# A tool handled by our own code, not the MCP server: the orchestrator AI calls it when it
+# has enough information. It selects the information the chat AI gets to write the answer.
+SELECT_INFO_TOOL_NAME = "select_info_for_answer"
+SELECT_INFO_TOOL_DESCRIPTION = (
+    "Select the information collected that the answer needs, and hand"
+    " over to the chatbot, which writes the answer for the user. Call it"
     " when no more information is needed."
 )
-# It has no arguments.
-WRITE_ANSWER_TOOL = {
-    "name": WRITE_ANSWER_TOOL_NAME,
-    "description": WRITE_ANSWER_TOOL_DESCRIPTION,
+# It has no arguments for now.
+SELECT_INFO_TOOL = {
+    "name": SELECT_INFO_TOOL_NAME,
+    "description": SELECT_INFO_TOOL_DESCRIPTION,
     "parameters": {"type": "object", "properties": {}},
 }
 
