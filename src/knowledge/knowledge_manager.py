@@ -10,7 +10,9 @@ def add_new_transcript_chunks(knowledge, transcript_chunks) -> dict:
 
 
 def store_new_knowledge(knowledge, tool_result) -> dict:
-    add_new_transcript_chunks(knowledge, tool_result["transcript_chunks"])
+    """Store the parts of a tool result the knowledge knows; ignore the rest."""
+    if "transcript_chunks" in tool_result:
+        add_new_transcript_chunks(knowledge, tool_result["transcript_chunks"])
     return knowledge
 
 

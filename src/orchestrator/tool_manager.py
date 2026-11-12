@@ -1,22 +1,37 @@
+import json
+import logging
+
 from langfuse import get_client, observe
 from mcp import Client, Implementation
 
 from config import settings
-from orchestrator.tools_info import EXCLUDED_TOOL_NAMES, WRITE_ANSWER_TOOL
+from orchestrator.tools_info import EXCLUDED_TOOL_NAMES, KNOWN_RESULT_KEYS, WRITE_ANSWER_TOOL
+
+logger = logging.getLogger(__name__)
 
 
 def parse_tool_result(result) -> dict:
     """Return the tool's result object, or raise if it reported an error."""
     if result.is_error:
         raise RuntimeError(f"MCP tool error: {result.content[0].text}")
+    # Our tools always send structured content (MCP_server#26); {} is only a crash guard
+    if not result.structured_content:
+        logger.warning("The tool sent no structured content")
+        return {}
     return result.structured_content
 
 
 def format_tool_result(tool_result) -> str:
     """The tool's result as text, for the orchestrator AI's tool message."""
     # Only the text goes to the orchestrator AI for now, not the video_id
-    chunk_texts = [chunk["text"] for chunk in tool_result.get("transcript_chunks", [])]
-    return "\n\n".join(chunk_texts)
+    if "transcript_chunks" in tool_result:
+        chunk_texts = [chunk["text"] for chunk in tool_result["transcript_chunks"]]
+        return "\n\n".join(chunk_texts)
+    # A result we don't know yet: the AI still sees it, even if the knowledge doesn't store it
+    unknown_keys = [key for key in tool_result if key not in KNOWN_RESULT_KEYS]
+    if unknown_keys:
+        logger.warning("Unknown tool result keys: %s", unknown_keys)
+    return json.dumps(tool_result)
 
 
 def get_client_info(client_type) -> Implementation:

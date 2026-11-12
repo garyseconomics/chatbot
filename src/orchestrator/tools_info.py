@@ -15,3 +15,7 @@ WRITE_ANSWER_TOOL = {
 
 # MCP tools the orchestrator AI doesn't get (the RAG: the chat AI writes the answer)
 EXCLUDED_TOOL_NAMES = ["retrieval_augmented_generation"]
+
+# The keys of the MCP tools' results that we know how to read (MCP_server#26: the same key
+# always holds the same type of content). More keys will come with the new tools.
+KNOWN_RESULT_KEYS = ["transcript_chunks"]

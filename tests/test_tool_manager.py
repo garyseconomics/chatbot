@@ -1,7 +1,9 @@
+import json
+
 import pytest
 from mcp.types import CallToolResult, TextContent
 
-from orchestrator.tool_manager import parse_tool_result
+from orchestrator.tool_manager import format_tool_result, parse_tool_result
 
 # --- parse_tool_result() tests ---
 
@@ -29,3 +31,25 @@ def test_parse_tool_result_raises_on_tool_error():
 
     with pytest.raises(RuntimeError):
         parse_tool_result(result)
+
+
+def test_parse_tool_result_returns_empty_dict_without_structured_content():
+    """A tool that sends no structured result must not crash the bot."""
+    result = CallToolResult(content=[TextContent(type="text", text="Plain text only.")])
+
+    tool_result = parse_tool_result(result)
+
+    assert tool_result == {}
+
+
+# --- format_tool_result() tests ---
+
+
+def test_format_tool_result_sends_unknown_results_as_json():
+    """The orchestrator AI still sees what a tool found, even when the result's keys are
+    unknown and it isn't stored in the knowledge."""
+    tool_result = {"new_tool": [{"new_content_id": "abc123", "title": "Why rents go up"}]}
+
+    text = format_tool_result(tool_result)
+
+    assert text == json.dumps(tool_result)
