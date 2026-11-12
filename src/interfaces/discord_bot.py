@@ -23,13 +23,18 @@ THINKING_INTERVAL = 30  # seconds between thinking indicators
 chat_memories = {}
 
 
-def should_respond(author_id, bot_id, is_dm, is_mentioned, channel_name) -> bool:
+def should_respond(message, bot_user, is_dm) -> bool:
     """Decide whether the bot should respond to this message."""
-    if author_id == bot_id:
+    # The bot doesn't answer its own messages
+    if message.author.id == bot_user.id:
         return False
-    if is_dm:
-        return True
+    # The bot is mentioned in the configured channel
+    is_mentioned = bot_user in message.mentions
+    channel_name = getattr(message.channel, "name", None)
     if is_mentioned and channel_name == settings.discord_channel:
+        return True
+    # A direct message, and DMs are on
+    if is_dm and settings.discord_dms_enabled:
         return True
     return False
 
@@ -96,11 +101,29 @@ async def handle_message(message, bot_user) -> None:
         await message.channel.send(settings.error_messages["DefaultError"])
 
 
+async def process_message(message, bot_user) -> None:
+    """Answer the message, turn it away (DMs off) or ignore it."""
+    is_dm = message.guild is None
+    # Answer the message if the bot should
+    if should_respond(message, bot_user, is_dm):
+        await handle_message(message, bot_user)
+        return
+    # A direct message while DMs are off
+    if is_dm and message.author.id != bot_user.id and not settings.discord_dms_enabled:
+        await message.channel.send(settings.discord_dms_off_message)
+
+
 async def send_greeting(text_channels):
     """Find the configured channel and send the greeting message."""
+    # Channels are off
+    if not settings.discord_channel:
+        return
     channel = discord.utils.get(text_channels, name=settings.discord_channel)
     if channel is None:
-        logger.error("Channel '%s' not found", settings.discord_channel)
+        logger.warning(
+            "Channel '%s' not found: the bot won't answer in any channel",
+            settings.discord_channel,
+        )
         return
     await channel.send(settings.bot_greeting)
 
@@ -131,18 +154,11 @@ class DiscordClient:
 
         @self.bot.event
         async def on_message(message):
-            if not should_respond(
-                author_id=message.author.id,
-                bot_id=self.bot.user.id,
-                is_dm=message.guild is None,
-                is_mentioned=self.bot.user in message.mentions,
-                channel_name=getattr(message.channel, "name", None),
-            ):
-                return
-
-            await handle_message(message, self.bot.user)
+            await process_message(message, self.bot.user)
 
     def run(self):
+        if settings.discord_dms_enabled is None:
+            logger.warning("DISCORD_DMS_ENABLED is not set: the bot won't answer DMs")
         logger.info("Connecting Discord...")
         self.bot.run(self.discord_token)
 

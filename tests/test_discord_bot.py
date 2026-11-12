@@ -8,6 +8,7 @@ from config import settings
 from interfaces.discord_bot import (
     get_chat_memory,
     handle_message,
+    process_message,
     send_greeting,
     should_respond,
     strip_bot_mention,
@@ -39,69 +40,109 @@ def test_get_chat_memory_keeps_conversations_separate(monkeypatch):
     assert other_memory == {"conversation": [], "knowledge": {}}
 
 
+# --- Fake Discord objects ---
+
+BOT_ID = 123
+
+
+def _make_bot_user():
+    bot_user = MagicMock()
+    bot_user.id = BOT_ID
+    return bot_user
+
+
+def _make_message(
+    text="What is wealth?", author_id=456, mentions=None, channel_name="youtube-chatbot"
+):
+    """A message in a server channel."""
+    message = AsyncMock()
+    message.content = text
+    message.author.id = author_id
+    message.mentions = mentions or []
+    message.guild = MagicMock()
+    message.channel = AsyncMock()
+    message.channel.name = channel_name
+    return message
+
+
+def _make_dm_message(text="What is wealth?", author_id=456):
+    message = _make_message(text, author_id)
+    # Discord messages have no guild in DMs, and DM channels have no name
+    message.guild = None
+    message.channel.name = None
+    return message
+
+
 # --- should_respond ---
 
 
 def test_ignores_own_messages():
     """The bot should not respond to its own messages to avoid infinite loops."""
-    respond = should_respond(
-        author_id=123, bot_id=123, is_dm=False, is_mentioned=False,
-        channel_name="youtube-chatbot",
-    )
+    message = _make_message(author_id=BOT_ID)
+
+    respond = should_respond(message, _make_bot_user(), is_dm=False)
+
     assert respond is False
 
 
-def test_ignores_own_messages_in_dm():
-    respond = should_respond(
-        author_id=123, bot_id=123, is_dm=True, is_mentioned=False,
-        channel_name=None,
-    )
+def test_ignores_own_messages_in_dm(monkeypatch):
+    monkeypatch.setattr(settings, "discord_dms_enabled", True)
+    message = _make_dm_message(author_id=BOT_ID)
+
+    respond = should_respond(message, _make_bot_user(), is_dm=True)
+
     assert respond is False
 
 
-def test_ignores_guild_messages_without_mention():
+def test_ignores_guild_messages_without_mention(monkeypatch):
     """In guild channels, the bot only responds when explicitly @mentioned."""
-    settings.discord_channel = "youtube-chatbot"
-    respond = should_respond(
-        author_id=999, bot_id=123, is_dm=False, is_mentioned=False,
-        channel_name="youtube-chatbot",
-    )
+    monkeypatch.setattr(settings, "discord_channel", "youtube-chatbot")
+    message = _make_message(channel_name="youtube-chatbot")
+
+    respond = should_respond(message, _make_bot_user(), is_dm=False)
+
     assert respond is False
 
 
-def test_responds_when_mentioned_in_allowed_channel():
-    settings.discord_channel = "youtube-chatbot"
-    respond = should_respond(
-        author_id=999, bot_id=123, is_dm=False, is_mentioned=True,
-        channel_name="youtube-chatbot",
-    )
+def test_responds_when_mentioned_in_allowed_channel(monkeypatch):
+    monkeypatch.setattr(settings, "discord_channel", "youtube-chatbot")
+    bot_user = _make_bot_user()
+    message = _make_message(mentions=[bot_user], channel_name="youtube-chatbot")
+
+    respond = should_respond(message, bot_user, is_dm=False)
+
     assert respond is True
 
 
-def test_ignores_mention_in_other_channel():
+def test_ignores_mention_in_other_channel(monkeypatch):
     """The bot should ignore mentions in channels other than the allowed one."""
-    settings.discord_channel = "youtube-chatbot"
-    respond = should_respond(
-        author_id=999, bot_id=123, is_dm=False, is_mentioned=True,
-        channel_name="general",
-    )
+    monkeypatch.setattr(settings, "discord_channel", "youtube-chatbot")
+    bot_user = _make_bot_user()
+    message = _make_message(mentions=[bot_user], channel_name="general")
+
+    respond = should_respond(message, bot_user, is_dm=False)
+
     assert respond is False
 
 
-def test_responds_to_dm_without_mention():
+def test_responds_to_dm_without_mention(monkeypatch):
     """In DMs, the bot responds to any message without requiring an @mention."""
-    respond = should_respond(
-        author_id=999, bot_id=123, is_dm=True, is_mentioned=False,
-        channel_name=None,
-    )
+    monkeypatch.setattr(settings, "discord_dms_enabled", True)
+    message = _make_dm_message()
+
+    respond = should_respond(message, _make_bot_user(), is_dm=True)
+
     assert respond is True
 
 
-def test_responds_to_dm_with_mention():
-    respond = should_respond(
-        author_id=999, bot_id=123, is_dm=True, is_mentioned=True,
-        channel_name=None,
-    )
+def test_responds_to_dm_with_mention(monkeypatch):
+    monkeypatch.setattr(settings, "discord_dms_enabled", True)
+    bot_user = _make_bot_user()
+    message = _make_dm_message()
+    message.mentions = [bot_user]
+
+    respond = should_respond(message, bot_user, is_dm=True)
+
     assert respond is True
 
 
@@ -205,7 +246,7 @@ async def test_send_greeting_sends_to_matching_channel():
 
 
 @pytest.mark.asyncio
-async def test_send_greeting_does_nothing_when_channel_not_found():
+async def test_send_greeting_warns_when_channel_not_found(caplog):
     settings.discord_channel = "test-channel"
 
     channel = AsyncMock()
@@ -214,30 +255,36 @@ async def test_send_greeting_does_nothing_when_channel_not_found():
     await send_greeting([channel])
 
     channel.send.assert_not_called()
+    assert "WARNING" in caplog.text
+
+
+@pytest.mark.asyncio
+async def test_send_greeting_does_nothing_when_channels_are_off(monkeypatch, caplog):
+    """An empty DISCORD_CHANNEL turns channels off: no greeting and no warning."""
+    monkeypatch.setattr(settings, "discord_channel", "")
+
+    channel = AsyncMock()
+    channel.name = "youtube-chatbot"
+
+    await send_greeting([channel])
+
+    channel.send.assert_not_called()
+    assert caplog.text == ""
 
 
 # --- handle_message ---
 
 
-def _make_message(text="What is wealth?"):
-    message = AsyncMock()
-    message.content = text
-    message.author.id = 456
-    message.guild = MagicMock()
-    message.channel = AsyncMock()
-    return message
-
-
-def _make_bot_user():
-    bot_user = MagicMock()
-    bot_user.id = 123
-    return bot_user
+def _fake_answer(monkeypatch, answer="A fake answer."):
+    """Replace the orchestrator with a fake that always returns this answer."""
+    mock_answer = AsyncMock(return_value=answer)
+    monkeypatch.setattr("interfaces.discord_bot.answer_question", mock_answer)
+    return mock_answer
 
 
 @pytest.mark.asyncio
 async def test_handle_message_sends_answer(monkeypatch):
-    mock_answer = AsyncMock(return_value="Wealth is...")
-    monkeypatch.setattr("interfaces.discord_bot.answer_question", mock_answer)
+    _fake_answer(monkeypatch, answer="Wealth is...")
 
     message = _make_message()
     await handle_message(message, _make_bot_user())
@@ -249,8 +296,7 @@ async def test_handle_message_sends_answer(monkeypatch):
 @pytest.mark.asyncio
 async def test_handle_message_long_answer_is_chunked(monkeypatch):
     answer = Path("./tests/test-data/long-answer.md").read_text()
-    mock_answer = AsyncMock(return_value=answer)
-    monkeypatch.setattr("interfaces.discord_bot.answer_question", mock_answer)
+    _fake_answer(monkeypatch, answer)
 
     message = _make_message()
     await handle_message(message, _make_bot_user())
@@ -273,3 +319,32 @@ async def test_handle_message_sends_error_on_failure(monkeypatch):
     await handle_message(message, _make_bot_user())
 
     message.channel.send.assert_called_once_with(settings.error_messages["DefaultError"])
+
+
+# --- process_message ---
+
+
+@pytest.mark.asyncio
+async def test_bot_refuses_dms_when_dms_are_disabled(monkeypatch):
+    # DISCORD_DMS_ENABLED not set in .env: DMs are off
+    monkeypatch.setattr(settings, "discord_dms_enabled", None)
+    mock_answer = _fake_answer(monkeypatch)
+
+    message = _make_dm_message()
+    await process_message(message, _make_bot_user())
+
+    # The user is told the bot doesn't answer DMs, and no answer is generated
+    message.channel.send.assert_called_once_with(settings.discord_dms_off_message)
+    mock_answer.assert_not_called()
+
+
+@pytest.mark.asyncio
+async def test_dm_gets_an_answer_when_dms_are_on(monkeypatch):
+    monkeypatch.setattr(settings, "discord_dms_enabled", True)
+    _fake_answer(monkeypatch, answer="Wealth is...")
+
+    message = _make_dm_message()
+    await process_message(message, _make_bot_user())
+
+    sent_text = message.channel.send.call_args.args[0]
+    assert "Wealth is..." in sent_text
