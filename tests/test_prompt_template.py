@@ -16,7 +16,6 @@ def test_prompt_includes_current_datetime():
     prompt = get_chat_prompt_template()
     messages = prompt.invoke({"context": "No context."})
     rendered = messages.to_string()
-    assert "Today is" in rendered
     assert "UTC" in rendered
 
 

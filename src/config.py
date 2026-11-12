@@ -92,7 +92,7 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 
     # LLM settings
-    prompt_version: int = 5
+    prompt_version: int = 6
 
     # Provider priority — try providers in this order, use the first available one.
     # Read from CHAT_PROVIDER_PRIORITY in .env, written as a JSON list.
