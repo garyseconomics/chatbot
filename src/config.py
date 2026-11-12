@@ -127,6 +127,12 @@ class Settings(BaseSettings):
     )
     discord_channel: str = "youtube-chatbot"
 
+    # Read from TESTING_MODE. When true, only the allowed users below can use the bot.
+    testing_mode: bool = False
+    telegram_allowed_user_ids: list[int] = []
+    # Sent to users who aren't on the list.
+    bot_not_open_message: str = "Sorry, this bot isn't open yet."
+
     # User-facing error messages — keyed by exception class name.
     error_messages: dict[str, str] = {
         "ConnectionError": "I can't reach the AI service right now. Please try again later.",

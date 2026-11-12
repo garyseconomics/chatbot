@@ -30,8 +30,9 @@ def _make_context() -> MagicMock:
 
 
 @pytest.mark.asyncio
-async def test_start_sends_greeting():
+async def test_start_sends_greeting(monkeypatch):
     """The /start handler runs without errors."""
+    monkeypatch.setattr(settings, "testing_mode", False)
     update = _make_update()
     context = _make_context()
 
@@ -47,6 +48,7 @@ async def test_start_sends_greeting():
 @pytest.mark.asyncio
 async def test_question_runs_without_errors(monkeypatch):
     """The question handler runs end-to-end without crashing."""
+    monkeypatch.setattr(settings, "testing_mode", False)
     mock_answer = AsyncMock(return_value="Wealth is...")
     monkeypatch.setattr("interfaces.telegram_bot.answer_question", mock_answer)
 
@@ -61,6 +63,7 @@ async def test_question_runs_without_errors(monkeypatch):
 @pytest.mark.asyncio
 async def test_question_runs_without_errors_answer_longer_than_max_limit(monkeypatch):
     """The question handler runs end-to-end without crashing."""
+    monkeypatch.setattr(settings, "testing_mode", False)
 
     answer = Path("./tests/test-data/long-answer.md").read_text()
     mock_answer = AsyncMock(return_value=answer)
@@ -81,6 +84,7 @@ async def test_question_runs_without_errors_answer_longer_than_max_limit(monkeyp
 @pytest.mark.asyncio
 async def test_question_sends_error_message_on_failure(monkeypatch):
     """When an unexpected error occurs, the bot sends the default error message."""
+    monkeypatch.setattr(settings, "testing_mode", False)
     mock_answer = AsyncMock(side_effect=RuntimeError("something broke"))
     monkeypatch.setattr("interfaces.telegram_bot.answer_question", mock_answer)
 
@@ -91,3 +95,41 @@ async def test_question_sends_error_message_on_failure(monkeypatch):
 
     sent_text = context.bot.send_message.call_args.kwargs["text"]
     assert sent_text == settings.error_messages["DefaultError"]
+
+
+# --- testing mode ---
+
+
+@pytest.mark.asyncio
+async def test_question_turns_away_users_not_on_the_list_in_testing_mode(monkeypatch):
+    """In testing mode, a user who isn't on the list gets the "not open" message, not an answer."""
+    monkeypatch.setattr(settings, "testing_mode", True)
+    monkeypatch.setattr(settings, "telegram_allowed_user_ids", [])
+    mock_answer = AsyncMock(return_value="Wealth is...")
+    monkeypatch.setattr("interfaces.telegram_bot.answer_question", mock_answer)
+
+    update = _make_update(text="What is wealth?", user_id=100)
+    context = _make_context()
+
+    await question(update, context)
+
+    sent_text = context.bot.send_message.call_args.kwargs["text"]
+    assert sent_text == settings.bot_not_open_message
+    mock_answer.assert_not_called()
+
+
+@pytest.mark.asyncio
+async def test_question_answers_users_on_the_list_in_testing_mode(monkeypatch):
+    """In testing mode, a user who is on the list gets an answer."""
+    monkeypatch.setattr(settings, "testing_mode", True)
+    monkeypatch.setattr(settings, "telegram_allowed_user_ids", [100])
+    mock_answer = AsyncMock(return_value="Wealth is...")
+    monkeypatch.setattr("interfaces.telegram_bot.answer_question", mock_answer)
+
+    update = _make_update(text="What is wealth?", user_id=100)
+    context = _make_context()
+
+    await question(update, context)
+
+    sent_text = context.bot.send_message.call_args.kwargs["text"]
+    assert "Wealth is..." in sent_text

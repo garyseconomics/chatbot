@@ -11,13 +11,41 @@ from orchestrator.orchestrator import answer_question
 logger = logging.getLogger(__name__)
 
 
+def is_allowed_user(user) -> bool:
+    if not settings.testing_mode:
+        return True
+    return user is not None and user.id in settings.telegram_allowed_user_ids
+
+
+async def turn_away(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Tell a user who isn't on the list that the bot isn't open, and log who they are."""
+    user = update.effective_user
+    # Logged so we can add team members to the list by hand.
+    logger.warning(
+        "User not allowed: id=%s name=%s username=%s message=%r",
+        user.id if user else None,
+        user.full_name if user else None,
+        user.username if user else None,
+        update.message.text if update.message else None,
+    )
+    await context.bot.send_message(
+        chat_id=update.effective_chat.id, text=settings.bot_not_open_message
+    )
+
+
 # Start handler. Called when a user sends the /start command.
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    if not is_allowed_user(update.effective_user):
+        await turn_away(update, context)
+        return
     await context.bot.send_message(chat_id=update.effective_chat.id, text=settings.bot_greeting)
 
 
 # Question funtion. This funtion will answer when a user sends a text message to the bot.
 async def question(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    if not is_allowed_user(update.effective_user):
+        await turn_away(update, context)
+        return
     try:
         question = update.message.text
         # chat_data is a dict that python-telegram-bot keeps for each chat (in memory only).
