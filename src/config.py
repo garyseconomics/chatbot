@@ -126,10 +126,14 @@ class Settings(BaseSettings):
         "so I may restart from time to time. Feel free to keep asking questions."
     )
     discord_channel: str = "youtube-chatbot"
+    discord_dms_enabled: bool | None = None
+    discord_dms_off_message: str = "Sorry, I don't answer direct messages for now."
 
-    # Read from TESTING_MODE. When true, only the allowed users below can use the bot.
+    # When true, only the allowed users below can use the bot.
     testing_mode: bool = False
     telegram_allowed_user_ids: list[int] = []
+    # Only for DMs: in the channel, the bot answers everyone.
+    discord_allowed_user_ids: list[int] = []
     # Sent to users who aren't on the list.
     bot_not_open_message: str = "Sorry, this bot isn't open yet."
 
