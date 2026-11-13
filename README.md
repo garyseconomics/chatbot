@@ -235,7 +235,8 @@ python -m interfaces.telegram_bot
 ### Discord chatbot
 
 - Add the Discord token to your `.env` file as `DISCORD_TOKEN`.
-- Set the channel name as `DISCORD_CHANNEL` in `.env` (or change the default in `src/config.py`).
+- Set the channel name as `DISCORD_CHANNEL` in `.env`. Defaults to `youtube-chatbot`. Set it to `""` to turn channels off. If the channel doesn't exist on the server, the bot logs a warning and doesn't answer in any channel.
+- Set `DISCORD_DMS_ENABLED=true` in `.env` for the bot to answer direct messages. If it's `false` or not set, the bot replies that it doesn't answer direct messages (and logs a warning at startup if it's not set).
 - Launch the bot:
 
 ```bash
@@ -244,7 +245,7 @@ python -m interfaces.discord_bot
 
 The bot supports two modes of interaction:
 - **In channels**: mention the bot with @botname followed by your question. The bot keeps one conversation per channel, shared by everyone in it, but it only sees the messages that mention it.
-- **In DMs**: send a message directly to the bot — no mention needed. The bot keeps one conversation per user.
+- **In DMs** (only if `DISCORD_DMS_ENABLED=true`): send a message directly to the bot. The bot keeps one conversation per user.
 
 ## Testing
 
