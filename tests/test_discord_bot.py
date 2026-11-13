@@ -7,6 +7,7 @@ import pytest
 from config import settings
 from interfaces.discord_bot import (
     get_chat_memory,
+    get_conversation_id,
     handle_message,
     process_message,
     send_greeting,
@@ -14,6 +15,32 @@ from interfaces.discord_bot import (
     strip_bot_mention,
     wait_with_thinking,
 )
+from tests.discord_objects import (
+    CHANNEL_ID,
+    USER_ID,
+    make_real_channel_message,
+    make_real_dm_message,
+)
+
+# --- get_conversation_id ---
+# With real discord.py objects (tests/discord_objects.py), so they break if the library changes.
+
+
+def test_get_conversation_id_in_dm_is_the_user_id():
+    message = make_real_dm_message()
+
+    conversation_id = get_conversation_id(message)
+
+    assert conversation_id == USER_ID
+
+
+def test_get_conversation_id_in_channel_is_the_channel_id():
+    message = make_real_channel_message()
+
+    conversation_id = get_conversation_id(message)
+
+    assert conversation_id == CHANNEL_ID
+
 
 # --- get_chat_memory ---
 
