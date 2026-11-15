@@ -50,6 +50,13 @@ async def retrieve_info(conversation, knowledge, client_type) -> dict:
     return select_info_for_answer(knowledge, {})
 
 
+def trim_conversation(conversation) -> list:
+    """Remove the oldest messages, keeping only the last turns (a question and its answer)."""
+    messages_to_remove = max(len(conversation) - 2 * settings.conversation_turns, 0)
+    del conversation[:messages_to_remove]
+    return conversation
+
+
 async def generate_answer(conversation, selected_info) -> str:
     """The chat AI: write the answer to the last question in the conversation."""
     prompt = get_chat_prompt(conversation, knowledge_to_text(selected_info))
@@ -73,4 +80,5 @@ async def answer_question(conversation, knowledge, client_type) -> str:
         # The error message is also kept, so the conversation is the same as the user sees it
         answer = settings.error_messages["DefaultError"]
     conversation.append(AIMessage(content=answer))
+    trim_conversation(conversation)
     return answer

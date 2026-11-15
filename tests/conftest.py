@@ -25,3 +25,11 @@ def use_test_provider(monkeypatch):
     another one in .env, then run the tests again.
     """
     monkeypatch.setattr(settings, "chat_provider_priority", [settings.test_chat_provider])
+
+
+@pytest.fixture(autouse=True)
+def use_test_memory_settings(monkeypatch):
+    """Keep the knowledge and remember 3 turns in every test, whatever .env says. Tests can
+    still set their own values."""
+    monkeypatch.setattr(settings, "store_in_knowledge", True)
+    monkeypatch.setattr(settings, "conversation_turns", 3)
