@@ -121,6 +121,10 @@ class Settings(BaseSettings):
     app_version: str = version(DEFAULT_APP_NAME)
     log_level: str = "INFO"
 
+    store_in_knowledge: bool = False
+    # Turns (a question and its answer) the bot remembers in each conversation
+    conversation_turns: int = 3
+
     bot_greeting: str = (
         "I'm back online! We're still in the testing phase, "
         "so I may restart from time to time. Feel free to keep asking questions."

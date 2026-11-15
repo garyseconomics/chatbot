@@ -133,6 +133,10 @@ Then fill in the values. The available variables are:
   > **Note:** this example works when you run the chatbot without Docker, or when you point `MCP_SERVER_URL` to a remote server. To run the chatbot with Docker, see [Setup with Docker](#setup-with-docker).
 - `MAX_TOOL_ROUNDS` — how many times the AI may call the MCP server's tools for one question before it has to answer, so it can't loop forever. Defaults to `5`. `0` turns the tools off: the bot answers from the conversation alone.
 
+**Memory**
+- `CONVERSATION_TURNS` — how many turns (a question and its answer) the bot remembers in each conversation. Older messages are forgotten, so long conversations don't get slower and more expensive. Defaults to `3`. `0` means the bot remembers nothing: each question is answered on its own.
+- `STORE_IN_KNOWLEDGE` — set to `true` for the bot to keep what it found in Gary's videos and use it in later answers. Off by default for now, until we improve how the memory is managed. When off, each answer only uses what the bot found for that message.
+
 ### Configure the LLM providers
 
 The providers are configured in `providers.json`, which is not in the repository. Create your own by copying `providers.sample.json` (if there is no `providers.json`, the chatbot uses the sample):
