@@ -20,6 +20,8 @@ logger = logging.getLogger(__name__)
 async def retrieve_info(conversation, knowledge, client_type) -> dict:
     """The orchestrator AI: collect the information to answer the last question, add it to
     the knowledge, and return the information selected for the answer."""
+    if not settings.store_in_knowledge:
+        knowledge = {}  # New knowledge dict for this turn only
     if not settings.max_tool_rounds:
         return select_info_for_answer(knowledge, {})
     tools = await get_tools_list(client_type)
