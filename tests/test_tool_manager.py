@@ -4,23 +4,21 @@ import pytest
 from mcp.types import CallToolResult, TextContent
 
 from orchestrator.tool_manager import format_tool_result, parse_tool_result
+from tests.tools_results import FAKE_SEARCH_RESULT
 
 # --- parse_tool_result() tests ---
 
 
 def test_parse_tool_result_returns_transcript_chunks():
     """The transcript search tool sends its result as one object in structured_content."""
-    search_result = {
-        "transcript_chunks": [{"video_id": "abc123", "text": "Wealth is ownership of assets."}],
-    }
     result = CallToolResult(
         content=[TextContent(type="text", text="The same result, as JSON text.")],
-        structured_content=search_result,
+        structured_content=FAKE_SEARCH_RESULT,
     )
 
     tool_result = parse_tool_result(result)
 
-    assert tool_result == search_result
+    assert tool_result == FAKE_SEARCH_RESULT
 
 
 def test_parse_tool_result_raises_on_tool_error():
