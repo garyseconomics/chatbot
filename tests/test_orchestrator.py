@@ -6,6 +6,7 @@ from langchain_core.messages import AIMessage, HumanMessage
 from config import settings
 from orchestrator.orchestrator import answer_question, trim_conversation
 from orchestrator.tools_info import SELECT_INFO_TOOL
+from tests.tools_results import FAKE_SEARCH_RESULT
 
 # --- trim_conversation() (no LLM, no MCP server) ---
 
@@ -110,8 +111,7 @@ async def test_answer_question_with_knowledge_off_stores_nothing(monkeypatch):
     monkeypatch.setattr(settings, "store_in_knowledge", False)
     mock_get_tools = AsyncMock(return_value=[FAKE_SEARCH_TOOL, SELECT_INFO_TOOL])
     monkeypatch.setattr("orchestrator.orchestrator.get_tools_list", mock_get_tools)
-    tool_result = {"transcript_chunks": [{"video_id": "v1", "text": "Wealth is..."}]}
-    mock_call_tool = AsyncMock(return_value=tool_result)
+    mock_call_tool = AsyncMock(return_value=FAKE_SEARCH_RESULT)
     monkeypatch.setattr("orchestrator.orchestrator.call_tool", mock_call_tool)
     conversation = [HumanMessage(content="What is wealth?")]
     knowledge = {}
