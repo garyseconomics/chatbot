@@ -19,7 +19,7 @@ chatbot/
 │   │   ├── tool_manager.py        #   Lists and calls the MCP server's tools
 │   │   └── tools_info.py          #   The select_info_for_answer tool and the MCP tools left out
 │   ├── knowledge/                 # What the chatbot retrieves to answer
-│   │   └── knowledge_manager.py   #   Keeps the retrieved transcripts, without duplicates
+│   │   └── knowledge_manager.py   #   Keeps the retrieved transcript chunks by their ID, without duplicates
 │   ├── llm/                       # LLM client management
 │   │   ├── llm_manager.py         #   Multi-provider Ollama wrapper (priority-based fallback)
 │   │   ├── prompt_template.py     #   Builds the orchestrator AI's and the chat AI's prompts
